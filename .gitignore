@@ -20,4 +20,4 @@ output/*
 !output/reading-extension-design-check.md
 !output/sync-design-check.md
 *.tsbuildinfo
-.impeccable/review/*.png
+.impeccable/review/**/*.png
