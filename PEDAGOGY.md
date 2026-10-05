@@ -1,0 +1,40 @@
+# Learning rules
+
+The course serves communication and reading; JLPT is a separate alignment. A correct multiple-choice answer is evidence of that task, not fluency.
+
+1. **Hear → understand → notice → imitate → recall → respond → use → meet again → generalise.** The starter lesson implements encounters and recall; role-play and outside practice supply use. Generalisation needs unseen material, not repetitions of the same options.
+2. **Four strands.** Meaning-focused input, meaning-focused output, language-focused learning and fluency development all need time. Daily plans include reading, listening and response practice. The current planner is a simple heuristic, not a complete Four Strands implementation or a time-tracking system.
+3. **Independent memories.** FSRS stores reading, reading recall, listening, recall, typing and politeness separately. A listening error never mutates reading memory. Fuzz is off, and backup reconstruction orders attempts by timestamp then ID.
+4. **Support is not mastery.** Furigana, a transcript, a model answer or a meaning reveal marks the attempt supported. Supported attempts remain in history but do not advance a memory. A replay of the same audio is allowed. Immediate lesson quizzes and multiple choice are weaker evidence than delayed free recall.
+5. **Japanese leads.** New words have kana or furigana; quizzes start without it. Romaji is optional for the first fourteen calendar days and then fades. Kana come with a sound, a shape and KanjiVG stroke order; handwriting is optional.
+6. **Text coverage is personal.** The pack checker verifies that every token resolves and the declared prerequisite coverage is ≥95%. The reader separately calculates actual recognition evidence. Until that reaches 95%, the text is explicitly guided. Declaring a prerequisite never means the learner knows it. Token coverage is a useful approximation, not a validated comprehension probability.
+7. **Chunks and register.** Learn useful phrases as units. Mark casual, polite and formal contexts. Keigo requires the relationship between speaker, listener and referent, not merely replacing verb endings. The current seed introduces register; it does not teach professional keigo.
+8. **Pitch is not stress.** Introduce the idea with visual contrasts. TTS is not a pitch reference recording and no microphone-based scoring is performed. Obtain reviewed human audio before claiming accurate minimal-pair training.
+9. **Separate practice, performance and certification.** Recorded speech is private self-listening. Typed role-play checks narrow patterns. Outside-study minutes and partner feedback are self-entered. None implies JLPT readiness or an overall CEFR level.
+10. **Quality before volume.** Generated material stays AI-assisted draft until a documented language review. Structural validation, dictionary matches and passing tests do not establish natural Japanese, unambiguous distractors or appropriate pragmatics.
+
+## Pronunciation evidence
+
+The current VOICEVOX renderer gives every one of the 142 single-kana entries an explicit one-mora synthesis query, with vowel voicing and a fixed 0.22-second vowel-length setting. This makes the requested phoneme sequence inspectable; the timing is a teaching setting, not a universal duration for natural Japanese. Standalone は uses *ha*, while the topic-particle word selects わ for playback. Uncompressed PCM avoids an additional lossy encoding step on short sounds.
+
+Query validation, successful decoding, content hashes and signal limits do not prove that a learner hears the intended sound. The local Whisper small screen covers 56 longer clips and has ambiguous outputs, including contrasts where transcription alone cannot settle mora timing. No human/native listening certification or pitch-accent validation is claimed. Keep kana drills clear and minimally acted; reserve restrained character delivery for reactions.
+
+## JLPT study-room evidence
+
+Each of N5–N1 has an independent study plan and a six-stage sequence: entry, vocabulary/kanji, grammar, reading, listening and a short timed sample. All prior stages in the current cycle must be complete to unlock a later stage. Selecting an advanced level does not establish prerequisite competence; its three entry statements are the learner's self-check.
+
+Vocabulary, grammar and reading each require a recorded source-study block of at least 20 minutes, a unit reference and a substantive reflection, followed by a two-item checkpoint. The shared 80% rule means both checkpoint answers must be correct. Listening requires at least 15 recorded minutes and a reflection on external listening; it is explicitly self-reported and supplies no objective in-app listening score. These minimums structure practice, not a validated learning dose.
+
+The final sample contains six separate vocabulary, grammar and reading questions; at least five correct completes the cycle. Its short timer persists through reload. Submission reveals answers and explanations, and stopped attempts do not complete milestones. Results are raw task scores, never official scaled scores, pass predictions or proficiency certificates. JLPT records stay separate from the course's FSRS skill memories.
+
+The 60-item bank is original AI-assisted draft material: 30 checkpoint questions and 30 sample questions across five levels. Sample items are separate from checkpoint items, but retries and later cycles reuse the same fixed sets. The interface discloses repetitions. There is no internal listening exam, sentence-order task or full-length mock examination. Level labels are editorial estimates, and no human language review or psychometric calibration has been recorded.
+
+Nihongo Sō-matome, Shin Kanzen Master and official JLPT resources provide external study and fresh evaluation material. Shiori does not reproduce their lessons or map assignments to each publisher's chapters. Learners record their own edition and pages. Starting a new cycle preserves old records; completion demonstrates activity in this workflow, not completion of a level's curriculum.
+
+The full limitations and expansion priorities are in AUDIT.md. The repeatable authoring procedure is in prompts/content-prompt.md.
+
+## Phrase lessons: teach, hear in context, then use (5 October 2026)
+
+Phrase lessons follow the textbook and JLPT order instead of quizzing a word the moment it is shown. 1) **New words** as a short list with audio. 2) **A scene**: a 4–6 line conversation heard with the text hidden (speakers named, one narrator voice). 3) **Practice in new sentences**, mixed: gist and detail questions on the scene (聴解), fill the gap (文脈規定, mostly particles), choose the natural reply (即時応答), build the sentence (文の組み立て), true/false, and register choice. 4) **Recognition checks** of the lesson's words return between those tasks, never straight after meeting them. The transcript appears after the last question on the scene. Letters end with comprehension tasks (true/false, a particle gap and an inference question) whose answers depend on は, も, と and の, not on matching a word in the title.
+
+Evidence rules are unchanged: each exercise records one attempt against its first word and its own skill; shown lines or furigana make it supported. Dialogue and exercise content is an AI-assisted draft (5 scenes, 36 lesson exercises, 12 letter tasks, schema and validator in `src/types.ts` and `src/packs.ts`). Audio for every scene line, reply line and completed sentence is rendered locally in Violetto's voice. Still missing: native review of naturalness, more letter formats (LINE messages, menus, notices), and scenes for the counting and permission lessons.

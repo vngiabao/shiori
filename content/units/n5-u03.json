@@ -1,0 +1,439 @@
+{
+  "id": "n5-u03",
+  "title": "N5 · Unit 3",
+  "lesson": {
+    "title": "A Sunday film",
+    "description": "Say what you do at the weekend, where and when; invite a friend.",
+    "canDo": "Say what you do at the weekend and invite someone",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u03-w-shuumatsu",
+      "{週末|しゅうまつ}",
+      "shūmatsu",
+      "weekend",
+      "neutral",
+      "{週末|しゅうまつ}は{何|なに}をしますか。"
+    ],
+    [
+      "n5-u03-w-doyoubi",
+      "{土曜日|どようび}",
+      "doyōbi",
+      "Saturday",
+      "neutral",
+      "{土曜日|どようび}にテニスをします。"
+    ],
+    [
+      "n5-u03-w-nichiyoubi",
+      "{日曜日|にちようび}",
+      "nichiyōbi",
+      "Sunday",
+      "neutral",
+      "{日曜日|にちようび}は{家|うち}にいます。"
+    ],
+    [
+      "n5-u03-w-uchi",
+      "{家|うち}",
+      "uchi",
+      "home",
+      "neutral",
+      "{家|うち}で{勉強|べんきょう}します。"
+    ],
+    [
+      "n5-u03-w-shimasu",
+      "します",
+      "shimasu",
+      "do",
+      "polite",
+      "テニスをします。"
+    ],
+    [
+      "n5-u03-w-benkyou",
+      "{勉強|べんきょう}します",
+      "benkyō shimasu",
+      "study",
+      "polite",
+      "{日本語|にほんご}を{勉強|べんきょう}します。"
+    ],
+    [
+      "n5-u03-w-eiga",
+      "{映画|えいが}",
+      "eiga",
+      "film, movie",
+      "neutral",
+      "{日本|にほん}の{映画|えいが}を{見|み}ます。"
+    ],
+    [
+      "n5-u03-w-mimasu",
+      "{見|み}ます",
+      "mimasu",
+      "watch, see",
+      "polite",
+      "{映画|えいが}を{見|み}ます。"
+    ],
+    [
+      "n5-u03-w-mimasenka",
+      "{見|み}ませんか",
+      "mimasen ka",
+      "won't you watch …? (an invitation)",
+      "polite",
+      "{一緒|いっしょ}に{見|み}ませんか。"
+    ],
+    [
+      "n5-u03-w-isshoni",
+      "{一緒|いっしょ}に",
+      "issho ni",
+      "together",
+      "neutral",
+      "{一緒|いっしょ}に{行|い}きませんか。"
+    ],
+    [
+      "n5-u03-w-ii-desu-ne",
+      "いいですね",
+      "ii desu ne",
+      "that sounds good",
+      "polite",
+      "いいですね。{行|い}きましょう。"
+    ],
+    [
+      "n5-u03-w-kafe",
+      "カフェ",
+      "kafe",
+      "café",
+      "neutral",
+      "レンさんのカフェです。"
+    ],
+    [
+      "n5-u03-w-tenisu",
+      "テニス",
+      "tenisu",
+      "tennis",
+      "neutral",
+      "テニスが{好|す}きです。"
+    ],
+    [
+      "n5-u03-w-ni",
+      "に",
+      "ni",
+      "at (a time) / to (a place)",
+      "neutral",
+      "{三時|さんじ}に{行|い}きます。"
+    ],
+    [
+      "n5-u03-w-de",
+      "で",
+      "de",
+      "at, in (where something happens)",
+      "neutral",
+      "カフェで{映画|えいが}を{見|み}ます。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u03-g-particles",
+      "title": "に, で and を with ます verbs",
+      "explanation": "に marks a point in time (三時に) or where you go (カフェに行きます). で marks where an action happens (家で勉強します). を marks what the action is done to (映画を見ます). Days of the week usually take に; 今日 and 明日 do not.",
+      "example": "土曜日にカフェで映画を見ます。",
+      "translation": "On Saturday I'll watch a film at the café."
+    },
+    {
+      "id": "n5-u03-g-masenka",
+      "title": "ませんか: inviting",
+      "explanation": "Turn ます into ませんか to invite: 見ませんか, 'won't you watch…?'. It sounds softer than a plain question. Accept with いいですね; decline gently with ちょっと… (a little…).",
+      "example": "一緒に映画を見ませんか。",
+      "translation": "Would you like to watch a film together?"
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u03-d",
+    "title": "Plans for the weekend",
+    "scene": "Hana catches you after class on Friday.",
+    "lines": [
+      {
+        "speaker": "Hana",
+        "line": "{週末|しゅうまつ}は{何|なに}をしますか。",
+        "romaji": "Shūmatsu wa nani o shimasu ka.",
+        "meaning": "What are you doing at the weekend?"
+      },
+      {
+        "speaker": "You",
+        "line": "{土曜日|どようび}は{家|うち}で{日本語|にほんご}を{勉強|べんきょう}します。",
+        "romaji": "Doyōbi wa uchi de nihongo o benkyō shimasu.",
+        "meaning": "On Saturday I'm studying Japanese at home."
+      },
+      {
+        "speaker": "Hana",
+        "line": "{日曜日|にちようび}は？{一緒|いっしょ}に{映画|えいが}を{見|み}ませんか。",
+        "romaji": "Nichiyōbi wa? Issho ni eiga o mimasen ka.",
+        "meaning": "And Sunday? Would you like to see a film together?"
+      },
+      {
+        "speaker": "You",
+        "line": "いいですね。{何時|なんじ}に{行|い}きますか。",
+        "romaji": "Ii desu ne. Nanji ni ikimasu ka.",
+        "meaning": "Sounds good. What time shall we go?"
+      },
+      {
+        "speaker": "Hana",
+        "line": "{二時|にじ}はどうですか。",
+        "romaji": "Niji wa dō desu ka.",
+        "meaning": "How about two o'clock?"
+      },
+      {
+        "speaker": "You",
+        "line": "いいですね。じゃあ、{日曜日|にちようび}に。",
+        "romaji": "Ii desu ne. Jaa, nichiyōbi ni.",
+        "meaning": "Sounds good. See you on Sunday, then."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u03-x-gist",
+      "dialogue": "n5-u03-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "When will you see the film?",
+      "options": [
+        "Saturday",
+        "Sunday",
+        "Today"
+      ],
+      "answer": 1,
+      "explain": "日曜日は？一緒に映画を見ませんか.",
+      "words": [
+        "n5-u03-w-nichiyoubi"
+      ]
+    },
+    {
+      "id": "n5-u03-x-de",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say where you study.",
+      "line": "{家|うち}＿＿{日本語|にほんご}を{勉強|べんきょう}します。",
+      "meaning": "I study Japanese at home.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "は"
+      ],
+      "answer": 1,
+      "explain": "で marks where an action happens.",
+      "words": [
+        "n5-u03-w-de"
+      ]
+    },
+    {
+      "id": "n5-u03-x-saturday",
+      "dialogue": "n5-u03-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What will you do on Saturday?",
+      "options": [
+        "Play tennis",
+        "Study Japanese at home",
+        "Watch a film"
+      ],
+      "answer": 1,
+      "explain": "土曜日は家で日本語を勉強します.",
+      "words": [
+        "n5-u03-w-benkyou"
+      ]
+    },
+    {
+      "id": "n5-u03-x-ni",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say when you'll go.",
+      "line": "{二時|にじ}＿＿{行|い}きます。",
+      "meaning": "I'll go at two.",
+      "options": [
+        "で",
+        "を",
+        "に",
+        "が"
+      ],
+      "answer": 2,
+      "explain": "に marks a point in time.",
+      "words": [
+        "n5-u03-w-ni"
+      ]
+    },
+    {
+      "id": "n5-u03-x-reply-invite",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You'd like to go.",
+      "line": "{一緒|いっしょ}に{映画|えいが}を{見|み}ませんか。",
+      "meaning": "Would you like to watch a film together?",
+      "options": [
+        "はい、{見|み}ませんか。",
+        "いいですね。",
+        "{映画|えいが}です。",
+        "{日曜日|にちようび}です。"
+      ],
+      "answer": 1,
+      "explain": "いいですね accepts an invitation warmly.",
+      "words": [
+        "n5-u03-w-ii-desu-ne"
+      ]
+    },
+    {
+      "id": "n5-u03-x-wo",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say what you do at the weekend.",
+      "line": "{週末|しゅうまつ}はテニス＿＿します。",
+      "meaning": "I play tennis at the weekend.",
+      "options": [
+        "を",
+        "で",
+        "に",
+        "の"
+      ],
+      "answer": 0,
+      "explain": "を marks what you do: テニスをします.",
+      "words": [
+        "n5-u03-w-shimasu"
+      ]
+    },
+    {
+      "id": "n5-u03-x-time",
+      "dialogue": "n5-u03-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What time will you meet?",
+      "options": [
+        "Two o'clock",
+        "Three o'clock",
+        "Half past two"
+      ],
+      "answer": 0,
+      "explain": "二時はどうですか.",
+      "words": [
+        "n5-u01-w-ji"
+      ]
+    },
+    {
+      "id": "n5-u03-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Would you like to watch a film together?",
+      "tiles": [
+        "{一緒|いっしょ}に",
+        "{映画|えいが}",
+        "を",
+        "{見|み}ませんか"
+      ],
+      "explain": "Together + film を + the invitation form.",
+      "words": [
+        "n5-u03-w-mimasenka"
+      ]
+    },
+    {
+      "id": "n5-u03-x-tf",
+      "dialogue": "n5-u03-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Hana invites you to play tennis.",
+      "answer": false,
+      "explain": "She invites you to a film: 映画を見ませんか.",
+      "words": [
+        "n5-u03-w-eiga"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "A film at the café",
+    "from": "Ren",
+    "subject": "土曜日のこと",
+    "sentences": [
+      [
+        "hello"
+      ],
+      [
+        "ren",
+        "desu"
+      ],
+      [
+        "n5-u03-w-doyoubi",
+        "no-part",
+        "three",
+        "n5-u01-w-ji",
+        "n5-u03-w-ni",
+        "n5-u03-w-kafe",
+        "n5-u03-w-de",
+        "n5-u03-w-eiga",
+        "wo",
+        "n5-u03-w-mimasu"
+      ],
+      [
+        "n5-u03-w-isshoni",
+        "n5-u03-w-mimasenka"
+      ],
+      [
+        "tea",
+        "mo",
+        "douzo"
+      ],
+      [
+        "regards"
+      ]
+    ],
+    "question": "Where will the film be shown?",
+    "options": [
+      "At Ren's café",
+      "At Ren's home",
+      "At the university"
+    ],
+    "answer": 0,
+    "tasks": [
+      {
+        "id": "n5-u03-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "The film starts at two o'clock.",
+        "answer": false,
+        "explain": "三時に: at three.",
+        "words": [
+          "n5-u01-w-ji"
+        ]
+      },
+      {
+        "id": "n5-u03-l-cloze",
+        "type": "cloze",
+        "skill": "reading",
+        "context": "Fill the gap: where the film is shown.",
+        "line": "カフェ＿＿{映画|えいが}を{見|み}ます。",
+        "meaning": "We'll watch a film at the café.",
+        "options": [
+          "に",
+          "を",
+          "で",
+          "の"
+        ],
+        "answer": 2,
+        "explain": "で: the place where the watching happens.",
+        "words": [
+          "n5-u03-w-de"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u03-w-benkyou": {
+      "text": "勉強",
+      "kana": "べんきょう"
+    },
+    "n5-u03-w-mimasu": {
+      "text": "見る",
+      "kana": "みる"
+    },
+    "n5-u03-w-mimasenka": {
+      "text": "見る",
+      "kana": "みる"
+    }
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "welcome": [
+    {
+      "url": "/audio/vv2-2df22cd6bef57186b92c.wav",
+      "seconds": 2.592,
+      "sha256": "2df22cd6bef57186b92c317dd23911b83d76118d4784590ee3f8018e3c2ea764",
+      "text": "お待ちしておりました。始めましょう。",
+      "mood": "composed",
+      "name": "At the writing desk"
+    },
+    {
+      "url": "/audio/vv2-ee9a4d38cf3daeefea2c.wav",
+      "seconds": 2.6453333333333333,
+      "sha256": "ee9a4d38cf3daeefea2c614b892dcdc7b89895ed5454bf8bcb0f95a4c4beca23",
+      "text": "お待ちしておりました。始めましょう。",
+      "mood": "composed",
+      "name": "A warmer welcome"
+    }
+  ],
+  "correct": [
+    {
+      "url": "/audio/vv2-b6aa09feeda3300d21f0.wav",
+      "seconds": 3.2746666666666666,
+      "sha256": "b6aa09feeda3300d21f0b0314b4a76d8780b04f948c230feab90a7a8c39e39a1",
+      "text": "その通りです。よく覚えていらっしゃいますね。",
+      "mood": "proud",
+      "name": "A small smile"
+    },
+    {
+      "url": "/audio/vv2-08c9c101df3441af4c11.wav",
+      "seconds": 3.392,
+      "sha256": "08c9c101df3441af4c118cd68f2bb2a5aae4d02cdec954059b1c6a5891a6a60b",
+      "text": "その通りです。よく覚えていらっしゃいますね。",
+      "mood": "proud",
+      "name": "Sincerely pleased"
+    }
+  ],
+  "supported": [
+    {
+      "url": "/audio/vv2-af1397250bbdb7b9c22d.wav",
+      "seconds": 4.192,
+      "sha256": "af1397250bbdb7b9c22dd70829741d5e18fdd4db2e2ac35e07737ce1a678eaa8",
+      "text": "できましたね。次は、ヒントなしで試してみましょう。",
+      "mood": "warm",
+      "name": "Take your time"
+    },
+    {
+      "url": "/audio/vv2-5f6474f3da5ff6d196b8.wav",
+      "seconds": 4.010666666666666,
+      "sha256": "5f6474f3da5ff6d196b85827e6fa692ff52e9d27f75e492569fbeb3321a33bff",
+      "text": "できましたね。次は、ヒントなしで試してみましょう。",
+      "mood": "warm",
+      "name": "Together, once more"
+    }
+  ],
+  "retry": [
+    {
+      "url": "/audio/vv2-b28d6f069dbb78e44e37.wav",
+      "seconds": 4.341333333333333,
+      "sha256": "b28d6f069dbb78e44e379bbf16bbed0386139b0759715354e2e8585c7453165b",
+      "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+      "mood": "warm",
+      "name": "Take your time"
+    },
+    {
+      "url": "/audio/vv2-25fdc5933448a9ff40c2.wav",
+      "seconds": 4.096,
+      "sha256": "25fdc5933448a9ff40c2898075e7159d4b04dcb16fbe5726fe6cfd8a91357e61",
+      "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+      "mood": "warm",
+      "name": "Together, once more"
+    }
+  ],
+  "hint": [
+    {
+      "url": "/audio/vv2-795e7a116b39f7d9058f.wav",
+      "seconds": 2.7306666666666666,
+      "sha256": "795e7a116b39f7d9058f1c64192fc72491df7718b1c7bfd16dbe6fb7e6e041fa",
+      "text": "まず、読み方を確かめましょう。",
+      "mood": "precise",
+      "name": "Look closely"
+    },
+    {
+      "url": "/audio/vv2-109b294271b5d6db6479.wav",
+      "seconds": 2.7413333333333334,
+      "sha256": "109b294271b5d6db6479fd5c8cd7bba28b311359e60901b501c7e1a44c0351f8",
+      "text": "まず、読み方を確かめましょう。",
+      "mood": "precise",
+      "name": "One point at a time"
+    }
+  ],
+  "politeness": [
+    {
+      "url": "/audio/vv2-7db2ef39c1f55100fed9.wav",
+      "seconds": 2.7946666666666666,
+      "sha256": "7db2ef39c1f55100fed90a018316d452bd526ba61c69a55fdf44ee84b8118992",
+      "text": "相手との関係に合う言葉を選びましょう。",
+      "mood": "precise",
+      "name": "Look closely"
+    },
+    {
+      "url": "/audio/vv2-6bbdad42733d5a51a515.wav",
+      "seconds": 2.7946666666666666,
+      "sha256": "6bbdad42733d5a51a515e9988b7faf766a9b4576ed26952bb5047e1c603d8fe9",
+      "text": "相手との関係に合う言葉を選びましょう。",
+      "mood": "precise",
+      "name": "One point at a time"
+    }
+  ],
+  "complete": [
+    {
+      "url": "/audio/vv2-6fc6e35ba82719f0b16e.wav",
+      "seconds": 4.362666666666667,
+      "sha256": "6fc6e35ba82719f0b16eecf63aeb4442d196a728d53fffbba73f3bf0f8c0afda",
+      "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+      "mood": "proud",
+      "name": "A small smile"
+    },
+    {
+      "url": "/audio/vv2-5087364dddc049186010.wav",
+      "seconds": 4.501333333333333,
+      "sha256": "5087364dddc049186010565261b5dfcc2596d298bb729b2fb118cd0b1d4c4850",
+      "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+      "mood": "proud",
+      "name": "Sincerely pleased"
+    }
+  ],
+  "return": [
+    {
+      "url": "/audio/vv2-864633af91c83ea53fe6.wav",
+      "seconds": 3.7653333333333334,
+      "sha256": "864633af91c83ea53fe6739a3a78cdebe735f6bec1bb3dd7c8870e149c2a6a05",
+      "text": "お帰りなさい。続きから、ご一緒いたします。",
+      "mood": "warm",
+      "name": "Take your time"
+    },
+    {
+      "url": "/audio/vv2-614f063ce1efdfee5c3d.wav",
+      "seconds": 3.562666666666667,
+      "sha256": "614f063ce1efdfee5c3dd946e76a620ad28019d6d4eb322a59a8697b3c873ee8",
+      "text": "お帰りなさい。続きから、ご一緒いたします。",
+      "mood": "warm",
+      "name": "Together, once more"
+    }
+  ],
+  "milestone": [
+    {
+      "url": "/audio/vv2-f729012bf0b09074a337.wav",
+      "seconds": 4.64,
+      "sha256": "f729012bf0b09074a3374152e7fbd9677db424bf76f802281fe04416850c18f0",
+      "text": "また一つ、言葉が届きました。私も、うれしいです。",
+      "mood": "proud",
+      "name": "A small smile"
+    },
+    {
+      "url": "/audio/vv2-c14eb086626a0df7f0d0.wav",
+      "seconds": 4.8853333333333335,
+      "sha256": "c14eb086626a0df7f0d094480834cfc828328eb621d65ce21df3a15e2765f19a",
+      "text": "また一つ、言葉が届きました。私も、うれしいです。",
+      "mood": "proud",
+      "name": "Sincerely pleased"
+    }
+  ],
+  "rest": [
+    {
+      "url": "/audio/vv2-0cb0161127cb0ef275e8.wav",
+      "seconds": 5.1306666666666665,
+      "sha256": "0cb0161127cb0ef275e8b22d47f7e089d636496133132147999ca8d1cfd569df",
+      "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+      "mood": "reflective",
+      "name": "The letter is finished"
+    },
+    {
+      "url": "/audio/vv2-a525f39a0d6d5ba69e8e.wav",
+      "seconds": 4.757333333333333,
+      "sha256": "a525f39a0d6d5ba69e8ee53fe225b99870a579bbc7ea5e861b3be6ecc8eee61a",
+      "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+      "mood": "reflective",
+      "name": "Until next time"
+    }
+  ],
+  "lesson": [
+    {
+      "url": "/audio/vv2-5f3aaa9f91d33052c37b.wav",
+      "seconds": 4.16,
+      "sha256": "5f3aaa9f91d33052c37b7957fe032e2adaf6ebf4686db7fe84216b0619196962",
+      "name": "Clear lesson speech",
+      "text": "切手を二枚お願いします。明日、手紙を出します。",
+      "mood": "clear"
+    }
+  ],
+  "contrast": [
+    {
+      "url": "/audio/vv2-b20e8322219ee2b9c32a.wav",
+      "seconds": 3.1466666666666665,
+      "sha256": "b20e8322219ee2b9c32a06e10d07fb09aa6090190440a0eb9d80fb57db1cef8a",
+      "name": "Clear lesson speech",
+      "text": "おばさん。おばあさん。きて。きって。",
+      "mood": "clear"
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "id": "n5-u02",
+  "title": "N5 · Unit 2",
+  "lesson": {
+    "title": "At the bookshop",
+    "description": "Point things out with これ・それ・あれ, ask prices and buy one.",
+    "canDo": "Ask what things are and how much they cost, and buy one",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u02-w-kore",
+      "これ",
+      "kore",
+      "this (near me)",
+      "neutral",
+      "これは{辞書|じしょ}です。"
+    ],
+    [
+      "n5-u02-w-sore",
+      "それ",
+      "sore",
+      "that (near you)",
+      "neutral",
+      "それは{何|なん}ですか。"
+    ],
+    [
+      "n5-u02-w-are",
+      "あれ",
+      "are",
+      "that (over there)",
+      "neutral",
+      "あれはカフェです。"
+    ],
+    [
+      "n5-u02-w-kono",
+      "この",
+      "kono",
+      "this … (near me)",
+      "neutral",
+      "この{本|ほん}は{五百円|ごひゃくえん}です。"
+    ],
+    [
+      "n5-u02-w-sono",
+      "その",
+      "sono",
+      "that … (near you)",
+      "neutral",
+      "その{辞書|じしょ}をください。"
+    ],
+    [
+      "n5-u02-w-ano",
+      "あの",
+      "ano",
+      "that … (over there)",
+      "neutral",
+      "あの{雑誌|ざっし}はいくらですか。"
+    ],
+    [
+      "n5-u02-w-zasshi",
+      "{雑誌|ざっし}",
+      "zasshi",
+      "magazine",
+      "neutral",
+      "{日本語|にほんご}の{雑誌|ざっし}です。"
+    ],
+    [
+      "n5-u02-w-jisho",
+      "{辞書|じしょ}",
+      "jisho",
+      "dictionary",
+      "neutral",
+      "{英語|えいご}の{辞書|じしょ}です。"
+    ],
+    [
+      "n5-u02-w-pen",
+      "ペン",
+      "pen",
+      "pen",
+      "neutral",
+      "このペンは{百円|ひゃくえん}です。"
+    ],
+    [
+      "n5-u02-w-nooto",
+      "ノート",
+      "nōto",
+      "notebook",
+      "neutral",
+      "ノートを{一|ひと}つください。"
+    ],
+    [
+      "n5-u02-w-honya",
+      "{本屋|ほんや}",
+      "hon'ya",
+      "bookshop",
+      "neutral",
+      "ユイさんの{本屋|ほんや}です。"
+    ],
+    [
+      "n5-u02-w-hyaku",
+      "{百|ひゃく}",
+      "hyaku",
+      "hundred",
+      "neutral",
+      "{百円|ひゃくえん}です。"
+    ],
+    [
+      "n5-u02-w-sen",
+      "{千|せん}",
+      "sen",
+      "thousand",
+      "neutral",
+      "{二千円|にせんえん}です。"
+    ],
+    [
+      "n5-u02-w-en",
+      "{円|えん}",
+      "en",
+      "yen",
+      "neutral",
+      "{五百円|ごひゃくえん}です。"
+    ],
+    [
+      "n5-u02-w-kudasai",
+      "ください",
+      "kudasai",
+      "please give me",
+      "polite",
+      "これをください。"
+    ],
+    [
+      "n5-u02-w-dou-desu-ka",
+      "どうですか",
+      "dō desu ka",
+      "how about …?",
+      "polite",
+      "このペンはどうですか。"
+    ],
+    [
+      "n5-u02-w-daijoubu",
+      "{大丈夫|だいじょうぶ}です",
+      "daijōbu desu",
+      "I'm fine / no, thank you",
+      "polite",
+      "いいえ、{大丈夫|だいじょうぶ}です。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u02-g-kosoa",
+      "title": "これ・それ・あれ and この・その・あの",
+      "explanation": "こ = near me, そ = near you, あ = away from both of us. これ/それ/あれ stand alone ('this one'); この/その/あの need a noun after them ('this book'). ど asks which: どれ, どの.",
+      "example": "あの雑誌はいくらですか。",
+      "translation": "How much is that magazine over there?"
+    },
+    {
+      "id": "n5-u02-g-prices",
+      "title": "Prices: 百 and 千",
+      "explanation": "百 = 100, 千 = 1,000, then 円. Some combinations change sound: 三百 さんびゃく, 六百 ろっぴゃく, 八百 はっぴゃく, 三千 さんぜん, 八千 はっせん. Ask with いくらですか and buy with … をください.",
+      "example": "辞書は二千円です。",
+      "translation": "The dictionary is 2,000 yen."
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u02-d",
+    "title": "A magazine at Yui's",
+    "scene": "You are in Yui's bookshop, looking at the shelves near the door.",
+    "lines": [
+      {
+        "speaker": "You",
+        "line": "すみません、あの{雑誌|ざっし}はいくらですか。",
+        "romaji": "Sumimasen, ano zasshi wa ikura desu ka.",
+        "meaning": "Excuse me, how much is that magazine over there?"
+      },
+      {
+        "speaker": "Yui",
+        "line": "あの{雑誌|ざっし}ですか。{五百円|ごひゃくえん}です。",
+        "romaji": "Ano zasshi desu ka. Gohyaku-en desu.",
+        "meaning": "That magazine? It's 500 yen."
+      },
+      {
+        "speaker": "You",
+        "line": "じゃあ、あの{雑誌|ざっし}をください。",
+        "romaji": "Jaa, ano zasshi o kudasai.",
+        "meaning": "Then I'll take that magazine, please."
+      },
+      {
+        "speaker": "Yui",
+        "line": "はい。この{辞書|じしょ}もどうですか。{二千円|にせんえん}です。",
+        "romaji": "Hai. Kono jisho mo dō desu ka. Nisen-en desu.",
+        "meaning": "Sure. How about this dictionary too? It's 2,000 yen."
+      },
+      {
+        "speaker": "You",
+        "line": "いいえ、{大丈夫|だいじょうぶ}です。",
+        "romaji": "Iie, daijōbu desu.",
+        "meaning": "No, thank you."
+      },
+      {
+        "speaker": "Yui",
+        "line": "ありがとうございます。",
+        "romaji": "Arigatō gozaimasu.",
+        "meaning": "Thank you."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u02-x-gist",
+      "dialogue": "n5-u02-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What do you buy?",
+      "options": [
+        "A dictionary",
+        "A magazine",
+        "A pen"
+      ],
+      "answer": 1,
+      "explain": "あの雑誌をください: that magazine, please.",
+      "words": [
+        "n5-u02-w-zasshi"
+      ]
+    },
+    {
+      "id": "n5-u02-x-ano",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "The magazine is on a shelf far from both of you.",
+      "line": "＿＿{雑誌|ざっし}はいくらですか。",
+      "meaning": "How much is that magazine over there?",
+      "options": [
+        "この",
+        "その",
+        "あの",
+        "どの"
+      ],
+      "answer": 2,
+      "explain": "あの: away from both speaker and listener. It needs a noun after it.",
+      "words": [
+        "n5-u02-w-ano"
+      ]
+    },
+    {
+      "id": "n5-u02-x-price",
+      "dialogue": "n5-u02-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "How much is the magazine?",
+      "options": [
+        "100 yen",
+        "500 yen",
+        "2,000 yen"
+      ],
+      "answer": 1,
+      "explain": "五百円 (gohyaku-en): 500 yen.",
+      "words": [
+        "n5-u02-w-hyaku"
+      ]
+    },
+    {
+      "id": "n5-u02-x-sore",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Your friend is holding something. Ask what it is.",
+      "line": "＿＿は{何|なん}ですか。",
+      "meaning": "What is that (in your hand)?",
+      "options": [
+        "これ",
+        "それ",
+        "あれ",
+        "その"
+      ],
+      "answer": 1,
+      "explain": "それ: near the listener. その would need a noun after it.",
+      "words": [
+        "n5-u02-w-sore"
+      ]
+    },
+    {
+      "id": "n5-u02-x-reply-decline",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You don't want it.",
+      "line": "この{辞書|じしょ}もどうですか。",
+      "meaning": "How about this dictionary too?",
+      "options": [
+        "はい、{辞書|じしょ}です。",
+        "いくらですか。",
+        "いいえ、{大丈夫|だいじょうぶ}です。",
+        "これは{雑誌|ざっし}です。"
+      ],
+      "answer": 2,
+      "explain": "いいえ、大丈夫です is the polite way to say 'no, thank you'.",
+      "words": [
+        "n5-u02-w-daijoubu"
+      ]
+    },
+    {
+      "id": "n5-u02-x-reply-price",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You work in the shop. The pen costs 100 yen.",
+      "line": "このペンはいくらですか。",
+      "meaning": "How much is this pen?",
+      "options": [
+        "ペンです。",
+        "{百円|ひゃくえん}です。",
+        "どうぞ。",
+        "はい、そうです。"
+      ],
+      "answer": 1,
+      "explain": "Answer いくら with a price: 百円です.",
+      "words": [
+        "n5-u02-w-en"
+      ]
+    },
+    {
+      "id": "n5-u02-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "That dictionary (near you), please.",
+      "tiles": [
+        "その",
+        "{辞書|じしょ}",
+        "を",
+        "ください"
+      ],
+      "explain": "その + noun, を, then ください.",
+      "words": [
+        "n5-u02-w-kudasai"
+      ]
+    },
+    {
+      "id": "n5-u02-x-numbers",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "Which price is 300 yen?",
+      "options": [
+        "{三千円|さんぜんえん}",
+        "{三百円|さんびゃくえん}",
+        "{百円|ひゃくえん}"
+      ],
+      "answer": 1,
+      "explain": "百 is a hundred; 三百 is さんびゃく (the h becomes b).",
+      "words": [
+        "n5-u02-w-hyaku"
+      ]
+    },
+    {
+      "id": "n5-u02-x-tf",
+      "dialogue": "n5-u02-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "You buy the dictionary as well.",
+      "answer": false,
+      "explain": "いいえ、大丈夫です: you decline it.",
+      "words": [
+        "n5-u02-w-jisho"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "Today's prices",
+    "from": "Yui",
+    "subject": "本屋から",
+    "sentences": [
+      [
+        "n5-u02-w-honya",
+        "no-part",
+        "yui",
+        "desu"
+      ],
+      [
+        "today",
+        "wa",
+        "n5-u02-w-zasshi",
+        "ga",
+        "five",
+        "n5-u02-w-hyaku",
+        "n5-u02-w-en",
+        "desu"
+      ],
+      [
+        "n5-u02-w-jisho",
+        "wa",
+        "two",
+        "n5-u02-w-sen",
+        "n5-u02-w-en",
+        "desu"
+      ],
+      [
+        "n5-u02-w-pen",
+        "wa",
+        "n5-u02-w-hyaku",
+        "n5-u02-w-en",
+        "desu"
+      ],
+      [
+        "n5-u02-w-nooto",
+        "mo",
+        "n5-u02-w-hyaku",
+        "n5-u02-w-en",
+        "desu"
+      ],
+      [
+        "douzo"
+      ]
+    ],
+    "question": "How much is a dictionary today?",
+    "options": [
+      "500 yen",
+      "2,000 yen",
+      "100 yen"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u02-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "A notebook costs the same as a pen.",
+        "answer": true,
+        "explain": "ノートも百円です: notebooks are 100 yen too. も means 'also'.",
+        "words": [
+          "mo"
+        ]
+      },
+      {
+        "id": "n5-u02-l-cloze",
+        "type": "cloze",
+        "skill": "reading",
+        "context": "Fill the gap: notebooks are 100 yen as well.",
+        "line": "ノート＿＿{百円|ひゃくえん}です。",
+        "meaning": "Notebooks are 100 yen too.",
+        "options": [
+          "を",
+          "の",
+          "も",
+          "か"
+        ],
+        "answer": 2,
+        "explain": "も replaces は to mean 'also'.",
+        "words": [
+          "mo"
+        ]
+      },
+      {
+        "id": "n5-u02-l-infer",
+        "type": "choice",
+        "skill": "reading",
+        "prompt": "You have 600 yen. What can you buy?",
+        "options": [
+          "A dictionary",
+          "A magazine and a pen",
+          "Two dictionaries"
+        ],
+        "answer": 1,
+        "explain": "雑誌 500円 + ペン 100円 = 600円.",
+        "words": [
+          "n5-u02-w-en"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u02-w-daijoubu": {
+      "text": "大丈夫",
+      "kana": "だいじょうぶ"
+    }
+  }
+}

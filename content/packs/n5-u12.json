@@ -1,0 +1,698 @@
+{
+  "id": "n5-u12",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N5 · Unit 12",
+  "words": [
+    {
+      "id": "n5-u12-w-atama",
+      "text": "頭",
+      "kana": "あたま",
+      "romaji": "atama",
+      "meaning": "head",
+      "register": "neutral",
+      "example": "頭が痛いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "頭",
+          "reading": "あたま"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-itai",
+      "text": "痛い",
+      "kana": "いたい",
+      "romaji": "itai",
+      "meaning": "painful, it hurts",
+      "register": "neutral",
+      "example": "おなかが痛いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "痛",
+          "reading": "いた"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-netsu",
+      "text": "熱",
+      "kana": "ねつ",
+      "romaji": "netsu",
+      "meaning": "fever",
+      "register": "neutral",
+      "example": "熱があります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "熱",
+          "reading": "ねつ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-kaze",
+      "text": "風邪",
+      "kana": "かぜ",
+      "romaji": "kaze",
+      "meaning": "a cold",
+      "register": "neutral",
+      "example": "風邪をひきました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "風邪",
+          "reading": "かぜ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-kusuri",
+      "text": "薬",
+      "kana": "くすり",
+      "romaji": "kusuri",
+      "meaning": "medicine",
+      "register": "neutral",
+      "example": "薬を飲みました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "薬",
+          "reading": "くすり"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-aru",
+      "text": "ある",
+      "kana": "ある",
+      "romaji": "aru",
+      "meaning": "there is, have (plain form of あります)",
+      "register": "casual",
+      "example": "熱がある。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ある"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-doushita",
+      "text": "どうしたんですか",
+      "kana": "どうしたんですか",
+      "romaji": "dō shita n desu ka",
+      "meaning": "what's wrong? / what happened?",
+      "register": "polite",
+      "example": "大丈夫ですか。どうしたんですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "どうしたんですか"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-n-desu",
+      "text": "んです",
+      "kana": "んです",
+      "romaji": "n desu",
+      "meaning": "(explaining a situation)",
+      "register": "polite",
+      "example": "頭が痛いんです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "んです"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-hou-ga-ii",
+      "text": "ほうがいいです",
+      "kana": "ほうがいいです",
+      "romaji": "hō ga ii desu",
+      "meaning": "you should (after a た-form)",
+      "register": "polite",
+      "example": "休んだほうがいいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ほうがいいです"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-node",
+      "text": "ので",
+      "kana": "ので",
+      "romaji": "node",
+      "meaning": "because, so (softer than から)",
+      "register": "polite",
+      "example": "熱があるので、休みます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ので"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-nakereba",
+      "text": "しなければいけません",
+      "kana": "しなければいけません",
+      "romaji": "shinakereba ikemasen",
+      "meaning": "must do",
+      "register": "polite",
+      "example": "勉強しなければいけません。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "しなければいけません"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-sugi",
+      "lemma": {
+        "text": "食べる",
+        "kana": "たべる"
+      },
+      "text": "食べすぎました",
+      "kana": "たべすぎました",
+      "romaji": "tabesugimashita",
+      "meaning": "ate too much",
+      "register": "polite",
+      "example": "ケーキを食べすぎました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べすぎました"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-tesuto",
+      "text": "テスト",
+      "kana": "テスト",
+      "romaji": "tesuto",
+      "meaning": "test, exam",
+      "register": "neutral",
+      "example": "明日はテストです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "テスト"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-jugyou",
+      "text": "授業",
+      "kana": "じゅぎょう",
+      "romaji": "jugyō",
+      "meaning": "class, lesson",
+      "register": "neutral",
+      "example": "日本語の授業です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "授業",
+          "reading": "じゅぎょう"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-yasumimasu",
+      "lemma": {
+        "text": "休む",
+        "kana": "やすむ"
+      },
+      "text": "休みます",
+      "kana": "やすみます",
+      "romaji": "yasumimasu",
+      "meaning": "be absent; rest",
+      "register": "polite",
+      "example": "今日は授業を休みます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "休",
+          "reading": "やす"
+        },
+        {
+          "text": "みます"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-dashimasu",
+      "lemma": {
+        "text": "出す",
+        "kana": "だす"
+      },
+      "text": "出します",
+      "kana": "だします",
+      "romaji": "dashimasu",
+      "meaning": "hand in, submit",
+      "register": "polite",
+      "example": "宿題を出します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "出",
+          "reading": "だ"
+        },
+        {
+          "text": "します"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-moushiwake",
+      "text": "申し訳ありません",
+      "kana": "もうしわけありません",
+      "romaji": "mōshiwake arimasen",
+      "meaning": "I am very sorry (formal)",
+      "register": "formal",
+      "example": "遅れて、申し訳ありません。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "申",
+          "reading": "もう"
+        },
+        {
+          "text": "し"
+        },
+        {
+          "text": "訳",
+          "reading": "わけ"
+        },
+        {
+          "text": "ありません"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-w-odaiji",
+      "text": "お大事に",
+      "kana": "おだいじに",
+      "romaji": "odaiji ni",
+      "meaning": "take care, get well soon",
+      "register": "polite",
+      "example": "お大事に。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "大事",
+          "reading": "だいじ"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n5-u12-lesson",
+      "kind": "phrase",
+      "words": [
+        "n5-u12-w-atama",
+        "n5-u12-w-itai",
+        "n5-u12-w-netsu",
+        "n5-u12-w-kaze",
+        "n5-u12-w-kusuri",
+        "n5-u12-w-aru",
+        "n5-u12-w-doushita",
+        "n5-u12-w-n-desu",
+        "n5-u12-w-hou-ga-ii",
+        "n5-u12-w-node",
+        "n5-u12-w-nakereba",
+        "n5-u12-w-sugi",
+        "n5-u12-w-tesuto",
+        "n5-u12-w-jugyou",
+        "n5-u12-w-yasumimasu",
+        "n5-u12-w-dashimasu",
+        "n5-u12-w-moushiwake",
+        "n5-u12-w-odaiji"
+      ],
+      "title": "Feeling unwell",
+      "description": "Explain a problem with んです, give advice with ほうがいい, and write a polite absence note.",
+      "canDo": "Explain that you are unwell, give advice, and excuse yourself politely",
+      "minutes": 20
+    }
+  ],
+  "letters": [
+    {
+      "id": "n5-u12-letter",
+      "title": "An email to your teacher",
+      "from": "You",
+      "subject": "佐藤先生へ　本日の授業について",
+      "tokens": [
+        "n5-u12-w-netsu",
+        "ga",
+        "n5-u12-w-aru",
+        "n5-u12-w-node",
+        "today",
+        "no-part",
+        "n5-u12-w-jugyou",
+        "wo",
+        "n5-u12-w-yasumimasu",
+        "n5-u12-w-moushiwake",
+        "n5-u09-w-shukudai",
+        "wa",
+        "tomorrow",
+        "n5-u12-w-dashimasu",
+        "regards"
+      ],
+      "paragraphs": [
+        9,
+        10,
+        14
+      ],
+      "prerequisites": [
+        "n5-u12-w-netsu",
+        "ga",
+        "n5-u12-w-aru",
+        "n5-u12-w-node",
+        "today",
+        "no-part",
+        "n5-u12-w-jugyou",
+        "wo",
+        "n5-u12-w-yasumimasu",
+        "n5-u12-w-moushiwake",
+        "n5-u09-w-shukudai",
+        "wa",
+        "tomorrow",
+        "n5-u12-w-dashimasu",
+        "regards"
+      ],
+      "question": "Why is the writer missing class?",
+      "options": [
+        "They have a fever",
+        "They overslept",
+        "They are on a trip"
+      ],
+      "answer": 0
+    }
+  ],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n5-u12-g-n-desu",
+      "title": "んです: explaining",
+      "explanation": "Plain form + んです explains or asks for an explanation: 頭が痛いんです, 'it's that my head hurts'. どうしたんですか asks what's wrong. Use it when the situation calls for a reason; overusing it sounds pushy.",
+      "example": "頭が痛いんです。熱もあるんです。",
+      "translation": "My head hurts. I've got a fever too."
+    },
+    {
+      "id": "n5-u12-g-advice",
+      "title": "ほうがいい, ので and なければいけない",
+      "explanation": "た-form + ほうがいいです: you'd better (advice). Reason + ので: because (softer and more polite than から). ない-form minus い + ければいけません: must (勉強しなければいけません).",
+      "example": "薬を飲んだほうがいいですよ。",
+      "translation": "You should take some medicine."
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n5-u12-d",
+      "title": "A bad day",
+      "scene": "You come into Ren's café looking pale.",
+      "lines": [
+        {
+          "speaker": "Ren",
+          "line": "{大丈夫|だいじょうぶ}ですか。どうしたんですか。",
+          "romaji": "Daijōbu desu ka. Dō shita n desu ka.",
+          "meaning": "Are you OK? What's wrong?"
+        },
+        {
+          "speaker": "You",
+          "line": "{頭|あたま}が{痛|いた}いんです。{熱|ねつ}もあるんです。",
+          "romaji": "Atama ga itai n desu. Netsu mo aru n desu.",
+          "meaning": "My head hurts. I have a fever too."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{風邪|かぜ}ですね。{薬|くすり}を{飲|の}んだほうがいいですよ。",
+          "romaji": "Kaze desu ne. Kusuri o nonda hō ga ii desu yo.",
+          "meaning": "Sounds like a cold. You should take some medicine."
+        },
+        {
+          "speaker": "You",
+          "line": "でも、{明日|あした}テストがあるので、{勉強|べんきょう}しなければいけません。",
+          "romaji": "Demo, ashita tesuto ga aru node, benkyō shinakereba ikemasen.",
+          "meaning": "But I have a test tomorrow, so I have to study."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{今日|きょう}は{早|はや}く{寝|ね}たほうがいいですよ。",
+          "romaji": "Kyō wa hayaku neta hō ga ii desu yo.",
+          "meaning": "You'd better go to bed early tonight."
+        },
+        {
+          "speaker": "You",
+          "line": "そうですね。ありがとうございます。",
+          "romaji": "Sō desu ne. Arigatō gozaimasu.",
+          "meaning": "You're right. Thank you."
+        },
+        {
+          "speaker": "Ren",
+          "line": "お{大事|だいじ}に。",
+          "romaji": "Odaiji ni.",
+          "meaning": "Take care of yourself."
+        }
+      ],
+      "lesson": "n5-u12-lesson"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-u12-x-gist",
+      "dialogue": "n5-u12-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What's wrong with you?",
+      "options": [
+        "A stomach ache",
+        "A headache and a fever",
+        "You're just tired"
+      ],
+      "answer": 1,
+      "explain": "頭が痛いんです。熱もあるんです.",
+      "words": [
+        "n5-u12-w-atama"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "context": "Your head hurts.",
+      "line": "どうしたんですか。",
+      "meaning": "What's wrong?",
+      "options": [
+        "{頭|あたま}が{痛|いた}いんです。",
+        "{頭|あたま}を{痛|いた}いです。",
+        "お{大事|だいじ}に。",
+        "はい、どうしました。"
+      ],
+      "answer": 0,
+      "explain": "Explain with んです: 頭が痛いんです. 痛い takes が.",
+      "words": [
+        "n5-u12-w-n-desu"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-advice",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Advise a friend with a cold.",
+      "line": "{薬|くすり}を{飲|の}んだ＿＿いいですよ。",
+      "meaning": "You should take some medicine.",
+      "options": [
+        "から",
+        "ほうが",
+        "ので",
+        "すぎ"
+      ],
+      "answer": 1,
+      "explain": "た-form + ほうがいい: advice.",
+      "words": [
+        "n5-u12-w-hou-ga-ii"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-why",
+      "dialogue": "n5-u12-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Why do you have to study?",
+      "options": [
+        "Ren asked you to",
+        "There's a test tomorrow",
+        "You missed a class"
+      ],
+      "answer": 1,
+      "explain": "明日テストがあるので.",
+      "words": [
+        "n5-u12-w-tesuto"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-node",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Give a polite reason.",
+      "line": "{明日|あした}テストがある＿＿、{勉強|べんきょう}します。",
+      "meaning": "I have a test tomorrow, so I'll study.",
+      "options": [
+        "のに",
+        "けど",
+        "と",
+        "ので"
+      ],
+      "answer": 3,
+      "explain": "ので gives a reason, politely. のに and けど mean 'although'.",
+      "words": [
+        "n5-u12-w-node"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-sugi",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "You had four pieces of cake.",
+      "line": "ケーキを{食|た}べ＿＿ました。",
+      "meaning": "I ate too much cake.",
+      "options": [
+        "すぎ",
+        "たい",
+        "たり",
+        "て"
+      ],
+      "answer": 0,
+      "explain": "Stem + すぎる: too much.",
+      "words": [
+        "n5-u12-w-sugi"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-goodbye",
+      "type": "choice",
+      "skill": "politeness",
+      "context": "A colleague is going home because they feel ill.",
+      "prompt": "What do you say?",
+      "options": [
+        "{申|もう}し{訳|わけ}ありません。",
+        "お{大事|だいじ}に。",
+        "どうしたんですか。"
+      ],
+      "answer": 1,
+      "explain": "お大事に: take care of yourself, said to someone who is unwell.",
+      "words": [
+        "n5-u12-w-odaiji"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "You'd better go to bed early today.",
+      "tiles": [
+        "{今日|きょう}",
+        "は",
+        "{早|はや}く",
+        "{寝|ね}た",
+        "ほうが",
+        "いいです"
+      ],
+      "explain": "た-form 寝た + ほうがいいです.",
+      "words": [
+        "n5-u12-w-hou-ga-ii"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-x-tf",
+      "dialogue": "n5-u12-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Ren tells you to study all night.",
+      "answer": false,
+      "explain": "早く寝たほうがいいですよ: go to bed early.",
+      "words": [
+        "n5-u09-w-hayaku"
+      ],
+      "lesson": "n5-u12-lesson"
+    },
+    {
+      "id": "n5-u12-l-tf",
+      "type": "truefalse",
+      "skill": "reading",
+      "prompt": "The homework will be handed in today.",
+      "answer": false,
+      "explain": "宿題は明日出します: tomorrow.",
+      "words": [
+        "n5-u12-w-dashimasu"
+      ],
+      "letter": "n5-u12-letter"
+    },
+    {
+      "id": "n5-u12-l-register",
+      "type": "choice",
+      "skill": "politeness",
+      "prompt": "Which ending suits an email to a teacher?",
+      "options": [
+        "じゃあね。",
+        "また{明日|あした}。",
+        "よろしくお{願|ねが}いします。"
+      ],
+      "answer": 2,
+      "explain": "よろしくお願いします closes a polite request. じゃあね and また明日 are for friends.",
+      "words": [
+        "regards"
+      ],
+      "letter": "n5-u12-letter"
+    }
+  ]
+}

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "n5-v1",
+    "level": "N5",
+    "stage": "vocabulary",
+    "prompt": "Choose the reading of 学校.",
+    "options": [
+      "がっこう",
+      "がこう",
+      "がっこ",
+      "がくこ"
+    ],
+    "answer": 0,
+    "explanation": "学校 is がっこう: keep both the small っ and the long おう sound.",
+    "focus": "Kanji reading"
+  },
+  {
+    "id": "n5-v2",
+    "level": "N5",
+    "stage": "vocabulary",
+    "prompt": "きょうは 月曜日です。あしたは（　）です。",
+    "options": [
+      "日曜日",
+      "火曜日",
+      "金曜日",
+      "土曜日"
+    ],
+    "answer": 1,
+    "explanation": "The day after Monday is Tuesday, 火曜日（かようび）.",
+    "focus": "Days and sequence"
+  },
+  {
+    "id": "n5-g1",
+    "level": "N5",
+    "stage": "grammar",
+    "prompt": "わたしは 毎朝 パン（　）食べます。",
+    "options": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "answer": 2,
+    "explanation": "を marks the thing eaten: パンを食べます.",
+    "focus": "Object particle"
+  },
+  {
+    "id": "n5-g2",
+    "level": "N5",
+    "stage": "grammar",
+    "prompt": "つくえの 上に 本が（　）。",
+    "options": [
+      "います",
+      "あります",
+      "行きます",
+      "来ます"
+    ],
+    "answer": 1,
+    "explanation": "あります expresses the existence of an inanimate object such as a book.",
+    "focus": "Existence"
+  },
+  {
+    "id": "n5-r1",
+    "level": "N5",
+    "stage": "reading",
+    "passage": "あした、図書館で勉強します。午前十時に来てください。本とノートを持ってきてください。",
+    "prompt": "どこで 勉強しますか。",
+    "options": [
+      "学校",
+      "駅",
+      "図書館",
+      "家"
+    ],
+    "answer": 2,
+    "explanation": "The first sentence specifies 図書館で: at the library.",
+    "focus": "Locate a place"
+  },
+  {
+    "id": "n5-r2",
+    "level": "N5",
+    "stage": "reading",
+    "passage": "この店は午前九時から午後六時までです。日曜日は休みです。",
+    "prompt": "店は いつ 休みですか。",
+    "options": [
+      "月曜日",
+      "毎朝",
+      "土曜日",
+      "日曜日"
+    ],
+    "answer": 3,
+    "explanation": "日曜日は休みです explicitly gives the closing day: Sunday.",
+    "focus": "Notice detail"
+  },
+  {
+    "id": "n5-e1",
+    "level": "N5",
+    "stage": "exam",
+    "prompt": "Choose the reading of 電車.",
+    "options": [
+      "でんき",
+      "でんしゃ",
+      "てんしゃ",
+      "じてんしゃ"
+    ],
+    "answer": 1,
+    "explanation": "電車 is でんしゃ, a train. でんき is electricity.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n5-e2",
+    "level": "N5",
+    "stage": "exam",
+    "prompt": "みずを（　）。コップをください。",
+    "options": [
+      "読みます",
+      "聞きます",
+      "飲みます",
+      "書きます"
+    ],
+    "answer": 2,
+    "explanation": "飲みます means drink and fits water and a cup.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n5-e3",
+    "level": "N5",
+    "stage": "exam",
+    "prompt": "きのう、友だちと 映画を（　）。",
+    "options": [
+      "見ました",
+      "見ますか",
+      "見ませんか",
+      "見ましょう"
+    ],
+    "answer": 0,
+    "explanation": "きのう refers to yesterday; 見ました is the past-tense statement.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n5-e4",
+    "level": "N5",
+    "stage": "exam",
+    "prompt": "バス（　）学校へ 行きます。",
+    "options": [
+      "が",
+      "を",
+      "に",
+      "で"
+    ],
+    "answer": 3,
+    "explanation": "で marks the means of transport: by bus.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n5-e5",
+    "level": "N5",
+    "stage": "exam",
+    "passage": "山田さんへ。今日のクラスは午後二時からです。教室は三階です。田中",
+    "prompt": "クラスは 何時からですか。",
+    "options": [
+      "午前二時",
+      "午後二時",
+      "午後三時",
+      "午前三時"
+    ],
+    "answer": 1,
+    "explanation": "The message gives 午後二時, 2 p.m. 三階 is the floor, not the time.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n5-e6",
+    "level": "N5",
+    "stage": "exam",
+    "passage": "りんごを二つとパンを一つ買いました。牛乳は家にありますから、買いませんでした。",
+    "prompt": "何を 買いませんでしたか。",
+    "options": [
+      "りんご",
+      "パン",
+      "牛乳",
+      "りんごとパン"
+    ],
+    "answer": 2,
+    "explanation": "Milk was already at home, so the writer did not buy it.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n4-v1",
+    "level": "N4",
+    "stage": "vocabulary",
+    "prompt": "Choose the reading of 予約.",
+    "options": [
+      "ようやく",
+      "よやく",
+      "よてい",
+      "やくそく"
+    ],
+    "answer": 1,
+    "explanation": "予約 is よやく, a reservation. 予定 is よてい; 約束 is やくそく.",
+    "focus": "Compound reading"
+  },
+  {
+    "id": "n4-v2",
+    "level": "N4",
+    "stage": "vocabulary",
+    "prompt": "駅まで 遠いので、自転車を（　）ことにしました。",
+    "options": [
+      "借りる",
+      "習う",
+      "閉める",
+      "消す"
+    ],
+    "answer": 0,
+    "explanation": "借りる means borrow or rent and fits a bicycle for a distant station.",
+    "focus": "Verb meaning"
+  },
+  {
+    "id": "n4-g1",
+    "level": "N4",
+    "stage": "grammar",
+    "prompt": "宿題を（　）から、出かけます。",
+    "options": [
+      "します",
+      "しよう",
+      "して",
+      "し"
+    ],
+    "answer": 2,
+    "explanation": "Vてから means after doing something: 宿題をしてから.",
+    "focus": "Action sequence"
+  },
+  {
+    "id": "n4-g2",
+    "level": "N4",
+    "stage": "grammar",
+    "prompt": "撮影の許可を求めます。この部屋で 写真を 撮って（　）ですか。",
+    "options": [
+      "ほしい",
+      "いい",
+      "いる",
+      "ある"
+    ],
+    "answer": 1,
+    "explanation": "Vてもいいですか asks for permission: may I take photos here?",
+    "focus": "Permission"
+  },
+  {
+    "id": "n4-r1",
+    "level": "N4",
+    "stage": "reading",
+    "passage": "佐藤さん、会議は三時からの予定でしたが、四時に変わりました。部屋は同じです。資料は先に机の上に置いてください。",
+    "prompt": "何が 変わりましたか。",
+    "options": [
+      "会議の部屋",
+      "資料を置く場所",
+      "会議の時間",
+      "資料の数"
+    ],
+    "answer": 2,
+    "explanation": "Only the meeting time changed, from three to four. The room is the same.",
+    "focus": "Changed arrangements"
+  },
+  {
+    "id": "n4-r2",
+    "level": "N4",
+    "stage": "reading",
+    "passage": "来週から、図書館の本は一人五冊まで借りられます。返す日は今までと同じで、借りた日から二週間後です。",
+    "prompt": "来週から 変わるのは どれですか。",
+    "options": [
+      "本を借りられる数",
+      "本を返すまでの日数",
+      "図書館の場所",
+      "図書館が開く時間"
+    ],
+    "answer": 0,
+    "explanation": "The number of books changes. The two-week loan period stays the same.",
+    "focus": "Notice conditions"
+  },
+  {
+    "id": "n4-e1",
+    "level": "N4",
+    "stage": "exam",
+    "prompt": "Choose the reading of 運転.",
+    "options": [
+      "うんどう",
+      "うんてん",
+      "うんでん",
+      "はんてん"
+    ],
+    "answer": 1,
+    "explanation": "運転 is うんてん, driving or operating a vehicle.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n4-e2",
+    "level": "N4",
+    "stage": "exam",
+    "prompt": "暑いので、窓を（　）ください。",
+    "options": [
+      "洗って",
+      "止めて",
+      "開けて",
+      "付けて"
+    ],
+    "answer": 2,
+    "explanation": "窓を開ける means open the window.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n4-e3",
+    "level": "N4",
+    "stage": "exam",
+    "prompt": "日本へ 行った（　）が あります。",
+    "options": [
+      "こと",
+      "ため",
+      "つもり",
+      "ところ"
+    ],
+    "answer": 0,
+    "explanation": "Vたことがある expresses a past experience.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n4-e4",
+    "level": "N4",
+    "stage": "exam",
+    "prompt": "先生は、明日は テストが（　）と 言いました。",
+    "options": [
+      "あります",
+      "あって",
+      "あったり",
+      "ある"
+    ],
+    "answer": 3,
+    "explanation": "A plain-form clause precedes と言いました in this indirect quotation.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n4-e5",
+    "level": "N4",
+    "stage": "exam",
+    "passage": "土曜日に山へ行く予定でしたが、雨が降りそうなので、映画を見ることにしました。映画館には十時に集まります。",
+    "prompt": "どうして 予定を 変えましたか。",
+    "options": [
+      "映画館が遠いから",
+      "雨が降りそうだから",
+      "十時に起きるから",
+      "山へ行ったことがあるから"
+    ],
+    "answer": 1,
+    "explanation": "The expected rain is the stated reason for changing the plan.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n4-e6",
+    "level": "N4",
+    "stage": "exam",
+    "passage": "料理教室に参加する人は、金曜日までにメールで申し込んでください。お金は教室が始まる日に払ってください。",
+    "prompt": "金曜日までに 何を しなければなりませんか。",
+    "options": [
+      "料理を作る",
+      "お金を払う",
+      "メールで申し込む",
+      "教室へ行く"
+    ],
+    "answer": 2,
+    "explanation": "The application email is due by Friday. Payment is on the first class day.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n3-v1",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "Choose the reading of 確認.",
+    "options": [
+      "かくにん",
+      "かんにん",
+      "かくねん",
+      "かんねん"
+    ],
+    "answer": 0,
+    "explanation": "確認 is かくにん, checking or confirming.",
+    "focus": "Compound reading"
+  },
+  {
+    "id": "n3-v2",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "説明が 分かりにくかったので、先生に もう一度（　）した。",
+    "options": [
+      "出発",
+      "質問",
+      "招待",
+      "輸入"
+    ],
+    "answer": 1,
+    "explanation": "質問する means ask a question, fitting an unclear explanation.",
+    "focus": "Collocation"
+  },
+  {
+    "id": "n3-g1",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "毎日 練習した（　）、前より 速く 読めるようになった。",
+    "options": [
+      "かわりに",
+      "わりに",
+      "おかげで",
+      "くせに"
+    ],
+    "answer": 2,
+    "explanation": "おかげで gives a beneficial cause: thanks to daily practice.",
+    "focus": "Positive cause"
+  },
+  {
+    "id": "n3-g2",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "天気予報に（　）、明日は 雪が 降るそうだ。",
+    "options": [
+      "よると",
+      "つれて",
+      "とって",
+      "かわって"
+    ],
+    "answer": 0,
+    "explanation": "Nによると introduces the source of reported information.",
+    "focus": "Reported information"
+  },
+  {
+    "id": "n3-r1",
+    "level": "N3",
+    "stage": "reading",
+    "passage": "店では、袋を減らすために、買い物袋を持ってきた客にポイントを付けている。しかし、ポイントのためだけに新しい袋を何枚も買うのでは意味がない。同じ袋を長く使うことが大切だ。",
+    "prompt": "筆者が 大切だと 考えていることは 何か。",
+    "options": [
+      "新しい袋をたくさん買うこと",
+      "ポイントを早く集めること",
+      "同じ袋を繰り返し使うこと",
+      "毎回店の袋をもらうこと"
+    ],
+    "answer": 2,
+    "explanation": "The final sentence gives the writer's point: use the same bag for a long time.",
+    "focus": "Main claim"
+  },
+  {
+    "id": "n3-r2",
+    "level": "N3",
+    "stage": "reading",
+    "passage": "初めての仕事では、すぐに答えを聞くより、まず自分で考えてみることが役立つ。ただし、時間が限られている場合は、分からないまま進めず、早めに確認したほうがよい。",
+    "prompt": "時間が あまりないときは、どうすればよいか。",
+    "options": [
+      "最後まで一人で考える",
+      "早めに確認する",
+      "分からなくても進める",
+      "仕事を断る"
+    ],
+    "answer": 1,
+    "explanation": "ただし introduces the exception: when time is limited, check early.",
+    "focus": "Qualification"
+  },
+  {
+    "id": "n3-e1",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "Choose the reading of 準備.",
+    "options": [
+      "じゅんぴ",
+      "しゅんび",
+      "じゅんび",
+      "しゅんぴ"
+    ],
+    "answer": 2,
+    "explanation": "準備 is じゅんび, preparation.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n3-e2",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "電車が 遅れている。到着時間を（　）に 伝えておこう。",
+    "options": [
+      "相手",
+      "材料",
+      "季節",
+      "景色"
+    ],
+    "answer": 0,
+    "explanation": "相手 is the other person or party, the one to notify of your arrival time.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n3-e3",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "この説明書を 読めば、初めての人（　）使えます。",
+    "options": [
+      "しか",
+      "でも",
+      "こそ",
+      "ずつ"
+    ],
+    "answer": 1,
+    "explanation": "でも means even: even a first-time user can use it.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n3-e4",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "引っ越してから、自分で 料理する（　）なった。",
+    "options": [
+      "ために",
+      "ところに",
+      "ばかりに",
+      "ように"
+    ],
+    "answer": 3,
+    "explanation": "Vるようになった describes a change in habit or ability.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n3-e5",
+    "level": "N3",
+    "stage": "exam",
+    "passage": "会社の休憩室に本棚が置かれた。社員は自由に本を持ち帰れるが、読み終わったら別の本を一冊持ってくることになっている。これは、同じ本を返す図書館とは少し違う仕組みだ。",
+    "prompt": "読み終わった人は、何をすることになっているか。",
+    "options": [
+      "同じ本を必ず返す",
+      "本の代金を払う",
+      "別の本を一冊持ってくる",
+      "本棚を片付ける"
+    ],
+    "answer": 2,
+    "explanation": "The exchange asks for a different book, not the return of the same one.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n3-e6",
+    "level": "N3",
+    "stage": "exam",
+    "passage": "駅前の道は、工事のため今月末まで自転車で通れません。歩いて通ることはできます。自転車を利用する方は、川沿いの道を通ってください。",
+    "prompt": "自転車で駅へ行く人は、どうすればよいか。",
+    "options": [
+      "川沿いの道を通る",
+      "駅前の道をそのまま走る",
+      "来月まで駅を使わない",
+      "工事の人を待つ"
+    ],
+    "answer": 0,
+    "explanation": "The notice directs cyclists to the riverside route; pedestrians may use the station road.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n2-v1",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "Choose the reading of 貢献.",
+    "options": [
+      "こうけん",
+      "こうげん",
+      "きょうけん",
+      "きょうげん"
+    ],
+    "answer": 0,
+    "explanation": "貢献 is こうけん: contributing to something.",
+    "focus": "Compound reading"
+  },
+  {
+    "id": "n2-v2",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "新しい制度を 導入する前に、社員の意見を（　）する必要がある。",
+    "options": [
+      "通勤",
+      "収集",
+      "転居",
+      "出場"
+    ],
+    "answer": 1,
+    "explanation": "意見を収集する means collect opinions.",
+    "focus": "Formal collocation"
+  },
+  {
+    "id": "n2-g1",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "経験が 長いからといって、必ずしも 指導が 上手な（　）。",
+    "options": [
+      "ものがある",
+      "ことにする",
+      "わけではない",
+      "ばかりだった"
+    ],
+    "answer": 2,
+    "explanation": "必ずしも〜わけではない denies a universal inference: experience does not necessarily make someone a good teacher.",
+    "focus": "Qualified negation"
+  },
+  {
+    "id": "n2-g2",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "このサービスは、年齢に（　）、だれでも 利用できる。",
+    "options": [
+      "応じて",
+      "限って",
+      "比べて",
+      "かかわらず"
+    ],
+    "answer": 3,
+    "explanation": "Nにかかわらず means regardless of N. Here age does not restrict use.",
+    "focus": "Lack of restriction"
+  },
+  {
+    "id": "n2-r1",
+    "level": "N2",
+    "stage": "reading",
+    "passage": "便利な道具は作業の時間を短くする。しかし、短縮できた時間に別の仕事を詰め込めば、忙しさは変わらない。道具の導入だけで生活に余裕が生まれると期待するのではなく、空いた時間を何に使わないかも決める必要がある。",
+    "prompt": "筆者の主張に 最も近いものは どれか。",
+    "options": [
+      "便利な道具は使わないほうがよい",
+      "時間を短縮したら仕事を増やすべきだ",
+      "余裕を作るには時間の使い方も選ぶ必要がある",
+      "忙しい原因は道具が少ないことだ"
+    ],
+    "answer": 2,
+    "explanation": "The writer supports tools but argues that saved time must also be protected from extra work.",
+    "focus": "Argument and qualification"
+  },
+  {
+    "id": "n2-r2",
+    "level": "N2",
+    "stage": "reading",
+    "passage": "ある店は、客からの要望を受けて営業時間を延ばした。ところが、売上は期待ほど増えず、従業員の負担だけが大きくなった。要望を出す人の声が、そのまま多くの客の行動を表すとは限らないのである。",
+    "prompt": "この事例から 筆者が 指摘していることは 何か。",
+    "options": [
+      "客の要望と実際の需要は一致するとは限らない",
+      "従業員は客の意見を聞くべきではない",
+      "営業時間を延ばす店は必ず失敗する",
+      "客はいつも短い営業時間を望む"
+    ],
+    "answer": 0,
+    "explanation": "The conclusion questions whether vocal requests predict broader customer behaviour, not whether all feedback is useless.",
+    "focus": "Inference scope"
+  },
+  {
+    "id": "n2-e1",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "Choose the reading of 改善.",
+    "options": [
+      "かいせん",
+      "かいぜん",
+      "がいぜん",
+      "がいせん"
+    ],
+    "answer": 1,
+    "explanation": "改善 is かいぜん, improvement.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n2-e2",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "費用を 減らすため、計画の一部を（　）ことになった。",
+    "options": [
+      "見送る",
+      "見上げる",
+      "見かける",
+      "見渡す"
+    ],
+    "answer": 0,
+    "explanation": "見送る can mean defer or decide not to proceed with a plan.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n2-e3",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "検討を 重ねた（　）、今回は 契約を 見送ることにした。",
+    "options": [
+      "最中に",
+      "一方で",
+      "末に",
+      "たびに"
+    ],
+    "answer": 2,
+    "explanation": "Vた末に expresses an outcome reached after a lengthy process.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n2-e4",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "この問題は、担当者 一人の 判断だけで 解決できる（　）。",
+    "options": [
+      "にすぎない",
+      "ことになっている",
+      "ようとしている",
+      "ものではない"
+    ],
+    "answer": 3,
+    "explanation": "解決できるものではない rejects the possibility of solving it through that person's judgment alone.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n2-e5",
+    "level": "N2",
+    "stage": "exam",
+    "passage": "読書会の参加者には、事前に本を読み終えるようお願いしています。ただし、すべてを理解する必要はありません。分からなかった点こそ、当日の話し合いを深めるきっかけになるからです。感想を一つ、質問を一つ用意してください。",
+    "prompt": "参加者に 求められているのは どれか。",
+    "options": [
+      "疑問点をすべて解決してから参加すること",
+      "本を読み、感想と質問を用意すること",
+      "本を読まずに質問だけ考えること",
+      "他の参加者に本の内容を教えること"
+    ],
+    "answer": 1,
+    "explanation": "Finish reading and bring a comment and question; complete understanding is explicitly unnecessary.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n2-e6",
+    "level": "N2",
+    "stage": "exam",
+    "passage": "オンライン会議によって、移動に使っていた時間は減った。一方で、短い会議を気軽に設定できるようになり、一日に参加する会議の数は増えている。効率を考えるなら、会議の長さだけでなく、本当に集まる必要があるかを問い直すべきだ。",
+    "prompt": "筆者は 何を 見直すべきだと 考えているか。",
+    "options": [
+      "移動の方法だけ",
+      "会議用の機器の値段",
+      "会議を開く必要そのもの",
+      "すべての会議を対面に戻す方法"
+    ],
+    "answer": 2,
+    "explanation": "The final sentence asks whether a meeting is necessary, beyond simply shortening it.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n1-v1",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "Choose the reading of 示唆.",
+    "options": [
+      "しさ",
+      "ししゃ",
+      "じさ",
+      "じしゃ"
+    ],
+    "answer": 0,
+    "explanation": "示唆 is しさ, a suggestion or implication.",
+    "focus": "Abstract vocabulary"
+  },
+  {
+    "id": "n1-v2",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "調査の結果は 従来の説を（　）ものであり、単純には 無視できない。",
+    "options": [
+      "取り寄せる",
+      "覆す",
+      "差し引く",
+      "持ち運ぶ"
+    ],
+    "answer": 1,
+    "explanation": "説を覆す means overturn a theory or accepted account.",
+    "focus": "Evaluative collocation"
+  },
+  {
+    "id": "n1-g1",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "専門家（　）、この複雑な問題を 直ちに 解決できるとは 限らない。",
+    "options": [
+      "ならではの",
+      "を皮切りに",
+      "といえども",
+      "に至るまで"
+    ],
+    "answer": 2,
+    "explanation": "Nといえども means even N, conceding expertise while limiting what follows from it.",
+    "focus": "Concession"
+  },
+  {
+    "id": "n1-g2",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "十分な検証（　）、この結果を 一般化することは できない。",
+    "options": [
+      "をもって",
+      "に即して",
+      "にひきかえ",
+      "なしには"
+    ],
+    "answer": 3,
+    "explanation": "Nなしには〜できない means that without N, the stated action is not possible.",
+    "focus": "Necessary condition"
+  },
+  {
+    "id": "n1-r1",
+    "level": "N1",
+    "stage": "reading",
+    "passage": "数値化は、異なる事象を比較するための有効な手段である。だが、測定しやすいものを重要なものと取り違えると、指標を改善する行為自体が目的になりかねない。評価に必要なのは、数値を捨てることではなく、その数値が何を捉え、何を捉えていないかを問い続ける姿勢である。",
+    "prompt": "筆者の立場に 合うものは どれか。",
+    "options": [
+      "数値で測れないものは評価できない",
+      "指標を改善すれば本来の目的も必ず達成できる",
+      "数値の有用性を認めつつ、その限界も吟味する",
+      "比較を避けるためにすべての数値を排除する"
+    ],
+    "answer": 2,
+    "explanation": "The writer advocates critical use of metrics, rejecting both blind reliance and wholesale abandonment.",
+    "focus": "Nuanced stance"
+  },
+  {
+    "id": "n1-r2",
+    "level": "N1",
+    "stage": "reading",
+    "passage": "伝統を守るというと、過去の形式を変えずに残すことが想像されがちだ。しかし、その形式が生まれた当時の課題と現在の課題が異なる以上、形式の維持が必ずしも精神の継承を意味するわけではない。変化を拒むことによって、かえって守るべき価値から遠ざかる場合もある。",
+    "prompt": "筆者が 問題にしているのは 何か。",
+    "options": [
+      "形式の維持と価値の継承を同一視すること",
+      "過去の事情を調べること",
+      "伝統に新しい意味を見いだすこと",
+      "現在の課題を考慮すること"
+    ],
+    "answer": 0,
+    "explanation": "The passage distinguishes preserving an old form from carrying forward its underlying values.",
+    "focus": "Conceptual distinction"
+  },
+  {
+    "id": "n1-e1",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "Choose the reading of 脆弱.",
+    "options": [
+      "きじゃく",
+      "ぜいじゃく",
+      "せいじゃく",
+      "きよわ"
+    ],
+    "answer": 1,
+    "explanation": "脆弱 is ぜいじゃく, fragile or vulnerable.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n1-e2",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "その提案は 理想的ではあるが、実現までの道筋が（　）で、検討を 続ける必要がある。",
+    "options": [
+      "鮮明",
+      "強硬",
+      "円満",
+      "不透明"
+    ],
+    "answer": 3,
+    "explanation": "道筋が不透明 means the route to implementation is unclear.",
+    "focus": "Vocabulary"
+  },
+  {
+    "id": "n1-e3",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "不正が 明らかになった以上、責任者は 説明せずには（　）。",
+    "options": [
+      "おかない",
+      "すまない",
+      "あたらない",
+      "かたくない"
+    ],
+    "answer": 1,
+    "explanation": "Vずにはすまない expresses an obligation that cannot be avoided in the circumstances.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n1-e4",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "この成果は、長年の 共同研究（　）のものである。",
+    "options": [
+      "をよそに",
+      "にひきかえ",
+      "ならでは",
+      "とあって"
+    ],
+    "answer": 2,
+    "explanation": "Nならではの means distinctive to, or possible precisely because of, N.",
+    "focus": "Grammar"
+  },
+  {
+    "id": "n1-e5",
+    "level": "N1",
+    "stage": "exam",
+    "passage": "情報が容易に手に入る時代には、答えを知っていることより、問いの立て方が重要だと言われる。もっとも、知識を蓄える必要がなくなったわけではない。手持ちの知識がなければ、得られた答えの妥当性を判断する基準も持ちにくい。検索できることと、理解して使えることとの間には、なお距離がある。",
+    "prompt": "知識の役割について、筆者は どう考えているか。",
+    "options": [
+      "検索ができれば蓄積は不要である",
+      "問いを立てる力とは無関係である",
+      "得た情報を吟味し活用するためにも必要である",
+      "答えを暗記することだけに価値がある"
+    ],
+    "answer": 2,
+    "explanation": "Existing knowledge supplies a basis for evaluating answers and using them meaningfully.",
+    "focus": "Reading"
+  },
+  {
+    "id": "n1-e6",
+    "level": "N1",
+    "stage": "exam",
+    "passage": "合意形成において、反対意見が出ないことを成功の証拠と見なすのは早計である。異論が表に出ない理由は、賛同だけとは限らないからだ。発言の不利益を恐れて沈黙する人もいるだろう。むしろ異論を安全に述べられる場を設け、その理由を検討するほうが、後に崩れにくい合意につながるのではないか。",
+    "prompt": "筆者が 提案しているのは どれか。",
+    "options": [
+      "反対意見を述べられる条件を整え、その根拠を検討する",
+      "沈黙を賛成と見なして決定を急ぐ",
+      "反対者を議論から外して合意を作る",
+      "異論がなくなるまで同じ説明を繰り返す"
+    ],
+    "answer": 0,
+    "explanation": "The writer values conditions for safe disagreement and consideration of its reasons, not merely the absence of objections.",
+    "focus": "Reading"
+  }
+]

@@ -1,0 +1,682 @@
+{
+  "id": "n5-u10",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N5 · Unit 10",
+  "words": [
+    {
+      "id": "n5-u10-w-fuyuyasumi",
+      "text": "冬休み",
+      "kana": "ふゆやすみ",
+      "romaji": "fuyuyasumi",
+      "meaning": "winter break",
+      "register": "neutral",
+      "example": "冬休みは何をしますか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "冬休",
+          "reading": "ふゆやす"
+        },
+        {
+          "text": "み"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-hokkaidou",
+      "text": "北海道",
+      "kana": "ほっかいどう",
+      "romaji": "Hokkaidō",
+      "meaning": "Hokkaido",
+      "register": "neutral",
+      "example": "北海道は寒いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "北海道",
+          "reading": "ほっかいどう"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-okinawa",
+      "text": "沖縄",
+      "kana": "おきなわ",
+      "romaji": "Okinawa",
+      "meaning": "Okinawa",
+      "register": "neutral",
+      "example": "沖縄は暖かいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "沖縄",
+          "reading": "おきなわ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-yuki",
+      "text": "雪",
+      "kana": "ゆき",
+      "romaji": "yuki",
+      "meaning": "snow",
+      "register": "neutral",
+      "example": "雪が降っています。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "雪",
+          "reading": "ゆき"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-tsumori",
+      "text": "つもり",
+      "kana": "つもり",
+      "romaji": "tsumori",
+      "meaning": "plan, intention (dictionary form + つもりです)",
+      "register": "neutral",
+      "example": "北海道に行くつもりです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "つもり"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-douyatte",
+      "text": "どうやって",
+      "kana": "どうやって",
+      "romaji": "dōyatte",
+      "meaning": "how, by what means",
+      "register": "neutral",
+      "example": "どうやって行きますか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "どうやって"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-hikouki",
+      "text": "飛行機",
+      "kana": "ひこうき",
+      "romaji": "hikōki",
+      "meaning": "plane",
+      "register": "neutral",
+      "example": "飛行機で行きます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "飛行機",
+          "reading": "ひこうき"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-shinkansen",
+      "text": "新幹線",
+      "kana": "しんかんせん",
+      "romaji": "shinkansen",
+      "meaning": "bullet train",
+      "register": "neutral",
+      "example": "新幹線は速いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "新幹線",
+          "reading": "しんかんせん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-basu",
+      "text": "バス",
+      "kana": "バス",
+      "romaji": "basu",
+      "meaning": "bus",
+      "register": "neutral",
+      "example": "バスは安いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "バス"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-hayai",
+      "text": "速い",
+      "kana": "はやい",
+      "romaji": "hayai",
+      "meaning": "fast",
+      "register": "neutral",
+      "example": "飛行機は速いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "速",
+          "reading": "はや"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-atatakai",
+      "text": "暖かい",
+      "kana": "あたたかい",
+      "romaji": "atatakai",
+      "meaning": "warm",
+      "register": "neutral",
+      "example": "今日は暖かいですね。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "暖",
+          "reading": "あたた"
+        },
+        {
+          "text": "かい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-yori",
+      "text": "より",
+      "kana": "より",
+      "romaji": "yori",
+      "meaning": "than",
+      "register": "neutral",
+      "example": "バスより速いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "より"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-nohouga",
+      "text": "のほうが",
+      "kana": "のほうが",
+      "romaji": "no hō ga",
+      "meaning": "(this one) is more …",
+      "register": "neutral",
+      "example": "飛行機のほうが速いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "のほうが"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-ichiban",
+      "text": "一番",
+      "kana": "いちばん",
+      "romaji": "ichiban",
+      "meaning": "the most, number one",
+      "register": "neutral",
+      "example": "雪が一番好きです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "一番",
+          "reading": "いちばん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-kara",
+      "text": "から",
+      "kana": "から",
+      "romaji": "kara",
+      "meaning": "from (a place or time)",
+      "register": "neutral",
+      "example": "東京から来ました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "から"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-made",
+      "text": "まで",
+      "kana": "まで",
+      "romaji": "made",
+      "meaning": "to, until",
+      "register": "neutral",
+      "example": "京都まで行きます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "まで"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-jikan",
+      "text": "時間",
+      "kana": "じかん",
+      "romaji": "jikan",
+      "meaning": "hour(s) (length of time)",
+      "register": "neutral",
+      "example": "二時間かかります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "時間",
+          "reading": "じかん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-kakarimasu",
+      "text": "かかります",
+      "kana": "かかります",
+      "romaji": "kakarimasu",
+      "meaning": "takes (time, money)",
+      "register": "polite",
+      "example": "バスで八時間かかります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "かかります"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-w-gurai",
+      "text": "ぐらい",
+      "kana": "ぐらい",
+      "romaji": "gurai",
+      "meaning": "about, around",
+      "register": "neutral",
+      "example": "一時間ぐらいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ぐらい"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n5-u10-lesson",
+      "kind": "phrase",
+      "words": [
+        "n5-u10-w-fuyuyasumi",
+        "n5-u10-w-hokkaidou",
+        "n5-u10-w-okinawa",
+        "n5-u10-w-yuki",
+        "n5-u10-w-tsumori",
+        "n5-u10-w-douyatte",
+        "n5-u10-w-hikouki",
+        "n5-u10-w-shinkansen",
+        "n5-u10-w-basu",
+        "n5-u10-w-hayai",
+        "n5-u10-w-atatakai",
+        "n5-u10-w-yori",
+        "n5-u10-w-nohouga",
+        "n5-u10-w-ichiban",
+        "n5-u10-w-kara",
+        "n5-u10-w-made",
+        "n5-u10-w-jikan",
+        "n5-u10-w-kakarimasu",
+        "n5-u10-w-gurai"
+      ],
+      "title": "Winter plans",
+      "description": "Compare things, say what you plan to do, and how you'll travel and how long it takes.",
+      "canDo": "Compare options and explain your travel plans",
+      "minutes": 20
+    }
+  ],
+  "letters": [
+    {
+      "id": "n5-u10-letter",
+      "title": "Getting to Kyoto",
+      "from": "Ren",
+      "subject": "京都への行き方",
+      "tokens": [
+        "n5-u07-w-toukyou",
+        "n5-u10-w-kara",
+        "n5-u05-w-kyouto",
+        "n5-u10-w-made",
+        "n5-u10-w-shinkansen",
+        "n5-u03-w-de",
+        "two",
+        "n5-u10-w-jikan",
+        "desu",
+        "n5-u10-w-basu",
+        "n5-u03-w-de",
+        "eight",
+        "n5-u10-w-jikan",
+        "desu",
+        "n5-u10-w-shinkansen",
+        "wa",
+        "n5-u10-w-basu",
+        "n5-u10-w-yori",
+        "n5-u05-w-takai",
+        "desu",
+        "n5-u05-w-demo",
+        "n5-u10-w-basu",
+        "n5-u10-w-nohouga",
+        "n5-u05-w-yasui",
+        "desu",
+        "me",
+        "wa",
+        "n5-u10-w-shinkansen",
+        "n5-u03-w-de",
+        "n5-u08-w-iku",
+        "n5-u10-w-tsumori",
+        "desu"
+      ],
+      "paragraphs": [
+        9,
+        14,
+        20,
+        25
+      ],
+      "prerequisites": [
+        "n5-u07-w-toukyou",
+        "n5-u10-w-kara",
+        "n5-u05-w-kyouto",
+        "n5-u10-w-made",
+        "n5-u10-w-shinkansen",
+        "n5-u03-w-de",
+        "two",
+        "n5-u10-w-jikan",
+        "desu",
+        "n5-u10-w-basu",
+        "eight",
+        "wa",
+        "n5-u10-w-yori",
+        "n5-u05-w-takai",
+        "n5-u05-w-demo",
+        "n5-u10-w-nohouga",
+        "n5-u05-w-yasui",
+        "me",
+        "n5-u08-w-iku",
+        "n5-u10-w-tsumori"
+      ],
+      "question": "How long does the bus take from Tokyo to Kyoto?",
+      "options": [
+        "Eight hours",
+        "Two hours",
+        "An hour and a half"
+      ],
+      "answer": 0
+    }
+  ],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n5-u10-g-compare",
+      "title": "より and のほうが",
+      "explanation": "A は B より + adjective: 'A is more … than B'. A のほうが + adjective: 'A is the more … one'. Of three or more: X が一番 + adjective. 飛行機は新幹線より速いです = 飛行機のほうが速いです.",
+      "example": "冬は沖縄のほうが暖かいです。",
+      "translation": "In winter, Okinawa is warmer."
+    },
+    {
+      "id": "n5-u10-g-tsumori",
+      "title": "つもり, で (means) and かかります",
+      "explanation": "Dictionary form + つもりです: what you intend to do. Means of travel + で: 飛行機で行きます. From A to B: A から B まで. How long: 時間がかかります; 何時間かかりますか asks how many hours.",
+      "example": "東京から京都まで新幹線で二時間かかります。",
+      "translation": "It takes two hours from Tokyo to Kyoto by bullet train."
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n5-u10-d",
+      "title": "Snow or sun?",
+      "scene": "Ren asks about your plans for the winter break.",
+      "lines": [
+        {
+          "speaker": "Ren",
+          "line": "{冬休|ふゆやす}みはどうしますか。",
+          "romaji": "Fuyuyasumi wa dō shimasu ka.",
+          "meaning": "What are you doing for the winter break?"
+        },
+        {
+          "speaker": "You",
+          "line": "{北海道|ほっかいどう}に{行|い}くつもりです。",
+          "romaji": "Hokkaidō ni iku tsumori desu.",
+          "meaning": "I'm planning to go to Hokkaido."
+        },
+        {
+          "speaker": "Ren",
+          "line": "いいですね。どうやって{行|い}きますか。",
+          "romaji": "Ii desu ne. Dōyatte ikimasu ka.",
+          "meaning": "Nice. How will you get there?"
+        },
+        {
+          "speaker": "You",
+          "line": "{飛行機|ひこうき}で{行|い}きます。{東京|とうきょう}から{一時間半|いちじかんはん}ぐらいです。",
+          "romaji": "Hikōki de ikimasu. Tōkyō kara ichijikan han gurai desu.",
+          "meaning": "By plane. It's about an hour and a half from Tokyo."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{冬|ふゆ}は{沖縄|おきなわ}のほうが{暖|あたた}かいですよ。",
+          "romaji": "Fuyu wa Okinawa no hō ga atatakai desu yo.",
+          "meaning": "In winter Okinawa is warmer, you know."
+        },
+        {
+          "speaker": "You",
+          "line": "でも、{私|わたし}は{雪|ゆき}が{一番|いちばん}{好|す}きです。",
+          "romaji": "Demo, watashi wa yuki ga ichiban suki desu.",
+          "meaning": "But I like snow best."
+        }
+      ],
+      "lesson": "n5-u10-lesson"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-u10-x-gist",
+      "dialogue": "n5-u10-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where are you planning to go?",
+      "options": [
+        "Okinawa",
+        "Hokkaido",
+        "Kyoto"
+      ],
+      "answer": 1,
+      "explain": "北海道に行くつもりです.",
+      "words": [
+        "n5-u10-w-tsumori"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-yori",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Compare the plane and the bullet train.",
+      "line": "{飛行機|ひこうき}は{新幹線|しんかんせん}＿＿{速|はや}いです。",
+      "meaning": "Planes are faster than bullet trains.",
+      "options": [
+        "より",
+        "のほうが",
+        "まで",
+        "から"
+      ],
+      "answer": 0,
+      "explain": "A は B より + adjective: A is more … than B.",
+      "words": [
+        "n5-u10-w-yori"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-how",
+      "dialogue": "n5-u10-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "How will you travel, and how long does it take?",
+      "options": [
+        "By plane, about 1½ hours",
+        "By train, two hours",
+        "By bus, eight hours"
+      ],
+      "answer": 0,
+      "explain": "飛行機で… 一時間半ぐらい.",
+      "words": [
+        "n5-u10-w-hikouki"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-de",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say you'll travel by bus.",
+      "line": "バス＿＿{行|い}きます。",
+      "meaning": "I'll go by bus.",
+      "options": [
+        "に",
+        "を",
+        "で",
+        "が"
+      ],
+      "answer": 2,
+      "explain": "で marks the means: バスで, 飛行機で.",
+      "words": [
+        "n5-u10-w-basu"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You're taking the bus.",
+      "line": "どうやって{行|い}きますか。",
+      "meaning": "How will you get there?",
+      "options": [
+        "バスに{行|い}きます。",
+        "{北海道|ほっかいどう}です。",
+        "{一時間|いちじかん}です。",
+        "バスで{行|い}きます。"
+      ],
+      "answer": 3,
+      "explain": "どうやって asks the means: answer with で.",
+      "words": [
+        "n5-u10-w-douyatte"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-tsumori",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say your plan for the break.",
+      "line": "{冬休|ふゆやす}みは{北海道|ほっかいどう}に{行|い}く＿＿です。",
+      "meaning": "I plan to go to Hokkaido over the winter break.",
+      "options": [
+        "つもり",
+        "から",
+        "より",
+        "ぐらい"
+      ],
+      "answer": 0,
+      "explain": "Dictionary form 行く + つもりです: intention.",
+      "words": [
+        "n5-u10-w-tsumori"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "It takes two hours from Tokyo to Kyoto.",
+      "tiles": [
+        "{東京|とうきょう}",
+        "から",
+        "{京都|きょうと}",
+        "まで",
+        "{二時間|にじかん}",
+        "かかります"
+      ],
+      "explain": "A から B まで + length of time + かかります.",
+      "words": [
+        "n5-u10-w-kakarimasu"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-x-tf",
+      "dialogue": "n5-u10-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Ren says Hokkaido is warmer in winter.",
+      "answer": false,
+      "explain": "冬は沖縄のほうが暖かいですよ: Okinawa is warmer.",
+      "words": [
+        "n5-u10-w-nohouga"
+      ],
+      "lesson": "n5-u10-lesson"
+    },
+    {
+      "id": "n5-u10-l-tf",
+      "type": "truefalse",
+      "skill": "reading",
+      "prompt": "The bus is more expensive than the bullet train.",
+      "answer": false,
+      "explain": "新幹線はバスより高い: the train costs more; バスのほうが安い.",
+      "words": [
+        "n5-u10-w-yori"
+      ],
+      "letter": "n5-u10-letter"
+    },
+    {
+      "id": "n5-u10-l-choice",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "How will Ren travel?",
+      "options": [
+        "By bus",
+        "By bullet train",
+        "By plane"
+      ],
+      "answer": 1,
+      "explain": "新幹線で行くつもりです.",
+      "words": [
+        "n5-u10-w-shinkansen"
+      ],
+      "letter": "n5-u10-letter"
+    }
+  ]
+}

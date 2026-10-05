@@ -1,0 +1,434 @@
+{
+  "id": "n5-u08",
+  "title": "N5 · Unit 8",
+  "lesson": {
+    "title": "Casual talk",
+    "description": "Plain forms for friends, と思う for opinions, and ないで for 'don't'.",
+    "canDo": "Talk casually with a friend and give a simple opinion",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u08-w-iku",
+      "{行|い}く",
+      "iku",
+      "go (plain form of 行きます)",
+      "casual",
+      "{明日|あした}、{行|い}く？"
+    ],
+    [
+      "n5-u08-w-ikanai",
+      "{行|い}かない",
+      "ikanai",
+      "not go; (as a question) want to go?",
+      "casual",
+      "{一緒|いっしょ}に{行|い}かない？"
+    ],
+    [
+      "n5-u08-w-suru",
+      "する",
+      "suru",
+      "do (plain form of します)",
+      "casual",
+      "バーベキューをする。"
+    ],
+    [
+      "n5-u08-w-kuru",
+      "{来|く}る",
+      "kuru",
+      "come (plain form of 来ます)",
+      "casual",
+      "レンさんも{来|く}る。"
+    ],
+    [
+      "n5-u08-w-taberu",
+      "{食|た}べる",
+      "taberu",
+      "eat (plain form of 食べます)",
+      "casual",
+      "{何|なに}を{食|た}べる？"
+    ],
+    [
+      "n5-u08-w-furu",
+      "{降|ふ}る",
+      "furu",
+      "fall (rain, snow)",
+      "neutral",
+      "{雨|あめ}が{降|ふ}る。"
+    ],
+    [
+      "n5-u08-w-to-omou",
+      "と{思|おも}う",
+      "to omou",
+      "I think (that …) (plain)",
+      "casual",
+      "{雨|あめ}が{降|ふ}ると{思|おも}う。"
+    ],
+    [
+      "n5-u08-w-to-omoimasu",
+      "と{思|おも}います",
+      "to omoimasu",
+      "I think (that …) (polite)",
+      "polite",
+      "おいしいと{思|おも}います。"
+    ],
+    [
+      "n5-u08-w-hima",
+      "{暇|ひま}",
+      "hima",
+      "free (not busy)",
+      "neutral",
+      "{明日|あした}、{暇|ひま}？"
+    ],
+    [
+      "n5-u08-w-isogashii",
+      "{忙|いそが}しい",
+      "isogashii",
+      "busy",
+      "neutral",
+      "{今日|きょう}は{忙|いそが}しいです。"
+    ],
+    [
+      "n5-u08-w-bbq",
+      "バーベキュー",
+      "bābekyū",
+      "barbecue",
+      "neutral",
+      "バーベキューをしませんか。"
+    ],
+    [
+      "n5-u08-w-un",
+      "うん",
+      "un",
+      "yeah (casual yes)",
+      "casual",
+      "うん、いいよ。"
+    ],
+    [
+      "n5-u08-w-uun",
+      "ううん",
+      "uun",
+      "nah (casual no)",
+      "casual",
+      "ううん、{大丈夫|だいじょうぶ}。"
+    ],
+    [
+      "n5-u08-w-yo",
+      "よ",
+      "yo",
+      "sentence ending: telling the listener something new",
+      "neutral",
+      "{暇|ひま}だよ。"
+    ],
+    [
+      "n5-u08-w-shinpai",
+      "{心配|しんぱい}しないで",
+      "shinpai shinaide",
+      "don't worry (casual)",
+      "casual",
+      "{心配|しんぱい}しないで。"
+    ],
+    [
+      "n5-u08-w-shinpai-kudasai",
+      "{心配|しんぱい}しないでください",
+      "shinpai shinaide kudasai",
+      "please don't worry (polite)",
+      "polite",
+      "{心配|しんぱい}しないでください。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u08-g-plain",
+      "title": "Plain forms: how friends talk",
+      "explanation": "With friends and family, Japanese drops です/ます. 行きます → 行く, 行きません → 行かない, します → する, 来ます → 来る. A question is just rising intonation: 行く？ An invitation: 行かない？ (= 行きませんか). Anime is mostly plain forms; use ます with people you don't know well.",
+      "example": "一緒に行かない？",
+      "translation": "Want to come along?"
+    },
+    {
+      "id": "n5-u08-g-omou",
+      "title": "と思う and ないで",
+      "explanation": "Plain form + と思う/と思います = 'I think that…': 雨が降ると思う. Plain negative + で (ください) = 'please don't': 心配しないでください.",
+      "example": "明日は雨が降ると思います。",
+      "translation": "I think it will rain tomorrow."
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u08-d",
+    "title": "A barbecue invitation",
+    "scene": "Hana calls out to you in the corridor, as friends do.",
+    "lines": [
+      {
+        "speaker": "Hana",
+        "line": "{明日|あした}、{暇|ひま}？",
+        "romaji": "Ashita, hima?",
+        "meaning": "Are you free tomorrow?"
+      },
+      {
+        "speaker": "You",
+        "line": "うん、{暇|ひま}だよ。",
+        "romaji": "Un, hima da yo.",
+        "meaning": "Yeah, I'm free."
+      },
+      {
+        "speaker": "Hana",
+        "line": "レンさんとバーベキューをする。{一緒|いっしょ}に{行|い}かない？",
+        "romaji": "Ren-san to bābekyū o suru. Issho ni ikanai?",
+        "meaning": "I'm having a barbecue with Ren. Want to come?"
+      },
+      {
+        "speaker": "You",
+        "line": "いいね。でも、{明日|あした}は{雨|あめ}が{降|ふ}ると{思|おも}う。",
+        "romaji": "Ii ne. Demo, ashita wa ame ga furu to omou.",
+        "meaning": "Sounds good. But I think it'll rain tomorrow."
+      },
+      {
+        "speaker": "Hana",
+        "line": "{大丈夫|だいじょうぶ}。レンさんのカフェでする。",
+        "romaji": "Daijōbu. Ren-san no kafe de suru.",
+        "meaning": "It's fine. We're doing it at Ren's café."
+      },
+      {
+        "speaker": "You",
+        "line": "じゃあ、{何|なに}か{持|も}って{行|い}く？",
+        "romaji": "Jaa, nanika motte iku?",
+        "meaning": "Then should I bring something?"
+      },
+      {
+        "speaker": "Hana",
+        "line": "ううん、{心配|しんぱい}しないで。",
+        "romaji": "Uun, shinpai shinaide.",
+        "meaning": "Nah, don't worry about it."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u08-x-gist",
+      "dialogue": "n5-u08-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where will the barbecue be?",
+      "options": [
+        "In a park",
+        "At Ren's café",
+        "At Hana's home"
+      ],
+      "answer": 1,
+      "explain": "レンさんのカフェでする.",
+      "words": [
+        "n5-u08-w-bbq"
+      ]
+    },
+    {
+      "id": "n5-u08-x-casual",
+      "type": "choice",
+      "skill": "politeness",
+      "prompt": "Which is the casual way to say 一緒に行きませんか?",
+      "options": [
+        "{一緒|いっしょ}に{行|い}かない？",
+        "{一緒|いっしょ}に{行|い}きない？",
+        "{一緒|いっしょ}に{行|い}くませんか？"
+      ],
+      "answer": 0,
+      "explain": "行きません → 行かない; as a question with rising tone it's an invitation.",
+      "words": [
+        "n5-u08-w-ikanai"
+      ]
+    },
+    {
+      "id": "n5-u08-x-omou",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Give your opinion about tomorrow's weather.",
+      "line": "{明日|あした}は{雨|あめ}が{降|ふ}る＿＿{思|おも}います。",
+      "meaning": "I think it will rain tomorrow.",
+      "options": [
+        "が",
+        "と",
+        "を",
+        "で"
+      ],
+      "answer": 1,
+      "explain": "Plain form + と思います: 'I think that…'.",
+      "words": [
+        "n5-u08-w-to-omoimasu"
+      ]
+    },
+    {
+      "id": "n5-u08-x-reply-free",
+      "type": "reply",
+      "skill": "listening",
+      "context": "Your close friend asks. You are free.",
+      "line": "{明日|あした}、{暇|ひま}？",
+      "meaning": "Free tomorrow?",
+      "options": [
+        "うん、{行|い}きました。",
+        "うん、{暇|ひま}だよ。",
+        "ううん、{雨|あめ}だよ。",
+        "{暇|ひま}です、ありがとう。"
+      ],
+      "answer": 1,
+      "explain": "うん + 暇だよ: casual yes, matching how you were asked.",
+      "words": [
+        "n5-u08-w-hima"
+      ]
+    },
+    {
+      "id": "n5-u08-x-weather",
+      "dialogue": "n5-u08-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What do you think the weather will do?",
+      "options": [
+        "Be sunny",
+        "Rain",
+        "Snow"
+      ],
+      "answer": 1,
+      "explain": "雨が降ると思う.",
+      "words": [
+        "n5-u08-w-furu"
+      ]
+    },
+    {
+      "id": "n5-u08-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Please don't worry.",
+      "tiles": [
+        "{心配|しんぱい}",
+        "しないで",
+        "ください"
+      ],
+      "explain": "Plain negative しない + で + ください.",
+      "words": [
+        "n5-u08-w-shinpai-kudasai"
+      ]
+    },
+    {
+      "id": "n5-u08-x-plain",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Tell a friend Ren is coming too.",
+      "line": "レンさんも＿＿よ。",
+      "meaning": "Ren's coming too.",
+      "options": [
+        "{来|く}る",
+        "{来|き}ます",
+        "{来|き}て",
+        "{来|き}ませんか"
+      ],
+      "answer": 0,
+      "explain": "With a friend, plain 来る + よ. 来ますよ is polite.",
+      "words": [
+        "n5-u08-w-kuru"
+      ]
+    },
+    {
+      "id": "n5-u08-x-tf",
+      "dialogue": "n5-u08-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Hana asks you to bring food.",
+      "answer": false,
+      "explain": "ううん、心配しないで: no need.",
+      "words": [
+        "n5-u08-w-shinpai"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "A message from Hana",
+    "from": "Hana",
+    "subject": "明日ね",
+    "sentences": [
+      [
+        "tomorrow",
+        "n5-u08-w-bbq",
+        "wo",
+        "n5-u08-w-suru",
+        "n5-u08-w-yo"
+      ],
+      [
+        "ren",
+        "san",
+        "mo",
+        "n5-u08-w-kuru"
+      ],
+      [
+        "rain",
+        "ga",
+        "n5-u08-w-furu",
+        "n5-u08-w-to-omou"
+      ],
+      [
+        "n5-u05-w-demo",
+        "n5-u03-w-kafe",
+        "n5-u03-w-de",
+        "n5-u08-w-suru"
+      ],
+      [
+        "n5-u08-w-shinpai"
+      ]
+    ],
+    "question": "Where will the barbecue be held?",
+    "options": [
+      "Outside in the rain",
+      "At the café",
+      "At the university"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u08-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "Ren is not coming.",
+        "answer": false,
+        "explain": "レンさんも来る: Ren is coming too.",
+        "words": [
+          "n5-u08-w-kuru"
+        ]
+      },
+      {
+        "id": "n5-u08-l-polite",
+        "type": "choice",
+        "skill": "politeness",
+        "prompt": "Hana writes casually. How would 来る look in a polite message?",
+        "options": [
+          "{来|き}ます",
+          "{来|く}るです",
+          "{来|き}た"
+        ],
+        "answer": 0,
+        "explain": "来る is the plain form of 来ます.",
+        "words": [
+          "n5-u08-w-kuru"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u08-w-ikanai": {
+      "text": "行く",
+      "kana": "いく"
+    },
+    "n5-u08-w-to-omou": {
+      "text": "思う",
+      "kana": "おもう"
+    },
+    "n5-u08-w-to-omoimasu": {
+      "text": "思う",
+      "kana": "おもう"
+    },
+    "n5-u08-w-shinpai": {
+      "text": "心配",
+      "kana": "しんぱい"
+    },
+    "n5-u08-w-shinpai-kudasai": {
+      "text": "心配",
+      "kana": "しんぱい"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://www.edrdg.org/pub/Nihongo/JMdict_e.gz",
+  "downloadedAt": "2026-10-05T18:24:08.259180+00:00",
+  "sha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "upstream": "EDRDG JMdict_e",
+  "license": "CC-BY-SA-4.0",
+  "documentation": "https://www.edrdg.org/jmdict/j_jmdict.html",
+  "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
+  "extractedAt": "2026-10-05T19:25:13.679198+00:00",
+  "subsetSha256": "1d53c91a631d9853f3c667527f684e005a30d26493fbab1008dda83faf812235",
+  "sourcePackHashes": {
+    "first-post.json": "62faa288b1a34443d6c96215dba799e392358568b6939a557eddd6bb0aa15b46",
+    "n5-u01.json": "ea32d31987a6332b2982327b96f534a0b90a4ccb79686aa95446136bf3250b86",
+    "n5-u02.json": "cd34f193139f9d2ce642f099c02d5a263a6c141dcd3df709e0a53e422171bf65",
+    "n5-u03.json": "a41419cc3a1103a3c7961f8601128f8ce0dc88155bfb880fcebcd6338354ae0b",
+    "n5-u04.json": "df036e8f4f3b494a19408ccca48b9018cce297bfbf376df6ff52a1259b829068",
+    "n5-u05.json": "d4e5f969ce60890c38a9324cbe02e9bcf8abf15811b354278cd7dbbd2dda1d59",
+    "n5-u06.json": "6acfd70037de44ee9e301e23dc0b7d5bfce305ef94c881ebcd25447d0659b1f8",
+    "n5-u07.json": "524f0ce60bd0a845897714857323be3e5951c7e9e077045aeca803dc3d420f12",
+    "n5-u08.json": "c1abc735a8d2680bc920f588566dd3b213d85c424876e1d7653b6533c6e8c5c2",
+    "n5-u09.json": "90897fa4f82600572a347b55063c072f46662124fccfa06ad2d315a38b34f4ea",
+    "n5-u10.json": "4bfb263ffc890560ce3353afea94de8f8c062e64e9d56fdb883747d97b5d907c",
+    "n5-u11.json": "abbd4751bf3873232374e4f1dbdc96e5d23aa26724663bdbe31ef60fa4df9bf3",
+    "n5-u12.json": "1541beed7003a225a207d8772cf1a0d790355eeefaab5d0b4376337b72691bd8"
+  },
+  "readingRestrictionsRespected": true,
+  "kanaComparison": "NFKC and katakana-to-hiragana only",
+  "scope": "Dictionary spelling/reading pairs only; not meaning, pronunciation in context, grammar or naturalness",
+  "previousSubsetForms": 222,
+  "subsetForms": 222,
+  "previousWordsWithDictionaryForm": 213,
+  "totalWords": 428,
+  "uniqueForms": 415,
+  "counts": {
+    "excluded-drill": 157,
+    "matched": 201,
+    "unmatched": 66,
+    "name-unverified": 4
+  }
+}

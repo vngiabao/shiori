@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {fields} from '../src/sync-model';
+let sql=fs.readFileSync('../Chinese/supabase/migrations/202610040001_learning_sync.sql','utf8').replaceAll('kiyo_','shiori_');
+sql=sql.replace("'attempts','sessions','memories','mistakes','profiles'",Object.keys(fields).map(k=>`'${k}'`).join(','));
+const start=sql.indexOf('      when \'attempts\'');const end=sql.indexOf("    end = '{}'::jsonb",start);
+sql=sql.slice(0,start)+Object.entries(fields).map(([k,v])=>`      when '${k}' then array[${v.map(x=>`'${x}'`).join(',')}]`).join('\n')+'\n'+sql.slice(end);
+sql=sql.replace("('attempts','sessions')","('attempts','media','readingRuns')");
+fs.mkdirSync('supabase/migrations',{recursive:true});fs.mkdirSync('supabase/tests',{recursive:true});
+fs.writeFileSync('supabase/migrations/202610050001_learning_sync.sql',sql);
+fs.writeFileSync('supabase/tests/rls.sql',fs.readFileSync('../Chinese/supabase/tests/rls.sql','utf8').replaceAll('kiyo_','shiori_').replaceAll('learner','local'));

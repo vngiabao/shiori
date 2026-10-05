@@ -1,0 +1,462 @@
+{
+  "id": "n5-u04",
+  "title": "N5 · Unit 4",
+  "lesson": {
+    "title": "Where is it?",
+    "description": "あります and います, where things are, and what you did yesterday.",
+    "canDo": "Ask where things and people are, and say what you did",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u04-w-arimasu",
+      "あります",
+      "arimasu",
+      "there is, is (things)",
+      "polite",
+      "{本|ほん}はつくえの{上|うえ}にあります。"
+    ],
+    [
+      "n5-u04-w-imasu",
+      "います",
+      "imasu",
+      "there is, is (people, animals)",
+      "polite",
+      "{猫|ねこ}がいます。"
+    ],
+    [
+      "n5-u04-w-ue",
+      "{上|うえ}",
+      "ue",
+      "on, above",
+      "neutral",
+      "つくえの{上|うえ}です。"
+    ],
+    [
+      "n5-u04-w-shita",
+      "{下|した}",
+      "shita",
+      "under, below",
+      "neutral",
+      "いすの{下|した}にあります。"
+    ],
+    [
+      "n5-u04-w-naka",
+      "{中|なか}",
+      "naka",
+      "inside",
+      "neutral",
+      "かばんの{中|なか}にあります。"
+    ],
+    [
+      "n5-u04-w-tonari",
+      "となり",
+      "tonari",
+      "next to",
+      "neutral",
+      "{本屋|ほんや}のとなりです。"
+    ],
+    [
+      "n5-u04-w-mae",
+      "{前|まえ}",
+      "mae",
+      "in front of",
+      "neutral",
+      "{大学|だいがく}の{前|まえ}にいます。"
+    ],
+    [
+      "n5-u04-w-doko",
+      "どこ",
+      "doko",
+      "where",
+      "neutral",
+      "かぎはどこですか。"
+    ],
+    [
+      "n5-u04-w-kagi",
+      "かぎ",
+      "kagi",
+      "key",
+      "neutral",
+      "かぎがありません。"
+    ],
+    [
+      "n5-u04-w-kaban",
+      "かばん",
+      "kaban",
+      "bag",
+      "neutral",
+      "かばんの{中|なか}です。"
+    ],
+    [
+      "n5-u04-w-tsukue",
+      "つくえ",
+      "tsukue",
+      "desk",
+      "neutral",
+      "つくえの{上|うえ}にあります。"
+    ],
+    [
+      "n5-u04-w-neko",
+      "{猫|ねこ}",
+      "neko",
+      "cat",
+      "neutral",
+      "カフェに{猫|ねこ}がいます。"
+    ],
+    [
+      "n5-u04-w-kinou",
+      "{昨日|きのう}",
+      "kinō",
+      "yesterday",
+      "neutral",
+      "{昨日|きのう}、{映画|えいが}を{見|み}ました。"
+    ],
+    [
+      "n5-u04-w-mimashita",
+      "{見|み}ました",
+      "mimashita",
+      "watched, saw",
+      "polite",
+      "{映画|えいが}を{見|み}ました。"
+    ],
+    [
+      "n5-u04-w-ikimashita",
+      "{行|い}きました",
+      "ikimashita",
+      "went",
+      "polite",
+      "カフェに{行|い}きました。"
+    ],
+    [
+      "n5-u04-w-imashita",
+      "いました",
+      "imashita",
+      "was (people, animals)",
+      "polite",
+      "{猫|ねこ}がいました。"
+    ],
+    [
+      "n5-u04-w-deshita",
+      "でした",
+      "deshita",
+      "was (polite past of です)",
+      "polite",
+      "いい{天気|てんき}でした。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u04-g-aru-iru",
+      "title": "あります and います",
+      "explanation": "あります for things and plants, います for people and animals. Where something is: X は Y の 上/下/中/となり/前 に あります/います. Asking: X はどこですか or X はどこにありますか.",
+      "example": "猫はつくえの下にいます。",
+      "translation": "The cat is under the desk."
+    },
+    {
+      "id": "n5-u04-g-mashita",
+      "title": "Past: ました and でした",
+      "explanation": "ます becomes ました (見ました, 行きました); ません becomes ませんでした. です becomes でした. Time words like 昨日 usually come first.",
+      "example": "昨日、カフェに行きました。",
+      "translation": "Yesterday I went to the café."
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u04-d",
+    "title": "The missing key",
+    "scene": "You're about to leave Ren's café when you can't find your key.",
+    "lines": [
+      {
+        "speaker": "You",
+        "line": "レンさん、すみません。かぎがありません。",
+        "romaji": "Ren-san, sumimasen. Kagi ga arimasen.",
+        "meaning": "Ren, sorry. I can't find my key."
+      },
+      {
+        "speaker": "Ren",
+        "line": "かぎですか。かばんの{中|なか}は？",
+        "romaji": "Kagi desu ka. Kaban no naka wa?",
+        "meaning": "Your key? Is it in your bag?"
+      },
+      {
+        "speaker": "You",
+        "line": "{中|なか}にはありません。",
+        "romaji": "Naka ni wa arimasen.",
+        "meaning": "It's not in there."
+      },
+      {
+        "speaker": "Ren",
+        "line": "あ、あのつくえの{上|うえ}にありますよ。",
+        "romaji": "A, ano tsukue no ue ni arimasu yo.",
+        "meaning": "Oh, it's on that desk over there."
+      },
+      {
+        "speaker": "You",
+        "line": "あ、ありました。ありがとうございます。",
+        "romaji": "A, arimashita. Arigatō gozaimasu.",
+        "meaning": "Oh, there it is. Thank you."
+      },
+      {
+        "speaker": "Ren",
+        "line": "つくえの{下|した}に{猫|ねこ}もいますよ。",
+        "romaji": "Tsukue no shita ni neko mo imasu yo.",
+        "meaning": "There's a cat under the desk, too."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u04-x-gist",
+      "dialogue": "n5-u04-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where is the key?",
+      "options": [
+        "In the bag",
+        "On the desk",
+        "Under the desk"
+      ],
+      "answer": 1,
+      "explain": "つくえの上にあります: on the desk.",
+      "words": [
+        "n5-u04-w-ue"
+      ]
+    },
+    {
+      "id": "n5-u04-x-iru",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say a cat is under the desk.",
+      "line": "{猫|ねこ}がつくえの{下|した}に＿＿。",
+      "meaning": "There is a cat under the desk.",
+      "options": [
+        "あります",
+        "います",
+        "です",
+        "します"
+      ],
+      "answer": 1,
+      "explain": "Animals and people take います; things take あります.",
+      "words": [
+        "n5-u04-w-imasu"
+      ]
+    },
+    {
+      "id": "n5-u04-x-cat",
+      "dialogue": "n5-u04-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where is the cat?",
+      "options": [
+        "On the desk",
+        "In the bag",
+        "Under the desk"
+      ],
+      "answer": 2,
+      "explain": "つくえの下に猫もいますよ.",
+      "words": [
+        "n5-u04-w-shita"
+      ]
+    },
+    {
+      "id": "n5-u04-x-naka",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "The key is inside the bag.",
+      "line": "かぎはかばんの＿＿にあります。",
+      "meaning": "The key is in the bag.",
+      "options": [
+        "{上|うえ}",
+        "{中|なか}",
+        "{下|した}",
+        "{前|まえ}"
+      ],
+      "answer": 1,
+      "explain": "中 (naka): inside.",
+      "words": [
+        "n5-u04-w-naka"
+      ]
+    },
+    {
+      "id": "n5-u04-x-reply-where",
+      "type": "reply",
+      "skill": "listening",
+      "context": "Your key is on the desk.",
+      "line": "かぎはどこですか。",
+      "meaning": "Where is the key?",
+      "options": [
+        "つくえの{上|うえ}にいます。",
+        "つくえの{上|うえ}にあります。",
+        "はい、あります。",
+        "かぎです。"
+      ],
+      "answer": 1,
+      "explain": "A key is a thing, so あります, not います.",
+      "words": [
+        "n5-u04-w-arimasu"
+      ]
+    },
+    {
+      "id": "n5-u04-x-past",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Yesterday you watched a film.",
+      "line": "{昨日|きのう}、{映画|えいが}を＿＿。",
+      "meaning": "I watched a film yesterday.",
+      "options": [
+        "{見|み}ます",
+        "{見|み}ませんか",
+        "{見|み}ました",
+        "{見|み}ません"
+      ],
+      "answer": 2,
+      "explain": "昨日 points to the past: 見ました.",
+      "words": [
+        "n5-u04-w-mimashita"
+      ]
+    },
+    {
+      "id": "n5-u04-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "The cat is under the desk.",
+      "tiles": [
+        "{猫|ねこ}",
+        "は",
+        "つくえ",
+        "の",
+        "{下|した}",
+        "に",
+        "います"
+      ],
+      "explain": "X は, place の 下 に, then います for an animal.",
+      "words": [
+        "n5-u04-w-neko"
+      ]
+    },
+    {
+      "id": "n5-u04-x-tf",
+      "dialogue": "n5-u04-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "The key was in the bag.",
+      "answer": false,
+      "explain": "中にはありません: not in the bag.",
+      "words": [
+        "n5-u04-w-kaban"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "Yesterday at the café",
+    "from": "Yui",
+    "subject": "昨日のこと",
+    "sentences": [
+      [
+        "hello"
+      ],
+      [
+        "n5-u04-w-kinou",
+        "wa",
+        "hana",
+        "san",
+        "to",
+        "n5-u03-w-kafe",
+        "n5-u03-w-ni",
+        "n5-u04-w-ikimashita"
+      ],
+      [
+        "n5-u03-w-kafe",
+        "n5-u03-w-de",
+        "n5-u03-w-eiga",
+        "wo",
+        "n5-u04-w-mimashita"
+      ],
+      [
+        "n5-u03-w-kafe",
+        "n5-u03-w-ni",
+        "wa",
+        "n5-u04-w-neko",
+        "ga",
+        "n5-u04-w-imasu"
+      ],
+      [
+        "n5-u04-w-neko",
+        "wa",
+        "n5-u04-w-tsukue",
+        "no-part",
+        "n5-u04-w-ue",
+        "n5-u03-w-ni",
+        "n5-u04-w-imashita"
+      ],
+      [
+        "see-you"
+      ]
+    ],
+    "question": "What did Yui do yesterday?",
+    "options": [
+      "Studied at home",
+      "Watched a film at the café",
+      "Read a book at the shop"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u04-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "The cat was under the desk.",
+        "answer": false,
+        "explain": "つくえの上にいました: on the desk.",
+        "words": [
+          "n5-u04-w-ue"
+        ]
+      },
+      {
+        "id": "n5-u04-l-cloze",
+        "type": "cloze",
+        "skill": "reading",
+        "context": "Fill the gap: the café has a cat.",
+        "line": "カフェには{猫|ねこ}が＿＿。",
+        "meaning": "There is a cat at the café.",
+        "options": [
+          "あります",
+          "います",
+          "でした",
+          "します"
+        ],
+        "answer": 1,
+        "explain": "A cat is an animal: います.",
+        "words": [
+          "n5-u04-w-imasu"
+        ]
+      },
+      {
+        "id": "n5-u04-l-who",
+        "type": "choice",
+        "skill": "reading",
+        "prompt": "Who went with Yui?",
+        "options": [
+          "Ren",
+          "Hana",
+          "Satō-sensei"
+        ],
+        "answer": 1,
+        "explain": "ハナさんと: with Hana. と means 'with'.",
+        "words": [
+          "to"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u04-w-mimashita": {
+      "text": "見る",
+      "kana": "みる"
+    },
+    "n5-u04-w-ikimashita": {
+      "text": "行く",
+      "kana": "いく"
+    }
+  }
+}

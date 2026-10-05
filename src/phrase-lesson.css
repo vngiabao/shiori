@@ -1,0 +1,344 @@
+/* Phrase lessons and letter tasks: word lists, scenes, gaps, tiles, transcripts.
+   Builds on the focus-shell rules in study-layout.css; tokens only. */
+
+.task-context {
+  margin: -16px auto 22px;
+  max-width: 56ch;
+  color: var(--ink-2);
+  font-size: 17px;
+}
+.phrase-lesson .lesson-main > .button.secondary {
+  margin: 0 auto 20px;
+}
+
+/* New words: a short vocabulary list, the way a textbook page sets them out. */
+.word-list {
+  list-style: none;
+  margin: 0 0 28px;
+  padding: 0;
+  text-align: left;
+  border-top: 1px solid var(--rule);
+}
+.word-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.word-list-ja .japanese {
+  font: 30px/1.6 var(--font-japanese);
+}
+.word-list-meta {
+  display: grid;
+  gap: 2px;
+  font-size: 16px;
+}
+.word-list-meta .romaji {
+  font-size: 15px;
+}
+.word-list-meta .register {
+  justify-self: start;
+  margin-top: 4px;
+}
+
+/* The first listen: speaker names with their words still covered. */
+.scene-lines {
+  list-style: none;
+  margin: 0 auto 28px;
+  padding: 0;
+  max-width: 520px;
+  text-align: left;
+}
+.scene-lines li {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink-3);
+}
+.scene-lines strong {
+  font-size: 15px;
+}
+.scene-lines .masked {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--rule);
+  transform-origin: left;
+}
+.scene-lines li.speaking {
+  color: var(--ink);
+}
+.scene-lines li.speaking .masked {
+  background: var(--accent);
+}
+.phrase-lesson .actions {
+  justify-content: center;
+}
+
+/* A sentence with one gap; the chosen answer drops into it. */
+.cloze-line {
+  margin: 8px 0 28px;
+  font: 32px/2 var(--font-japanese);
+}
+.cloze-gap {
+  display: inline-block;
+  min-width: 3.2em;
+  margin: 0 0.15em;
+  padding: 0 0.2em;
+  border-bottom: 2px solid var(--accent);
+  color: var(--accent);
+  line-height: 1.5;
+}
+.cloze-gap.filled {
+  border-bottom-style: solid;
+}
+.reply-line,
+.tf-statement {
+  margin: 14px 0 24px;
+  font-size: 22px;
+}
+.reply-line {
+  font-family: var(--font-japanese);
+}
+.phrase-lesson .quiz-prompt + .hint-button,
+.phrase-lesson .audio-control + .hint-button {
+  margin-top: 12px;
+}
+.phrase-lesson .answer-option .furigana {
+  font-family: var(--font-japanese);
+  font-size: 19px;
+}
+.tf-options {
+  grid-template-columns: 1fr 1fr;
+}
+.tf-options .answer-option {
+  justify-content: center;
+  font-size: 19px;
+}
+.tf-options .answer-option > span:first-child {
+  border: 0;
+  font-size: 22px;
+  color: var(--ink-2);
+}
+
+/* Build the sentence: tap tiles into the answer row, tap again to remove. */
+.order-answer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  min-height: 72px;
+  margin: 0 0 18px;
+  padding: 12px;
+  border-bottom: 2px solid var(--rule);
+}
+.order-placeholder {
+  align-self: center;
+  color: var(--ink-3);
+  font-size: 15px;
+}
+.order-pool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.order-tile {
+  min-height: 52px;
+  padding: 4px 16px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--card);
+  font: 22px/1.8 var(--font-japanese);
+  color: var(--ink);
+  transition:
+    border-color 120ms var(--ease),
+    transform 120ms var(--ease);
+}
+.order-tile:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.order-tile:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.order-tile:disabled:not(.placed) {
+  opacity: 0.3;
+}
+.order-tile.placed {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+
+/* Feedback and the transcript that follows the last question on a scene. */
+.feedback-line {
+  display: grid;
+  font: 19px/1.8 var(--font-japanese);
+}
+.feedback-line small {
+  font: 14px/1.4 var(--font-ui);
+  color: var(--ink-2);
+}
+.transcript {
+  margin: 28px 0 0;
+  text-align: left;
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+}
+.transcript h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+.transcript ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.transcript li {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.transcript li strong {
+  font-size: 14px;
+  color: var(--ink-2);
+  padding-top: 6px;
+}
+.transcript li > span {
+  display: grid;
+  font: 19px/1.8 var(--font-japanese);
+}
+.transcript small {
+  font: 14px/1.45 var(--font-ui);
+  color: var(--ink-2);
+}
+
+/* Letter tasks: comprehension after reading, answered inline. */
+.letter-tasks {
+  margin-top: 40px;
+  border-top: 1px solid var(--rule);
+  padding-top: 24px;
+}
+.letter-tasks > h2 {
+  margin: 0 0 6px;
+}
+.letter-tasks > p {
+  margin: 0 0 18px;
+  color: var(--ink-2);
+}
+.letter-task {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.letter-task h3 {
+  margin: 0 0 12px;
+  font: 600 17px/1.5 var(--font-ui);
+}
+.letter-task .cloze-line {
+  margin: 0 0 14px;
+  font-size: 24px;
+}
+.letter-task .answer-options {
+  gap: 8px;
+}
+.letter-task-result {
+  margin: 12px 0 0;
+  font-size: 15px;
+  color: var(--ink-2);
+}
+.letter-task-result strong {
+  color: var(--good);
+}
+.letter-task-result.wrong strong {
+  color: var(--ribbon);
+}
+
+@media (max-width: 767px) {
+  .task-context {
+    margin-top: -10px;
+    font-size: 16px;
+  }
+  .word-list li {
+    grid-template-columns: 1fr auto;
+    gap: 6px 12px;
+  }
+  .word-list-meta {
+    grid-column: 1;
+  }
+  .word-list li .audio-control {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  .cloze-line {
+    font-size: 26px;
+  }
+  .order-tile {
+    font-size: 19px;
+    padding: 2px 12px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .order-tile {
+    transition: none;
+  }
+}
+
+/* The route to films without subtitles (Listen page). */
+.subtitle-route {
+  margin: 8px 0 56px;
+}
+.subtitle-route > h2 {
+  margin: 0 0 10px;
+}
+.route-honest,
+.route-reading {
+  max-width: 70ch;
+  color: var(--ink-2);
+}
+.subtitle-route ol {
+  margin: 24px 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--rule);
+}
+.subtitle-route li {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.subtitle-route li.here {
+  background: linear-gradient(90deg, var(--accent-wash), transparent 70%);
+}
+.route-number {
+  padding-left: 10px;
+  font: 500 28px/1 var(--font-display);
+  color: var(--ink-2);
+}
+.subtitle-route h3 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+.subtitle-route h3 small {
+  margin-left: 8px;
+  font: 500 14px var(--font-ui);
+  color: var(--ink-2);
+}
+.subtitle-route li p {
+  margin: 4px 0;
+  max-width: 68ch;
+}
+.route-here {
+  font-weight: 600;
+  color: var(--accent);
+}
+.route-next {
+  font-size: 15px;
+  color: var(--ink-2);
+}

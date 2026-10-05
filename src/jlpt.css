@@ -1,0 +1,591 @@
+/* JLPT is a focused study workspace inside the established correspondence world. */
+.jlpt-room {
+  margin-bottom: 48px;
+}
+.jlpt-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+.jlpt-title h1 {
+  margin: 0 0 8px;
+  font-size: clamp(38px, 4vw, 54px);
+}
+.jlpt-title p {
+  margin: 0;
+  color: var(--ink-2);
+}
+.jlpt-title a,
+.jlpt-source-desk a,
+.jlpt-assignment-source a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.jlpt-levels {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 28px;
+}
+.jlpt-levels a {
+  padding: 14px 18px;
+  border-bottom: 3px solid transparent;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.jlpt-levels a span {
+  display: block;
+  font: 14px/1.4 var(--font-ui);
+  color: var(--ink-2);
+  margin-top: 4px;
+}
+.jlpt-levels a[aria-current] {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+.jlpt-brief {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(320px, 1fr);
+  gap: 32px;
+  padding: 32px 38px;
+  background: var(--brand-stage);
+  color: var(--brand-on);
+  border-radius: var(--radius-panel);
+  align-items: center;
+  margin-bottom: 32px;
+}
+.jlpt-brief h2 {
+  font-size: 36px;
+  margin: 0 0 14px;
+}
+.jlpt-brief > div > p {
+  color: var(--brand-soft);
+  max-width: 52ch;
+}
+.jlpt-brief .button {
+  background: var(--brand-on);
+  color: var(--brand-deep);
+  margin-top: 10px;
+}
+.jlpt-brief .button:hover {
+  background: var(--brand-soft);
+  color: var(--brand-deep);
+}
+.jlpt-brief .button:focus-visible {
+  outline-color: var(--metal);
+}
+.jlpt-cycle {
+  font-weight: 600;
+}
+.jlpt-teacher {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.jlpt-teacher img {
+  display: block;
+  width: 180px;
+  height: 230px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.jlpt-teacher p[lang] {
+  font: 18px/1.8 var(--font-japanese);
+  margin: 0 0 10px;
+}
+.jlpt-teacher p:last-child {
+  font-size: 14px;
+  margin: 0;
+}
+.jlpt-teacher.compact {
+  background: var(--accent-wash);
+  padding: 12px 18px;
+  border-radius: var(--radius-control);
+  margin: 18px 0 24px;
+}
+.jlpt-teacher.compact img {
+  width: 66px;
+  height: 86px;
+}
+.jlpt-teacher.compact p[lang] {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+.jlpt-workspace {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+.jlpt-syllabus h2 {
+  font-size: 27px;
+  margin: 0 0 16px;
+}
+.jlpt-syllabus ol {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+.jlpt-syllabus li {
+  border-bottom: 1px solid var(--rule);
+}
+.jlpt-syllabus li button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-radius: 8px;
+  padding: 16px 10px;
+}
+.jlpt-syllabus li button:hover {
+  background: var(--card);
+}
+.jlpt-syllabus li button[aria-current] {
+  background: var(--accent-wash);
+}
+.jlpt-step-number {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  color: var(--accent);
+  font-weight: 600;
+}
+.jlpt-syllabus small {
+  display: block;
+  color: var(--ink-2);
+  font-size: 13px;
+  line-height: 1.5;
+}
+.jlpt-syllabus > p {
+  font-size: 14px;
+  color: var(--ink-2);
+  margin-top: 20px;
+}
+.jlpt-assignment {
+  padding: 28px 32px;
+  background: var(--card);
+  border-radius: var(--radius-panel);
+  scroll-margin-top: 30px;
+  min-width: 0;
+}
+.jlpt-assignment h2 {
+  font-size: 32px;
+  margin: 0 0 20px;
+}
+.jlpt-assignment p,
+.jlpt-assignment li {
+  max-width: 70ch;
+}
+.jlpt-assignment li {
+  margin-bottom: 8px;
+}
+.jlpt-entry label {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 0;
+}
+.jlpt-entry input {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  accent-color: var(--accent);
+}
+.jlpt-entry .button {
+  margin-top: 20px;
+}
+.jlpt-focus {
+  padding-left: 22px;
+  color: var(--accent);
+}
+.jlpt-log-form {
+  padding-top: 18px;
+  margin-top: 22px;
+  border-top: 1px solid var(--rule);
+}
+.jlpt-log-form > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 140px;
+  gap: 18px;
+}
+.jlpt-log-form label,
+.jlpt-source-desk label {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 18px;
+}
+.jlpt-log-form input,
+.jlpt-log-form textarea,
+.jlpt-source-desk input,
+.jlpt-source-desk select {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin-top: 6px;
+  font-weight: 400;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+.jlpt-log-form .muted {
+  font-size: 13px;
+}
+.jlpt-checkpoint,
+.jlpt-next-cycle {
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--rule);
+}
+.jlpt-checkpoint h3,
+.jlpt-next-cycle h3 {
+  font-size: 25px;
+  margin: 0 0 10px;
+}
+.jlpt-saved {
+  color: var(--good);
+  font-weight: 600;
+}
+.jlpt-error {
+  color: var(--ribbon);
+  font-weight: 600;
+}
+.jlpt-notice {
+  padding: 16px 20px;
+  background: var(--violet-wash);
+  border-radius: 8px;
+}
+.jlpt-source-desk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid var(--rule);
+}
+.jlpt-source-desk h2,
+.jlpt-history h2 {
+  font-size: 32px;
+  margin: 0 0 14px;
+}
+.jlpt-source-desk ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.jlpt-source-desk li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.jlpt-source-desk li:first-child {
+  padding-top: 0;
+}
+.jlpt-source-desk li p {
+  font-size: 14px;
+  color: var(--ink-2);
+  margin: 7px 0 0;
+}
+.jlpt-source-desk .muted {
+  font-size: 14px;
+}
+.jlpt-history {
+  margin-top: 40px;
+}
+.jlpt-history ul {
+  list-style: none;
+  padding: 0;
+}
+.jlpt-history li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.jlpt-history small {
+  display: block;
+  color: var(--ink-2);
+}
+.jlpt-history details {
+  width: 100%;
+}
+.jlpt-history details p {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.jlpt-provenance {
+  margin-top: 32px;
+  padding-top: 22px;
+  border-top: 1px solid var(--rule);
+  font-size: 14px;
+  color: var(--ink-2);
+  max-width: 90ch;
+}
+.jlpt-exam {
+  max-width: 850px;
+  margin: 0 auto;
+  background: var(--card);
+  border-radius: 16px;
+  padding: 32px 40px;
+}
+.jlpt-exam-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 20px;
+}
+.jlpt-exam-heading h2 {
+  font-size: 34px;
+  margin: 0 0 8px;
+}
+.jlpt-exam-heading p {
+  color: var(--ink-2);
+  margin: 0;
+}
+.jlpt-timer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: var(--accent);
+  font: 600 26px/1.3 var(--font-ui);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.jlpt-timer.urgent {
+  color: var(--ribbon);
+}
+.jlpt-exam > .muted {
+  font-size: 14px;
+}
+.jlpt-passage {
+  white-space: pre-wrap;
+  font: 20px/2.1 var(--font-japanese);
+  padding: 24px;
+  background: var(--paper);
+  border-radius: 8px;
+  margin: 26px 0;
+}
+.jlpt-question {
+  border: 0;
+  padding: 0;
+  margin-top: 24px;
+  min-width: 0;
+}
+.jlpt-question legend {
+  font: 20px/1.9 var(--font-japanese);
+  margin-bottom: 20px;
+}
+.jlpt-question label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.jlpt-question label.selected {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+}
+.jlpt-question input {
+  accent-color: var(--accent);
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.jlpt-question span {
+  font: 19px/1.8 var(--font-japanese);
+}
+.jlpt-question-actions {
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.jlpt-stop {
+  margin-top: 24px;
+  color: var(--ink-2);
+}
+.jlpt-answer-review {
+  padding-left: 22px;
+}
+.jlpt-answer-review > li {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--rule);
+}
+.jlpt-answer-review h4 {
+  margin: 0;
+  font-size: 17px;
+}
+.jlpt-answer-review p[lang] {
+  line-height: 2;
+  font-family: var(--font-japanese);
+}
+@media (min-width: 851px) and (max-width: 1200px) {
+  .app-header {
+    padding-inline: 24px;
+    gap: 14px;
+  }
+  .app-header .brand .brand-logo {
+    width: 124px;
+  }
+  .app-header nav {
+    gap: 0;
+  }
+  .app-header nav a {
+    padding-inline: 8px;
+    font-size: 15px;
+  }
+  .header-tools {
+    gap: 12px;
+  }
+}
+@media (max-width: 1000px) {
+  .jlpt-brief {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .jlpt-teacher img {
+    width: 115px;
+    height: 145px;
+  }
+  .jlpt-teacher {
+    max-width: 580px;
+  }
+  .jlpt-workspace {
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 22px;
+  }
+  .jlpt-assignment {
+    padding: 24px;
+  }
+}
+@media (max-width: 700px) {
+  .jlpt-title {
+    display: block;
+  }
+  .jlpt-title > a {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .jlpt-levels a {
+    padding: 12px 6px;
+    text-align: center;
+    font-size: 22px;
+  }
+  .jlpt-levels a span {
+    font-size: 11px;
+  }
+  .jlpt-brief {
+    padding: 24px;
+  }
+  .jlpt-brief h2 {
+    font-size: 30px;
+  }
+  .jlpt-brief .button {
+    font-size: 15px;
+  }
+  .jlpt-teacher img {
+    width: 96px;
+    height: 122px;
+  }
+  .jlpt-teacher p[lang] {
+    font-size: 16px;
+  }
+  .jlpt-teacher p:last-child {
+    font-size: 13px;
+  }
+  .jlpt-workspace {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .jlpt-syllabus ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 8px;
+  }
+  .jlpt-syllabus li button {
+    height: 100%;
+    padding: 12px 4px;
+    gap: 5px;
+    font-size: 14px;
+  }
+  .jlpt-syllabus small {
+    font-size: 11px;
+  }
+  .jlpt-step-number {
+    width: 24px;
+  }
+  .jlpt-syllabus > p {
+    font-size: 13px;
+  }
+  .jlpt-assignment {
+    padding: 22px 18px;
+  }
+  .jlpt-assignment h2 {
+    font-size: 28px;
+  }
+  .jlpt-log-form > div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .jlpt-source-desk {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 32px;
+  }
+  .jlpt-history li {
+    align-items: start;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .jlpt-exam {
+    padding: 24px 18px;
+  }
+  .jlpt-exam-heading {
+    flex-wrap: wrap;
+  }
+  .jlpt-exam-heading h2 {
+    font-size: 29px;
+  }
+  .jlpt-question legend {
+    font-size: 18px;
+  }
+  .jlpt-passage {
+    padding: 16px;
+    font-size: 18px;
+  }
+  .jlpt-question-actions {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .jlpt-question-actions .button {
+    font-size: 15px;
+  }
+  .jlpt-teacher.compact {
+    padding: 10px;
+  }
+  .jlpt-teacher.compact img {
+    width: 52px;
+    height: 72px;
+  }
+  .jlpt-teacher.compact p[lang] {
+    font-size: 14px;
+  }
+}

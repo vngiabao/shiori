@@ -1,0 +1,431 @@
+{
+  "id": "n5-u09",
+  "title": "N5 · Unit 9",
+  "lesson": {
+    "title": "Last weekend",
+    "description": "Casual past forms, giving a reason with から, and もう / まだ.",
+    "canDo": "Tell a friend what you did and why",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u09-w-tabeta",
+      "{食|た}べた",
+      "tabeta",
+      "ate (plain past of 食べます)",
+      "casual",
+      "ラーメンを{食|た}べた。"
+    ],
+    [
+      "n5-u09-w-itta",
+      "{行|い}った",
+      "itta",
+      "went (plain past of 行きます)",
+      "casual",
+      "カフェに{行|い}った。"
+    ],
+    [
+      "n5-u09-w-mita",
+      "{見|み}た",
+      "mita",
+      "watched (plain past of 見ます)",
+      "casual",
+      "{映画|えいが}を{見|み}た。"
+    ],
+    [
+      "n5-u09-w-shita",
+      "した",
+      "shita",
+      "did (plain past of します)",
+      "casual",
+      "{週末|しゅうまつ}、{何|なに}した？"
+    ],
+    [
+      "n5-u09-w-neta",
+      "{寝|ね}た",
+      "neta",
+      "slept, went to bed (plain past)",
+      "casual",
+      "{早|はや}く{寝|ね}た。"
+    ],
+    [
+      "n5-u09-w-tsukareta",
+      "{疲|つか}れた",
+      "tsukareta",
+      "got tired, am tired",
+      "casual",
+      "{今日|きょう}は{疲|つか}れた。"
+    ],
+    [
+      "n5-u09-w-owatta",
+      "{終|お}わった",
+      "owatta",
+      "finished (plain past)",
+      "casual",
+      "{宿題|しゅくだい}が{終|お}わった。"
+    ],
+    [
+      "n5-u09-w-shukudai",
+      "{宿題|しゅくだい}",
+      "shukudai",
+      "homework",
+      "neutral",
+      "{宿題|しゅくだい}が{多|おお}いです。"
+    ],
+    [
+      "n5-u09-w-ramen",
+      "ラーメン",
+      "rāmen",
+      "ramen",
+      "neutral",
+      "ラーメンが{好|す}きです。"
+    ],
+    [
+      "n5-u09-w-kara",
+      "から",
+      "kara",
+      "because, so (after a reason)",
+      "neutral",
+      "{疲|つか}れたから、{寝|ね}た。"
+    ],
+    [
+      "n5-u09-w-mou",
+      "もう",
+      "mō",
+      "already",
+      "neutral",
+      "もう{終|お}わった。"
+    ],
+    [
+      "n5-u09-w-mada",
+      "まだ",
+      "mada",
+      "not yet, still",
+      "neutral",
+      "まだです。"
+    ],
+    [
+      "n5-u09-w-hayaku",
+      "{早|はや}く",
+      "hayaku",
+      "early",
+      "neutral",
+      "{早|はや}く{寝|ね}ました。"
+    ],
+    [
+      "n5-u09-w-oishikatta",
+      "おいしかった",
+      "oishikatta",
+      "was delicious",
+      "casual",
+      "ラーメンはおいしかった。"
+    ],
+    [
+      "n5-u09-w-takakatta",
+      "{高|たか}かった",
+      "takakatta",
+      "was expensive",
+      "casual",
+      "でも、{高|たか}かった。"
+    ],
+    [
+      "n5-u09-w-ii-ne",
+      "いいね",
+      "ii ne",
+      "nice, sounds good (casual)",
+      "casual",
+      "いいね！"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u09-g-plain-past",
+      "title": "Plain past: た",
+      "explanation": "The plain past is the て-form with た instead of て: 食べて → 食べた, 行って → 行った, して → した, 寝て → 寝た. Polite equivalents: 食べました, 行きました. い adjectives: おいしかった.",
+      "example": "週末、何した？",
+      "translation": "What did you do at the weekend?"
+    },
+    {
+      "id": "n5-u09-g-kara",
+      "title": "から (because) and もう / まだ",
+      "explanation": "Reason + から, result: 疲れたから、寝た ('I was tired, so I slept'). The reason comes first. もう + past = already; まだ = not yet, often answered alone: まだ.",
+      "example": "宿題はもう終わった？",
+      "translation": "Have you finished your homework yet?"
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u09-d",
+    "title": "Monday morning",
+    "scene": "Hana asks about your weekend before class.",
+    "lines": [
+      {
+        "speaker": "Hana",
+        "line": "{週末|しゅうまつ}、{何|なに}した？",
+        "romaji": "Shūmatsu, nani shita?",
+        "meaning": "What did you do at the weekend?"
+      },
+      {
+        "speaker": "You",
+        "line": "{土曜日|どようび}はレンさんとラーメンを{食|た}べた。おいしかった！",
+        "romaji": "Doyōbi wa Ren-san to rāmen o tabeta. Oishikatta!",
+        "meaning": "On Saturday I had ramen with Ren. It was delicious!"
+      },
+      {
+        "speaker": "Hana",
+        "line": "いいね。{日曜日|にちようび}は？",
+        "romaji": "Ii ne. Nichiyōbi wa?",
+        "meaning": "Nice. And Sunday?"
+      },
+      {
+        "speaker": "You",
+        "line": "{疲|つか}れたから、{家|うち}で{寝|ね}た。",
+        "romaji": "Tsukareta kara, uchi de neta.",
+        "meaning": "I was tired, so I slept at home."
+      },
+      {
+        "speaker": "Hana",
+        "line": "{宿題|しゅくだい}はもう{終|お}わった？",
+        "romaji": "Shukudai wa mō owatta?",
+        "meaning": "Have you finished the homework yet?"
+      },
+      {
+        "speaker": "You",
+        "line": "ううん、まだ…。",
+        "romaji": "Uun, mada…",
+        "meaning": "No, not yet…"
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u09-x-gist",
+      "dialogue": "n5-u09-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What did you do on Saturday?",
+      "options": [
+        "Had ramen with Ren",
+        "Studied at home",
+        "Went to Kyoto"
+      ],
+      "answer": 0,
+      "explain": "レンさんとラーメンを食べた.",
+      "words": [
+        "n5-u09-w-tabeta"
+      ]
+    },
+    {
+      "id": "n5-u09-x-kara",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Explain why you slept at home.",
+      "line": "{疲|つか}れた＿＿、{家|うち}で{寝|ね}た。",
+      "meaning": "I was tired, so I slept at home.",
+      "options": [
+        "と",
+        "から",
+        "で",
+        "も"
+      ],
+      "answer": 1,
+      "explain": "Reason + から, then the result.",
+      "words": [
+        "n5-u09-w-kara"
+      ]
+    },
+    {
+      "id": "n5-u09-x-why",
+      "dialogue": "n5-u09-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Why did you stay home on Sunday?",
+      "options": [
+        "It rained",
+        "You were tired",
+        "You had homework"
+      ],
+      "answer": 1,
+      "explain": "疲れたから.",
+      "words": [
+        "n5-u09-w-tsukareta"
+      ]
+    },
+    {
+      "id": "n5-u09-x-mou",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "You finished your homework an hour ago.",
+      "line": "{宿題|しゅくだい}は＿＿{終|お}わった。",
+      "meaning": "I've already finished my homework.",
+      "options": [
+        "まだ",
+        "もう",
+        "とても",
+        "また"
+      ],
+      "answer": 1,
+      "explain": "もう + past: already.",
+      "words": [
+        "n5-u09-w-mou"
+      ]
+    },
+    {
+      "id": "n5-u09-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You haven't finished it.",
+      "line": "{宿題|しゅくだい}、もう{終|お}わった？",
+      "meaning": "Finished the homework yet?",
+      "options": [
+        "うん、まだ。",
+        "ううん、まだ。",
+        "うん、もう{終|お}わった？",
+        "うん、もう{寝|ね}た。"
+      ],
+      "answer": 1,
+      "explain": "ううん、まだ: no, not yet. うん、まだ mixes yes and not yet.",
+      "words": [
+        "n5-u09-w-mada"
+      ]
+    },
+    {
+      "id": "n5-u09-x-past",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "Which is the plain past of 行きます?",
+      "options": [
+        "{行|い}きた",
+        "{行|い}った",
+        "{行|い}いた"
+      ],
+      "answer": 1,
+      "explain": "行く is irregular in the て/た form: 行って, 行った.",
+      "words": [
+        "n5-u09-w-itta"
+      ]
+    },
+    {
+      "id": "n5-u09-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "On Saturday I ate ramen.",
+      "tiles": [
+        "{土曜日|どようび}",
+        "は",
+        "ラーメン",
+        "を",
+        "{食|た}べた"
+      ],
+      "explain": "Time は, object を, plain past verb last.",
+      "words": [
+        "n5-u09-w-ramen"
+      ]
+    },
+    {
+      "id": "n5-u09-x-tf",
+      "dialogue": "n5-u09-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "You have already finished the homework.",
+      "answer": false,
+      "explain": "ううん、まだ: not yet.",
+      "words": [
+        "n5-u09-w-shukudai"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "A diary page",
+    "from": "You",
+    "subject": "土曜日の日記",
+    "sentences": [
+      [
+        "n5-u04-w-kinou",
+        "wa",
+        "hana",
+        "san",
+        "to",
+        "n5-u09-w-ramen",
+        "wo",
+        "n5-u09-w-tabeta"
+      ],
+      [
+        "n5-u09-w-ramen",
+        "wa",
+        "n5-u09-w-oishikatta"
+      ],
+      [
+        "n5-u05-w-demo",
+        "n5-u09-w-takakatta"
+      ],
+      [
+        "n5-u09-w-tsukareta",
+        "n5-u09-w-kara",
+        "n5-u09-w-hayaku",
+        "n5-u09-w-neta"
+      ]
+    ],
+    "question": "What did the writer eat?",
+    "options": [
+      "Sushi",
+      "Ramen",
+      "Barbecue"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u09-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "The ramen was cheap.",
+        "answer": false,
+        "explain": "でも高かった: but it was expensive.",
+        "words": [
+          "n5-u09-w-takakatta"
+        ]
+      },
+      {
+        "id": "n5-u09-l-why",
+        "type": "choice",
+        "skill": "reading",
+        "prompt": "Why did the writer go to bed early?",
+        "options": [
+          "They were tired",
+          "The ramen was bad",
+          "They had homework"
+        ],
+        "answer": 0,
+        "explain": "疲れたから: because they were tired.",
+        "words": [
+          "n5-u09-w-kara"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u09-w-tabeta": {
+      "text": "食べる",
+      "kana": "たべる"
+    },
+    "n5-u09-w-itta": {
+      "text": "行く",
+      "kana": "いく"
+    },
+    "n5-u09-w-mita": {
+      "text": "見る",
+      "kana": "みる"
+    },
+    "n5-u09-w-neta": {
+      "text": "寝る",
+      "kana": "ねる"
+    },
+    "n5-u09-w-owatta": {
+      "text": "終わる",
+      "kana": "おわる"
+    },
+    "n5-u09-w-takakatta": {
+      "text": "高い",
+      "kana": "たかい"
+    }
+  }
+}

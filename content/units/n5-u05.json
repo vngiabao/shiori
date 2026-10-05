@@ -1,0 +1,417 @@
+{
+  "id": "n5-u05",
+  "title": "N5 · Unit 5",
+  "lesson": {
+    "title": "A trip to Kyoto",
+    "description": "Describe places, weather and food with adjectives, now and in the past.",
+    "canDo": "Describe places and things, and say how a trip was",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u05-w-kyouto",
+      "{京都|きょうと}",
+      "Kyōto",
+      "Kyoto",
+      "neutral",
+      "{京都|きょうと}に{行|い}きました。"
+    ],
+    [
+      "n5-u05-w-ryokou",
+      "{旅行|りょこう}",
+      "ryokō",
+      "trip, travel",
+      "neutral",
+      "{旅行|りょこう}はどうでしたか。"
+    ],
+    [
+      "n5-u05-w-otera",
+      "お{寺|てら}",
+      "otera",
+      "temple",
+      "neutral",
+      "お{寺|てら}がきれいでした。"
+    ],
+    [
+      "n5-u05-w-tenki",
+      "{天気|てんき}",
+      "tenki",
+      "weather",
+      "neutral",
+      "いい{天気|てんき}ですね。"
+    ],
+    [
+      "n5-u05-w-samui",
+      "{寒|さむ}い",
+      "samui",
+      "cold (weather)",
+      "neutral",
+      "{今日|きょう}は{寒|さむ}いです。"
+    ],
+    [
+      "n5-u05-w-atsui",
+      "{暑|あつ}い",
+      "atsui",
+      "hot (weather)",
+      "neutral",
+      "{夏|なつ}は{暑|あつ}いです。"
+    ],
+    [
+      "n5-u05-w-tanoshii",
+      "{楽|たの}しい",
+      "tanoshii",
+      "fun, enjoyable",
+      "neutral",
+      "{旅行|りょこう}は{楽|たの}しかったです。"
+    ],
+    [
+      "n5-u05-w-oishii",
+      "おいしい",
+      "oishii",
+      "delicious",
+      "neutral",
+      "このお{茶|ちゃ}はおいしいです。"
+    ],
+    [
+      "n5-u05-w-takai",
+      "{高|たか}い",
+      "takai",
+      "expensive; tall",
+      "neutral",
+      "この{辞書|じしょ}は{高|たか}いです。"
+    ],
+    [
+      "n5-u05-w-yasui",
+      "{安|やす}い",
+      "yasui",
+      "cheap",
+      "neutral",
+      "このペンは{安|やす}いです。"
+    ],
+    [
+      "n5-u05-w-kirei",
+      "きれい",
+      "kirei",
+      "pretty; clean (な adjective)",
+      "neutral",
+      "お{寺|てら}はきれいです。"
+    ],
+    [
+      "n5-u05-w-shizuka",
+      "{静|しず}か",
+      "shizuka",
+      "quiet (な adjective)",
+      "neutral",
+      "{静|しず}かな{町|まち}です。"
+    ],
+    [
+      "n5-u05-w-yuumei",
+      "{有名|ゆうめい}",
+      "yūmei",
+      "famous (な adjective)",
+      "neutral",
+      "{有名|ゆうめい}なお{寺|てら}です。"
+    ],
+    [
+      "n5-u05-w-totemo",
+      "とても",
+      "totemo",
+      "very",
+      "neutral",
+      "とても{楽|たの}しかったです。"
+    ],
+    [
+      "n5-u05-w-demo",
+      "でも",
+      "demo",
+      "but (at the start of a sentence)",
+      "neutral",
+      "{寒|さむ}かったです。でも、{楽|たの}しかったです。"
+    ],
+    [
+      "n5-u05-w-dou-deshita",
+      "どうでしたか",
+      "dō deshita ka",
+      "how was it?",
+      "polite",
+      "{京都|きょうと}はどうでしたか。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u05-g-adjectives",
+      "title": "い adjectives and な adjectives",
+      "explanation": "い adjectives end in い: 寒いです, not 寒いだ. Negative: 寒くないです. な adjectives take な before a noun (静かな町) and じゃないです for the negative (静かじゃないです). きれい looks like an い adjective but is a な adjective.",
+      "example": "静かなお寺です。",
+      "translation": "It's a quiet temple."
+    },
+    {
+      "id": "n5-u05-g-past-adj",
+      "title": "Past adjectives",
+      "explanation": "い adjectives: drop い, add かったです (楽しい → 楽しかったです). Never 楽しいでした. な adjectives: でした (静かでした). いい is irregular: よかったです.",
+      "example": "旅行は楽しかったです。",
+      "translation": "The trip was fun."
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u05-d",
+    "title": "Back from Kyoto",
+    "scene": "Ren asks about your weekend trip.",
+    "lines": [
+      {
+        "speaker": "Ren",
+        "line": "{京都|きょうと}はどうでしたか。",
+        "romaji": "Kyōto wa dō deshita ka.",
+        "meaning": "How was Kyoto?"
+      },
+      {
+        "speaker": "You",
+        "line": "とても{楽|たの}しかったです。お{寺|てら}がきれいでした。",
+        "romaji": "Totemo tanoshikatta desu. Otera ga kirei deshita.",
+        "meaning": "It was great fun. The temples were beautiful."
+      },
+      {
+        "speaker": "Ren",
+        "line": "{天気|てんき}は？",
+        "romaji": "Tenki wa?",
+        "meaning": "And the weather?"
+      },
+      {
+        "speaker": "You",
+        "line": "ちょっと{寒|さむ}かったです。でも、{静|しず}かでした。",
+        "romaji": "Chotto samukatta desu. Demo, shizuka deshita.",
+        "meaning": "A little cold. But it was quiet."
+      },
+      {
+        "speaker": "Ren",
+        "line": "{京都|きょうと}のお{茶|ちゃ}は？",
+        "romaji": "Kyōto no ocha wa?",
+        "meaning": "What about the tea in Kyoto?"
+      },
+      {
+        "speaker": "You",
+        "line": "おいしかったです。でも、ちょっと{高|たか}かったです。",
+        "romaji": "Oishikatta desu. Demo, chotto takakatta desu.",
+        "meaning": "Delicious. But a little expensive."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u05-x-gist",
+      "dialogue": "n5-u05-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "How was the trip overall?",
+      "options": [
+        "Boring",
+        "Great fun",
+        "Too hot"
+      ],
+      "answer": 1,
+      "explain": "とても楽しかったです.",
+      "words": [
+        "n5-u05-w-tanoshii"
+      ]
+    },
+    {
+      "id": "n5-u05-x-katta",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say the trip was fun.",
+      "line": "{旅行|りょこう}は{楽|たの}し＿＿です。",
+      "meaning": "The trip was fun.",
+      "options": [
+        "いでした",
+        "かった",
+        "くない",
+        "かったでした"
+      ],
+      "answer": 1,
+      "explain": "い adjective past: 楽しい → 楽しかったです. 楽しいでした is a common mistake.",
+      "words": [
+        "n5-u05-w-tanoshii"
+      ]
+    },
+    {
+      "id": "n5-u05-x-weather",
+      "dialogue": "n5-u05-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What was the weather like?",
+      "options": [
+        "A little cold",
+        "Very hot",
+        "Rainy"
+      ],
+      "answer": 0,
+      "explain": "ちょっと寒かったです.",
+      "words": [
+        "n5-u05-w-samui"
+      ]
+    },
+    {
+      "id": "n5-u05-x-na-past",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Talking about the temple you visited last week.",
+      "line": "お{寺|てら}は{静|しず}か＿＿。",
+      "meaning": "The temple was quiet.",
+      "options": [
+        "です",
+        "かったです",
+        "でした",
+        "いでした"
+      ],
+      "answer": 2,
+      "explain": "な adjectives take でした in the past. です would be the present.",
+      "words": [
+        "n5-u05-w-shizuka"
+      ]
+    },
+    {
+      "id": "n5-u05-x-reply-how",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You had a good time.",
+      "line": "{旅行|りょこう}はどうでしたか。",
+      "meaning": "How was your trip?",
+      "options": [
+        "{楽|たの}しいでした。",
+        "{楽|たの}しかったです。",
+        "{旅行|りょこう}です。",
+        "はい、どうでした。"
+      ],
+      "answer": 1,
+      "explain": "楽しかったです is the correct past; 楽しいでした is not used.",
+      "words": [
+        "n5-u05-w-dou-deshita"
+      ]
+    },
+    {
+      "id": "n5-u05-x-correct",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "Which sentence correctly says 'The tea was delicious'?",
+      "options": [
+        "お{茶|ちゃ}はおいしいでした。",
+        "お{茶|ちゃ}はおいしかったです。",
+        "お{茶|ちゃ}はおいしでした。"
+      ],
+      "answer": 1,
+      "explain": "い adjective: おいしい → おいしかったです.",
+      "words": [
+        "n5-u05-w-oishii"
+      ]
+    },
+    {
+      "id": "n5-u05-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "The temples in Kyoto were beautiful.",
+      "tiles": [
+        "{京都|きょうと}",
+        "の",
+        "お{寺|てら}",
+        "は",
+        "きれい",
+        "でした"
+      ],
+      "explain": "きれい is a な adjective, so でした.",
+      "words": [
+        "n5-u05-w-kirei"
+      ]
+    },
+    {
+      "id": "n5-u05-x-tf",
+      "dialogue": "n5-u05-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "The tea in Kyoto was cheap.",
+      "answer": false,
+      "explain": "ちょっと高かったです: a little expensive.",
+      "words": [
+        "n5-u05-w-takai"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "A postcard from Kyoto",
+    "from": "Hana",
+    "subject": "京都から",
+    "sentences": [
+      [
+        "hello"
+      ],
+      [
+        "n5-u01-w-ima",
+        "n5-u05-w-kyouto",
+        "n5-u03-w-ni",
+        "n5-u04-w-imasu"
+      ],
+      [
+        "n5-u05-w-kyouto",
+        "wa",
+        "n5-u05-w-samui",
+        "desu"
+      ],
+      [
+        "n5-u05-w-otera",
+        "wa",
+        "n5-u05-w-totemo",
+        "n5-u05-w-kirei",
+        "desu"
+      ],
+      [
+        "n5-u05-w-kyouto",
+        "no-part",
+        "tea",
+        "wa",
+        "n5-u05-w-oishii",
+        "desu"
+      ],
+      [
+        "n5-u05-w-demo",
+        "n5-u05-w-takai",
+        "desu"
+      ]
+    ],
+    "question": "What is the weather like in Kyoto?",
+    "options": [
+      "Hot",
+      "Cold",
+      "Rainy"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u05-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "Hana thinks the temples are beautiful.",
+        "answer": true,
+        "explain": "お寺はとてもきれいです.",
+        "words": [
+          "n5-u05-w-kirei"
+        ]
+      },
+      {
+        "id": "n5-u05-l-infer",
+        "type": "choice",
+        "skill": "reading",
+        "prompt": "Should Hana buy a lot of tea to bring home?",
+        "options": [
+          "Maybe not: it's expensive",
+          "Yes: it's cheap",
+          "She can't: there is no tea"
+        ],
+        "answer": 0,
+        "explain": "おいしいです。でも高いです: delicious, but expensive.",
+        "words": [
+          "n5-u05-w-demo"
+        ]
+      }
+    ]
+  },
+  "lemmas": {}
+}

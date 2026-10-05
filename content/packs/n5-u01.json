@@ -1,0 +1,630 @@
+{
+  "id": "n5-u01",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N5 · Unit 1",
+  "words": [
+    {
+      "id": "n5-u01-w-sensei",
+      "text": "先生",
+      "kana": "せんせい",
+      "romaji": "sensei",
+      "meaning": "teacher",
+      "register": "polite",
+      "example": "佐藤先生です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "先生",
+          "reading": "せんせい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-sato",
+      "text": "佐藤",
+      "kana": "さとう",
+      "romaji": "Satō",
+      "meaning": "Satō (a family name)",
+      "register": "neutral",
+      "example": "佐藤",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "佐藤",
+          "reading": "さとう"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-kochira",
+      "text": "こちら",
+      "kana": "こちら",
+      "romaji": "kochira",
+      "meaning": "this person (polite introduction)",
+      "register": "polite",
+      "example": "こちらはハナさんです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "こちら"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-daigaku",
+      "text": "大学",
+      "kana": "だいがく",
+      "romaji": "daigaku",
+      "meaning": "university",
+      "register": "neutral",
+      "example": "大学の学生です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "大学",
+          "reading": "だいがく"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-ichinensei",
+      "text": "一年生",
+      "kana": "いちねんせい",
+      "romaji": "ichinensei",
+      "meaning": "first-year student",
+      "register": "neutral",
+      "example": "大学の一年生です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "一年生",
+          "reading": "いちねんせい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-ninensei",
+      "text": "二年生",
+      "kana": "にねんせい",
+      "romaji": "ninensei",
+      "meaning": "second-year student",
+      "register": "neutral",
+      "example": "ハナさんは二年生です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "二年生",
+          "reading": "にねんせい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-senkou",
+      "text": "専攻",
+      "kana": "せんこう",
+      "romaji": "senkō",
+      "meaning": "major (subject of study)",
+      "register": "neutral",
+      "example": "専攻は何ですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "専攻",
+          "reading": "せんこう"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-keizai",
+      "text": "経済",
+      "kana": "けいざい",
+      "romaji": "keizai",
+      "meaning": "economics",
+      "register": "neutral",
+      "example": "専攻は経済です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "経済",
+          "reading": "けいざい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-nihonjin",
+      "text": "日本人",
+      "kana": "にほんじん",
+      "romaji": "nihonjin",
+      "meaning": "Japanese (person)",
+      "register": "neutral",
+      "example": "ユイさんは日本人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "日本人",
+          "reading": "にほんじん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-americajin",
+      "text": "アメリカ人",
+      "kana": "アメリカじん",
+      "romaji": "amerikajin",
+      "meaning": "American (person)",
+      "register": "neutral",
+      "example": "ハナさんはアメリカ人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "アメリカ"
+        },
+        {
+          "text": "人",
+          "reading": "じん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-betonamujin",
+      "text": "ベトナム人",
+      "kana": "ベトナムじん",
+      "romaji": "betonamujin",
+      "meaning": "Vietnamese (person)",
+      "register": "neutral",
+      "example": "私はベトナム人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ベトナム"
+        },
+        {
+          "text": "人",
+          "reading": "じん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-ima",
+      "text": "今",
+      "kana": "いま",
+      "romaji": "ima",
+      "meaning": "now",
+      "register": "neutral",
+      "example": "今、何時ですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "今",
+          "reading": "いま"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-nanji",
+      "text": "何時",
+      "kana": "なんじ",
+      "romaji": "nanji",
+      "meaning": "what time",
+      "register": "neutral",
+      "example": "今、何時ですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "何時",
+          "reading": "なんじ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-ji",
+      "text": "時",
+      "kana": "じ",
+      "romaji": "ji",
+      "meaning": "o'clock",
+      "register": "neutral",
+      "example": "三時です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "時",
+          "reading": "じ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-han",
+      "text": "半",
+      "kana": "はん",
+      "romaji": "han",
+      "meaning": "half past",
+      "register": "neutral",
+      "example": "三時半です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "半",
+          "reading": "はん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-w-sou-desu",
+      "text": "そうです",
+      "kana": "そうです",
+      "romaji": "sō desu",
+      "meaning": "that's right",
+      "register": "polite",
+      "example": "はい、そうです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "そうです"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n5-u01-lesson",
+      "kind": "phrase",
+      "words": [
+        "n5-u01-w-sensei",
+        "n5-u01-w-sato",
+        "n5-u01-w-kochira",
+        "n5-u01-w-daigaku",
+        "n5-u01-w-ichinensei",
+        "n5-u01-w-ninensei",
+        "n5-u01-w-senkou",
+        "n5-u01-w-keizai",
+        "n5-u01-w-nihonjin",
+        "n5-u01-w-americajin",
+        "n5-u01-w-betonamujin",
+        "n5-u01-w-ima",
+        "n5-u01-w-nanji",
+        "n5-u01-w-ji",
+        "n5-u01-w-han",
+        "n5-u01-w-sou-desu"
+      ],
+      "title": "Who's who",
+      "description": "Say where you're from, your year and your major; ask the time.",
+      "canDo": "Introduce yourself with country, year and major, and ask the time",
+      "minutes": 20
+    }
+  ],
+  "letters": [
+    {
+      "id": "n5-u01-letter",
+      "title": "A classmate writes",
+      "from": "Hana",
+      "subject": "はじめまして。",
+      "tokens": [
+        "hello",
+        "me",
+        "wa",
+        "hana",
+        "desu",
+        "n5-u01-w-americajin",
+        "desu",
+        "n5-u01-w-daigaku",
+        "no-part",
+        "n5-u01-w-ninensei",
+        "desu",
+        "n5-u01-w-senkou",
+        "wa",
+        "n5-u01-w-keizai",
+        "desu",
+        "regards"
+      ],
+      "paragraphs": [
+        1,
+        5,
+        7,
+        11,
+        15
+      ],
+      "prerequisites": [
+        "hello",
+        "me",
+        "wa",
+        "hana",
+        "desu",
+        "n5-u01-w-americajin",
+        "n5-u01-w-daigaku",
+        "no-part",
+        "n5-u01-w-ninensei",
+        "n5-u01-w-senkou",
+        "n5-u01-w-keizai",
+        "regards"
+      ],
+      "question": "Which year is Hana in?",
+      "options": [
+        "Second year",
+        "First year",
+        "She is a teacher"
+      ],
+      "answer": 0
+    }
+  ],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n5-u01-g-desu-ka",
+      "title": "X は Y です / ですか",
+      "explanation": "X は Y です: 'X is Y' (は is read wa). Add か to ask: X は Y ですか, 'Is X Y?'. Answer はい、そうです (yes, that's right) or いいえ、… です with the correct information.",
+      "example": "ハナさんはアメリカ人ですか。",
+      "translation": "Is Hana American?"
+    },
+    {
+      "id": "n5-u01-g-nan-ji",
+      "title": "何時ですか: telling the time",
+      "explanation": "Number + 時 (ji) is the hour; add 半 (han) for half past. 四時 is よじ and 九時 is くじ: learn those two as exceptions. 何 is read なん before で, じ and さい, and なに before を.",
+      "example": "今、三時半です。",
+      "translation": "It's half past three now."
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n5-u01-d",
+      "title": "Meeting Satō-sensei",
+      "scene": "Hana introduces you to her teacher in the language-school lobby.",
+      "lines": [
+        {
+          "speaker": "Hana",
+          "line": "{佐藤|さとう}{先生|せんせい}、こちらは{友達|ともだち}です。",
+          "romaji": "Satō-sensei, kochira wa tomodachi desu.",
+          "meaning": "Satō-sensei, this is my friend."
+        },
+        {
+          "speaker": "You",
+          "line": "はじめまして。ベトナム{人|じん}です。{大学|だいがく}の{一年生|いちねんせい}です。",
+          "romaji": "Hajimemashite. Betonamujin desu. Daigaku no ichinensei desu.",
+          "meaning": "Nice to meet you. I'm Vietnamese. I'm a first-year at university."
+        },
+        {
+          "speaker": "Satō",
+          "line": "はじめまして。{佐藤|さとう}です。{専攻|せんこう}は{何|なん}ですか。",
+          "romaji": "Hajimemashite. Satō desu. Senkō wa nan desu ka.",
+          "meaning": "Nice to meet you. I'm Satō. What's your major?"
+        },
+        {
+          "speaker": "You",
+          "line": "{経済|けいざい}です。",
+          "romaji": "Keizai desu.",
+          "meaning": "Economics."
+        },
+        {
+          "speaker": "Satō",
+          "line": "そうですか。ハナさん、{今|いま}、{何時|なんじ}ですか。",
+          "romaji": "Sō desu ka. Hana-san, ima, nanji desu ka.",
+          "meaning": "I see. Hana, what time is it now?"
+        },
+        {
+          "speaker": "Hana",
+          "line": "{三時半|さんじはん}です。",
+          "romaji": "Sanji han desu.",
+          "meaning": "Half past three."
+        }
+      ],
+      "lesson": "n5-u01-lesson"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-u01-x-gist",
+      "dialogue": "n5-u01-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where are you from in the conversation?",
+      "options": [
+        "Japan",
+        "Vietnam",
+        "The United States"
+      ],
+      "answer": 1,
+      "explain": "ベトナム人です: I'm Vietnamese.",
+      "words": [
+        "n5-u01-w-betonamujin"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-no",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say you are a first-year at university.",
+      "line": "{大学|だいがく}＿＿{一年生|いちねんせい}です。",
+      "meaning": "I'm a first-year at university.",
+      "options": [
+        "の",
+        "は",
+        "を",
+        "か"
+      ],
+      "answer": 0,
+      "explain": "の links the two nouns: university's first-year.",
+      "words": [
+        "n5-u01-w-ichinensei",
+        "no-part"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-major",
+      "dialogue": "n5-u01-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What is your major?",
+      "options": [
+        "Economics",
+        "Japanese",
+        "English"
+      ],
+      "answer": 0,
+      "explain": "専攻は何ですか → 経済です.",
+      "words": [
+        "n5-u01-w-keizai"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-reply-major",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{専攻|せんこう}は{何|なん}ですか。",
+      "meaning": "What's your major?",
+      "options": [
+        "{三時|さんじ}です。",
+        "はい、そうです。",
+        "{経済|けいざい}です。",
+        "{大学|だいがく}です。"
+      ],
+      "answer": 2,
+      "explain": "Answer with the subject: 経済です. You can leave out 専攻は.",
+      "words": [
+        "n5-u01-w-senkou"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-nanji",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Ask Yui the time.",
+      "line": "{今|いま}、＿＿ですか。",
+      "meaning": "What time is it now?",
+      "options": [
+        "{何|なに}",
+        "{何|なん}さい",
+        "だれ",
+        "{何時|なんじ}"
+      ],
+      "answer": 3,
+      "explain": "何時 (nanji) asks the hour.",
+      "words": [
+        "n5-u01-w-nanji"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-reply-nationality",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You are Vietnamese.",
+      "line": "アメリカ{人|じん}ですか。",
+      "meaning": "Are you American?",
+      "options": [
+        "いいえ、ベトナム{人|じん}です。",
+        "はい、アメリカです。",
+        "{一年生|いちねんせい}です。",
+        "そうです。"
+      ],
+      "answer": 0,
+      "explain": "Say no, then give the right information: いいえ、ベトナム人です.",
+      "words": [
+        "n5-u01-w-americajin"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Hana is a second-year at university.",
+      "tiles": [
+        "ハナさん",
+        "は",
+        "{大学|だいがく}",
+        "の",
+        "{二年生|にねんせい}",
+        "です"
+      ],
+      "explain": "Topic は, then university の second-year, then です.",
+      "words": [
+        "n5-u01-w-ninensei"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-time",
+      "dialogue": "n5-u01-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What time is it?",
+      "options": [
+        "3:00",
+        "3:30",
+        "4:30"
+      ],
+      "answer": 1,
+      "explain": "三時半: half past three.",
+      "words": [
+        "n5-u01-w-han"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-x-tf",
+      "dialogue": "n5-u01-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Hana introduces you as her teacher.",
+      "answer": false,
+      "explain": "こちらは友達です: this is my friend.",
+      "words": [
+        "n5-u01-w-kochira"
+      ],
+      "lesson": "n5-u01-lesson"
+    },
+    {
+      "id": "n5-u01-l-tf",
+      "type": "truefalse",
+      "skill": "reading",
+      "prompt": "Hana studies Japanese as her major.",
+      "answer": false,
+      "explain": "専攻は経済です: her major is economics.",
+      "words": [
+        "n5-u01-w-senkou"
+      ],
+      "letter": "n5-u01-letter"
+    },
+    {
+      "id": "n5-u01-l-cloze",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Fill the gap from Hana's letter.",
+      "line": "{専攻|せんこう}＿＿{経済|けいざい}です。",
+      "meaning": "My major is economics.",
+      "options": [
+        "を",
+        "の",
+        "は",
+        "も"
+      ],
+      "answer": 2,
+      "explain": "は marks the topic: as for my major, it's economics.",
+      "words": [
+        "wa"
+      ],
+      "letter": "n5-u01-letter"
+    }
+  ]
+}

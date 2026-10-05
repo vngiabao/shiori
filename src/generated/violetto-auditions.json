@@ -1,0 +1,612 @@
+{
+  "model": "Fun-CosyVoice3-0.5B-2512",
+  "generatedAt": "2026-10-04T20:16:35.098773-04:00",
+  "status": "Audition; timbre, pronunciation and acting await listening review.",
+  "reference": "Locally generated Kokoro jf_alpha Japanese speech. No performer recording.",
+  "candidates": [
+    {
+      "id": "v01",
+      "name": "Composed letter-writer",
+      "description": "Precise, reserved, even-paced; the most formal direction.",
+      "base": {
+        "url": "/voice-auditions/v01-anchor.wav",
+        "text": "こんにちは。ヴァイオレットです。本日も、言葉を一つずつ確かめてまいりましょう。分からないところは、何度でもお尋ねください。あなたの言葉が届くよう、お手伝いいたします。",
+        "seconds": 13.495708333333333,
+        "sha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e",
+        "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。<|endofprompt|>",
+        "seed": 7311,
+        "speed": 1.0,
+        "pitchShift": 0,
+        "referenceSha256": "37aa848f2c284904ce008b9e628f22e281b358e01e38f459ac9a76d7d4cae65f"
+      },
+      "lines": {
+        "welcome": {
+          "url": "/voice-auditions/v01-welcome.wav",
+          "text": "お待ちしておりました。始めましょう。",
+          "seconds": 2.24,
+          "sha256": "63d64f0dcb5d24f8386ea18421f6bcffc538348fcb7040b291afba2a7fa95cef",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 沉静礼貌地迎接对方，声音端正克制，轻微温暖。<|endofprompt|>",
+          "seed": 7411,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "correct": {
+          "url": "/voice-auditions/v01-correct.wav",
+          "text": "その通りです。よく覚えていらっしゃいますね。",
+          "seconds": 3.6,
+          "sha256": "f82b6e1a876ec792a2f5ca1e3a48715f7228ec9b9971031cf4c3fe4fcff14a3e",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7412,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "supported": {
+          "url": "/voice-auditions/v01-supported.wav",
+          "text": "できましたね。次は、ヒントなしで試してみましょう。",
+          "seconds": 3.719375,
+          "sha256": "45f175b27c099e3798b7e07b6031f0a2d40fcddbc1eff528ad60693f21591f3f",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7413,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "retry": {
+          "url": "/voice-auditions/v01-retry.wav",
+          "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+          "seconds": 4.4985,
+          "sha256": "bc3ecafe6a82e0b5871539f011c4a7f958cdcf8c4a330d3bdc04034293095eb7",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7414,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "hint": {
+          "url": "/voice-auditions/v01-hint.wav",
+          "text": "まず、読み方を確かめましょう。",
+          "seconds": 2.44,
+          "sha256": "69f86eb79fcbc874e5f7e9fd533bde202753e76829a8c377cb80371ac3f47105",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7415,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "politeness": {
+          "url": "/voice-auditions/v01-politeness.wav",
+          "text": "相手との関係に合う言葉を選びましょう。",
+          "seconds": 2.6,
+          "sha256": "70ccc714ad7ffa6c84d1762171e7ac627f495f5c31e65101acdffecb3c264eb8",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7416,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "complete": {
+          "url": "/voice-auditions/v01-complete.wav",
+          "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+          "seconds": 4.892291666666667,
+          "sha256": "899eeac7a65ce1e48f3f7ab5d4de3186157e2b1a62010434ff5b0343e19996bd",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7417,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "return": {
+          "url": "/voice-auditions/v01-return.wav",
+          "text": "お帰りなさい。続きから、ご一緒いたします。",
+          "seconds": 3.08,
+          "sha256": "e898a54e9a4eba7c95184f1b8bd2243e3adae2c4fc07adce7aa67eecd94402b0",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7418,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "milestone": {
+          "url": "/voice-auditions/v01-milestone.wav",
+          "text": "また一つ、言葉が届きました。私も、うれしいです。",
+          "seconds": 4.525875,
+          "sha256": "507bd999d5dc4a0389bb647eb92b0d430cabb32a8f3939f741ce9ecbd8d54570",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7419,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "rest": {
+          "url": "/voice-auditions/v01-rest.wav",
+          "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+          "seconds": 4.579208333333334,
+          "sha256": "e615d282b4109ef0496b2a5cae309ffab8b7cda3b426bf6f2810fa3185cb3bb1",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 安静而真诚地说，略有思考停顿，情绪细腻，保持自然的日语节奏。<|endofprompt|>",
+          "seed": 7420,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "lesson": {
+          "url": "/voice-auditions/v01-lesson.wav",
+          "text": "切手を二枚お願いします。明日、手紙を出します。",
+          "seconds": 4.738625,
+          "sha256": "722e6de25a5aa406859e9bd6dd96494406fba8c6b308b21d0e40d9b94e4a60ad",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7421,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        },
+        "contrast": {
+          "url": "/voice-auditions/v01-contrast.wav",
+          "text": "おばさん。おばあさん。きて。きって。",
+          "seconds": 3.0,
+          "sha256": "f42ddc538c30b3641f1f2614f6af06dbd65b520ca0ce53f39f20b21ed65c68c8",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7422,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "a57d3a76444c1380a2c65bfdebadbc3a1077aa837611bc6b49e0ba817e8f878e"
+        }
+      }
+    },
+    {
+      "id": "v02",
+      "name": "Quiet warmth",
+      "description": "A softer onset and gentle reassurance, with the same dignity.",
+      "base": {
+        "url": "/voice-auditions/v02-anchor.wav",
+        "text": "こんにちは。ヴァイオレットです。本日も、言葉を一つずつ確かめてまいりましょう。分からないところは、何度でもお尋ねください。あなたの言葉が届くよう、お手伝いいたします。",
+        "seconds": 14.346333333333334,
+        "sha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b",
+        "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。<|endofprompt|>",
+        "seed": 7312,
+        "speed": 1.0,
+        "pitchShift": 0,
+        "referenceSha256": "37aa848f2c284904ce008b9e628f22e281b358e01e38f459ac9a76d7d4cae65f"
+      },
+      "lines": {
+        "welcome": {
+          "url": "/voice-auditions/v02-welcome.wav",
+          "text": "お待ちしておりました。始めましょう。",
+          "seconds": 2.2575,
+          "sha256": "1145e8dc85b037e9842732486640aab145c20053c1faeacbfd731d11a4092198",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 沉静礼貌地迎接对方，声音端正克制，轻微温暖。<|endofprompt|>",
+          "seed": 7412,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "correct": {
+          "url": "/voice-auditions/v02-correct.wav",
+          "text": "その通りです。よく覚えていらっしゃいますね。",
+          "seconds": 3.5885416666666665,
+          "sha256": "ffbd06fc077a74dca56aa4a80ae110da50033e9b2627d4625e0ab561e68d9ca6",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7413,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "supported": {
+          "url": "/voice-auditions/v02-supported.wav",
+          "text": "できましたね。次は、ヒントなしで試してみましょう。",
+          "seconds": 3.4035,
+          "sha256": "515217633e0f8c54fd2fd89711a200bd4ce5aac22e89d216dbcb28134117fade",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7414,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "retry": {
+          "url": "/voice-auditions/v02-retry.wav",
+          "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+          "seconds": 4.0,
+          "sha256": "dc575fe308e0bdf8a7c13bbea694d8e72acf29655e44170c72866829f94f8fa5",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7415,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "hint": {
+          "url": "/voice-auditions/v02-hint.wav",
+          "text": "まず、読み方を確かめましょう。",
+          "seconds": 2.52,
+          "sha256": "a704a8627d158cbe9ced51f9f977c3631b6081466e5e57f1fe1dd2d88b798cb2",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7416,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "politeness": {
+          "url": "/voice-auditions/v02-politeness.wav",
+          "text": "相手との関係に合う言葉を選びましょう。",
+          "seconds": 3.0022083333333334,
+          "sha256": "853e9254f59a06e0e625ec93d4d14383259b3a67646a9f1b273a8eb627d6351d",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7417,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "complete": {
+          "url": "/voice-auditions/v02-complete.wav",
+          "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+          "seconds": 5.0,
+          "sha256": "7948d95b1c1bf6adbf2de047178266c09cdc5bc44c77e3a2e20bb70d02e32136",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7418,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "return": {
+          "url": "/voice-auditions/v02-return.wav",
+          "text": "お帰りなさい。続きから、ご一緒いたします。",
+          "seconds": 3.88,
+          "sha256": "57f9ec8ab7f8c7ed833c490e6e5d5dde9ed6db25e3d8582fe493164bbb5b59ea",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7419,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "milestone": {
+          "url": "/voice-auditions/v02-milestone.wav",
+          "text": "また一つ、言葉が届きました。私も、うれしいです。",
+          "seconds": 4.378791666666666,
+          "sha256": "97eb90ae0876f3bd0bc3b779bc11ef93e9e70e5f5021fbb0c4f491dc4d9807f9",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7420,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "rest": {
+          "url": "/voice-auditions/v02-rest.wav",
+          "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+          "seconds": 5.0,
+          "sha256": "0958af12c143b242ab64cd20e5e3ffa11cf57226050e0a148182334d14cb7c87",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 安静而真诚地说，略有思考停顿，情绪细腻，保持自然的日语节奏。<|endofprompt|>",
+          "seed": 7421,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "lesson": {
+          "url": "/voice-auditions/v02-lesson.wav",
+          "text": "切手を二枚お願いします。明日、手紙を出します。",
+          "seconds": 4.48,
+          "sha256": "a72d0281b935eba0a793a945d1c23505e2025607e774db0dd9cbbfdbae2d1d8c",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7422,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        },
+        "contrast": {
+          "url": "/voice-auditions/v02-contrast.wav",
+          "text": "おばさん。おばあさん。きて。きって。",
+          "seconds": 3.09975,
+          "sha256": "fc3c67a607eccc93e94d804d55234313b766e25ddd49bebcbe5ae394db8c216c",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7423,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "d9854018c2be82264a57567253a8d0ea2fb14d3490b0700177e89d37fc6b887b"
+        }
+      }
+    },
+    {
+      "id": "v03",
+      "name": "Resolute and precise",
+      "description": "A firmer centre, crisp diction and a restrained, dutiful delivery.",
+      "base": {
+        "url": "/voice-auditions/v03-anchor.wav",
+        "text": "こんにちは。ヴァイオレットです。本日も、言葉を一つずつ確かめてまいりましょう。分からないところは、何度でもお尋ねください。あなたの言葉が届くよう、お手伝いいたします。",
+        "seconds": 7.508541666666667,
+        "sha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028",
+        "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。<|endofprompt|>",
+        "seed": 7313,
+        "speed": 1.0,
+        "pitchShift": 0,
+        "referenceSha256": "37aa848f2c284904ce008b9e628f22e281b358e01e38f459ac9a76d7d4cae65f"
+      },
+      "lines": {
+        "welcome": {
+          "url": "/voice-auditions/v03-welcome.wav",
+          "text": "お待ちしておりました。始めましょう。",
+          "seconds": 2.28,
+          "sha256": "bdeffdc8d00f8066f1b76eda0fbe25e7cc554ba3295aafe7308e940c8af42213",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 沉静礼貌地迎接对方，声音端正克制，轻微温暖。<|endofprompt|>",
+          "seed": 7413,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "correct": {
+          "url": "/voice-auditions/v03-correct.wav",
+          "text": "その通りです。よく覚えていらっしゃいますね。",
+          "seconds": 2.8,
+          "sha256": "800aadffc16aafb7d44735c92524e0240950b74182dc6499b623b2032d08591a",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7414,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "supported": {
+          "url": "/voice-auditions/v03-supported.wav",
+          "text": "できましたね。次は、ヒントなしで試してみましょう。",
+          "seconds": 3.58325,
+          "sha256": "2a2be30fc117bc8fa4bc248ba8ca7633cc668ccfc63816c4379bf9cb485c791d",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7415,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "retry": {
+          "url": "/voice-auditions/v03-retry.wav",
+          "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+          "seconds": 3.918458333333333,
+          "sha256": "140708a75b25cc31b8494e7daf38bfc32666c365d35eb2a208e7eac4550773be",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7416,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "hint": {
+          "url": "/voice-auditions/v03-hint.wav",
+          "text": "まず、読み方を確かめましょう。",
+          "seconds": 2.2334583333333335,
+          "sha256": "4595d2995a924d69bb27aeac310f5bada0d557296e8238cdc928ac48763dfaf4",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7417,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "politeness": {
+          "url": "/voice-auditions/v03-politeness.wav",
+          "text": "相手との関係に合う言葉を選びましょう。",
+          "seconds": 2.96,
+          "sha256": "8e387f08a2450883d9436955708dd85f3095ef4bd9f771f33f12d61a02a2b1f2",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7418,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "complete": {
+          "url": "/voice-auditions/v03-complete.wav",
+          "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+          "seconds": 5.6,
+          "sha256": "7ef7531c5bcd8a1143e390901fda464af95239b65af3069552a3ddcf3e65e239",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7419,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "return": {
+          "url": "/voice-auditions/v03-return.wav",
+          "text": "お帰りなさい。続きから、ご一緒いたします。",
+          "seconds": 3.4,
+          "sha256": "5ed7245dc3f1e0bdc17d00ab312258887374e88d4ce58428ad49acb94ec24f63",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7420,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "milestone": {
+          "url": "/voice-auditions/v03-milestone.wav",
+          "text": "また一つ、言葉が届きました。私も、うれしいです。",
+          "seconds": 4.207083333333333,
+          "sha256": "9d5638c1c0bd370ba13c3d229cbbfe73803038a15cfd115c98a42d93594c6a2c",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7421,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "rest": {
+          "url": "/voice-auditions/v03-rest.wav",
+          "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+          "seconds": 4.28,
+          "sha256": "513d77dc92e8dc5cd0ed6f6fac0c26158509e7c23a2606267c4847a9044d64cb",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 安静而真诚地说，略有思考停顿，情绪细腻，保持自然的日语节奏。<|endofprompt|>",
+          "seed": 7422,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "lesson": {
+          "url": "/voice-auditions/v03-lesson.wav",
+          "text": "切手を二枚お願いします。明日、手紙を出します。",
+          "seconds": 3.28,
+          "sha256": "8e3004665fe4323d981d55c1a116e4e714ad216817a53421411077455850a57d",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7423,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        },
+        "contrast": {
+          "url": "/voice-auditions/v03-contrast.wav",
+          "text": "おばさん。おばあさん。きて。きって。",
+          "seconds": 2.329,
+          "sha256": "1db30098e3deb6001a6b751893c76e29d54f681c52d877eab2360d0f328285d2",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7424,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "65cc817c945b3d314cd30f5a1eb49767db302b9531acd7162021dfd0a6d5b028"
+        }
+      }
+    },
+    {
+      "id": "v04",
+      "name": "A feeling understood",
+      "description": "More expressive warmth and tiny rises in the voice; still composed.",
+      "base": {
+        "url": "/voice-auditions/v04-anchor.wav",
+        "text": "こんにちは。ヴァイオレットです。本日も、言葉を一つずつ確かめてまいりましょう。分からないところは、何度でもお尋ねください。あなたの言葉が届くよう、お手伝いいたします。",
+        "seconds": 11.097291666666667,
+        "sha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f",
+        "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。<|endofprompt|>",
+        "seed": 7314,
+        "speed": 1.0,
+        "pitchShift": 0,
+        "referenceSha256": "37aa848f2c284904ce008b9e628f22e281b358e01e38f459ac9a76d7d4cae65f"
+      },
+      "lines": {
+        "welcome": {
+          "url": "/voice-auditions/v04-welcome.wav",
+          "text": "お待ちしておりました。始めましょう。",
+          "seconds": 2.48,
+          "sha256": "d84f45a4fefd49396ddb3ee6c300d2e842ef712c8223262d2b5f5f29bde7a5f6",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 沉静礼貌地迎接对方，声音端正克制，轻微温暖。<|endofprompt|>",
+          "seed": 7414,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "correct": {
+          "url": "/voice-auditions/v04-correct.wav",
+          "text": "その通りです。よく覚えていらっしゃいますね。",
+          "seconds": 2.966875,
+          "sha256": "f6865f9a38a3a7aa43dd9a75a71df4f1810b2ee443caab6c04ef70504b4fda13",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7415,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "supported": {
+          "url": "/voice-auditions/v04-supported.wav",
+          "text": "できましたね。次は、ヒントなしで試してみましょう。",
+          "seconds": 3.44,
+          "sha256": "5a5b8ce6027327cd2755499b616da1735080cf3aef1994647d68ff8c0c93c0fe",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7416,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "retry": {
+          "url": "/voice-auditions/v04-retry.wav",
+          "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+          "seconds": 4.936041666666667,
+          "sha256": "c5891c59dcb433837012a8ccb729679d95845beb8c9b58f6cff587f6581c0163",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7417,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "hint": {
+          "url": "/voice-auditions/v04-hint.wav",
+          "text": "まず、読み方を確かめましょう。",
+          "seconds": 2.6750833333333333,
+          "sha256": "897a4b3025798aa505f21ce18b2c121fa31c647ffb858c3ad62580af731b4229",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7418,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "politeness": {
+          "url": "/voice-auditions/v04-politeness.wav",
+          "text": "相手との関係に合う言葉を選びましょう。",
+          "seconds": 3.11825,
+          "sha256": "c9f75ad45156608fa14e79c460fe7cc8c4ee007edabf8a6a88b689423486be26",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。<|endofprompt|>",
+          "seed": 7419,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "complete": {
+          "url": "/voice-auditions/v04-complete.wav",
+          "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+          "seconds": 5.053791666666666,
+          "sha256": "900d4c0837af9bda40e4544d1f89092d4b670b8755ae20aea1a66bdd482b328a",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7420,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "return": {
+          "url": "/voice-auditions/v04-return.wav",
+          "text": "お帰りなさい。続きから、ご一緒いたします。",
+          "seconds": 2.92,
+          "sha256": "ee91dced701ac32d10c6866e66bab909a16ef85fc3cfa34d4a7abb7cd32255e3",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。<|endofprompt|>",
+          "seed": 7421,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "milestone": {
+          "url": "/voice-auditions/v04-milestone.wav",
+          "text": "また一つ、言葉が届きました。私も、うれしいです。",
+          "seconds": 4.141166666666667,
+          "sha256": "69e7a12e17a727f9121e03aad4fca27d7df5e0d8561bd3bb1f64a76ce1628ded",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。<|endofprompt|>",
+          "seed": 7422,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "rest": {
+          "url": "/voice-auditions/v04-rest.wav",
+          "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+          "seconds": 4.68,
+          "sha256": "a01da263629d097d5ecc9dcefe96b6374f4714f851cac42d45b83a3ca0f8d81d",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 安静而真诚地说，略有思考停顿，情绪细腻，保持自然的日语节奏。<|endofprompt|>",
+          "seed": 7423,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "lesson": {
+          "url": "/voice-auditions/v04-lesson.wav",
+          "text": "切手を二枚お願いします。明日、手紙を出します。",
+          "seconds": 4.68,
+          "sha256": "c3d26ffe35dc794ef39692fad47c49b49f036c327c459084df793b6dd0efa330",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7424,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        },
+        "contrast": {
+          "url": "/voice-auditions/v04-contrast.wav",
+          "text": "おばさん。おばあさん。きて。きって。",
+          "seconds": 3.48,
+          "sha256": "0557ce46c0c88067ea608a7b43c767962d8f030b185ae9593882e5c33983ee1f",
+          "instruction": "You are a helpful assistant. 请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。 清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。<|endofprompt|>",
+          "seed": 7425,
+          "speed": 1.0,
+          "pitchShift": 0,
+          "referenceSha256": "4ce513857da2fe52cb0488f33542901eb4ac81727837e8aca0c4080d9a94780f"
+        }
+      }
+    }
+  ],
+  "modelRevision": {
+    "repo": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18"
+  }
+}

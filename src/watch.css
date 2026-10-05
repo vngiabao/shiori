@@ -1,0 +1,334 @@
+/* Watch: player, current line, line controls, rungs, lines and saved lines. Tokens only. */
+
+.watch-setup {
+  max-width: 760px;
+}
+.watch-steps {
+  margin: 0 0 20px;
+  padding: 0;
+  list-style: none;
+  counter-reset: step;
+}
+.watch-steps li {
+  counter-increment: step;
+  position: relative;
+  display: grid;
+  gap: 10px;
+  padding: 18px 0 18px 40px;
+  border-bottom: 1px solid var(--rule);
+}
+.watch-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 15px;
+  font: 500 26px/1 var(--font-display);
+  color: var(--ink-2);
+}
+.watch-steps small {
+  color: var(--ink-2);
+}
+.file-pick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  color: var(--ink-2);
+}
+.watch-privacy {
+  max-width: 62ch;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.watch-or {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 24px;
+  color: var(--ink-2);
+}
+
+.watch-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  grid-template-areas: "stage side" "lines side" "saved saved";
+  gap: 28px 36px;
+  align-items: start;
+}
+.watch-stage {
+  grid-area: stage;
+  min-width: 0;
+}
+.watch-stage video {
+  display: block;
+  width: 100%;
+  max-height: 62vh;
+  background: var(--brand-deep);
+}
+.watch-stage audio {
+  width: 100%;
+}
+.watch-line {
+  display: grid;
+  place-items: center;
+  min-height: 88px;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--card);
+  text-align: center;
+}
+.watch-line p {
+  margin: 0;
+  font: 24px/1.6 var(--font-japanese);
+  white-space: pre-line;
+}
+.watch-line-empty {
+  color: var(--ink-3);
+  font-size: 15px;
+}
+.peek-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 16px;
+  border: 1px dashed var(--accent);
+  border-radius: var(--radius-control);
+  color: var(--accent);
+  font-weight: 600;
+}
+.watch-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.watch-controls > button,
+.watch-rate {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 15px;
+}
+.watch-controls > button:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+.watch-controls > button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent);
+}
+.watch-rate select {
+  min-height: 32px;
+  padding: 0 6px;
+}
+kbd {
+  padding: 1px 5px;
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  font: 12px var(--font-ui);
+  color: var(--ink-2);
+}
+.watch-status {
+  margin: 10px 0 0;
+  font-size: 15px;
+  color: var(--ink-2);
+}
+
+.watch-side {
+  grid-area: side;
+  display: grid;
+  gap: 24px;
+}
+.watch-modes {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+  gap: 8px;
+}
+.watch-modes legend {
+  margin-bottom: 8px;
+  font: 500 22px var(--font-display);
+}
+.watch-modes label {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--card);
+  cursor: pointer;
+}
+.watch-modes label.selected {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.watch-modes span {
+  display: grid;
+  gap: 2px;
+}
+.watch-modes small {
+  color: var(--ink-2);
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+.watch-session {
+  display: grid;
+  gap: 12px;
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+.watch-session p {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+.watch-rating {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.watch-rating span {
+  flex-basis: 100%;
+  font-size: 15px;
+}
+.watch-rating button {
+  min-height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-control);
+  background: var(--card);
+  font-size: 14px;
+}
+.watch-rating button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-wash);
+  color: var(--accent);
+}
+.watch-history h2,
+.watch-transcript h2,
+.watch-saved h2 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+.watch-history ol,
+.watch-transcript ol,
+.watch-saved ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.watch-history li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 14px;
+}
+.watch-history small {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--ink-2);
+}
+
+.watch-transcript {
+  grid-area: lines;
+  min-width: 0;
+}
+.watch-transcript ol {
+  max-height: 420px;
+  overflow-y: auto;
+  border-top: 1px solid var(--rule);
+}
+.watch-transcript li button,
+.watch-saved-line {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+}
+.watch-transcript li button span[lang],
+.watch-saved-line span[lang] {
+  font: 18px/1.6 var(--font-japanese);
+  white-space: pre-line;
+}
+.watch-transcript li.current button {
+  background: var(--accent-wash);
+}
+.watch-time {
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-3);
+}
+.watch-transcript .masked {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--rule);
+}
+
+.watch-saved {
+  grid-area: saved;
+}
+.watch-saved-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.watch-saved li {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid var(--rule);
+}
+.watch-saved li .watch-saved-line {
+  border-bottom: 0;
+}
+.watch-saved input {
+  min-height: 40px;
+}
+
+@media (max-width: 900px) {
+  .watch-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas: "stage" "side" "lines" "saved";
+  }
+  .watch-saved li {
+    grid-template-columns: 1fr auto;
+  }
+  .watch-saved li input {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .watch-line p {
+    font-size: 20px;
+  }
+  .watch-controls > button,
+  .watch-rate {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+  .watch-controls kbd {
+    display: none;
+  }
+}

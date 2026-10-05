@@ -1,0 +1,866 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T03:58:06.185772+00:00",
+  "title": "Design System: Shiori — Japanese with Violetto",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool blue desk",
+        "tonalRamp": [
+          "oklch(15% 0.0091 258.34)",
+          "oklch(26% 0.0091 258.34)",
+          "oklch(38% 0.0091 258.34)",
+          "oklch(49% 0.0091 258.34)",
+          "oklch(61% 0.0091 258.34)",
+          "oklch(72% 0.0091 258.34)",
+          "oklch(84% 0.0091 258.34)",
+          "oklch(95% 0.0091 258.34)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Reading paper",
+        "tonalRamp": [
+          "oklch(15% 0.0041 91.45)",
+          "oklch(26% 0.0041 91.45)",
+          "oklch(38% 0.0041 91.45)",
+          "oklch(49% 0.0041 91.45)",
+          "oklch(61% 0.0041 91.45)",
+          "oklch(72% 0.0041 91.45)",
+          "oklch(84% 0.0041 91.45)",
+          "oklch(95% 0.0041 91.45)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Fine rule",
+        "tonalRamp": [
+          "oklch(15% 0.0205 257.48)",
+          "oklch(26% 0.0205 257.48)",
+          "oklch(38% 0.0205 257.48)",
+          "oklch(49% 0.0205 257.48)",
+          "oklch(61% 0.0205 257.48)",
+          "oklch(72% 0.0205 257.48)",
+          "oklch(84% 0.0205 257.48)",
+          "oklch(95% 0.0205 257.48)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Prussian ink",
+        "tonalRamp": [
+          "oklch(15% 0.0503 265.90)",
+          "oklch(26% 0.0503 265.90)",
+          "oklch(38% 0.0503 265.90)",
+          "oklch(49% 0.0503 265.90)",
+          "oklch(61% 0.0503 265.90)",
+          "oklch(72% 0.0503 265.90)",
+          "oklch(84% 0.0503 265.90)",
+          "oklch(95% 0.0503 265.90)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Supporting ink",
+        "tonalRamp": [
+          "oklch(15% 0.0478 269.20)",
+          "oklch(26% 0.0478 269.20)",
+          "oklch(38% 0.0478 269.20)",
+          "oklch(49% 0.0478 269.20)",
+          "oklch(61% 0.0478 269.20)",
+          "oklch(72% 0.0478 269.20)",
+          "oklch(84% 0.0478 269.20)",
+          "oklch(95% 0.0478 269.20)"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Metadata ink",
+        "tonalRamp": [
+          "oklch(15% 0.0313 269.33)",
+          "oklch(26% 0.0313 269.33)",
+          "oklch(38% 0.0313 269.33)",
+          "oklch(49% 0.0313 269.33)",
+          "oklch(61% 0.0313 269.33)",
+          "oklch(72% 0.0313 269.33)",
+          "oklch(84% 0.0313 269.33)",
+          "oklch(95% 0.0313 269.33)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Action blue",
+        "tonalRamp": [
+          "oklch(15% 0.0893 251.66)",
+          "oklch(26% 0.0893 251.66)",
+          "oklch(38% 0.0893 251.66)",
+          "oklch(49% 0.0893 251.66)",
+          "oklch(61% 0.0893 251.66)",
+          "oklch(72% 0.0893 251.66)",
+          "oklch(84% 0.0893 251.66)",
+          "oklch(95% 0.0893 251.66)"
+        ]
+      },
+      "accent-wash": {
+        "role": "primary",
+        "displayName": "Blue support",
+        "tonalRamp": [
+          "oklch(15% 0.0178 253.34)",
+          "oklch(26% 0.0178 253.34)",
+          "oklch(38% 0.0178 253.34)",
+          "oklch(49% 0.0178 253.34)",
+          "oklch(61% 0.0178 253.34)",
+          "oklch(72% 0.0178 253.34)",
+          "oklch(84% 0.0178 253.34)",
+          "oklch(95% 0.0178 253.34)"
+        ]
+      },
+      "on-accent": {
+        "role": "primary",
+        "displayName": "Action foreground",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "ribbon": {
+        "role": "secondary",
+        "displayName": "Ribbon red",
+        "tonalRamp": [
+          "oklch(15% 0.1533 19.11)",
+          "oklch(26% 0.1533 19.11)",
+          "oklch(38% 0.1533 19.11)",
+          "oklch(49% 0.1533 19.11)",
+          "oklch(61% 0.1533 19.11)",
+          "oklch(72% 0.1533 19.11)",
+          "oklch(84% 0.1533 19.11)",
+          "oklch(95% 0.1533 19.11)"
+        ]
+      },
+      "honey": {
+        "role": "tertiary",
+        "displayName": "Honey gold",
+        "tonalRamp": [
+          "oklch(15% 0.1012 80.46)",
+          "oklch(26% 0.1012 80.46)",
+          "oklch(38% 0.1012 80.46)",
+          "oklch(49% 0.1012 80.46)",
+          "oklch(61% 0.1012 80.46)",
+          "oklch(72% 0.1012 80.46)",
+          "oklch(84% 0.1012 80.46)",
+          "oklch(95% 0.1012 80.46)"
+        ]
+      },
+      "navy": {
+        "role": "primary",
+        "displayName": "Prussian blue",
+        "tonalRamp": [
+          "oklch(15% 0.0503 265.90)",
+          "oklch(26% 0.0503 265.90)",
+          "oklch(38% 0.0503 265.90)",
+          "oklch(49% 0.0503 265.90)",
+          "oklch(61% 0.0503 265.90)",
+          "oklch(72% 0.0503 265.90)",
+          "oklch(84% 0.0503 265.90)",
+          "oklch(95% 0.0503 265.90)"
+        ]
+      },
+      "good": {
+        "role": "secondary",
+        "displayName": "Emerald success",
+        "tonalRamp": [
+          "oklch(15% 0.0803 171.69)",
+          "oklch(26% 0.0803 171.69)",
+          "oklch(38% 0.0803 171.69)",
+          "oklch(49% 0.0803 171.69)",
+          "oklch(61% 0.0803 171.69)",
+          "oklch(72% 0.0803 171.69)",
+          "oklch(84% 0.0803 171.69)",
+          "oklch(95% 0.0803 171.69)"
+        ]
+      },
+      "good-wash": {
+        "role": "secondary",
+        "displayName": "Emerald success wash",
+        "tonalRamp": [
+          "oklch(15% 0.0159 166.71)",
+          "oklch(26% 0.0159 166.71)",
+          "oklch(38% 0.0159 166.71)",
+          "oklch(49% 0.0159 166.71)",
+          "oklch(61% 0.0159 166.71)",
+          "oklch(72% 0.0159 166.71)",
+          "oklch(84% 0.0159 166.71)",
+          "oklch(95% 0.0159 166.71)"
+        ]
+      },
+      "brand-deep": {
+        "role": "primary",
+        "displayName": "Prussian blue",
+        "tonalRamp": [
+          "oklch(15% 0.0598 256.80)",
+          "oklch(26% 0.0598 256.80)",
+          "oklch(38% 0.0598 256.80)",
+          "oklch(49% 0.0598 256.80)",
+          "oklch(61% 0.0598 256.80)",
+          "oklch(72% 0.0598 256.80)",
+          "oklch(84% 0.0598 256.80)",
+          "oklch(95% 0.0598 256.80)"
+        ]
+      },
+      "brand-stage": {
+        "role": "primary",
+        "displayName": "Companion blue",
+        "tonalRamp": [
+          "oklch(15% 0.0695 251.33)",
+          "oklch(26% 0.0695 251.33)",
+          "oklch(38% 0.0695 251.33)",
+          "oklch(49% 0.0695 251.33)",
+          "oklch(61% 0.0695 251.33)",
+          "oklch(72% 0.0695 251.33)",
+          "oklch(84% 0.0695 251.33)",
+          "oklch(95% 0.0695 251.33)"
+        ]
+      },
+      "brand-on": {
+        "role": "primary",
+        "displayName": "Soft white principal text",
+        "tonalRamp": [
+          "oklch(15% 0.0057 84.57)",
+          "oklch(26% 0.0057 84.57)",
+          "oklch(38% 0.0057 84.57)",
+          "oklch(49% 0.0057 84.57)",
+          "oklch(61% 0.0057 84.57)",
+          "oklch(72% 0.0057 84.57)",
+          "oklch(84% 0.0057 84.57)",
+          "oklch(95% 0.0057 84.57)"
+        ]
+      },
+      "brand-soft": {
+        "role": "primary",
+        "displayName": "Pale blue supporting text",
+        "tonalRamp": [
+          "oklch(15% 0.0231 252.18)",
+          "oklch(26% 0.0231 252.18)",
+          "oklch(38% 0.0231 252.18)",
+          "oklch(49% 0.0231 252.18)",
+          "oklch(61% 0.0231 252.18)",
+          "oklch(72% 0.0231 252.18)",
+          "oklch(84% 0.0231 252.18)",
+          "oklch(95% 0.0231 252.18)"
+        ]
+      },
+      "brand-line": {
+        "role": "primary",
+        "displayName": "Slate-blue outline",
+        "tonalRamp": [
+          "oklch(15% 0.0461 252.77)",
+          "oklch(26% 0.0461 252.77)",
+          "oklch(38% 0.0461 252.77)",
+          "oklch(49% 0.0461 252.77)",
+          "oklch(61% 0.0461 252.77)",
+          "oklch(72% 0.0461 252.77)",
+          "oklch(84% 0.0461 252.77)",
+          "oklch(95% 0.0461 252.77)"
+        ]
+      },
+      "brand-art": {
+        "role": "primary",
+        "displayName": "Slate-blue active plane",
+        "tonalRamp": [
+          "oklch(15% 0.0659 252.27)",
+          "oklch(26% 0.0659 252.27)",
+          "oklch(38% 0.0659 252.27)",
+          "oklch(49% 0.0659 252.27)",
+          "oklch(61% 0.0659 252.27)",
+          "oklch(72% 0.0659 252.27)",
+          "oklch(84% 0.0659 252.27)",
+          "oklch(95% 0.0659 252.27)"
+        ]
+      },
+      "metal": {
+        "role": "tertiary",
+        "displayName": "Warm metal",
+        "tonalRamp": [
+          "oklch(15% 0.0916 82.96)",
+          "oklch(26% 0.0916 82.96)",
+          "oklch(38% 0.0916 82.96)",
+          "oklch(49% 0.0916 82.96)",
+          "oklch(61% 0.0916 82.96)",
+          "oklch(72% 0.0916 82.96)",
+          "oklch(84% 0.0916 82.96)",
+          "oklch(95% 0.0916 82.96)"
+        ]
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Night Cool blue desk",
+        "tonalRamp": [
+          "oklch(15% 0.0396 264.17)",
+          "oklch(26% 0.0396 264.17)",
+          "oklch(38% 0.0396 264.17)",
+          "oklch(49% 0.0396 264.17)",
+          "oklch(61% 0.0396 264.17)",
+          "oklch(72% 0.0396 264.17)",
+          "oklch(84% 0.0396 264.17)",
+          "oklch(95% 0.0396 264.17)"
+        ]
+      },
+      "dark-card": {
+        "role": "neutral",
+        "displayName": "Night Reading paper",
+        "tonalRamp": [
+          "oklch(15% 0.0529 266.15)",
+          "oklch(26% 0.0529 266.15)",
+          "oklch(38% 0.0529 266.15)",
+          "oklch(49% 0.0529 266.15)",
+          "oklch(61% 0.0529 266.15)",
+          "oklch(72% 0.0529 266.15)",
+          "oklch(84% 0.0529 266.15)",
+          "oklch(95% 0.0529 266.15)"
+        ]
+      },
+      "dark-rule": {
+        "role": "neutral",
+        "displayName": "Night Fine rule",
+        "tonalRamp": [
+          "oklch(15% 0.0550 266.94)",
+          "oklch(26% 0.0550 266.94)",
+          "oklch(38% 0.0550 266.94)",
+          "oklch(49% 0.0550 266.94)",
+          "oklch(61% 0.0550 266.94)",
+          "oklch(72% 0.0550 266.94)",
+          "oklch(84% 0.0550 266.94)",
+          "oklch(95% 0.0550 266.94)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Night Prussian ink",
+        "tonalRamp": [
+          "oklch(15% 0.0074 260.73)",
+          "oklch(26% 0.0074 260.73)",
+          "oklch(38% 0.0074 260.73)",
+          "oklch(49% 0.0074 260.73)",
+          "oklch(61% 0.0074 260.73)",
+          "oklch(72% 0.0074 260.73)",
+          "oklch(84% 0.0074 260.73)",
+          "oklch(95% 0.0074 260.73)"
+        ]
+      },
+      "dark-ink-2": {
+        "role": "neutral",
+        "displayName": "Night Supporting ink",
+        "tonalRamp": [
+          "oklch(15% 0.0269 257.03)",
+          "oklch(26% 0.0269 257.03)",
+          "oklch(38% 0.0269 257.03)",
+          "oklch(49% 0.0269 257.03)",
+          "oklch(61% 0.0269 257.03)",
+          "oklch(72% 0.0269 257.03)",
+          "oklch(84% 0.0269 257.03)",
+          "oklch(95% 0.0269 257.03)"
+        ]
+      },
+      "dark-ink-3": {
+        "role": "neutral",
+        "displayName": "Night Metadata ink",
+        "tonalRamp": [
+          "oklch(15% 0.0317 254.35)",
+          "oklch(26% 0.0317 254.35)",
+          "oklch(38% 0.0317 254.35)",
+          "oklch(49% 0.0317 254.35)",
+          "oklch(61% 0.0317 254.35)",
+          "oklch(72% 0.0317 254.35)",
+          "oklch(84% 0.0317 254.35)",
+          "oklch(95% 0.0317 254.35)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Night Action blue",
+        "tonalRamp": [
+          "oklch(15% 0.0711 250.64)",
+          "oklch(26% 0.0711 250.64)",
+          "oklch(38% 0.0711 250.64)",
+          "oklch(49% 0.0711 250.64)",
+          "oklch(61% 0.0711 250.64)",
+          "oklch(72% 0.0711 250.64)",
+          "oklch(84% 0.0711 250.64)",
+          "oklch(95% 0.0711 250.64)"
+        ]
+      },
+      "dark-accent-wash": {
+        "role": "primary",
+        "displayName": "Night Blue support",
+        "tonalRamp": [
+          "oklch(15% 0.0574 254.08)",
+          "oklch(26% 0.0574 254.08)",
+          "oklch(38% 0.0574 254.08)",
+          "oklch(49% 0.0574 254.08)",
+          "oklch(61% 0.0574 254.08)",
+          "oklch(72% 0.0574 254.08)",
+          "oklch(84% 0.0574 254.08)",
+          "oklch(95% 0.0574 254.08)"
+        ]
+      },
+      "dark-on-accent": {
+        "role": "primary",
+        "displayName": "Night Action foreground",
+        "tonalRamp": [
+          "oklch(15% 0.0396 264.17)",
+          "oklch(26% 0.0396 264.17)",
+          "oklch(38% 0.0396 264.17)",
+          "oklch(49% 0.0396 264.17)",
+          "oklch(61% 0.0396 264.17)",
+          "oklch(72% 0.0396 264.17)",
+          "oklch(84% 0.0396 264.17)",
+          "oklch(95% 0.0396 264.17)"
+        ]
+      },
+      "dark-good": {
+        "role": "secondary",
+        "displayName": "Night Emerald success",
+        "tonalRamp": [
+          "oklch(15% 0.0961 169.82)",
+          "oklch(26% 0.0961 169.82)",
+          "oklch(38% 0.0961 169.82)",
+          "oklch(49% 0.0961 169.82)",
+          "oklch(61% 0.0961 169.82)",
+          "oklch(72% 0.0961 169.82)",
+          "oklch(84% 0.0961 169.82)",
+          "oklch(95% 0.0961 169.82)"
+        ]
+      },
+      "dark-good-wash": {
+        "role": "secondary",
+        "displayName": "Night Emerald success wash",
+        "tonalRamp": [
+          "oklch(15% 0.0351 201.35)",
+          "oklch(26% 0.0351 201.35)",
+          "oklch(38% 0.0351 201.35)",
+          "oklch(49% 0.0351 201.35)",
+          "oklch(61% 0.0351 201.35)",
+          "oklch(72% 0.0351 201.35)",
+          "oklch(84% 0.0351 201.35)",
+          "oklch(95% 0.0351 201.35)"
+        ]
+      },
+      "dark-ribbon": {
+        "role": "secondary",
+        "displayName": "Night Ribbon red",
+        "tonalRamp": [
+          "oklch(15% 0.1370 15.71)",
+          "oklch(26% 0.1370 15.71)",
+          "oklch(38% 0.1370 15.71)",
+          "oklch(49% 0.1370 15.71)",
+          "oklch(61% 0.1370 15.71)",
+          "oklch(72% 0.1370 15.71)",
+          "oklch(84% 0.1370 15.71)",
+          "oklch(95% 0.1370 15.71)"
+        ]
+      },
+      "dark-honey": {
+        "role": "tertiary",
+        "displayName": "Night Honey gold",
+        "tonalRamp": [
+          "oklch(15% 0.0916 82.96)",
+          "oklch(26% 0.0916 82.96)",
+          "oklch(38% 0.0916 82.96)",
+          "oklch(49% 0.0916 82.96)",
+          "oklch(61% 0.0916 82.96)",
+          "oklch(72% 0.0916 82.96)",
+          "oklch(84% 0.0916 82.96)",
+          "oklch(95% 0.0916 82.96)"
+        ]
+      },
+      "violet": {
+        "role": "secondary",
+        "displayName": "Muted violet",
+        "tonalRamp": [
+          "oklch(15% 0.0793 303.63)",
+          "oklch(26% 0.0793 303.63)",
+          "oklch(38% 0.0793 303.63)",
+          "oklch(49% 0.0793 303.63)",
+          "oklch(61% 0.0793 303.63)",
+          "oklch(72% 0.0793 303.63)",
+          "oklch(84% 0.0793 303.63)",
+          "oklch(95% 0.0793 303.63)"
+        ]
+      },
+      "violet-wash": {
+        "role": "secondary",
+        "displayName": "Violet correspondence wash",
+        "tonalRamp": [
+          "oklch(15% 0.0173 308.25)",
+          "oklch(26% 0.0173 308.25)",
+          "oklch(38% 0.0173 308.25)",
+          "oklch(49% 0.0173 308.25)",
+          "oklch(61% 0.0173 308.25)",
+          "oklch(72% 0.0173 308.25)",
+          "oklch(84% 0.0173 308.25)",
+          "oklch(95% 0.0173 308.25)"
+        ]
+      },
+      "dark-violet": {
+        "role": "secondary",
+        "displayName": "Night Muted violet",
+        "tonalRamp": [
+          "oklch(15% 0.0645 305.61)",
+          "oklch(26% 0.0645 305.61)",
+          "oklch(38% 0.0645 305.61)",
+          "oklch(49% 0.0645 305.61)",
+          "oklch(61% 0.0645 305.61)",
+          "oklch(72% 0.0645 305.61)",
+          "oklch(84% 0.0645 305.61)",
+          "oklch(95% 0.0645 305.61)"
+        ]
+      },
+      "dark-violet-wash": {
+        "role": "secondary",
+        "displayName": "Night Violet correspondence wash",
+        "tonalRamp": [
+          "oklch(15% 0.0485 297.11)",
+          "oklch(26% 0.0485 297.11)",
+          "oklch(38% 0.0485 297.11)",
+          "oklch(49% 0.0485 297.11)",
+          "oklch(61% 0.0485 297.11)",
+          "oklch(72% 0.0485 297.11)",
+          "oklch(84% 0.0485 297.11)",
+          "oklch(95% 0.0485 297.11)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Classical heading",
+        "purpose": "Upright Cormorant headings. Surfaces have explicit responsive overrides."
+      },
+      "body": {
+        "displayName": "Study interface",
+        "purpose": "Self-hosted Source Sans 3; base body role, not a minimum for metadata."
+      },
+      "japanese-reading": {
+        "displayName": "Mincho reading",
+        "purpose": "Japanese content and airy letter reading; semantic ruby is 0.4em."
+      },
+      "letter-meta": {
+        "displayName": "Typewriter mark",
+        "purpose": "Small correspondence metadata, never the primary reading voice."
+      },
+      "today-display": {
+        "displayName": "Today introduction",
+        "purpose": "Fluid desktop introduction; 40px at 767px and below."
+      },
+      "companion-name": {
+        "displayName": "Companion name",
+        "purpose": "Retained companion name role outside the redesigned Today and lesson bubble; no lesson mascot caption."
+      },
+      "companion-japanese": {
+        "displayName": "Companion greeting",
+        "purpose": "20px Mincho in the shared bubble; phone collapsed line is 16px."
+      },
+      "companion-meaning": {
+        "displayName": "Companion meaning",
+        "purpose": "14px supporting bubble translation in ink-2."
+      },
+      "lesson-heading": {
+        "displayName": "Next lesson",
+        "purpose": "Today next lesson: clamp(34px, 3.5vw, 48px), 1.12 line height; 34px on phones."
+      },
+      "welcome-display": {
+        "displayName": "Welcome letter",
+        "purpose": "Desktop welcome title; compact phone overrides live in violet-theme.css."
+      },
+      "lesson-meta": {
+        "displayName": "Lesson metadata",
+        "purpose": "13px UI lesson metadata, regular weight and 1.5 line height; 12px on phones."
+      },
+      "companion-reading": {
+        "displayName": "Companion kana reading",
+        "purpose": "14px reading visible in desktop bubbles and expanded phone bubbles; this line is not a quiz."
+      }
+    },
+    "shadows": [
+      {
+        "name": "ambient-light",
+        "value": "0 14px 38px #1f2a4415",
+        "purpose": "Light --shadow: reading paper and retained transient surfaces. Today lesson, arch and reading teaser are flat."
+      },
+      {
+        "name": "ambient-dark",
+        "value": "0 18px 55px #050b142b",
+        "purpose": "Night post --shadow counterpart."
+      },
+      {
+        "name": "mobile-gloss",
+        "value": "0 8px 24px #00000020",
+        "purpose": "Temporary meaning panel above navigation."
+      },
+      {
+        "name": "dialog",
+        "value": "0 24px 90px #10182c30",
+        "purpose": "Native modal; backdrop remains #0b142680."
+      },
+      {
+        "name": "reaction-bubble",
+        "value": "0 6px 22px #07152b12",
+        "purpose": "Shared Today and lesson speech bubble."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Shared ease-out curve."
+      },
+      {
+        "name": "control-feedback",
+        "value": "160ms var(--ease)",
+        "purpose": "Button background and transform; plan and voice-option background."
+      },
+      {
+        "name": "postcard-hover",
+        "value": "220ms var(--ease)",
+        "purpose": "Retained postcards: fine-pointer hover lifts 3px; Today reading teaser explicitly has no transform or shadow."
+      },
+      {
+        "name": "completion-stamp",
+        "value": "240ms var(--ease)",
+        "purpose": "Brief scale/opacity stamp on completion."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disable decorative transitions and transforms; verdict entrance uses opacity only. Explicit teaching stroke timer remains separate."
+      },
+      {
+        "name": "stroke-step",
+        "value": "550ms",
+        "purpose": "User-started instructional stroke sequence."
+      },
+      {
+        "name": "verdict-enter",
+        "value": "200ms var(--ease)",
+        "purpose": "Bottom verdict slides and fades in; opacity-only verdict-fade under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop",
+        "value": "max-width: 1100px"
+      },
+      {
+        "name": "gloss-and-secondary-stack",
+        "value": "max-width: 900px"
+      },
+      {
+        "name": "bottom-navigation",
+        "value": "max-width: 850px"
+      },
+      {
+        "name": "compact-board-and-welcome",
+        "value": "max-width: 767px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width: 600px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "max-width: 360px"
+      },
+      {
+        "name": "study-tablet",
+        "value": "min-width: 768px and max-width: 1099px"
+      },
+      {
+        "name": "study-phone",
+        "value": "max-width: 767px"
+      },
+      {
+        "name": "study-short-desktop",
+        "value": "min-width: 768px and max-height: 900px"
+      }
+    ],
+    "colorRampNote": "Eight-step OKLCH inspection ramps are synthesized from each source hue/chroma; they are panel metadata, not additional production palette tokens.",
+    "fontAliases": {
+      "--font-display": "typography.display.fontFamily",
+      "--font-japanese": "typography.japanese-reading.fontFamily",
+      "--font-ui": "typography.body.fontFamily"
+    },
+    "shapeNotes": {
+      "control": "8px: primary/secondary actions and answer options; desktop navigation is underlined with transparent active fill.",
+      "panel": "16px: retained welcome, postcard and album containers; Today lesson and companion have no panel.",
+      "field": "5px: retained fields and icon actions.",
+      "portrait-arch": "100px 100px 12px 12px: unfilled Today portrait with 1px honey border.",
+      "path-current": "14px: current lesson stop.",
+      "overlay": "12px: dialogs and More.",
+      "bubble": "14px: shared reaction bubble."
+    },
+    "responsivePatterns": {
+      "today-phone": "At 767px and below: introduction, companion, lesson. The manuscript specimen is capped at 260px; Violetto is 96px in a 112px-tall unfilled arch. The bubble collapses to one Japanese line and expands to show reading, English and 44px replay. Daily plan and ruled reading/stats stack below.",
+      "welcome-phone": "155px portrait area, 38px title (40px at 360px), and pale Begin with Violetto quick-start directly after title. Both start actions focus the name field; introductory prose and signature stay available.",
+      "welcome-kanji": "Decorative 言葉 uses nowrap to avoid tablet wrapping.",
+      "today-desktop": "Equal introduction/companion columns, then a full-width open lesson with a 350px manuscript specimen. Violetto is 200px desktop and 140px tablet; the bubble sits left of the unfilled honey arch.",
+      "focus": "60px top bar and 3px progress rule replace site navigation. Task capped at 760px, near 16vh on desktop and 24px below the bar on phones. Glyph choices: four columns, two on phones. Lesson mascot: 132px desktop, 96px tablet, 56px phone; measured verdict height positions feet 16px above feedback.",
+      "reaction-collision": "Measure bubble against task through the last answer choice, excluding invisible Check spacing. Collision moves both reaction and verdict below the task in normal flow with a nonshrinking bubble. At desktop heights up to 900px the companion alone defaults to normal flow; verdict stays fixed unless measured collision triggers the full fallback. Protects short and long tasks."
+    },
+    "implementationScope": {
+      "implemented": [
+        "A: navigation",
+        "B: focused lessons/review/JLPT samples, verdict and reaction bubble",
+        "C: open Today desk, manuscript specimen, plan and ruled stats"
+      ],
+      "deferred": [
+        "D: Violetto page and Settings Voice move",
+        "E: palette and general polish"
+      ],
+      "sourceOfTruth": [
+        "src/styles.css",
+        "src/violet-theme.css",
+        "src/study-layout.css",
+        "src/App.tsx",
+        "src/LessonPlayer.tsx",
+        "src/Violetto.tsx",
+        "src/Jlpt.tsx"
+      ],
+      "copyStatus": "Today checkpoint preview: Your next words await.; Today’s session; Read, listen, then put the words to use. Course-title revisions are proposed only.",
+      "preserved": "Current palette, mascot/teacher art, one voice, existing voice routes/audio and shiori-japanese-v1 identity."
+    },
+    "approvedBrand": {
+      "approvedOn": "2026-10-05",
+      "primary": "/brand/shiori-signature.svg",
+      "inverse": "/brand/shiori-signature-inverse.svg",
+      "icon": "/brand/shiori-violetto-icon.svg",
+      "format": "Actual SVG paths traced from approved reserved Violetto writing concept; no embedded bitmap",
+      "desktopWidth": 124,
+      "phoneWidth": 112,
+      "welcomeWidth": 174,
+      "welcomePhoneWidth": 140,
+      "desktopHeaderHeight": 100,
+      "phoneHeaderHeight": 90,
+      "welcomeHeaderHeight": 134,
+      "welcomePhoneHeaderHeight": 112
+    }
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Blue semibold main action; 49px minimum height.",
+      "html": "<button class=\"ds-component-0\">Begin lesson <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-component-0{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:49px;padding:11px 23px;border:1px solid transparent;border-radius:var(--radius-control,8px);background:var(--accent,#244f7c);color:var(--on-accent,#fff);font:600 17px/1.55 \"Source Sans 3\",sans-serif;cursor:pointer;transition:background-color 160ms var(--ease,cubic-bezier(.23,1,.32,1)),transform 160ms var(--ease,cubic-bezier(.23,1,.32,1))}.ds-component-0:hover:not(:disabled){filter:brightness(1.08)}.ds-component-0:disabled{opacity:.65;cursor:default}.ds-component-0:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}.ds-component-0:active:not(:disabled){transform:scale(.97)}.ds-component-0:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-component-0{transition:none!important;animation:none!important}.ds-component-0:active:not(:disabled){transform:none}}.ds-component-0:hover{background:var(--ink,#1f2a44);color:var(--paper,#edf1f7)}"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined alternate action with blue wash hover.",
+      "html": "<button class=\"ds-component-1\">Continue later</button>",
+      "css": ".ds-component-1{display:inline-flex;align-items:center;justify-content:center;min-height:49px;padding:11px 23px;border:1px solid var(--rule,#cbd4e1);border-radius:var(--radius-control,8px);background:transparent;color:var(--ink,#1f2a44);font:600 17px/1.55 \"Source Sans 3\",sans-serif;cursor:pointer;transition:background-color 160ms var(--ease,cubic-bezier(.23,1,.32,1)),transform 160ms var(--ease,cubic-bezier(.23,1,.32,1))}.ds-component-1:hover:not(:disabled){filter:brightness(1.08)}.ds-component-1:disabled{opacity:.65;cursor:default}.ds-component-1:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}.ds-component-1:active:not(:disabled){transform:scale(.97)}.ds-component-1:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-component-1{transition:none!important;animation:none!important}.ds-component-1:active:not(:disabled){transform:none}}.ds-component-1:hover{background:var(--accent-wash,#dfe8f3);color:var(--accent,#244f7c)}"
+    },
+    {
+      "name": "Audio action",
+      "kind": "button",
+      "refersTo": "button-audio",
+      "description": "Speaker and label in a quiet outlined pill.",
+      "html": "<button class=\"ds-component-2\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" aria-hidden=\"true\"><path d=\"m11 4-6 5H2v6h3l6 5V4Zm4 4c3 2 3 6 0 8m3-11c5 4 5 10 0 14\"/></svg>Listen</button>",
+      "css": ".ds-component-2{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 14px;border:1px solid var(--rule,#cbd4e1);border-radius:30px;background:transparent;color:var(--ink-2,#4a5470);font:500 17px/1.55 \"Source Sans 3\",sans-serif;cursor:pointer}.ds-component-2:hover{background:var(--accent-wash,#dfe8f3);color:var(--accent,#244f7c)}.ds-component-2:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}.ds-component-2:active:not(:disabled){transform:scale(.97)}.ds-component-2:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-component-2{transition:none!important;animation:none!important}.ds-component-2:active:not(:disabled){transform:none}}"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label, soft white fill and a clear focus outline.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-reply\">A little reply</label><textarea id=\"ds-reply\" class=\"ds-component-3\" placeholder=\"こんにちは。…\"></textarea>",
+      "css": ".ds-field-label{display:block;margin:16px 0 8px;color:var(--ink,#1f2a44);font:600 17px/1.55 \"Source Sans 3\",sans-serif}.ds-component-3{width:100%;min-height:120px;resize:vertical;border:1px solid var(--rule,#cbd4e1);border-radius:5px;background:var(--card,#faf9f6);color:var(--ink,#1f2a44);padding:12px 14px;font:400 17px/1.55 \"Source Sans 3\",sans-serif;caret-color:var(--accent,#244f7c)}.ds-component-3::placeholder{color:var(--ink-3,#60677a)}.ds-component-3:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}"
+    },
+    {
+      "name": "Register label",
+      "kind": "chip",
+      "refersTo": "register",
+      "description": "A descriptive language register, not an interactive filter.",
+      "html": "<span class=\"ds-register\">polite</span>",
+      "css": ".ds-register{display:inline-block;font:400 14px/1.55 \"Source Sans 3\",sans-serif;text-transform:capitalize;color:var(--ink-2,#4a5470);background:var(--paper,#edf1f7);border:1px solid var(--rule,#cbd4e1);padding:3px 10px;border-radius:20px}"
+    },
+    {
+      "name": "Reading paper",
+      "kind": "card",
+      "refersTo": "letter-paper",
+      "description": "Rectangular correspondence, airy Mincho and semantic ruby.",
+      "html": "<article class=\"ds-paper\"><div class=\"ds-meta\">THE FIRST CORRESPONDENCE</div><p lang=\"ja\">こんにちは。<br/><ruby>私<rt>わたし</rt></ruby>はユイです。</p></article>",
+      "css": ".ds-paper{background:var(--card,#faf9f6);color:var(--ink,#1f2a44);padding:34px 40px;box-shadow:var(--shadow,0 14px 38px #1f2a4415)}.ds-meta{font:400 10px/1.55 \"Courier Prime\",monospace;letter-spacing:.7px;color:var(--ink-3,#60677a);border-bottom:1px solid var(--rule,#cbd4e1);padding-bottom:25px}.ds-paper p{margin:14px 0;font:400 28px/2.5 \"Noto Serif JP\",serif}.ds-paper rt{font-size:.4em;color:var(--ink-2,#4a5470);letter-spacing:.03em}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "description": "Prussian blue header with 2px soft-white current-page underline. Phone has Today, Read, Listen, Speak and More.",
+      "html": "<nav class=\"ds-navigation\" aria-label=\"Example navigation\"><a class=\"ds-nav-link\" href=\"#today\" aria-current=\"page\">Today</a><a class=\"ds-nav-link\" href=\"#read\">Read</a><a class=\"ds-nav-link\" href=\"#listen\">Listen</a><a class=\"ds-nav-link\" href=\"#speak\">Speak</a><a class=\"ds-nav-link\" href=\"#jlpt\">JLPT</a><a class=\"ds-nav-link\" href=\"#practice\">Practice</a><a class=\"ds-nav-link\" href=\"#media\">Media</a><a class=\"ds-nav-link\" href=\"#progress\">Progress</a></nav>",
+      "css": ".ds-navigation{display:flex;gap:10px;align-items:center;min-height:78px;padding:0 20px;background:var(--brand-deep,#172c49)}.ds-nav-link{position:relative;display:flex;align-items:center;height:44px;padding:0 13px;border-radius:var(--radius-control,8px);color:var(--brand-soft,#d6e2f0);font:400 16px/1.55 var(--font-ui,\"Source Sans 3\",sans-serif);text-decoration:none}.ds-nav-link[aria-current]{background:transparent;color:var(--brand-on,#f7f5f1);font-weight:600}.ds-nav-link:hover{background:var(--brand-stage,#274769)}.ds-nav-link:focus-visible{outline:2px solid var(--metal,#e2c07f);outline-offset:5px}.ds-nav-link[aria-current]::after{content:\"\";position:absolute;bottom:0;left:13px;right:13px;height:2px;background:var(--brand-on,#f7f5f1)}",
+      "refersTo": "navigation-active"
+    },
+    {
+      "name": "Companion reaction bubble",
+      "kind": "custom",
+      "refersTo": "companion-bubble",
+      "description": "Readable Japanese, kana, English and a 44px replay action; Today greeting and lesson feedback share this treatment. Production positions unchanged atlas artwork beside it.",
+      "html": "<aside class=\"ds-bubble\"><p class=\"ds-bubble-ja\" lang=\"ja\">お待ちしておりました。始めましょう。</p><p class=\"ds-bubble-reading\" lang=\"ja\">おまちしておりました。はじめましょう。</p><p class=\"ds-bubble-meaning\">I have been expecting you. Shall we begin?</p><button class=\"ds-bubble-replay\">Hear Violetto</button></aside>",
+      "css": ".ds-bubble{position:relative;width:280px;max-width:100%;padding:14px;border:1px solid var(--rule,#cbd4e1);border-radius:14px;background:var(--card,#faf9f6);color:var(--ink,#1f2a44);box-shadow:0 6px 22px #07152b12;text-align:left}.ds-bubble::after{content:\"\";position:absolute;width:12px;height:12px;right:-7px;bottom:40px;background:var(--card,#faf9f6);border-right:1px solid var(--rule,#cbd4e1);border-bottom:1px solid var(--rule,#cbd4e1);transform:rotate(-45deg)}.ds-bubble p{margin:0}.ds-bubble .ds-bubble-ja{font:400 20px/1.65 var(--font-japanese,\"Noto Serif JP\",serif)}.ds-bubble .ds-bubble-reading{margin-top:8px;color:var(--ink-2,#4a5470);font:400 14px/1.6 var(--font-ui,\"Source Sans 3\",sans-serif)}.ds-bubble .ds-bubble-meaning{margin-top:8px;color:var(--ink-2,#4a5470);font:400 14px/1.5 var(--font-ui,\"Source Sans 3\",sans-serif)}.ds-bubble-replay{min-height:44px;margin-top:4px;border:0;background:transparent;color:var(--accent,#244f7c);font:400 14px/1.55 var(--font-ui,\"Source Sans 3\",sans-serif);cursor:pointer}.ds-bubble-replay:hover{text-decoration:underline}.ds-bubble-replay:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}.ds-bubble-replay:active{transform:scale(.97)}.ds-bubble-replay:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-bubble-replay:active{transform:none}}"
+    },
+    {
+      "name": "Welcome quick-start",
+      "kind": "button",
+      "refersTo": "button-welcome",
+      "description": "Compact welcome action immediately after the title; it advances to the name form.",
+      "html": "<button class=\"ds-welcome-start\">Begin with Violetto</button>",
+      "css": ".ds-welcome-start{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:49px;padding:11px 23px;border:1px solid transparent;border-radius:var(--radius-control,8px);background:var(--accent,#244f7c);color:var(--on-accent,#fff);font:600 17px/1.55 \"Source Sans 3\",sans-serif;cursor:pointer;transition:background-color 160ms var(--ease,cubic-bezier(.23,1,.32,1)),transform 160ms var(--ease,cubic-bezier(.23,1,.32,1))}.ds-welcome-start:hover:not(:disabled){filter:brightness(1.08)}.ds-welcome-start:disabled{opacity:.65;cursor:default}.ds-welcome-start:focus-visible{outline:2px solid var(--accent,#244f7c);outline-offset:5px}.ds-welcome-start:active:not(:disabled){transform:scale(.97)}.ds-welcome-start:focus-visible:active{transform:none}@media(prefers-reduced-motion:reduce){.ds-welcome-start{transition:none!important;animation:none!important}.ds-welcome-start:active:not(:disabled){transform:none}}.ds-welcome-start:hover{background:var(--ink,#1f2a44);color:var(--paper,#edf1f7)}.ds-welcome-start,.ds-welcome-start:hover{display:flex;width:100%;background:var(--brand-on,#f7f5f1);color:var(--brand-deep,#172c49)}.ds-welcome-start:focus-visible{outline-color:var(--metal,#e2c07f)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Violetto correspondence.",
+    "overview": "Blue framing, a cool blue desk and soft white reading paper make Japanese study feel like correspondence shared with Violetto. Upright classical headings and airy Japanese Mincho retain the letter-world character. The latest user preference makes blue predominant, adds small ribbon-red details and permits muted violet correspondence accents. It supersedes the earlier emerald/ivory direction and blanket purple prohibition; the original kickoff remains character inspiration, not absolute palette authority.\n\nVioletto is a visible study companion: prominent on arrival and Today, then quieter around active reading and retrieval. Her confirmed atlas, blonde braids, blue eyes, navy coat, ivory skirt, emerald brooch and red ribbons remain intact. Shiori / 栞 remains provisional. The visual revision preserves course content, persona, audio behavior and persistence identity (`shiori-japanese-v1`, `shiori-japanese`, `shiori-reply-`). The implementation is code-led; the direction is user-requested, but no pixel composition or new artwork was approved.\n",
+    "keyCharacteristics": [
+      "Blue header and actions, cool paper, restrained correspondence accents and gold ornaments.",
+      "An unfilled Today portrait arch and readable shared reaction bubble using existing Violetto art and voice.",
+      "Open manuscript lesson on Today; focused study, numbered selections and fixed verdicts during retrieval.",
+      "Upright serif headings, practical UI controls and honest learning evidence."
+    ],
+    "rules": [
+      {
+        "name": "The Color Has a Job Rule",
+        "body": "Blue identifies the app and its actions; muted violet marks correspondence; emerald marks successful learning; ribbon marks small postal details, errors or seals. Support reveals do not become success merely because they have a colored background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Language First Rule",
+        "body": "Preserve readable Japanese, ruby spacing and explanation hierarchy before allocating space to companion art, stamps or metadata.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use semantic theme tokens and inspect both Morning letter and Night post.",
+      "Do make the predominantly blue letter world and Violetto visible at arrival while keeping Japanese primary during practice.",
+      "Do retain the established font families, upright headings, airy Mincho and small typewriter accents.",
+      "Do preserve keyboard focus, nearby gloss feedback and usable phone study controls.",
+      "Do update this file and its sidecar together from the final CSS cascade and rendered evidence.",
+      "Do treat Violetto as confirmed and Shiori as provisional, preserving course, persona and persistence truth.",
+      "Do follow SHARED-SPEC batches A–C while keeping D/E palette and voice-route work deferred for approval."
+    ],
+    "donts": [
+      "Don't restore emerald primary actions or treat the earlier ban on purple as current guidance; blue leads, with restrained red and muted violet accents.",
+      "Don't replace distinct learning surfaces with uniform card grids, decorative scores or marketing sections.",
+      "Don't let companion art, postal ornament or continuous animation obstruct reading and retrieval.",
+      "Don't present guided answers, correspondence levels, completion counts or roadmap labels as proven fluency.",
+      "Don't describe this code-led design as an approved image composition or the working app name as settled.",
+      "Don’t restore filled Today mentor/lesson cards, the lilac strip or filled desktop current-page pills; keep reaction bubbles clear of answers."
+    ]
+  }
+}

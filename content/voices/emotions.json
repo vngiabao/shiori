@@ -1,0 +1,12 @@
+{
+  "voice": "VOICEVOX:冥鳴ひまり",
+  "styleId": 14,
+  "direction": "Preserve the user-approved voice. Violetto remains composed, precise and quietly caring. Emotion comes through modest intonation, pace and phrase pauses; words and mora sequences do not change. Never apply these settings to kana, vocabulary or pronunciation contrasts.",
+  "moods": {
+    "composed": {"label":"Composed welcome","description":"An even greeting, with a little warmth when she welcomes you back.","takes":[{"name":"At the writing desk","speed":1.0,"intonation":0.86,"pitch":-0.015,"pauseScale":1.0},{"name":"A warmer welcome","speed":0.97,"intonation":1.02,"pitch":-0.007,"pauseScale":1.12}]},
+    "warm": {"label":"Gentle reassurance","description":"A softer pace after a mistake; patient, without pity.","takes":[{"name":"Take your time","speed":0.95,"intonation":0.88,"pitch":-0.025,"pauseScale":1.2},{"name":"Together, once more","speed":0.99,"intonation":1.02,"pitch":-0.012,"pauseScale":1.08}]},
+    "proud": {"label":"Quiet delight","description":"A small audible smile and a brighter lift when your effort pays off.","takes":[{"name":"A small smile","speed":1.04,"intonation":1.14,"pitch":0.005,"pauseScale":0.94},{"name":"Sincerely pleased","speed":1.0,"intonation":1.22,"pitch":0.01,"pauseScale":1.1}]},
+    "precise": {"label":"Teacher focus","description":"Steady, deliberate delivery; a clear pause before the next step.","takes":[{"name":"Look closely","speed":0.97,"intonation":0.82,"pitch":-0.02,"pauseScale":1.12},{"name":"One point at a time","speed":1.01,"intonation":0.98,"pitch":-0.015,"pauseScale":1.2}]},
+    "reflective": {"label":"Thoughtful rest","description":"A quieter close, with room between phrases to let the thought settle.","takes":[{"name":"The letter is finished","speed":0.94,"intonation":0.78,"pitch":-0.03,"pauseScale":1.25},{"name":"Until next time","speed":0.98,"intonation":0.94,"pitch":-0.02,"pauseScale":1.15}]}
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "shiori-japanese",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run packs && npm run validate:jlpt && tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5175",
+    "packs": "tsx scripts/build-packs.ts",
+    "validate:content": "tsx scripts/build-packs.ts --check",
+    "sources:jmdict": "python scripts/jmdict_sources.py",
+    "test:sources": "python -m unittest discover -s scripts -p test_jmdict_sources.py",
+    "validate:jlpt": "tsx scripts/validate-jlpt.ts",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "screenshots": "tsx scripts/screenshots.ts",
+    "author:context": "tsx scripts/author-context.ts",
+    "audit:content": "tsx scripts/audit-content.ts",
+    "format": "prettier --write src scripts/*.ts tests e2e *.ts"
+  },
+  "dependencies": {
+    "@fontsource/cormorant-garamond": "^5.2.0",
+    "@fontsource/courier-prime": "^5.2.0",
+    "@fontsource/noto-serif-jp": "^5.2.0",
+    "@fontsource/source-sans-3": "^5.2.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "@supabase/supabase-js": "^2.117.2",
+    "dexie": "^4.4.6",
+    "dexie-react-hooks": "^4.4.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "ts-fsrs": "^5.4.2"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "fake-indexeddb": "^6.2.5",
+    "prettier": "^3.9.9",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.0.3"
+  }
+}

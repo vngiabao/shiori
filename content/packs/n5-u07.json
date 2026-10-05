@@ -1,0 +1,683 @@
+{
+  "id": "n5-u07",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N5 · Unit 7",
+  "words": [
+    {
+      "id": "n5-u07-w-kazoku",
+      "text": "家族",
+      "kana": "かぞく",
+      "romaji": "kazoku",
+      "meaning": "(my) family",
+      "register": "neutral",
+      "example": "私の家族です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-gokazoku",
+      "lemma": {
+        "text": "家族",
+        "kana": "かぞく"
+      },
+      "text": "ご家族",
+      "kana": "ごかぞく",
+      "romaji": "gokazoku",
+      "meaning": "(your / someone else's) family, polite",
+      "register": "polite",
+      "example": "ご家族はお元気ですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ご"
+        },
+        {
+          "text": "家族",
+          "reading": "かぞく"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-chichi",
+      "text": "父",
+      "kana": "ちち",
+      "romaji": "chichi",
+      "meaning": "my father",
+      "register": "neutral",
+      "example": "父は会社員です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "父",
+          "reading": "ちち"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-haha",
+      "text": "母",
+      "kana": "はは",
+      "romaji": "haha",
+      "meaning": "my mother",
+      "register": "neutral",
+      "example": "母はハノイにいます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "母",
+          "reading": "はは"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-okaasan",
+      "text": "お母さん",
+      "kana": "おかあさん",
+      "romaji": "okāsan",
+      "meaning": "(someone else's) mother",
+      "register": "polite",
+      "example": "お母さんはお元気ですか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "母",
+          "reading": "かあ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-ani",
+      "text": "兄",
+      "kana": "あに",
+      "romaji": "ani",
+      "meaning": "my older brother",
+      "register": "neutral",
+      "example": "兄は東京にいます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "兄",
+          "reading": "あに"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-ane",
+      "text": "姉",
+      "kana": "あね",
+      "romaji": "ane",
+      "meaning": "my older sister",
+      "register": "neutral",
+      "example": "姉は髪が長いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "姉",
+          "reading": "あね"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-oneesan",
+      "text": "お姉さん",
+      "kana": "おねえさん",
+      "romaji": "onēsan",
+      "meaning": "(someone else's) older sister",
+      "register": "polite",
+      "example": "お姉さんは何をしていますか。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "姉",
+          "reading": "ねえ"
+        },
+        {
+          "text": "さん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-sundeimasu",
+      "lemma": {
+        "text": "住む",
+        "kana": "すむ"
+      },
+      "text": "住んでいます",
+      "kana": "すんでいます",
+      "romaji": "sunde imasu",
+      "meaning": "live (somewhere)",
+      "register": "polite",
+      "example": "東京に住んでいます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "住",
+          "reading": "す"
+        },
+        {
+          "text": "んでいます"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-hataraiteimasu",
+      "lemma": {
+        "text": "働く",
+        "kana": "はたらく"
+      },
+      "text": "働いています",
+      "kana": "はたらいています",
+      "romaji": "hataraite imasu",
+      "meaning": "work (have a job)",
+      "register": "polite",
+      "example": "会社で働いています。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "働",
+          "reading": "はたら"
+        },
+        {
+          "text": "いています"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-kaisha",
+      "text": "会社",
+      "kana": "かいしゃ",
+      "romaji": "kaisha",
+      "meaning": "company",
+      "register": "neutral",
+      "example": "大きい会社です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "会社",
+          "reading": "かいしゃ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-toukyou",
+      "text": "東京",
+      "kana": "とうきょう",
+      "romaji": "Tōkyō",
+      "meaning": "Tokyo",
+      "register": "neutral",
+      "example": "東京に行きました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "東京",
+          "reading": "とうきょう"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-amerika",
+      "text": "アメリカ",
+      "kana": "アメリカ",
+      "romaji": "Amerika",
+      "meaning": "the United States",
+      "register": "neutral",
+      "example": "アメリカに住んでいます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "アメリカ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-hanoi",
+      "text": "ハノイ",
+      "kana": "ハノイ",
+      "romaji": "Hanoi",
+      "meaning": "Hanoi",
+      "register": "neutral",
+      "example": "ハノイはベトナムにあります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ハノイ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-kami",
+      "text": "髪",
+      "kana": "かみ",
+      "romaji": "kami",
+      "meaning": "hair",
+      "register": "neutral",
+      "example": "髪が長いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "髪",
+          "reading": "かみ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-nagai",
+      "text": "長い",
+      "kana": "ながい",
+      "romaji": "nagai",
+      "meaning": "long",
+      "register": "neutral",
+      "example": "長い手紙です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "長",
+          "reading": "なが"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-w-segatakai",
+      "text": "背が高い",
+      "kana": "せがたかい",
+      "romaji": "se ga takai",
+      "meaning": "tall (a person)",
+      "register": "neutral",
+      "example": "兄は背が高いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "背",
+          "reading": "せ"
+        },
+        {
+          "text": "が"
+        },
+        {
+          "text": "高",
+          "reading": "たか"
+        },
+        {
+          "text": "い"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n5-u07-lesson",
+      "kind": "phrase",
+      "words": [
+        "n5-u07-w-kazoku",
+        "n5-u07-w-gokazoku",
+        "n5-u07-w-chichi",
+        "n5-u07-w-haha",
+        "n5-u07-w-okaasan",
+        "n5-u07-w-ani",
+        "n5-u07-w-ane",
+        "n5-u07-w-oneesan",
+        "n5-u07-w-sundeimasu",
+        "n5-u07-w-hataraiteimasu",
+        "n5-u07-w-kaisha",
+        "n5-u07-w-toukyou",
+        "n5-u07-w-amerika",
+        "n5-u07-w-hanoi",
+        "n5-u07-w-kami",
+        "n5-u07-w-nagai",
+        "n5-u07-w-segatakai"
+      ],
+      "title": "Family photos",
+      "description": "Talk about family, where people live and work, and what they look like.",
+      "canDo": "Talk about your family and ask politely about someone else's",
+      "minutes": 20
+    }
+  ],
+  "letters": [
+    {
+      "id": "n5-u07-letter",
+      "title": "My family",
+      "from": "Hana",
+      "subject": "家族の写真",
+      "tokens": [
+        "hello",
+        "me",
+        "no-part",
+        "n5-u07-w-kazoku",
+        "no-part",
+        "n5-u06-w-shashin",
+        "desu",
+        "n5-u07-w-chichi",
+        "to",
+        "n5-u07-w-haha",
+        "wa",
+        "n5-u07-w-amerika",
+        "n5-u03-w-ni",
+        "n5-u07-w-sundeimasu",
+        "n5-u07-w-ani",
+        "wa",
+        "n5-u07-w-toukyou",
+        "no-part",
+        "n5-u07-w-kaisha",
+        "n5-u03-w-de",
+        "n5-u07-w-hataraiteimasu",
+        "n5-u07-w-ani",
+        "wa",
+        "n5-u07-w-segatakai",
+        "desu"
+      ],
+      "paragraphs": [
+        1,
+        7,
+        14,
+        21
+      ],
+      "prerequisites": [
+        "hello",
+        "me",
+        "no-part",
+        "n5-u07-w-kazoku",
+        "n5-u06-w-shashin",
+        "desu",
+        "n5-u07-w-chichi",
+        "to",
+        "n5-u07-w-haha",
+        "wa",
+        "n5-u07-w-amerika",
+        "n5-u03-w-ni",
+        "n5-u07-w-sundeimasu",
+        "n5-u07-w-ani",
+        "n5-u07-w-toukyou",
+        "n5-u07-w-kaisha",
+        "n5-u03-w-de",
+        "n5-u07-w-hataraiteimasu",
+        "n5-u07-w-segatakai"
+      ],
+      "question": "Who in Hana's family lives in Japan?",
+      "options": [
+        "Her older brother",
+        "Her parents",
+        "Nobody"
+      ],
+      "answer": 0
+    }
+  ],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n5-u07-g-teiru",
+      "title": "ています: ongoing states",
+      "explanation": "て-form + います describes an ongoing action or a lasting state: 住んでいます (lives), 働いています (works), 結婚しています (is married). Place of living takes に; place of work takes で.",
+      "example": "姉は東京に住んでいます。",
+      "translation": "My older sister lives in Tokyo."
+    },
+    {
+      "id": "n5-u07-g-uchi-soto",
+      "title": "My family, your family",
+      "explanation": "Use plain words for your own family (父, 母, 兄, 姉) and polite ones for someone else's (お父さん, お母さん, お兄さん, お姉さん, ご家族). Calling your own mother お母さん is fine only when speaking to her directly or casually at home.",
+      "example": "お母さんはお元気ですか。",
+      "translation": "Is your mother well?"
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n5-u07-d",
+      "title": "A photo on the counter",
+      "scene": "Yui notices a photo you've put down on the bookshop counter.",
+      "lines": [
+        {
+          "speaker": "Yui",
+          "line": "これはご{家族|かぞく}の{写真|しゃしん}ですか。",
+          "romaji": "Kore wa gokazoku no shashin desu ka.",
+          "meaning": "Is this a photo of your family?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{父|ちち}と{母|はは}と{姉|あね}です。",
+          "romaji": "Hai. Chichi to haha to ane desu.",
+          "meaning": "Yes. My father, my mother and my older sister."
+        },
+        {
+          "speaker": "Yui",
+          "line": "お{姉|ねえ}さんは{髪|かみ}が{長|なが}いですね。",
+          "romaji": "Onēsan wa kami ga nagai desu ne.",
+          "meaning": "Your sister has long hair."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{姉|あね}は{東京|とうきょう}に{住|す}んでいます。{会社|かいしゃ}で{働|はたら}いています。",
+          "romaji": "Hai. Ane wa Tōkyō ni sunde imasu. Kaisha de hataraite imasu.",
+          "meaning": "Yes. She lives in Tokyo. She works at a company."
+        },
+        {
+          "speaker": "Yui",
+          "line": "そうですか。ご{両親|りょうしん}は？",
+          "romaji": "Sō desu ka. Goryōshin wa?",
+          "meaning": "I see. And your parents?"
+        },
+        {
+          "speaker": "You",
+          "line": "ハノイに{住|す}んでいます。",
+          "romaji": "Hanoi ni sunde imasu.",
+          "meaning": "They live in Hanoi."
+        }
+      ],
+      "lesson": "n5-u07-lesson"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-u07-x-gist",
+      "dialogue": "n5-u07-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where does your older sister live?",
+      "options": [
+        "Hanoi",
+        "Tokyo",
+        "Kyoto"
+      ],
+      "answer": 1,
+      "explain": "姉は東京に住んでいます.",
+      "words": [
+        "n5-u07-w-sundeimasu"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-teiru",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say where your sister lives now.",
+      "line": "{姉|あね}は{東京|とうきょう}に{住|す}んで＿＿。",
+      "meaning": "My sister lives in Tokyo.",
+      "options": [
+        "います",
+        "あります",
+        "ました",
+        "です"
+      ],
+      "answer": 0,
+      "explain": "住む → 住んで + います for where someone lives.",
+      "words": [
+        "n5-u07-w-sundeimasu"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-de",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Say where your sister works.",
+      "line": "{会社|かいしゃ}＿＿{働|はたら}いています。",
+      "meaning": "She works at a company.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 1,
+      "explain": "Working is an action, so the place takes で. Living takes に.",
+      "words": [
+        "n5-u07-w-hataraiteimasu"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-parents",
+      "dialogue": "n5-u07-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Where do your parents live?",
+      "options": [
+        "Tokyo",
+        "Hanoi",
+        "The United States"
+      ],
+      "answer": 1,
+      "explain": "ご両親は？ → ハノイに住んでいます.",
+      "words": [
+        "n5-u07-w-hanoi"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-politeness",
+      "type": "choice",
+      "skill": "politeness",
+      "context": "You want to ask Yui how her mother is.",
+      "prompt": "Which fits?",
+      "options": [
+        "{母|はは}は{元気|げんき}ですか。",
+        "お{母|かあ}さんは{元気|げんき}だ？",
+        "お{母|かあ}さんはお{元気|げんき}ですか。"
+      ],
+      "answer": 2,
+      "explain": "Someone else's mother is お母さん, and お元気 is polite. 母 is only your own.",
+      "words": [
+        "n5-u07-w-okaasan"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "context": "Your sister works at a company.",
+      "line": "お{姉|ねえ}さんは{何|なに}をしていますか。",
+      "meaning": "What does your sister do?",
+      "options": [
+        "{会社|かいしゃ}で{働|はたら}いています。",
+        "{姉|あね}です。",
+        "{東京|とうきょう}です。",
+        "お{姉|ねえ}さんは{会社|かいしゃ}です。"
+      ],
+      "answer": 0,
+      "explain": "何をしていますか asks what someone does for a living.",
+      "words": [
+        "n5-u07-w-oneesan"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "My father lives in Hanoi.",
+      "tiles": [
+        "{父|ちち}",
+        "は",
+        "ハノイ",
+        "に",
+        "{住|す}んで",
+        "います"
+      ],
+      "explain": "Place of living + に + 住んでいます.",
+      "words": [
+        "n5-u07-w-chichi"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-x-tf",
+      "dialogue": "n5-u07-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Your sister has short hair.",
+      "answer": false,
+      "explain": "髪が長いですね: long hair.",
+      "words": [
+        "n5-u07-w-nagai"
+      ],
+      "lesson": "n5-u07-lesson"
+    },
+    {
+      "id": "n5-u07-l-tf",
+      "type": "truefalse",
+      "skill": "reading",
+      "prompt": "Hana's parents live in Tokyo.",
+      "answer": false,
+      "explain": "父と母はアメリカに住んでいます.",
+      "words": [
+        "n5-u07-w-amerika"
+      ],
+      "letter": "n5-u07-letter"
+    },
+    {
+      "id": "n5-u07-l-cloze",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Fill the gap: where her brother works.",
+      "line": "{兄|あに}は{東京|とうきょう}の{会社|かいしゃ}＿＿{働|はたら}いています。",
+      "meaning": "My brother works at a company in Tokyo.",
+      "options": [
+        "に",
+        "で",
+        "を",
+        "の"
+      ],
+      "answer": 1,
+      "explain": "Working happens at a place: で.",
+      "words": [
+        "n5-u03-w-de"
+      ],
+      "letter": "n5-u07-letter"
+    }
+  ]
+}

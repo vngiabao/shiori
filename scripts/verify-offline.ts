@@ -1,0 +1,102 @@
+import { chromium, expect } from "@playwright/test";
+import fs from "node:fs";
+const browser = await chromium.launch({ channel: "chrome" });
+const context = await browser.newContext();
+const page = await context.newPage();
+const errors: string[] = [];
+page.on("pageerror", (e) => errors.push(e.message));
+await page.goto("http://127.0.0.1:5175");
+await page.getByRole("button", { name: "Start without an account" }).click();
+await page.getByRole("button", { name: "Open my first letter" }).click();
+await page.evaluate(async () => {
+  await navigator.serviceWorker.ready;
+});
+await page.waitForFunction(() => Boolean(navigator.serviceWorker.controller));
+// Audio is cached on first play; the opt-in Settings action saves it all.
+await page.goto("http://127.0.0.1:5175/#settings");
+await page
+  .getByRole("button", { name: "Save lesson audio for offline" })
+  .click();
+await expect(
+  page.getByRole("status").filter({ hasText: "All lesson audio is saved" }),
+).toBeVisible({ timeout: 120000 });
+await page.goto("http://127.0.0.1:5175/#today");
+await context.setOffline(true);
+await page.reload();
+await expect(
+  page.getByRole("heading", { name: "Your next letter is ready." }),
+).toBeVisible();
+await page.getByRole("button", { name: "Begin lesson", exact: true }).click();
+await expect(page.getByRole("button", { name: "Ready to try" })).toBeVisible();
+const audio = JSON.parse(fs.readFileSync("src/generated/audio.json", "utf8"));
+const auditions = JSON.parse(
+  fs.readFileSync("src/generated/violetto-auditions.json", "utf8"),
+);
+const emotions = JSON.parse(
+  fs.readFileSync("src/generated/violetto-emotions.json", "utf8"),
+);
+const checks = [];
+for (const clip of [
+  emotions.correct[1].url,
+  audio["あ"],
+  audio["い"],
+  audio["こんにちは"] ?? Object.values(audio)[0],
+  auditions.candidates[2].lines.correct.url,
+]) {
+  const check = await page.evaluate(
+    async ({ clip }) => {
+      const response = await fetch(clip).catch((e) => {
+        throw new Error(`${clip}: ${e}`);
+      });
+      const a = new Audio(clip);
+      await new Promise<void>((resolve, reject) => {
+        a.onloadedmetadata = () => resolve();
+        a.onerror = () => reject(new Error("Audio decoding failed"));
+      });
+      await a.play();
+      const result = {
+        status: response.status,
+        bytes: (await response.arrayBuffer()).byteLength,
+        duration: a.duration,
+        playing: !a.paused,
+      };
+      a.pause();
+      return result;
+    },
+    { clip: clip as string },
+  );
+  expect(check.status).toBe(200);
+  expect(check.bytes).toBeGreaterThan(1000);
+  expect(check.duration).toBeGreaterThan(0);
+  expect(check.playing).toBe(true);
+  checks.push({ clip, ...check });
+}
+expect(errors).toEqual([]);
+await page.goto("http://127.0.0.1:5175/#jlpt/N1");
+await expect(
+  page.getByRole("heading", { name: "JLPT study room." }),
+).toBeVisible();
+await page
+  .locator(".jlpt-teacher img")
+  .first()
+  .evaluate((img: HTMLImageElement) => img.decode());
+fs.writeFileSync(
+  "output/offline-verification.json",
+  JSON.stringify(
+    {
+      verifiedAt: new Date().toISOString(),
+      offlineReload: true,
+      lessonAvailable: true,
+      jlptAndTeacherOffline: true,
+      bundledAudio: checks,
+      pageErrors: errors,
+    },
+    null,
+    2,
+  ),
+);
+console.log(
+  "Production offline reload, lesson, word and Violetto audio passed.",
+  checks,
+);
+await browser.close();

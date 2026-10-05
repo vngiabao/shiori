@@ -1,0 +1,449 @@
+{
+  "id": "n5-u06",
+  "title": "N5 · Unit 6",
+  "lesson": {
+    "title": "May I?",
+    "description": "The て-form: ask for something politely, ask permission, and say no gently.",
+    "canDo": "Ask for help and permission politely, and decline gently",
+    "minutes": 20
+  },
+  "words": [
+    [
+      "n5-u06-w-shitsurei",
+      "{失礼|しつれい}します",
+      "shitsurei shimasu",
+      "excuse me (entering a room)",
+      "formal",
+      "{失礼|しつれい}します。"
+    ],
+    [
+      "n5-u06-w-haitte",
+      "{入|はい}ってもいいですか",
+      "haitte mo ii desu ka",
+      "may I come in?",
+      "polite",
+      "{入|はい}ってもいいですか。"
+    ],
+    [
+      "n5-u06-w-suwatte",
+      "{座|すわ}ってください",
+      "suwatte kudasai",
+      "please sit down",
+      "polite",
+      "どうぞ、{座|すわ}ってください。"
+    ],
+    [
+      "n5-u06-w-oshiete",
+      "{教|おし}えてください",
+      "oshiete kudasai",
+      "please tell me, please teach me",
+      "polite",
+      "{読|よ}み{方|かた}を{教|おし}えてください。"
+    ],
+    [
+      "n5-u06-w-kaite",
+      "{書|か}いてください",
+      "kaite kudasai",
+      "please write",
+      "polite",
+      "ここに{名前|なまえ}を{書|か}いてください。"
+    ],
+    [
+      "n5-u06-w-matte",
+      "{待|ま}ってください",
+      "matte kudasai",
+      "please wait",
+      "polite",
+      "ちょっと{待|ま}ってください。"
+    ],
+    [
+      "n5-u06-w-totte",
+      "{撮|と}ってもいいですか",
+      "totte mo ii desu ka",
+      "may I take (a photo)?",
+      "polite",
+      "{写真|しゃしん}を{撮|と}ってもいいですか。"
+    ],
+    [
+      "n5-u06-w-totte-wa",
+      "{撮|と}ってはいけません",
+      "totte wa ikemasen",
+      "you must not take (a photo)",
+      "formal",
+      "ここで{写真|しゃしん}を{撮|と}ってはいけません。"
+    ],
+    [
+      "n5-u06-w-shashin",
+      "{写真|しゃしん}",
+      "shashin",
+      "photo",
+      "neutral",
+      "{写真|しゃしん}を{見|み}せてください。"
+    ],
+    [
+      "n5-u06-w-kanji",
+      "{漢字|かんじ}",
+      "kanji",
+      "kanji (Chinese characters)",
+      "neutral",
+      "この{漢字|かんじ}は{何|なん}ですか。"
+    ],
+    [
+      "n5-u06-w-yomikata",
+      "{読|よ}み{方|かた}",
+      "yomikata",
+      "how to read (a word)",
+      "neutral",
+      "{読|よ}み{方|かた}がわかりません。"
+    ],
+    [
+      "n5-u06-w-koko",
+      "ここ",
+      "koko",
+      "here",
+      "neutral",
+      "ここに{書|か}いてください。"
+    ],
+    [
+      "n5-u06-w-kyoushitsu",
+      "{教室|きょうしつ}",
+      "kyōshitsu",
+      "classroom",
+      "neutral",
+      "{教室|きょうしつ}で{勉強|べんきょう}します。"
+    ],
+    [
+      "n5-u06-w-kite",
+      "{来|き}てください",
+      "kite kudasai",
+      "please come",
+      "polite",
+      "{十時|じゅうじ}に{来|き}てください。"
+    ],
+    [
+      "n5-u06-w-motte",
+      "{持|も}って",
+      "motte",
+      "taking, bringing (て-form of 持つ)",
+      "neutral",
+      "{辞書|じしょ}を{持|も}って{来|き}てください。"
+    ],
+    [
+      "n5-u06-w-chotto",
+      "ちょっと",
+      "chotto",
+      "a little; that's a bit… (a gentle no)",
+      "polite",
+      "すみません、それはちょっと…。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n5-u06-g-te-kudasai",
+      "title": "て-form + ください",
+      "explanation": "The て-form joins verbs and makes requests. Verb て + ください = 'please do'. Common て-forms: 待つ→待って, 書く→書いて, 座る→座って, 教える→教えて, 来る→来て, する→して.",
+      "example": "ここに名前を書いてください。",
+      "translation": "Please write your name here."
+    },
+    {
+      "id": "n5-u06-g-te-mo-ii",
+      "title": "てもいいですか and てはいけません",
+      "explanation": "て + もいいですか asks permission: 撮ってもいいですか, 'may I take…?'. Yes: はい、どうぞ. A gentle no: すみません、ちょっと…. A rule: て + はいけません, 'you must not'.",
+      "example": "写真を撮ってもいいですか。",
+      "translation": "May I take a photo?"
+    }
+  ],
+  "dialogue": {
+    "id": "n5-u06-d",
+    "title": "At Satō-sensei's office",
+    "scene": "You knock on Satō-sensei's office door with a question.",
+    "lines": [
+      {
+        "speaker": "You",
+        "line": "{失礼|しつれい}します。{入|はい}ってもいいですか。",
+        "romaji": "Shitsurei shimasu. Haitte mo ii desu ka.",
+        "meaning": "Excuse me. May I come in?"
+      },
+      {
+        "speaker": "Satō",
+        "line": "はい、どうぞ。{座|すわ}ってください。",
+        "romaji": "Hai, dōzo. Suwatte kudasai.",
+        "meaning": "Yes, please. Have a seat."
+      },
+      {
+        "speaker": "You",
+        "line": "{先生|せんせい}、この{漢字|かんじ}の{読|よ}み{方|かた}を{教|おし}えてください。",
+        "romaji": "Sensei, kono kanji no yomikata o oshiete kudasai.",
+        "meaning": "Sensei, please tell me how to read this kanji."
+      },
+      {
+        "speaker": "Satō",
+        "line": "「{今日|きょう}」ですね。「きょう」です。",
+        "romaji": "\"Kyō\" desu ne. \"Kyō\" desu.",
+        "meaning": "That's 今日. It's read きょう."
+      },
+      {
+        "speaker": "You",
+        "line": "ありがとうございます。{写真|しゃしん}を{撮|と}ってもいいですか。",
+        "romaji": "Arigatō gozaimasu. Shashin o totte mo ii desu ka.",
+        "meaning": "Thank you. May I take a photo?"
+      },
+      {
+        "speaker": "Satō",
+        "line": "すみません、それはちょっと…。",
+        "romaji": "Sumimasen, sore wa chotto…",
+        "meaning": "Sorry, I'd rather you didn't."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "n5-u06-x-gist",
+      "dialogue": "n5-u06-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What do you ask Satō-sensei about?",
+      "options": [
+        "The time of the class",
+        "How to read a kanji",
+        "Where the classroom is"
+      ],
+      "answer": 1,
+      "explain": "この漢字の読み方を教えてください.",
+      "words": [
+        "n5-u06-w-yomikata"
+      ]
+    },
+    {
+      "id": "n5-u06-x-reply-enter",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You are the teacher and you're happy for them to come in.",
+      "line": "{入|はい}ってもいいですか。",
+      "meaning": "May I come in?",
+      "options": [
+        "はい、どうぞ。",
+        "はい、{入|はい}ってください。ありがとう。",
+        "いいえ、どうぞ。",
+        "{失礼|しつれい}します。"
+      ],
+      "answer": 0,
+      "explain": "はい、どうぞ: yes, go ahead.",
+      "words": [
+        "n5-u06-w-haitte"
+      ]
+    },
+    {
+      "id": "n5-u06-x-te",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Ask someone to write their name here.",
+      "line": "ここに{名前|なまえ}を＿＿ください。",
+      "meaning": "Please write your name here.",
+      "options": [
+        "{書|か}きます",
+        "{書|か}いて",
+        "{書|か}く",
+        "{書|か}きました"
+      ],
+      "answer": 1,
+      "explain": "ください follows the て-form: 書いて.",
+      "words": [
+        "n5-u06-w-kaite"
+      ]
+    },
+    {
+      "id": "n5-u06-x-photo",
+      "dialogue": "n5-u06-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Can you take a photo?",
+      "options": [
+        "Yes",
+        "No, she politely declines",
+        "Only of the kanji"
+      ],
+      "answer": 1,
+      "explain": "すみません、それはちょっと…: a gentle no.",
+      "words": [
+        "n5-u06-w-chotto"
+      ]
+    },
+    {
+      "id": "n5-u06-x-decline",
+      "type": "choice",
+      "skill": "politeness",
+      "context": "A colleague asks to borrow your notes, but you need them today.",
+      "prompt": "Which reply is polite and natural?",
+      "options": [
+        "だめです。",
+        "すみません、ちょっと…。",
+        "いいえ、{大丈夫|だいじょうぶ}です。",
+        "はい、どうぞ。"
+      ],
+      "answer": 1,
+      "explain": "Japanese often declines by trailing off: すみません、ちょっと…. だめです is blunt.",
+      "words": [
+        "n5-u06-w-chotto"
+      ]
+    },
+    {
+      "id": "n5-u06-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "May I take a photo?",
+      "tiles": [
+        "{写真|しゃしん}",
+        "を",
+        "{撮|と}って",
+        "も",
+        "いい",
+        "ですか"
+      ],
+      "explain": "Object を, て-form, then もいいですか.",
+      "words": [
+        "n5-u06-w-totte"
+      ]
+    },
+    {
+      "id": "n5-u06-x-cloze-wait",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Ask a shop assistant to wait a moment.",
+      "line": "ちょっと＿＿ください。",
+      "meaning": "Please wait a moment.",
+      "options": [
+        "{待|ま}って",
+        "{待|ま}ちます",
+        "{待|ま}つ",
+        "{待|ま}ちました"
+      ],
+      "answer": 0,
+      "explain": "待つ → 待って + ください. With friends you can drop ください: ちょっと待って.",
+      "words": [
+        "n5-u06-w-matte"
+      ]
+    },
+    {
+      "id": "n5-u06-x-tf",
+      "dialogue": "n5-u06-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "The kanji is 明日.",
+      "answer": false,
+      "explain": "「今日」ですね: it's 今日, read きょう.",
+      "words": [
+        "n5-u06-w-kanji"
+      ]
+    }
+  ],
+  "letter": {
+    "title": "Tomorrow's class",
+    "from": "Satō-sensei",
+    "subject": "明日の授業",
+    "sentences": [
+      [
+        "tomorrow",
+        "wa",
+        "ten",
+        "n5-u01-w-ji",
+        "n5-u03-w-ni",
+        "n5-u06-w-kite"
+      ],
+      [
+        "n5-u02-w-jisho",
+        "wo",
+        "n5-u06-w-motte",
+        "n5-u06-w-kite"
+      ],
+      [
+        "n5-u06-w-kyoushitsu",
+        "n5-u03-w-de",
+        "n5-u06-w-shashin",
+        "wo",
+        "n5-u06-w-totte-wa"
+      ],
+      [
+        "n5-u06-w-koko",
+        "n5-u03-w-ni",
+        "name",
+        "wo",
+        "n5-u06-w-kaite"
+      ]
+    ],
+    "question": "What time should you come tomorrow?",
+    "options": [
+      "Nine o'clock",
+      "Ten o'clock",
+      "Two o'clock"
+    ],
+    "answer": 1,
+    "tasks": [
+      {
+        "id": "n5-u06-l-tf",
+        "type": "truefalse",
+        "skill": "reading",
+        "prompt": "You may take photos in the classroom.",
+        "answer": false,
+        "explain": "撮ってはいけません: you must not take photos.",
+        "words": [
+          "n5-u06-w-totte-wa"
+        ]
+      },
+      {
+        "id": "n5-u06-l-bring",
+        "type": "choice",
+        "skill": "reading",
+        "prompt": "What should you bring?",
+        "options": [
+          "A camera",
+          "A dictionary",
+          "Nothing"
+        ],
+        "answer": 1,
+        "explain": "辞書を持って来てください.",
+        "words": [
+          "n5-u06-w-motte"
+        ]
+      }
+    ]
+  },
+  "lemmas": {
+    "n5-u06-w-haitte": {
+      "text": "入る",
+      "kana": "はいる"
+    },
+    "n5-u06-w-suwatte": {
+      "text": "座る",
+      "kana": "すわる"
+    },
+    "n5-u06-w-oshiete": {
+      "text": "教える",
+      "kana": "おしえる"
+    },
+    "n5-u06-w-kaite": {
+      "text": "書く",
+      "kana": "かく"
+    },
+    "n5-u06-w-matte": {
+      "text": "待つ",
+      "kana": "まつ"
+    },
+    "n5-u06-w-totte": {
+      "text": "撮る",
+      "kana": "とる"
+    },
+    "n5-u06-w-totte-wa": {
+      "text": "撮る",
+      "kana": "とる"
+    },
+    "n5-u06-w-kite": {
+      "text": "来る",
+      "kana": "くる"
+    },
+    "n5-u06-w-motte": {
+      "text": "持つ",
+      "kana": "もつ"
+    }
+  }
+}

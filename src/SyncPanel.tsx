@@ -1,0 +1,199 @@
+import { useState, useSyncExternalStore } from "react";
+import { useLiveQuery } from "dexie-react-hooks";
+import { Button } from "./components";
+import {
+  authConfigured,
+  sendEmailCode,
+  verifyEmailCode,
+  signInWith,
+  signOut,
+  currentAccount,
+} from "./auth";
+import {
+  getSyncStatus,
+  subscribeSync,
+  acceptAccount,
+  allowDeviceProgress,
+  pauseSync,
+  detachSync,
+  syncNow,
+  setPersonalText,
+  deleteCloudData,
+} from "./sync";
+import { db } from "./db";
+export function SyncPanel() {
+  const status = useSyncExternalStore(
+    subscribeSync,
+    getSyncStatus,
+    getSyncStatus,
+  );
+  const settings = useLiveQuery(() => db.syncState.get("local"), []);
+  const [email, setEmail] = useState(""),
+    [code, setCode] = useState(""),
+    [sent, setSent] = useState(false),
+    [busy, setBusy] = useState(false),
+    [error, setError] = useState("");
+  const action = async (fn: () => Promise<unknown>) => {
+    setBusy(true);
+    setError("");
+    try {
+      await fn();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Please try again.");
+    } finally {
+      setBusy(false);
+    }
+  };
+  if (!authConfigured)
+    return (
+      <p>
+        Local guest mode is active. No cloud connection is configured. Backups
+        remain available above.
+      </p>
+    );
+  return (
+    <div className="sync-panel">
+      <p role="status">{status.message}</p>
+      {error && <p role="alert">{error}</p>}
+      {!status.account ? (
+        <>
+          <label>
+            Email address
+            <input
+              type="email"
+              autoComplete="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+            />
+          </label>
+          <Button
+            disabled={busy || !email.includes("@")}
+            onClick={() =>
+              void action(async () => {
+                await sendEmailCode(email);
+                setSent(true);
+              })
+            }
+          >
+            Send sign-in code
+          </Button>
+          {sent && (
+            <>
+              <label>
+                Email code
+                <input
+                  autoComplete="one-time-code"
+                  inputMode="numeric"
+                  value={code}
+                  onChange={(e) => setCode(e.target.value)}
+                />
+              </label>
+              <Button
+                disabled={busy || !code.trim()}
+                onClick={() =>
+                  void action(async () => {
+                    await verifyEmailCode(email, code);
+                    await acceptAccount(await currentAccount());
+                  })
+                }
+              >
+                Verify code
+              </Button>
+            </>
+          )}
+          <Button
+            secondary
+            disabled={busy}
+            onClick={() => void action(() => signInWith("google"))}
+          >
+            Continue with Google
+          </Button>
+        </>
+      ) : (
+        <>
+          <p>Signed in as {status.account.email}</p>
+          {status.phase !== "account-mismatch" && (
+            <>
+              <p>
+                Progress sync combines this device’s learning history with your
+                account. Audio, recordings and video files stay on this device.
+              </p>
+              <div>
+                <Button
+                  disabled={busy || status.phase === "syncing"}
+                  onClick={() =>
+                    void action(() =>
+                      settings?.enabled ? syncNow() : allowDeviceProgress(),
+                    )
+                  }
+                >
+                  {settings?.enabled
+                    ? "Sync now"
+                    : "Add this device’s progress"}
+                </Button>
+                <Button
+                  secondary
+                  disabled={busy}
+                  onClick={() => void action(pauseSync)}
+                >
+                  Keep on this device
+                </Button>
+              </div>
+              <label>
+                <input
+                  type="checkbox"
+                  checked={settings?.includeText ?? false}
+                  disabled={busy || status.phase === "syncing"}
+                  onChange={(e) =>
+                    void action(() => setPersonalText(e.target.checked))
+                  }
+                />{" "}
+                Also sync personal text: saved passages, translations, subtitle
+                lines and study notes
+              </label>
+              <p className="muted">
+                Off by default. Turning this off stops future text transfers; it
+                does not erase text already uploaded. Unsaved drafts and letter
+                replies remain local.
+              </p>
+              {status.lastSync && (
+                <p>Last sync: {new Date(status.lastSync).toLocaleString()}</p>
+              )}
+              <p>
+                {status.pending
+                  ? "Local changes are waiting to sync."
+                  : "No queued local changes."}
+              </p>
+              <Button
+                secondary
+                disabled={busy}
+                onClick={() => {
+                  if (
+                    window.confirm(
+                      "Delete this account’s cloud learning data? Local progress will remain.",
+                    )
+                  )
+                    void action(deleteCloudData);
+                }}
+              >
+                Delete cloud learning data
+              </Button>
+            </>
+          )}
+          <Button
+            secondary
+            disabled={busy}
+            onClick={() =>
+              void action(async () => {
+                await detachSync();
+                await signOut();
+              })
+            }
+          >
+            Sign out
+          </Button>
+        </>
+      )}
+    </div>
+  );
+}

@@ -1,0 +1,675 @@
+{
+  "id": "n5-u11",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N5 · Unit 11",
+  "words": [
+    {
+      "id": "n5-u11-w-onsen",
+      "text": "温泉",
+      "kana": "おんせん",
+      "romaji": "onsen",
+      "meaning": "hot spring",
+      "register": "neutral",
+      "example": "温泉に入りました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "温泉",
+          "reading": "おんせん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-fujisan",
+      "text": "富士山",
+      "kana": "ふじさん",
+      "romaji": "Fujisan",
+      "meaning": "Mt Fuji",
+      "register": "neutral",
+      "example": "富士山が見えます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "富士山",
+          "reading": "ふじさん"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-natsu",
+      "text": "夏",
+      "kana": "なつ",
+      "romaji": "natsu",
+      "meaning": "summer",
+      "register": "neutral",
+      "example": "夏は暑いです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "夏",
+          "reading": "なつ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-mitari",
+      "lemma": {
+        "text": "見る",
+        "kana": "みる"
+      },
+      "text": "見たり",
+      "kana": "みたり",
+      "romaji": "mitari",
+      "meaning": "doing things like seeing (たり form)",
+      "register": "neutral",
+      "example": "映画を見たり、本を読んだりします。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "たり"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-haittari",
+      "lemma": {
+        "text": "入る",
+        "kana": "はいる"
+      },
+      "text": "入ったり",
+      "kana": "はいったり",
+      "romaji": "haittari",
+      "meaning": "doing things like getting into (たり form)",
+      "register": "neutral",
+      "example": "温泉に入ったりしました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "入",
+          "reading": "はい"
+        },
+        {
+          "text": "ったり"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-shimashita",
+      "text": "しました",
+      "kana": "しました",
+      "romaji": "shimashita",
+      "meaning": "did (polite past of します)",
+      "register": "polite",
+      "example": "テニスをしました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "しました"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-koto-ga-arimasu",
+      "text": "ことがあります",
+      "kana": "ことがあります",
+      "romaji": "koto ga arimasu",
+      "meaning": "have done (after a た-form)",
+      "register": "polite",
+      "example": "京都に行ったことがあります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ことがあります"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-koto-ga-arimasen",
+      "text": "ことがありません",
+      "kana": "ことがありません",
+      "romaji": "koto ga arimasen",
+      "meaning": "have never done (after a た-form)",
+      "register": "polite",
+      "example": "温泉に行ったことがありません。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "ことがありません"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-noboritai",
+      "lemma": {
+        "text": "登る",
+        "kana": "のぼる"
+      },
+      "text": "登りたい",
+      "kana": "のぼりたい",
+      "romaji": "noboritai",
+      "meaning": "want to climb",
+      "register": "neutral",
+      "example": "富士山に登りたいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "登",
+          "reading": "のぼ"
+        },
+        {
+          "text": "りたい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-ikitai",
+      "lemma": {
+        "text": "行く",
+        "kana": "いく"
+      },
+      "text": "行きたい",
+      "kana": "いきたい",
+      "romaji": "ikitai",
+      "meaning": "want to go",
+      "register": "neutral",
+      "example": "温泉に行きたいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "行",
+          "reading": "い"
+        },
+        {
+          "text": "きたい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-mitai",
+      "lemma": {
+        "text": "見る",
+        "kana": "みる"
+      },
+      "text": "見たい",
+      "kana": "みたい",
+      "romaji": "mitai",
+      "meaning": "want to see",
+      "register": "neutral",
+      "example": "雪が見たいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "たい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-tabetai",
+      "lemma": {
+        "text": "食べる",
+        "kana": "たべる"
+      },
+      "text": "食べたい",
+      "kana": "たべたい",
+      "romaji": "tabetai",
+      "meaning": "want to eat",
+      "register": "neutral",
+      "example": "ラーメンが食べたいです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "食",
+          "reading": "た"
+        },
+        {
+          "text": "べたい"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-omiyage",
+      "text": "お土産",
+      "kana": "おみやげ",
+      "romaji": "omiyage",
+      "meaning": "souvenir (a gift from a trip)",
+      "register": "neutral",
+      "example": "お土産を買いました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "お"
+        },
+        {
+          "text": "土産",
+          "reading": "みやげ"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-kaimashita",
+      "lemma": {
+        "text": "買う",
+        "kana": "かう"
+      },
+      "text": "買いました",
+      "kana": "かいました",
+      "romaji": "kaimashita",
+      "meaning": "bought",
+      "register": "polite",
+      "example": "辞書を買いました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "買",
+          "reading": "か"
+        },
+        {
+          "text": "いました"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-kondo",
+      "text": "今度",
+      "kana": "こんど",
+      "romaji": "kondo",
+      "meaning": "next time",
+      "register": "neutral",
+      "example": "今度、一緒に行きましょう。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "今度",
+          "reading": "こんど"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-w-mi-ni",
+      "lemma": {
+        "text": "見る",
+        "kana": "みる"
+      },
+      "text": "見に",
+      "kana": "みに",
+      "romaji": "mi ni",
+      "meaning": "(go) to see (purpose + に + 行く)",
+      "register": "neutral",
+      "example": "映画を見に行きます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "見",
+          "reading": "み"
+        },
+        {
+          "text": "に"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n5-u11-lesson",
+      "kind": "phrase",
+      "words": [
+        "n5-u11-w-onsen",
+        "n5-u11-w-fujisan",
+        "n5-u11-w-natsu",
+        "n5-u11-w-mitari",
+        "n5-u11-w-haittari",
+        "n5-u11-w-shimashita",
+        "n5-u11-w-koto-ga-arimasu",
+        "n5-u11-w-koto-ga-arimasen",
+        "n5-u11-w-noboritai",
+        "n5-u11-w-ikitai",
+        "n5-u11-w-mitai",
+        "n5-u11-w-tabetai",
+        "n5-u11-w-omiyage",
+        "n5-u11-w-kaimashita",
+        "n5-u11-w-kondo",
+        "n5-u11-w-mi-ni"
+      ],
+      "title": "After the holiday",
+      "description": "Say what you want to do (たい), list things you did (たり), and what you've done before (ことがある).",
+      "canDo": "Say what you want to do and what you have and haven't done",
+      "minutes": 20
+    }
+  ],
+  "letters": [
+    {
+      "id": "n5-u11-letter",
+      "title": "Things I want to do",
+      "from": "Hana",
+      "subject": "今度したいこと",
+      "tokens": [
+        "me",
+        "wa",
+        "n5-u11-w-onsen",
+        "n5-u03-w-ni",
+        "n5-u09-w-itta",
+        "n5-u11-w-koto-ga-arimasen",
+        "n5-u11-w-kondo",
+        "n5-u11-w-ikitai",
+        "desu",
+        "n5-u11-w-fujisan",
+        "mo",
+        "n5-u11-w-mitai",
+        "desu",
+        "n5-u04-w-kinou",
+        "wa",
+        "n5-u07-w-toukyou",
+        "n5-u03-w-de",
+        "n5-u11-w-omiyage",
+        "wo",
+        "n5-u11-w-kaimashita"
+      ],
+      "paragraphs": [
+        6,
+        9,
+        13
+      ],
+      "prerequisites": [
+        "me",
+        "wa",
+        "n5-u11-w-onsen",
+        "n5-u03-w-ni",
+        "n5-u09-w-itta",
+        "n5-u11-w-koto-ga-arimasen",
+        "n5-u11-w-kondo",
+        "n5-u11-w-ikitai",
+        "desu",
+        "n5-u11-w-fujisan",
+        "mo",
+        "n5-u11-w-mitai",
+        "n5-u04-w-kinou",
+        "n5-u07-w-toukyou",
+        "n5-u03-w-de",
+        "n5-u11-w-omiyage",
+        "wo",
+        "n5-u11-w-kaimashita"
+      ],
+      "question": "Has Hana been to a hot spring?",
+      "options": [
+        "No, never",
+        "Yes, often",
+        "Yes, yesterday"
+      ],
+      "answer": 0
+    }
+  ],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n5-u11-g-tai",
+      "title": "たい: wanting to do",
+      "explanation": "Verb stem (the ます form without ます) + たいです: 行きます → 行きたいです. It behaves like an い adjective: 行きたくないです (don't want to). Use it about yourself; for others, Japanese avoids stating their wishes directly.",
+      "example": "富士山に登りたいです。",
+      "translation": "I want to climb Mt Fuji."
+    },
+    {
+      "id": "n5-u11-g-tari-koto",
+      "title": "たり〜たりする and ことがある",
+      "explanation": "た-form + り, た-form + り + する lists examples of what you did: 雪を見たり、温泉に入ったりしました. た-form + ことがあります: you have done it (at least once); ことがありません: never.",
+      "example": "北海道に行ったことがありません。",
+      "translation": "I have never been to Hokkaido."
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n5-u11-d",
+      "title": "The first class of the year",
+      "scene": "Satō-sensei asks about your winter break.",
+      "lines": [
+        {
+          "speaker": "Satō",
+          "line": "{冬休|ふゆやす}みはどうでしたか。",
+          "romaji": "Fuyuyasumi wa dō deshita ka.",
+          "meaning": "How was your winter break?"
+        },
+        {
+          "speaker": "You",
+          "line": "{北海道|ほっかいどう}で{雪|ゆき}を{見|み}たり、{温泉|おんせん}に{入|はい}ったりしました。",
+          "romaji": "Hokkaidō de yuki o mitari, onsen ni haittari shimashita.",
+          "meaning": "In Hokkaido I saw the snow, went to a hot spring, that kind of thing."
+        },
+        {
+          "speaker": "Satō",
+          "line": "いいですね。{私|わたし}は{北海道|ほっかいどう}に{行|い}ったことがありません。",
+          "romaji": "Ii desu ne. Watashi wa Hokkaidō ni itta koto ga arimasen.",
+          "meaning": "How lovely. I've never been to Hokkaido."
+        },
+        {
+          "speaker": "You",
+          "line": "{先生|せんせい}は{冬休|ふゆやす}みに{何|なに}をしましたか。",
+          "romaji": "Sensei wa fuyuyasumi ni nani o shimashita ka.",
+          "meaning": "What did you do over the break, Sensei?"
+        },
+        {
+          "speaker": "Satō",
+          "line": "{富士山|ふじさん}を{見|み}に{行|い}きました。",
+          "romaji": "Fujisan o mi ni ikimashita.",
+          "meaning": "I went to see Mt Fuji."
+        },
+        {
+          "speaker": "You",
+          "line": "いいですね。{私|わたし}も{富士山|ふじさん}に{登|のぼ}りたいです。",
+          "romaji": "Ii desu ne. Watashi mo Fujisan ni noboritai desu.",
+          "meaning": "That sounds great. I want to climb Mt Fuji too."
+        },
+        {
+          "speaker": "Satō",
+          "line": "{夏|なつ}がいいですよ。",
+          "romaji": "Natsu ga ii desu yo.",
+          "meaning": "Summer is the time for that."
+        }
+      ],
+      "lesson": "n5-u11-lesson"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-u11-x-gist",
+      "dialogue": "n5-u11-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What did you do in Hokkaido?",
+      "options": [
+        "Climbed Mt Fuji",
+        "Saw the snow and went to a hot spring",
+        "Studied at home"
+      ],
+      "answer": 1,
+      "explain": "雪を見たり、温泉に入ったりしました.",
+      "words": [
+        "n5-u11-w-mitari"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-tai",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "Tell Ren you'd like some ramen.",
+      "line": "ラーメンが＿＿です。",
+      "meaning": "I want to eat ramen.",
+      "options": [
+        "{食|た}べたい",
+        "{食|た}べます",
+        "{食|た}べた",
+        "{食|た}べて"
+      ],
+      "answer": 0,
+      "explain": "Stem + たいです: want to. が often marks what you want.",
+      "words": [
+        "n5-u11-w-tabetai"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-sato",
+      "dialogue": "n5-u11-d",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Has Satō-sensei been to Hokkaido?",
+      "options": [
+        "No, never",
+        "Yes, many times",
+        "Yes, once"
+      ],
+      "answer": 0,
+      "explain": "行ったことがありません: never been.",
+      "words": [
+        "n5-u11-w-koto-ga-arimasen"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-tari",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "List a couple of things you did on the trip.",
+      "line": "{雪|ゆき}を{見|み}たり、{温泉|おんせん}に{入|はい}った＿＿しました。",
+      "meaning": "I saw the snow, went in a hot spring, things like that.",
+      "options": [
+        "て",
+        "から",
+        "り",
+        "と"
+      ],
+      "answer": 2,
+      "explain": "たり … たりする: both verbs take り.",
+      "words": [
+        "n5-u11-w-haittari"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-koto",
+      "type": "cloze",
+      "skill": "reading",
+      "context": "You visited Kyoto once, last year.",
+      "line": "{京都|きょうと}に{行|い}った＿＿があります。",
+      "meaning": "I have been to Kyoto.",
+      "options": [
+        "もの",
+        "とき",
+        "の",
+        "こと"
+      ],
+      "answer": 3,
+      "explain": "た-form + ことがあります: experience.",
+      "words": [
+        "n5-u11-w-koto-ga-arimasu"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "context": "You have never climbed it.",
+      "line": "{富士山|ふじさん}に{登|のぼ}ったことがありますか。",
+      "meaning": "Have you ever climbed Mt Fuji?",
+      "options": [
+        "いいえ、ありません。",
+        "いいえ、{登|のぼ}りません。",
+        "はい、{登|のぼ}りたいです。",
+        "{富士山|ふじさん}です。"
+      ],
+      "answer": 0,
+      "explain": "Answer ことがありますか with ありません / あります.",
+      "words": [
+        "n5-u11-w-koto-ga-arimasen"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "I want to climb Mt Fuji too.",
+      "tiles": [
+        "{私|わたし}",
+        "も",
+        "{富士山|ふじさん}",
+        "に",
+        "{登|のぼ}りたい",
+        "です"
+      ],
+      "explain": "も for 'too', place に, 登りたい + です.",
+      "words": [
+        "n5-u11-w-noboritai"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-x-tf",
+      "dialogue": "n5-u11-d",
+      "type": "truefalse",
+      "skill": "listening",
+      "prompt": "Satō-sensei climbed Mt Fuji over the break.",
+      "answer": false,
+      "explain": "富士山を見に行きました: she went to see it, not climb it.",
+      "words": [
+        "n5-u11-w-mi-ni"
+      ],
+      "lesson": "n5-u11-lesson"
+    },
+    {
+      "id": "n5-u11-l-tf",
+      "type": "truefalse",
+      "skill": "reading",
+      "prompt": "Hana would like to see Mt Fuji.",
+      "answer": true,
+      "explain": "富士山も見たいです.",
+      "words": [
+        "n5-u11-w-mitai"
+      ],
+      "letter": "n5-u11-letter"
+    },
+    {
+      "id": "n5-u11-l-choice",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "What did Hana do yesterday?",
+      "options": [
+        "Went to a hot spring",
+        "Bought souvenirs in Tokyo",
+        "Climbed Mt Fuji"
+      ],
+      "answer": 1,
+      "explain": "昨日は東京でお土産を買いました.",
+      "words": [
+        "n5-u11-w-kaimashita"
+      ],
+      "letter": "n5-u11-letter"
+    }
+  ]
+}

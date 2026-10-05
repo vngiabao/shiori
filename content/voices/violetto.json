@@ -1,0 +1,153 @@
+{
+  "name": "Violetto",
+  "direction": "Violet Evergarden-inspired performance: a composed young woman, clear mid-register, delicate restrained breath, precise Japanese consonants, unhurried phrasing, dignified reserve and warmth that becomes audible in small changes. An interpretation from written acting directions, not an authenticated reproduction of Yui Ishikawa.",
+  "anchorText": "こんにちは。ヴァイオレットです。本日も、言葉を一つずつ確かめてまいりましょう。分からないところは、何度でもお尋ねください。あなたの言葉が届くよう、お手伝いいたします。",
+  "candidates": [
+    {
+      "id": "v01",
+      "name": "Composed letter-writer",
+      "description": "Precise, reserved, even-paced; the most formal direction.",
+      "instruction": "请用年轻成年女性的清澈中音、端正克制的日语说话。语气礼貌沉静，咬字清晰准确，节奏从容，情绪细微，句尾轻轻落下，像认真负责的书信代笔员。不要播音腔，不要甜腻，不要夸张。",
+      "seed": 7311
+    },
+    {
+      "id": "v02",
+      "name": "Quiet warmth",
+      "description": "A softer onset and gentle reassurance, with the same dignity.",
+      "instruction": "请用年轻成年女性清澈柔和的中音说自然标准日语。端正礼貌，轻微气息感，慢而不拖，声音柔和但不虚弱，温柔藏在细微的停顿里，像安慰对方的沉静书信代笔员。不要卖萌，不要耳语。",
+      "seed": 7312
+    },
+    {
+      "id": "v03",
+      "name": "Resolute and precise",
+      "description": "A firmer centre, crisp diction and a restrained, dutiful delivery.",
+      "instruction": "请用年轻成年女性清澈而结实的中低音说自然标准日语。沉静认真，礼貌而有决心，辅音清楚，元音完整，句子之间有短暂停顿，情绪克制但真诚。不要沙哑摇滚腔，不要机械，不要夸张。",
+      "seed": 7313
+    },
+    {
+      "id": "v04",
+      "name": "A feeling understood",
+      "description": "More expressive warmth and tiny rises in the voice; still composed.",
+      "instruction": "请用年轻成年女性清澈优雅的中音说自然标准日语。最初端正克制，逐渐流露真诚的温柔和小小的喜悦，音调变化细腻，吐字清楚，礼貌自然。像终于理解一封信心意的人，不要戏剧化哭腔，不要幼女声。",
+      "seed": 7314
+    }
+  ],
+  "moods": {
+    "clear": "清楚准确地示范自然标准日语，元音长度和促音要分明，语速适中，没有戏剧化情绪。",
+    "composed": "沉静礼貌地迎接对方，声音端正克制，轻微温暖。",
+    "warm": "耐心温柔地鼓励对方，声音温暖但仍然端正，不要怜悯或责备。",
+    "proud": "带着克制而真诚的喜悦称赞对方，稍微明亮一点，不要欢呼大叫。",
+    "precise": "认真而温和地指出一个可以改进的地方，清楚礼貌，不要严厉。",
+    "reflective": "安静而真诚地说，略有思考停顿，情绪细腻，保持自然的日语节奏。"
+  },
+  "lines": {
+    "welcome": {
+      "text": "お待ちしておりました。始めましょう。",
+      "reading": "おまちしておりました。はじめましょう。",
+      "ruby": "お{待|ま}ちしておりました。{始|はじ}めましょう。",
+      "romaji": "Omachi shite orimashita. Hajimemashō.",
+      "meaning": "I have been expecting you. Shall we begin?",
+      "mood": "composed",
+      "pose": "welcome"
+    },
+    "correct": {
+      "text": "その通りです。よく覚えていらっしゃいますね。",
+      "reading": "そのとおりです。よくおぼえていらっしゃいますね。",
+      "ruby": "その{通|とお}りです。よく{覚|おぼ}えていらっしゃいますね。",
+      "romaji": "Sono tōri desu. Yoku oboete irasshaimasu ne.",
+      "meaning": "That is right. You remembered it well.",
+      "mood": "proud",
+      "pose": "proud"
+    },
+    "supported": {
+      "text": "できましたね。次は、ヒントなしで試してみましょう。",
+      "reading": "できましたね。つぎは、ヒントなしでためしてみましょう。",
+      "ruby": "できましたね。{次|つぎ}は、ヒントなしで{試|ため}してみましょう。",
+      "romaji": "Dekimashita ne. Tsugi wa, hinto nashi de tameshite mimashō.",
+      "meaning": "You found it. Next time, let us try without the hint.",
+      "mood": "warm",
+      "pose": "hint"
+    },
+    "retry": {
+      "text": "大丈夫です。一緒に、もう一度確かめましょう。",
+      "reading": "だいじょうぶです。いっしょに、もういちどたしかめましょう。",
+      "ruby": "{大丈夫|だいじょうぶ}です。{一緒|いっしょ}に、もう{一度|いちど}{確|たし}かめましょう。",
+      "romaji": "Daijōbu desu. Issho ni, mō ichido tashikamemashō.",
+      "meaning": "It is all right. Let us check it once more, together.",
+      "mood": "warm",
+      "pose": "encourage"
+    },
+    "hint": {
+      "text": "まず、読み方を確かめましょう。",
+      "reading": "まず、よみかたをたしかめましょう。",
+      "ruby": "まず、{読|よ}み{方|かた}を{確|たし}かめましょう。",
+      "romaji": "Mazu, yomikata o tashikamemashō.",
+      "meaning": "First, let us check how it is read.",
+      "mood": "precise",
+      "pose": "hint"
+    },
+    "politeness": {
+      "text": "相手との関係に合う言葉を選びましょう。",
+      "reading": "あいてとのかんけいにあうことばをえらびましょう。",
+      "ruby": "{相手|あいて}との{関係|かんけい}に{合|あ}う{言葉|ことば}を{選|えら}びましょう。",
+      "romaji": "Aite to no kankei ni au kotoba o erabimashō.",
+      "meaning": "Let us choose words that suit your relationship with the listener.",
+      "mood": "precise",
+      "pose": "politeness"
+    },
+    "complete": {
+      "text": "本日の一歩、確かに受け取りました。お疲れさまでした。",
+      "reading": "ほんじつのいっぽ、たしかにうけとりました。おつかれさまでした。",
+      "ruby": "{本日|ほんじつ}の{一歩|いっぽ}、{確|たし}かに{受|う}け{取|と}りました。お{疲|つか}れさまでした。",
+      "romaji": "Honjitsu no ippo, tashika ni uketorimashita. Otsukaresama deshita.",
+      "meaning": "I have received today's step forward. Thank you for your work.",
+      "mood": "proud",
+      "pose": "levelup"
+    },
+    "return": {
+      "text": "お帰りなさい。続きから、ご一緒いたします。",
+      "reading": "おかえりなさい。つづきから、ごいっしょいたします。",
+      "ruby": "お{帰|かえ}りなさい。{続|つづ}きから、ご{一緒|いっしょ}いたします。",
+      "romaji": "Okaerinasai. Tsuzuki kara, go-issho itashimasu.",
+      "meaning": "Welcome back. I will accompany you from where we left off.",
+      "mood": "warm",
+      "pose": "keepgoing"
+    },
+    "milestone": {
+      "text": "また一つ、言葉が届きました。私も、うれしいです。",
+      "reading": "またひとつ、ことばがとどきました。わたしも、うれしいです。",
+      "ruby": "また{一|ひと}つ、{言葉|ことば}が{届|とど}きました。{私|わたし}も、うれしいです。",
+      "romaji": "Mata hitotsu, kotoba ga todokimashita. Watashi mo, ureshii desu.",
+      "meaning": "Another word has reached its destination. That makes me happy, too.",
+      "mood": "proud",
+      "pose": "celebrate"
+    },
+    "rest": {
+      "text": "今日は、ここまでにいたしましょう。どうぞ、お休みください。",
+      "reading": "きょうは、ここまでにいたしましょう。どうぞ、おやすみください。",
+      "ruby": "{今日|きょう}は、ここまでにいたしましょう。どうぞ、お{休|やす}みください。",
+      "romaji": "Kyō wa, koko made ni itashimashō. Dōzo, oyasumi kudasai.",
+      "meaning": "Let us leave it here for today. Please take some rest.",
+      "mood": "reflective",
+      "pose": "tea"
+    },
+    "lesson": {
+      "text": "切手を二枚お願いします。明日、手紙を出します。",
+      "reading": "きってをにまいおねがいします。あした、てがみをだします。",
+      "ruby": "{切手|きって}を{二枚|にまい}お{願|ねが}いします。{明日|あした}、{手紙|てがみ}を{出|だ}します。",
+      "romaji": "Kitte o nimai onegai shimasu. Ashita, tegami o dashimasu.",
+      "meaning": "Two stamps, please. I will send a letter tomorrow.",
+      "mood": "clear",
+      "pose": "read"
+    },
+    "contrast": {
+      "text": "おばさん。おばあさん。きて。きって。",
+      "reading": "おばさん。おばあさん。きて。きって。",
+      "ruby": "おばさん。おばあさん。きて。きって。",
+      "romaji": "Obasan. Obāsan. Kite. Kitte.",
+      "meaning": "Compare vowel length and the small pause: obasan / obaasan; kite / kitte.",
+      "mood": "clear",
+      "pose": "listen"
+    }
+  }
+}

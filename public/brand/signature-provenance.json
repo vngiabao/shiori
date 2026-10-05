@@ -1,0 +1,20 @@
+{
+  "approvedSource": "output/shiori-signature-concept-v2/shiori-signature.png",
+  "originalMedium": "Built-in image generation; user approved reserved writing pose on 2026-10-05",
+  "sourcePrompts": "output/shiori-signature-concept-v2/prompts.json",
+  "conversion": "VTracer 0.6.12, cubic Bezier paths, no embedded raster or external font",
+  "settings": {
+    "colormode": "color",
+    "hierarchical": "cutout",
+    "mode": "spline",
+    "filter_speckle": 1,
+    "color_precision": 6,
+    "layer_difference": 4,
+    "corner_threshold": 60,
+    "length_threshold": 2.0,
+    "splice_threshold": 45,
+    "path_precision": 2
+  },
+  "pathsPerLockup": 269,
+  "finishing": "Remove two background regions; restore tiny neutral mouth and eye glints; unify lettering blue; inverse lettering warm white; cropped viewBox; same-face vector app icon"
+}
