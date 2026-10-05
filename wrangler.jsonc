@@ -4,5 +4,13 @@
   "compatibility_date": "2026-10-05",
   "assets": {
     "directory": "./dist"
-  }
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "shiori.gbaonvo.com",
+      "custom_domain": true
+    }
+  ]
 }
