@@ -1,10 +1,30 @@
 # Shiori optional cloud sync
 
-Status: implemented and tested with fake transport and mocked browser Auth/RPCs.
-No hosted project, account, keys or deployment were created. The SQL migration
-and isolation script have NOT been executed against Postgres: psql/Supabase CLI
-were unavailable and the installed Docker client had no running daemon.
-Static SQL checks are not a substitute for executing the isolation tests.
+Live setup (2026-10-05): project `brepokoccawgqtxqxuwg` in Bao's Website is shared
+with Kiyo. Both migrations were applied and rolled-back two-user isolation checks
+passed against the hosted database, including anonymous denial and cross-app
+deletion isolation. Cloudflare build variables connect each app to this project.
+An actual learner sign-in and two-device progress round trip still require manual
+acceptance; database tests alone do not prove the whole browser flow.
+
+Shiori uses `shiori_sync_state`, `shiori_learning_records` and `shiori_sync_*` RPCs.
+Kiyo uses the separate `kiyo_` equivalents. Auth identities and project quotas are
+shared; learning records, revisions, deletion markers and browser storage are not.
+Deleting a Supabase Auth user deletes that user's data in BOTH apps. Each app's
+cloud-data deletion button deletes only its own records. Keep backup exports.
+Both private sites remain behind Cloudflare Access. Repository visibility has no
+effect on sync.
+
+Allowed Auth redirects: `https://shiori.gbaonvo.com/` and
+`https://kiyo.gbaonvo.com/`. Site URL defaults to Shiori; each app sends its own
+origin as the redirect. Hosted login is Google-only for `gbao.n.vo@gmail.com`.
+`shared-project/owner-only.sql` is applied: a before-user-created hook, restrictive
+RLS policies and all six definer RPCs check the exact email and Google provider.
+`shared-project/owner-only.test.sql` passed in the hosted SQL editor with all
+fixtures rolled back. Email and Apple login are disabled. Google OAuth credential
+setup is pending owner completion in Google Cloud. After enabling it in Supabase,
+set `VITE_AUTH_PROVIDERS=google`, `VITE_AUTH_MODE=google-only` in both builds.
+Only the publishable key belongs in VITE variables, never a secret/service-role key.
 
 ## Before connecting any live service
 
@@ -22,8 +42,8 @@ Static SQL checks are not a substitute for executing the isolation tests.
    equivalent isolation checks there before trusting it with learning history.
 6. Copy `.env.example` to `.env.local`. Enter your project's API URL and public
    anon/publishable key. NEVER put service-role/secret credentials in VITE_ vars.
-7. Auth: enable email. Edit the Magic Link email template to include
-   `{{ .Token }}` so the interface receives a one-time code, not just a link.
+7. Auth: enable email. The default Magic Link template works; an email code is
+   optional if your configured template includes `{{ .Token }}`.
    Set the site URL and allowed redirect to `http://127.0.0.1:5174` for this app.
    Enable Google only after configuring its OAuth client and provider callback
    in Supabase; client secrets belong in provider settings, not the browser.

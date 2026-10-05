@@ -3,6 +3,8 @@ import { useLiveQuery } from "dexie-react-hooks";
 import { Button } from "./components";
 import {
   authConfigured,
+  emailConfigured,
+  oauthConfigured,
   sendEmailCode,
   verifyEmailCode,
   signInWith,
@@ -57,6 +59,7 @@ export function SyncPanel() {
       {error && <p role="alert">{error}</p>}
       {!status.account ? (
         <>
+          {emailConfigured && <>
           <label>
             Email address
             <input
@@ -75,10 +78,11 @@ export function SyncPanel() {
               })
             }
           >
-            Send sign-in code
+            Send sign-in email
           </Button>
           {sent && (
             <>
+              <p role="status">Open the sign-in link from your email in this browser. If the email includes a code, you can enter it below.</p>
               <label>
                 Email code
                 <input
@@ -101,13 +105,16 @@ export function SyncPanel() {
               </Button>
             </>
           )}
+          </>}
           <Button
             secondary
-            disabled={busy}
+            disabled={busy || !oauthConfigured("google")}
             onClick={() => void action(() => signInWith("google"))}
           >
             Continue with Google
           </Button>
+          {!emailConfigured && <p className="muted">Private sync · Google account gbao.n.vo@gmail.com only.</p>}
+          {!oauthConfigured("google") && <p className="muted">Google sign-in is not configured yet.</p>}
         </>
       ) : (
         <>

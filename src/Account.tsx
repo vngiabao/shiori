@@ -127,12 +127,12 @@ export function Welcome() {
                 onClick={() => setAccount(!account)}
               >
                 <EnvelopeSimple />
-                Cloud sync · coming later
+                {authConfigured ? "Sign in & sync progress" : "Cloud sync · coming later"}
               </button>
               {account && (
                 <div className="notice-note">
-                  Cloud sign-in is not connected yet. Guest mode saves your
-                  progress on this device; you can export a backup at any time.
+                  {authConfigured ? <SyncPanel /> : <>Cloud sign-in is not connected yet. Guest mode saves your
+                  progress on this device; you can export a backup at any time.</>}
                 </div>
               )}
               <small>

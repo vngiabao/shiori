@@ -18,6 +18,10 @@ export type Account = {
 const url = import.meta.env.VITE_SUPABASE_URL as string | undefined;
 const key = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined;
 export const authConfigured = Boolean(url && key);
+export const emailConfigured = authConfigured && import.meta.env.VITE_AUTH_MODE !== "google-only";
+export function oauthConfigured(provider: OAuthProvider) {
+  return authConfigured && (import.meta.env.VITE_AUTH_PROVIDERS ?? "").split(",").includes(provider);
+}
 
 let client: Promise<SupabaseClient> | null = null;
 export function supabase() {
@@ -41,12 +45,13 @@ export async function signInWith(provider: OAuthProvider) {
     await supabase()
   ).auth.signInWithOAuth({
     provider,
-    options: { redirectTo: location.origin + location.pathname },
+    options: { redirectTo: location.origin + location.pathname,
+      queryParams: provider === "google" ? { login_hint: "gbao.n.vo@gmail.com", prompt: "select_account" } : undefined },
   });
   if (error) throw new Error(friendly(error.message));
 }
 
-/** Sends a 6-digit code (and a link) to the address. */
+/** Sends the project's configured passwordless email (a link by default). */
 export async function sendEmailCode(email: string) {
   const { error } = await (
     await supabase()

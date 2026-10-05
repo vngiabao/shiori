@@ -3,14 +3,16 @@ import AxeBuilder from "@axe-core/playwright";
 test("mocked cloud consent, text opt-in and account controls preserve the settings design", async ({
   page,
 }) => {
-  await page.route("**/src/auth.ts", async (route) =>
+  await page.route("**/src/auth.ts*", async (route) =>
     route.fulfill({
       contentType: "application/javascript",
       body: `
  let user=null; let notify=()=>{}; let state={revision:0,epoch:'local-test',deleted:false,schema_version:1,rows:[]};
  window.__cloud=state;
  export const authConfigured=true;
+ export const emailConfigured=true;
  export async function currentAccount(){return user;}
+ export function oauthConfigured(){return false;}
  export async function sendEmailCode(email){window.__email=email;}
  export async function verifyEmailCode(email,token){user={id:'test-user',email,name:'Test',provider:'email'};notify('SIGNED_IN');return user;}
  export async function signInWith(){throw new Error('Google is mocked in this test.');}
@@ -28,7 +30,7 @@ test("mocked cloud consent, text opt-in and account controls preserve the settin
   ).toBeVisible();
   await page.goto("/#settings");
   await page.getByLabel("Email address").fill("reader@example.test");
-  await page.getByRole("button", { name: "Send sign-in code" }).click();
+  await page.getByRole("button", { name: "Send sign-in email" }).click();
   await page.getByLabel("Email code").fill("123456");
   await page.getByRole("button", { name: "Verify code" }).click();
   await expect(
@@ -48,10 +50,10 @@ test("mocked cloud consent, text opt-in and account controls preserve the settin
   await expect(page.getByText("Kept on this device. Nothing will be uploaded until you enable sync.", {exact:true})).toBeVisible();
   await page.reload();
   await expect(
-    page.getByRole("button", { name: "Send sign-in code" }),
+    page.getByRole("button", { name: "Send sign-in email" }),
   ).toBeVisible();
   await page.getByLabel("Email address").fill("reader@example.test");
-  await page.getByRole("button", { name: "Send sign-in code" }).click();
+  await page.getByRole("button", { name: "Send sign-in email" }).click();
   await page.getByLabel("Email code").fill("123456");
   await page.getByRole("button", { name: "Verify code" }).click();
   await expect(
@@ -85,6 +87,6 @@ test("mocked cloud consent, text opt-in and account controls preserve the settin
   expect((await new AxeBuilder({ page }).analyze()).violations).toEqual([]);
   await page.getByRole("button", { name: "Sign out", exact: true }).click();
   await expect(
-    page.getByRole("button", { name: "Send sign-in code" }),
+    page.getByRole("button", { name: "Send sign-in email" }),
   ).toBeVisible();
 });
