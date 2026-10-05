@@ -22,7 +22,7 @@ origin as the redirect. Hosted login is Google-only for `gbao.n.vo@gmail.com`.
 RLS policies and all six definer RPCs check the exact email and Google provider.
 `shared-project/owner-only.test.sql` passed in the hosted SQL editor with all
 fixtures rolled back. Email and Apple login are disabled. Google OAuth credential
-setup is pending owner completion in Google Cloud. After enabling it in Supabase,
+setup is saved and Google is enabled in Supabase. Google Cloud client `Kiyo & Shiori web` uses both app origins and the shared Supabase callback. The only Google test user is the owner. For the deployments,
 set `VITE_AUTH_PROVIDERS=google`, `VITE_AUTH_MODE=google-only` in both builds.
 Only the publishable key belongs in VITE variables, never a secret/service-role key.
 
