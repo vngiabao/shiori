@@ -197,6 +197,14 @@ for (const unit of [
       ["Movement through a changing familiar place", "n2-u10-d-alley", "Track movement and change from the story’s viewpoint", "Recognise a narrator’s significant moment"],
     ],
   },
+  {
+    id: "n2-u11", reading: "Hana’s impression after the workshop",
+    secondReading: "Kenta’s library note: today and a repeated pattern",
+    lessons: [
+      ["An impression and the person’s explanation", "n2-u11-d-impression", "An emotion suggested by what you see", "A slight condition in the stated period"],
+      ["Today’s slight condition and a recurring pattern", "n2-u11-d-library", "A slight condition in the stated period", "An emotion suggested by what you see"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
