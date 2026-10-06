@@ -75,3 +75,17 @@ Two sixteen-word lessons; four notes with complete attachments and three or four
 - Topic/target attachments and the two noun modifiers are explicitly named form tasks; no competing natural synonym is marked wrong. Viewpoint differs from topic/recipient. によって’s four functions are labelled; によると is not silently substituted.
 
 Old clips, mapping records and stroke bytes are preserved. All 87 new WAV files are mapped. TypeScript, 112 unit tests, content/dictionary/JLPT, five audio validators, focused browser and production build/offline checks pass. Browser decodes twenty new dialogue files and checks both lessons plus the message at 375/1440 in saved light/dark themes with axe and overflow checks; screenshots inspected. Native listening/naturalness remains pending. Full level review remains pending.
+
+
+## Unit 6 — a decision, an arrangement and requested advice
+
+Two sixteen-word lessons; four formation notes with three original examples each; two ten-line scenes at 1.10 speed; a 225-character message; seventeen tasks. All thirty-two new spelling/reading pairs match the pinned dictionary. The unit retrieves personal decisions from N4 and records the publishers' N3/N4 and N3/N2 tag disagreements. It is not an official JLPT membership claim.
+
+- Replaced a duplicate planned headword 実行 with new 実施. Scene references for 実行 use its existing N3 unit 2 id. The archived first-draft example recording stays mapped; no historical recording is deleted.
+- Replaced the prematurely used だけでなく with an already taught も…も pairing. Removed an unnecessary contrast with a teacher from a manager's scene.
+- At the meeting, Bao has decided to compare the screens tonight but has not done it. Next morning, Bao explicitly reports last night's completed comparison. The message and listening keys preserve this relative timeline.
+- A received reply makes a duplicate call unnecessary; it does not ban calls or claim no lifetime phone experience. The manager's authoritative ことです advice follows an explicit request for help.
+- Negative choice, arrangement, reassurance and advice tasks name their required construction. They do not score overlapping constructions as competing synonyms. Friday's registration deadline and Kenta's duty remain unchanged from the prior unit.
+- The two こと constructions are described by their presentation of choice/result, not an absolute rule that external agency is always required by なる. Advisory and identifying ことです are distinguished.
+
+TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT gates, beginner ledger/alias checks, five audio validators, preservation, the full browser suite, build and production offline reload/playback pass. All 85 added WAV files are mapped; 4,873 prior Clear keys / 4,885 synthesis records, 363 dialogue takes and prior stroke bytes are unchanged. The browser case decodes twenty scene takes and checks lesson-specific grammar plus reading support, saved light/dark themes, accessibility and overflow at 375/1440. Human language and listening review remains pending. This is the six-unit checkpoint, not a completed N3 course.

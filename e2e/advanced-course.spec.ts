@@ -40,6 +40,13 @@ for (const unit of [
       ["A survey has a scope", "n3-u05-d-survey", "Read what によって connects", "Name the topic of a discussion"],
     ],
   },
+  {
+    id: "n3-u06", reading: "Decided yesterday; carried out last night",
+    lessons: [
+      ["An arrangement and a personal choice", "n3-u06-d-meeting", "A decision is not its completed action", "No need is not a prohibition"],
+      ["No need, and requested advice", "n3-u06-d-help", "No need is not a prohibition", "A decision is not its completed action"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
