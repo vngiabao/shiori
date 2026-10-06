@@ -3555,5 +3555,189 @@
       "speaker": "Yamamoto",
       "index": 9
     }
+  ],
+  "n3-u07-d-route": [
+    {
+      "text": "明日の映画を見る会に参加したいです。店までの道順を教えてください。",
+      "url": "/audio/vv2-16cae222e1f5d4f94b84.wav",
+      "seconds": 4.8,
+      "sha256": "16cae222e1f5d4f94b84ebcbc0b824e8219e70b2c7e7d9247aa741638a590e90",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 0
+    },
+    {
+      "text": "許可は取れていて、開始は三時です。駅の東口から出てください。",
+      "url": "/audio/vv2-921ef42d79cbf53debe9.wav",
+      "seconds": 4.917333333333334,
+      "sha256": "921ef42d79cbf53debe98b0091337c84ba09798f8a7a94130fbba1a1498b92e2",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "東口の前にある横断歩道ですね。地図の矢印は右ですか？",
+      "url": "/audio/vv2-1cec750aaea4f5efbb6d.wav",
+      "seconds": 4.298666666666667,
+      "sha256": "1cec750aaea4f5efbb6d263d96cefbe5e5a41e4e505977c9557426ce686262dd",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 2
+    },
+    {
+      "text": "はい。横断歩道を渡って右に曲がると、青い看板が見えます。",
+      "url": "/audio/vv2-4858bb95b2ca57abde6e.wav",
+      "seconds": 4.48,
+      "sha256": "4858bb95b2ca57abde6e547734762aab41b12a48df2904433d1a09306478901f",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "その看板が目印ですね。店はどこですか？",
+      "url": "/audio/vv2-c3cb5fac62aea9b0894f.wav",
+      "seconds": 3.0933333333333333,
+      "sha256": "c3cb5fac62aea9b0894fb62e46b3161791221c210986fb7635bd2ccce9085222",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 4
+    },
+    {
+      "text": "銀行の向かいです。近くの通路は閉まっているので、歩道を通れば行けます。",
+      "url": "/audio/vv2-ab36256153ac8a1ed99e.wav",
+      "seconds": 5.066666666666666,
+      "sha256": "ab36256153ac8a1ed99e7982dee5e0d267e98702b4813caf143b97432934b551",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    },
+    {
+      "text": "通路を使わずに迂回するんですね。目印が分からなければ、どうしますか？",
+      "url": "/audio/vv2-4efbc77699f2aa8b84e4.wav",
+      "seconds": 4.810666666666667,
+      "sha256": "4efbc77699f2aa8b84e4aa0d2fb32b86ec4d45cb9e71e1f0996608d4b7bf4029",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 6
+    },
+    {
+      "text": "焦らず、安全な場所で地図を確認してください。余分な移動はしなくていいですよ。",
+      "url": "/audio/vv2-f0b7a96077884028fc5b.wav",
+      "seconds": 5.472,
+      "sha256": "f0b7a96077884028fc5bf9bb91c0974e2b85ae4f7d21f98894a3077f53ab8be4",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 7
+    },
+    {
+      "text": "分かりました。字幕の方針は、見る人が選べることですね。",
+      "url": "/audio/vv2-38d1784a2d61fdfd7d25.wav",
+      "seconds": 4.224,
+      "sha256": "38d1784a2d61fdfd7d255401026d57c4a9311c868244ca7b698d29fd91b6eda1",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 8
+    },
+    {
+      "text": "はい。参加を辞退するときは連絡してください。道順も慎重に確認しましょう。",
+      "url": "/audio/vv2-0dd6dcf034f1edfc6d7f.wav",
+      "seconds": 5.536,
+      "sha256": "0dd6dcf034f1edfc6d7f63c0d9f6389f791c4a7fee8438a63f3f2191dc6cca1f",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 9
+    }
+  ],
+  "n3-u07-d-plan": [
+    {
+      "text": "明日はバスで来ようと思っています。時刻表はまだ見ていません。",
+      "url": "/audio/vv2-9e788dfd7743405db547.wav",
+      "seconds": 4.16,
+      "sha256": "9e788dfd7743405db54746e28744bba7a137b7129fc3c6da9bde3dfa985c0529",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 0
+    },
+    {
+      "text": "バスで来るなら、乗る前に時刻表と運賃を調べてください。",
+      "url": "/audio/vv2-1c7c5438fe44d66f0ad0.wav",
+      "seconds": 3.872,
+      "sha256": "1c7c5438fe44d66f0ad06aa629849c3412af5b9c00f42d5571e0dc05d5b6c2dc",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 1
+    },
+    {
+      "text": "乗り場も先に確認します。終点で降りればいいんですね。",
+      "url": "/audio/vv2-f8d9b0258c05285ebd8b.wav",
+      "seconds": 3.744,
+      "sha256": "f8d9b0258c05285ebd8b0f39cae1c4bb70f6232737ee18973ea95f3131f6db9f",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 2
+    },
+    {
+      "text": "はい。店に着いたら、メッセージを送ってください。到着してからでいいですよ。",
+      "url": "/audio/vv2-e964de5a23064e416953.wav",
+      "seconds": 5.237333333333333,
+      "sha256": "e964de5a23064e416953bda1868ca7ebb7366c5e893eec585b158d77257ffcc0",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 3
+    },
+    {
+      "text": "分かりました。もし電車が運休だったら、バスの運行を確認します。",
+      "url": "/audio/vv2-ea55eb86e8c0b2f43271.wav",
+      "seconds": 4.586666666666667,
+      "sha256": "ea55eb86e8c0b2f43271a36da8e2d68a2aac6f0af014ab695d73d5e5b558058e",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 4
+    },
+    {
+      "text": "それは仮の場合ですね。今、運休しているという連絡はありません。",
+      "url": "/audio/vv2-1d706697cb46f22b9e41.wav",
+      "seconds": 4.554666666666667,
+      "sha256": "1d706697cb46f22b9e4105cc3655a24b1bc9e628848418c641bf2df2ddf3c722",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 5
+    },
+    {
+      "text": "店までの通路は使えません。少し遠回りですが、歩道を通ってください。",
+      "url": "/audio/vv2-cf31ca78a6d41e7501f5.wav",
+      "seconds": 4.992,
+      "sha256": "cf31ca78a6d41e7501f54083042b6a038d62d618e32087b314db9a5e3ee03f49",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 6
+    },
+    {
+      "text": "字幕の比較は、もう終わりましたか？",
+      "url": "/audio/vv2-f58b48cbe69e0330ced9.wav",
+      "seconds": 2.485333333333333,
+      "sha256": "f58b48cbe69e0330ced99909c079668442a10b58bbae53c1f0281219273b4323",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 7
+    },
+    {
+      "text": "はい。同じ条件で二つの画面を比べました。準備の分担も確認しました。改善の案も検討しています。",
+      "url": "/audio/vv2-c06a7f3a2283dec5553d.wav",
+      "seconds": 7.573333333333333,
+      "sha256": "c06a7f3a2283dec5553d9a0a952dc40558ccbd7a6014af14c76f7e8784f62857",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 8
+    },
+    {
+      "text": "俺は申し込みを担当しています。期限は今日です。二人で責任を確認します。",
+      "url": "/audio/vv2-4fda34221fced8b72db7.wav",
+      "seconds": 5.568,
+      "sha256": "4fda34221fced8b72db7dc6edd0d92ee7f3249b30bcc6a4e45e986aff5c51d65",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 9
+    }
   ]
 }

@@ -1,0 +1,66 @@
+{
+  "unit": "n3-u07",
+  "checked": "2026-10-06",
+  "status": "Authored and internally reviewed; content, audio and focused browser gates passed. Native review pending.",
+  "levelNote": "Bunpro and JLPT Sensei tag all four N4. This N3 row is contextual contrast/retrieval, not four newly asserted N3 requirements. N4 core introductions: n4-u01 なら, u05 たら, u06 と/regretば, u10 broaderば.",
+  "forms": [
+    {
+      "form": "route/regular/discovery と",
+      "sources": [
+        "https://bunpro.jp/grammar_points/と-conditional",
+        "https://jlptsensei.com/learn-japanese-grammar/と-to-meaning-whenever/"
+      ],
+      "levels": [
+        "N4",
+        "N4"
+      ],
+      "formation": "Nonpast dictionary/ない verb or い-adjective + と; noun/な-adjective + だと. Negative nominal でないと. Result clause supplies tense.",
+      "teachingChoice": "Route result and past discovery. Do not generalise a route statement to a universal guarantee. One-off requests after the learner's action use たら. と for discovery is not labelled as a chosen sequential-action conjunction."
+    },
+    {
+      "form": "conditional ば",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ば",
+        "https://jlptsensei.com/learn-japanese-grammar/ば-ba-conditional-form-meaning/"
+      ],
+      "levels": [
+        "N4",
+        "N4"
+      ],
+      "formation": "Godan u-row to e-row + ば; ichidan drop る + れば; する→すれば; 来る→来れば(くれば). い→ければ; いい→よければ; ない→なければ. Noun/な-adjective ならば/であれば; negative でなければ.",
+      "teachingChoice": "Names the construction in scored attachment tasks. Conditional state/potential/negative and different-actor cases mean no blanket ban on requests. Does not mean logical if-and-only-if. Avoid competing ば/たら keys where both are acceptable."
+    },
+    {
+      "form": "condition/after-completion たら",
+      "sources": [
+        "https://bunpro.jp/grammar_points/たら",
+        "https://jlptsensei.com/learn-japanese-grammar/たら-tara-meaning/"
+      ],
+      "levels": [
+        "N4",
+        "N4"
+      ],
+      "formation": "Plain past + ら, including だ→だら. Noun/な-adjective だったら; い-adjective かったら; いい→よかったら; negative なかったら. Calendar time is contextual.",
+      "teachingChoice": "Arrival precedes the requested message. A suspended-train contingency does not assert an actual suspension. Negative conditional is if-not, not after-not. Past discovery may overlap と; no synonym contest."
+    },
+    {
+      "form": "supplied premise なら",
+      "sources": [
+        "https://bunpro.jp/grammar_points/なら",
+        "https://jlptsensei.com/learn-japanese-grammar/なら-nara-meaning/"
+      ],
+      "levels": [
+        "N4",
+        "N4"
+      ],
+      "formation": "Plain verb/い-adjective + (の)なら; noun/な-adjective + なら without simple だ. Clause + のなら for a nominalised premise.",
+      "teachingChoice": "Advice responds to Misaki's stated travel plan and happens before boarding. Do not assume all なら clauses are future or every たら alternative is impossible; teach the actual temporal contrast explicitly."
+    }
+  ],
+  "contrastSource": {
+    "title": "Wasabi teacher-authored conditional comparison",
+    "url": "https://wasabi-jpn.com/magazine/japanese-grammar/how-conditionals-work/",
+    "verified": "Attachments, actual discovery, overlap, one-off requests, state/different-actor exceptions with ば, supplied-context なら. Independent authored examples only."
+  },
+  "remaining": "Native review of pronunciation, timing and sentence naturalness. Unit: two lessons, 32 new pairs, two ten-line scenes, 231-character guide, 18 tasks."
+}

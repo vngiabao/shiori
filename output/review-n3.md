@@ -89,3 +89,17 @@ Two sixteen-word lessons; four formation notes with three original examples each
 - The two こと constructions are described by their presentation of choice/result, not an absolute rule that external agency is always required by なる. Advisory and identifying ことです are distinguished.
 
 TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT gates, beginner ledger/alias checks, five audio validators, preservation, the full browser suite, build and production offline reload/playback pass. All 85 added WAV files are mapped; 4,873 prior Clear keys / 4,885 synthesis records, 363 dialogue takes and prior stroke bytes are unchanged. The browser case decodes twenty scene takes and checks lesson-specific grammar plus reading support, saved light/dark themes, accessibility and overflow at 375/1440. Human language and listening review remains pending. This is the six-unit checkpoint, not a completed N3 course.
+
+
+## Unit 7 — directions and the timing of advice
+
+Two sixteen-word lessons; four formation notes with three original examples each; two ten-line scenes at 1.10; a 231-character guide; eighteen tasks. Thirty-two new pairs match the pinned dictionary. The four conditional patterns are contextual retrieval of N4 teaching, not newly invented N3 requirements. The source brief also records Wasabi's teacher-authored comparison of overlap and request restrictions.
+
+- Before authoring, excluded already taught 交差点, 到着, 出発 and 遅延 from the new headword list. Use existing 到着 references where arrival is needed.
+- Added reviewed 焦らず as the actual negative-linking surface of 焦る. Added real provisional-case, improvement and consideration references to the scene, plus an explicit registration/deadline question. Previous-three-unit retrieval meets the target without fake credits.
+- Both scenes take place on Friday; Kenta's registration deadline is today, and the film gathering remains Saturday at three. Bao's comparison is already complete. A hypothetical train suspension is explicitly distinguished from an actual report.
+- Timetable, fare and boarding point must be checked before boarding; arrival message follows reaching the café. The guide does not invent bus times or fares: one question explicitly asks readers to identify missing lookup details.
+- Form clozes name と/ば/たら/なら and test attachment. They never force a choice between interchangeable valid conditionals. Requests after a state/negative condition with ば are accepted; no blanket prohibition or logical if-and-only-if rule.
+- と's actual discovery, たら's future use and だ→だら, いい irregular forms, and noun/na-adjective attachments are explicit. Separate purpose/quotation constructions are not silently conflated.
+
+TypeScript, 112 tests, content/dictionary/kanji/JLPT, ledger/aliases, five audio validators, preservation, focused browser, build and production offline reload/playback pass. All 89 new WAV files are mapped; previous 4,970 Clear keys / 4,982 synthesis records, 383 dialogues and stroke bytes remain unchanged. Browser decodes all twenty new scene takes and checks both lessons/guide, saved themes, accessibility and overflow at 375/1440; screenshots inspected. Precache 1,282 entries / 11,947.64 KiB. Latest full-suite milestone is unit 6: 45 tests passed. Native review and the remaining course remain pending.

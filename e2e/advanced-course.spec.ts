@@ -47,6 +47,13 @@ for (const unit of [
       ["No need, and requested advice", "n3-u06-d-help", "No need is not a prohibition", "A decision is not its completed action"],
     ],
   },
+  {
+    id: "n3-u07", reading: "Before travel; after arrival",
+    lessons: [
+      ["A route and its conditions", "n3-u07-d-route", "Describe a regular result or a discovery", "Advice based on a stated plan"],
+      ["Preparation before; a message after", "n3-u07-d-plan", "Advice based on a stated plan", "Describe a regular result or a discovery"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

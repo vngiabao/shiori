@@ -1,6 +1,6 @@
 # Shiori course outline: N5 → N1, media and keigo
 
-Status updated 2026-10-06. The N5 and N4 core courses are authored, with seven N5 decks (489 records) and eleven N4 decks (528 records), eighteen decks total. All 1,386 raw beginner rows have explicit dispositions, not an exhaustive taught-vocabulary claim: related forms, attached patterns and exclusions remain visible. N5/N4 each have sixty checkpoints and thirty samples. N4 content/source/audio gates pass; native review remains pending. N3 units 1–6 are authored as twelve lessons with original scenes/readings and form-specific source reviews. Units 4/5 distinguish conviction from confirmed evidence, and individual viewpoints from survey scope. The remaining N3–N1 units and twelve workplace-keigo scenarios are still to verify and author sequentially. Build prompts: prompts/gpt-course-build.md and prompts/gpt-course-continue.md. Exact checkpoint and remaining work: output/course-progress.md.
+Status updated 2026-10-06. The N5 and N4 core courses are authored, with seven N5 decks (489 records) and eleven N4 decks (528 records), eighteen decks total. All 1,386 raw beginner rows have explicit dispositions, not an exhaustive taught-vocabulary claim: related forms, attached patterns and exclusions remain visible. N5/N4 each have sixty checkpoints and thirty samples. N4 content/source/audio gates pass; native review remains pending. N3 units 1–7 are authored as fourteen lessons with original scenes/readings and form-specific source reviews. Units 4/5 distinguish conviction from confirmed evidence, and individual viewpoints from survey scope. The remaining N3–N1 units and twelve workplace-keigo scenarios are still to verify and author sequentially. Build prompts: prompts/gpt-course-build.md and prompts/gpt-course-continue.md. Exact checkpoint and remaining work: output/course-progress.md.
 
 ## 0. What the course is for
 
@@ -187,3 +187,5 @@ Should-fix:
 The status stays "AI-assisted draft" until a person reviews it.
 
 Research update (6 October 2026): n3-u06 retrieves ことにする from N4 units 11/12 and fully teaches the arrangement/result bridge ことになる. Both publishers disagree N3/N4 on these forms. Advisory ことだ is N3-tagged by Bunpro and N2-tagged by JLPT Sensei; introduce supported use here and retrieve in n2-u02, without claiming an official level. Form-specific brief: content/sources/grammar/n3-u06.json.
+
+Research update (6 October 2026): n3-u07 contrasts N4 conditional retrieval (と/ば/たら/なら). n3-u08 form brief verifies the concessive のに-despite page separately from purpose のに. ても/のに are N4 bridges; くせに/ながらも are N3-tagged by both selected publishers. All tags are editorial.
