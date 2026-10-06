@@ -1,0 +1,47 @@
+{
+  "unit": "n3-u02",
+  "checked": "2026-10-06",
+  "status": "Sequencing/formation brief checked; unit not authored",
+  "method": "Form-specific Bunpro publisher pages and JLPT Sensei author pages. Original scenes and exercises must be authored separately; no source examples are imported.",
+  "notes": [
+    {
+      "form": "るところ / ているところ / たところ",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/るところだ", "level": "N4"},
+        {"url": "https://bunpro.jp/grammar_points/ているところだ", "level": "N4"},
+        {"url": "https://bunpro.jp/grammar_points/たところだ", "level": "N4"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/ところ-tokoro-meaning/", "level": "N4"}
+      ],
+      "formation": "Dictionary verb + ところだ/です for the stage just before action; ている + ところだ/です during action; た + ところだ/です immediately after action. Before nouns or ので use the nominal construction correctly; do not add だ mechanically before ので.",
+      "teachingChoice": "Three temporal stages contrast in a phone call. Bridge N4-mapped forms not explicitly taught in the installed core. Do not score a future action as already complete. Near-miss ところだった, connector ところで and factual discovery たところ are different extensions and are not inferred from this introductory stage contrast."
+    },
+    {
+      "form": "たばかり",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/たばかり", "level": "N4"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/たばかり-ta-bakari-meaning/", "level": "N4"}
+      ],
+      "formation": "Verb た-form + ばかりだ/です; an attributive noun phrase uses たばかりの + noun. In a cause clause, たばかりなので, not たばかりだので.",
+      "teachingChoice": "Subjective recency differs from the immediate just-finished stage. Do not invent a fixed elapsed-time cutoff. In an immediately completed context both たところ and たばかり can be defensible, so never use them as competing answers without a decisive context or an explicitly stated form task."
+    },
+    {
+      "form": "うちに — act before a state changes",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/うちに", "level": "N3"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/うちに-uchi-ni-meaning/", "level": "N3"}
+      ],
+      "formation": "Noun + のうちに; な-adjective + なうちに; い-adjective + うちに; a suitable plain nonpast/ない/ている verb clause + うちに.",
+      "teachingChoice": "Teach a useful temporary window, with explicit constraints in a notice or phone plan. A stated end of availability can support an inference about acting before that time. A task must not manufacture a closing time that the text never gives."
+    },
+    {
+      "form": "うちに — change emerging during activity",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/うちに", "level": "N3"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/うちに-uchi-ni-meaning/", "level": "N3"}
+      ],
+      "formation": "An ongoing/repeated plain clause + うちに, followed by an emerging change. Examples must make the temporal development clear rather than imply a deadline or a purposeful command.",
+      "teachingChoice": "Contrast incidental/gradual change with the window for a deliberate action. Recycle N3 unit 1 observed-change forms and record/method vocabulary from N4 units 10–12. Revisit alongside 間 and 最中 in unit 10; do not treat every translation of English 'while' as interchangeable."
+    }
+  ],
+  "remaining": "Author two lessons with 30–40 genuinely new useful forms, two 8–12-line original scenes, a 200–400-character reading and 14–18 defensible tasks. Review each reading and earlier-word reuse, then dictionary/kanji/audio gates. Other advanced rows still need form-specific checks."
+}

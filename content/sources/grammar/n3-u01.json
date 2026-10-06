@@ -1,0 +1,45 @@
+{
+  "unit": "n3-u01",
+  "checked": "2026-10-06",
+  "status": "AI-assisted editorial review; no native certification",
+  "method": "Form-specific publisher pages plus independent editorial inventory pointers. Examples and scenarios are original, not imported. These community mappings are not an official JLPT syllabus.",
+  "notes": [
+    {
+      "grammar": "n3-u01-g-change",
+      "form": "ようになる",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/ようになる", "level": "N4"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/ようになる-you-ni-naru-meaning/", "level": "N4"}
+      ],
+      "teachingChoice": "A bridge for a form not explicitly taught in the installed N4 course, rather than a claim that it is new N3 grammar. Potential-form prerequisites come from N4 unit 1. Distinguish achieved ability, new routine and a wish; negative loss is not drilled as mechanically interchangeable with ないようになる."
+    },
+    {
+      "grammar": "n3-u01-g-habit",
+      "form": "ようにする / ようにしている",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/ようにする", "level": "N4"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/ようにする-you-ni-suru-ようにしている-meaning/", "level": "N4"}
+      ],
+      "teachingChoice": "Bridge ongoing conscious effort, with an explicit negative avoidance example. Contrast it with observed change; do not equate attempted habit with successful performance."
+    },
+    {
+      "grammar": "n3-u01-g-result",
+      "form": "ように (purpose)",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/ように", "level": "N4"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/ように-you-ni-meaning-in-order-to/", "level": "N3"}
+      ],
+      "teachingChoice": "Mapping disagreement retained. Teach desired ability/state and avoided outcome, including different clause subjects. This is purpose, not noun resemblance のように from N4 unit 10."
+    },
+    {
+      "grammar": "n3-u01-g-purpose",
+      "form": "ために (purpose) versus ように",
+      "sources": [
+        {"url": "https://bunpro.jp/grammar_points/ため-に", "level": "N3"},
+        {"url": "https://jlptsensei.com/learn-japanese-grammar/ために-tame-ni-meaning/", "level": "N3"}
+      ],
+      "teachingChoice": "Dictionary-form deliberate goal and noun + のために. Treat shared subject/control as a useful tendency, not an exceptionless rule. Cause ために is deferred to N3 unit 9; it is not scored here."
+    }
+  ],
+  "remaining": "Other N3–N1 outline rows still require form-specific review before their units are authored. This file does not certify the full advanced sequence."
+}

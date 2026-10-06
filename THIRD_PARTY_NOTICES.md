@@ -78,7 +78,7 @@ individual WAV hashes: `content/voices/teacher-provenance.json`.
 No new mascot artwork was created for this pass. Native listening review
 remains pending; signal/phoneme checks are not pronunciation certification.
 
-Course dialogue deliveries: 263 speaker-specific takes rendered locally in the
+Course dialogue deliveries: 283 speaker-specific takes rendered locally in the
 same VOICEVOX:冥鳴ひまり voice. Wording and Clear-mode recordings are unchanged.
 Character settings: `content/voices/dialogue-speakers.json`; recording queries,
 model and WAV hashes: `content/voices/dialogue-provenance.json`. The deliveries
@@ -89,4 +89,8 @@ Vocabulary source inventory (five N5 and six N4 decks installed, 941 form record
 
 ## Beginner source ledger, 6 October 2026
 
-Eighteen vocabulary decks contain 1,017 original contextual records. Raw CSV bytes are unchanged. The beginner ledger accounts for every N5/N4 row and explicitly distinguishes inflected/orthographic relations, corrected or split source cells, attached patterns and exclusions. Source repairs still require restricted JMdict pairs; they do not certify original examples. `scripts/build-vocabulary-ledger.py --check` checks this ledger against the installed packs and pinned sources. Current character references cover 817 kanji; prior dictionary and stroke bytes are preserved. No new third-party lesson prose or audio was imported.
+Eighteen vocabulary decks contain 1,017 original contextual records. Raw CSV bytes are unchanged. The beginner ledger accounts for every N5/N4 row and explicitly distinguishes inflected/orthographic relations, corrected or split source cells, attached patterns and exclusions. Source repairs still require restricted JMdict pairs; they do not certify original examples. `scripts/build-vocabulary-ledger.py --check` checks this ledger against the installed packs and pinned sources. Current character references cover 831 kanji; prior dictionary and stroke bytes are preserved. No new third-party lesson prose or audio was imported.
+
+## N3 unit 1, 6 October 2026
+
+Thirty-two original word/example records, four teaching notes, twenty scene lines, a diary and sixteen tasks are AI-assisted drafts. Bunpro and JLPT Sensei are sequencing/formation references linked in content/sources/grammar/n3-u01.json; their examples and prose were not imported. Fourteen additional kanji references use the existing pinned KANJIDIC2 archive and KanjiVG commit. Ninety new waveform files are mapped; every earlier recording/query remains unchanged. Reference and signal checks do not certify naturalness, perceived emotion or pronunciation.
