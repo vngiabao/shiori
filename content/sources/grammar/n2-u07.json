@@ -1,0 +1,57 @@
+{
+  "unit": "n2-u07",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific primary-source research, editorial review, source/content/audio/preservation/browser/build and production offline gates passed; native review pending.",
+  "method": "Inspected formation and usage in each primary publisher. The Agency's HTML and PDF are one institution, not independent sources. All scenes, passages and tasks are original. JLPT publisher tags are estimates, not official item assignments.",
+  "points": [
+    {
+      "form": "でございます / ございます",
+      "sources": [
+        "https://bunpro.jp/grammar_points/でございます",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_03.html"
+      ],
+      "formation": "Noun + でございます identifies formally; がございます concerns existence. Animate own-side presence uses おります.",
+      "teachingChoice": "Formal polite speech, not intrinsically person-honouring. Bunpro's N4 tag makes this applied retrieval. Internal colleague turns remain ordinary です/ます.",
+      "sourceCaution": "Do not confuse historical でござる character speech with a modern phone greeting. Bunpro's other-person shorthand does not mean 丁寧語 cannot refer to someone else."
+    },
+    {
+      "form": "恐れ入りますが and availability checks",
+      "sources": [
+        "https://www.bunka.go.jp/kokugo_nihongo/sisaku/joho/joho/kakuki/22/tosin02/16.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_03.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_04.html"
+      ],
+      "formation": "Preface + actual request; 今…よろしいですか / 話してもいいですか checks availability.",
+      "teachingChoice": "A courteous opening does not decide the other person's schedule. Requests need a purpose, and a callback must be distinguished from confirmed availability.",
+      "sourceCaution": "The official guidance notes repetition may be unnecessary. MLC models internal permission to speak; do not turn every familiar colleague turn into external-service language."
+    },
+    {
+      "form": "Own name + と申します",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_03.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_04.html"
+      ],
+      "formation": "Own name + と申します; company/team + の + own name can precede it.",
+      "teachingChoice": "申す is 丁重II for own-side saying, retrieved from N4. The client is asked their name without making their introduction deferential.",
+      "sourceCaution": "A formal alternative, not obligatory between familiar colleagues. MLC kana transcriptions have typographical errors; none is copied as a reading authority."
+    },
+    {
+      "form": "Own colleague to an outsider: おります, surname and neutral role",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_09.pdf",
+        "https://www.mlcjapanese.co.jp/business_dialogue_03.html",
+        "https://www.mlcjapanese.co.jp/business_dialogue_04.html"
+      ],
+      "formation": "席を外しております; neutral role before name, 課長の石川. Direct internal address uses 石川課長.",
+      "teachingChoice": "Agency PDF page 46 allows neutral identifying roles when referencing your boss externally. Teach company practice without imposing it on every institution or relationship.",
+      "sourceCaution": "The adjacent school and mixed-hierarchy cases show contextual variation. A call acknowledgement is not agreement to change a meeting."
+    }
+  ],
+  "editorialReview": {
+    "newPairs": 45,
+    "sceneChoice": "A brief internal meeting confirmation and an external client's request to move it. Different register is motivated by the relationship, not padded with unrelated vocabulary.",
+    "remaining": "Whole N2 core review after unit 16 and independent native sentence/listening review."
+  }
+}

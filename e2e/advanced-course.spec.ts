@@ -165,6 +165,14 @@ for (const unit of [
       ["Correct an error and ask permission", "n2-u06-d-correction", "Ask to perform an action yourself", "Offer an action towards the recipient"],
     ],
   },
+  {
+    id: "n2-u07", reading: "Visitor information for the demonstration",
+    secondReading: "A handover memo: request versus confirmed schedule",
+    lessons: [
+      ["Confirm a meeting and check availability", "n2-u07-d-meeting", "Recognise a formal identification or statement", "Introduce yourself without changing whose name it is"],
+      ["Take a client’s message without promising a change", "n2-u07-d-message", "Introduce yourself without changing whose name it is", "Recognise a formal identification or statement"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -210,7 +218,11 @@ for (const unit of [
     await page.getByRole("button", { name: "Hear it in context" }).click();
     await expect(page.getByRole("heading", { name: "Listen to the conversation." })).toBeVisible();
     await page.getByRole("button", { name: "Play again", exact: true }).click();
-    await expect.poll(() => page.evaluate(() => (window as any).played)).toEqual(expect.arrayContaining(takes[scene].map((t: { url: string }) => t.url)));
+    // Playback retains a 380 ms inter-line pause even with mocked media.
+    // Longer scenes must finish without weakening the exact mapping check.
+    const playbackTimeout = Math.max(10000, takes[scene].length * 500 + 2000);
+    await expect.poll(() => page.evaluate(() => (window as any).played), { timeout: playbackTimeout }).toEqual(expect.arrayContaining(takes[scene].map((t: { url: string }) => t.url)));
+    await expect(page.getByRole("button", { name: "Answer questions", exact: true })).toBeEnabled({ timeout: playbackTimeout });
     await page.getByRole("button", { name: "Leave lesson", exact: true }).click();
   }
   for (const [width, theme] of [[1440, "light"], [375, "light"], [1440, "dark"], [375, "dark"]] as const) {
