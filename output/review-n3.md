@@ -103,3 +103,17 @@ Two sixteen-word lessons; four formation notes with three original examples each
 - と's actual discovery, たら's future use and だ→だら, いい irregular forms, and noun/na-adjective attachments are explicit. Separate purpose/quotation constructions are not silently conflated.
 
 TypeScript, 112 tests, content/dictionary/kanji/JLPT, ledger/aliases, five audio validators, preservation, focused browser, build and production offline reload/playback pass. All 89 new WAV files are mapped; previous 4,970 Clear keys / 4,982 synthesis records, 383 dialogues and stroke bytes remain unchanged. Browser decodes all twenty new scene takes and checks both lessons/guide, saved themes, accessibility and overflow at 375/1440; screenshots inspected. Precache 1,282 entries / 11,947.64 KiB. Latest full-suite milestone is unit 6: 45 tests passed. Native review and the remaining course remain pending.
+
+
+## Unit 8 — contrast, reproach and repair
+
+Two sixteen-word lessons; four notes with three original examples each; two ten-line scenes at 1.10; a 220-character diary; eighteen tasks. All thirty-two new written/reading pairs match the pinned JMdict. Native review pending.
+
+- Distinguish the concessive のに-despite source from homonymous purpose のに. ても/のに retrieve N4; both publishers tag くせに/ながらも N3. Form clozes explicitly name the construction instead of forcing a synonym choice.
+- Counterfactual ていれば and ずにすむ in an initial diary draft were removed before rendering; the diary retrieves N4 聞けばよかった instead. No unintroduced counterfactual is scored.
+- The Saturday film starts at three only after selectable subtitles are checked. The initially empty screen is a temporary test, not a verified changed policy. Misaki's pointed remark occurs between scenes and is quoted/apologised for in the second; earlier scene does not falsely claim to contain it.
+- Reproach is a speaker's claim, never certified private intention. Examples avoid identity stereotypes. Casual apology between friends and polite clarification identify listeners; the teacher does not recommend くせに to a manager.
+- Complete nominal attachments contrast なのに / のくせに; concessive state stems 小さいながらも / 不器用ながらも are kept distinct from ordinary simultaneous-action ながら. Gratitude or blame is not a narrator's truth certificate.
+- Removed an unrelated 方針 exercise credit. Reviewed 引き受けます as the actual surface of 引き受ける in the scene. Previous-three-unit recycling clears the target with actual text.
+
+Gates pass: types, 112 tests, content/dictionary/kanji/JLPT, alias decisions/ledger, five audio validators, historical preservation, focused browser, build and production offline playback. All 87 new WAV files mapped; previous 5,071 Clear keys / 5,083 synthesis records, 403 dialogue takes and 929 dictionary entries preserved, old stroke bytes unchanged. Total 5,169 Clear keys / 5,181 synthesis records and 423 dialogue takes. Browser decodes twenty new recordings and checks both lessons plus diary at 375/1440 in both saved themes; screenshots inspected, no accessibility/overflow failures. Precache 1,296 entries / 12,017.19 KiB. Initial test during unfinished rendering correctly reported missing dialogue takes; after rendering all 112 pass. Latest full browser milestone remains unit 6; next full run unit 9. No human listening or native naturalness certification.

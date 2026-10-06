@@ -54,6 +54,13 @@ for (const unit of [
       ["Preparation before; a message after", "n3-u07-d-plan", "Advice based on a stated plan", "Describe a regular result or a discovery"],
     ],
   },
+  {
+    id: "n3-u08", reading: "What the screen did not tell me",
+    lessons: [
+      ["A fact and an unmet expectation", "n3-u08-d-screen", "An outcome that stays the same", "Recognise blame; choose how to repair it"],
+      ["Recognise blame; repair the conversation", "n3-u08-d-repair", "Recognise blame; choose how to repair it", "An outcome that stays the same"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

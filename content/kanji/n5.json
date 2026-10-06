@@ -538,7 +538,8 @@
     "kun": "あたる、まさに、こたえる",
     "words": [
       "n3-u01-w-ouyou",
-      "n3-u05-w-taiou"
+      "n3-u05-w-taiou",
+      "n3-u08-w-hannou"
     ]
   },
   {
@@ -636,6 +637,7 @@
     "on": "オン、イン、-ノン",
     "kun": "おと、ね",
     "words": [
+      "n3-u08-w-honne",
       "n4-u09-w-oto",
       "n4-u11-w-hatsuon",
       "n5-vocab-01-w-0140"
@@ -863,6 +865,16 @@
     ]
   },
   {
+    "char": "我",
+    "meaning": "ego; I; selfish; our; oneself",
+    "components": "",
+    "on": "ガ",
+    "kun": "われ、わ、わが、わが",
+    "words": [
+      "n3-u08-w-gaman"
+    ]
+  },
+  {
     "char": "画",
     "meaning": "brush-stroke; picture",
     "components": "",
@@ -951,6 +963,16 @@
     "kun": "あやしい、あやしむ",
     "words": [
       "n3-u03-w-ayashii"
+    ]
+  },
+  {
+    "char": "悔",
+    "meaning": "repent; regret",
+    "components": "",
+    "on": "カイ",
+    "kun": "くいる、くやむ、くやしい",
+    "words": [
+      "n3-u08-w-kuyashii"
     ]
   },
   {
@@ -1277,7 +1299,8 @@
     "kun": "",
     "words": [
       "n3-u01-w-jikkan",
-      "n3-u05-w-kansou"
+      "n3-u05-w-kansou",
+      "n3-u08-w-kanjou"
     ]
   },
   {
@@ -1487,6 +1510,16 @@
     "kun": "よろこぶ、よろこばす",
     "words": [
       "n4-u02-w-yorokobu"
+    ]
+  },
+  {
+    "char": "器",
+    "meaning": "utensil; vessel; receptacle; implement; instrument; ability; container; tool; set",
+    "components": "",
+    "on": "キ",
+    "kun": "うつわ",
+    "words": [
+      "n3-u08-w-bukiyou"
     ]
   },
   {
@@ -1929,6 +1962,16 @@
     ]
   },
   {
+    "char": "協",
+    "meaning": "co-; cooperation",
+    "components": "",
+    "on": "キョウ",
+    "kun": "",
+    "words": [
+      "n3-u08-w-dakyou"
+    ]
+  },
+  {
     "char": "強",
     "meaning": "strong",
     "components": "",
@@ -2143,6 +2186,7 @@
     "on": "ク",
     "kun": "くるしい、ぐるしい、くるしむ、くるしめる、にがい、にがる",
     "words": [
+      "n3-u08-w-kujou",
       "n4-vocab-01-w-0012"
     ]
   },
@@ -2460,6 +2504,7 @@
     "on": "ケン、コン",
     "kun": "たてる、たて、だて、たつ",
     "words": [
+      "n3-u08-w-tatemae",
       "n4-vocab-01-w-0065",
       "n5-vocab-03-w-0388"
     ]
@@ -2668,6 +2713,7 @@
     "on": "ゲン、ゴン",
     "kun": "いう、こと",
     "words": [
+      "n3-u08-w-iiwake",
       "n5-vocab-01-w-0047",
       "n5-vocab-02-w-0263"
     ]
@@ -2740,6 +2786,7 @@
     "on": "コ",
     "kun": "と",
     "words": [
+      "n3-u08-w-tomadou",
       "n5-vocab-06-w-0443"
     ]
   },
@@ -2856,6 +2903,7 @@
     "kun": "おおやけ",
     "words": [
       "n3-u04-w-kouhei",
+      "n3-u08-w-fukouhei",
       "n4-vocab-02-w-0273",
       "n5-vocab-02-w-0246"
     ]
@@ -2898,6 +2946,7 @@
     "on": "コウ、ク",
     "kun": "くち",
     "words": [
+      "n3-u08-w-kuchou",
       "n4-vocab-01-w-0092",
       "n5-vocab-01-w-0071",
       "n5-vocab-02-w-0221",
@@ -3158,6 +3207,7 @@
     "on": "コク",
     "kun": "つげる",
     "words": [
+      "n3-u08-w-chuukoku",
       "n4-u12-w-houkoku",
       "n4-u12-w-houkokusho"
     ]
@@ -4112,6 +4162,7 @@
     "on": "シツ",
     "kun": "うしなう、うせる",
     "words": [
+      "n3-u08-w-shitsubou",
       "n4-u07-w-shitsurei",
       "n4-u10-w-shippai",
       "n5-u06-w-shitsurei"
@@ -4828,6 +4879,17 @@
     ]
   },
   {
+    "char": "傷",
+    "meaning": "wound; hurt; injure; impair; pain; injury; cut; gash; scar; weak point",
+    "components": "",
+    "on": "ショウ",
+    "kun": "きず、いたむ、いためる",
+    "words": [
+      "n3-u08-w-kizutsuku",
+      "n3-u08-w-kizutsukeru"
+    ]
+  },
+  {
     "char": "勝",
     "meaning": "victory; win; prevail; excel",
     "components": "",
@@ -4945,6 +5007,17 @@
     "kun": "こげる、こがす、こがれる、あせる、じれる、じらす",
     "words": [
       "n3-u06-w-aseru"
+    ]
+  },
+  {
+    "char": "省",
+    "meaning": "government ministry; conserve; omit",
+    "components": "",
+    "on": "セイ、ショウ",
+    "kun": "かえりみる、はぶく",
+    "words": [
+      "n3-u08-w-hansei",
+      "n3-u08-w-shouryaku"
     ]
   },
   {
@@ -5110,7 +5183,9 @@
     "kun": "なさけ",
     "words": [
       "n3-u03-w-jouhou",
-      "n3-u03-w-hyoujou"
+      "n3-u03-w-hyoujou",
+      "n3-u08-w-kujou",
+      "n3-u08-w-kanjou"
     ]
   },
   {
@@ -5142,6 +5217,16 @@
     "kun": "たたむ、たたみ、かさなる",
     "words": [
       "n4-vocab-01-w-0137"
+    ]
+  },
+  {
+    "char": "譲",
+    "meaning": "defer; turnover; transfer; convey",
+    "components": "",
+    "on": "ジョウ",
+    "kun": "ゆずる",
+    "words": [
+      "n3-u08-w-jouho"
     ]
   },
   {
@@ -5246,6 +5331,7 @@
     "on": "シン",
     "kun": "こころ、ごころ",
     "words": [
+      "n3-u08-w-kokorokubari",
       "n4-vocab-02-w-0215",
       "n4-vocab-02-w-0251",
       "n4-vocab-04-w-0532",
@@ -5261,7 +5347,8 @@
     "on": "シン",
     "kun": "つつしむ、つつましい、つつし、つつしみ",
     "words": [
-      "n3-u04-w-shinchou"
+      "n3-u04-w-shinchou",
+      "n3-u08-w-tsutsushimu"
     ]
   },
   {
@@ -5662,6 +5749,7 @@
     "on": "セイ、ジョウ",
     "kun": "しず、しずか、しずまる、しずめる",
     "words": [
+      "n3-u08-w-reisei",
       "n4-u09-w-shizuka",
       "n5-u05-w-shizuka"
     ]
@@ -5705,7 +5793,8 @@
     "on": "セキ",
     "kun": "せめる",
     "words": [
-      "n3-u04-w-sekinin"
+      "n3-u04-w-sekinin",
+      "n3-u08-w-semeru"
     ]
   },
   {
@@ -5793,6 +5882,7 @@
     "on": "セツ、ゼイ",
     "kun": "とく",
     "words": [
+      "n3-u08-w-settoku",
       "n4-u04-w-setumei",
       "n4-u10-w-setsumei",
       "n4-vocab-01-w-0113"
@@ -5942,6 +6032,7 @@
     "words": [
       "name",
       "n3-u02-w-chokuzen",
+      "n3-u08-w-tatemae",
       "n5-u04-w-mae",
       "n5-vocab-02-w-0257"
     ]
@@ -6017,6 +6108,7 @@
     "on": "ソ、ス",
     "kun": "もと",
     "words": [
+      "n3-u08-w-sunao",
       "n4-vocab-02-w-0205"
     ]
   },
@@ -6351,6 +6443,16 @@
     "words": [
       "n4-vocab-04-w-0526",
       "n5-vocab-04-w-0587"
+    ]
+  },
+  {
+    "char": "妥",
+    "meaning": "gentle; peace; satisfactory; appropriate",
+    "components": "",
+    "on": "ダ",
+    "kun": "",
+    "words": [
+      "n3-u08-w-dakyou"
     ]
   },
   {
@@ -6889,6 +6991,26 @@
     ]
   },
   {
+    "char": "仲",
+    "meaning": "go-between; relationship",
+    "components": "",
+    "on": "チュウ",
+    "kun": "なか",
+    "words": [
+      "n3-u08-w-nakanaori"
+    ]
+  },
+  {
+    "char": "忠",
+    "meaning": "loyalty; fidelity; faithfulness",
+    "components": "",
+    "on": "チュウ",
+    "kun": "",
+    "words": [
+      "n3-u08-w-chuukoku"
+    ]
+  },
+  {
     "char": "昼",
     "meaning": "daytime; noon",
     "components": "",
@@ -6987,6 +7109,7 @@
     "words": [
       "n3-u01-w-chousei",
       "n3-u04-w-chousa",
+      "n3-u08-w-kuchou",
       "n4-u03-w-shiraberu",
       "n4-u11-w-taichou"
     ]
@@ -7027,6 +7150,8 @@
       "n3-u02-w-chokuzen",
       "n3-u02-w-chokugo",
       "n3-u06-w-minaoshi",
+      "n3-u08-w-sunao",
+      "n3-u08-w-nakanaori",
       "n4-u04-w-naosu",
       "n4-u10-w-naosu",
       "n4-vocab-04-w-0533"
@@ -7721,7 +7846,8 @@
     "kun": "える、うる",
     "words": [
       "n3-u01-w-shuutoku",
-      "n3-u05-w-nattoku"
+      "n3-u05-w-nattoku",
+      "n3-u08-w-settoku"
     ]
   },
   {
@@ -7821,6 +7947,7 @@
     "on": "ナン",
     "kun": "かたい、がたい、むずかしい、むづかしい、むつかしい、にくい",
     "words": [
+      "n3-u08-w-hinan",
       "n5-vocab-05-w-0653"
     ]
   },
@@ -8057,6 +8184,7 @@
     "kun": "くばる",
     "words": [
       "n3-u05-w-hairyo",
+      "n3-u08-w-kokorokubari",
       "n4-vocab-08-w-0038",
       "n5-u08-w-shinpai",
       "n5-u08-w-shinpai-kudasai"
@@ -8178,6 +8306,7 @@
     "words": [
       "n3-u07-w-hassha",
       "n3-u07-w-shihatsu",
+      "n3-u08-w-hanpatsu",
       "n4-u03-w-shuppatsu",
       "n4-u10-w-happyou",
       "n4-u11-w-hatsuon"
@@ -8223,6 +8352,9 @@
     "on": "ハン、ホン、タン、ホ",
     "kun": "そる、そらす、かえす、かえる、かえる",
     "words": [
+      "n3-u08-w-hansei",
+      "n3-u08-w-hanpatsu",
+      "n3-u08-w-hannou",
       "n4-vocab-03-w-0305"
     ]
   },
@@ -8360,6 +8492,7 @@
     "on": "ヒ",
     "kun": "あらず",
     "words": [
+      "n3-u08-w-hinan",
       "n4-vocab-01-w-0040",
       "n4-vocab-03-w-0408"
     ]
@@ -8526,6 +8659,9 @@
     "words": [
       "n3-u04-w-fuicchi",
       "n3-u06-w-fuyou",
+      "n3-u08-w-fuman",
+      "n3-u08-w-fukouhei",
+      "n3-u08-w-bukiyou",
       "n4-vocab-03-w-0380"
     ]
   },
@@ -8836,6 +8972,7 @@
     "kun": "たいら、たいらげる、ひら",
     "words": [
       "n3-u04-w-kouhei",
+      "n3-u08-w-fukouhei",
       "n5-vocab-04-w-0573"
     ]
   },
@@ -9015,6 +9152,7 @@
     "words": [
       "n3-u07-w-oudanhodou",
       "n3-u07-w-hodou",
+      "n3-u08-w-jouho",
       "n5-vocab-01-w-0043",
       "n5-vocab-02-w-0290"
     ]
@@ -9216,7 +9354,8 @@
     "on": "ボウ、モウ",
     "kun": "のぞむ、もち",
     "words": [
-      "n3-u05-w-youbou"
+      "n3-u05-w-youbou",
+      "n3-u08-w-shitsubou"
     ]
   },
   {
@@ -9355,6 +9494,26 @@
     "words": [
       "n5-vocab-04-w-0634",
       "n5-vocab-04-w-0635"
+    ]
+  },
+  {
+    "char": "慢",
+    "meaning": "ridicule; laziness",
+    "components": "",
+    "on": "マン",
+    "kun": "",
+    "words": [
+      "n3-u08-w-gaman"
+    ]
+  },
+  {
+    "char": "満",
+    "meaning": "full; fullness; enough; satisfy",
+    "components": "",
+    "on": "マン、バン",
+    "kun": "みちる、みつ、みたす",
+    "words": [
+      "n3-u08-w-fuman"
     ]
   },
   {
@@ -9650,6 +9809,7 @@
     "on": "ヤク",
     "kun": "つづまる、つづめる、つづまやか",
     "words": [
+      "n3-u08-w-youyaku",
       "n4-u03-w-yoyaku",
       "n4-vocab-04-w-0538"
     ]
@@ -9671,6 +9831,7 @@
     "on": "ヤク",
     "kun": "わけ",
     "words": [
+      "n3-u08-w-iiwake",
       "n4-u04-w-moushiwake",
       "n4-vocab-04-w-0481",
       "n4-vocab-05-w-0635",
@@ -9878,6 +10039,7 @@
     "words": [
       "n3-u01-w-ouyou",
       "n3-u02-w-kyuuyou",
+      "n3-u08-w-bukiyou",
       "n4-u08-w-youken",
       "n4-vocab-02-w-0149",
       "n4-vocab-02-w-0154",
@@ -9906,6 +10068,7 @@
     "words": [
       "n3-u05-w-youbou",
       "n3-u06-w-fuyou",
+      "n3-u08-w-youyaku",
       "n4-u10-w-hitsuyou",
       "n5-vocab-01-w-0073"
     ]
@@ -10108,6 +10271,16 @@
     ]
   },
   {
+    "char": "略",
+    "meaning": "abbreviation; omission; outline; shorten; capture; plunder",
+    "components": "",
+    "on": "リャク",
+    "kun": "ほぼ、はぶく、おかす、おさめる、はかりごと、はかる",
+    "words": [
+      "n3-u08-w-shouryaku"
+    ]
+  },
+  {
     "char": "留",
     "meaning": "detain; fasten; halt; stop",
     "components": "",
@@ -10274,6 +10447,7 @@
     "kun": "つめたい、ひえる、ひや、ひややか、ひやす、ひやかす、さめる、さます",
     "words": [
       "n3-u02-w-sameru",
+      "n3-u08-w-reisei",
       "n4-vocab-03-w-0332",
       "n4-vocab-04-w-0549",
       "n5-vocab-03-w-0423",
@@ -10412,6 +10586,16 @@
       "n4-vocab-03-w-0317",
       "n4-vocab-06-w-0539",
       "n5-vocab-03-w-0442"
+    ]
+  },
+  {
+    "char": "惑",
+    "meaning": "beguile; delusion; perplexity",
+    "components": "",
+    "on": "ワク",
+    "kun": "まどう",
+    "words": [
+      "n3-u08-w-tomadou"
     ]
   },
   {
