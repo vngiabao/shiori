@@ -75,6 +75,13 @@ for (const unit of [
       ["A repeated habit and a slight state", "n3-u10-d-habit", "A recurring tendency is not an identity", "Track what happens each time"],
     ],
   },
+  {
+    id: "n3-u11", reading: "Thanks for the slot; the copy has been returned",
+    lessons: [
+      ["Ask for the opportunity to act", "n3-u11-d-request", "Ask to do the action yourself", "Follow the grantor and the doer"],
+      ["Granted, completed, or made to do it", "n3-u11-d-followup", "Follow the grantor and the doer", "Ask to do the action yourself"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

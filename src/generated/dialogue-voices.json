@@ -4291,5 +4291,189 @@
       "speaker": "Kenta",
       "index": 9
     }
+  ],
+  "n3-u11-d-request": [
+    {
+      "text": "森さん、明日の練習で、私に点検の要約を説明させていただけませんか。",
+      "url": "/audio/vv2-72a9f1a0e015aad45f18.wav",
+      "seconds": 5.472,
+      "sha256": "72a9f1a0e015aad45f18b7f0cefb5bed01af6eed67a025bb5848370355275fc3",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 0
+    },
+    {
+      "text": "はい。主催者として承諾します。水曜日の午後三時から、十分です。",
+      "url": "/audio/vv2-57d7f6646087a75566ef.wav",
+      "seconds": 5.258666666666667,
+      "sha256": "57d7f6646087a75566efc03c6754ba52da09882ef048324384d7cf11507c29c9",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 1
+    },
+    {
+      "text": "ありがとうございます。設備の不具合の要因と、連絡の頻度を省略しないようにします。",
+      "url": "/audio/vv2-2bdcada469c9f0e8235f.wav",
+      "seconds": 6.037333333333334,
+      "sha256": "2bdcada469c9f0e8235fc476e900a102040200ddda3a1a06ab2b8e54d14bf8bc",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 2
+    },
+    {
+      "text": "要因はまだ調査中です。更新のたびに記録を確認する、という日課も説明してください。",
+      "url": "/audio/vv2-7de56aed829b1a749957.wav",
+      "seconds": 6.218666666666667,
+      "sha256": "7de56aed829b1a749957de2f9b0f44fab45f84067b6f88fba09bfc07767ff318",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 3
+    },
+    {
+      "text": "はい。準備のために、匿名の記録を読ませていただけますか。",
+      "url": "/audio/vv2-a088d63d2d12c534cf51.wav",
+      "seconds": 4.266666666666667,
+      "sha256": "a088d63d2d12c534cf515a8bf6be1f246384022c1a007d987cf62595773c866e",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 4
+    },
+    {
+      "text": "管理者の承諾は得ています。閲覧はこの部屋の中だけで、複写は一部だけです。",
+      "url": "/audio/vv2-bc4f7c79de4b12d8eb98.wav",
+      "seconds": 5.706666666666667,
+      "sha256": "bc4f7c79de4b12d8eb98b31efdf25ed01f1439d04bc73a049c7e6ea8491f5780",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 5
+    },
+    {
+      "text": "外へ持ち出さず、撮影も控えます。確認の手間は省きません。",
+      "url": "/audio/vv2-1718549a21d81171e62d.wav",
+      "seconds": 4.618666666666667,
+      "sha256": "1718549a21d81171e62da03f696f68b24ab35938f09795f48e3843dc72775845",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 6
+    },
+    {
+      "text": "この記録は非公開です。私には公開を決める権限がないので、配布はしないでください。",
+      "url": "/audio/vv2-9a86344ef975963aa1c5.wav",
+      "seconds": 6.304,
+      "sha256": "9a86344ef975963aa1c5440d73381498fba6afa10e7f130e76c8c9807e57af7b",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 7
+    },
+    {
+      "text": "分かりました。毎回範囲を確認し、指示に従います。",
+      "url": "/audio/vv2-24d661aea5a7b35984d5.wav",
+      "seconds": 4.032,
+      "sha256": "24d661aea5a7b35984d50612607a6e14234010cfbf931d759701e056f11518bb",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 8
+    },
+    {
+      "text": "相手への心配りが伝わりますね。では、明日の説明をお願いします。",
+      "url": "/audio/vv2-5fd8099c7215a7ee01e7.wav",
+      "seconds": 4.874666666666666,
+      "sha256": "5fd8099c7215a7ee01e713502e193d83fb1ef226c7ffe2434b14bc1b094c2a69",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 9
+    }
+  ],
+  "n3-u11-d-followup": [
+    {
+      "text": "昨日の練習はどうだった？ 三時から説明したんだよね。",
+      "url": "/audio/vv2-4a09d0e284ed40804a29.wav",
+      "seconds": 3.7013333333333334,
+      "sha256": "4a09d0e284ed40804a29ecaf069206ba1020ce54742acfecc9fd099f4ca1a2f3",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 0
+    },
+    {
+      "text": "はい。森さんの承諾を得て、十分発表させていただきました。",
+      "url": "/audio/vv2-65dbaab8a4bffc3a5c05.wav",
+      "seconds": 4.458666666666667,
+      "sha256": "65dbaab8a4bffc3a5c0582a6bc4bc50b9d4687da318f2dc51fcf1e06460d7e9c",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "設備の要因は調査中だって、省略せずに伝えた？",
+      "url": "/audio/vv2-2fae3238ec124d25a377.wav",
+      "seconds": 3.776,
+      "sha256": "2fae3238ec124d25a37765db440b84a151b8b27d55437923ed4c708e7a4dd04e",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 2
+    },
+    {
+      "text": "はい。点検の要約に入れました。管理者は私に匿名の記録を読ませてくれました。",
+      "url": "/audio/vv2-0e96a495b3a6f4ba2061.wav",
+      "seconds": 5.824,
+      "sha256": "0e96a495b3a6f4ba2061c0d96ad296b3c0378ee0036e63c87eb19d71426a14a8",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "閲覧と複写は許されたけど、配布はまだだよね。",
+      "url": "/audio/vv2-04d50e9b40386d39bc78.wav",
+      "seconds": 3.3493333333333335,
+      "sha256": "04d50e9b40386d39bc7819fb4ae8f43e1a37fe18e46dc1ee53ac6343c7e5e346",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 4
+    },
+    {
+      "text": "はい。室内で一部だけ複写し、使った後で保管する場所へ戻しました。",
+      "url": "/audio/vv2-1f1847569aba8a7e35b0.wav",
+      "seconds": 5.152,
+      "sha256": "1f1847569aba8a7e35b088d6e7bcb70202d10706a033f3e6d3de444fbe6729b7",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    },
+    {
+      "text": "議事録にも書こう。ケンタは先週、受付で一時間も待たされたと話していたよ。",
+      "url": "/audio/vv2-8fdb323a310957615d8a.wav",
+      "seconds": 5.44,
+      "sha256": "8fdb323a310957615d8af024b3b40279812dc48bd93cc5c26d4a4214634d9df5",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 6
+    },
+    {
+      "text": "三日連続で説明を省略した話とは、別の出来事ですね。",
+      "url": "/audio/vv2-75c6471bb029acf39227.wav",
+      "seconds": 4.309333333333333,
+      "sha256": "75c6471bb029acf3922711d0a71cc380130d6180bed12a1bcd75cb6573bc3ce3",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 7
+    },
+    {
+      "text": "うん。休息の間隔も考えたいね。毎回、無理のない予定にしよう。",
+      "url": "/audio/vv2-5c3e7b38c0a018b6fca2.wav",
+      "seconds": 4.992,
+      "sha256": "5c3e7b38c0a018b6fca21524ecf9e342a93e5fbcd31a0f36d261337ff06bb74b",
+      "mood": "proud",
+      "speaker": "Misaki",
+      "index": 8
+    },
+    {
+      "text": "相手への心配りについて、考えさせられました。今後も同意と範囲を確認します。",
+      "url": "/audio/vv2-2bb65dc0445b7331ee6c.wav",
+      "seconds": 5.642666666666667,
+      "sha256": "2bb65dc0445b7331ee6c3e725aab5c53ad33c8fb1505ca167e67e3cf624f363a",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 9
+    }
   ]
 }
