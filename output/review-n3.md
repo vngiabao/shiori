@@ -117,3 +117,16 @@ Two sixteen-word lessons; four notes with three original examples each; two ten-
 - Removed an unrelated 方針 exercise credit. Reviewed 引き受けます as the actual surface of 引き受ける in the scene. Previous-three-unit recycling clears the target with actual text.
 
 Gates pass: types, 112 tests, content/dictionary/kanji/JLPT, alias decisions/ledger, five audio validators, historical preservation, focused browser, build and production offline playback. All 87 new WAV files mapped; previous 5,071 Clear keys / 5,083 synthesis records, 403 dialogue takes and 929 dictionary entries preserved, old stroke bytes unchanged. Total 5,169 Clear keys / 5,181 synthesis records and 423 dialogue takes. Browser decodes twenty new recordings and checks both lessons plus diary at 375/1440 in both saved themes; screenshots inspected, no accessibility/overflow failures. Precache 1,296 entries / 12,017.19 KiB. Initial test during unfinished rendering correctly reported missing dialogue takes; after rendering all 112 pass. Latest full browser milestone remains unit 6; next full run unit 9. No human listening or native naturalness certification.
+
+
+## Unit 9 — reasons, appreciation and the update time
+
+Two sixteen-word lessons; four formation notes with three original examples each; two ten-line scenes at 1.10; a 245-character fictional news-lite report; eighteen tasks. All 32 new pairs match the pinned dictionary. Separate form-specific sources verify おかげで, せいで, causal ため(に), and から/ので retrieval. Purpose ため is already taught. Attribution and sarcastic recognition are contextual, not universal positive/negative rules; suitable requests with ので are allowed.
+
+- Excluded previously taught 故障, 事故, 効率, 負担, 中断 and 再開 from new targets. Actual route, division and summary references retrieve units 6–8 without manufactured credits.
+- Saturday's film ended as planned. Sunday's power outage precedes Monday's cancelled morning trains. At the three-o'clock update service is restored, but the session still starts at four and another notice is planned before it.
+- Thunder is reported on the same night, but its causal relationship to the equipment problem remains unknown. A thank-you credits route guidance; it never establishes a culprit.
+- Form clozes name the construction and test noun/na-adjective attachment. No forced choice between interchangeable valid reason connectors. Replies state the listener/register; reading answers depend on the Japanese timeline and explicit uncertainty.
+- Glosses support formal linking 終わっており and negative linking 省略せずに. The report is an original fictional course event, not a real news claim.
+
+TypeScript, 112 tests / 17 files, 24 Python source tests, content/dictionary/kanji/JLPT, ledger/aliases, five audio validators, preservation, all 48 browser tests, build and production offline checks pass. Browser tests decode scene audio, exercise the lessons/readings, and check accessibility, saved themes and overflow. Unit 9 light 1440 and dark 375 screenshots inspected. All 85 new WAV files mapped; previous HEAD 6bc73c0 recordings, query records and stroke bytes unchanged. Total 5,266 Clear keys / 5,278 synthesis records and 443 dialogue takes. Precache 1,313 entries / 12,089.45 KiB, below 15 MB. These checks do not certify native listening or sentence naturalness. No expansion pushed or deployed.

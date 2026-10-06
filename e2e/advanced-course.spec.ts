@@ -61,6 +61,13 @@ for (const unit of [
       ["Recognise blame; repair the conversation", "n3-u08-d-repair", "Recognise blame; choose how to repair it", "An outcome that stays the same"],
     ],
   },
+  {
+    id: "n3-u09", reading: "Service restored; the session still starts at four",
+    lessons: [
+      ["A reason, a thank-you and an accusation", "n3-u09-d-route", "Credit a benefit; notice sarcasm", "Read ため as cause or purpose in context"],
+      ["A report keeps what is still unknown", "n3-u09-d-report", "Read ため as cause or purpose in context", "Credit a benefit; notice sarcasm"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
