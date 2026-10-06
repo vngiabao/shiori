@@ -81,8 +81,8 @@ def main():
         assert example.rstrip('」』').endswith('。') and len(plain(example))>5 and translation.strip(), ('Incomplete example',text)
         word_id = f'{deck}-w-{source_row:04}'
         url = f"https://github.com/jamsinclair/open-anki-jlpt-decks/blob/{provenance['revision']}/src/{level}.csv#L{source_row}"
-        register = ('formal' if text in ['申し上げる'] else 'casual' if text in ['あっち','そっち','どっち','パパ']
-                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん'] else 'neutral')
+        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる'] else 'casual' if text in ['あっち','そっち','どっち','パパ']
+                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい'] else 'neutral')
         words.append(dict(id=word_id,text=text,kana=reading,romaji=romaji,meaning=meaning,register=register,
                           example=plain(example),exampleRuby=example,exampleMeaning=translation,pitch=None,jlpt=None,
                           parts=parts(ruby),source=url))

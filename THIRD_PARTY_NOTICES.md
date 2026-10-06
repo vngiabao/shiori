@@ -56,7 +56,7 @@ Not native-reviewed; no textbook, lyric, or examination text was reproduced.
 Kana and word drills reuse the existing course and its existing provenance.
 Learner-pasted text and translations retain their own source provenance.
 
-October 2026 extension: KANJIDIC2 reference subset now covers all 610 kanji in
+October 2026 extension: KANJIDIC2 reference subset now covers all 653 kanji in
 installed course words; provenance records its pinned release URL and archive
 SHA-256. New reference glosses/readings are copied from that subset. KanjiVG
 stroke files record the upstream Git commit and individual SVG SHA-256; license
@@ -85,4 +85,4 @@ model and WAV hashes: `content/voices/dialogue-provenance.json`. The deliveries
 are acting directions, not measured emotion labels. Native listening review
 remains pending.
 
-Vocabulary source inventory (first three N5 and two N4 decks installed, 500 form records): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. Selected source rows, original cells, restricted JMdict entry IDs and original example-draft hashes are recorded in content/sources/decks/. English meanings and contextual examples are original AI-assisted authoring, awaiting native review. No dictionary/exam example sentences are copied into new course units.
+Vocabulary source inventory (first three N5 and three N4 decks installed, 600 form records): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. Selected source rows, original cells, restricted JMdict entry IDs and original example-draft hashes are recorded in content/sources/decks/. English meanings and contextual examples are original AI-assisted authoring, awaiting native review. No dictionary/exam example sentences are copied into new course units.
