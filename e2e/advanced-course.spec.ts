@@ -19,6 +19,13 @@ for (const unit of [
       ["Use the time while it lasts", "n3-u02-d-window", "Act before a useful state changes", "Locate an action in three stages"],
     ],
   },
+  {
+    id: "n3-u03", reading: "A message separating impressions and facts",
+    lessons: [
+      ["What you saw, and what you heard", "n3-u03-d-preview", "State what was reported, and by whom", "A perceived trait, not an identity"],
+      ["A likeness is not an identity", "n3-u03-d-costume", "A perceived trait, not an identity", "State what was reported, and by whom"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

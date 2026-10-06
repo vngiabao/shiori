@@ -1,14 +1,20 @@
 {
   "unit": "n3-u03",
   "checked": "2026-10-06",
-  "status": "Formation/sequence brief checked; unit not yet authored",
+  "status": "Unit authored; internal review fixes applied; native review pending",
   "method": "Form-specific publisher/author references; original teaching examples must be written separately. No source examples imported. Earlier mappings are bridges/contrasts, not new official N3 requirements.",
   "notes": [
     {
       "form": "appearance そう",
       "sources": [
-        {"url":"https://bunpro.jp/grammar_points/そう","level":"N4"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/そうだ-sou-da-looks-like/","level":"N4"}
+        {
+          "url": "https://bunpro.jp/grammar_points/そう",
+          "level": "N4"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/そうだ-sou-da-looks-like/",
+          "level": "N4"
+        }
       ],
       "formation": "Verb ます-stem + そう; い-adjective without final い + そう; な-adjective stem + そう. Follow with だ/です, な before a noun, に as an adverb. いい gives よさそう. Negative attachment has further distinctions; do not score it before explicit instruction.",
       "teachingChoice": "Retrieve N4 appearance rather than rebrand it as new N3 grammar. Give perceptual cues and distinguish stem 降りそう from a reported plain proposition 降るそう. Do not use a numerical confidence scale."
@@ -16,10 +22,22 @@
     {
       "form": "reported そうだ / inferential-hearsay らしい",
       "sources": [
-        {"url":"https://bunpro.jp/grammar_points/そうだ","level":"N3"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/そうだ-sou-da-i-heard-that/","level":"N4"},
-        {"url":"https://bunpro.jp/grammar_points/らしい1","level":"N4"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/らしい-rashii-meaning/","level":"N4"}
+        {
+          "url": "https://bunpro.jp/grammar_points/そうだ",
+          "level": "N3"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/そうだ-sou-da-i-heard-that/",
+          "level": "N4"
+        },
+        {
+          "url": "https://bunpro.jp/grammar_points/らしい1",
+          "level": "N4"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/らしい-rashii-meaning/",
+          "level": "N4"
+        }
       ],
       "formation": "Reported そうだ follows a plain proposition, including noun/な-adjective + だ. Inferential らしい attaches directly to nonpast nouns/な-adjective stems and to plain verbs/い-adjectives. Distinguish the characteristic noun + らしい use from hearsay; do not equate all らしい with a quotation.",
       "teachingChoice": "These readings can overlap. A hearsay question must identify what was reported and by whom, or explicitly request a taught construction; no ambiguous そうだ versus らしい answer contest. Don't claim hearsay proves the proposition true."
@@ -27,8 +45,14 @@
     {
       "form": "inferential ようだ",
       "sources": [
-        {"url":"https://bunpro.jp/grammar_points/ようだ","level":"N4"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/ようだ-you-da-meaning/","level":"N4"}
+        {
+          "url": "https://bunpro.jp/grammar_points/ようだ",
+          "level": "N4"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/ようだ-you-da-meaning/",
+          "level": "N4"
+        }
       ],
       "formation": "Plain verb/い-adjective clause + ようだ; noun + のようだ; な-adjective + なようだ. ような modifies a noun and ように modifies an action. Inference differs from purpose ように and changed ability ようになる taught in unit 1.",
       "teachingChoice": "Use clues in a notice or observed room, and give the inference a basis. Do not turn apparent evidence into absolute truth or a graded certainty ranking."
@@ -36,8 +60,14 @@
     {
       "form": "casual みたい",
       "sources": [
-        {"url":"https://bunpro.jp/grammar_points/みたい","level":"N4"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/みたいだ-mitai-da-meaning/","level":"N4"}
+        {
+          "url": "https://bunpro.jp/grammar_points/みたい",
+          "level": "N4"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/みたいだ-mitai-da-meaning/",
+          "level": "N4"
+        }
       ],
       "formation": "Plain clauses or noun/な-adjective stems + みたいだ; みたいな + noun; みたいに + action. This みたい is not verb-stem 見たい meaning want to see.",
       "teachingChoice": "A conversational resemblance/inference contrast with ようだ. These can both fit many contexts; score connector/form tasks or an explicit situation, not an unstated preference."
@@ -45,13 +75,22 @@
     {
       "form": "っぽい characteristics and tendencies",
       "sources": [
-        {"url":"https://bunpro.jp/grammar_points/っぽい","level":"N3"},
-        {"url":"https://jlptsensei.com/learn-japanese-grammar/っぽい-ppoi-meaning/","level":"N3"},
-        {"url":"https://bunpro.jp/grammar_points/らしい2","level":"N4 contrast"}
+        {
+          "url": "https://bunpro.jp/grammar_points/っぽい",
+          "level": "N3"
+        },
+        {
+          "url": "https://jlptsensei.com/learn-japanese-grammar/っぽい-ppoi-meaning/",
+          "level": "N3"
+        },
+        {
+          "url": "https://bunpro.jp/grammar_points/らしい2",
+          "level": "N4 contrast"
+        }
       ],
       "formation": "Conventional noun/stem + っぽい forms become い-adjectives: っぽく, っぽかった, っぽくない. Not freely combinable with every verb/adjective. Teach selected established forms, not arbitrary invented derivations.",
       "teachingChoice": "Perceived trait is not an identity claim or medical/personality diagnosis. Distinguish a stereotypical expectation in characteristic らしい from resemblance/tendency, without gender generalisations. Meaning and register are context-dependent."
     }
   ],
-  "remaining": "Write two lessons with 30–40 new useful words, two original 8–12-line scenes with Misaki and the existing cast, a 200–400-character reading and 14–18 tasks. Check overlap/earlier-word reuse, then references/audio/browser gates."
+  "remaining": "Full milestone mechanical/browser gate results in output/course-progress.md. Native naturalness/listening review and the remaining N3 curriculum/decks/banks remain unfinished."
 }

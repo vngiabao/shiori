@@ -1,6 +1,6 @@
 # N3 editorial review
 
-Updated 6 October 2026. Only unit 1 is authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
+Updated 6 October 2026. Only units 1–3 are authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
 
 ## Unit 1 — Getting better at it
 
@@ -34,3 +34,16 @@ Two sixteen-word lessons, four notes with three original examples each, two ten-
 - The repeated-activity use of うちに has an emerging result. The useful-window use has an intended action; they are not translated as one indistinguishable “while”.
 
 Gates: TypeScript, 112 tests, content/reference coverage, beginner ledger and alias preservation, five audio validators, old-record preservation, production build/offline all pass. Both N3 units pass the browser lesson binding/playback/reading support checks in saved light/dark themes at 375 and 1440. Ninety-one new WAV files are referenced; 4,467 earlier Clear URLs / 4,479 synthesis records and 283 old dialogue takes remain unchanged. Native listening/naturalness remains unverified. Full N3 review is pending because fourteen units and the level decks/banks are still unwritten.
+
+## Unit 3 — impressions, reports and roles
+
+Two sixteen-word lessons; five notes, each with formation/three original examples/common mistake; two ten-line scenes at 1.10 speed; a 226-character message; eighteen tasks. All thirty-two new dictionary pairs match the pinned source; twenty-five new character references use the existing archive and stroke commit. First meeting with Misaki uses her existing delivery in Violetto’s single voice.
+
+- Must fix: 台詞を忘れっぽい treated an adjective as a transitive verb. Changed the grammar example and reading to 忘れっぽいので、台詞のメモを使う. The character’s scene already used a self-description.
+- Must fix: the reported sentence-build referenced 保存, absent from its tiles. Removed the unrelated credit. This exercise practices reported syntax, not mastery of its associated information word.
+- Added explicitly reviewed 見直せる/冷めない/区切って to recycling metadata. This is conjugation accounting, not new dictionary evidence or prefix guessing.
+- Corrected 雰囲気’s romaji to fun’iki, retaining the dictionary-checked ふんいき audio input. Added Japanese question punctuation where the dialogue meaning and romaji explicitly ask a question.
+- Appearance stems versus full reported propositions are explicit form tasks. ようだ/みたい/らしい are not competing synonyms. っぽい uses established forms only, with its adjective negative taught before testing.
+- Three preview keys state the seen amount, named source and remaining unchecked date. Three costume keys distinguish role/reality, self-described memory tendency and the actual practice method. Reading keys all have explicit text support; no calendar date, diagnosis or profession is invented.
+
+Mechanical gates and browser checks are recorded in course-progress.md after the full milestone run. Old Clear recordings, dialogue takes and strokes are unchanged. Human/native listening and naturalness review remains pending; this is an internal AI-assisted review of three units, not complete N3 coverage.
