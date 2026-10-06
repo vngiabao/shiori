@@ -1,0 +1,60 @@
+{
+  "unit": "n2-u01",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific source checks, internal editorial review, content/dictionary/audio/browser/build and production offline gates passed; native review pending.",
+  "method": "Original vocabulary examples, two conversations and two essays. Read teacher and grammar-publisher explanations; no source example, textbook passage, test item or recording is imported. Publisher level tags are editorial, not official JLPT certification.",
+  "points": [
+    {
+      "form": "Plain written copula である",
+      "sources": [
+        "https://bunpro.jp/grammar_points/である",
+        "https://guidetojapanese.org/completeguide.html"
+      ],
+      "formation": "Noun/na-adjective stem + である, negative ではない, past であった. Verbs/i-adjectives retain their own plain conjugations.",
+      "teachingChoice": "Written-style bridge: the selected publisher tags である N3. N2 unit 1 applies it to original essays rather than claiming it is newly N2-exclusive. Conversation stays casual or ordinary polite; a quoted draft uses formal writing.",
+      "sourceCaution": "The complete guide's formal-writing section was readable. Its standalone formal page timed out; that page is not counted as inspected. A written copula is neither keigo nor a marker that a statement is proven."
+    },
+    {
+      "form": "Verb stem and であり connecting written clauses",
+      "sources": [
+        "https://guidetojapanese.org/completeguide.html",
+        "https://elon.io/grammar/japanese/verb-reference/renyokei-stem-uses-table"
+      ],
+      "formation": "Use the ます-stem for a continuing written clause (読み, 変え, し, 来/き); noun/na-adjective + であり. Finish the sentence with a predicate.",
+      "teachingChoice": "Retrieve known verb stems in the written genre. The final predicate normally carries the overall tense; context supplies the relationship between clauses. Do not force stem-linked report clauses into peer chat or claim a new official N2 inventory item."
+    },
+    {
+      "form": "Acknowledged contrast ものの",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201703.html",
+        "https://bunpro.jp/grammar_points/ものの",
+        "https://jlptsensei.com/learn-japanese-grammar/ものの-monono-meaning/"
+      ],
+      "formation": "Plain verb/i-adjective + ものの; na-adjective + なものの or であるものの; noun + であるものの. Past attributive predicates also work.",
+      "teachingChoice": "First acknowledge an actual fact, then describe a remaining contrary state. First-lesson essay uses familiar が; this form is taught before its scored second-lesson noun cloze. The unusual copula alternatives are explicitly named instead of treating noun/na-adjective attachment as identical.",
+      "sourceCaution": "Teacher source identifies a written/considered tone and commonly reflective or disappointed result. No mechanical replacement of all casual けど; no request or uncertain future invitation as the second clause in the taught examples."
+    },
+    {
+      "form": "Unexpected existing/completed result にもかかわらず",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201703.html",
+        "https://bunpro.jp/grammar_points/にもかかわらず",
+        "https://jlptsensei.com/learn-japanese-grammar/にも関わらず-にもかかわらず-nimo-kakawarazu-meaning/"
+      ],
+      "formation": "Plain verb/i-adjective + にもかかわらず; noun + にもかかわらず or であるにもかかわらず; na-adjective + であるにもかかわらず.",
+      "teachingChoice": "Describe an actual result contrary to expectation. Preserve も for despite; without も, にかかわらず expresses independence/regardless-of and is a different construction. Noun rain example is gratitude toward actual visitors, not a forecast.",
+      "sourceCaution": "Formal does not mean incapable of conveying emotion: context can communicate gratitude or criticism. Contrast with regardless-of is explained before its deliberately form-focused distractor, not silently assessed as an untaught independent lesson."
+    }
+  ],
+  "editorialReview": {
+    "sceneChoice": "Two twelve-line scenes: friends edit a draft; Bao agrees a deadline with his host mother's neighbourhood newsletter. Written forms occur in draft quotations or a considered report, not in every friend-chat line.",
+    "readingCharacters": [
+      453,
+      479
+    ],
+    "tasks": "Twenty tasks, with explicit form-practice labels and situational reply styles. Reading questions require information in the Japanese essay; no English translation of the essay reveals the answers.",
+    "wordChecks": "All 44 newly selected spelling/reading pairs exist in the restricted cached JMdict extraction. Examples and meanings remain authored and not dictionary-certified.",
+    "fixesBeforeRender": "Replaced newly introduced concessives in first-lesson reading with familiar が. Removed a recent-unit reference from the rain cloze because 地域 did not occur. Every reading gloss occurs in its own passage.",
+    "remaining": "Native sentence/listening review; final N2 whole-level review after core unit 16."
+  }
+}

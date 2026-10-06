@@ -1,9 +1,9 @@
 {
-  "totalWords": 2597,
-  "uniqueForms": 2553,
+  "totalWords": 2641,
+  "uniqueForms": 2597,
   "counts": {
     "excluded-drill": 157,
-    "matched": 2355,
+    "matched": 2399,
     "unmatched": 81,
     "name-unverified": 4
   },
@@ -2725,6 +2725,581 @@
         "2423530",
         "2519700",
         "2827694"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ronjutsu",
+      "text": "論述",
+      "kana": "ろんじゅつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ろんじゅつ"
+      ],
+      "entryIds": [
+        "1738700"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ronkyo",
+      "text": "論拠",
+      "kana": "ろんきょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ろんきょ"
+      ],
+      "entryIds": [
+        "1561690"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-youshi",
+      "text": "要旨",
+      "kana": "ようし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ようし"
+      ],
+      "entryIds": [
+        "1546770"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-teigi",
+      "text": "定義",
+      "kana": "ていぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ていぎ"
+      ],
+      "entryIds": [
+        "1435530"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-hitchi",
+      "text": "筆致",
+      "kana": "ひっち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ひっち"
+      ],
+      "entryIds": [
+        "1656530"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-buntai",
+      "text": "文体",
+      "kana": "ぶんたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぶんたい"
+      ],
+      "entryIds": [
+        "1505510"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-joutai",
+      "text": "常体",
+      "kana": "じょうたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうたい"
+      ],
+      "entryIds": [
+        "1356070"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-keitai",
+      "text": "敬体",
+      "kana": "けいたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいたい"
+      ],
+      "entryIds": [
+        "1250770"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-joron",
+      "text": "序論",
+      "kana": "じょろん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょろん"
+      ],
+      "entryIds": [
+        "1345560"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-honron",
+      "text": "本論",
+      "kana": "ほんろん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほんろん"
+      ],
+      "entryIds": [
+        "1523320"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-gyakusetsu",
+      "text": "逆接",
+      "kana": "ぎゃくせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぎゃくせつ"
+      ],
+      "entryIds": [
+        "1227130"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kakite",
+      "text": "書き手",
+      "kana": "かきて",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かきて"
+      ],
+      "entryIds": [
+        "1701600"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-yomite",
+      "text": "読み手",
+      "kana": "よみて",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よみて"
+      ],
+      "entryIds": [
+        "1456220"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-suikou",
+      "text": "推敲",
+      "kana": "すいこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すいこう"
+      ],
+      "entryIds": [
+        "1371250"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kousei",
+      "text": "校正",
+      "kana": "こうせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうせい"
+      ],
+      "entryIds": [
+        "1279560"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-soukou",
+      "text": "草稿",
+      "kana": "そうこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "そうこう"
+      ],
+      "entryIds": [
+        "1401980"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-shitagaki",
+      "text": "下書き",
+      "kana": "したがき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "したがき"
+      ],
+      "entryIds": [
+        "1185370"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-keisai",
+      "text": "掲載",
+      "kana": "けいさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいさい"
+      ],
+      "entryIds": [
+        "1250610"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-zuihitsu",
+      "text": "随筆",
+      "kana": "ずいひつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ずいひつ"
+      ],
+      "entryIds": [
+        "1372790"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ronbun",
+      "text": "論文",
+      "kana": "ろんぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ろんぶん"
+      ],
+      "entryIds": [
+        "1561840"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-bunmatsu",
+      "text": "文末",
+      "kana": "ぶんまつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぶんまつ"
+      ],
+      "entryIds": [
+        "1723180"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ronri",
+      "text": "論理",
+      "kana": "ろんり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ろんり"
+      ],
+      "entryIds": [
+        "1561850"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-seigou",
+      "text": "整合",
+      "kana": "せいごう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいごう"
+      ],
+      "entryIds": [
+        "1376170"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-heii",
+      "text": "平易",
+      "kana": "へいい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "へいい"
+      ],
+      "entryIds": [
+        "1507010"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kanketsu",
+      "text": "簡潔",
+      "kana": "かんけつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かんけつ"
+      ],
+      "entryIds": [
+        "1214290"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-jouchou",
+      "text": "冗長",
+      "kana": "じょうちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうちょう"
+      ],
+      "entryIds": [
+        "1355580"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-hiyu",
+      "text": "比喩",
+      "kana": "ひゆ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ひゆ"
+      ],
+      "entryIds": [
+        "1602260"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-boutou",
+      "text": "冒頭",
+      "kana": "ぼうとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぼうとう"
+      ],
+      "entryIds": [
+        "1519860"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-matsubi",
+      "text": "末尾",
+      "kana": "まつび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "まつび"
+      ],
+      "entryIds": [
+        "1525610"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kutouten",
+      "text": "句読点",
+      "kana": "くとうてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くとうてん"
+      ],
+      "entryIds": [
+        "1244050"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-jisuu",
+      "text": "字数",
+      "kana": "じすう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じすう"
+      ],
+      "entryIds": [
+        "1658380"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-daimei",
+      "text": "題名",
+      "kana": "だいめい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "だいめい"
+      ],
+      "entryIds": [
+        "1415490"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-shimen",
+      "text": "紙面",
+      "kana": "しめん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめん"
+      ],
+      "entryIds": [
+        "1311620"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-yomikaesu",
+      "text": "読み返す",
+      "kana": "よみかえす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よみかえす"
+      ],
+      "entryIds": [
+        "1456320"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kakinaosu",
+      "text": "書き直す",
+      "kana": "かきなおす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かきなおす"
+      ],
+      "entryIds": [
+        "1343830"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-iikaeru",
+      "text": "言い換える",
+      "kana": "いいかえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いいかえる"
+      ],
+      "entryIds": [
+        "1610580"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-touitsu",
+      "text": "統一",
+      "kana": "とういつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とういつ"
+      ],
+      "entryIds": [
+        "1449670",
+        "5560631"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ikkan",
+      "text": "一貫",
+      "kana": "いっかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっかん"
+      ],
+      "entryIds": [
+        "1161570"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-meikaku",
+      "text": "明確",
+      "kana": "めいかく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "めいかく"
+      ],
+      "entryIds": [
+        "1532410"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kyakkan",
+      "text": "客観",
+      "kana": "きゃっかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かくかん",
+        "かっかん",
+        "きゃっかん"
+      ],
+      "entryIds": [
+        "1226690"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-shukan",
+      "text": "主観",
+      "kana": "しゅかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅかん"
+      ],
+      "entryIds": [
+        "1325180"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-kanten",
+      "text": "観点",
+      "kana": "かんてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かんてん"
+      ],
+      "entryIds": [
+        "1215000"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-sanpi",
+      "text": "賛否",
+      "kana": "さんぴ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんぴ"
+      ],
+      "entryIds": [
+        "1304220"
+      ]
+    },
+    {
+      "pack": "n2-u01.json",
+      "id": "n2-u01-w-ronpyou",
+      "text": "論評",
+      "kana": "ろんぴょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ろんぴょう"
+      ],
+      "entryIds": [
+        "1561830"
       ]
     },
     {

@@ -117,6 +117,13 @@ for (const unit of [
       ["Use the timetable without mixing its quantities", "n3-u16-d-plan", "Compare the same quantity and the same period", "Keep the source attached to the report"],
     ],
   },
+  {
+    id: "n2-u01", reading: "Sharing a quiet moment",
+    lessons: [
+      ["Edit a plain-style essay", "n2-u01-d-edit", "A plain written predicate: である", "Acknowledge a fact, then a remaining contrast"],
+      ["Read the contrast, not just the connector", "n2-u01-d-deadline", "Acknowledge a fact, then a remaining contrast", "A plain written predicate: である"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -146,7 +153,7 @@ for (const unit of [
   await expect(page.getByRole("heading", { name: "Your next letter is ready." })).toBeVisible();
   for (const [title, scene, allowed, absent] of unit.lessons) {
     await page.goto("/#library");
-    await page.getByLabel("Show lessons").selectOption("n3");
+    await page.getByLabel("Show lessons").selectOption(unit.id.slice(0, 2));
     await page.locator(".course-lessons > div").filter({ hasText: title }).getByRole("button", { name: "Read", exact: true }).click();
     const counter = page.locator(".lesson-top > span").last();
     for (let step = 0; step < 16; step++) {
@@ -174,8 +181,9 @@ for (const unit of [
     await page.reload();
     await page.getByRole("button", { name: "Texts", exact: false }).click();
     await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
-    const region = page.getByRole("region", { name: unit.reading, exact: true });
-    if (!(await region.isVisible())) await page.getByText(unit.reading, { exact: true }).first().click();
+    for (const readingTitle of unit.id === "n2-u01" ? [unit.reading, "The same essay, a different page"] : [unit.reading]) {
+    const region = page.getByRole("region", { name: readingTitle, exact: true });
+    if (!(await region.isVisible())) await page.getByText(readingTitle, { exact: true }).first().click();
     await expect(region).toBeVisible();
     await expect(region.locator("ruby")).toHaveCount(0);
     if (unit.id === "n3-u15") {
@@ -203,6 +211,8 @@ for (const unit of [
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
     await page.locator("h1").click();
-    await page.screenshot({ path: `output/${unit.id}-reading-${theme}-${width}.png`, fullPage: true });
+    const suffix = unit.id === "n2-u01" && readingTitle !== unit.reading ? "-second" : "";
+    await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
+    }
   }
 });
