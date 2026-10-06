@@ -2,12 +2,12 @@
 
 Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-06T00:22:30.745966+00:00).
 
-Subset: 1821 → 1821 forms. Every one of 2069 course word records was examined.
-Results: 1827 matched; 0 mismatched; 81 unmatched.
+Subset: 1853 → 1853 forms. Every one of 2101 course word records was examined.
+Results: 1859 matched; 0 mismatched; 81 unmatched.
 
 Matched means only that a dictionary spelling/reading pair exists. Unmatched does not mean incorrect: inflected forms and phrases may be absent from JMdict. Drills and names are counted separately. Course wording and readings were unchanged; optional lemma metadata was added.
 
-Kanji-bearing course records directly matched: 1516. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
+Kanji-bearing course records directly matched: 1548. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
 
 ## Reading mismatches
 

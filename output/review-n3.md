@@ -169,3 +169,15 @@ Two sixteen-word lessons, five complete notes with three original examples each,
 - Explicit reviewed surface forms for 控える cover actual contractions; absent recycling annotations were removed. Dates, actions, playback and reply distractors follow the stated scene or message.
 
 Full milestone passes: TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, all 52 browser tests, build and production offline reload/playback. Light 1440 and dark 375 reading screenshots inspected. All 94 new WAV files mapped; HEAD 4d20446's 5,471 Clear keys / 5,483 records, 483 dialogue takes and 980 dictionary/stroke references preserved. Current 5,574 Clear keys / 5,586 records, 503 dialogue takes and 987 kanji references. Precache 1,341 entries / 12,289.55 KiB, below 15 MB. Native review pending; no expansion deployed.
+
+
+## Unit 13 — a fictional role is not the actual speaker
+
+Two sixteen-word lessons, five notes with three original examples each, two ten-line scenes at 1.10, a 214-character casting message and eighteen tasks. All new target pairs match the pinned dictionary. Japan Foundation role-language instruction and primary teacher/publisher guides cross-check the patterns; source-access and disputed prescriptions are explicit in the source brief.
+
+- Actors are explicitly cast: Kenta performs samurai and elder, Misaki princess, Bao ninja. No costumes. Both speaker tasks identify the actual labelled actor and exact recording, not an inferred age or gender.
+- ぜ/ぞ noun predicates retain だ; wondering かしら is not certainty. わ has contextual and regional uses. Explanatory のだ/んだ includes affirmative noun な and is normal beyond fiction. Quoted じゃ/でござる is recognition practice, not a workplace model.
+- The fictional gate is closed, departure is tomorrow, the letter remains undelivered, and the ending is absent. Magic cannot be used because it has not been practised: that reason is now explicit in the dialogue. Correct answers do not depend on unstated facts.
+- Formation clozes name the requested pattern; the old-copula task is not incorrectly classified as a register decision. Only surface forms actually present retain recycling references.
+
+Passes: TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, focused unit-13 browser decode/playback/themes/accessibility, build and production offline playback. Light 1440 and dark 375 reading screenshots inspected. Earlier HEAD 23207d3 mappings, 5,586 synthesis records, 503 dialogue takes and 987 kanji/strokes unchanged. All 95 new WAVs referenced. Current 5,680 Clear keys / 5,692 records, 523 dialogues and 1,004 kanji references. Precache 1,358 entries / 12,365.60 KiB. Full browser milestone remains unit 12; next after unit 15. Native review pending; nothing deployed.

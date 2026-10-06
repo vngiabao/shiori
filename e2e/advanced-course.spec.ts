@@ -89,6 +89,13 @@ for (const unit of [
       ["Recall, wonder and respond among peers", "n3-u12-d-recall", "Remember a plan; wonder about an answer", "Hear the full verb inside a short ending"],
     ],
   },
+  {
+    id: "n3-u13", reading: "Casting notes distinguish actors and roles",
+    lessons: [
+      ["Identify the actor behind a fictional role", "n3-u13-d-cast", "Read a bundle of character cues", "A marked style still carries a meaning"],
+      ["Understand the line beyond its ending", "n3-u13-d-reading", "A marked style still carries a meaning", "Read a bundle of character cues"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
