@@ -119,9 +119,18 @@ for (const unit of [
   },
   {
     id: "n2-u01", reading: "Sharing a quiet moment",
+    secondReading: "The same essay, a different page",
     lessons: [
       ["Edit a plain-style essay", "n2-u01-d-edit", "A plain written predicate: である", "Acknowledge a fact, then a remaining contrast"],
       ["Read the contrast, not just the connector", "n2-u01-d-deadline", "Acknowledge a fact, then a remaining contrast", "A plain written predicate: である"],
+    ],
+  },
+  {
+    id: "n2-u02", reading: "Three questions before the shop opens",
+    secondReading: "Change the screening, keep the promise",
+    lessons: [
+      ["A tendency and requested advice", "n2-u02-d-advice", "A tendency, not a rule for everyone", "Correct an inference without saying the opposite"],
+      ["An inference and a commitment", "n2-u02-d-promise", "Correct an inference without saying the opposite", "A tendency, not a rule for everyone"],
     ],
   },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
@@ -181,7 +190,7 @@ for (const unit of [
     await page.reload();
     await page.getByRole("button", { name: "Texts", exact: false }).click();
     await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
-    for (const readingTitle of unit.id === "n2-u01" ? [unit.reading, "The same essay, a different page"] : [unit.reading]) {
+    for (const readingTitle of unit.secondReading ? [unit.reading, unit.secondReading] : [unit.reading]) {
     const region = page.getByRole("region", { name: readingTitle, exact: true });
     if (!(await region.isVisible())) await page.getByText(readingTitle, { exact: true }).first().click();
     await expect(region).toBeVisible();
@@ -211,7 +220,7 @@ for (const unit of [
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
     await page.locator("h1").click();
-    const suffix = unit.id === "n2-u01" && readingTitle !== unit.reading ? "-second" : "";
+    const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
     }
   }

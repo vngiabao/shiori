@@ -1,0 +1,62 @@
+{
+  "unit": "n2-u02",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific research, internal editorial corrections, content/dictionary/audio/preservation/browser/build and production offline checks passed; native review pending.",
+  "method": "Original scenes, personal essays, vocabulary examples and questions. Teacher/publisher explanations checked for attachment, polarity and context; no published example sentence or worksheet imported. Publisher N2/N3 labels disagree and are not official JLPT inventories.",
+  "points": [
+    {
+      "form": "General tendencies and norms: ものだ",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ものだ",
+        "https://www.mlcjapanese.co.jp/img/monoda_monodewanai_n2.pdf",
+        "https://www.mlcjapanese.co.jp/img/monoda_n2_answer.pdf"
+      ],
+      "formation": "Verb plain nonpast/i-adjective + ものだ; na-adjective + なものだ. Normative negative: dictionary verb + ものではない.",
+      "teachingChoice": "A generalisation is the speaker's framing, not a statistical guarantee. Ren reassures Kenta about a concrete first day. Separate the recollection and emotional uses; the three-example note does not equate every occurrence with a universal rule.",
+      "sourceCaution": "Bunpro labels this point N3; MLC worksheets label these uses N2. This is an application/retrieval bridge in the N2 outline. The short JLPT Sensei URL could not be read and is not counted as verified."
+    },
+    {
+      "form": "Advisory ことだ",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201203.html",
+        "https://bunpro.jp/grammar_points/ことだ",
+        "https://jlptsensei.com/learn-japanese-grammar/ことだ-koto-da-meaning/"
+      ],
+      "formation": "Dictionary or ない-form verb + ことだ/ことです.",
+      "teachingChoice": "Retrieve advisory ことだ from n3-u06, now contrasting a mentor's recommendation with general ものだ. Ren's experience and Kenta's explicit request make the firm suggestion plausible. Do not treat a polite ending as erasing authority, or collapse advisory and exclamatory uses.",
+      "sourceCaution": "JPF describes context-dependent indirect advice/commands. Avoid a categorical rule that the form can never give general advice. Publisher labels differ: Bunpro N3, JLPT Sensei N2."
+    },
+    {
+      "form": "Reject an inference: わけではない/わけじゃない",
+      "sources": [
+        "https://bunpro.jp/grammar_points/わけではない",
+        "https://jlptsensei.com/learn-japanese-grammar/わけではない-wake-dewa-nai-わけじゃない-wake-janai-meaning/"
+      ],
+      "formation": "Plain verb/i-adjective; na-adjective + な. The taught noun proposition uses Nだというわけではない; attributive の/である attachments are noted rather than conflated with the quoted form.",
+      "teachingChoice": "Deny a specific inference: rescheduling does not mean disliking movies. Scope matters: not all is not none. Distinguish the impossibility/strong-disbelief construction わけがない.",
+      "sourceCaution": "Both inspected publishers label the general pattern N3; the unit applies it to essays and competing conclusions. The correct longer JLPT Sensei URL was inspected; the failed shorter URL is not evidence."
+    },
+    {
+      "form": "Obligation prevents an action: わけにはいかない and its negative-verb counterpart",
+      "sources": [
+        "https://bunpro.jp/grammar_points/わけにはいかない",
+        "https://bunpro.jp/grammar_points/ないわけにはいかない",
+        "https://www.mlcjapanese.co.jp/img/wakeniwaikanai_n3_answer.pdf"
+      ],
+      "formation": "Dictionary verb + わけにはいかない blocks acting under the circumstances; ない-form verb + わけにはいかない makes acting unavoidable. Polite わけにはいきません.",
+      "teachingChoice": "Bao's Thursday-five promise blocks going out midway. The required final check models the reversed polarity. An explicit formation question tests する versus しない only after the contrast is taught.",
+      "sourceCaution": "This is an obligation/circumstance constraint, not the potential form for physical inability. Bunpro places the positive-verb pattern at N3 and negative-verb extension at N2; MLC's N3 sheet includes both."
+    }
+  ],
+  "editorialReview": {
+    "sceneChoice": "A first-shift question between Kenta and Ren; Bao and Misaki reschedule a film around the newsletter deadline from unit 1. Two twelve-line conversations at 1.10 and 1.12.",
+    "readingCharacters": [
+      463,
+      487
+    ],
+    "tasks": "Twenty tasks; listener, intended response and requested form specified. Reading questions require passage information and do not score cultural generalisations as facts.",
+    "wordChecks": "All forty selected written/reading pairs match restricted JMdict entries. 自律 and 自立 are deliberately distinguished in meaning and examples despite identical readings. Examples remain authored drafts.",
+    "fixesBeforeRender": "Contextual glosses added for actual inflected surfaces. Removed absent 校正 from the standalone cloze reference list. Moved 戸惑い and 抱え込む to the first meet list before their first scored tasks, preserving twenty new targets per lesson. Replaced the formal final film-chat wording with an ordinary relaxed reply.",
+    "remaining": "Whole-level review after unit 16; independent native sentence/listening review."
+  }
+}

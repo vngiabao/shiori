@@ -186,6 +186,7 @@
     "on": "イ",
     "kun": "",
     "words": [
+      "n2-u02-w-ketsui",
       "n3-u01-w-ishiki",
       "n3-u05-w-keii",
       "n3-u06-w-goui",
@@ -1353,6 +1354,7 @@
     "on": "カイ",
     "kun": "ひらく、ひらき、びらき、ひらける、あく、あける",
     "words": [
+      "n2-u02-w-hirakinaoru",
       "n3-u02-w-kaishi",
       "n3-u02-w-saikai",
       "n3-u11-w-hikoukai",
@@ -1380,6 +1382,7 @@
     "on": "ガイ、ゲ",
     "kun": "そと、ほか、はずす、はずれる、と",
     "words": [
+      "n2-u02-w-reigai",
       "n3-u02-w-gaishutsu",
       "n3-vocab-03-w-0358",
       "n3-vocab-04-w-0365",
@@ -1413,6 +1416,16 @@
       "n3-u09-w-higai",
       "n3-u09-w-songai",
       "n3-vocab-02-w-0132"
+    ]
+  },
+  {
+    "char": "概",
+    "meaning": "outline; condition; approximation; generally",
+    "components": "",
+    "on": "ガイ",
+    "kun": "おおむね",
+    "words": [
+      "n2-u02-w-ichigaini"
     ]
   },
   {
@@ -1460,6 +1473,7 @@
     "on": "カク",
     "kun": "おぼえる、さます、さめる、さとる",
     "words": [
+      "n2-u02-w-kakugo",
       "n3-vocab-01-w-0005",
       "n3-vocab-01-w-0007",
       "n4-u11-w-oboeru"
@@ -1657,6 +1671,16 @@
     ]
   },
   {
+    "char": "寛",
+    "meaning": "tolerant; leniency; generosity; relax; feel at home; be at ease; broadminded",
+    "components": "",
+    "on": "カン",
+    "kun": "くつろぐ、ひろい、ゆるやか",
+    "words": [
+      "n2-u02-w-kanyou"
+    ]
+  },
+  {
     "char": "幹",
     "meaning": "tree trunk; main part; talent; capability",
     "components": "",
@@ -1673,6 +1697,7 @@
     "on": "カン",
     "kun": "",
     "words": [
+      "n2-u02-w-sekininkan",
       "n3-u01-w-jikkan",
       "n3-u05-w-kansou",
       "n3-u08-w-kanjou"
@@ -1685,6 +1710,7 @@
     "on": "カン",
     "kun": "なれる、ならす",
     "words": [
+      "n2-u02-w-kanrei",
       "n4-u11-w-shuukan",
       "n4-u11-w-nareru"
     ]
@@ -1774,6 +1800,8 @@
       "n2-u01-w-kyakkan",
       "n2-u01-w-shukan",
       "n2-u01-w-kanten",
+      "n2-u02-w-sennyuukan",
+      "n2-u02-w-koteikannen",
       "n3-u03-w-kankyaku"
     ]
   },
@@ -2050,6 +2078,7 @@
     "on": "キ、ケ",
     "kun": "いき、き",
     "words": [
+      "n2-u02-w-kizukai",
       "n3-u03-w-funiki",
       "n3-u10-w-nemuke",
       "n3-vocab-01-w-0053",
@@ -2422,6 +2451,16 @@
     ]
   },
   {
+    "char": "虚",
+    "meaning": "void; emptiness; unpreparedness; crack; fissure; untruth",
+    "components": "",
+    "on": "キョ、コ",
+    "kun": "むなしい、うつろ",
+    "words": [
+      "n2-u02-w-kenkyo"
+    ]
+  },
+  {
     "char": "許",
     "meaning": "permit; approve",
     "components": "",
@@ -2526,6 +2565,7 @@
     "on": "キョウ",
     "kun": "おしえる、おそわる",
     "words": [
+      "n2-u02-w-kyoukun",
       "n3-vocab-01-w-0094",
       "n4-u05-w-kyoukasho",
       "n4-vocab-03-w-0351",
@@ -2660,6 +2700,7 @@
     "on": "キョク、ゴク",
     "kun": "きわめる、きわまる、きわまり、きわみ、きめる、ぎめ、きまる",
     "words": [
+      "n2-u02-w-mikiwameru",
       "n3-vocab-03-w-0293"
     ]
   },
@@ -2670,6 +2711,7 @@
     "on": "キン、ゴン",
     "kun": "つとめる、づとめ、つとまる、いそしむ",
     "words": [
+      "n2-u02-w-kinben",
       "n5-vocab-03-w-0421"
     ]
   },
@@ -2845,6 +2887,16 @@
     "kun": "きみ、ぎみ",
     "words": [
       "n4-vocab-04-w-0548"
+    ]
+  },
+  {
+    "char": "訓",
+    "meaning": "instruction; Japanese character reading; explanation; read",
+    "components": "",
+    "on": "クン、キン",
+    "kun": "おしえる、よむ、くんずる",
+    "words": [
+      "n2-u02-w-kyoukun"
     ]
   },
   {
@@ -3048,6 +3100,7 @@
     "on": "ケツ",
     "kun": "きめる、ぎめ、きまる、さく",
     "words": [
+      "n2-u02-w-ketsui",
       "n3-u04-w-kaiketsu",
       "n3-u06-w-kettei",
       "n3-u06-w-ketsudan",
@@ -3244,6 +3297,8 @@
     "on": "ケン",
     "kun": "みる、みえる、みせる",
     "words": [
+      "n2-u02-w-henken",
+      "n2-u02-w-mikiwameru",
       "n3-u01-w-minaosu",
       "n3-u02-w-mikomi",
       "n3-u03-w-mitame",
@@ -3271,6 +3326,26 @@
       "n5-u11-w-mitai",
       "n5-u11-w-mi-ni",
       "n5-vocab-04-w-0641"
+    ]
+  },
+  {
+    "char": "謙",
+    "meaning": "self-effacing; humble oneself; condescend; be modest",
+    "components": "",
+    "on": "ケン",
+    "kun": "へりくだる",
+    "words": [
+      "n2-u02-w-kenkyo"
+    ]
+  },
+  {
+    "char": "遣",
+    "meaning": "dispatch; despatch; send; give; donate; do; undertake",
+    "components": "",
+    "on": "ケン",
+    "kun": "つかう、つかい、づかい、つかわす、やる",
+    "words": [
+      "n2-u02-w-kizukai"
     ]
   },
   {
@@ -3334,6 +3409,7 @@
     "on": "ゲン",
     "kun": "はら",
     "words": [
+      "n2-u02-w-gensoku",
       "n4-vocab-02-w-0234"
     ]
   },
@@ -3401,6 +3477,7 @@
     "kun": "いう、こと",
     "words": [
       "n2-u01-w-iikaeru",
+      "n2-u02-w-jogen",
       "n3-u08-w-iiwake",
       "n3-u12-w-hanashikotoba",
       "n3-u12-w-iinaosu",
@@ -3460,8 +3537,19 @@
     "on": "コ",
     "kun": "かためる、かたまる、かたまり、かたい",
     "words": [
+      "n2-u02-w-koteikannen",
       "n3-u06-w-kotei",
       "n4-vocab-04-w-0449"
+    ]
+  },
+  {
+    "char": "己",
+    "meaning": "self",
+    "components": "",
+    "on": "コ、キ",
+    "kun": "おのれ、つちのと、な",
+    "words": [
+      "n2-u02-w-jikoryuu"
     ]
   },
   {
@@ -3481,6 +3569,7 @@
     "on": "コ",
     "kun": "と",
     "words": [
+      "n2-u02-w-tomadoi",
       "n3-u08-w-tomadou",
       "n5-vocab-06-w-0443"
     ]
@@ -3566,6 +3655,16 @@
       "n5-vocab-02-w-0266",
       "n5-vocab-04-w-0556",
       "n5-vocab-04-w-0575"
+    ]
+  },
+  {
+    "char": "悟",
+    "meaning": "enlightenment; perceive; discern; realize; understand",
+    "components": "",
+    "on": "ゴ",
+    "kun": "さとる",
+    "words": [
+      "n2-u02-w-kakugo"
     ]
   },
   {
@@ -3811,6 +3910,7 @@
     "on": "コウ",
     "kun": "かまえる、かまう",
     "words": [
+      "n2-u02-w-kokorogamae",
       "n5-vocab-02-w-0238"
     ]
   },
@@ -4048,6 +4148,7 @@
     "on": "",
     "kun": "こむ、こむ、こみ、こみ、こめる",
     "words": [
+      "n2-u02-w-kakaekomu",
       "n3-u02-w-mikomi",
       "n3-u03-w-omoikomi",
       "n3-u06-w-moushikomi",
@@ -4576,6 +4677,7 @@
     "on": "ザン、サン",
     "kun": "のこる、のこす、そこなう、のこり",
     "words": [
+      "n2-u02-w-kokoronokori",
       "n3-u12-w-nokosu",
       "n4-u07-w-zannen",
       "n4-vocab-02-w-0230"
@@ -4610,6 +4712,7 @@
     "on": "シ",
     "kun": "つかう、つかい、つかい、づかい",
     "words": [
+      "n2-u02-w-shimei",
       "n3-vocab-02-w-0127",
       "n4-u01-w-tsukaeru",
       "n4-u08-w-tsukainikui",
@@ -4768,6 +4871,7 @@
     "on": "シ",
     "kun": "おもう、おもえらく、おぼす",
     "words": [
+      "n2-u02-w-omoiyari",
       "n3-u03-w-omoikomi",
       "n3-vocab-01-w-0045",
       "n3-vocab-04-w-0373",
@@ -5171,6 +5275,9 @@
     "on": "ジ、シ",
     "kun": "みずから、おのずから、おのずと",
     "words": [
+      "n2-u02-w-jiritsu-selfcontrol",
+      "n2-u02-w-jiritsu-independence",
+      "n2-u02-w-jikoryuu",
       "n3-vocab-01-w-0037",
       "n3-vocab-01-w-0042",
       "n3-vocab-01-w-0044",
@@ -5299,6 +5406,7 @@
     "on": "ジツ、シツ",
     "kun": "み、みのる、まこと、みの、みちる",
     "words": [
+      "n2-u02-w-seijitsu",
       "n3-u01-w-jikkan",
       "n3-u01-w-kakujitsu",
       "n3-u02-w-jikkou",
@@ -5753,6 +5861,7 @@
     "on": "シュウ、ジュ",
     "kun": "ならう、ならい",
     "words": [
+      "n2-u02-w-narawashi",
       "n3-u01-w-shuutoku",
       "n4-u08-w-jisshuu",
       "n4-u10-w-renshuu",
@@ -6164,6 +6273,7 @@
     "on": "ジョ",
     "kun": "たすける、たすかる、すける、すけ",
     "words": [
+      "n2-u02-w-jogen",
       "n3-u01-w-hojo",
       "n3-u09-w-kyuujo",
       "n3-u09-w-enjo",
@@ -6377,6 +6487,7 @@
     "on": "ショウ",
     "kun": "こげる、こがす、こがれる、あせる、じれる、じらす",
     "words": [
+      "n2-u02-w-shousou",
       "n3-u06-w-aseru"
     ]
   },
@@ -6810,6 +6921,10 @@
     "on": "シン",
     "kun": "こころ、ごころ",
     "words": [
+      "n2-u02-w-kokoroe",
+      "n2-u02-w-kokorogamae",
+      "n2-u02-w-shinpaishou",
+      "n2-u02-w-kokoronokori",
       "n3-u08-w-kokorokubari",
       "n3-vocab-02-w-0198",
       "n3-vocab-02-w-0208",
@@ -7166,6 +7281,7 @@
     "on": "セイ、ショウ",
     "kun": "さが",
     "words": [
+      "n2-u02-w-shinpaishou",
       "n3-u04-w-kanousei",
       "n3-u13-w-seibetsu",
       "n3-u14-w-seinou",
@@ -7358,6 +7474,16 @@
     ]
   },
   {
+    "char": "誠",
+    "meaning": "sincerity; admonish; warn; prohibit; truth; fidelity",
+    "components": "",
+    "on": "セイ",
+    "kun": "まこと",
+    "words": [
+      "n2-u02-w-seijitsu"
+    ]
+  },
+  {
     "char": "請",
     "meaning": "solicit; invite; ask",
     "components": "",
@@ -7478,6 +7604,8 @@
     "on": "セキ",
     "kun": "せめる",
     "words": [
+      "n2-u02-w-sekimu",
+      "n2-u02-w-sekininkan",
       "n3-u04-w-sekinin",
       "n3-u08-w-semeru"
     ]
@@ -7573,6 +7701,8 @@
     "on": "セツ、セチ",
     "kun": "ふし、ぶし、のっと",
     "words": [
+      "n2-u02-w-setsudo",
+      "n2-u02-w-reisetsu",
       "n3-u14-w-chousetsu",
       "n4-vocab-01-w-0130"
     ]
@@ -7621,6 +7751,7 @@
     "on": "セン",
     "kun": "さき、まず",
     "words": [
+      "n2-u02-w-sennyuukan",
       "n3-u01-w-yuusen",
       "n3-u07-w-ikisaki",
       "n3-u16-w-senchaku",
@@ -7978,6 +8109,16 @@
     ]
   },
   {
+    "char": "燥",
+    "meaning": "parch; dry up",
+    "components": "",
+    "on": "ソウ",
+    "kun": "はしゃぐ",
+    "words": [
+      "n2-u02-w-shousou"
+    ]
+  },
+  {
     "char": "争",
     "meaning": "contend; dispute; argue",
     "components": "",
@@ -8172,6 +8313,7 @@
     "on": "ソク",
     "kun": "のっとる、のり、すなわち",
     "words": [
+      "n2-u02-w-gensoku",
       "n3-u10-w-fukisoku",
       "n4-vocab-01-w-0053"
     ]
@@ -8420,6 +8562,16 @@
       "n3-u02-w-machiawase",
       "n4-u07-w-shoutai",
       "n5-u06-w-matte"
+    ]
+  },
+  {
+    "char": "怠",
+    "meaning": "neglect; laziness",
+    "components": "",
+    "on": "タイ",
+    "kun": "おこたる、なまける",
+    "words": [
+      "n2-u02-w-okotaru"
     ]
   },
   {
@@ -8777,6 +8929,7 @@
     "on": "ダン",
     "kun": "たつ、ことわる、さだめる",
     "words": [
+      "n2-u02-w-dannen",
       "n3-u02-w-chuudan",
       "n3-u03-w-handan",
       "n3-u04-w-dantei",
@@ -9212,6 +9365,7 @@
     "kun": "ただちに、なおす、なおす、なおる、なおき、すぐ",
     "words": [
       "n2-u01-w-kakinaosu",
+      "n2-u02-w-hirakinaoru",
       "n3-u01-w-minaosu",
       "n3-u02-w-chokuzen",
       "n3-u02-w-chokugo",
@@ -9356,6 +9510,7 @@
     "kun": "さだめる、さだまる、さだか",
     "words": [
       "n2-u01-w-teigi",
+      "n2-u02-w-koteikannen",
       "n3-u02-w-mitei",
       "n3-u04-w-dantei",
       "n3-u06-w-kettei",
@@ -9699,6 +9854,7 @@
     "kun": "たび、たい",
     "words": [
       "again",
+      "n2-u02-w-setsudo",
       "n3-u05-w-taido",
       "n3-u10-w-hindo",
       "n3-u10-w-tsudo",
@@ -10059,6 +10215,7 @@
     "on": "トク",
     "kun": "える、うる",
     "words": [
+      "n2-u02-w-kokoroe",
       "n3-u01-w-shuutoku",
       "n3-u05-w-nattoku",
       "n3-u08-w-settoku",
@@ -10224,6 +10381,7 @@
     "on": "ニュウ、ジュ",
     "kun": "いる、いる、いり、いれる、いれ、はいる",
     "words": [
+      "n2-u02-w-sennyuukan",
       "n3-u14-w-kounyuu",
       "n3-vocab-01-w-0105",
       "n4-u05-w-ireru",
@@ -10243,6 +10401,7 @@
     "on": "ニン",
     "kun": "まかせる、まかす",
     "words": [
+      "n2-u02-w-sekininkan",
       "n3-u04-w-sekinin",
       "n3-u06-w-makaseru",
       "n3-u11-w-inin"
@@ -10340,6 +10499,8 @@
     "on": "ネン",
     "kun": "",
     "words": [
+      "n2-u02-w-koteikannen",
+      "n2-u02-w-dannen",
       "n4-u07-w-zannen"
     ]
   },
@@ -10449,6 +10610,7 @@
     "on": "ハイ",
     "kun": "くばる",
     "words": [
+      "n2-u02-w-shinpaishou",
       "n3-u05-w-hairyo",
       "n3-u08-w-kokorokubari",
       "n3-u11-w-haifu",
@@ -11536,6 +11698,16 @@
     ]
   },
   {
+    "char": "偏",
+    "meaning": "partial; side; left-side radical; inclining; biased",
+    "components": "",
+    "on": "ヘン",
+    "kun": "かたよる",
+    "words": [
+      "n2-u02-w-henken"
+    ]
+  },
+  {
     "char": "変",
     "meaning": "unusual; change; strange",
     "components": "",
@@ -11621,6 +11793,7 @@
     "on": "ベン",
     "kun": "つとめる",
     "words": [
+      "n2-u02-w-kinben",
       "n5-u03-w-benkyou"
     ]
   },
@@ -11748,6 +11921,7 @@
     "on": "ホウ",
     "kun": "だく、いだく、かかえる",
     "words": [
+      "n2-u02-w-kakaekomu",
       "n3-vocab-04-w-0384"
     ]
   },
@@ -12190,6 +12364,7 @@
     "on": "ム",
     "kun": "つとめる",
     "words": [
+      "n2-u02-w-sekimu",
       "n3-u04-w-gimu",
       "n4-vocab-02-w-0193",
       "n4-vocab-02-w-0273"
@@ -12264,6 +12439,7 @@
     "on": "メイ、ミョウ",
     "kun": "いのち",
     "words": [
+      "n2-u02-w-shimei",
       "n3-u11-w-meirei",
       "n3-vocab-03-w-0285",
       "n3-vocab-04-w-0412",
@@ -12680,6 +12856,7 @@
     "on": "ヨウ",
     "kun": "いれる",
     "words": [
+      "n2-u02-w-kanyou",
       "n3-u04-w-yougisha"
     ]
   },
@@ -13004,6 +13181,8 @@
     "on": "リツ、リチ、レツ",
     "kun": "",
     "words": [
+      "n2-u02-w-jiritsu-selfcontrol",
+      "n2-u02-w-ichiritsu",
       "n4-vocab-03-w-0301"
     ]
   },
@@ -13025,6 +13204,7 @@
     "on": "リツ、リュウ、リットル",
     "kun": "たつ、たつ、たち、たてる、たてる、たて、たて、たて、だて、だてる",
     "words": [
+      "n2-u02-w-jiritsu-independence",
       "n3-u05-w-tachiba",
       "n4-u12-w-yaku",
       "n4-vocab-02-w-0231",
@@ -13040,6 +13220,16 @@
     "words": [
       "n3-u08-w-shouryaku",
       "n3-u12-w-ryakusu"
+    ]
+  },
+  {
+    "char": "流",
+    "meaning": "current; a sink; flow; forfeit",
+    "components": "",
+    "on": "リュウ、ル",
+    "kun": "ながれる、ながれ、ながす、ながす",
+    "words": [
+      "n2-u02-w-jikoryuu"
     ]
   },
   {
@@ -13257,6 +13447,8 @@
     "on": "レイ",
     "kun": "たとえる",
     "words": [
+      "n2-u02-w-kanrei",
+      "n2-u02-w-reigai",
       "n4-vocab-03-w-0385"
     ]
   },
@@ -13277,12 +13469,23 @@
     ]
   },
   {
+    "char": "励",
+    "meaning": "encourage; be diligent; inspire",
+    "components": "",
+    "on": "レイ",
+    "kun": "はげむ、はげます",
+    "words": [
+      "n2-u02-w-hagemasu"
+    ]
+  },
+  {
     "char": "礼",
     "meaning": "salute; bow; ceremony; thanks; remuneration",
     "components": "",
     "on": "レイ、ライ",
     "kun": "",
     "words": [
+      "n2-u02-w-reisetsu",
       "n4-u07-w-orei",
       "n4-u07-w-shitsurei",
       "n5-u06-w-shitsurei"
@@ -13478,6 +13681,7 @@
     "on": "ワク",
     "kun": "まどう",
     "words": [
+      "n2-u02-w-tomadoi",
       "n3-u08-w-tomadou"
     ]
   },
@@ -13549,6 +13753,26 @@
     "kun": "いぼ",
     "words": [
       "n3-vocab-03-w-0276"
+    ]
+  },
+  {
+    "char": "躇",
+    "meaning": "hesitate",
+    "components": "",
+    "on": "チョ、チャク",
+    "kun": "ためらう",
+    "words": [
+      "n2-u02-w-chuucho"
+    ]
+  },
+  {
+    "char": "躊",
+    "meaning": "hesitate",
+    "components": "",
+    "on": "チュウ、チュ、シュウ、ジュ",
+    "kun": "ためらう",
+    "words": [
+      "n2-u02-w-chuucho"
     ]
   }
 ]
