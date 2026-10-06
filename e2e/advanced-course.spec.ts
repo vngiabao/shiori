@@ -55,7 +55,7 @@ for (const unit of [
     ],
   },
   {
-    id: "n3-u08", reading: "What the screen did not tell me",
+    id: "n3-u08", reading: "What the screen didn’t tell me",
     lessons: [
       ["A fact and an unmet expectation", "n3-u08-d-screen", "An outcome that stays the same", "Recognise blame; choose how to repair it"],
       ["Recognise blame; repair the conversation", "n3-u08-d-repair", "Recognise blame; choose how to repair it", "An outcome that stays the same"],
@@ -90,10 +90,10 @@ for (const unit of [
     ],
   },
   {
-    id: "n3-u13", reading: "Casting notes distinguish actors and roles",
+    id: "n3-u13", reading: "Misaki’s note after the guessing game",
     lessons: [
-      ["Identify the actor behind a fictional role", "n3-u13-d-cast", "Read a bundle of character cues", "A marked style still carries a meaning"],
-      ["Understand the line beyond its ending", "n3-u13-d-reading", "A marked style still carries a meaning", "Read a bundle of character cues"],
+      ["Guess the character from the line", "n3-u13-d-cast", "Read a bundle of character cues", "A marked style still carries a meaning"],
+      ["Play through the gate scene", "n3-u13-d-reading", "A marked style still carries a meaning", "Read a bundle of character cues"],
     ],
   },
   {

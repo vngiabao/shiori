@@ -102,3 +102,8 @@ At one hour every day, the arithmetic is 365 hours a year; at two, 730. That is 
 Use `prompts/content-prompt.md` for unit planning, strict compatible JSON, independent review, revision and checker repair. Start with one reviewed unit. Verify it in the app, including its audio and every answer. Then batch the next few units. A bulk generation of hundreds of packs without feedback would scale mistakes as quickly as content.
 
 Before calling the app a long-term complete programme, require these release gates: tested durable sync/restore; an explicitly covered curriculum with no hidden empty stages; diverse reviewed audio; a maintained extensive-reading pipeline; unseen exam-style assessments; a speaking/writing feedback process; and documented language review. None of those gates should be inferred from a polished interface.
+
+
+## N3 editorial correction, 6 October 2026
+
+All thirty-two N3 scenes were reread after the user found stiff vocabulary padding. Units 12–13 now use ordinary peer contractions and a playful character guessing game; 125 Japanese lines across the core were revised, with linked tasks and natural English translations. Passing checks had not established naturalness. Per-unit recycling exceptions have explicit editorial reasons and still require actual referenced forms. Details and verification are in output/review-n3.md; exact remaining work is in output/course-progress.md. All earlier Clear audio, unchanged dialogue takes and replaced-take history are preserved; all 254 new WAVs mapped. Native review pending. Finish N2/N1/workplace-keigo core before remaining decks; production waits for the full expansion.

@@ -172,6 +172,8 @@ From N4 onwards, every unit ends with a **Watch task**: "watch 10 minutes of you
 
 ## 9. Quality bar for every unit (from the N5 review)
 
+User correction, 6 October 2026: finish and review the N2, N1 and workplace-keigo core before the remaining N3/N2/N1 decks. Preserve the four completed N3 decks. Believable conversation takes priority over the 30% recycling target: use a documented per-unit exception rather than padding lines. Casual/media units repeatedly use their target forms in ordinary peer conversation; no model/safety disclaimers in scenes. N3 units 12–13 and other affected scenes have an editorial correction recorded in output/review-n3.md. Passing structural checks did not establish their earlier naturalness.
+
 Must-fix before deploy:
 - Every scored question has exactly one defensible answer.
 - No scored claim the text doesn't state.

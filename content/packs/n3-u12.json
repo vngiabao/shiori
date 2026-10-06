@@ -624,8 +624,8 @@
   "lessons": [
     {
       "title": "Hear what the short forms contain",
-      "description": "Prepare a short viewing session and catch completed, ongoing and necessary actions.",
-      "canDo": "Expand common contractions without losing the te-form sound change",
+      "description": "Get ready for an episode with Misaki, miss a trailer, and ask for a replay.",
+      "canDo": "Hear preparation, ongoing actions and obligations in a relaxed conversation.",
       "minutes": 30,
       "words": [
         "n3-u12-w-fukikae",
@@ -650,8 +650,8 @@
     },
     {
       "title": "Recall, wonder and respond among peers",
-      "description": "Follow a next-day report and identify the speaker of a specific line.",
-      "canDo": "Distinguish a recalled plan, an unresolved thought and a shared point",
+      "description": "Chat with Kenta the next morning and arrange another viewing.",
+      "canDo": "Recall a plan, react with じゃん and follow repeated casual contractions.",
       "minutes": 30,
       "words": [
         "n3-u12-w-yakugara",
@@ -696,7 +696,7 @@
         },
         {
           "ja": "{準備|じゅんび}は{先|さき}にしちゃおう。",
-          "en": "Let us finish the preparation first."
+          "en": "Let’s finish the preparation first."
         }
       ],
       "mistake": "Do not attach ちゃう to the masu stem: 読みちゃう is not the contraction of 読んでしまう.",
@@ -710,15 +710,15 @@
       "formation": "ておく→とく; でおく→どく. ている→てる; でいる→でる. といて/どいて are contracted te-forms.",
       "explanation": "とく keeps the preparation or leave-ready meaning of ておく; てる keeps the ongoing/resulting/habitual meaning of ている. Preserve て/で: 読んでおく→読んどく, 読んでいる→読んでる. Past 読んどいた and 読んでた remain different. Context tells whether でる comes from でいる or is the verb 出る.",
       "example": "予告を先に見とくね。",
-      "translation": "I will watch the preview beforehand.",
+      "translation": "I’ll watch the preview beforehand.",
       "examples": [
         {
           "ja": "{予告|よこく}を{先|さき}に{見|み}とくね。",
-          "en": "I will watch the preview beforehand."
+          "en": "I’ll watch the preview beforehand."
         },
         {
           "ja": "{今|いま}、{話|はな}し{言葉|ことば}を{聞|き}いてる。",
-          "en": "I am listening to spoken language now."
+          "en": "I’m listening to spoken language now."
         },
         {
           "ja": "{資料|しりょう}は{先|さき}に{読|よ}んどいて。",
@@ -777,7 +777,7 @@
           "en": "I wonder whether I can catch the ending too."
         }
       ],
-      "mistake": "Do not treat every っけ question as an event already completed. For the taught noun + かな pattern, do not insert だ.",
+      "mistake": "Do not treat every っけ question as an event already completed. For the taught noun + かな pattern, don’t insert だ.",
       "lessons": [
         "n3-u12-lesson-2"
       ]
@@ -786,13 +786,13 @@
       "id": "n3-u12-g-shared",
       "title": "A shared point and an explanatory question",
       "formation": "Statement+じゃん. Question: plain V/i-adj+の?; N/na-adj+なの? (rising delivery).",
-      "explanation": "じゃん presents a point, reaction or shared confirmation among peers. It does not negate the preceding statement like predicate じゃない. Rising の? asks about an explanation or situation: 見てるの？. Nouns/na-adjectives take な: 好きなの？. The same written の can appear in explanatory statements; context and delivery matter.",
-      "example": "短い返事にも役柄が出るじゃん。",
-      "translation": "The character role comes through even in short replies, you know.",
+      "explanation": "じゃん presents a point, reaction or shared confirmation among peers. It doesn’t negate the preceding statement like predicate じゃない. Rising の? asks about an explanation or situation: 見てるの？. Nouns/na-adjectives take な: 好きなの？. The same written の can appear in explanatory statements; context and delivery matter.",
+      "example": "もう始まってるじゃん。",
+      "translation": "Look, it’s already started!",
       "examples": [
         {
-          "ja": "{短|みじか}い{返事|へんじ}にも{役柄|やくがら}が{出|で}るじゃん。",
-          "en": "The character role comes through even in short replies, you know."
+          "ja": "もう{始|はじ}まってるじゃん。",
+          "en": "Look, it’s already started!"
         },
         {
           "ja": "{続編|ぞくへん}も{見|み}るの？",
@@ -816,99 +816,80 @@
       "lesson": "n3-u12-lesson-1",
       "title": "A short Saturday viewing session",
       "speed": 1.1,
-      "scene": "Saturday evening at home. Misaki and Bao agree to watch the Japanese audio at normal playback speed, starting the main feature at seven thirty, with a pause every ten minutes. They briefly recall Wednesday’s practice.",
+      "scene": "Saturday evening at home. Misaki and Bao get ready for the main feature at seven thirty. Bao misses the trailer while answering a phone call; Misaki rewinds it. They agree on normal speed and a pause every ten minutes.",
       "words": [
         "n3-u12-w-hayakuchi",
-        "n3-u12-w-hanashikotoba",
         "n3-u12-w-kikinogasu",
-        "n3-u12-w-makimodosu",
         "n3-u12-w-ichijiteishi",
         "n3-u12-w-saisei",
-        "n3-u12-w-shichou",
         "n3-u12-w-yokoku",
         "n3-u12-w-honpen",
         "n3-u12-w-minogasu",
         "n3-u12-w-shuyaku",
         "n3-u12-w-wakiyaku",
         "n3-u12-w-fukikae",
-        "n3-u12-w-zokuhen",
-        "n3-u09-w-setsubi",
-        "n3-u09-w-fuguai",
-        "n3-u09-w-youin",
-        "n3-u10-w-kyuusoku",
-        "n3-u10-w-maikai",
-        "n3-u10-w-hanpuku",
-        "n3-u10-w-kankaku",
-        "n3-u10-w-chakushin",
-        "n3-u10-w-outou",
-        "n3-u10-w-shuuchuuryoku",
-        "n3-u10-w-aima",
-        "n3-u11-w-shoudaku",
-        "n3-u11-w-gijiroku",
-        "n3-u11-w-hikoukai",
-        "n3-u11-w-hikaeru",
-        "n3-u11-w-koukai"
+        "n3-u12-w-zokuhen"
       ],
       "lines": [
         {
           "speaker": "Misaki",
-          "line": "{水曜日|すいようび}の{発表|はっぴょう}、{森|もり}さんの{承諾|しょうだく}をもらってできたんだって？",
-          "romaji": "Suiyōbi no happyō, Mori-san no shōdaku o moratte dekita n datte?",
-          "meaning": "I hear you were able to present on Wednesday with Mori’s consent?"
+          "line": "{本編|ほんぺん}は{七時半|しちじはん}からだったっけ？ {予告|よこく}、{先|さき}に{見|み}とく？",
+          "romaji": "Honpen wa shichijihan kara datta kke? Yokoku, saki ni mitoku?",
+          "meaning": "We said seven thirty for the main feature, right? Shall we watch the trailer first?"
         },
         {
           "speaker": "You",
-          "line": "うん。{設備|せつび}の{不具合|ふぐあい}の{要因|よういん}は{調査|ちょうさ}{中|ちゅう}だって{伝|つた}えたよ。{議事録|ぎじろく}も{確認|かくにん}した。{今日|きょう}は{休息|きゅうそく}の{時間|じかん}にしよう。",
-          "romaji": "Un. Setsubi no fuguai no yōin wa chōsa chū datte tsutaeta yo. Gijiroku mo kakunin shita. Kyō wa kyūsoku no jikan ni shiyō.",
-          "meaning": "Yes. I said the factors behind the equipment problem are under investigation. I checked the minutes too. Let us make today time for a rest."
+          "line": "うん。あ、もう{始|はじ}まってるじゃん。{携帯|けいたい}、しまわなきゃ。",
+          "romaji": "Un. A, mō hajimatteru jan. Keitai, shimawanakya.",
+          "meaning": "Yeah. Oh, it’s already started! I need to put my phone away."
         },
         {
           "speaker": "Misaki",
-          "line": "{七時半|しちじはん}から{本編|ほんぺん}を{見|み}よう。{予告|よこく}は{今|いま}のうちに{見|み}とくね。",
-          "romaji": "Shichijihan kara honpen o miyō. Yokoku wa ima no uchi ni mitoku ne.",
-          "meaning": "Let us watch the main feature from seven thirty. I will watch the preview beforehand while there is time."
+          "line": "{今|いま}の{台詞|せりふ}、{早口|はやくち}だったね。{十分|じゅっぷん}ごとに{一時停止|いちじていし}しとく？",
+          "romaji": "Ima no serifu, hayakuchi datta ne. Juppun goto ni ichiji teishi shitoku?",
+          "meaning": "That line was fast. Shall we make a point of pausing every ten minutes?"
         },
         {
           "speaker": "You",
-          "line": "{早口|はやくち}の{所|ところ}は{聞|き}き{逃|のが}しちゃうから、{十分|じゅっぷん}ごとに{一時停止|いちじていし}しよう。{反復|はんぷく}{練習|れんしゅう}は{短|みじか}くして、{間隔|かんかく}を{空|あ}けたい。",
-          "romaji": "Hayakuchi no tokoro wa kikinogashichau kara, juppun goto ni ichiji teishi shiyō. Hanpuku renshū wa mijikaku shite, kankaku o aketai.",
-          "meaning": "I miss the fast parts, so let us pause every ten minutes. I want short repetition practice with gaps between sessions."
+          "line": "そうしよう。{聞|き}き{逃|のが}しちゃうから、{止|と}めた{所|ところ}を{巻|ま}き{戻|もど}して、もう{一度|いちど}{再生|さいせい}しなきゃ。",
+          "romaji": "Sō shiyō. Kikinogashichau kara, tometa tokoro o makimodoshite, mō ichido saisei shinakya.",
+          "meaning": "Let’s do that. I miss things, so I need to rewind where we stop and play it again."
         },
         {
           "speaker": "Misaki",
-          "line": "{分|わ}かった。{毎回|まいかい}、{止|と}めた{所|ところ}を{巻|ま}き{戻|もど}して{再生|さいせい}しよう。{今日|きょう}は{速|はや}くしないよ。",
-          "romaji": "Wakatta. Maikai, tometa tokoro o makimodoshite saisei shiyō. Kyō wa hayaku shinai yo.",
-          "meaning": "Understood. Each time, let us rewind and replay the part where we stopped. We will not speed it up today."
+          "line": "{今日|きょう}は{倍速|ばいそく}にしないで{見|み}よう。{音量|おんりょう}、{小|ちい}さくしとくね。",
+          "romaji": "Kyō wa baisoku ni shinai de miyō. Onryō, chiisaku shitoku ne.",
+          "meaning": "Let’s keep it at normal speed today. I’ll turn the volume down a bit."
         },
         {
           "speaker": "You",
-          "line": "{字幕|じまく}だけに{頼|たよ}らず、まず{日本語|にほんご}の{話|はな}し{言葉|ことば}を{聞|き}いてる。{吹|ふ}き{替|か}えは{選|えら}ばないよ。",
-          "romaji": "Jimaku dake ni tayorazu, mazu Nihongo no hanashikotoba o kiiteru. Fukikae wa erabanai yo.",
-          "meaning": "I am first listening to the spoken Japanese without relying only on subtitles. I am not choosing dubbed audio."
+          "line": "あれ、{主役|しゅやく}は{誰|だれ}だったっけ？ {脇役|わきやく}の{人|ひと}も{出|で}てるじゃん。",
+          "romaji": "Are, shuyaku wa dare datta kke? Wakiyaku no hito mo deteru jan.",
+          "meaning": "Wait, who was the lead again? Look, the supporting actor’s in this too."
         },
         {
           "speaker": "Misaki",
-          "line": "さっきの{予告|よこく}を{見|み}{逃|のが}しちゃった？ {主役|しゅやく}だけでなく、{脇役|わきやく}も{出|で}てたよ。",
-          "romaji": "Sakki no yokoku o minogashichatta? Shuyaku dake de naku, wakiyaku mo deteta yo.",
-          "meaning": "Did you miss the preview just now? The supporting character appeared too, not just the lead."
+          "line": "え、{予告|よこく}を{見|み}{逃|のが}しちゃったの？ {今|いま}の{所|ところ}、{戻|もど}しとくよ。",
+          "romaji": "E, yokoku o minogashichatta no? Ima no tokoro, modoshitoku yo.",
+          "meaning": "Oh, did you miss the trailer? I’ll rewind that bit for you."
         },
         {
           "speaker": "You",
-          "line": "まだ{見|み}てない。{着信|ちゃくしん}に{応答|おうとう}してたんだ。{今|いま}は{携帯|けいたい}をしまった。{集中力|しゅうちゅうりょく}が{戻|もど}ってきたよ。",
-          "romaji": "Mada mitenai. Chakushin ni ōtō shiteta n da. Ima wa keitai o shimatta. Shūchūryoku ga modotte kita yo.",
-          "meaning": "I have not seen it yet. I was answering an incoming call. I have put the phone away now. My concentration has come back."
+          "line": "うん、{電話|でんわ}に{出|で}てたんだ。もう{切|き}ったよ。{字幕|じまく}ばっかり{読|よ}んじゃうから、{今度|こんど}は{声|こえ}も{聞|き}かなきゃ。",
+          "romaji": "Un, denwa ni deteta n da. Mō kitta yo. Jimaku bakkari yonjau kara, kondo wa koe mo kikanakya.",
+          "meaning": "Yeah, I was on the phone. I’ve hung up now. I keep just reading the subtitles, so this time I need to listen too."
         },
         {
           "speaker": "Misaki",
-          "line": "じゃ、{準備|じゅんび}しとくね。{非公開|ひこうかい}の{仕事|しごと}の{資料|しりょう}はここでは{開|ひら}かないよ。{今夜|こんや}{見|み}る{話数|わすう}だけ{控|ひか}えておこう。",
-          "romaji": "Ja, junbi shitoku ne. Hikōkai no shigoto no shiryō wa koko de wa hirakanai yo. Kon’ya miru wasū dake hikaete okō.",
-          "meaning": "Then I will get things ready. We will not open nonpublic work material here. Let us just note which episode we are watching tonight."
+          "line": "いいじゃん。{日本語|にほんご}で{見|み}てるし、{吹|ふ}き{替|か}えにはしなくていいよね。{続編|ぞくへん}は{今日|きょう}も{見|み}るんだっけ？",
+          "romaji": "Ii jan. Nihongo de miteru shi, fukikae ni wa shinakute ii yo ne. Zokuhen wa kyō mo miru n da kke?",
+          "meaning": "Sounds good. We’re watching in Japanese, so we don’t need the dub, right? Were we watching the sequel today too?"
         },
         {
           "speaker": "You",
-          "line": "うん。{公開|こうかい}された{予告|よこく}を{見|み}てから、{本編|ほんぺん}に{行|い}こう。{休息|きゅうそく}の{合間|あいま}に{少|すこ}し{練習|れんしゅう}するだけで、{続編|ぞくへん}は{今日|きょう}{見|み}ないよ。",
-          "romaji": "Un. Kōkai sareta yokoku o mite kara, honpen ni ikō. Kyūsoku no aima ni sukoshi renshū suru dake de, zokuhen wa kyō minai yo.",
-          "meaning": "Yes. Let us watch the released preview and then go to the main feature. We are just practising a little between rests; we will not watch the sequel today."
+          "line": "{続編|ぞくへん}はまた{今度|こんど}。{明日|あした}は{早|はや}く{起|お}きなきゃ。まず{予告|よこく}を{見|み}て、それから{本編|ほんぺん}にしよう。",
+          "romaji": "Zokuhen wa mata kondo. Ashita wa hayaku okinakya. Mazu yokoku o mite, sore kara honpen ni shiyō.",
+          "meaning": "The sequel can wait. I have to get up early tomorrow. Let’s watch the trailer first, then the main feature."
         }
       ]
     },
@@ -917,101 +898,83 @@
       "lesson": "n3-u12-lesson-2",
       "title": "Remembering the plan and the actual viewing",
       "speed": 1.1,
-      "scene": "Sunday morning, Kenta asks Misaki and Bao about Saturday’s viewing. He was not present. Misaki reports what they actually watched; Bao describes his practice goals.",
+      "scene": "Sunday morning. Kenta asks about the film he missed. The friends discuss a confusing exchange, avoid spoiling the sequel and realise they still need to pick their next viewing day.",
       "words": [
-        "n3-u12-w-shichou",
         "n3-u12-w-yokoku",
         "n3-u12-w-honpen",
-        "n3-u12-w-hayakuchi",
         "n3-u12-w-bamen",
-        "n3-u12-w-gobi",
-        "n3-u12-w-hanashikotoba",
-        "n3-u12-w-kudakeru",
         "n3-u12-w-aizuchi",
-        "n3-u12-w-tsubuyaku",
-        "n3-u12-w-yakugara",
-        "n3-u12-w-shuyaku",
-        "n3-u12-w-wakiyaku",
-        "n3-u12-w-iinaosu",
-        "n3-u12-w-sujigaki",
         "n3-u12-w-ketsumatsu",
         "n3-u12-w-zokuhen",
-        "n3-u12-w-ukkari",
-        "n3-u12-w-habuku",
         "n3-u12-w-nokosu",
         "n3-u12-w-onryou",
         "n3-u12-w-baisoku",
         "n3-u12-w-aizu",
         "n3-u12-w-modosu",
-        "n3-u10-w-chuuisanman",
-        "n3-u10-w-hirou",
         "n3-u10-w-nemuke",
         "n3-u10-w-kyuusoku",
-        "n3-u10-w-maikai",
-        "n3-u10-w-kankaku",
-        "n3-u10-w-nikka",
-        "n3-u11-w-hikaeru"
+        "n3-u10-w-maikai"
       ],
       "lines": [
         {
           "speaker": "Kenta",
-          "line": "{昨日|きのう}の{視聴|しちょう}って、{何時|なんじ}からだったっけ？ {予告|よこく}だけ{見|み}たの？",
-          "romaji": "Kinō no shichō tte, nanji kara datta kke? Yokoku dake mita no?",
-          "meaning": "What time was yesterday’s viewing from again? Did you only watch the preview?"
+          "line": "{昨日|きのう}は{何時|なんじ}から{見|み}たんだっけ？ {予告|よこく}だけ？",
+          "romaji": "Kinō wa nanji kara mita n da kke? Yokoku dake?",
+          "meaning": "What time did you start watching yesterday again? Just the trailer?"
         },
         {
           "speaker": "Misaki",
-          "line": "{七時半|しちじはん}から{本編|ほんぺん}も{見|み}たよ。{早口|はやくち}の{場面|ばめん}は{十分|じゅっぷん}ごとに{止|と}めて、{語尾|ごび}を{聞|き}き{直|なお}した。",
-          "romaji": "Shichijihan kara honpen mo mita yo. Hayakuchi no bamen wa juppun goto ni tomete, gobi o kikinaoshita.",
-          "meaning": "We watched the main feature too, from seven thirty. We paused every ten minutes at fast scenes and listened to the endings again."
+          "line": "{七時半|しちじはん}から{本編|ほんぺん}も{見|み}たよ。{十分|じゅっぷん}ごとに{止|と}めてたから、{終|お}わるのが{遅|おそ}くなっちゃった。",
+          "romaji": "Shichijihan kara honpen mo mita yo. Juppun goto ni tometeta kara, owaru no ga osoku nacchatta.",
+          "meaning": "The main feature too, from seven thirty. We kept pausing every ten minutes, so we finished pretty late."
         },
         {
           "speaker": "You",
-          "line": "{話|はな}し{言葉|ことば}はくだけてるけど、{全部|ぜんぶ}が{間違|まちが}いじゃない。{相|あい}づちとつぶやきも{区別|くべつ}できるかな。",
-          "romaji": "Hanashikotoba wa kudaketeru kedo, zenbu ga machigai ja nai. Aizuchi to tsubuyaki mo kubetsu dekiru kana.",
-          "meaning": "The spoken language is informal, but that does not make it all wrong. I wonder whether I can distinguish backchannel responses and muttering too."
+          "line": "{二人|ふたり}で「うん」って{言|い}ってる{所|ところ}、どっちが{相|あい}づちで、どっちがつぶやきなのかな。{同|おな}じに{聞|き}こえちゃう。",
+          "romaji": "Futari de un tte itteru tokoro, docchi ga aizuchi de, docchi ga tsubuyaki na no kana. Onaji ni kikoechau.",
+          "meaning": "When they both say “mm,” I wonder which is a response and which is muttering. They sound the same to me."
         },
         {
           "speaker": "Kenta",
-          "line": "{短|みじか}い{返事|へんじ}にも{役柄|やくがら}が{出|で}るじゃん。{僕|ぼく}が{金曜日|きんようび}に{見|み}た{予告|よこく}では、{主役|しゅやく}より{脇役|わきやく}の{方|ほう}が、{言|い}い{直|なお}すことが{多|おお}かったね。",
-          "romaji": "Mijikai henji ni mo yakugara ga deru jan. Boku ga kin’yōbi ni mita yokoku de wa, shuyaku yori wakiyaku no hō ga, iinaosu koto ga ōkatta ne.",
-          "meaning": "The role comes through even in short replies, you know. In the preview I saw on Friday, the supporting character corrected what they said more often than the lead."
+          "line": "そこ、{面白|おもしろ}いじゃん。{前|まえ}の{台詞|せりふ}も{聞|き}いてみなきゃ。{僕|ぼく}、{予告|よこく}では{聞|き}き{逃|のが}しちゃったんだ。",
+          "romaji": "Soko, omoshiroi jan. Mae no serifu mo kiite minakya. Boku, yokoku de wa kikinogashichatta n da.",
+          "meaning": "That’s interesting! We need to listen to the line before it too. I missed it in the trailer."
         },
         {
           "speaker": "Misaki",
-          "line": "うん。{筋書|すじが}きはまだ{途中|とちゅう}。{結末|けつまつ}は{次|つぎ}に{見|み}よう。{昨日|きのう}は{続編|ぞくへん}を{見|み}てないよ。",
-          "romaji": "Un. Sujigaki wa mada tochū. Ketsumatsu wa tsugi ni miyō. Kinō wa zokuhen o mitenai yo.",
-          "meaning": "Yes. We are still partway through the plot. Let us watch the ending next time. We did not watch the sequel yesterday."
+          "line": "じゃ、そこはメモに{残|のこ}しとくね。{続編|ぞくへん}は{昨日|きのう}も{見|み}てないよ。{結末|けつまつ}、{言|い}っちゃだめだからね。",
+          "romaji": "Ja, soko wa memo ni nokoshitoku ne. Zokuhen wa kinō mo mitenai yo. Ketsumatsu, itcha dame da kara ne.",
+          "meaning": "I’ll note that bit for later. We didn’t watch the sequel yesterday either. Don’t spoil the ending!"
         },
         {
           "speaker": "You",
-          "line": "うっかり{大事|だいじ}な{所|ところ}を{省|はぶ}いちゃったから、メモに{残|のこ}しといた。{次|つぎ}は{短|みじか}い{要約|ようやく}でも、{語尾|ごび}まで{確認|かくにん}しなきゃ。",
-          "romaji": "Ukkari daiji na tokoro o habuichatta kara, memo ni nokoshitoita. Tsugi wa mijikai yōyaku demo, gobi made kakunin shinakya.",
-          "meaning": "I inadvertently left an important part out, so I left a note about it beforehand. Next time I need to check through the ending even in a short summary."
+          "line": "そうだ、{次|つぎ}に{集|あつ}まる{曜日|ようび}って、もう{決|き}めたっけ？ {決|き}めてないなら{連絡|れんらく}しなきゃ。",
+          "romaji": "Sō da, tsugi ni atsumaru yōbi tte, mō kimeta kke? Kimetenai nara renraku shinakya.",
+          "meaning": "Oh, did we decide which day to meet next? If we haven’t, we need to get in touch."
         },
         {
           "speaker": "Kenta",
-          "line": "{音量|おんりょう}は{控|ひか}えてたの？ {僕|ぼく}は{音|おと}が{小|ちい}さいと{注意散漫|ちゅういさんまん}になるから、{最初|さいしょ}に{確認|かくにん}したい。",
-          "romaji": "Onryō wa hikaeteta no? Boku wa oto ga chiisai to chūi sanman ni naru kara, saisho ni kakunin shitai.",
-          "meaning": "Were you keeping the volume down? I lose focus when the sound is quiet, so I would like to check it first."
+          "line": "まだじゃない？ {僕|ぼく}も{予定|よてい}を{見|み}とくよ。{昨日|きのう}の{音量|おんりょう}はどうだった？",
+          "romaji": "Mada ja nai? Boku mo yotei o mitoku yo. Kinō no onryō wa dō datta?",
+          "meaning": "I don’t think so. I’ll check my schedule too. How was the volume yesterday?"
         },
         {
           "speaker": "Misaki",
-          "line": "{小|ちい}さくしたけど、{台詞|せりふ}は{聞|き}こえたよ。{倍速|ばいそく}にせず、{合図|あいず}で{元|もと}の{場面|ばめん}に{戻|もど}した。",
-          "romaji": "Chiisaku shita kedo, serifu wa kikoeta yo. Baisoku ni sezu, aizu de moto no bamen ni modoshita.",
-          "meaning": "We lowered it, but could hear the lines. We did not use double speed; we went back to the scene when signalled."
+          "line": "{小|ちい}さくしたけど、{台詞|せりふ}は{聞|き}こえてたよ。{倍速|ばいそく}にはしてない。バオが{合図|あいず}したら、{元|もと}の{場面|ばめん}に{戻|もど}してた。",
+          "romaji": "Chiisaku shita kedo, serifu wa kikoeteta yo. Baisoku ni wa shitenai. Bao ga aizu shitara, moto no bamen ni modoshiteta.",
+          "meaning": "It was low, but we could hear the lines. We didn’t use double speed. Whenever Bao signalled, I went back to the scene."
         },
         {
           "speaker": "You",
-          "line": "{次回|じかい}も、{疲労|ひろう}や{眠気|ねむけ}が{出|で}たら{短|みじか}い{休息|きゅうそく}を{入|い}れよう。{毎回|まいかい}の{間隔|かんかく}を{記録|きろく}するのは{日課|にっか}になってる。",
-          "romaji": "Jikai mo, hirō ya nemuke ga detara mijikai kyūsoku o ire yō. Maikai no kankaku o kiroku suru no wa nikka ni natteru.",
-          "meaning": "Next time too, let us take a short rest if fatigue or sleepiness appears. Recording the gaps each time has become a daily routine."
+          "line": "{途中|とちゅう}で{眠気|ねむけ}が{出|で}ちゃったけどね。{毎回|まいかい}、{短|みじか}い{休息|きゅうそく}も{入|い}れとくといいかも。",
+          "romaji": "Tochū de nemuke ga dechatta kedo ne. Maikai, mijikai kyūsoku mo iretoku to ii kamo.",
+          "meaning": "I did get sleepy halfway through, though. Maybe we should plan a short break each time too."
         },
         {
           "speaker": "Kenta",
-          "line": "いいじゃん。{今度|こんど}は{僕|ぼく}も{参加|さんか}したい。{曜日|ようび}と{時間|じかん}を{控|ひか}えとくね。",
-          "romaji": "Ii jan. Kondo wa boku mo sanka shitai. Yōbi to jikan o hikaetoku ne.",
-          "meaning": "That sounds good. I would like to join next time too. I will note down the day and time beforehand."
+          "line": "いいじゃん。{次|つぎ}は{僕|ぼく}も{見|み}たいな。{曜日|ようび}が{決|き}まったら{教|おし}えて。{忘|わす}れないようにメモしとく。",
+          "romaji": "Ii jan. Tsugi wa boku mo mitai na. Yōbi ga kimattara oshiete. Wasurenai yō ni memo shitoku.",
+          "meaning": "Sounds good. I’d like to watch next time too. Tell me when you pick a day. I’ll write it down so I don’t forget."
         }
       ]
     }
@@ -1321,6 +1284,10 @@
     ],
     "prompt": "Optionally save a contracted line from your own clip. Write its full form and identify the speaker and listener. Listen for the ending before checking subtitles."
   },
+  "recycling": {
+    "target": 0.16,
+    "reason": "Film-night peers use repeated casual contractions. Equipment reports, minutes and private-work documents do not belong in their conversation."
+  },
   "exercises": [
     {
       "id": "n3-u12-x-start",
@@ -1328,8 +1295,7 @@
       "lesson": "n3-u12-lesson-1",
       "words": [
         "n3-u12-w-honpen",
-        "n3-u12-w-yokoku",
-        "n3-u11-w-shoudaku"
+        "n3-u12-w-yokoku"
       ],
       "skill": "listening",
       "dialogue": "n3-u12-d-watch",
@@ -1340,7 +1306,7 @@
         "Sunday morning"
       ],
       "answer": 0,
-      "explain": "Misaki proposes 七時半から本編; Wednesday refers to the earlier practice."
+      "explain": "Misaki recalls 七時半 for the main feature and Bao agrees; the scene takes place on Saturday evening."
     },
     {
       "id": "n3-u12-x-pause",
@@ -1349,8 +1315,7 @@
       "words": [
         "n3-u12-w-hayakuchi",
         "n3-u12-w-ichijiteishi",
-        "n3-u12-w-makimodosu",
-        "n3-u10-w-kankaku"
+        "n3-u12-w-makimodosu"
       ],
       "skill": "listening",
       "dialogue": "n3-u12-d-watch",
@@ -1361,15 +1326,13 @@
         "Keep watching the sequel without pausing"
       ],
       "answer": 1,
-      "explain": "They agree on 十分ごとに一時停止 and rewind/replay; Misaki says she will not speed it up."
+      "explain": "They agree on 十分ごとに一時停止 and on rewinding and replaying the part where they stop."
     },
     {
       "id": "n3-u12-x-missed",
       "type": "dialogue",
       "lesson": "n3-u12-lesson-1",
       "words": [
-        "n3-u10-w-chakushin",
-        "n3-u10-w-outou",
         "n3-u12-w-minogasu"
       ],
       "skill": "listening",
@@ -1381,18 +1344,18 @@
         "He was answering an incoming call"
       ],
       "answer": 2,
-      "explain": "Bao explains 着信に応答してた; that is why he missed it."
+      "explain": "Bao says 電話に出てたんだ: he was on the phone when the trailer played."
     },
     {
       "id": "n3-u12-x-jau",
       "type": "cloze",
       "lesson": "n3-u12-lesson-1",
       "words": [
-        "n3-u11-w-gijiroku"
+        "n3-u12-w-zokuhen"
       ],
       "skill": "recall",
-      "context": "Form practice: shorten 読んでしまった to its named casual contraction.",
-      "line": "{議事録|ぎじろく}を{全部|ぜんぶ}{読|よ}ん＿＿。",
+      "context": "Form practice: you finished reading the sequel to a book. Shorten 読んでしまった to its named casual contraction.",
+      "line": "{続編|ぞくへん}を{全部|ぜんぶ}{読|よ}ん＿＿。",
       "options": [
         "じゃった",
         "ちゃった",
@@ -1424,13 +1387,11 @@
       "type": "reply",
       "lesson": "n3-u12-lesson-1",
       "words": [
-        "n3-u10-w-chakushin",
-        "n3-u10-w-outou",
         "n3-u12-w-honpen"
       ],
       "skill": "listening",
       "context": "Your friend says they missed the preview while answering a call. Suggest replaying it before the main feature.",
-      "line": "{着信|ちゃくしん}に{応答|おうとう}してて、{予告|よこく}を{見|み}{逃|のが}しちゃった。",
+      "line": "{電話|でんわ}に{出|で}てて、{予告|よこく}を{見|み}{逃|のが}しちゃった。",
       "options": [
         "じゃ、{予告|よこく}はもう{全部|ぜんぶ}{見|み}たんだね。",
         "じゃ、{続編|ぞくへん}まで{終|お}わったんだね。",
@@ -1493,7 +1454,7 @@
         "The day and time already set for next week"
       ],
       "answer": 1,
-      "explain": "Bao says 相づちとつぶやきも区別できるかな; it is his unresolved learning question."
+      "explain": "Bao says 相づちとつぶやきも区別できるかな; it’s his unresolved learning question."
     },
     {
       "id": "n3-u12-x-volume",
@@ -1501,8 +1462,7 @@
       "lesson": "n3-u12-lesson-2",
       "words": [
         "n3-u12-w-onryou",
-        "n3-u12-w-baisoku",
-        "n3-u11-w-hikaeru"
+        "n3-u12-w-baisoku"
       ],
       "skill": "listening",
       "dialogue": "n3-u12-d-recall",
@@ -1582,7 +1542,7 @@
       ],
       "skill": "listening",
       "dialogue": "n3-u12-d-recall",
-      "line": "{小|ちい}さくしたけど、{台詞|せりふ}は{聞|き}こえたよ。{倍速|ばいそく}にせず、{合図|あいず}で{元|もと}の{場面|ばめん}に{戻|もど}した。",
+      "line": "{小|ちい}さくしたけど、{台詞|せりふ}は{聞|き}こえてたよ。{倍速|ばいそく}にはしてない。バオが{合図|あいず}したら、{元|もと}の{場面|ばめん}に{戻|もど}してた。",
       "prompt": "Who reports that the lines were audible and the scene was replayed on a signal?",
       "options": [
         "Misaki",
@@ -1590,7 +1550,7 @@
         "You"
       ],
       "answer": 0,
-      "explain": "This exact line is Misaki’s response to Kenta’s volume question. Kenta was not present; Bao follows with a rest suggestion."
+      "explain": "Misaki answers Kenta’s volume question and describes replaying when Bao signals."
     },
     {
       "id": "n3-u12-x-order-note",
@@ -1602,7 +1562,7 @@
         "n3-u10-w-maikai"
       ],
       "skill": "recall",
-      "meaning": "I will note the ending beforehand and check it each time. Use the contracted preparatory 残しといて.",
+      "meaning": "I’ll note the ending beforehand and check it each time. Use the contracted preparatory 残しといて.",
       "tiles": [
         "{語尾|ごび}を",
         "メモに{残|のこ}しといて、",
@@ -1642,8 +1602,8 @@
       "reading": "n3-u12-reading",
       "prompt": "What is the status of their next viewing day?",
       "options": [
-        "It is already next Saturday",
-        "It is a workplace assignment on Wednesday",
+        "It’s already next Saturday",
+        "It’s a workplace assignment on Wednesday",
         "It has not been decided; Misaki will contact Kenta after deciding"
       ],
       "answer": 2,

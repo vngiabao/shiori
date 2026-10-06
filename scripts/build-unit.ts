@@ -18,6 +18,7 @@ type Draft = {
   };
   lessons?: { title: string; description: string; canDo: string; minutes: number; words: string[] }[];
   watch?: Pack["watch"];
+  recycling?: Pack["recycling"];
   /** [id, ruby text, romaji, meaning, register, example (ruby)?] */
   words: [string, string, string, string, Word["register"], string?][];
   grammar: Pack["grammar"];
@@ -118,6 +119,7 @@ const pack: Pack = {
   dialogues: (d.dialogues ?? (d.dialogue ? [d.dialogue] : [])).map(x => ({ ...x, lesson: bindLesson(x) })),
   ...(d.readings ? { readings: d.readings.map(x => ({ ...x, lesson: bindLesson(x) })) } : {}),
   ...(d.watch ? { watch: d.watch } : {}),
+  ...(d.recycling ? { recycling: d.recycling } : {}),
   exercises: [
     ...d.exercises.map((x) => rotate({ ...x, lesson: bindLesson(x) })),
     ...(d.letter?.tasks ?? []).map((x) => rotate({ ...x, letter: `${d.id}-letter` })),

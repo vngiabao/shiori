@@ -65,6 +65,8 @@ export type Roleplay = {
 };
 export type Pack = {
   category?: "vocabulary";
+  /** Editorial exception: authentic situations take priority over vocabulary quotas. */
+  recycling?: { target: number; reason: string };
   id: string;
   version: number;
   status: "AI-assisted draft" | "reviewed";

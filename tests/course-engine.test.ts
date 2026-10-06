@@ -35,6 +35,21 @@ it("rejects future-unit coverage and insufficient recent-unit recycling", () => 
   second.readings![0].glosses=[];
   expect(validateCourseSequence([first,second]).errors.some(x => x.includes("surface coverage"))).toBe(true);
 });
+it("allows a documented naturalness target but still checks actual references and invalid exceptions", () => {
+  const first=make();first.id="n5-u12";
+  const second=make();second.id="n4-u01";second.words=[];second.dialogues=[];second.readings=[];
+  const word=first.words[0];
+  second.exercises=[{...second.exercises![0],line:word.text,dialogue:undefined,words:[word.id,...Array(9).fill("new-target")]}];
+  expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("recycling"))).toBe(true);
+  second.recycling={target:.10,reason:"This brief travel scene uses only naturally relevant earlier vocabulary; extra work-report words would interrupt the route guidance."};
+  expect(validateCourseSequence([first,second]).errors).toEqual([]);
+  second.exercises[0].line="unrelated";second.exercises[0].options=[];
+  expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("absent from task"))).toBe(true);
+  second.recycling.reason="";
+  expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("specific editorial reason"))).toBe(true);
+  second.recycling={target:0,reason:"This zero target must never disable the normal recycling checks."};
+  expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("exception"))).toBe(true);
+});
 it("validates register situations, compared texts, speaker lines and natural-speed limits", () => {
   const p=make();
   p.exercises![0].type="register";p.exercises![0].context=undefined;

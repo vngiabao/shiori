@@ -2,6 +2,8 @@
 
 Send everything inside the box in the SAME GPT chat that is running prompts/gpt-course-build.md.
 
+Latest user amendment, 6 October 2026: the exact checkpoint and authoring correction in output/course-progress.md supersede the deck-first sequencing and fixed recycling quota below. Finish/review the N2, N1 and twelve workplace-keigo core units before the remaining N3/N2/N1 decks. Preserve completed material. Dialogue naturalness takes priority: genuine situations, repeated casual target forms, natural English contractions, no model/safety caveats in characters' dialogue or scene descriptions. Lower a unit's recycling target with an explicit editorial reason when needed; never invent references. Push a separate backup branch only after checking Cloudflare cannot deploy it to production. The full expansion is authorized for final deployment after completion; no intermediate production release.
+
 ```
 AMENDMENT TO YOUR CURRENT TASK. Read it fully and keep everything you have already done. The user wants the WHOLE course, not just N4: N4, N3, N2, N1 and the Keigo at work module from content/COURSE-OUTLINE.md, with vocabulary and kanji decks and JLPT items for every level.
 

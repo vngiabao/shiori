@@ -176,3 +176,8 @@ Read → Kanji surface loads them without a design change. Refresh with
 `python scripts/fetch-sources.py --kanji-only --cached`. Source hashes/revisions live in
 content/sources provenance files and each stroke file. New components are left
 empty rather than inventing etymology. Historical JLPT fields are not used.
+
+
+## N3 editorial correction, 6 October 2026
+
+All thirty-two N3 scenes were reread after the user found stiff vocabulary padding. Units 12–13 now use ordinary peer contractions and a playful character guessing game; 125 Japanese lines across the core were revised, with linked tasks and natural English translations. Passing checks had not established naturalness. Per-unit recycling exceptions have explicit editorial reasons and still require actual referenced forms. Details and verification are in output/review-n3.md; exact remaining work is in output/course-progress.md. All earlier Clear audio, unchanged dialogue takes and replaced-take history are preserved; all 254 new WAVs mapped. Native review pending. Finish N2/N1/workplace-keigo core before remaining decks; production waits for the full expansion.

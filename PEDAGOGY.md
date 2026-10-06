@@ -13,6 +13,8 @@ The course serves communication and reading; JLPT is a separate alignment. A cor
 9. **Separate practice, performance and certification.** Recorded speech is private self-listening. Typed role-play checks narrow patterns. Outside-study minutes and partner feedback are self-entered. None implies JLPT readiness or an overall CEFR level.
 10. **Quality before volume.** Generated material stays AI-assisted draft until a documented language review. Structural validation, dictionary matches and passing tests do not establish natural Japanese, unambiguous distractors or appropriate pragmatics.
 
+11. **Natural situations before vocabulary quotas.** Dialogue must sound plausible for its speakers and their immediate purpose. Recycling counts only words that genuinely fit. A unit may declare a lower `recycling.target` with a specific editorial reason; the checker still rejects absent references. Keep model/safety caveats in documentation, never in characters' lines or scene descriptions. English translations use natural contractions. Vocabulary decks supplement conversations rather than dictating them.
+
 ## Pronunciation evidence
 
 The current VOICEVOX renderer gives every one of the 142 single-kana entries an explicit one-mora synthesis query, with vowel voicing and a fixed 0.22-second vowel-length setting. This makes the requested phoneme sequence inspectable; the timing is a teaching setting, not a universal duration for natural Japanese. Standalone は uses *ha*, while the topic-particle word selects わ for playback. Uncompressed PCM avoids an additional lossy encoding step on short sounds.

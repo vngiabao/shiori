@@ -655,7 +655,7 @@
       "id": "n3-u15-g-ellipsis",
       "title": "Recover the role of an omitted particle",
       "formation": "In familiar casual context, object を or topic は may be omitted: 傘を見た？→傘見た？ Keep the role recoverable; restore particles in explicit form practice.",
-      "explanation": "Short casual manga lines may leave out a particle that context supplies. 傘見た？ asks whether someone saw the umbrella; it does not make 傘 the person doing the seeing. Retain particles that distinguish who did what, contrast or a needed relationship. This is recognition, not an instruction to remove all particles or use a casual fragment in a teacher email.",
+      "explanation": "Short casual manga lines may leave out a particle that context supplies. 傘見た？ asks whether someone saw the umbrella; it doesn’t make 傘 the person doing the seeing. Retain particles that distinguish who did what, contrast or a needed relationship. This is recognition, not an instruction to remove all particles or use a casual fragment in a teacher email.",
       "example": "このコマ読んだ？",
       "translation": "Did you read this panel? (casual object particle omitted)",
       "examples": [
@@ -681,7 +681,7 @@
       "id": "n3-u15-g-marks",
       "title": "Recognise an abrupt ending and a long vowel",
       "formation": "Between consonants, small っ marks a consonant closure. At the end of あっ！ it marks an abrupt cutoff, not a separately spoken つ. ー/〜 may stretch the preceding vowel in expressive writing.",
-      "explanation": "Retrieve ordinary small-っ and long-vowel reading. Printed reactions can exaggerate length; they are not models for prolonging every lesson vowel. あっ is a brief reaction, while あー can be drawn out. A longer reaction does not by itself prove anger or happiness; context matters. Read しーん with a long vowel, not as しん.",
+      "explanation": "Retrieve ordinary small-っ and long-vowel reading. Printed reactions can exaggerate length; they are not models for prolonging every lesson vowel. あっ is a brief reaction, while あー can be drawn out. A longer reaction doesn’t by itself prove anger or happiness; context matters. Read しーん with a long vowel, not as しん.",
       "example": "「あっ！」と短く声を出した。",
       "translation": "They gave a short Ah!",
       "examples": [
@@ -707,7 +707,7 @@
       "id": "n3-u15-g-reaction",
       "title": "A reaction or a question is not proof of an event",
       "formation": "Question intonation/？ asks; an exclamation reacts. Read the reply and later panel before treating a guess as a fact.",
-      "explanation": "Reuse earlier の？, かな and っけ. A speaker who asks 雷？ has not established that thunder occurred; ごろごろ can also describe another action. A relieved ほっとした needs an event to interpret it. Printed sweat or tears alone does not identify the cause. These are discourse cues rather than a certified JLPT grammar list.",
+      "explanation": "Reuse earlier の？, かな and っけ. A speaker who asks 雷？ has not established that thunder occurred; ごろごろ can also describe another action. A relieved ほっとした needs an event to interpret it. Printed sweat or tears alone doesn’t identify the cause. These are discourse cues rather than a certified JLPT grammar list.",
       "example": "「雷？」と聞いたが、返事はまだだった。",
       "translation": "They asked Thunder?, but there was no reply yet.",
       "examples": [
@@ -740,7 +740,6 @@
       "scene": "At the café, Misaki shows Bao an original comic page after the headphone review. They distinguish bubbles and printed effects. They have only read the first two panels; neither knows who is outside the door.",
       "words": [
         "n3-u15-w-giongo",
-        "n3-u15-w-gitaigo",
         "n3-u15-w-fukidashi",
         "n3-u15-w-koma",
         "n3-u15-w-waku",
@@ -756,21 +755,15 @@
         "n3-u15-w-chinmoku",
         "n3-u15-w-koukaon",
         "n3-u12-w-gobi",
-        "n3-u12-w-aizu",
         "n3-u12-w-bamen",
-        "n3-u13-w-daihon",
-        "n3-u13-w-jinbutsu",
-        "n3-u13-w-roudoku",
-        "n3-u13-w-kaishaku",
-        "n3-u14-w-shiyou",
-        "n3-u14-w-kinou"
+        "n3-u13-w-jinbutsu"
       ],
       "lines": [
         {
           "speaker": "Misaki",
-          "line": "{台本|だいほん}の{朗読|ろうどく}の{次|つぎ}は、この{漫画|まんが}のコマを{読|よ}もう。{製品|せいひん}の{仕様|しよう}とは{違|ちが}う{読|よ}み{方|かた}だね。",
-          "romaji": "Daihon no rōdoku no tsugi wa, kono manga no koma o yomō. Seihin no shiyō to wa chigau yomikata da ne.",
-          "meaning": "After the script reading, let us read these comic panels. It takes a different reading approach from product specifications."
+          "line": "{次|つぎ}はこの{漫画|まんが}、{読|よ}んでみない？ {絵|え}がきれいなんだよ。",
+          "romaji": "Tsugi wa kono manga, yonde minai? E ga kirei nan da yo.",
+          "meaning": "Want to read this comic next? The drawings are beautiful."
         },
         {
           "speaker": "You",
@@ -786,9 +779,9 @@
         },
         {
           "speaker": "You",
-          "line": "{擬態語|ぎたいご}なら、{音|おと}がない{動|うご}きや{気持|きも}ちも{表|あらわ}せるんだね。{機能|きのう}は{一|ひと}つだけじゃない。",
-          "romaji": "Gitaigo nara, oto ga nai ugoki ya kimochi mo arawaserun da ne. Kinō wa hitotsu dake janai.",
-          "meaning": "Mimetics can depict movement or feelings with no sound too. They do not have only one function."
+          "line": "そうか。{音|おと}がなくても、どんな{気持|きも}ちか{分|わ}かるんだね。",
+          "romaji": "Sō ka. Oto ga nakute mo, donna kimochi ka wakaru n da ne.",
+          "meaning": "I see. Even without a sound, you can tell how someone feels."
         },
         {
           "speaker": "Misaki",
@@ -800,7 +793,7 @@
           "speaker": "You",
           "line": "{足音|あしおと}みたいだけど、{誰|だれ}かはまだ{分|わ}からない。{語尾|ごび}や{台詞|せりふ}を{聞|き}けば、{後|あと}で{分|わ}かるかも。",
           "romaji": "Ashioto mitai da kedo, dare ka wa mada wakaranai. Gobi ya serifu o kikeba, ato de wakaru kamo.",
-          "meaning": "It seems like footsteps, but I do not know who it is yet. The ending or line may tell us later."
+          "meaning": "It seems like footsteps, but I don’t know who it’s yet. The ending or line may tell us later."
         },
         {
           "speaker": "Misaki",
@@ -810,21 +803,21 @@
         },
         {
           "speaker": "You",
-          "line": "{汗|あせ}や{涙|なみだ}が{描|えが}かれていても、{理由|りゆう}は{一|ひと}つじゃないね。{解釈|かいしゃく}の{前|まえ}に、{続|つづ}きを{読|よ}もう。",
-          "romaji": "Ase ya namida ga egakarete ite mo, riyū wa hitotsu janai ne. Kaishaku no mae ni, tsuzuki o yomō.",
-          "meaning": "Even when sweat or tears are drawn, there is more than one possible reason. Let us read on before interpreting."
+          "line": "{汗|あせ}も{涙|なみだ}も{描|えが}いてあるね。{怖|こわ}かったのかな、それとも{嬉|うれ}しかったのかな。{続|つづ}きを{読|よ}もう。",
+          "romaji": "Ase mo namida mo egaite aru ne. Kowakatta no kana, sore tomo ureshikatta no kana. Tsuzuki o yomō.",
+          "meaning": "There’s sweat and tears in the drawing. Was she scared, or happy? Let’s read on."
         },
         {
           "speaker": "Misaki",
-          "line": "そうしよう。{効果音|こうかおん}は{場面|ばめん}の{合図|あいず}にもなるけど、{吹|ふ}き{出|だ}しの{台詞|せりふ}と{分|わ}けて{読|よ}みたいね。",
-          "romaji": "Sō shiyō. Kōkaon wa bamen no aizu ni mo naru kedo, fukidashi no serifu to wakete yomitai ne.",
-          "meaning": "Let us do that. Effects can cue a scene, but I want to distinguish them from the lines in bubbles."
+          "line": "うん。{吹|ふ}き{出|だ}しの{台詞|せりふ}も{気|き}になるね。",
+          "romaji": "Un. Fukidashi no serifu mo ki ni naru ne.",
+          "meaning": "Yeah. I’m curious about what’s in the speech bubble too."
         },
         {
           "speaker": "You",
-          "line": "まだ{二|ふた}つのコマしか{読|よ}んでいない。ドアの{外|そと}にいる{人物|じんぶつ}を、{今|いま}ここで{決|き}めないようにする。",
-          "romaji": "Mada futatsu no koma shika yonde inai. Doa no soto ni iru jinbutsu o, ima koko de kimenai yō ni suru.",
-          "meaning": "We have only read two panels. I will avoid deciding who is outside the door yet."
+          "line": "まだ{二|ふた}つのコマだけだもんね。ドアの{外|そと}は{誰|だれ}だろう。{早|はや}く{次|つぎ}が{見|み}たいな。",
+          "romaji": "Mada futatsu no koma dake da mon ne. Doa no soto wa dare darō. Hayaku tsugi ga mitai na.",
+          "meaning": "We’ve only seen two panels. Who’s outside the door? I can’t wait to see the next one."
         }
       ]
     },
@@ -851,21 +844,15 @@
         "n3-u15-w-gatagata",
         "n3-u15-w-hotto",
         "n3-u15-w-gussuri",
-        "n3-u12-w-gobi",
-        "n3-u12-w-kikinogasu",
         "n3-u12-w-bamen",
-        "n3-u12-w-aizu",
-        "n3-u13-w-jinbutsu",
-        "n3-u13-w-kaishaku",
-        "n3-u14-w-settei",
-        "n3-u14-w-shiyou"
+        "n3-u13-w-jinbutsu"
       ],
       "lines": [
         {
           "speaker": "Misaki",
-          "line": "{紙|かみ}の{本|ほん}ならぱらぱらめくれるけど、{今日|きょう}は{設定|せってい}を{変|か}えずに、{一|ひと}つずつじっと{見|み}よう。{続|つづ}きが{楽|たの}しみでわくわくするね。",
-          "romaji": "Kami no hon nara parapara mekureru kedo, kyō wa settei o kaezu ni, hitotsu zutsu jitto miyō. Tsuzuki ga tanoshimi de wakuwaku suru ne.",
-          "meaning": "We could leaf through a paper book, but today let us keep the setting and look at each panel closely. I am excited to read on."
+          "line": "この{本|ほん}、ぱらぱらめくるだけでもわくわくするね。{最初|さいしょ}のコマ、じっと{見|み}てみよう。",
+          "romaji": "Kono hon, parapara mekuru dake de mo wakuwaku suru ne. Saisho no koma, jitto mite miyō.",
+          "meaning": "Even leafing through this book is exciting. Let’s look closely at the first panel."
         },
         {
           "speaker": "You",
@@ -887,9 +874,9 @@
         },
         {
           "speaker": "Misaki",
-          "line": "ごろごろは{雷|かみなり}の{音|おと}にもなるけど、{家|いえ}でごろごろするなら{別|べつ}の{意味|いみ}だね。{製品|せいひん}の{仕様|しよう}と{同|おな}じように、{文脈|ぶんみゃく}を{確認|かくにん}しよう。",
-          "romaji": "Gorogoro wa kaminari no oto ni mo naru kedo, ie de gorogoro suru nara betsu no imi da ne. Seihin no shiyō to onaji yō ni, bunmyaku o kakunin shiyō.",
-          "meaning": "Gorogoro can be the sound of thunder, but lounging at home is another meaning. As with specifications, let us check the context."
+          "line": "ごろごろって、{雷|かみなり}にも{使|つか}うよね。でも「{家|いえ}でごろごろする」は、のんびりしてるってことか。",
+          "romaji": "Gorogoro tte, kaminari ni mo tsukau yo ne. Demo ie de gorogoro suru wa, nonbiri shiteru tte koto ka.",
+          "meaning": "Gorogoro is used for thunder too, right? But gorogoro at home means lounging around."
         },
         {
           "speaker": "You",
@@ -905,21 +892,21 @@
         },
         {
           "speaker": "You",
-          "line": "「あっ！」の{語尾|ごび}は{短|みじか}い{反応|はんのう}で、「つ」とは{読|よ}まないね。{台詞|せりふ}の{合図|あいず}を{聞|き}き{逃|のが}さないようにしたい。",
-          "romaji": "A no gobi wa mijikai hannō de, tsu to wa yomanai ne. Serifu no aizu o kikinogasanai yō ni shitai.",
-          "meaning": "The ending of Ah! is an abrupt short reaction, not a spoken tsu. I want to catch the cue in the line."
+          "line": "「あっ！」って{短|みじか}く{言|い}ってるね。びっくりした{感|かん}じがする。",
+          "romaji": "At! Tte mijikaku itteru ne. Bikkuri shita kanji ga suru.",
+          "meaning": "That’s a short “Ah!” It sounds like surprise."
         },
         {
           "speaker": "Misaki",
-          "line": "「しーん」は{声|こえ}ではなく、{静|しず}かな{間|ま}の{描写|びょうしゃ}だね。{語尾|ごび}と{同|おな}じで、{解釈|かいしゃく}には{前後|ぜんご}も{必要|ひつよう}だよ。",
-          "romaji": "Shīn wa koe de wa naku, shizuka na ma no byōsha da ne. Gobi to onaji de, kaishaku ni wa zengo mo hitsuyō da yo.",
-          "meaning": "Shīn depicts a silent pause here rather than a voice. Like an ending, it needs the surrounding context for interpretation."
+          "line": "「しーん」で、{急|きゅう}に{静|しず}かになったね。さっきまで{足音|あしおと}がしてたのに。",
+          "romaji": "Shīn de, kyū ni shizuka ni natta ne. Sakki made ashioto ga shiteta no ni.",
+          "meaning": "Shīn makes it suddenly silent. There were footsteps just a moment ago."
         },
         {
           "speaker": "You",
-          "line": "ケンタは「{昨夜|さくや}はぐっすり{寝|ね}た」と{言|い}っていた。どきどきしたのは{僕|ぼく}の{方|ほう}だったね。{次|つぎ}も{答|こた}えを{急|いそ}がずに{読|よ}もう。",
-          "romaji": "Kenta wa sakuya wa gussuri neta to itte ita. Dokidoki shita no wa boku no hō datta ne. Tsugi mo kotae o isogazu ni yomō.",
-          "meaning": "Kenta says he slept soundly last night. I was the one whose heart was pounding. Next time let us read without rushing to an answer."
+          "line": "ケンタは{昨夜|さくや}ぐっすり{寝|ね}たんだね。{僕|ぼく}だけどきどきしちゃったよ。{次|つぎ}の{話|はなし}も{読|よ}みたいな。",
+          "romaji": "Kenta wa sakuya gussuri neta n da ne. Boku dake dokidoki shichatta yo. Tsugi no hanashi mo yomitai na.",
+          "meaning": "So Kenta slept soundly last night. I was the one with my heart racing! I want to read the next story too."
         }
       ]
     }
@@ -1197,7 +1184,7 @@
         {
           "text": "読もう",
           "kana": "よもう",
-          "meaning": "let us read"
+          "meaning": "let’s read"
         },
         {
           "text": "置いたんだけど",
@@ -1232,6 +1219,10 @@
     ],
     "prompt": "Optionally examine a panel or subtitle from your own media. Recover an omitted role from context; distinguish a guess, spoken line and printed effect."
   },
+  "recycling": {
+    "target": 0.23,
+    "reason": "Friends respond to a comic and a cliffhanger; unrelated product specifications and interpretation disclaimers were removed."
+  },
   "exercises": [
     {
       "id": "n3-u15-x-bubble",
@@ -1261,7 +1252,6 @@
       "words": [
         "n3-u15-w-koma",
         "n3-u13-w-jinbutsu",
-        "n3-u13-w-kaishaku",
         "n3-u12-w-bamen"
       ],
       "skill": "listening",
@@ -1282,8 +1272,7 @@
       "words": [
         "n3-u15-w-ase",
         "n3-u15-w-namida",
-        "n3-u15-w-byousha",
-        "n3-u13-w-kaishaku"
+        "n3-u15-w-byousha"
       ],
       "skill": "listening",
       "dialogue": "n3-u15-d-page",
@@ -1313,7 +1302,7 @@
         "あち"
       ],
       "answer": 0,
-      "explain": "The terminal small っ marks a cutoff; it is not the full-size つ sound."
+      "explain": "The terminal small っ marks a cutoff; it’s not the full-size つ sound."
     },
     {
       "id": "n3-u15-x-length",
@@ -1437,7 +1426,7 @@
       "type": "cloze",
       "lesson": "n3-u15-lesson-2",
       "words": [
-        "n3-u03-w-serifu"
+        "n5-vocab-01-w-0161"
       ],
       "skill": "recall",
       "context": "Explicit form practice: restore the omitted object を in the casual line 傘見た？.",
@@ -1543,7 +1532,7 @@
         "A confirmation of thunder"
       ],
       "answer": 1,
-      "explain": "It is marked as an effect and nobody speaks in that panel."
+      "explain": "It’s marked as an effect and nobody speaks in that panel."
     },
     {
       "id": "n3-u15-x-read-reason",

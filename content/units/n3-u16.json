@@ -314,7 +314,7 @@
       "id": "n3-u16-g-report",
       "title": "Keep the source attached to the report",
       "formation": "Retrieve source によると + plain proposition + そうだ/そうです. Noun/na-adjective retains だ before reported そうだ.",
-      "explanation": "Identify who supplied a reported statement and when. A report of a future event does not mean the event has already taken place. Reported 開催するそうだ retains する; appearance 開催しそうだ uses the stem and has a different basis. Earlier source/observation lessons remain relevant. No numerical confidence ranking is assigned.",
+      "explanation": "Identify who supplied a reported statement and when. A report of a future event doesn’t mean the event has already taken place. Reported 開催するそうだ retains する; appearance 開催しそうだ uses the stem and has a different basis. Earlier source/observation lessons remain relevant. No numerical confidence ranking is assigned.",
       "example": "記者によると、展示は無料だそうです。",
       "translation": "According to the reporter, the exhibition is free.",
       "examples": [
@@ -324,7 +324,7 @@
         },
         {
           "ja": "{記事|きじ}には、{土曜日|どようび}に{開催|かいさい}するそうだと{書|か}いてある。",
-          "en": "The article says it is reportedly being held on Saturday."
+          "en": "The article says it’s reportedly being held on Saturday."
         },
         {
           "ja": "{見出|みだ}しだけでなく、{本文|ほんぶん}も{読|よ}むそうです。",
@@ -340,7 +340,7 @@
       "id": "n3-u16-g-cause",
       "title": "Read a stated cause without inventing a motive",
       "formation": "Retrieve noun + のため; na-adjective + なため; attributive clause + ため. In a notice, に may be omitted. Purpose ために needs a goal context.",
-      "explanation": "A stated cause explains an outcome in the article. 施設の修理のため、会場を変えた reports a reason for changing venue; it is not an intention to make the repair happen. Tense alone does not decide cause versus purpose. Preserve the source’s scope and do not infer a different cause, such as noise or weather, from nearby vocabulary.",
+      "explanation": "A stated cause explains an outcome in the article. 施設の修理のため、会場を変えた reports a reason for changing venue; it’s not an intention to make the repair happen. Tense alone doesn’t decide cause versus purpose. Preserve the source’s scope and don’t infer a different cause, such as noise or weather, from nearby vocabulary.",
       "example": "施設の修理のため、会場を変えた。",
       "translation": "The venue was changed because of repairs to the facility.",
       "examples": [
@@ -392,7 +392,7 @@
       "id": "n3-u16-g-compare",
       "title": "Compare the same quantity and the same period",
       "formation": "Retrieve AはBほど…ない and AよりBのほうが…. State the measured quantity, dates and population before comparing.",
-      "explanation": "A tally of last year’s visitors is a count of completed visits. This year’s lecture capacity is a limit, not actual attendance, and an application count is not an attendance count either. Compare like quantities before describing increase/decrease. A smaller capacity does not prove fewer people attended this year.",
+      "explanation": "A tally of last year’s visitors is a count of completed visits. This year’s lecture capacity is a limit, not actual attendance, and an application count is not an attendance count either. Compare like quantities before describing increase/decrease. A smaller capacity doesn’t prove fewer people attended this year.",
       "example": "去年の午後の人数は、午前ほど多くなかった。",
       "translation": "Last year’s afternoon count was not as large as its morning count.",
       "examples": [
@@ -432,7 +432,7 @@
         },
         {
           "ja": "{講座|こうざ}に{参加|さんか}しないなら、{応募|おうぼ}する{必要|ひつよう}はありません。",
-          "en": "If you will not take part in the lecture, you do not need to apply."
+          "en": "If you will not take part in the lecture, you don’t need to apply."
         }
       ],
       "mistake": "Keep the prior-admission context. By five is a deadline, not from five or until five continuously.",
@@ -460,17 +460,12 @@
         "n3-u16-w-dekigoto",
         "n3-u16-w-toukei",
         "n3-u16-w-zouka",
-        "n3-u16-w-genshou",
         "n3-u16-w-chiiki",
         "n3-u16-w-koukyou",
         "n3-u16-w-shisetsu",
         "n3-u16-w-shiyakusho",
         "n3-u13-w-daihon",
         "n3-u13-w-roudoku",
-        "n3-u13-w-kaishaku",
-        "n3-u14-w-shiyou",
-        "n3-u14-w-souon",
-        "n3-u14-w-seihin",
         "n3-u15-w-koma",
         "n3-u15-w-fukidashi",
         "n3-u15-w-koukaon"
@@ -498,7 +493,7 @@
           "speaker": "Satō",
           "line": "{報道|ほうどう}の{要点|ようてん}は{土曜日|どようび}の{場所|ばしょ}と{時間|じかん}です。{過去|かこ}の{出来事|できごと}と、これからの{予定|よてい}を{分|わ}けましょう。",
           "romaji": "Hōdō no yōten wa doyōbi no basho to jikan desu. Kako no dekigoto to, kore kara no yotei o wakemashō.",
-          "meaning": "The report’s main details are Saturday’s location and time. Let us separate past events from future arrangements."
+          "meaning": "The report’s main details are Saturday’s location and time. Let’s separate past events from future arrangements."
         },
         {
           "speaker": "You",
@@ -508,9 +503,9 @@
         },
         {
           "speaker": "Satō",
-          "line": "{解釈|かいしゃく}の{前|まえ}に、{本文|ほんぶん}を{確|たし}かめてください。{製品|せいひん}の{仕様|しよう}を{読|よ}んだときと{同|おな}じです。{騒音|そうおん}が{変更|へんこう}の{理由|りゆう}とは{書|か}いてありません。",
-          "romaji": "Kaishaku no mae ni, honbun o tashikamete kudasai. Seihin no shiyō o yonda toki to onaji desu. Sōon ga henkō no riyū to wa kaite arimasen.",
-          "meaning": "Check the body before interpreting, just as with product specifications. It does not say noise was the reason for the change."
+          "line": "{修理|しゅうり}で{使|つか}えなくなったんですね。{新|あたら}しい{会場|かいじょう}は{駅|えき}から{近|ちか}いですか？",
+          "romaji": "Shūri de tsukaenaku natta n desu ne. Atarashii kaijō wa eki kara chikai desu ka?",
+          "meaning": "So it’s unavailable because of repairs. Is the new venue near the station?"
         },
         {
           "speaker": "You",
@@ -522,19 +517,19 @@
           "speaker": "Satō",
           "line": "{一昨年|おととし}の{同|おな}じイベントは{四十人|よんじゅうにん}でした。{去年|きょねん}は{十人|じゅうにん}{増加|ぞうか}しましたが、{今年|ことし}も{増|ふ}えるとは{限|かぎ}りません。",
           "romaji": "Ototoshi no onaji ibento wa yonjūnin deshita. Kyonen wa jūnin zōka shimashita ga, kotoshi mo fueru to wa kagirimasen.",
-          "meaning": "The same event had forty visitors the year before. Last year increased by ten, but that does not mean this year will increase too."
+          "meaning": "The same event had forty visitors the year before. Last year increased by ten, but that doesn’t mean this year will increase too."
         },
         {
           "speaker": "You",
-          "line": "{増加|ぞうか}か{減少|げんしょう}かを{言|い}うには、{同|おな}じ{範囲|はんい}の{数字|すうじ}を{比|くら}べるんですね。{見出|みだ}しだけで{判断|はんだん}しません。",
-          "romaji": "Zōka ka genshō ka o iu ni wa, onaji han'i no sūji o kuraberun desu ne. Midashi dake de handan shimasen.",
-          "meaning": "To say increase or decrease, we compare figures with the same scope. I will not judge from the headline alone."
+          "line": "{去年|きょねん}は{合計|ごうけい}{五十人|ごじゅうにん}ですね。{今年|ことし}も{大勢|おおぜい}{来|く}るかな。",
+          "romaji": "Kyonen wa gōkei gojūnin desu ne. Kotoshi mo ōzei kuru kana.",
+          "meaning": "Fifty altogether last year, then. I wonder if many people will come this year too."
         },
         {
           "speaker": "Satō",
-          "line": "その{通|とお}りです。{土曜日|どようび}の{予定|よてい}は、まだ{実施|じっし}された{出来事|できごと}ではありません。{条件|じょうけん}は{表|ひょう}でも{確認|かくにん}しましょう。",
-          "romaji": "Sono tōri desu. Doyōbi no yotei wa, mada jisshi sareta dekigoto de wa arimasen. Jōken wa hyō de mo kakunin shimashō.",
-          "meaning": "That is right. Saturday’s arrangement is not an event that has already happened. Check the conditions in the table too."
+          "line": "{楽|たの}しみですね。{土曜日|どようび}の{予定|よてい}を、{表|ひょう}でも{確認|かくにん}しましょう。",
+          "romaji": "Tanoshimi desu ne. Doyōbi no yotei o, hyō de mo kakunin shimashō.",
+          "meaning": "I’m looking forward to it. Let’s check Saturday’s schedule in the table too."
         }
       ]
     },
@@ -553,7 +548,6 @@
         "n3-u16-w-oubo",
         "n3-u16-w-toujitsu",
         "n3-u16-w-zenjitsu",
-        "n3-u16-w-yokujitsu",
         "n3-u16-w-yuuryou",
         "n3-u16-w-muryou",
         "n3-u16-w-senchaku",
@@ -563,12 +557,9 @@
         "n3-u16-w-uchiwake",
         "n3-u13-w-daihon",
         "n3-u13-w-roudoku",
-        "n3-u13-w-kaishaku",
-        "n3-u14-w-kakaku",
         "n3-u15-w-koma",
         "n3-u15-w-fukidashi",
         "n3-u15-w-haikei",
-        "n3-u15-w-yohaku",
         "n3-u15-w-jitto"
       ],
       "lines": [
@@ -598,9 +589,9 @@
         },
         {
           "speaker": "Misaki",
-          "line": "{翌日|よくじつ}の{日曜日|にちようび}は{開催|かいさい}しないよ。{価格|かかく}だけでなく、{時間|じかん}と{条件|じょうけん}も{読|よ}もう。",
-          "romaji": "Yokujitsu no nichiyōbi wa kaisai shinai yo. Kakaku dake de naku, jikan to jōken mo yomō.",
-          "meaning": "It will not be held on Sunday, the next day. Let us read not only the price but also the time and conditions."
+          "line": "{日曜日|にちようび}はやってないんだね。じゃ、{土曜日|どようび}の{朝|あさ}に{行|い}こう。",
+          "romaji": "Nichiyōbi wa yattenai n da ne. Ja, doyōbi no asa ni ikō.",
+          "meaning": "It’s not on Sunday. Let’s go Saturday morning, then."
         },
         {
           "speaker": "You",
@@ -610,9 +601,9 @@
         },
         {
           "speaker": "Misaki",
-          "line": "{今年|ことし}の{講座|こうざ}の{定員|ていいん}も{二十人|にじゅうにん}だけど、{去年|きょねん}の{来場|らいじょう}{者|しゃ}とは{別|べつ}だね。{今|いま}は{減少|げんしょう}したとは{言|い}えないよ。",
-          "romaji": "Kotoshi no kōza no teiin mo nijūnin da kedo, kyonen no raijōsha to wa betsu da ne. Ima wa genshō shita to wa ienai yo.",
-          "meaning": "This year’s lecture capacity is also twenty, but it is different from last year’s visitor count. We cannot now say attendance decreased."
+          "line": "{今年|ことし}の{講座|こうざ}は{定員|ていいん}{二十人|にじゅうにん}か。{去年|きょねん}の{来場|らいじょう}{者|しゃ}は{五十人|ごじゅうにん}だから、{申|もう}し{込|こ}むなら{早|はや}い{方|ほう}がよさそう。",
+          "romaji": "Kotoshi no kōza wa teiin nijūnin ka. Kyonen no raijōsha wa gojūnin da kara, mōshikomu nara hayai hō ga yosasō.",
+          "meaning": "Only twenty places for this year’s lecture? There were fifty visitors last year, so it sounds best to apply early."
         },
         {
           "speaker": "You",
@@ -622,15 +613,15 @@
         },
         {
           "speaker": "Misaki",
-          "line": "{展示|てんじ}には{応募|おうぼ}がいらないね。{余白|よはく}や{台本|だいほん}の{解釈|かいしゃく}も{考|かんが}えよう。{前後|ぜんご}を{読|よ}む{練習|れんしゅう}になるよ。",
-          "romaji": "Tenji ni wa ōbo ga iranai ne. Yohaku ya daihon no kaishaku mo kangaeyō. Zengo o yomu renshū ni naru yo.",
-          "meaning": "The exhibition needs no application. Let us think about blank space and script interpretation too. It will be practice reading context."
+          "line": "じゃ、{私|わたし}も{展示|てんじ}にする。{応募|おうぼ}はいらないし、{漫画|まんが}の{背景|はいけい}もゆっくり{見|み}たいな。",
+          "romaji": "Ja, watashi mo tenji ni suru. Ōbo wa iranai shi, manga no haikei mo yukkuri mitai na.",
+          "meaning": "I’ll pick the exhibition too. We don’t need to apply, and I want time to look at the comic backgrounds."
         },
         {
           "speaker": "You",
-          "line": "まだ{木曜日|もくようび}だから、{当日|とうじつ}に{行|い}ったわけではないね。{今日|きょう}は{条件|じょうけん}を{読|よ}んで、{展示|てんじ}を{選|えら}んだだけだ。",
-          "romaji": "Mada mokuyōbi da kara, tōjitsu ni itta wake de wa nai ne. Kyō wa jōken o yonde, tenji o eranda dake da.",
-          "meaning": "It is still Thursday, so I have not attended on the event day. Today I only read the conditions and chose the exhibition."
+          "line": "{今日|きょう}はまだ{木曜日|もくようび}だね。{土曜日|どようび}が{待|ま}ち{遠|どお}しいな。{九時|くじ}に{会場|かいじょう}の{前|まえ}で{会|あ}おう。",
+          "romaji": "Kyō wa mada mokuyōbi da ne. Doyōbi ga machidōshii na. Kuji ni kaijō no mae de aō.",
+          "meaning": "It’s only Thursday. I can’t wait for Saturday. Let’s meet outside the venue at nine."
         }
       ]
     }
@@ -717,7 +708,7 @@
         {
           "text": "という",
           "kana": "という",
-          "meaning": "it is reported; quotation"
+          "meaning": "it’s reported; quotation"
         },
         {
           "text": "によると",
@@ -727,7 +718,7 @@
         {
           "text": "変わらない",
           "kana": "かわらない",
-          "meaning": "does not change"
+          "meaning": "doesn’t change"
         },
         {
           "text": "そうだ",
@@ -767,7 +758,7 @@
         {
           "text": "しない",
           "kana": "しない",
-          "meaning": "do not hold here"
+          "meaning": "don’t hold here"
         },
         {
           "text": "三十人",
@@ -869,9 +860,7 @@
       "lesson": "n3-u16-lesson-1",
       "words": [
         "n3-u16-w-honbun",
-        "n3-u16-w-shisetsu",
-        "n3-u14-w-souon",
-        "n3-u14-w-shiyou"
+        "n3-u16-w-shisetsu"
       ],
       "skill": "listening",
       "dialogue": "n3-u16-d-news",
@@ -882,7 +871,7 @@
         "A decrease in this year’s attendance"
       ],
       "answer": 0,
-      "explain": "The body gives repairs as the cause; Satō explicitly says noise was not stated."
+      "explain": "The article gives repairs to the public facility as the reason for changing venues."
     },
     {
       "id": "n3-u16-x-time",
@@ -890,8 +879,7 @@
       "lesson": "n3-u16-lesson-1",
       "words": [
         "n3-u16-w-sokuhou",
-        "n3-u16-w-dekigoto",
-        "n3-u13-w-kaishaku"
+        "n3-u16-w-dekigoto"
       ],
       "skill": "listening",
       "dialogue": "n3-u16-d-news",
@@ -909,9 +897,7 @@
       "type": "dialogue",
       "lesson": "n3-u16-lesson-1",
       "words": [
-        "n3-u16-w-toukei",
-        "n3-u14-w-seihin",
-        "n3-u13-w-kaishaku"
+        "n3-u16-w-toukei"
       ],
       "skill": "listening",
       "dialogue": "n3-u16-d-news",
@@ -1000,7 +986,7 @@
         "コマと{吹|ふ}き{出|だ}しを",
         "{読|よ}めるそうです。"
       ],
-      "explain": "The source report stays attached to the future opportunity; it does not say the learner has already attended."
+      "explain": "The source report stays attached to the future opportunity; it doesn’t say the learner has already attended."
     },
     {
       "id": "n3-u16-x-choose",
@@ -1021,7 +1007,7 @@
         "Sunday’s session at a new venue"
       ],
       "answer": 0,
-      "explain": "Bao chooses the exhibition; it is still Thursday."
+      "explain": "Bao chooses the exhibition; it’s still Thursday."
     },
     {
       "id": "n3-u16-x-deadline",
@@ -1050,19 +1036,18 @@
       "lesson": "n3-u16-lesson-2",
       "words": [
         "n3-u16-w-teiin",
-        "n3-u16-w-goukei",
-        "n3-u13-w-kaishaku"
+        "n3-u16-w-goukei"
       ],
       "skill": "listening",
       "dialogue": "n3-u16-d-plan",
-      "prompt": "Why does the capacity of twenty not establish an attendance decrease?",
+      "prompt": "Why does Misaki suggest applying early?",
       "options": [
-        "Capacity is a limit; last year’s fifty is completed attendance",
-        "Twenty is always greater than fifty",
-        "The table has no activity names"
+        "This year’s lecture has only twenty places",
+        "The lecture has no deadline",
+        "The exhibition requires an application"
       ],
       "answer": 0,
-      "explain": "Misaki explicitly distinguishes the quantities and the periods."
+      "explain": "Misaki notes the twenty-place capacity and says 申し込むなら早い方がよさそう."
     },
     {
       "id": "n3-u16-x-decision",
@@ -1099,7 +1084,7 @@
         "の間に"
       ],
       "answer": 0,
-      "explain": "までに marks the latest completion time; from five or during five does not give this deadline."
+      "explain": "までに marks the latest completion time; from five or during five doesn’t give this deadline."
     },
     {
       "id": "n3-u16-x-reply-condition",
@@ -1139,7 +1124,7 @@
         "{整理券|せいりけん}さえあれば",
         "{入|はい}れます。"
       ],
-      "explain": "This sufficient-condition statement retains the registered-name context; it does not grant unlimited unregistered entry."
+      "explain": "This sufficient-condition statement retains the registered-name context; it doesn’t grant unlimited unregistered entry."
     },
     {
       "id": "n3-u16-x-read-match",
@@ -1214,7 +1199,7 @@
       "reading": "n3-u16-reading",
       "prompt": "What changed in Monday’s decision, according to Thursday’s article?",
       "options": [
-        "The venue; the scheduled time did not change",
+        "The venue; the scheduled time didn’t change",
         "The scheduled time; the venue stayed fixed",
         "The past visitor tally; all activities became free"
       ],
@@ -1231,5 +1216,9 @@
       "deadline and sufficient conditions"
     ],
     "prompt": "Optionally read a current notice from your own media. Record its source, date, event time, conditions and what is still unknown."
+  },
+  "recycling": {
+    "target": 0.25,
+    "reason": "Friends plan an exhibition visit; timetable details stay useful without repeating headphone specifications and study-method reminders."
   }
 }

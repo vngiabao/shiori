@@ -44,6 +44,9 @@ for pack in read('src/generated/packs.json'):
             assert .01<np.max(np.abs(pcm))<.99 and abs(len(pcm)/sr-take['seconds'])<1/sr
             count+=1
 assert count==len(records)
+for row in p.get('historicalRecords',[]):
+    path=root/'public'/row['url'].lstrip('/')
+    assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'], ('Historical dialogue changed',row['dialogue'],row['index'])
 report={'dialogueTakes':count,'speakers':sorted({r['speaker'] for r in p['records']}),'configuredSpeakers':list(config['speakers']),
  'allSpeakerTextMappingsValid':True,'phonemeSequencesUnchanged':True,
  'clearLessonManifestUnchanged':True,'signalAndHashesValid':True,'humanListeningReviewed':False}

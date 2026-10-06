@@ -656,7 +656,7 @@
       "id": "n3-u11-g-permission",
       "title": "Ask to do the action yourself",
       "formation": "Causative te-form + ください: 説明する→説明させてください; 読む→読ませてください; 見る→見させてください. The actor is identified in context; 私に can make the intended doer explicit.",
-      "explanation": "Retrieve N4 causative formation in a real request. 説明させてください asks the organizer to let you explain. 説明してください asks the listener to explain. The request comes before the response, so it does not itself establish permission. Polite wording can still sound direct; a permission question may better fit a formal request.",
+      "explanation": "Retrieve N4 causative formation in a real request. 説明させてください asks the organizer to let you explain. 説明してください asks the listener to explain. The request comes before the response, so it doesn’t itself establish permission. Polite wording can still sound direct; a permission question may better fit a formal request.",
       "example": "明日の練習で、私に要約を説明させてください。",
       "translation": "Please let me explain the summary at tomorrow’s practice.",
       "examples": [
@@ -725,7 +725,7 @@
           "en": "Only one copy was permitted."
         }
       ],
-      "mistake": "Keep the object を and doer に in the transitive pattern. A permission to view or make one copy does not mean permission to distribute it.",
+      "mistake": "Keep the object を and doer に in the transitive pattern. A permission to view or make one copy doesn’t mean permission to distribute it.",
       "lessons": [
         "n3-u11-lesson-2"
       ]
@@ -767,19 +767,14 @@
       "scene": "Tuesday afternoon, Bao asks Mori, the organizer, for a Wednesday practice slot. The administrator has already approved limited access to an anonymized inspection record; Mori conveys the limits.",
       "words": [
         "n3-u11-w-shoudaku",
-        "n3-u11-w-shiji",
         "n3-u11-w-etsuran",
         "n3-u11-w-fukusha",
-        "n3-u11-w-mochidasu",
         "n3-u11-w-kengen",
         "n3-u08-w-youyaku",
         "n3-u08-w-shouryaku",
-        "n3-u08-w-kokorokubari",
         "n3-u09-w-setsubi",
         "n3-u09-w-tenken",
         "n3-u09-w-youin",
-        "n3-u09-w-tema",
-        "n3-u10-w-maikai",
         "n3-u10-w-nikka",
         "n3-u10-w-hindo"
       ],
@@ -792,15 +787,15 @@
         },
         {
           "speaker": "Mori",
-          "line": "はい。{主催者|しゅさいしゃ}として{承諾|しょうだく}します。{水曜日|すいようび}の{午後|ごご}{三時|さんじ}から、{十分|じゅっぷん}です。",
-          "romaji": "Hai. Shusaisha to shite shōdaku shimasu. Suiyōbi no gogo sanji kara, juppun desu.",
-          "meaning": "Yes. As organizer, I agree. You have ten minutes from three on Wednesday afternoon."
+          "line": "いいですよ。{水曜日|すいようび}の{午後|ごご}{三時|さんじ}から、{十分|じゅっぷん}でお{願|ねが}いします。",
+          "romaji": "Ii desu yo. Suiyōbi no gogo sanji kara, juppun de onegai shimasu.",
+          "meaning": "Of course. Wednesday at three, for ten minutes, please."
         },
         {
           "speaker": "You",
           "line": "ありがとうございます。{設備|せつび}の{不具合|ふぐあい}の{要因|よういん}と、{連絡|れんらく}の{頻度|ひんど}を{省略|しょうりゃく}しないようにします。",
           "romaji": "Arigatō gozaimasu. Setsubi no fuguai no yōin to, renraku no hindo o shōryaku shinai yō ni shimasu.",
-          "meaning": "Thank you. I will try not to leave out the factors behind the equipment problem or the frequency of contact."
+          "meaning": "Thank you. I’ll try not to leave out the factors behind the equipment problem or the frequency of contact."
         },
         {
           "speaker": "Mori",
@@ -822,27 +817,27 @@
         },
         {
           "speaker": "You",
-          "line": "{外|そと}へ{持|も}ち{出|だ}さず、{撮影|さつえい}も{控|ひか}えます。{確認|かくにん}の{手間|てま}は{省|はぶ}きません。",
-          "romaji": "Soto e mochidasazu, satsuei mo hikaemasu. Kakunin no tema wa habukimasen.",
-          "meaning": "I will not take it outside and will refrain from photographing it. I will not skip the checking effort."
+          "line": "{分|わ}かりました。{外|そと}には{持|も}ち{出|だ}さず、{撮影|さつえい}も{控|ひか}えます。",
+          "romaji": "Wakarimashita. Soto ni wa mochidasazu, satsuei mo hikaemasu.",
+          "meaning": "Understood. I’ll keep it in the room and won’t take photographs."
         },
         {
           "speaker": "Mori",
           "line": "この{記録|きろく}は{非公開|ひこうかい}です。{私|わたし}には{公開|こうかい}を{決|き}める{権限|けんげん}がないので、{配布|はいふ}はしないでください。",
           "romaji": "Kono kiroku wa hikōkai desu. Watashi ni wa kōkai o kimeru kengen ga nai node, haifu wa shinai de kudasai.",
-          "meaning": "This record is not public. I do not have authority to decide its release, so please do not distribute it."
+          "meaning": "This record is not public. I don’t have authority to decide its release, so please don’t distribute it."
         },
         {
           "speaker": "You",
-          "line": "{分|わ}かりました。{毎回|まいかい}{範囲|はんい}を{確認|かくにん}し、{指示|しじ}に{従|したが}います。",
-          "romaji": "Wakarimashita. Maikai han’i o kakunin shi, shiji ni shitagaimasu.",
-          "meaning": "Understood. I will check the scope each time and follow the instructions."
+          "line": "はい。{資料|しりょう}はここに{戻|もど}せばいいですか？",
+          "romaji": "Hai. Shiryō wa koko ni modoseba ii desu ka?",
+          "meaning": "Should I put the papers back here afterward?"
         },
         {
           "speaker": "Mori",
-          "line": "{相手|あいて}への{心|こころ}{配|くば}りが{伝|つた}わりますね。では、{明日|あした}の{説明|せつめい}をお{願|ねが}いします。",
-          "romaji": "Aite e no kokorokubari ga tsutawarimasu ne. Dewa, ashita no setsumei o onegai shimasu.",
-          "meaning": "That conveys consideration for others. I look forward to your explanation tomorrow."
+          "line": "はい、ここで{大丈夫|だいじょうぶ}です。では、{明日|あした}の{説明|せつめい}をお{願|ねが}いします。",
+          "romaji": "Hai, koko de daijōbu desu. De wa, ashita no setsumei o onegai shimasu.",
+          "meaning": "Yes, here is fine. I’m looking forward to your explanation tomorrow."
         }
       ]
     },
@@ -860,17 +855,11 @@
         "n3-u11-w-haifu",
         "n3-u11-w-hokan",
         "n3-u11-w-gijiroku",
-        "n3-u11-w-doui",
         "n3-u08-w-shouryaku",
-        "n3-u08-w-kokorokubari",
         "n3-u08-w-youyaku",
         "n3-u09-w-tenken",
         "n3-u09-w-setsubi",
-        "n3-u09-w-youin",
-        "n3-u10-w-maikai",
-        "n3-u10-w-renzoku",
-        "n3-u10-w-kankaku",
-        "n3-u10-w-kyuusoku"
+        "n3-u09-w-youin"
       ],
       "lines": [
         {
@@ -913,25 +902,25 @@
           "speaker": "Misaki",
           "line": "{議事録|ぎじろく}にも{書|か}こう。ケンタは{先週|せんしゅう}、{受付|うけつけ}で{一時間|いちじかん}も{待|ま}たされたと{話|はな}していたよ。",
           "romaji": "Gijiroku ni mo kakō. Kenta wa senshū, uketsuke de ichijikan mo matasareta to hanashite ita yo.",
-          "meaning": "Let us record it in the minutes too. Kenta said he was made to wait a whole hour at reception last week."
+          "meaning": "Let’s record it in the minutes too. Kenta said he was made to wait a whole hour at reception last week."
         },
         {
           "speaker": "You",
-          "line": "{三日|みっか}{連続|れんぞく}で{説明|せつめい}を{省略|しょうりゃく}した{話|はなし}とは、{別|べつ}の{出来事|できごと}ですね。",
-          "romaji": "Mikka renzoku de setsumei o shōryaku shita hanashi to wa, betsu no dekigoto desu ne.",
-          "meaning": "That is a separate event from his account of leaving explanations out for three consecutive days."
+          "line": "{一時間|いちじかん}もですか。ずいぶん{待|ま}たされたんですね。",
+          "romaji": "Ichijikan mo desu ka. Zuibun matasareta n desu ne.",
+          "meaning": "A whole hour? They kept him waiting a long time."
         },
         {
           "speaker": "Misaki",
-          "line": "うん。{休息|きゅうそく}の{間隔|かんかく}も{考|かんが}えたいね。{毎回|まいかい}、{無理|むり}のない{予定|よてい}にしよう。",
-          "romaji": "Un. Kyūsoku no kankaku mo kangaetai ne. Maikai, muri no nai yotei ni shiyō.",
-          "meaning": "Yes. I would like to think about the spacing of breaks too. Let us make each schedule manageable."
+          "line": "うん。{予定|よてい}より{遅|おそ}くなって、お{昼|ひる}も{食|た}べられなかったんだって。",
+          "romaji": "Un. Yotei yori osoku natte, ohiru mo taberarenakatta n datte.",
+          "meaning": "Yeah. It ran so late he couldn’t even have lunch, apparently."
         },
         {
           "speaker": "You",
-          "line": "{相手|あいて}への{心|こころ}{配|くば}りについて、{考|かんが}えさせられました。{今後|こんご}も{同意|どうい}と{範囲|はんい}を{確認|かくにん}します。",
-          "romaji": "Aite e no kokorokubari ni tsuite, kangae saseraremashita. Kongo mo dōi to han’i o kakunin shimasu.",
-          "meaning": "It made me think about consideration for others. I will continue checking consent and its scope."
+          "line": "それは{大変|たいへん}でしたね。{待|ま}つ{人|ひと}のことも{考|かんが}えさせられました。",
+          "romaji": "Sore wa taihen deshita ne. Matsu hito no koto mo kangaesaseraremashita.",
+          "meaning": "That sounds rough. It made me think about the people left waiting."
         }
       ]
     }
@@ -1413,7 +1402,6 @@
       "type": "dialogue",
       "lesson": "n3-u11-lesson-2",
       "words": [
-        "n3-u10-w-renzoku",
         "n3-u08-w-shouryaku"
       ],
       "skill": "listening",
@@ -1482,7 +1470,7 @@
         "はい。{使用|しよう}{後|ご}に、{保管|ほかん}する{場所|ばしょ}へ{戻|もど}しました。"
       ],
       "answer": 2,
-      "explain": "The first confirms the requested completed return; permitted reading does not remove the return instruction."
+      "explain": "The first confirms the requested completed return; permitted reading doesn’t remove the return instruction."
     },
     {
       "id": "n3-u11-x-order-past",
@@ -1512,7 +1500,7 @@
         "n3-u11-w-etsuran"
       ],
       "skill": "recall",
-      "context": "Speak formally to the administrator who controls access. Ask permission for YOU to read the record; do not ask them to read it.",
+      "context": "Speak formally to the administrator who controls access. Ask permission for YOU to read the record; don’t ask them to read it.",
       "line": "{記録|きろく}を{読|よ}みたいです。",
       "options": [
         "{記録|きろく}を{読|よ}ませていただけませんか。",

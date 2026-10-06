@@ -27,6 +27,9 @@ export function validateCourseSequence(packs: Pack[]) {
   const reviewedForms = inflections.forms as Record<string,string[]>;
   const wordForms = new Map(packs.flatMap(p => p.words).map(w => [w.id, [w.text, w.kana, ...(reviewedForms[w.text] ?? [])]]));
   for (const p of packs) {
+    const exception = p.recycling;
+    const validException = exception && Number.isFinite(exception.target) && exception.target > 0 && exception.target <= .30 && typeof exception.reason === "string" && exception.reason.trim().length >= 40;
+    if (exception && !validException) errors.push(`${p.id}: recycling exception needs a target in (0, 30%] and a specific editorial reason`);
     for (const r of p.readings ?? []) {
       const index=p.lessons.findIndex(l => l.id === r.lesson);
       const taught=new Set(p.lessons.slice(0,index+1).flatMap(l => l.words));
@@ -49,8 +52,10 @@ export function validateCourseSequence(packs: Pack[]) {
           if (!wordForms.get(id)?.some(form => usage.text.includes(form))) errors.push(`${usage.id}: recycled reference ${id} absent from task or scene`);
         const refs = [...(p.dialogues ?? []).flatMap(d => d.words ?? []), ...(p.exercises ?? []).flatMap(x => x.words)];
         const ratio = refs.length ? refs.filter(id => previous.has(id)).length/refs.length : 0;
-        if (ratio < .15) errors.push(`${p.id}: recent-unit recycling ${(ratio*100).toFixed(1)}% below 15%`);
-        else if (ratio < .30) warnings.push(`${p.id}: recent-unit recycling ${(ratio*100).toFixed(1)}% below 30% target`);
+        const target = validException ? exception.target : .30;
+        const minimum = Math.min(.15, target);
+        if (ratio < minimum) errors.push(`${p.id}: recent-unit recycling ${(ratio*100).toFixed(1)}% below ${(minimum*100).toFixed(1)}%`);
+        else if (ratio < target) warnings.push(`${p.id}: recent-unit recycling ${(ratio*100).toFixed(1)}% below ${(target*100).toFixed(1)}% target`);
       }
       units.push(p);
     }
