@@ -4,7 +4,22 @@ import { readFileSync } from "node:fs";
 
 const takes = JSON.parse(readFileSync("src/generated/dialogue-voices.json", "utf8"));
 
-test("the two N3 lessons use their own grammar and scenes, with valid recordings and supported reading", async ({ page }) => {
+for (const unit of [
+  {
+    id: "n3-u01", reading: "A week of changes and choices",
+    lessons: [
+      ["A change you can describe", "n3-u01-d-vlog", "An ability or routine has changed", "A deliberate goal: ために versus ように"],
+      ["Choose a purpose and a method", "n3-u01-d-purpose", "A deliberate goal: ために versus ように", "An ability or routine has changed"],
+    ],
+  },
+  {
+    id: "n3-u02", reading: "Two calls and a short break",
+    lessons: [
+      ["Before, during, and just after", "n3-u02-d-phone", "Locate an action in three stages", "Act before a useful state changes"],
+      ["Use the time while it lasts", "n3-u02-d-window", "Act before a useful state changes", "Locate an action in three stages"],
+    ],
+  },
+]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
     (window as any).played = [];
@@ -26,15 +41,12 @@ test("the two N3 lessons use their own grammar and scenes, with valid recordings
       } catch { failed.push(line.url); }
     }
     await ctx.close(); return failed;
-  }, [...takes["n3-u01-d-vlog"], ...takes["n3-u01-d-purpose"]]);
+  }, unit.lessons.flatMap(([, scene]) => takes[scene]));
   expect(audioFailures).toEqual([]);
   await page.getByRole("button", { name: "Start without an account" }).click();
   await page.getByRole("button", { name: "Open my first letter" }).click();
   await expect(page.getByRole("heading", { name: "Your next letter is ready." })).toBeVisible();
-  for (const [title, scene, allowed, absent] of [
-    ["A change you can describe", "n3-u01-d-vlog", "An ability or routine has changed", "A deliberate goal: ために versus ように"],
-    ["Choose a purpose and a method", "n3-u01-d-purpose", "A deliberate goal: ために versus ように", "An ability or routine has changed"],
-  ]) {
+  for (const [title, scene, allowed, absent] of unit.lessons) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");
     await page.locator(".course-lessons > div").filter({ hasText: title }).getByRole("button", { name: "Read", exact: true }).click();
@@ -64,8 +76,8 @@ test("the two N3 lessons use their own grammar and scenes, with valid recordings
     await page.reload();
     await page.getByRole("button", { name: "Texts", exact: false }).click();
     await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
-    const region = page.getByRole("region", { name: "A week of changes and choices" });
-    if (!(await region.isVisible())) await page.getByText("A week of changes and choices", { exact: true }).first().click();
+    const region = page.getByRole("region", { name: unit.reading });
+    if (!(await region.isVisible())) await page.getByText(unit.reading, { exact: true }).first().click();
     await expect(region).toBeVisible();
     await expect(region.locator("ruby")).toHaveCount(0);
     await region.getByRole("button", { name: /furigana/i }).click();
@@ -73,6 +85,6 @@ test("the two N3 lessons use their own grammar and scenes, with valid recordings
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
     await page.locator("h1").click();
-    await page.screenshot({ path: `output/n3-u01-reading-${theme}-${width}.png`, fullPage: true });
+    await page.screenshot({ path: `output/${unit.id}-reading-${theme}-${width}.png`, fullPage: true });
   }
 });

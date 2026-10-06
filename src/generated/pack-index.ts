@@ -44,4 +44,5 @@ import pack40 from "../../content/packs/n4-vocab-09.json";
 import pack41 from "../../content/packs/n4-vocab-10.json";
 import pack42 from "../../content/packs/n4-vocab-11.json";
 import pack43 from "../../content/packs/n3-u01.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20, pack21, pack22, pack23, pack24, pack25, pack26, pack27, pack28, pack29, pack30, pack31, pack32, pack33, pack34, pack35, pack36, pack37, pack38, pack39, pack40, pack41, pack42, pack43] as unknown as Pack[];
+import pack44 from "../../content/packs/n3-u02.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20, pack21, pack22, pack23, pack24, pack25, pack26, pack27, pack28, pack29, pack30, pack31, pack32, pack33, pack34, pack35, pack36, pack37, pack38, pack39, pack40, pack41, pack42, pack43, pack44] as unknown as Pack[];

@@ -41,3 +41,5 @@ Retrieved Bunpro’s full library and every paginated JLPT Sensei N3/N2/N1 inven
 `content/sources/grammar/n3-u01.json` records form-specific Bunpro and JLPT Sensei references for ようになる, ようにする, purpose ように and purpose ために. Earlier-level mappings are explicitly bridge instruction; purpose ように has a mapping disagreement, and cause ために is deferred. Every example and question in the unit is original.
 
 `content/sources/grammar/n3-u02.json` is a formation brief, not an authored unit. It distinguishes the three action stages with ところ, subjective recency with たばかり, and two uses of うちに. It forbids competing たところ / たばかり answers when both are defensible. The other advanced outline rows still need their form-specific checks; acquired inventories alone do not complete them.
+
+N3 unit 2 is now authored from its brief. Unit 3 has a form-specific brief in content/sources/grammar/n3-u03.json: appearance versus reported そう, inferential versus characteristic らしい, ようだ/みたい and conventional っぽい forms. It records the hearsay level disagreement and cautions against numerical certainty scales or ambiguous synonym contests. Unit 3 content is not yet authored.

@@ -44,3 +44,5 @@ Evidence rules are unchanged: each exercise records one attempt against its firs
 ## N3 instructional bridge, 6 October 2026
 
 N3 unit 1 separates two sixteen-word lessons. Grammar notes and scenes are bound to their own lesson, and the diary belongs to the second lesson. Earlier potential forms are prerequisites; changed ability and conscious effort receive explicit bridge instruction even though the editorial references label them N4. Purpose ように and ために are contrasted without pretending that every verb allows only one construction. A practice intention is not an achieved result. The 215-character diary is guided until the learner can read it without furigana or glosses. Two scenes use Violetto's existing cast deliveries; this remains one narrator, not independent native speakers.
+
+N3 unit 2 locates actions before/during/after and contrasts subjective recency with two functions of うちに. Recency is not measured by a fixed cutoff. Overlapping たところ/たばかり readings are not competing answers; connector retrieval explicitly states its form task. Diary support remains separate from unaided reading.
