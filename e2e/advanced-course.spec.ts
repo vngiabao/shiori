@@ -189,6 +189,14 @@ for (const unit of [
       ["A formal no and a possibility with conditions", "n2-u09-d-capacity", "Formal inability is still a refusal", "Hear a refusal in the complete exchange"],
     ],
   },
+  {
+    id: "n2-u10", reading: "The blue bookmark and an unfinished promise",
+    secondReading: "A bookshop where the bakery used to be",
+    lessons: [
+      ["A thought, a recollection and a narrative turn", "n2-u10-d-bookmark", "Identify the thinker, not just the quotation marks", "Track movement and change from the story’s viewpoint"],
+      ["Movement through a changing familiar place", "n2-u10-d-alley", "Track movement and change from the story’s viewpoint", "Recognise a narrator’s significant moment"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
