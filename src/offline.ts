@@ -2,6 +2,9 @@ import manifest from "./generated/audio.json";
 import baseline from "./generated/violetto-baseline.json";
 import emotions from "./generated/violetto-emotions.json";
 import auditions from "./generated/violetto-auditions.json";
+import teacher from "./generated/violetto-teacher.json";
+import dialogue from "./generated/dialogue-voices.json";
+import cast from "./generated/cast-auditions.json";
 
 /* Audio is cached the first time it plays (see vite.config.ts). This opt-in
    fills the same cache with every lesson clip, for study with no connection. */
@@ -10,6 +13,11 @@ export const lessonAudioUrls = () =>
   [
     ...new Set([
       ...Object.values(manifest as Record<string, string>),
+      ...teacher.map((line) => line.url),
+      ...cast.map(line => line.url),
+      ...Object.values(dialogue)
+        .flat()
+        .map((line) => line.url),
       ...Object.values(baseline as Record<string, { url: string }>).map(
         (c) => c.url,
       ),

@@ -1,0 +1,44 @@
+"""Audit every teacher mapping, phoneme sequence and native pitch offset."""
+import csv,hashlib,importlib.util,json,math,re
+from pathlib import Path
+import numpy as np,soundfile as sf
+root=Path(__file__).resolve().parent.parent
+spec=importlib.util.spec_from_file_location('voice',root/'scripts/render-japanese-voice.py')
+voice=importlib.util.module_from_spec(spec);spec.loader.exec_module(voice)
+def read(path):return json.loads((root/path).read_text(encoding='utf-8'))
+p=read('content/voices/teacher-provenance.json');lines=read('src/generated/violetto-teacher.json')
+assert p['styleId']==14 and p['modelSha256']==hashlib.sha256(voice.model_path.read_bytes()).hexdigest()
+assert p['authorSha256']==hashlib.sha256((root/'content/voices/reaction-lines.tsv').read_bytes()).hexdigest()
+assert len(lines)==len(p['records'])==100
+assert len({l['text'] for l in lines})==len({l['id'] for l in lines})==100
+indexed={r['id']:r for r in p['records']}
+for line in lines:
+    r=indexed[line['id']];d=line['delivery'];q=r['query']
+    assert line['text']==r['text'] and line['reading']==r['readingInput']
+    assert voice.plain(line['ruby'])==line['text']
+    assert re.sub(r'\{([^|{}]+)\|([^|{}]+)\}',r'\2',line['ruby'])==line['reading']
+    assert not re.search('[{}|]',line['reading'])
+    assert line['url']==r['url'] and line['sha256']==r['sha256']
+    assert .96<=d['speed']<=1.04 and abs(d['semitones'])<=.5
+    assert q['speed_scale']==d['speed'] and q['pitch_scale']==-.015
+    baseline=voice.s.create_audio_query(line['reading'],voice.style)
+    original=[m for a in baseline.accent_phrases for m in a.moras]
+    moras=[m for a in q['accent_phrases'] for m in a['moras']]
+    assert [(m.text,m.consonant,m.vowel) for m in original]==[(m['text'],m['consonant'],m['vowel']) for m in moras]
+    for before,after in zip(original,moras):
+        if before.pitch>0:
+            shift=(after['pitch']-before.pitch)*(2**q['pitch_scale'])*12/math.log(2)
+            assert abs(shift-d['semitones'])<.0001,(line['id'],shift)
+    path=root/'public'/line['url'].lstrip('/')
+    assert hashlib.sha256(path.read_bytes()).hexdigest()==line['sha256']
+    pcm,sr=sf.read(path)
+    assert sr==24000 and pcm.ndim==1 and np.isfinite(pcm).all()
+    assert .01<np.max(np.abs(pcm))<.99
+    assert abs(len(pcm)/sr-line['seconds'])<1/sr
+report={'teacherSentences':len(lines),'categories':sorted({l['category'] for l in lines}),
+ 'moods':sorted({l['mood'] for l in lines}),'allMappingsAndHashesValid':True,
+ 'nativePhonemeSequencesUnchanged':True,'pitchCentreSemitones':[-.5,.5],
+ 'speedScale':[min(l['delivery']['speed'] for l in lines),max(l['delivery']['speed'] for l in lines)],
+ 'humanListeningReviewed':False}
+(root/'output/teacher-audio-check.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8', newline='\n')
+print(json.dumps(report,indent=2))

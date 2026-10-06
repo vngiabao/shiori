@@ -12,4 +12,4 @@ for row in records:
     pcm=resample_poly(pcm,16000,sr).astype(np.float32)
     result=model.transcribe(pcm,language='ja',task='transcribe',temperature=0,condition_on_previous_text=False,fp16=torch.cuda.is_available())
     row['asr']=result['text'];print(row.get('precision',''),row['text'],'=>',row['asr'],flush=True)
-Path(sys.argv[1]).with_suffix('.asr.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+Path(sys.argv[1]).with_suffix('.asr.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')

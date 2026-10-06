@@ -67,3 +67,21 @@ recorded in jmdict-provenance.json; personal names are explicitly unverified.
 
 Supabase JavaScript SDK (@supabase/supabase-js): MIT license. Sync architecture
 adapted from this workspace's Chinese/Kiyo project; no hosted service connected.
+
+Violetto teacher library (October 2026): 100 original AI-assisted Japanese
+messages in `content/voices/reaction-lines.tsv`, with furigana, romaji and English
+translations. Character direction: `content/voices/teacher-persona.json`.
+Rendered locally with VOICEVOX Core 0.17.0, VVM 0.16.4, style 14;
+credit VOICEVOX:冥鳴ひまり. Source queries, delivery settings, model hash and
+individual WAV hashes: `content/voices/teacher-provenance.json`.
+No new mascot artwork was created for this pass. Native listening review
+remains pending; signal/phoneme checks are not pronunciation certification.
+
+Course dialogue deliveries: 98 speaker-specific takes rendered locally in the
+same VOICEVOX:冥鳴ひまり voice. Wording and Clear-mode recordings are unchanged.
+Character settings: `content/voices/dialogue-speakers.json`; recording queries,
+model and WAV hashes: `content/voices/dialogue-provenance.json`. The deliveries
+are acting directions, not measured emotion labels. Native listening review
+remains pending.
+
+Vocabulary source inventory (not yet installed as learner decks): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. No dictionary/exam examples are copied into new course units.

@@ -1,13 +1,13 @@
 # JMdict reading audit
 
-Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-05T18:24:08.259180+00:00).
+Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-06T00:22:30.745966+00:00).
 
-Subset: 222 → 222 forms. Every one of 428 course word records was examined.
-Results: 201 matched; 0 mismatched; 66 unmatched.
+Subset: 365 → 365 forms. Every one of 588 course word records was examined.
+Results: 351 matched; 0 mismatched; 76 unmatched.
 
 Matched means only that a dictionary spelling/reading pair exists. Unmatched does not mean incorrect: inflected forms and phrases may be absent from JMdict. Drills and names are counted separately. Course wording and readings were unchanged; optional lemma metadata was added.
 
-Kanji-bearing course records directly matched: 124. Additional course kanji stems supported through a matching lemma: 39. Stem evidence does not verify the full inflected form.
+Kanji-bearing course records directly matched: 251. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
 
 ## Reading mismatches
 
@@ -25,6 +25,16 @@ No mismatches among dictionary-mapped forms.
 - `how-much` (first-post.json): いくらですか — `いくらですか`.
 - `may-read` (first-post.json): 読んでもいいですか — `よんでもいいですか`.
 - `sou-desu-ka` (first-post.json): そうですか — `そうですか`.
+- `n4-u01-w-hatarakeru` (n4-u01.json): 働ける — `はたらける`.
+- `n4-u01-w-tsukureru` (n4-u01.json): 作れる — `つくれる`.
+- `n4-u01-w-temiru` (n4-u01.json): てみる — `てみる`.
+- `n4-u02-w-taradou` (n4-u02.json): たらどうですか — `たらどうですか`.
+- `n4-u03-w-teoku` (n4-u03.json): ておく — `ておく`.
+- `n4-u04-w-renraku` (n4-u04.json): 連絡する — `れんらくする`.
+- `n4-u05-w-junbi` (n4-u05.json): 準備する — `じゅんびする`.
+- `n4-u07-w-kazoku` (n4-u07.json): ご家族 — `ごかぞく`.
+- `n4-u08-w-haiken` (n4-u08.json): 拝見する — `はいけんする`.
+- `n4-u08-w-tsukainikui` (n4-u08.json): 使いにくい — `つかいにくい`.
 - `n5-u02-w-dou-desu-ka` (n5-u02.json): どうですか — `どうですか`.
 - `n5-u02-w-daijoubu` (n5-u02.json): 大丈夫です — `だいじょうぶです`.
 - `n5-u03-w-shimasu` (n5-u03.json): します — `します`.
@@ -89,6 +99,10 @@ No mismatches among dictionary-mapped forms.
 - `go`: lemma 行く / いく — matched; course relationship: not-established.
 - `wait`: lemma 待つ / まつ — matched; course relationship: not-established.
 - `may-read`: lemma 読む / よむ — matched; course relationship: not-established.
+- `n4-u01-w-hatarakeru`: lemma 働く / はたらく — matched; course relationship: kanji-stem-matched.
+- `n4-u01-w-tsukaeru`: lemma 使う / つかう — matched; course relationship: kanji-stem-matched.
+- `n4-u01-w-hanaseru`: lemma 話す / はなす — matched; course relationship: kanji-stem-matched.
+- `n4-u01-w-tsukureru`: lemma 作る / つくる — matched; course relationship: kanji-stem-matched.
 - `n5-u02-w-daijoubu`: lemma 大丈夫 / だいじょうぶ — matched; course relationship: kanji-stem-matched.
 - `n5-u03-w-benkyou`: lemma 勉強 / べんきょう — matched; course relationship: kanji-stem-matched.
 - `n5-u03-w-mimasu`: lemma 見る / みる — matched; course relationship: kanji-stem-matched.

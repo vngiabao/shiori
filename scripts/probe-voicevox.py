@@ -23,4 +23,4 @@ for style in [14,29]:
         target=out/f'voicevox-{style}-{i:02}.wav';target.write_bytes(s.synthesis(q,style))
         rows.append({'precision':f'voicevox-{style}','text':text,'path':str(target),'query':asdict(q)})
         print(style,text,flush=True)
-(out/'voicevox.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8')
+(out/'voicevox.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')

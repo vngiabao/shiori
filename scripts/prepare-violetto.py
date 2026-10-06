@@ -21,4 +21,4 @@ assets={}
 for key,line in roster['lines'].items():
     assets[key]=synth(line['text'],out/f'baseline-{key}.wav')
     print('Baseline',key,flush=True)
-(root/'src/generated/violetto-legacy-baseline.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2),encoding='utf-8')
+(root/'src/generated/violetto-legacy-baseline.json').write_text(json.dumps(assets,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')

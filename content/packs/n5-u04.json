@@ -609,9 +609,9 @@
       "dialogue": "n5-u04-d",
       "type": "truefalse",
       "skill": "listening",
-      "prompt": "The key was in the bag.",
+      "prompt": "The key is in the bag when you look for it.",
       "answer": false,
-      "explain": "中にはありません: not in the bag.",
+      "explain": "中にはありません: it's not in the bag. It's on the desk.",
       "words": [
         "n5-u04-w-kaban"
       ],

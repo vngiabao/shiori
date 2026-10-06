@@ -223,12 +223,12 @@
       "meaning": "May I come in?",
       "options": [
         "はい、どうぞ。",
-        "はい、{入|はい}ってください。ありがとう。",
+        "いいえ、{今|いま}はだめです。",
         "いいえ、どうぞ。",
         "{失礼|しつれい}します。"
       ],
       "answer": 0,
-      "explain": "はい、どうぞ: yes, go ahead.",
+      "explain": "はい、どうぞ: yes, go ahead. いいえ、今はだめです refuses, but you're happy for them to come in.",
       "words": [
         "n5-u06-w-haitte"
       ]
@@ -364,7 +364,7 @@
         "n5-u06-w-totte-wa"
       ],
       [
-        "n5-u06-w-koko",
+        "book",
         "n5-u03-w-ni",
         "name",
         "wo",

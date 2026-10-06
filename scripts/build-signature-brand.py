@@ -69,5 +69,5 @@ ET.ElementTree(icon).write(OUT/'shiori-violetto-icon.svg', encoding='utf-8', xml
     'conversion': 'VTracer 0.6.12, cubic Bezier paths, no embedded raster or external font',
     'settings': SETTINGS, 'pathsPerLockup': len(paths),
     'finishing': 'Remove two background regions; restore tiny neutral mouth and eye glints; unify lettering blue; inverse lettering warm white; cropped viewBox; same-face vector app icon',
-}, indent=2)+'\n', encoding='utf-8')
+}, indent=2)+'\n', encoding='utf-8', newline='\n')
 print(f'Created two transparent lockups ({len(paths)} paths each) and a vector app icon.')

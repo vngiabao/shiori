@@ -1,0 +1,717 @@
+{
+  "id": "n4-u02",
+  "title": "N4 · Unit 2",
+  "lesson": {
+    "title": "Hana's birthday",
+    "description": "Choose a gift, follow who gave what to whom, and distinguish a small budget from an unexpectedly high price.",
+    "canDo": "Follow a gift-planning message thread and explain who gave or received a present",
+    "minutes": 30
+  },
+  "words": [
+    [
+      "n4-u02-w-tanjoubi",
+      "{誕生日|たんじょうび}",
+      "tanjōbi",
+      "birthday",
+      "neutral",
+      "{明日|あした}はハナさんの{誕生日|たんじょうび}です。"
+    ],
+    [
+      "n4-u02-w-present",
+      "プレゼント",
+      "purezento",
+      "present; gift",
+      "neutral",
+      "プレゼントを{選|えら}びます。"
+    ],
+    [
+      "n4-u02-w-hana",
+      "{花|はな}",
+      "hana",
+      "flower",
+      "neutral",
+      "{花|はな}をあげます。"
+    ],
+    [
+      "n4-u02-w-saifu",
+      "{財布|さいふ}",
+      "saifu",
+      "wallet",
+      "neutral",
+      "この{財布|さいふ}が{欲|ほ}しいです。"
+    ],
+    [
+      "n4-u02-w-tebukuro",
+      "{手袋|てぶくろ}",
+      "tebukuro",
+      "gloves",
+      "neutral",
+      "{冬|ふゆ}に{手袋|てぶくろ}を{使|つか}います。"
+    ],
+    [
+      "n4-u02-w-okuru",
+      "{送|おく}る",
+      "okuru",
+      "to send",
+      "neutral",
+      "{花|はな}を{送|おく}ります。"
+    ],
+    [
+      "n4-u02-w-ageru",
+      "あげる",
+      "ageru",
+      "to give (to someone else)",
+      "neutral",
+      "ハナさんにプレゼントをあげます。"
+    ],
+    [
+      "n4-u02-w-kureru",
+      "くれる",
+      "kureru",
+      "to give (towards me or my side)",
+      "neutral",
+      "{友達|ともだち}が{本|ほん}をくれました。"
+    ],
+    [
+      "n4-u02-w-morau",
+      "もらう",
+      "morau",
+      "to receive",
+      "neutral",
+      "レンさんから{本|ほん}をもらいました。"
+    ],
+    [
+      "n4-u02-w-hoshii",
+      "{欲|ほ}しい",
+      "hoshii",
+      "wanted; to want a thing",
+      "neutral",
+      "{新|あたら}しい{財布|さいふ}が{欲|ほ}しいです。"
+    ],
+    [
+      "n4-u02-w-erabu",
+      "{選|えら}ぶ",
+      "erabu",
+      "to choose",
+      "neutral",
+      "{花|はな}を{選|えら}びます。"
+    ],
+    [
+      "n4-u02-w-yorokobu",
+      "{喜|よろこ}ぶ",
+      "yorokobu",
+      "to be pleased; to rejoice",
+      "neutral",
+      "ハナさんが{喜|よろこ}ぶかもしれません。"
+    ],
+    [
+      "n4-u02-w-niau",
+      "{似合|にあ}う",
+      "niau",
+      "to suit; to look good on",
+      "neutral",
+      "この{色|いろ}がハナさんに{似合|にあ}います。"
+    ],
+    [
+      "n4-u02-w-kamoshiremasen",
+      "かもしれません",
+      "kamoshiremasen",
+      "might; may",
+      "polite",
+      "{明日|あした}は{雨|あめ}かもしれません。"
+    ],
+    [
+      "n4-u02-w-taradou",
+      "たらどうですか",
+      "tara dō desu ka",
+      "why don't you…? (after a past-form stem)",
+      "polite",
+      "{花|はな}を{送|おく}ったらどうですか。"
+    ],
+    [
+      "n4-u02-w-shika",
+      "しか",
+      "shika",
+      "only (with a negative predicate)",
+      "neutral",
+      "{千円|せんえん}しかありません。"
+    ],
+    [
+      "n4-u02-w-yen",
+      "{円|えん}",
+      "en",
+      "yen",
+      "neutral",
+      "{千円|せんえん}です。"
+    ],
+    [
+      "n4-u02-w-ryoushin",
+      "{両親|りょうしん}",
+      "ryōshin",
+      "one's parents",
+      "neutral",
+      "{両親|りょうしん}からもらいました。"
+    ],
+    [
+      "n4-u02-w-kyonen",
+      "{去年|きょねん}",
+      "kyonen",
+      "last year",
+      "neutral",
+      "{去年|きょねん}は{本|ほん}をあげました。"
+    ],
+    [
+      "n4-u02-w-yosan",
+      "{予算|よさん}",
+      "yosan",
+      "budget",
+      "neutral",
+      "{予算|よさん}は{千円|せんえん}です。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n4-u02-g-gifts",
+      "title": "Follow the giver and receiver",
+      "formation": "Giver は/が + receiver に + thing を + あげる. Giver は/が + me/my side に + thing を + くれる. Receiver は/が + giver に/から + thing を + もらう.",
+      "explanation": "The verb chooses the viewpoint. 私はハナさんに本をあげました puts me as giver. ハナさんは私に本をくれました describes a gift coming towards me. 私はハナさんから本をもらいました makes me the receiver. くれる can also refer to a gift to someone on my side; the viewpoint must be clear. Use ordinary forms with friends, not to describe respectful giving to a superior.",
+      "example": "レンさんから本をもらいました。",
+      "translation": "I received a book from Ren.",
+      "examples": [
+        {
+          "ja": "{去年|きょねん}、ハナさんに{本|ほん}をあげました。",
+          "en": "Last year I gave Hana a book."
+        },
+        {
+          "ja": "ハナさんが{私|わたし}に{花|はな}をくれました。",
+          "en": "Hana gave me flowers."
+        },
+        {
+          "ja": "ハナさんは{両親|りょうしん}から{財布|さいふ}をもらいました。",
+          "en": "Hana received a wallet from her parents."
+        }
+      ],
+      "mistake": "If 私 is the subject of もらいました, I received something. Do not reverse the giver and receiver merely because both are people."
+    },
+    {
+      "id": "n4-u02-g-suggest",
+      "title": "Wanting, guessing and suggesting",
+      "formation": "Thing が + 欲しい. Plain form + かもしれません (noun / な-adjective: omit だ). Verb た-form + らどうですか.",
+      "explanation": "欲しい expresses the speaker's wish for a thing. Ask another person's wish rather than asserting it without evidence. かもしれません marks uncertainty: 花が好きかもしれません means they may like flowers. 送ったらどうですか suggests sending something; it is not a statement that the sending already happened. Suggestions can sound intrusive, so use them in an appropriate relationship.",
+      "example": "花を送ったらどうですか。",
+      "translation": "Why don't you send flowers?",
+      "examples": [
+        {
+          "ja": "ハナさんは{何|なに}が{欲|ほ}しいですか。",
+          "en": "What does Hana want? (a question about her wish)"
+        },
+        {
+          "ja": "{花|はな}が{好|す}きかもしれません。",
+          "en": "She might like flowers."
+        },
+        {
+          "ja": "レンさんに{聞|き}いたらどうですか。",
+          "en": "Why don't you ask Ren?"
+        }
+      ],
+      "mistake": "A guess needs かもしれません; it is not certain evidence. Use 送ったら, not 送るたら. 欲しい is for a thing; wanting to do something uses ～たい."
+    },
+    {
+      "id": "n4-u02-g-budget",
+      "title": "Only this much; as much as that",
+      "formation": "Number + しか + negative predicate (千円しかありません). Number + も + predicate (一万円もします).",
+      "explanation": "しか frames the amount as limited and requires a negative predicate, even though the English sentence is positive: I have only 1,000 yen. Number + も can emphasise an unexpectedly large amount: it costs as much as 10,000 yen. Ordinary number + あります states an amount without either evaluation.",
+      "example": "千円しかありません。",
+      "translation": "I have only 1,000 yen.",
+      "examples": [
+        {
+          "ja": "{予算|よさん}は{千円|せんえん}しかありません。",
+          "en": "We have a budget of only 1,000 yen."
+        },
+        {
+          "ja": "その{財布|さいふ}は{一万円|いちまんえん}もします。",
+          "en": "That wallet costs as much as 10,000 yen."
+        },
+        {
+          "ja": "{一週間|いっしゅうかん}に{一回|いっかい}しか{働|はたら}けません。",
+          "en": "I can work only once a week."
+        }
+      ],
+      "mistake": "千円しかあります is incorrect here: しか needs ありません. Number + も in the price example signals the speaker's judgement of the amount."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "n4-u02-d-plan",
+      "title": "Choosing the present",
+      "scene": "You and Ren plan Hana's birthday present. Money is limited, and neither person is sure what she wants.",
+      "words": [
+        "n4-u02-w-yosan",
+        "n4-u02-w-shika",
+        "n4-u02-w-tanjoubi",
+        "n4-u01-w-arubaito",
+        "n4-u01-w-hatarakeru",
+        "n5-u12-w-jugyou"
+      ],
+      "lines": [
+        {
+          "speaker": "Ren",
+          "line": "{明日|あした}はハナさんの{誕生日|たんじょうび}ですね。プレゼントはどうしますか。",
+          "romaji": "Ashita wa Hana-san no tanjōbi desu ne. Purezento wa dō shimasu ka.",
+          "meaning": "Tomorrow is Hana's birthday, isn't it? What shall we do about a present?"
+        },
+        {
+          "speaker": "You",
+          "line": "{予算|よさん}は{千円|せんえん}しかありません。アルバイトで{働|はたら}ける{時間|じかん}がまだあまりありませんから。",
+          "romaji": "Yosan wa sen'en shika arimasen. Arubaito de hatarakeru jikan ga mada amari arimasen kara.",
+          "meaning": "My budget is only 1,000 yen. I don't have much time to work at my part-time job yet."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{授業|じゅぎょう}もありますからね。{花|はな}をあげたらどうですか。",
+          "romaji": "Jugyō mo arimasu kara ne. Hana o agetara dō desu ka.",
+          "meaning": "You have classes too, after all. Why don't you give her flowers?"
+        },
+        {
+          "speaker": "You",
+          "line": "いいですね。ハナさんは{花|はな}が{好|す}きかもしれません。",
+          "romaji": "Ii desu ne. Hana-san wa hana ga suki kamoshiremasen.",
+          "meaning": "That's a good idea. Hana might like flowers."
+        },
+        {
+          "speaker": "Ren",
+          "line": "その{財布|さいふ}はどうですか。",
+          "romaji": "Sono saifu wa dō desu ka.",
+          "meaning": "How about that wallet?"
+        },
+        {
+          "speaker": "You",
+          "line": "{一万円|いちまんえん}もします。{私|わたし}の{予算|よさん}では{買|か}えません。",
+          "romaji": "Ichiman'en mo shimasu. Watashi no yosan de wa kaemasen.",
+          "meaning": "It costs as much as 10,000 yen. I can't buy it with my budget."
+        },
+        {
+          "speaker": "Ren",
+          "line": "では、{千円|せんえん}の{花|はな}を{選|えら}びましょう。",
+          "romaji": "Dewa, sen'en no hana o erabimashō.",
+          "meaning": "Then let's choose the 1,000-yen flowers."
+        }
+      ]
+    },
+    {
+      "id": "n4-u02-d-birthday",
+      "title": "At the birthday gathering",
+      "scene": "You give Hana flowers at Ren's café. She explains which gifts she received from different people.",
+      "words": [
+        "n4-u02-w-ageru",
+        "n4-u02-w-kureru",
+        "n4-u02-w-morau",
+        "n4-u01-w-hajimete",
+        "n4-u01-w-jikyuu",
+        "n5-u11-w-kondo"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "ハナさん、お{誕生日|たんじょうび}おめでとうございます。この{花|はな}、どうぞ。",
+          "romaji": "Hana-san, o-tanjōbi omedetō gozaimasu. Kono hana, dōzo.",
+          "meaning": "Happy birthday, Hana. These flowers are for you."
+        },
+        {
+          "speaker": "Hana",
+          "line": "ありがとうございます。{初|はじ}めて{花|はな}をもらいました。きれいですね。",
+          "romaji": "Arigatō gozaimasu. Hajimete hana o moraimashita. Kirei desu ne.",
+          "meaning": "Thank you. This is the first time I've received flowers. They're beautiful."
+        },
+        {
+          "speaker": "You",
+          "line": "レンさんからもプレゼントをもらいましたか。",
+          "romaji": "Ren-san kara mo purezento o moraimashita ka.",
+          "meaning": "Did you receive a present from Ren too?"
+        },
+        {
+          "speaker": "Hana",
+          "line": "はい。レンさんは{本|ほん}をくれました。{両親|りょうしん}からは{財布|さいふ}をもらいました。",
+          "romaji": "Hai. Ren-san wa hon o kuremashita. Ryōshin kara wa saifu o moraimashita.",
+          "meaning": "Yes. Ren gave me a book. I received a wallet from my parents."
+        },
+        {
+          "speaker": "You",
+          "line": "{私|わたし}もその{財布|さいふ}が{欲|ほ}しいです。{今度|こんど}、ほかのアルバイトを{探|さが}します。{時給|じきゅう}はもっと{高|たか}いほうがいいです。",
+          "romaji": "Watashi mo sono saifu ga hoshii desu. Kondo, hoka no arubaito o sagashimasu. Jikyū wa motto takai hō ga ii desu.",
+          "meaning": "I'd like that wallet too. Next time I'll look for another part-time job. I'd prefer higher hourly pay."
+        },
+        {
+          "speaker": "Hana",
+          "line": "{去年|きょねん}、ユイさんに{手袋|てぶくろ}をあげました。その{色|いろ}が{似合|にあ}っていました。",
+          "romaji": "Kyonen, Yui-san ni tebukuro o agemashita. Sono iro ga niatte imashita.",
+          "meaning": "Last year I gave Yui gloves. That colour suited her."
+        },
+        {
+          "speaker": "You",
+          "line": "そうですか。ユイさんも{喜|よろこ}んだかもしれませんね。",
+          "romaji": "Sō desu ka. Yui-san mo yorokonda kamoshiremasen ne.",
+          "meaning": "I see. Yui may have been pleased too."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n4-u02-reading",
+      "title": "Planning the birthday gift",
+      "genre": "message",
+      "paragraphs": [
+        "レン：ハナさんの{誕生日|たんじょうび}は{明日|あした}ですね。",
+        "あなた：{予算|よさん}は{千円|せんえん}しかありません。",
+        "レン：ハナさんに{花|はな}をあげたらどうですか。",
+        "あなた：いいですね。{花|はな}が{好|す}きかもしれません。",
+        "レン：{面接|めんせつ}の{後|あと}に{花|はな}を{選|えら}びましょう。",
+        "あなた：{明日|あした}は{授業|じゅぎょう}があります。{今日|きょう}なら{行|い}けます。",
+        "レン：では、{今日|きょう}の{午後|ごご}{三時|さんじ}にカフェで。"
+      ],
+      "glosses": [
+        {
+          "text": "あなた",
+          "kana": "あなた",
+          "meaning": "you; the learner's label in this thread"
+        },
+        {
+          "text": "しかありません",
+          "kana": "しかありません",
+          "meaning": "have only"
+        },
+        {
+          "text": "あげたらどうですか",
+          "kana": "あげたらどうですか",
+          "meaning": "why don't you give…?"
+        },
+        {
+          "text": "後",
+          "kana": "あと",
+          "meaning": "after"
+        },
+        {
+          "text": "選びましょう",
+          "kana": "えらびましょう",
+          "meaning": "let's choose"
+        },
+        {
+          "text": "行けます",
+          "kana": "いけます",
+          "meaning": "can go"
+        },
+        {
+          "text": "午後",
+          "kana": "ごご",
+          "meaning": "afternoon"
+        },
+        {
+          "text": "三時",
+          "kana": "さんじ",
+          "meaning": "three o'clock"
+        },
+        {
+          "text": "千円",
+          "kana": "せんえん",
+          "meaning": "1,000 yen"
+        },
+        {
+          "text": "いい",
+          "kana": "いい",
+          "meaning": "good"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-u02-x-budget",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-plan",
+      "prompt": "How much can you spend on a gift?",
+      "options": [
+        "1,000 yen",
+        "10,000 yen",
+        "No stated limit"
+      ],
+      "answer": 0,
+      "explain": "予算は千円しかありません states a limited budget of 1,000 yen.",
+      "words": [
+        "n4-u02-w-yosan",
+        "n4-u02-w-shika"
+      ]
+    },
+    {
+      "id": "n4-u02-x-reason",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-plan",
+      "prompt": "Why do you currently have limited earnings?",
+      "options": [
+        "You don't have much time to work yet",
+        "You already bought the wallet",
+        "The café has closed"
+      ],
+      "answer": 0,
+      "explain": "働ける時間がまだあまりありませんから directly gives the reason: little available time to work.",
+      "words": [
+        "n4-u01-w-hatarakeru",
+        "n4-u01-w-arubaito"
+      ]
+    },
+    {
+      "id": "n4-u02-x-giver",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-birthday",
+      "prompt": "Who gave Hana the wallet?",
+      "options": [
+        "Her parents",
+        "Ren",
+        "Yui"
+      ],
+      "answer": 0,
+      "explain": "両親からは財布をもらいました: she received it from her parents.",
+      "words": [
+        "n4-u02-w-morau",
+        "n4-u02-w-ryoushin"
+      ]
+    },
+    {
+      "id": "n4-u02-x-previous",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-birthday",
+      "prompt": "Who received gloves from Hana last year?",
+      "options": [
+        "Yui",
+        "Ren",
+        "You"
+      ],
+      "answer": 0,
+      "explain": "ユイさんに手袋をあげました names Yui as the recipient.",
+      "words": [
+        "n4-u02-w-ageru",
+        "n4-u02-w-tebukuro"
+      ]
+    },
+    {
+      "id": "n4-u02-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{何|なに}が{欲|ほ}しいですか。",
+      "context": "You want a wallet. Choose the reply that states that wish.",
+      "options": [
+        "{財布|さいふ}が{欲|ほ}しいです。",
+        "{財布|さいふ}をなくしました。",
+        "{財布|さいふ}はいりません。"
+      ],
+      "answer": 0,
+      "explain": "財布が欲しいです states a wish for the thing.",
+      "words": [
+        "n4-u02-w-hoshii",
+        "n4-u02-w-saifu"
+      ]
+    },
+    {
+      "id": "n4-u02-x-reply-class",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{明日|あした}、{花|はな}を{選|えら}びませんか。",
+      "context": "You have class tomorrow and can go today. Choose that reply.",
+      "options": [
+        "{明日|あした}は{授業|じゅぎょう}があります。{今日|きょう}なら{行|い}けます。",
+        "{明日|あした}はいつでも{行|い}けます。",
+        "{花|はな}は{買|か}いました。"
+      ],
+      "answer": 0,
+      "explain": "This reply explains the clash with class and offers today as the available case.",
+      "words": [
+        "n5-u12-w-jugyou",
+        "n4-u01-w-nara"
+      ]
+    },
+    {
+      "id": "n4-u02-x-shika",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Say you have only 1,000 yen.",
+      "line": "{千円|せんえん}しか＿＿。",
+      "options": [
+        "ありません",
+        "あります",
+        "でした",
+        "ください"
+      ],
+      "answer": 0,
+      "explain": "しか requires a negative predicate: ありません.",
+      "words": [
+        "n4-u02-w-shika"
+      ]
+    },
+    {
+      "id": "n4-u02-x-receive",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Say you received a gift from your parents.",
+      "line": "{両親|りょうしん}からプレゼントを＿＿。",
+      "options": [
+        "もらいました",
+        "あげました",
+        "くださいましたか",
+        "ほしかったです"
+      ],
+      "answer": 0,
+      "explain": "With you as receiver and 両親から marking the giver, use もらいました.",
+      "words": [
+        "n4-u02-w-morau"
+      ]
+    },
+    {
+      "id": "n4-u02-x-guess",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "You are not sure whether Hana likes flowers. Which keeps that uncertainty?",
+      "options": [
+        "{花|はな}が{好|す}きかもしれません。",
+        "{花|はな}が{好|す}きです。",
+        "{花|はな}が{好|す}きでした。"
+      ],
+      "answer": 0,
+      "explain": "かもしれません explicitly marks the statement as a possibility.",
+      "words": [
+        "n4-u02-w-kamoshiremasen"
+      ]
+    },
+    {
+      "id": "n4-u02-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Why don't you send flowers?",
+      "tiles": [
+        "{花|はな}",
+        "を",
+        "{送|おく}ったら",
+        "どうですか"
+      ],
+      "explain": "送る becomes the た-form 送った; add らどうですか to suggest the action.",
+      "words": [
+        "n4-u02-w-okuru",
+        "n4-u02-w-taradou"
+      ]
+    },
+    {
+      "id": "n4-u02-x-pay",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-birthday",
+      "prompt": "What kind of job do you say you will look for?",
+      "options": [
+        "One with higher hourly pay",
+        "One requiring no Japanese",
+        "One with only night shifts"
+      ],
+      "answer": 0,
+      "explain": "時給はもっと高いほうがいいです states a preference for higher hourly pay.",
+      "words": [
+        "n4-u01-w-jikyuu",
+        "n5-u11-w-kondo"
+      ]
+    },
+    {
+      "id": "n4-u02-x-first",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u02-d-birthday",
+      "prompt": "Which gift does Hana say she has received for the first time?",
+      "options": [
+        "Flowers",
+        "A wallet",
+        "Gloves"
+      ],
+      "answer": 0,
+      "explain": "初めて花をもらいました states this explicitly.",
+      "words": [
+        "n4-u01-w-hajimete"
+      ]
+    },
+    {
+      "id": "n4-u02-r-meet",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u02-reading",
+      "prompt": "When will you and Ren meet?",
+      "options": [
+        "Today at 3 p.m.",
+        "Tomorrow at 3 p.m.",
+        "After tomorrow's class"
+      ],
+      "answer": 0,
+      "explain": "The final message settles on 今日の午後三時.",
+      "words": [
+        "n5-u12-w-jugyou"
+      ]
+    },
+    {
+      "id": "n4-u02-r-plan",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u02-reading",
+      "prompt": "What present does Ren propose?",
+      "options": [
+        "Flowers",
+        "A wallet",
+        "A book"
+      ],
+      "answer": 0,
+      "explain": "花をあげたらどうですか proposes flowers.",
+      "words": [
+        "n4-u02-w-hana"
+      ]
+    },
+    {
+      "id": "n4-u02-r-budget",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u02-reading",
+      "prompt": "Which price fits the stated maximum budget?",
+      "options": [
+        "1,000 yen",
+        "2,000 yen",
+        "10,000 yen"
+      ],
+      "answer": 0,
+      "explain": "千円しかありません sets the available budget at 1,000 yen.",
+      "words": [
+        "n4-u02-w-yosan"
+      ]
+    },
+    {
+      "id": "n4-u02-r-place",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u02-reading",
+      "prompt": "Where is the agreed meeting place?",
+      "options": [
+        "The café",
+        "The classroom",
+        "Ren's home"
+      ],
+      "answer": 0,
+      "explain": "The final message says カフェで.",
+      "words": [
+        "n4-u01-w-mensetsu"
+      ]
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "あげる / くれる / もらう",
+      "かもしれない",
+      "しか + negative"
+    ],
+    "prompt": "Optionally find a gift or favour exchange in your own material. Save one line and label giver, receiver and viewpoint. A speaker's wish or guess is not proof of another person's feelings."
+  }
+}

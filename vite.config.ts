@@ -1,6 +1,16 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
+import { readFileSync } from "node:fs";
+// Read build metadata directly so the configuration does not import app code.
+const audioUrls = new Set<string>();
+const collectAudio = (value: unknown) => {
+  if (typeof value === "string" && /^\/(audio|voice-auditions)\//.test(value)) audioUrls.add(value);
+  else if (Array.isArray(value)) value.forEach(collectAudio);
+  else if (value && typeof value === "object") Object.values(value).forEach(collectAudio);
+};
+for (const name of ["audio", "violetto-baseline", "violetto-emotions", "violetto-auditions", "violetto-teacher", "dialogue-voices", "cast-auditions"])
+  collectAudio(JSON.parse(readFileSync(new URL(`./src/generated/${name}.json`, import.meta.url), "utf8")));
 export default defineConfig({
   plugins: [
     react(),
@@ -35,7 +45,9 @@ export default defineConfig({
             handler: "CacheFirst",
             options: {
               cacheName: "shiori-audio",
-              expiration: { maxEntries: 3000 },
+              // The opt-in download must fit every shipped clip as the course
+              // grows, plus older content-hashed clips used by an open tab.
+              expiration: { maxEntries: Math.max(3000, audioUrls.size + 500) },
               rangeRequests: true,
               cacheableResponse: { statuses: [0, 200] },
             },

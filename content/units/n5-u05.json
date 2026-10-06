@@ -178,9 +178,9 @@
       },
       {
         "speaker": "You",
-        "line": "ちょっと{寒|さむ}かったです。でも、{静|しず}かでした。",
-        "romaji": "Chotto samukatta desu. Demo, shizuka deshita.",
-        "meaning": "A little cold. But it was quiet."
+        "line": "ちょっと{寒|さむ}かったです。でも、お{寺|てら}は{静|しず}かでした。",
+        "romaji": "Chotto samukatta desu. Demo, otera wa shizuka deshita.",
+        "meaning": "A little cold. But the temples were quiet."
       },
       {
         "speaker": "Ren",
@@ -277,13 +277,13 @@
       "line": "{旅行|りょこう}はどうでしたか。",
       "meaning": "How was your trip?",
       "options": [
-        "{楽|たの}しいでした。",
         "{楽|たの}しかったです。",
+        "はい、{行|い}きます。",
         "{旅行|りょこう}です。",
-        "はい、どうでした。"
+        "いいえ、{行|い}きませんでした。"
       ],
-      "answer": 1,
-      "explain": "楽しかったです is the correct past; 楽しいでした is not used.",
+      "answer": 0,
+      "explain": "楽しかったです: it was fun. (The past of 楽しい is 楽しかった, never 楽しいでした.)",
       "words": [
         "n5-u05-w-dou-deshita"
       ]
@@ -399,11 +399,11 @@
         "id": "n5-u05-l-infer",
         "type": "choice",
         "skill": "reading",
-        "prompt": "Should Hana buy a lot of tea to bring home?",
+        "prompt": "What might stop Hana from buying a lot of the tea?",
         "options": [
-          "Maybe not: it's expensive",
-          "Yes: it's cheap",
-          "She can't: there is no tea"
+          "Its price",
+          "Its taste",
+          "There is no tea"
         ],
         "answer": 0,
         "explain": "おいしいです。でも高いです: delicious, but expensive.",

@@ -1,0 +1,778 @@
+{
+  "id": "n4-u01",
+  "title": "N4 · Unit 1",
+  "lesson": {
+    "title": "Can you work here?",
+    "description": "Read a café job notice, explain your abilities and availability, and try a task before accepting it.",
+    "canDo": "Find the conditions in a job notice and explain what I can do",
+    "minutes": 30
+  },
+  "words": [
+    [
+      "n4-u01-w-arubaito",
+      "アルバイト",
+      "arubaito",
+      "part-time job",
+      "neutral",
+      "カフェでアルバイトをします。"
+    ],
+    [
+      "n4-u01-w-boshuu",
+      "{募集|ぼしゅう}",
+      "boshū",
+      "recruitment; looking for applicants",
+      "neutral",
+      "アルバイトを{募集|ぼしゅう}しています。"
+    ],
+    [
+      "n4-u01-w-mensetsu",
+      "{面接|めんせつ}",
+      "mensetsu",
+      "interview",
+      "neutral",
+      "{面接|めんせつ}は{金曜日|きんようび}です。"
+    ],
+    [
+      "n4-u01-w-jikyuu",
+      "{時給|じきゅう}",
+      "jikyū",
+      "hourly pay",
+      "neutral",
+      "{時給|じきゅう}は{千二百円|せんにひゃくえん}です。"
+    ],
+    [
+      "n4-u01-w-shuumatsu",
+      "{週末|しゅうまつ}",
+      "shūmatsu",
+      "weekend",
+      "neutral",
+      "{週末|しゅうまつ}に{働|はたら}きます。"
+    ],
+    [
+      "n4-u01-w-hataraku",
+      "{働|はたら}く",
+      "hataraku",
+      "to work",
+      "neutral",
+      "カフェで{働|はたら}きます。"
+    ],
+    [
+      "n4-u01-w-hatarakeru",
+      "{働|はたら}ける",
+      "hatarakeru",
+      "can work",
+      "neutral",
+      "{週末|しゅうまつ}なら{働|はたら}けます。"
+    ],
+    [
+      "n4-u01-w-tsukaeru",
+      "{使|つか}える",
+      "tsukaeru",
+      "can use",
+      "neutral",
+      "このパソコンが{使|つか}えます。"
+    ],
+    [
+      "n4-u01-w-hanaseru",
+      "{話|はな}せる",
+      "hanaseru",
+      "can speak",
+      "neutral",
+      "{日本語|にほんご}が{少|すこ}し{話|はな}せます。"
+    ],
+    [
+      "n4-u01-w-tsukureru",
+      "{作|つく}れる",
+      "tsukureru",
+      "can make",
+      "neutral",
+      "コーヒーが{作|つく}れます。"
+    ],
+    [
+      "n4-u01-w-chuumon",
+      "{注文|ちゅうもん}",
+      "chūmon",
+      "order (at a shop or restaurant)",
+      "neutral",
+      "{注文|ちゅうもん}を{聞|き}きます。"
+    ],
+    [
+      "n4-u01-w-renraku",
+      "{連絡|れんらく}",
+      "renraku",
+      "contact; communication",
+      "neutral",
+      "メールで{連絡|れんらく}します。"
+    ],
+    [
+      "n4-u01-w-keiken",
+      "{経験|けいけん}",
+      "keiken",
+      "experience",
+      "neutral",
+      "アルバイトの{経験|けいけん}があります。"
+    ],
+    [
+      "n4-u01-w-hajimete",
+      "{初|はじ}めて",
+      "hajimete",
+      "for the first time",
+      "neutral",
+      "{初|はじ}めてカフェで{働|はたら}きます。"
+    ],
+    [
+      "n4-u01-w-isshuukan",
+      "{一週間|いっしゅうかん}",
+      "isshūkan",
+      "one week",
+      "neutral",
+      "{一週間|いっしゅうかん}に{三回|さんかい}{働|はたら}きます。"
+    ],
+    [
+      "n4-u01-w-sankai",
+      "{三回|さんかい}",
+      "sankai",
+      "three times",
+      "neutral",
+      "{一週間|いっしゅうかん}に{三回|さんかい}{来|き}ます。"
+    ],
+    [
+      "n4-u01-w-shi",
+      "し",
+      "shi",
+      "and; one of several reasons (after a predicate)",
+      "neutral",
+      "{近|ちか}いし、{時給|じきゅう}もいいです。"
+    ],
+    [
+      "n4-u01-w-nara",
+      "なら",
+      "nara",
+      "if it is; as for that case",
+      "neutral",
+      "{週末|しゅうまつ}なら{働|はたら}けます。"
+    ],
+    [
+      "n4-u01-w-sou",
+      "そうです",
+      "sō desu",
+      "looks; seems (visible impression after a stem)",
+      "polite",
+      "このケーキはおいしそうです。"
+    ],
+    [
+      "n4-u01-w-temiru",
+      "てみる",
+      "te miru",
+      "try doing (after a verb's て-form)",
+      "neutral",
+      "コーヒーを{作|つく}ってみます。"
+    ]
+  ],
+  "lemmas": {
+    "n4-u01-w-hatarakeru": {
+      "text": "働く",
+      "kana": "はたらく"
+    },
+    "n4-u01-w-tsukaeru": {
+      "text": "使う",
+      "kana": "つかう"
+    },
+    "n4-u01-w-hanaseru": {
+      "text": "話す",
+      "kana": "はなす"
+    },
+    "n4-u01-w-tsukureru": {
+      "text": "作る",
+      "kana": "つくる"
+    }
+  },
+  "grammar": [
+    {
+      "id": "n4-u01-g-can",
+      "title": "Abilities and frequency",
+      "formation": "Godan: final u-row → e-row + る (話す → 話せる). Ichidan: drop る + られる (食べる → 食べられる). する → できる; 来る → 来られる. Period + に + number + 回.",
+      "explanation": "Potential forms state an ability or possibility. Use が for the thing you can do in these examples; を is also used with many potential verbs. The polite negative is ～えません / ～られません. 一週間に三回 gives frequency, while 三時間 gives duration. Colloquial 食べれる exists, but learn 食べられる as the standard form first.",
+      "example": "日本語が少し話せます。",
+      "translation": "I can speak a little Japanese.",
+      "examples": [
+        {
+          "ja": "{週末|しゅうまつ}は{働|はたら}けますが、{月曜日|げつようび}は{働|はたら}けません。",
+          "en": "I can work on weekends, but not on Mondays."
+        },
+        {
+          "ja": "{一週間|いっしゅうかん}に{三回|さんかい}{来|き}られます。",
+          "en": "I can come three times a week."
+        },
+        {
+          "ja": "{注文|ちゅうもん}が{聞|き}けます。",
+          "en": "I can take orders (listen to customers' orders)."
+        }
+      ],
+      "mistake": "働きます says that you work; 働けます says that you can. 三回 is three occasions, not three hours."
+    },
+    {
+      "id": "n4-u01-g-reasons",
+      "title": "Reasons and first impressions",
+      "formation": "Plain predicate + し (noun / な-adjective + だし; polite forms + し also work). い-adjective: drop い + そう; な-adjective stem + そう. いい → よさそう; ない → なさそう.",
+      "explanation": "し lists reasons and often leaves room for others: 近いし、時給もいいです. Stem + そう describes a visible impression rather than certain knowledge. おいしそう means it looks tasty, without claiming you have tasted it. Do not confuse this with plain-form + そうです for reported information, introduced later.",
+      "example": "近いし、時給もいいです。",
+      "translation": "It's nearby, and the hourly pay is good too.",
+      "examples": [
+        {
+          "ja": "{店|みせ}は{近|ちか}いし、バスもあります。",
+          "en": "The shop is nearby, and there is a bus too."
+        },
+        {
+          "ja": "このケーキはおいしそうです。",
+          "en": "This cake looks tasty."
+        },
+        {
+          "ja": "レンさんは{忙|いそが}しそうです。",
+          "en": "Ren looks busy."
+        }
+      ],
+      "mistake": "おいしいそうです reports that someone said it is tasty; おいしそうです describes how it looks."
+    },
+    {
+      "id": "n4-u01-g-try",
+      "title": "Try it; explain the relevant case",
+      "formation": "Verb て-form + みる (作ってみる). Noun or plain clause + なら (週末なら; 働くなら).",
+      "explanation": "～てみる is trying an action to see what it is like, not merely making an unsuccessful attempt. なら takes up a case already mentioned: 週末なら働けます means weekends work for me. It does not promise that the action happens automatically whenever the condition occurs.",
+      "example": "週末なら働けます。",
+      "translation": "If it's on the weekend, I can work.",
+      "examples": [
+        {
+          "ja": "コーヒーを{作|つく}ってみます。",
+          "en": "I'll try making coffee."
+        },
+        {
+          "ja": "{週末|しゅうまつ}なら{働|はたら}けます。",
+          "en": "If it's weekends, I can work."
+        },
+        {
+          "ja": "この{店|みせ}で{働|はたら}くなら、レンさんに{連絡|れんらく}してください。",
+          "en": "If you want to work at this shop, please contact Ren."
+        }
+      ],
+      "mistake": "Use 作ってみる, not 作るみる. なら responds to a relevant case; it is not a general replacement for every English 'if'."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "n4-u01-d-interview",
+      "title": "At Ren's café",
+      "scene": "You have read the café notice. Ren asks about your abilities and when you can work.",
+      "words": [
+        "n4-u01-w-hanaseru",
+        "n4-u01-w-hatarakeru",
+        "n4-u01-w-isshuukan",
+        "n5-u12-w-jugyou",
+        "n5-u10-w-jikan",
+        "n5-u11-w-natsu"
+      ],
+      "lines": [
+        {
+          "speaker": "Ren",
+          "line": "こんにちは。{今日|きょう}は{面接|めんせつ}ですね。{日本語|にほんご}が{話|はな}せますか。",
+          "romaji": "Konnichiwa. Kyō wa mensetsu desu ne. Nihongo ga hanasemasu ka.",
+          "meaning": "Hello. Today is your interview, isn't it? Can you speak Japanese?"
+        },
+        {
+          "speaker": "You",
+          "line": "{少|すこ}し{話|はな}せます。{注文|ちゅうもん}も{聞|き}けます。",
+          "romaji": "Sukoshi hanasemasu. Chūmon mo kikemasu.",
+          "meaning": "I can speak a little. I can take orders too."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{一週間|いっしゅうかん}に{何回|なんかい}{働|はたら}けますか。",
+          "romaji": "Isshūkan ni nankai hatarakemasu ka.",
+          "meaning": "How many times a week can you work?"
+        },
+        {
+          "speaker": "You",
+          "line": "{三回|さんかい}です。{週末|しゅうまつ}なら、{長|なが}い{時間|じかん}{働|はたら}けます。",
+          "romaji": "Sankai desu. Shūmatsu nara, nagai jikan hatarakemasu.",
+          "meaning": "Three times. On weekends, I can work longer hours."
+        },
+        {
+          "speaker": "Ren",
+          "line": "{月曜日|げつようび}の{午後|ごご}はどうですか。",
+          "romaji": "Getsuyōbi no gogo wa dō desu ka.",
+          "meaning": "How about Monday afternoon?"
+        },
+        {
+          "speaker": "You",
+          "line": "{授業|じゅぎょう}があるので、{月曜日|げつようび}は{働|はたら}けません。{夏|なつ}は{時間|じかん}があります。",
+          "romaji": "Jugyō ga aru node, getsuyōbi wa hatarakemasen. Natsu wa jikan ga arimasu.",
+          "meaning": "I have class, so I can't work on Mondays. In summer I have time."
+        },
+        {
+          "speaker": "Ren",
+          "line": "わかりました。では、{今度|こんど}コーヒーを{作|つく}ってみましょう。",
+          "romaji": "Wakarimashita. Dewa, kondo kōhī o tsukutte mimashō.",
+          "meaning": "Understood. Then let's try making coffee next time."
+        }
+      ]
+    },
+    {
+      "id": "n4-u01-d-try",
+      "title": "Trying the machine",
+      "scene": "On your next visit Ren shows you the coffee machine. You explain why the job appeals to you.",
+      "words": [
+        "n4-u01-w-tsukureru",
+        "n4-u01-w-shi",
+        "n4-u01-w-sou",
+        "n5-u11-w-kondo",
+        "n5-u10-w-basu",
+        "n5-u10-w-jikan"
+      ],
+      "lines": [
+        {
+          "speaker": "Ren",
+          "line": "この{機械|きかい}が{使|つか}えますか。",
+          "romaji": "Kono kikai ga tsukaemasu ka.",
+          "meaning": "Can you use this machine?"
+        },
+        {
+          "speaker": "You",
+          "line": "{初|はじ}めてです。{使|つか}ってみてもいいですか。",
+          "romaji": "Hajimete desu. Tsukatte mite mo ii desu ka.",
+          "meaning": "It's my first time. May I try using it?"
+        },
+        {
+          "speaker": "Ren",
+          "line": "はい。ここを{押|お}してください。これでコーヒーが{作|つく}れます。",
+          "romaji": "Hai. Koko o oshite kudasai. Kore de kōhī ga tsukuremasu.",
+          "meaning": "Yes. Please press here. You can make coffee with this."
+        },
+        {
+          "speaker": "You",
+          "line": "いいにおいですね。あのケーキもおいしそうです。",
+          "romaji": "Ii nioi desu ne. Ano kēki mo oishisō desu.",
+          "meaning": "It smells good. That cake looks tasty too."
+        },
+        {
+          "speaker": "Ren",
+          "line": "どうして、この{店|みせ}で{働|はたら}きたいんですか。",
+          "romaji": "Dōshite, kono mise de hatarakitai n desu ka.",
+          "meaning": "Why do you want to work at this shop?"
+        },
+        {
+          "speaker": "You",
+          "line": "{近|ちか}いし、バスもあるし、{時給|じきゅう}もいいからです。",
+          "romaji": "Chikai shi, basu mo aru shi, jikyū mo ii kara desu.",
+          "meaning": "Because it's nearby, there's a bus, and the hourly pay is good."
+        },
+        {
+          "speaker": "Ren",
+          "line": "そうですか。{時間|じかん}があるときに、また{来|き}てください。{今度|こんど}はケーキも{作|つく}ってみましょう。",
+          "romaji": "Sō desu ka. Jikan ga aru toki ni, mata kite kudasai. Kondo wa kēki mo tsukutte mimashō.",
+          "meaning": "I see. Please come again when you have time. Next time let's try making cake too."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n4-u01-reading",
+      "title": "Café recruitment notice",
+      "genre": "notice",
+      "paragraphs": [
+        "カフェのアルバイトを{募集|ぼしゅう}しています。",
+        "{一週間|いっしゅうかん}に{三回|さんかい}{働|はたら}ける{人|ひと}を{募集|ぼしゅう}しています。",
+        "{週末|しゅうまつ}の{午後|ごご}に{働|はたら}ける{人|ひと}がいいです。",
+        "{時給|じきゅう}は{千二百円|せんにひゃくえん}です。",
+        "{経験|けいけん}がなくても{大丈夫|だいじょうぶ}です。",
+        "{面接|めんせつ}は{金曜日|きんようび}の{午後|ごご}{三時|さんじ}です。",
+        "メールでレンに{連絡|れんらく}してください。"
+      ],
+      "glosses": [
+        {
+          "text": "の",
+          "kana": "の",
+          "meaning": "links nouns"
+        },
+        {
+          "text": "を",
+          "kana": "を",
+          "meaning": "object marker"
+        },
+        {
+          "text": "しています",
+          "kana": "しています",
+          "meaning": "are doing"
+        },
+        {
+          "text": "に",
+          "kana": "に",
+          "meaning": "on; per"
+        },
+        {
+          "text": "働ける",
+          "kana": "はたらける",
+          "meaning": "can work"
+        },
+        {
+          "text": "人",
+          "kana": "ひと",
+          "meaning": "person"
+        },
+        {
+          "text": "が",
+          "kana": "が",
+          "meaning": "subject marker"
+        },
+        {
+          "text": "いい",
+          "kana": "いい",
+          "meaning": "good; preferable"
+        },
+        {
+          "text": "は",
+          "kana": "は",
+          "meaning": "topic marker"
+        },
+        {
+          "text": "千二百円",
+          "kana": "せんにひゃくえん",
+          "meaning": "1,200 yen"
+        },
+        {
+          "text": "です",
+          "kana": "です",
+          "meaning": "polite ending"
+        },
+        {
+          "text": "なくても",
+          "kana": "なくても",
+          "meaning": "even without"
+        },
+        {
+          "text": "金曜日",
+          "kana": "きんようび",
+          "meaning": "Friday"
+        },
+        {
+          "text": "三時",
+          "kana": "さんじ",
+          "meaning": "three o'clock"
+        },
+        {
+          "text": "メール",
+          "kana": "メール",
+          "meaning": "email"
+        },
+        {
+          "text": "で",
+          "kana": "で",
+          "meaning": "by; via"
+        },
+        {
+          "text": "レン",
+          "kana": "レン",
+          "meaning": "Ren"
+        },
+        {
+          "text": "してください",
+          "kana": "してください",
+          "meaning": "please do"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-u01-x-availability",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u01-d-interview",
+      "prompt": "When can the applicant work longer hours?",
+      "options": [
+        "On weekends",
+        "On Monday afternoons",
+        "Only in summer"
+      ],
+      "answer": 0,
+      "explain": "週末なら、長い時間働けます explicitly gives weekends. Summer is when they have time, but it is not their only availability.",
+      "words": [
+        "n4-u01-w-hatarakeru",
+        "n5-u10-w-jikan"
+      ]
+    },
+    {
+      "id": "n4-u01-x-class",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u01-d-interview",
+      "prompt": "Why can't the applicant work on Mondays?",
+      "options": [
+        "They have class",
+        "They have a fever",
+        "There is no bus"
+      ],
+      "answer": 0,
+      "explain": "授業があるので gives the reason: they have class.",
+      "words": [
+        "n5-u12-w-jugyou",
+        "n4-u01-w-hatarakeru"
+      ]
+    },
+    {
+      "id": "n4-u01-x-next",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u01-d-try",
+      "prompt": "What does Ren suggest trying on the next visit?",
+      "options": [
+        "Making cake",
+        "Taking an exam",
+        "Writing a letter"
+      ],
+      "answer": 0,
+      "explain": "今度はケーキも作ってみましょう: next time let's try making cake too.",
+      "words": [
+        "n5-u11-w-kondo",
+        "n4-u01-w-temiru"
+      ]
+    },
+    {
+      "id": "n4-u01-x-can",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Explain your ability to speak a little Japanese.",
+      "line": "{日本語|にほんご}が{少|すこ}し＿＿。",
+      "options": [
+        "{話|はな}せます",
+        "{話|はな}しました",
+        "{話|はな}しませんでした",
+        "{話|はな}していました"
+      ],
+      "answer": 0,
+      "explain": "話せます is the potential form. The others describe past actions or their absence, not ability.",
+      "words": [
+        "n4-u01-w-hanaseru"
+      ]
+    },
+    {
+      "id": "n4-u01-x-frequency",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Say you can work three times per week.",
+      "line": "{一週間|いっしゅうかん}＿＿{三回|さんかい}{働|はたら}けます。",
+      "options": [
+        "に",
+        "を",
+        "が",
+        "と"
+      ],
+      "answer": 0,
+      "explain": "A period + に + a count expresses frequency: three occasions per week.",
+      "words": [
+        "n4-u01-w-isshuukan",
+        "n4-u01-w-sankai"
+      ]
+    },
+    {
+      "id": "n4-u01-x-reply-weekend",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{週末|しゅうまつ}に{働|はたら}けますか。",
+      "options": [
+        "はい、{週末|しゅうまつ}なら{働|はたら}けます。",
+        "いいえ、{週末|しゅうまつ}は{働|はたら}けません。",
+        "{週末|しゅうまつ}は{昨日|きのう}でした。"
+      ],
+      "answer": 0,
+      "context": "You can work weekends. Choose the reply that communicates that availability.",
+      "explain": "The first reply confirms the stated availability. The negative reply would communicate the opposite.",
+      "words": [
+        "n4-u01-w-nara"
+      ]
+    },
+    {
+      "id": "n4-u01-x-reply-try",
+      "type": "reply",
+      "skill": "listening",
+      "line": "この{機械|きかい}が{使|つか}えますか。",
+      "context": "You have never used it and want permission to try. Choose that reply.",
+      "options": [
+        "{初|はじ}めてです。{使|つか}ってみてもいいですか。",
+        "{昨日|きのう}から{使|つか}っています。",
+        "もう{使|つか}いません。"
+      ],
+      "answer": 0,
+      "explain": "初めてです explains it is your first time; 使ってみてもいいですか asks permission to try.",
+      "words": [
+        "n4-u01-w-hajimete",
+        "n4-u01-w-tsukaeru"
+      ]
+    },
+    {
+      "id": "n4-u01-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "If it's weekends, I can work.",
+      "tiles": [
+        "{週末|しゅうまつ}",
+        "なら",
+        "{働|はたら}けます"
+      ],
+      "explain": "Take up the relevant case with なら, then state your ability.",
+      "words": [
+        "n4-u01-w-nara",
+        "n4-u01-w-hatarakeru"
+      ]
+    },
+    {
+      "id": "n4-u01-x-looks",
+      "type": "choice",
+      "skill": "reading",
+      "prompt": "You haven't tasted the cake. Which describes only its visible impression?",
+      "options": [
+        "おいしそうです。",
+        "おいしかったです。",
+        "おいしくありませんでした。"
+      ],
+      "answer": 0,
+      "explain": "おいしそう describes how it looks. The two past statements imply an assessment of its taste.",
+      "words": [
+        "n4-u01-w-sou"
+      ]
+    },
+    {
+      "id": "n4-u01-x-reasons",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "List proximity and good hourly pay as two reasons.",
+      "line": "{近|ちか}い＿＿、{時給|じきゅう}もいいです。",
+      "options": [
+        "し",
+        "を",
+        "の",
+        "な"
+      ],
+      "answer": 0,
+      "explain": "し connects reasons after a predicate; 近いし is the correct form.",
+      "words": [
+        "n4-u01-w-shi",
+        "n4-u01-w-jikyuu"
+      ]
+    },
+    {
+      "id": "n4-u01-x-summer",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u01-d-interview",
+      "prompt": "When does the applicant say they have time?",
+      "options": [
+        "In summer",
+        "Every Monday afternoon",
+        "Only after midnight"
+      ],
+      "answer": 0,
+      "explain": "夏は時間があります explicitly says they have time in summer.",
+      "words": [
+        "n5-u11-w-natsu",
+        "n5-u10-w-jikan"
+      ]
+    },
+    {
+      "id": "n4-u01-x-bus",
+      "type": "cloze",
+      "skill": "recall",
+      "options": [
+        "みます",
+        "あります",
+        "なります",
+        "います"
+      ],
+      "answer": 0,
+      "explain": "The て-form + みる means trying an action to see what it is like: 乗ってみます. The bus is available in the scene.",
+      "words": [
+        "n5-u10-w-basu"
+      ],
+      "context": "Try taking the bus once to find out what the journey is like.",
+      "line": "バスに{乗|の}って＿＿。"
+    },
+    {
+      "id": "n4-u01-r-pay",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u01-reading",
+      "prompt": "How much is the advertised hourly pay?",
+      "options": [
+        "1,200 yen",
+        "1,000 yen",
+        "2,000 yen"
+      ],
+      "answer": 0,
+      "explain": "時給は千二百円です states 1,200 yen per hour.",
+      "words": [
+        "n4-u01-w-jikyuu"
+      ]
+    },
+    {
+      "id": "n4-u01-r-contact",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u01-reading",
+      "prompt": "How should an applicant contact Ren?",
+      "options": [
+        "By email",
+        "By telephone",
+        "By a posted letter"
+      ],
+      "answer": 0,
+      "explain": "メールでレンに連絡してください gives the contact method.",
+      "words": [
+        "n4-u01-w-renraku"
+      ]
+    },
+    {
+      "id": "n4-u01-r-experience",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u01-reading",
+      "prompt": "Which applicant can apply according to the notice?",
+      "options": [
+        "Someone with no prior experience",
+        "Only someone with three years of experience",
+        "Only someone who has made cakes professionally"
+      ],
+      "answer": 0,
+      "explain": "経験がなくても大丈夫です explicitly permits applicants without prior experience.",
+      "words": [
+        "n4-u01-w-keiken"
+      ]
+    },
+    {
+      "id": "n4-u01-r-time",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u01-reading",
+      "prompt": "When is the interview?",
+      "options": [
+        "Friday at 3 p.m.",
+        "Friday at 3 a.m.",
+        "Monday at 3 p.m."
+      ],
+      "answer": 0,
+      "explain": "金曜日の午後三時 gives Friday, three in the afternoon.",
+      "words": [
+        "n4-u01-w-mensetsu"
+      ]
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "potential forms",
+      "し",
+      "appearance そう",
+      "てみる",
+      "なら"
+    ],
+    "prompt": "Optionally watch a short café or workplace scene. Save one line expressing ability or availability and note who is speaking. Do not guess a speaker's intention from grammar alone."
+  }
+}

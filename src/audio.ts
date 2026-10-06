@@ -1,10 +1,9 @@
 import manifest from "./generated/audio.json";
-import { reactionAsset, violetto, type Reaction } from "./persona";
+import { type Reaction } from "./persona";
+import { selectReaction } from "./reactionState";
 import type { Profile, Word } from "./types";
 let current: HTMLAudioElement | null = null;
 let last = { text: "", rate: 1, url: "" };
-const reactionTurns = new Map<string, number>();
-let lastReaction: { key: Reaction; voice: string; url: string } | null = null;
 let preferences: Pick<
   Profile,
   "spokenReactions" | "wordAudio" | "voicePreview"
@@ -29,22 +28,14 @@ export function wordAudioText(word: Pick<Word, "id" | "kana">) {
   return word.id === "wa" ? "わ" : word.kana;
 }
 export function speakReaction(key: Reaction, force = false) {
-  if (!force && preferences.spokenReactions === false) return Promise.resolve();
   const voice = preferences.voicePreview ?? "baseline";
-  // A manual replay matches the feedback just shown; new events alternate takes.
-  if (force && lastReaction?.key === key && lastReaction.voice === voice)
-    return playClip(lastReaction.url);
-  const identity = `${voice}:${key}`;
-  const turn = reactionTurns.get(identity) ?? 0;
-  const url = reactionAsset(key, voice, turn);
-  if (url) {
-    reactionTurns.set(identity, turn + 1);
-    lastReaction = { key, voice, url };
-  }
-  return url ? playClip(url) : speak(violetto.lines[key].text);
+  const line = selectReaction(key, voice, force);
+  if (!force && preferences.spokenReactions === false) return Promise.resolve();
+  return playClip(line.url);
 }
 const assets = manifest as Record<string, string>;
 export function stopAudio() {
+  sequence++;
   current?.pause();
   current = null;
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
@@ -78,27 +69,31 @@ let sequence = 0;
 /** Plays lines one after another (a dialogue), calling onLine as each starts.
  *  A later call or stopAudio() ends the sequence early. */
 export async function playLines(
-  texts: string[],
+  texts: (string | { text: string; url: string })[],
   onLine?: (index: number) => void,
 ) {
   const mine = ++sequence;
   for (const [i, text] of texts.entries()) {
     if (mine !== sequence) return;
     onLine?.(i);
-    await speakToEnd(text);
+    await (typeof text === "string"
+      ? speakToEnd(text)
+      : speakToEnd(text.text, text.url));
     if (mine !== sequence) return;
     await new Promise((r) => setTimeout(r, 380));
   }
   onLine?.(-1);
 }
-function speakToEnd(text: string) {
+function speakToEnd(text: string, url = assets[text]) {
   current?.pause();
-  last = { text, rate: 1, url: "" };
-  if (assets[text]) {
-    const clip = new Audio(assets[text]);
+  last = { text, rate: 1, url: url ?? "" };
+  if (url) {
+    const clip = new Audio(url);
     current = clip;
     return new Promise<void>((resolve, reject) => {
-      clip.onended = clip.onpause = () => resolve();
+      clip.onended = () => resolve();
+      clip.onpause = () => clip.ended ? resolve() : reject(new DOMException("Playback was interrupted.", "AbortError"));
+      clip.onerror = () => reject(new Error("The audio recording could not be loaded."));
       clip.play().catch(reject);
     });
   }
@@ -111,7 +106,8 @@ function speakToEnd(text: string) {
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "ja-JP";
     u.voice = voice;
-    u.onend = u.onerror = () => resolve();
+    u.onend = () => resolve();
+    u.onerror = () => reject(new Error("The speech voice could not play."));
     window.speechSynthesis.speak(u);
   });
 }

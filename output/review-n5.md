@@ -118,3 +118,12 @@ All `rp-01`–`rp-08` and `rc-01`–`rc-16` were inspected for ruby, meaning, po
 JMdict found no disagreement among its mapped surface pairs. It directly matched 124 kanji-bearing course records; another 39 course kanji stems match through dictionary-verified lemmas. Six lemma-bearing course forms still have no mechanically established stem relationship: `read`, `drink`, `go`, `wait`, `may-read`, `n5-u06-w-kite`. These are audit limitations, not six established reading errors. Four names are explicitly unverified. The review did not identify a concrete wrong ruby in the inspected exercises, but dictionary matching cannot certify contextual readings or pronunciation.
 
 Keep the proposed fixes in authoring JSON, regenerate affected packs, and re-render only changed spoken text. Do not apply this review by hand-editing generated packs. No protected learning UI or approved design needs changing to address the content findings.
+
+## Applied — 2026-10-05 (Claude)
+
+All 10 must-fix rows applied in the authoring sources (units rebuilt with `build-unit.ts`; first-post edited directly):
+u04-x-tf (asks about the bag when they look), u06-x-reply-enter (distractor is now a clear refusal), u07 letter question (who works in Tokyo), u08-x-plain and u08-x-reply-free (plain style requested; distractor now 暇じゃない), u09 plain past (で→だ, 読んで→読んだ), u11-x-tf replaced by a recall question `n5-u11-x-did`, x1-reply-thanks (はい removed; asks for "not at all"), x3-wo (asks for the object particle; は removed), letter-2 (asks which drink Ren likes; l2-infer now asks what else he drinks).
+
+Should-fix applied: u01 何 chunks, u03 "agree to go", u05 scene line names the temples, u05 reply distractors grammatical, u05 inference asks about price, u07 uchi/soto and 何をしていますか notes, u08 plain-form note and "do I need to bring anything?", u10 letter contrasts speed (でも新幹線のほうが速い), u11 も removed from 登りたい, u12 んです with な, u12 reply distractors, u12 register explanation, d-reading translated as plans, x7 context (you are Yui), letter-6 repeated sentence removed, d-morning scene cue.
+
+Not applied: u06 letter "write your name here", letter cloze tasks still mixed with comprehension, role-play accept patterns. Four new audio clips rendered; manifest pin updated. Checks: content + JLPT gates, tsc, 72 unit, 30 browser, build.

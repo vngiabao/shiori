@@ -12,6 +12,7 @@ export const roleplays = packs.flatMap((p) => p.roleplays);
 export const grammar = packs.flatMap((p) => p.grammar);
 export const kanji = [...packs.flatMap((p) => p.kanji), ...extraKanji];
 export const dialogues = packs.flatMap((p) => p.dialogues ?? []);
+export const readings = packs.flatMap((p) => p.readings ?? []);
 export const exercises = packs.flatMap((p) => p.exercises ?? []);
 export const phraseWords = words.filter(
   (w) =>

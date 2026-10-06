@@ -20,7 +20,7 @@ npm run preview
 
 The production preview is http://127.0.0.1:5175. Its service worker caches the shipped course, fonts, character, stroke data and audio after the initial online load. Development mode does not install the production offline worker.
 
-**Keep the same browser and URL for your progress.** Browser storage belongs to an origin: localhost, 127.0.0.1, different ports and different browsers have separate data. Export a backup in Settings before moving, clearing browser storage or changing URLs. Import merges attempts and rebuilds review memories; it also preserves study logs, letter drafts and JLPT plans, source-study records and question attempts. Cloud sign-in/sync is explicitly unconfigured. Microphone recordings and imported media files stay in memory and are not included in backups.
+**Keep the same browser and URL for your progress.** Browser storage belongs to an origin: localhost, 127.0.0.1, different ports and different browsers have separate data. Export a backup in Settings before moving, clearing browser storage or changing URLs. Import merges attempts and rebuilds review memories; it also preserves study logs, letter drafts and JLPT plans, source-study records and question attempts. Optional cloud sync (Google sign-in, Supabase) is set up for the hosted site; see supabase/README.md. Keep backups regardless. Microphone recordings and imported media files stay in memory and are not included in backups.
 
 ## What is here
 

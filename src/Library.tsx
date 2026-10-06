@@ -13,6 +13,9 @@ export function Library({
   completions: Completion[];
 }) {
   const [filter, setFilter] = useState("all");
+  const levelOf = (id:string) => /^(n[1-5]|keigo)-/.exec(id)?.[1] ?? "foundation";
+  const currentLevel = levelOf(packs.find(p => p.lessons.some(l => !completions.some(c => c.id === l.id)))?.id ?? "foundation");
+  const levels = ["foundation", "n5", "n4", "n3", "n2", "n1", "keigo"];
   return (
     <>
       <PageHeading
@@ -41,8 +44,16 @@ export function Library({
         <option value="kana">Kana & sound</option>
         <option value="phrase">Words & conversations</option>
         <option value="unfinished">Not finished yet</option>
+        <option value="n5">N5 course</option>
+        <option value="n4">N4 course</option>
+        <option value="n3">N3 course</option>
+        <option value="n2">N2 course</option>
+        <option value="n1">N1 course</option>
+        <option value="keigo">Keigo at work</option>
       </select>
-      {packs.map((p) => (
+      {levels.filter(level => packs.some(p => levelOf(p.id) === level) && (!levels.includes(filter) || filter === level)).map(level => <details className="course-level" key={`${level}-${filter}`} open={level === "foundation" || level === currentLevel || (level === "n5" && currentLevel === "foundation") || filter === level}>
+        <summary><h2>{level === "foundation" ? "Kana & first exchanges" : level === "keigo" ? "Keigo at work" : level.toUpperCase()}</h2></summary>
+        {packs.filter(p => levelOf(p.id) === level).map((p) => (
         <section className="course-unit" key={p.id}>
           <div className="section-title">
             <h2>{p.title}</h2>
@@ -53,6 +64,7 @@ export function Library({
               .filter(
                 (l) =>
                   filter === "all" ||
+                  levels.includes(filter) ||
                   filter === l.kind ||
                   (filter === "unfinished" &&
                     !completions.some((c) => c.id === l.id)),
@@ -86,7 +98,7 @@ export function Library({
               ))}
           </div>
         </section>
-      ))}
+      ))}</details>)}
       <p className="content-note">
         The starter course is a foundation, not a complete N5–N1 curriculum.
         Later stages require additional reviewed packs and substantial practice

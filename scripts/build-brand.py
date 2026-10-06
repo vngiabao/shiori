@@ -44,11 +44,11 @@ for variant, ink, violet, red in [
     ('-inverse', '#f7f5f1', '#ccb8e4', '#e0727c'),
     ('-mono', '#172c49', '#172c49', '#172c49'),
 ]:
-    (OUT / f'shiori-mark{variant}.svg').write_text(svg(mark(ink, violet, red), '0 0 112 112', 'Shiori bookmark S'), encoding='utf-8')
+    (OUT / f'shiori-mark{variant}.svg').write_text(svg(mark(ink, violet, red), '0 0 112 112', 'Shiori bookmark S'), encoding='utf-8', newline='\n')
     word = letters(ink, violet)
-    (OUT / f'shiori-wordmark{variant}.svg').write_text(svg(f'<g transform="translate(2 67) scale(.1 -.1)">{word}</g>', '0 0 220 76', 'Shiori'), encoding='utf-8')
+    (OUT / f'shiori-wordmark{variant}.svg').write_text(svg(f'<g transform="translate(2 67) scale(.1 -.1)">{word}</g>', '0 0 220 76', 'Shiori'), encoding='utf-8', newline='\n')
     lockup = f'<g transform="translate(0 2) scale(.72)">{mark(ink, violet, red)}</g><g transform="translate(91 67) scale(.09 -.09)">{word}</g>'
-    (OUT / f'shiori-lockup{variant}.svg').write_text(svg(lockup, '0 0 290 84', 'Shiori'), encoding='utf-8')
+    (OUT / f'shiori-lockup{variant}.svg').write_text(svg(lockup, '0 0 290 84', 'Shiori'), encoding='utf-8', newline='\n')
 
-(ROOT / 'public/icon.svg').write_text(svg(mark('#f7f5f1', '#ccb8e4', '#e0727c', True), '0 0 112 112', 'Shiori'), encoding='utf-8')
+(ROOT / 'public/icon.svg').write_text(svg(mark('#f7f5f1', '#ccb8e4', '#e0727c', True), '0 0 112 112', 'Shiori'), encoding='utf-8', newline='\n')
 print('Wrote nine outlined SVG brand assets and the app icon.')

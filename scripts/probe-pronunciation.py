@@ -17,4 +17,4 @@ for precision in ['int8','full']:
         target=out/f'{precision}-{i:02}.wav';sf.write(target,pcm,sr)
         records.append({'text':text,'phonemes':g(text),'precision':precision,'path':str(target),'seconds':len(pcm)/sr})
         print(precision,text,round(len(pcm)/sr,2),flush=True)
-(out/'probes.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+(out/'probes.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')

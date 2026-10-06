@@ -421,7 +421,7 @@
     {
       "id": "n5-u08-g-plain",
       "title": "Plain forms: how friends talk",
-      "explanation": "With friends and family, Japanese drops です/ます. 行きます → 行く, 行きません → 行かない, します → する, 来ます → 来る. A question is just rising intonation: 行く？ An invitation: 行かない？ (= 行きませんか). Anime is mostly plain forms; use ます with people you don't know well.",
+      "explanation": "With friends and family, Japanese switches to the plain form of the verb: 行きます → 行く, 行きません → 行かない, します → する, 来ます → 来る. Nouns and な adjectives take だ (or nothing) instead of です: 暇だよ, 雨だよ. A question is just rising intonation: 行く？ An invitation: 行かない？ (= 行きませんか). Much anime dialogue between friends is plain; use です/ます with people you don't know well.",
       "example": "一緒に行かない？",
       "translation": "Want to come along?"
     },
@@ -474,7 +474,7 @@
           "speaker": "You",
           "line": "じゃあ、{何|なに}か{持|も}って{行|い}く？",
           "romaji": "Jaa, nanika motte iku?",
-          "meaning": "Then should I bring something?"
+          "meaning": "Then do I need to bring anything?"
         },
         {
           "speaker": "Hana",
@@ -546,17 +546,17 @@
       "id": "n5-u08-x-reply-free",
       "type": "reply",
       "skill": "listening",
-      "context": "Your close friend asks. You are free.",
+      "context": "Your close friend asks in casual speech. You are free; answer in the same casual style.",
       "line": "{明日|あした}、{暇|ひま}？",
       "meaning": "Free tomorrow?",
       "options": [
         "うん、{行|い}きました。",
         "ううん、{雨|あめ}だよ。",
         "うん、{暇|ひま}だよ。",
-        "{暇|ひま}です、ありがとう。"
+        "ううん、{暇|ひま}じゃない。"
       ],
       "answer": 2,
-      "explain": "うん + 暇だよ: casual yes, matching how you were asked.",
+      "explain": "うん + 暇だよ: casual yes, matching how you were asked. 暇じゃない would mean you're busy.",
       "words": [
         "n5-u08-w-hima"
       ],
@@ -600,7 +600,7 @@
       "id": "n5-u08-x-plain",
       "type": "cloze",
       "skill": "reading",
-      "context": "Tell a friend Ren is coming too.",
+      "context": "Tell a friend Ren is coming too. Use the plain form, as friends do.",
       "line": "レンさんも＿＿よ。",
       "meaning": "Ren's coming too.",
       "options": [
@@ -610,7 +610,7 @@
         "{来|き}ませんか"
       ],
       "answer": 0,
-      "explain": "With a friend, plain 来る + よ. 来ますよ is polite.",
+      "explain": "Plain 来る + よ. 来ますよ means the same but is the polite form.",
       "words": [
         "n5-u08-w-kuru"
       ],

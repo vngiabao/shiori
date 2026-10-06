@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "direction": "One Violetto voice, with restrained and consistent character delivery. Pronunciation remains natural; no accents or playback pitch shifting.",
+  "speakers": {
+    "Ren": { "mood": "warm", "description": "Warm, conversational, lightly animated.", "speed": 1.01, "intonation": 0.96, "pitch": -0.015, "semitones": 0.2, "pauseScale": 1.02 },
+    "Satō": { "mood": "composed", "description": "Formal, measured, with a slightly lower centre.", "speed": 0.98, "intonation": 0.78, "pitch": -0.015, "semitones": -0.35, "pauseScale": 1.10 },
+    "Hana": { "mood": "proud", "description": "A little brighter and more animated, still restrained.", "speed": 1.03, "intonation": 1.04, "pitch": -0.015, "semitones": 0.4, "pauseScale": 0.98 },
+    "Yui": { "mood": "warm", "description": "Gentle, settled warmth, distinct from Ren's quicker delivery.", "speed": 0.99, "intonation": 0.90, "pitch": -0.015, "semitones": -0.1, "pauseScale": 1.06 },
+    "You": { "mood": "composed", "description": "An even, neutral learner role.", "speed": 1.00, "intonation": 0.84, "pitch": -0.015, "semitones": 0.0, "pauseScale": 1.04 },
+    "Kenta": { "mood": "warm", "description": "Ren's younger brother: brisk and casual, with short pauses.", "speed": 1.03, "intonation": 1.08, "pitch": -0.015, "semitones": -0.2, "pauseScale": 0.94 },
+    "Yamamoto": { "mood": "warm", "description": "Host mother: unhurried, considerate and warmly polite.", "speed": 0.97, "intonation": 0.86, "pitch": -0.015, "semitones": 0.15, "pauseScale": 1.12 },
+    "Mori": { "mood": "precise", "description": "Internship engineer: concise, matter-of-fact office delivery.", "speed": 1.01, "intonation": 0.72, "pitch": -0.015, "semitones": -0.3, "pauseScale": 1.01 },
+    "Misaki": { "mood": "proud", "description": "Anime and manga friend: brighter phrasing, controlled energy.", "speed": 1.03, "intonation": 1.10, "pitch": -0.015, "semitones": 0.5, "pauseScale": 0.96 },
+    "Ishikawa": { "mood": "precise", "description": "Section manager: deliberate emphasis and clear formal boundaries.", "speed": 0.99, "intonation": 0.82, "pitch": -0.015, "semitones": -0.5, "pauseScale": 1.07 },
+    "Tamura": { "mood": "warm", "description": "Client from Osaka: conversational and rhythmic; dialect comes from the text, not an invented accent.", "speed": 1.02, "intonation": 1.02, "pitch": -0.015, "semitones": 0.25, "pauseScale": 0.98 },
+    "Matsumoto": { "mood": "composed", "description": "Department head: steady, formal and spacious at sentence boundaries.", "speed": 0.96, "intonation": 0.70, "pitch": -0.015, "semitones": -0.4, "pauseScale": 1.15 }
+  }
+}

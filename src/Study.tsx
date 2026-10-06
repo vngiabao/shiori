@@ -16,6 +16,7 @@ import {
   words,
   roleplays,
   grammar,
+  readings,
   kanji,
 } from "./content";
 import {
@@ -26,6 +27,7 @@ import {
   Mascot,
   PageHeading,
   Stroke,
+  Furigana,
 } from "./components";
 import { recordAttempt } from "./db";
 import { coverage, wordStatus } from "./learning";
@@ -34,7 +36,8 @@ import { speakWord, speakReaction, stopAudio, wordAudioText } from "./audio";
 import { ReactionLine } from "./Violetto";
 import { KanaAid } from "./KanaAid";
 import { LetterTasks } from "./LetterTasks";
-import { buildReviewSteps } from "./PhraseLesson";
+import { buildReviewSteps, ReadingText } from "./PhraseLesson";
+import { plain } from "./text";
 import { SubtitleFreeRoute } from "./Route";
 import { kanaKind, kanaTips } from "./kana";
 import { reactionFor } from "./persona";
@@ -71,6 +74,7 @@ export function Read({
           "Katakana",
           "Kanji",
           "Letters",
+          "Texts",
           "Reading path",
           "Text desk",
         ].map((t) => (
@@ -92,7 +96,9 @@ export function Read({
           </button>
         ))}
       </div>
-      {tab === "Reading path" ? (
+      {tab === "Texts" ? (
+        <div className="grammar-list">{readings.map(r => <details key={r.id}><summary>{r.title}</summary><ReadingPreview reading={r} /><Button secondary onClick={() => start(lessons.find(l => l.id === r.lesson)!)}>Open its lesson <ArrowRight /></Button></details>)}</div>
+      ) : tab === "Reading path" ? (
         <ReadingPath />
       ) : tab === "Text desk" ? (
         <TextDesk />
@@ -203,6 +209,10 @@ export function Read({
       )}
     </>
   );
+}
+function ReadingPreview({reading}: {reading: import("./types").Reading}) {
+  const [supported,setSupported] = useState(false);
+  return <ReadingText reading={reading} supported={supported} onSupport={() => setSupported(true)} />;
 }
 export function WordDialog({ word, close }: { word: Word; close: () => void }) {
   const [audioError, setAudioError] = useState("");
@@ -726,11 +736,14 @@ export function Practice({
           <details key={g.id}>
             <summary>{g.title}</summary>
             <p>{g.explanation}</p>
+            {g.formation && <p><strong>Formation:</strong> {g.formation}</p>}
             <p className="grammar-example" lang="ja">
               {g.example}
             </p>
             <p>{g.translation}</p>
             <AudioButton text={g.example} />
+            {g.examples?.map((x,i) => <div key={i}><p lang="ja"><Furigana text={x.ja} /></p><p>{x.en}</p><AudioButton text={plain(x.ja)} /></div>)}
+            {g.mistake && <p className="notice-note">{g.mistake}</p>}
           </details>
         ))}
       </div>
@@ -881,6 +894,7 @@ function Conversation({ id, back }: { id: string; back: () => void }) {
         Conversations
       </button>
       <PageHeading title={r.title} description={r.scene} />
+      <p className="notice-note">Practise this phrase. This checks the target wording, not every possible natural reply.</p>
       <div className="conversation-stage">
         <div className="partner-line">
           <span>{r.partner}</span>
@@ -943,10 +957,11 @@ function Conversation({ id, back }: { id: string; back: () => void }) {
           </div>
         </form>
         {hint && (
-          <p className="notice-note" lang="ja">
+          <div className="notice-note"><p lang="ja">
             {t.example}
-            <span className="muted"> · {t.meaning} · supported practice</span>
-          </p>
+            <AudioButton text={t.example} label="Hear the example" />
+            <span className="muted" lang="en"> · {t.exampleMeaning ?? t.task} · supported practice</span>
+          </p>{t.alternatives?.map(a => <p key={a}><span className="muted">Also accepted: </span><span lang="ja">{a}</span><AudioButton text={a} label="Hear the alternative" /></p>)}</div>
         )}
         {result !== null && (
           <div role="status" className="conversation-feedback">

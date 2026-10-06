@@ -25,8 +25,8 @@ def kanjidic():
         with zipfile.ZipFile(file) as z:data=json.loads(z.read(z.namelist()[0]))
         wanted={c for w in pack['words'] for c in w['text'] if '\u4e00' <= c <= '\u9fff'}
         found=[e for e in data['characters'] if e['literal'] in wanted]
-        (out/'kanjidic2.json').write_text(json.dumps({'source':asset['browser_download_url'],'license':'CC-BY-SA-4.0','characters':found},ensure_ascii=False,indent=2),encoding='utf-8')
-        (out/'kanjidic2-provenance.json').write_text(json.dumps({'release':release['tag_name'],'url':asset['browser_download_url'],'upstream':'EDRDG KANJIDIC2','license':'CC-BY-SA-4.0','sha256':hashlib.sha256(file.read_bytes()).hexdigest()},indent=2),encoding='utf-8')
+        (out/'kanjidic2.json').write_text(json.dumps({'source':asset['browser_download_url'],'license':'CC-BY-SA-4.0','characters':found},ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
+        (out/'kanjidic2-provenance.json').write_text(json.dumps({'release':release['tag_name'],'url':asset['browser_download_url'],'upstream':'EDRDG KANJIDIC2','license':'CC-BY-SA-4.0','sha256':hashlib.sha256(file.read_bytes()).hexdigest()},indent=2),encoding='utf-8', newline='\n')
         print('KANJIDIC2:',len(found),'characters checked',flush=True)
     except Exception as e: raise RuntimeError('KANJIDIC2 unavailable; no verified coverage can be claimed') from e
 chars=set(''.join(w['text'] for w in pack['words'] if w['id'].startswith(('h-','k-'))))|{c for w in pack['words'] for c in w['text'] if '\u4e00' <= c <= '\u9fff'}
@@ -39,7 +39,7 @@ def stroke(c):
         tree=ET.fromstring(file.read_text(encoding='utf-8'))
         paths=[e.attrib['d'] for e in tree.iter() if e.tag.endswith('path') and 'd' in e.attrib]
         if not paths: return False
-        (stroke_dir/f'{name}.json').write_text(json.dumps({'char':c,'paths':paths,'source':'KanjiVG / Ulrich Apel','license':'CC-BY-SA-3.0','revision':kanjivg_revision,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()}),encoding='utf-8')
+        (stroke_dir/f'{name}.json').write_text(json.dumps({'char':c,'paths':paths,'source':'KanjiVG / Ulrich Apel','license':'CC-BY-SA-3.0','revision':kanjivg_revision,'sha256':hashlib.sha256(file.read_bytes()).hexdigest()}),encoding='utf-8', newline='\n')
         return True
     except Exception:return False
 
@@ -56,8 +56,8 @@ def references():
           'kun':'、'.join(r['value'].replace('.','').replace('-','') for r in readings if r['type']=='ja_kun'),
           'words':[w['id'] for w in pack['words'] if c['literal'] in w['text']]})
     dest=root/'content/kanji/n5.json';dest.parent.mkdir(exist_ok=True)
-    dest.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    (out/'kanjivg-provenance.json').write_text(json.dumps({'revision':kanjivg_revision,'license':'CC-BY-SA-3.0','url':f'https://github.com/KanjiVG/kanjivg/tree/{kanjivg_revision}/kanji','scope':'SVG stroke paths; no component mnemonics inferred'},indent=2),encoding='utf-8')
+    dest.write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n',encoding='utf-8', newline='\n')
+    (out/'kanjivg-provenance.json').write_text(json.dumps({'revision':kanjivg_revision,'license':'CC-BY-SA-3.0','url':f'https://github.com/KanjiVG/kanjivg/tree/{kanjivg_revision}/kanji','scope':'SVG stroke paths; no component mnemonics inferred'},indent=2),encoding='utf-8', newline='\n')
     print('New kanji reference entries:',len(entries),flush=True)
 
 if __name__=='__main__':

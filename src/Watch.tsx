@@ -12,8 +12,9 @@ import {
 } from "@phosphor-icons/react";
 import { Button, PageHeading } from "./components";
 import { db } from "./db";
-import { dialogues } from "./content";
-import { speak, stopLines } from "./audio";
+import { dialogues, packs } from "./content";
+import { stopLines } from "./audio";
+import { playDialogueLine } from "./dialogueAudio";
 import { plain } from "./text";
 import { clock, cueAt, parseSubtitles, type Cue } from "./subtitles";
 import "./watch.css";
@@ -46,8 +47,12 @@ const sample: Cue[] = dialogues.flatMap((d, i) =>
     text: plain(l.line),
   })),
 );
+const sampleRoles = dialogues.flatMap((dialogue) =>
+  dialogue.lines.map((_, index) => ({ dialogue, index })),
+);
 
-export function Watch() {
+export function Watch({ unit }: { unit?: string } = {}) {
+  const task = packs.find(p => p.id === unit && p.watch);
   const [media, setMedia] = useState<{
     url: string;
     name: string;
@@ -103,7 +108,10 @@ export function Watch() {
     if (i < 0 || i >= cues.length) return;
     enter(i);
     if (usingSample) {
-      speak(cues[i].text).catch(() => setStatus("This line has no audio."));
+      const role = sampleRoles[i];
+      playDialogueLine(role.dialogue, role.index).catch(() =>
+        setStatus("This line could not play. Please try again."),
+      );
       return;
     }
     const v = player.current;
@@ -130,6 +138,7 @@ export function Watch() {
       end: c.end,
       text: c.text,
       note: "",
+      ...(task ? { unit: task.id } : {}),
     });
     if (mode === "peek") reveal(i);
     setStatus("Line saved. Add a note about what made it hard.");
@@ -215,6 +224,7 @@ export function Watch() {
         title="Watch."
         description="Your own films and episodes: Japanese subtitles first, then peeks only, then none."
       />
+      {task?.watch && <section className="notice-note"><h2>{task.title} · Outside practice</h2><p>{task.watch.prompt}</p><p>Lines saved here are tagged to {task.id}. This records practice, not comprehension.</p></section>}
       {!ready ? (
         <section className="watch-setup">
           <ol className="watch-steps">

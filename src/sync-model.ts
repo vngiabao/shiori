@@ -123,7 +123,7 @@ export const fields: Record<SyncKind, string[]> = {
     "note",
     "feedback",
   ],
-  lines: ["id", "at", "clip", "start", "end", "text", "note"],
+  lines: ["id", "at", "clip", "start", "end", "text", "note", "unit"],
   jlptPlans: ["id", "cycle", "source", "targetDate"],
   jlptLogs: [
     "id",
@@ -264,7 +264,8 @@ function valid(kind: SyncKind, p: Record<string, unknown>): boolean {
         num(p.start) &&
         num(p.end) &&
         (p.end as number) >= (p.start as number) &&
-        ["clip", "text", "note"].every((k) => str(p[k]))
+        ["clip", "text", "note"].every((k) => str(p[k])) &&
+        (p.unit === undefined || (str(p.unit) && /^(n[1-5]|keigo)-u\d+$/.test(p.unit as string)))
       );
     case "jlptPlans":
       return validJlptPlan(p);

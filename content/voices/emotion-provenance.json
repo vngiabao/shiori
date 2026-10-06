@@ -4,7 +4,7 @@
   "model": "VVM 0.16.4 / 1.vvm",
   "styleId": 14,
   "credit": "VOICEVOX:冥鳴ひまり",
-  "lessonManifestSha256": "96b434a5b5346b713a5868f744b06effd9238d57e87075db232cb2046ec9b440",
+  "lessonManifestSha256": "d00dd7439e678ffa5c4f747adf3f0bc115e0ac958a308132a0f23a1c4b41fcec",
   "humanListeningReviewed": false,
   "records": [
     {
@@ -54,7 +54,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.032149478793144226,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.07645819336175919
               },
@@ -101,7 +101,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02736014500260353,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09412805736064911
               },
@@ -121,7 +121,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.344351589679718,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -181,10 +181,10 @@
             "is_interrogative": false
           }
         ],
-        "speed_scale": 1.0,
+        "speed_scale": 1,
         "pitch_scale": -0.015,
         "intonation_scale": 0.86,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -194,10 +194,10 @@
       "reaction": "welcome",
       "delivery": {
         "name": "At the writing desk",
-        "speed": 1.0,
+        "speed": 1,
         "intonation": 0.86,
         "pitch": -0.015,
-        "pauseScale": 1.0
+        "pauseScale": 1
       }
     },
     {
@@ -247,7 +247,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.032149478793144226,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.07645819336175919
               },
@@ -294,7 +294,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02736014500260353,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09412805736064911
               },
@@ -314,7 +314,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3856737804412842,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -377,7 +377,7 @@
         "speed_scale": 0.97,
         "pitch_scale": -0.007,
         "intonation_scale": 1.02,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -464,7 +464,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.047287434339523315,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.18419305980205536
               }
@@ -476,7 +476,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4722894310951233,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -564,7 +564,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.04579418897628784,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -596,7 +596,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.03719083219766617,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.09539683163166046
               },
@@ -617,7 +617,7 @@
         "speed_scale": 1.04,
         "pitch_scale": 0.005,
         "intonation_scale": 1.14,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -704,7 +704,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.047287434339523315,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.18419305980205536
               }
@@ -716,7 +716,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.5526791214942932,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -804,7 +804,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.04579418897628784,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -836,7 +836,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.03719083219766617,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.09539683163166046
               },
@@ -854,10 +854,10 @@
             "is_interrogative": false
           }
         ],
-        "speed_scale": 1.0,
+        "speed_scale": 1,
         "pitch_scale": 0.01,
         "intonation_scale": 1.22,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -867,7 +867,7 @@
       "reaction": "correct",
       "delivery": {
         "name": "Sincerely pleased",
-        "speed": 1.0,
+        "speed": 1,
         "intonation": 1.22,
         "pitch": 0.01,
         "pauseScale": 1.1
@@ -913,7 +913,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02937590703368187,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.08575566112995148
               },
@@ -941,7 +941,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.34158575534820557,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -979,7 +979,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4262243270874023,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1127,7 +1127,7 @@
         "speed_scale": 0.95,
         "pitch_scale": -0.025,
         "intonation_scale": 0.88,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -1183,7 +1183,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02937590703368187,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.08575566112995148
               },
@@ -1211,7 +1211,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.307427179813385,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1249,7 +1249,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.38360189437866216,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1397,7 +1397,7 @@
         "speed_scale": 0.99,
         "pitch_scale": -0.012,
         "intonation_scale": 1.02,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -1477,7 +1477,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.04172135889530182,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.1731046438217163
               }
@@ -1489,7 +1489,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.6655375957489014,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1507,7 +1507,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.04212787374854088,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -1535,7 +1535,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4126321077346802,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1600,7 +1600,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02905626967549324,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09778057038784027
               },
@@ -1653,7 +1653,7 @@
         "speed_scale": 0.95,
         "pitch_scale": -0.025,
         "intonation_scale": 0.88,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -1733,7 +1733,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.04172135889530182,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.1731046438217163
               }
@@ -1745,7 +1745,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.5989838361740113,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1763,7 +1763,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.04212787374854088,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -1791,7 +1791,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.37136889696121217,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -1856,7 +1856,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02905626967549324,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09778057038784027
               },
@@ -1909,7 +1909,7 @@
         "speed_scale": 0.99,
         "pitch_scale": -0.012,
         "intonation_scale": 1.02,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -1961,7 +1961,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.6611256790161133,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -2026,7 +2026,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02886958047747612,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09708666801452637
               },
@@ -2079,7 +2079,7 @@
         "speed_scale": 0.97,
         "pitch_scale": -0.02,
         "intonation_scale": 0.82,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -2131,7 +2131,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.7083489418029785,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -2196,7 +2196,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02886958047747612,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09708666801452637
               },
@@ -2249,7 +2249,7 @@
         "speed_scale": 1.01,
         "pitch_scale": -0.015,
         "intonation_scale": 0.98,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -2490,7 +2490,7 @@
         "speed_scale": 0.97,
         "pitch_scale": -0.02,
         "intonation_scale": 0.82,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -2731,7 +2731,7 @@
         "speed_scale": 1.01,
         "pitch_scale": -0.015,
         "intonation_scale": 0.98,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -2818,7 +2818,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.09156127274036407,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -2838,7 +2838,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3413947856426239,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -2856,7 +2856,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.029059819877147675,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09863478690385818
               },
@@ -2927,7 +2927,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.029845602810382843,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09436461329460144
               },
@@ -2947,7 +2947,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3309471201896667,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -2965,7 +2965,7 @@
                 "text": "ツ",
                 "vowel": "U",
                 "vowel_length": 0.0461343452334404,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "ts",
                 "consonant_length": 0.08324842900037766
               },
@@ -3013,7 +3013,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.03386356309056282,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09535407274961472
               },
@@ -3034,7 +3034,7 @@
         "speed_scale": 1.04,
         "pitch_scale": 0.005,
         "intonation_scale": 1.14,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -3121,7 +3121,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.09156127274036407,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -3141,7 +3141,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3995045363903046,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3159,7 +3159,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.029059819877147675,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09863478690385818
               },
@@ -3230,7 +3230,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.029845602810382843,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09436461329460144
               },
@@ -3250,7 +3250,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.38727854490280156,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3268,7 +3268,7 @@
                 "text": "ツ",
                 "vowel": "U",
                 "vowel_length": 0.0461343452334404,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "ts",
                 "consonant_length": 0.08324842900037766
               },
@@ -3316,7 +3316,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.03386356309056282,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09535407274961472
               },
@@ -3334,10 +3334,10 @@
             "is_interrogative": false
           }
         ],
-        "speed_scale": 1.0,
+        "speed_scale": 1,
         "pitch_scale": 0.01,
         "intonation_scale": 1.22,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -3347,7 +3347,7 @@
       "reaction": "complete",
       "delivery": {
         "name": "Sincerely pleased",
-        "speed": 1.0,
+        "speed": 1,
         "intonation": 1.22,
         "pitch": 0.01,
         "pauseScale": 1.1
@@ -3429,7 +3429,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.33818042278289795,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3455,7 +3455,7 @@
                 "text": "キ",
                 "vowel": "I",
                 "vowel_length": 0.03182308375835419,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "k",
                 "consonant_length": 0.07796233892440796
               },
@@ -3483,7 +3483,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.43603041172027585,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3509,7 +3509,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.040211550891399384,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -3564,7 +3564,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.037355393171310425,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.1260600984096527
               }
@@ -3577,7 +3577,7 @@
         "speed_scale": 0.95,
         "pitch_scale": -0.025,
         "intonation_scale": 0.88,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -3669,7 +3669,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3043623805046082,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3695,7 +3695,7 @@
                 "text": "キ",
                 "vowel": "I",
                 "vowel_length": 0.03182308375835419,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "k",
                 "consonant_length": 0.07796233892440796
               },
@@ -3723,7 +3723,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.39242737054824833,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3749,7 +3749,7 @@
                 "text": "ッ",
                 "vowel": "cl",
                 "vowel_length": 0.040211550891399384,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": null,
                 "consonant_length": null
               },
@@ -3804,7 +3804,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.037355393171310425,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.1260600984096527
               }
@@ -3817,7 +3817,7 @@
         "speed_scale": 0.99,
         "pitch_scale": -0.012,
         "intonation_scale": 1.02,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -3872,7 +3872,7 @@
                 "text": "ヒ",
                 "vowel": "I",
                 "vowel_length": 0.027337636798620224,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "h",
                 "consonant_length": 0.0821465328335762
               },
@@ -3900,7 +3900,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3751844847202301,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -3981,7 +3981,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02874695509672165,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09297269582748413
               },
@@ -4001,7 +4001,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.39471933484077454,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4047,7 +4047,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3267499792575836,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4097,7 +4097,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.047568269073963165,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.13572047650814056
               }
@@ -4110,7 +4110,7 @@
         "speed_scale": 1.04,
         "pitch_scale": 0.005,
         "intonation_scale": 1.14,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -4165,7 +4165,7 @@
                 "text": "ヒ",
                 "vowel": "I",
                 "vowel_length": 0.027337636798620224,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "h",
                 "consonant_length": 0.0821465328335762
               },
@@ -4193,7 +4193,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.43904567360877994,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4274,7 +4274,7 @@
                 "text": "シ",
                 "vowel": "I",
                 "vowel_length": 0.02874695509672165,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "sh",
                 "consonant_length": 0.09297269582748413
               },
@@ -4294,7 +4294,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4619056046009064,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4340,7 +4340,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.3823669970035553,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4390,7 +4390,7 @@
                 "text": "ス",
                 "vowel": "U",
                 "vowel_length": 0.047568269073963165,
-                "pitch": 0.0,
+                "pitch": 0,
                 "consonant": "s",
                 "consonant_length": 0.13572047650814056
               }
@@ -4400,10 +4400,10 @@
             "is_interrogative": false
           }
         ],
-        "speed_scale": 1.0,
+        "speed_scale": 1,
         "pitch_scale": 0.01,
         "intonation_scale": 1.22,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -4413,7 +4413,7 @@
       "reaction": "milestone",
       "delivery": {
         "name": "Sincerely pleased",
-        "speed": 1.0,
+        "speed": 1,
         "intonation": 1.22,
         "pitch": 0.01,
         "pauseScale": 1.1
@@ -4463,7 +4463,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4152403026819229,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4572,7 +4572,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.47946855425834656,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4610,7 +4610,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4855453222990036,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4689,7 +4689,7 @@
         "speed_scale": 0.94,
         "pitch_scale": -0.03,
         "intonation_scale": 0.78,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,
@@ -4749,7 +4749,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.38202107846736905,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4858,7 +4858,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4411110699176788,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4896,7 +4896,7 @@
               "consonant_length": null,
               "vowel": "pau",
               "vowel_length": 0.4467016965150833,
-              "pitch": 0.0
+              "pitch": 0
             },
             "is_interrogative": false
           },
@@ -4975,7 +4975,7 @@
         "speed_scale": 0.98,
         "pitch_scale": -0.02,
         "intonation_scale": 0.94,
-        "volume_scale": 1.0,
+        "volume_scale": 1,
         "pre_phoneme_length": 0.08,
         "post_phoneme_length": 0.12,
         "output_sampling_rate": 24000,

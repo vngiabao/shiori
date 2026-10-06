@@ -4250,7 +4250,7 @@
         "like",
         "see-you"
       ],
-      "question": "What is Ren's favourite drink?",
+      "question": "Which drink does Ren say he likes?",
       "options": [
         "Coffee",
         "Tea",
@@ -4446,19 +4446,13 @@
         "wa",
         "kind",
         "desu",
-        "me",
-        "mo",
-        "letter",
-        "wo",
-        "read",
         "thanks"
       ],
       "paragraphs": [
         1,
         5,
         12,
-        16,
-        21
+        16
       ],
       "prerequisites": [
         "hello",
@@ -4499,9 +4493,14 @@
           "task": "Greet Yui for the first time.",
           "example": "はじめまして",
           "accept": [
-            "^はじめまして[。！!]*$"
+            "^はじめまして[。！!]*$",
+            "^はじめまして[。、 ]*よろしく(お願いします|おねがいします)[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "はじめまして。よろしくお願いします。"
+          ],
+          "exampleMeaning": "Nice to meet you."
         },
         {
           "line": "よろしくお願いします。",
@@ -4510,9 +4509,14 @@
           "task": "Return the polite greeting.",
           "example": "よろしくお願いします",
           "accept": [
-            "^よろしく(お願いします|おねがいします)[。！!]*$"
+            "^よろしく(お願いします|おねがいします)[。！!]*$",
+            "^こちらこそ[、, ]*よろしく(お願いします|おねがいします)[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "こちらこそ、よろしくお願いします。"
+          ],
+          "exampleMeaning": "I look forward to getting to know you."
         }
       ]
     },
@@ -4529,9 +4533,14 @@
           "task": "Greet Ren.",
           "example": "こんにちは",
           "accept": [
-            "^こんにちは[。！!]*$"
+            "^こんにちは[。！!]*$",
+            "^レンさん[、, ]*こんにちは[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "レンさん、こんにちは。"
+          ],
+          "exampleMeaning": "Hello."
         },
         {
           "line": "お茶ですか。",
@@ -4540,9 +4549,14 @@
           "task": "Ask for tea, please.",
           "example": "お茶をお願いします",
           "accept": [
-            "^(お茶|おちゃ)(を)?(お願いします|おねがいします)[。！!]*$"
+            "^(お茶|おちゃ)(を)?(お願いします|おねがいします)[。！!]*$",
+            "^(お茶|おちゃ)(を)?ください[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "お茶をください。"
+          ],
+          "exampleMeaning": "Tea, please."
         },
         {
           "line": "どうぞ。",
@@ -4551,9 +4565,14 @@
           "task": "Thank Ren politely.",
           "example": "ありがとうございます",
           "accept": [
-            "^ありがとうございます[。！!]*$"
+            "^ありがとうございます[。！!]*$",
+            "^どうもありがとうございます[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "どうもありがとうございます。"
+          ],
+          "exampleMeaning": "Thank you."
         }
       ]
     },
@@ -4570,9 +4589,14 @@
           "task": "Say that you do not understand.",
           "example": "わかりません",
           "accept": [
-            "^(すみません[、, ]*)?わかりません[。！!]*$"
+            "^(すみません[、, ]*)?わかりません[。！!]*$",
+            "^(すみません[、, ]*)?よくわかりません[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "よくわかりません。"
+          ],
+          "exampleMeaning": "I do not understand."
         },
         {
           "line": "もう一度ですか。",
@@ -4581,9 +4605,14 @@
           "task": "Ask for one more time, please.",
           "example": "もう一度お願いします",
           "accept": [
-            "^もう(一度|いちど)(お願いします|おねがいします)[。！!]*$"
+            "^もう(一度|いちど)(お願いします|おねがいします)[。！!]*$",
+            "^もう(一度|いちど)(言って|いって)ください[。！!]*$"
           ],
-          "register": "polite"
+          "register": "polite",
+          "alternatives": [
+            "もう一度言ってください。"
+          ],
+          "exampleMeaning": "Once more, please."
         }
       ]
     }
@@ -4739,7 +4768,7 @@
       "id": "d-morning",
       "lesson": "phrase-1",
       "title": "Morning at the bookshop",
-      "scene": "You walk into Yui's bookshop before work.",
+      "scene": "You walk into Yui's bookshop before work. She hands you the book you ordered.",
       "lines": [
         {
           "speaker": "Yui",
@@ -4847,19 +4876,19 @@
       "id": "d-reading",
       "lesson": "phrase-4",
       "title": "What Yui is reading",
-      "scene": "Hana visits the bookshop and finds Yui with a letter.",
+      "scene": "Hana visits the bookshop and asks Yui about her reading plans.",
       "lines": [
         {
           "speaker": "Hana",
           "line": "ユイさん、{今日|きょう}は{何|なに}を{読|よ}みますか。",
           "romaji": "Yui-san, kyō wa nani o yomimasu ka.",
-          "meaning": "Yui, what are you reading today?"
+          "meaning": "Yui, what will you read today?"
         },
         {
           "speaker": "Yui",
           "line": "{友達|ともだち}の{手紙|てがみ}を{読|よ}みます。",
           "romaji": "Tomodachi no tegami o yomimasu.",
-          "meaning": "A letter from a friend."
+          "meaning": "I'll read a letter from a friend."
         },
         {
           "speaker": "Hana",
@@ -4912,6 +4941,94 @@
           "meaning": "I see. Well then, see you tomorrow."
         }
       ]
+    },
+    {
+      "id": "d-counting",
+      "lesson": "phrase-6",
+      "title": "Counting together",
+      "scene": "Hana practises counting aloud with Yui. Listen for the groups of numbers, not English translations.",
+      "lines": [
+        {
+          "speaker": "Hana",
+          "line": "ユイさん、ゆっくりお{願|ねが}いします。",
+          "romaji": "Yui-san, yukkuri onegai shimasu.",
+          "meaning": "Yui, slowly, please."
+        },
+        {
+          "speaker": "Yui",
+          "line": "{一|いち}、{二|に}、{三|さん}。",
+          "romaji": "Ichi, ni, san.",
+          "meaning": "One, two, three."
+        },
+        {
+          "speaker": "Hana",
+          "line": "{三|さん}ですか。",
+          "romaji": "San desu ka.",
+          "meaning": "Three?"
+        },
+        {
+          "speaker": "Yui",
+          "line": "はい。{四|よん}、{五|ご}、{六|ろく}。",
+          "romaji": "Hai. Yon, go, roku.",
+          "meaning": "Yes. Four, five, six."
+        },
+        {
+          "speaker": "Hana",
+          "line": "もう{一度|いちど}お{願|ねが}いします。",
+          "romaji": "Mō ichido onegai shimasu.",
+          "meaning": "Once more, please."
+        },
+        {
+          "speaker": "Yui",
+          "line": "{七|なな}、{八|はち}、{九|きゅう}、{十|じゅう}。",
+          "romaji": "Nana, hachi, kyū, jū.",
+          "meaning": "Seven, eight, nine, ten."
+        }
+      ]
+    },
+    {
+      "id": "d-permission",
+      "lesson": "phrase-7",
+      "title": "A book on a rainy day",
+      "scene": "You ask Yui to read a book at the bookshop. She offers a sweet while it rains outside.",
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "すみません。この{本|ほん}、{読|よ}んでもいいですか。",
+          "romaji": "Sumimasen. Kono hon, yonde mo ii desu ka.",
+          "meaning": "Excuse me. May I read this book?"
+        },
+        {
+          "speaker": "Yui",
+          "line": "はい、どうぞ。",
+          "romaji": "Hai, dōzo.",
+          "meaning": "Yes, please do."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。やさしい{本|ほん}ですか。",
+          "romaji": "Arigatō gozaimasu. Yasashii hon desu ka.",
+          "meaning": "Thank you. Is it an easy book?"
+        },
+        {
+          "speaker": "Yui",
+          "line": "はい、やさしいです。",
+          "romaji": "Hai, yasashii desu.",
+          "meaning": "Yes, it is easy."
+        },
+        {
+          "speaker": "You",
+          "line": "{今日|きょう}は{雨|あめ}ですね。",
+          "romaji": "Kyō wa ame desu ne.",
+          "meaning": "It is raining today, right?"
+        },
+        {
+          "speaker": "Yui",
+          "line": "はい。{飴|あめ}もどうぞ。",
+          "romaji": "Hai. Ame mo dōzo.",
+          "meaning": "Yes. Have a sweet too."
+        }
+      ]
     }
   ],
   "exercises": [
@@ -4958,11 +5075,11 @@
       "lesson": "phrase-1",
       "type": "reply",
       "skill": "listening",
-      "context": "You helped someone pick up their bag.",
+      "context": "You helped someone pick up their bag. Say 'not at all'.",
       "line": "ありがとうございます。",
       "meaning": "Thank you.",
       "options": [
-        "はい。",
+        "こんにちは。",
         "すみません。",
         "いいえ。",
         "こんばんは。"
@@ -5206,12 +5323,12 @@
       "lesson": "phrase-3",
       "type": "cloze",
       "skill": "reading",
-      "context": "Tell Ren what you drink every morning.",
+      "context": "Tell Ren what you drink every morning. Fill in the particle that marks what you drink.",
       "line": "コーヒー＿＿{飲|の}みます。",
       "meaning": "I drink coffee.",
       "options": [
         "を",
-        "は",
+        "に",
         "が",
         "の"
       ],
@@ -5325,7 +5442,7 @@
       "dialogue": "d-reading",
       "type": "dialogue",
       "skill": "listening",
-      "prompt": "What is Yui reading today?",
+      "prompt": "What will Yui read today?",
       "options": [
         "A book",
         "A menu",
@@ -5592,7 +5709,7 @@
       "lesson": "phrase-7",
       "type": "reply",
       "skill": "listening",
-      "context": "You pick up a book in Yui's shop.",
+      "context": "You are Yui. A customer in your shop asks to read a book.",
       "line": "{読|よ}んでもいいですか。",
       "meaning": "May I read it?",
       "options": [
@@ -5656,17 +5773,17 @@
       "letter": "letter-2",
       "type": "choice",
       "skill": "reading",
-      "prompt": "If you visit Ren, what will he most likely offer you first?",
+      "prompt": "Besides tea, what does Ren drink today?",
       "options": [
         "Water",
-        "Tea",
-        "A book"
+        "Coffee",
+        "Juice"
       ],
       "answer": 1,
-      "explain": "お茶が好きです: tea is his favourite.",
+      "explain": "コーヒーも飲みます: he drinks coffee too.",
       "words": [
-        "tea",
-        "like"
+        "coffee",
+        "mo"
       ]
     },
     {
@@ -5791,6 +5908,116 @@
       "explain": "The letter is about reading letters; she closes with thanks.",
       "words": [
         "thanks"
+      ]
+    },
+    {
+      "id": "x-count-last",
+      "lesson": "phrase-6",
+      "dialogue": "d-counting",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What is the last number Yui says?",
+      "options": [
+        "Ten",
+        "Six",
+        "Three"
+      ],
+      "answer": 0,
+      "explain": "Yui ends the final turn with 十, ten.",
+      "words": [
+        "ten"
+      ]
+    },
+    {
+      "id": "x-count-first",
+      "lesson": "phrase-6",
+      "dialogue": "d-counting",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "Which group does Yui say first?",
+      "options": [
+        "Four, five, six",
+        "One, two, three",
+        "Seven, eight, nine"
+      ],
+      "answer": 1,
+      "explain": "The first group is 一、二、三.",
+      "words": [
+        "one",
+        "two",
+        "three"
+      ]
+    },
+    {
+      "id": "x-count-request",
+      "lesson": "phrase-6",
+      "dialogue": "d-counting",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What does Hana ask after the four–five–six group?",
+      "options": [
+        "Stop speaking",
+        "Read a book",
+        "Say it once more"
+      ],
+      "answer": 2,
+      "explain": "もう一度お願いします is a request to say it again.",
+      "words": [
+        "again"
+      ]
+    },
+    {
+      "id": "x-permission-object",
+      "lesson": "phrase-7",
+      "dialogue": "d-permission",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What do you ask permission to do?",
+      "options": [
+        "Read the book",
+        "Leave the shop",
+        "Drink coffee"
+      ],
+      "answer": 0,
+      "explain": "この本、読んでもいいですか asks permission to read this book.",
+      "words": [
+        "may-read"
+      ]
+    },
+    {
+      "id": "x-permission-gift",
+      "lesson": "phrase-7",
+      "dialogue": "d-permission",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "What does Yui offer at the end?",
+      "options": [
+        "An umbrella",
+        "A sweet",
+        "A letter"
+      ],
+      "answer": 1,
+      "explain": "飴もどうぞ is an offer of a sweet. 雨 in the previous turn refers to rain.",
+      "words": [
+        "candy"
+      ]
+    },
+    {
+      "id": "x-permission-level",
+      "lesson": "phrase-7",
+      "dialogue": "d-permission",
+      "type": "dialogue",
+      "skill": "listening",
+      "prompt": "How does Yui describe the book?",
+      "options": [
+        "Very expensive",
+        "Difficult",
+        "Easy"
+      ],
+      "answer": 2,
+      "explain": "やさしいです confirms that it is easy.",
+      "words": [
+        "kind"
       ]
     }
   ]

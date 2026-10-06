@@ -24,5 +24,5 @@ for key,takes in manifest.items():
     assert len(takes)==(1 if roster['lines'][key]['mood']=='clear' else 2)
     assert len({t['url'] for t in takes})==len(takes)
 report={'expressiveClips':len(p['records']),'sameSpeaker':True,'allSpokenTextMatches':True,'phonemeSequencesUnchanged':True,'approvedLessonManifestUnchanged':True,'signalAndHashChecks':True,'perceptualReview':'Delivery labels are targets, not a measured emotion or similarity score.'}
-(root/'output/emotion-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+(root/'output/emotion-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
 print(json.dumps(report,indent=2))

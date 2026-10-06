@@ -10,18 +10,22 @@ type Draft = {
   lemmas?: Record<string, NonNullable<Word["lemma"]>>;
   id: string;
   title: string;
-  lesson: {
+  lesson?: {
     title: string;
     description: string;
     canDo: string;
     minutes: number;
   };
+  lessons?: { title: string; description: string; canDo: string; minutes: number; words: string[] }[];
+  watch?: Pack["watch"];
   /** [id, ruby text, romaji, meaning, register, example (ruby)?] */
   words: [string, string, string, string, Word["register"], string?][];
   grammar: Pack["grammar"];
-  dialogue: Omit<NonNullable<Pack["dialogues"]>[number], "lesson">;
-  exercises: Omit<NonNullable<Pack["exercises"]>[number], "lesson">[];
-  letter: {
+  dialogue?: Omit<NonNullable<Pack["dialogues"]>[number], "lesson"> & { lesson?: string };
+  dialogues?: (Omit<NonNullable<Pack["dialogues"]>[number], "lesson"> & { lesson?: string })[];
+  readings?: (Omit<NonNullable<Pack["readings"]>[number], "lesson"> & { lesson?: string })[];
+  exercises: NonNullable<Pack["exercises"]>;
+  letter?: {
     title: string;
     from: string;
     subject: string;
@@ -45,6 +49,11 @@ const parts = (ruby: string): Word["parts"] =>
 const file = process.argv[2];
 const d = JSON.parse(fs.readFileSync(file, "utf8")) as Draft;
 const lessonId = `${d.id}-lesson`;
+if (!d.lesson && !d.lessons?.length) throw new Error(`Missing lessons: ${d.id}`);
+const bindLesson = (item: { lesson?: string }) => {
+  if (d.lessons && d.lessons.length > 1 && !item.lesson) throw new Error(`Multi-lesson item requires an explicit lesson: ${d.id}`);
+  return item.lesson ?? (d.lessons ? `${d.id}-lesson-1` : lessonId);
+};
 // Spread correct answers across positions; authors write the right answer anywhere.
 let turn = d.id.length;
 const rotate = <T extends { options?: string[]; answer?: number | boolean }>(
@@ -57,11 +66,11 @@ const rotate = <T extends { options?: string[]; answer?: number | boolean }>(
   others.splice(slot, 0, right);
   return { ...x, options: others, answer: slot };
 };
-const question = rotate({ options: d.letter.options, answer: d.letter.answer });
-const tokens = d.letter.sentences.flat();
+const question = d.letter ? rotate({ options: d.letter.options, answer: d.letter.answer }) : undefined;
+const tokens = d.letter?.sentences.flat() ?? [];
 const paragraphs: number[] = [];
 let at = 0;
-for (const s of d.letter.sentences.slice(0, -1))
+for (const s of d.letter?.sentences.slice(0, -1) ?? [])
   paragraphs.push((at += s.length));
 const pack: Pack = {
   id: d.id,
@@ -81,15 +90,15 @@ const pack: Pack = {
     jlpt: null,
     parts: parts(ruby),
   })),
-  lessons: [
+  lessons: d.lessons ? d.lessons.map((l,i) => ({ ...l, id: `${d.id}-lesson-${i+1}`, kind: "phrase" as const })) : [
     {
       id: lessonId,
       kind: "phrase",
       words: d.words.map((w) => w[0]),
-      ...d.lesson,
+      ...d.lesson!,
     },
   ],
-  letters: [
+  letters: d.letter ? [
     {
       id: `${d.id}-letter`,
       title: d.letter.title,
@@ -99,17 +108,19 @@ const pack: Pack = {
       paragraphs,
       prerequisites: [...new Set(tokens)],
       question: d.letter.question,
-      options: question.options!,
-      answer: question.answer as number,
+      options: question!.options!,
+      answer: question!.answer as number,
     },
-  ],
+  ] : [],
   roleplays: [],
   grammar: d.grammar,
   kanji: [],
-  dialogues: [{ ...d.dialogue, lesson: lessonId }],
+  dialogues: (d.dialogues ?? (d.dialogue ? [d.dialogue] : [])).map(x => ({ ...x, lesson: bindLesson(x) })),
+  ...(d.readings ? { readings: d.readings.map(x => ({ ...x, lesson: bindLesson(x) })) } : {}),
+  ...(d.watch ? { watch: d.watch } : {}),
   exercises: [
-    ...d.exercises.map((x) => rotate({ ...x, lesson: lessonId })),
-    ...d.letter.tasks.map((x) => rotate({ ...x, letter: `${d.id}-letter` })),
+    ...d.exercises.map((x) => rotate({ ...x, lesson: bindLesson(x) })),
+    ...(d.letter?.tasks ?? []).map((x) => rotate({ ...x, letter: `${d.id}-letter` })),
   ],
 };
 const out = path.join("content/packs", `${d.id}.json`);

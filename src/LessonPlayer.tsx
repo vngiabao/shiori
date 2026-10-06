@@ -18,6 +18,7 @@ import { romajiVisible } from "./learning";
 import { speakReaction, speakWord, wordAudioText } from "./audio";
 import { ReactionLine, ViolettoBubble } from "./Violetto";
 import { reactionFor } from "./persona";
+import { useReactionLine } from "./reactionState";
 import type { Lesson, Profile, Skill, Support, Word } from "./types";
 export function LessonPlayer({
   lesson,
@@ -40,6 +41,9 @@ export function LessonPlayer({
   const [support, setSupport] = useState<Support>("none");
   const [answer, setAnswer] = useState("");
   const [verdict, setVerdict] = useState<boolean | null>(null);
+  const teacherLine = useReactionLine(
+    reactionFor(verdict === true, support !== "none"),
+  );
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [correctCount, setCorrectCount] = useState(0);
@@ -521,15 +525,11 @@ export function LessonPlayer({
         <aside className="lesson-companion" aria-live="polite">
           <Mascot
             pose={
-              verdict === false
-                ? "encourage"
-                : verdict === true
-                  ? support === "none"
-                    ? "celebrate"
-                    : "hint"
-                  : phase === "meet"
-                    ? "read"
-                    : "listen"
+              verdict !== null
+                ? teacherLine.pose
+                : phase === "meet"
+                  ? "read"
+                  : "listen"
             }
             size={132}
           />

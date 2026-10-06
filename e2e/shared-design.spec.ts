@@ -25,7 +25,7 @@ test("focus lesson: select then check, keyboard, evidence, bubble and clearing",
   expect((await choices.first().boundingBox())!.y).toBe(before!.y);
   await expect(page.locator(".lesson-companion .mascot")).toHaveAttribute(
     "data-pose",
-    "celebrate",
+    /^(celebrate|proud)$/,
   );
   await expect(page.locator(".bubble-reading")).toBeVisible();
   await page.keyboard.press("Enter");

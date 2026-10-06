@@ -23,11 +23,13 @@ import {
   type Reaction,
 } from "./persona";
 import { speakReaction, playClip, stopAudio } from "./audio";
+import { teacherLines, useReactionLine } from "./reactionState";
+import castAuditions from "./generated/cast-auditions.json";
 import { postalProgress } from "./rewards";
 import { db } from "./db";
 import type { Attempt, Completion, Profile } from "./types";
 export function ViolettoBubble({ kind }: { kind: Reaction }) {
-  const line = violetto.lines[kind];
+  const line = useReactionLine(kind);
   const [expanded, setExpanded] = useState(false);
   const [error, setError] = useState("");
   return (
@@ -67,7 +69,7 @@ export function ViolettoBubble({ kind }: { kind: Reaction }) {
 }
 /** Today's companion: Violetto's Prussian-blue letter panel. */
 export function ViolettoPanel({ kind, pose }: { kind: Reaction; pose: Pose }) {
-  const line = violetto.lines[kind];
+  const line = useReactionLine(kind);
   const [error, setError] = useState("");
   return (
     <aside className="violetto-panel" aria-label="A word from Violetto">
@@ -111,7 +113,7 @@ export function ReactionLine({
   kind: Reaction;
   compact?: boolean;
 }) {
-  const line = violetto.lines[kind];
+  const line = useReactionLine(kind);
   const [error, setError] = useState("");
   return (
     <div className={`violetto-line ${compact ? "compact" : ""}`}>
@@ -233,6 +235,10 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
   const [sample, setSample] = useState<Reaction>("welcome");
   const [playing, setPlaying] = useState("");
   const [status, setStatus] = useState("");
+  const [teacherSample, setTeacherSample] = useState(teacherLines[0].id);
+  const teacherLine = teacherLines.find((l) => l.id === teacherSample)!;
+  const [castSpeaker, setCastSpeaker] = useState(castAuditions[0].speaker);
+  const castTake = castAuditions.find(t => t.speaker === castSpeaker)!;
   const choices: [Reaction, string][] = [
     ["welcome", "Greeting"],
     ["correct", "Quiet praise"],
@@ -304,14 +310,67 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
         <h2>One voice. A little more feeling.</h2>
         <p>
           The voice you liked now has a warmer welcome, gentle reassurance,
-          quiet delight, teacher focus and a thoughtful close. Reactions
-          alternate between two deliveries of the same words. Kana and lesson
-          speech stay steady.
+          quiet delight, teacher focus and a thoughtful close. Reactions draw
+          from 100 different teacher messages. Kana and lesson speech stay
+          steady.
+        </p>
+        <p>
+          Conversation scenes use small, consistent differences for each
+          speaker: Ren is warmer, Satō-sensei more formal, Hana a little
+          brighter, and Yui gently warm. All are performed in Violetto’s one
+          voice.
         </p>
         <p className="content-note">
           Small changes in pace, intonation and pauses, all in the same voice.
         </p>
       </div>
+      <section className="voice-baseline" aria-label="Course cast auditions">
+        <h2>The people in your course.</h2>
+        <p>Compare the same sentence in each role. These are small delivery differences in Violetto’s voice; the character names also stay visible during scenes.</p>
+        <label htmlFor="cast-speaker">Choose a character</label>
+        <select id="cast-speaker" value={castSpeaker} onChange={e => { stopAudio(); setCastSpeaker(e.target.value); }}>
+          {castAuditions.map(t => <option key={t.speaker} value={t.speaker}>{t.speaker}</option>)}
+        </select>
+        <p>{castTake.description}</p>
+        <p lang="ja"><Furigana text="{今日|きょう}はよろしくお{願|ねが}いします。{予定|よてい}を{確認|かくにん}しましょう。" /></p>
+        <p className="muted">Thank you for working with me today. Let's check the schedule.</p>
+        <Button secondary onClick={() => hear(`cast-${castSpeaker}`,castTake.url)}><SpeakerHigh /> Hear this character</Button>
+      </section>
+      <section className="voice-baseline" aria-label="Teacher messages">
+        <h2>A teacher with a little personality.</h2>
+        <p>
+          Precise, patient, quietly pleased when an answer is right.
+          Occasionally, a correction gives her something to do. Every message
+          has its own recording.
+        </p>
+        <label htmlFor="teacher-message">Explore the 100 messages</label>
+        <select
+          id="teacher-message"
+          value={teacherSample}
+          onChange={(e) => {
+            stopAudio();
+            setTeacherSample(e.target.value);
+          }}
+        >
+          {teacherLines.map((l) => (
+            <option key={l.id} value={l.id}>
+              {l.category} · {l.meaning}
+            </option>
+          ))}
+        </select>
+        <p lang="ja">
+          <Furigana text={teacherLine.ruby} />
+        </p>
+        <p className="muted">{teacherLine.romaji}</p>
+        <p>{teacherLine.meaning}</p>
+        <Button secondary onClick={() => hear(teacherLine.id, teacherLine.url)}>
+          <SpeakerHigh /> Hear this message
+        </Button>
+        <p className="content-note">
+          Subtle changes in feeling and pace, in the same voice. These Japanese
+          messages are an AI-assisted draft awaiting listening review.
+        </p>
+      </section>
       <section className="voice-script">
         <label htmlFor="voice-script">Compare the same line</label>
         <select

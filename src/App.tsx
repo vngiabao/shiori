@@ -293,8 +293,8 @@ export default function App() {
                 window.scrollTo(0, 0);
               }}
             />
-          ) : route === "media" ? (
-            <Watch />
+          ) : route === "media" || route.startsWith("media?unit=") ? (
+            <Watch key={route} unit={route.startsWith("media?unit=") ? decodeURIComponent(route.split("=")[1]) : undefined} />
           ) : route === "jlpt" || route.startsWith("jlpt/") ? (
             <JlptRoom
               onFocusChange={setExamFocus}
@@ -702,16 +702,18 @@ function Companion() {
     <>
       <PageHeading
         title="Violetto."
-        description="Your companion: composed, precise, and learning what words mean to people."
+        description="Your teacher: composed, precise, and learning what words mean to people."
       />
       <div className="companion-intro">
         <Mascot size={225} />
         <div>
           <h2>Every feeling starts with a word.</h2>
           <p>
-            Violetto keeps you company as you read, listen, hesitate, and try
-            again. A quiet nod for a clear answer. A little encouragement when
-            the words don’t come yet.
+            Violetto treats every answer as a small responsibility. She checks
+            carefully, corrects patiently, and lets a little warmth through when
+            you get it right. Occasionally, she is rather pleased that her
+            corrections have something to do. There is always time for another
+            try, or a cup of tea.
           </p>
           <ReactionLine kind="welcome" />
           <div className="actions">

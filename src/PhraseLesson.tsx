@@ -7,7 +7,7 @@ import {
   SpeakerHigh,
   X,
 } from "@phosphor-icons/react";
-import { dialogues, exercises, wordMap, words } from "./content";
+import { dialogues, exercises, readings, packs, wordMap, words } from "./content";
 import {
   AudioButton,
   Button,
@@ -19,15 +19,11 @@ import {
 import { db, finishLesson, recordAttempt } from "./db";
 import { postalProgress } from "./rewards";
 import { romajiVisible } from "./learning";
-import {
-  playLines,
-  speak,
-  speakReaction,
-  stopLines,
-  wordAudioText,
-} from "./audio";
+import { speak, speakReaction, stopLines, wordAudioText } from "./audio";
 import { ReactionLine, ViolettoBubble } from "./Violetto";
 import { reactionFor } from "./persona";
+import { playDialogue, playDialogueLine } from "./dialogueAudio";
+import { useReactionLine } from "./reactionState";
 import { plain } from "./text";
 import type {
   Dialogue,
@@ -35,6 +31,8 @@ import type {
   Lesson,
   Memory,
   Profile,
+  Pack,
+  Reading,
   Skill,
   Support,
   Word,
@@ -47,6 +45,7 @@ import "./phrase-lesson.css";
 export type Step =
   | { kind: "meet"; words: Word[] }
   | { kind: "scene"; dialogue: Dialogue }
+  | { kind: "grammar"; notes: Pack["grammar"] }
   | { kind: "exercise"; ex: Exercise; lastForScene: boolean }
   | { kind: "check"; word: Word; skill: Skill };
 
@@ -58,9 +57,12 @@ function buildSteps(lesson: Lesson, mode: Skill): Step[] {
   const steps: Step[] = [];
   for (let i = 0; i < lessonWords.length; i += 4)
     steps.push({ kind: "meet", words: lessonWords.slice(i, i + 4) });
-  const scene = dialogues.find((d) => d.lesson === lesson.id);
-  if (scene) steps.push({ kind: "scene", dialogue: scene });
-  const own = exercises.filter((x) => x.lesson === lesson.id);
+  const notes = packs.find(p => p.lessons.some(l => l.id === lesson.id))?.grammar.filter(g => g.formation && (!g.lessons || g.lessons.includes(lesson.id))) ?? [];
+  if (notes.length) steps.push({ kind: "grammar", notes });
+  const scenes = dialogues.filter((d) => d.lesson === lesson.id);
+  if (scenes.length === 1) steps.push({ kind: "scene", dialogue: scenes[0] });
+  const rawExercises = exercises.filter((x) => x.lesson === lesson.id);
+  const own = scenes.length > 1 ? [...scenes.flatMap(d => rawExercises.filter(x => x.dialogue === d.id)), ...rawExercises.filter(x => !x.dialogue)] : rawExercises;
   // Words already practised inside a sentence don't need a bare check as well;
   // the rest get one each, at most eight, so sentences carry most of the lesson.
   const tested = new Set(own.map((x) => x.words[0]));
@@ -79,6 +81,10 @@ function buildSteps(lesson: Lesson, mode: Skill): Step[] {
     Math.ceil(checks.length / Math.max(1, own.length - 1)),
   );
   own.forEach((ex, i) => {
+    if (scenes.length > 1 && ex.dialogue && !own.slice(0,i).some(x => x.dialogue === ex.dialogue)) {
+      const scene = scenes.find(d => d.id === ex.dialogue);
+      if (scene) steps.push({ kind: "scene", dialogue: scene });
+    }
     const lastForScene =
       !!ex.dialogue &&
       !own.slice(i + 1).some((later) => later.dialogue === ex.dialogue);
@@ -99,7 +105,7 @@ export function buildReviewSteps(memories: Memory[], limit = 20): Step[] {
     .sort((a, b) => a.due - b.due)
     .flatMap((m): Step[] => {
       const tasks = exercises.filter(
-        (x) => x.words[0] === m.itemId && x.skill === m.skill,
+        (x) => x.words[0] === m.itemId && (x.letter && x.type === "cloze" ? "recall" : x.skill) === m.skill,
       );
       if (tasks.length) {
         const ex = tasks[(m.successes + m.failures) % tasks.length];
@@ -144,6 +150,9 @@ export function PhraseLesson({
   const [picked, setPicked] = useState<number[]>([]);
   const [support, setSupport] = useState<Support>("none");
   const [verdict, setVerdict] = useState<boolean | null>(null);
+  const teacherLine = useReactionLine(
+    reactionFor(verdict === true, support !== "none"),
+  );
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [tally, setTally] = useState({ unaided: 0, supported: 0, missed: 0 });
@@ -153,6 +162,7 @@ export function PhraseLesson({
   } | null>(null);
   const saving = useRef(false);
   const step = steps[index];
+  const pack = packs.find(p => p.lessons.some(l => l.id === lesson.id));
   const learnRomaji = romajiVisible(profile.created, profile.romaji);
 
   // Choices for a recognition check: meanings of other phrases, lesson-mates first.
@@ -197,7 +207,7 @@ export function PhraseLesson({
     if (step.kind === "exercise" && step.ex.type === "reply")
       speak(plain(step.ex.line!)).catch(() => undefined);
     else if (scene && step.kind === "exercise")
-      playLines(scene.lines.map((l) => plain(l.line))).catch(() => undefined);
+      playDialogue(scene).catch(() => undefined);
     else if (step.kind === "check" && step.skill === "listening")
       speak(wordAudioText(step.word)).catch(() => undefined);
     return () => stopLines();
@@ -318,7 +328,7 @@ export function PhraseLesson({
             x.tiles!.map(plain).join("")
           : choice === x.answer;
       itemId = x.words[0];
-      skill = x.skill;
+      skill = x.letter && x.type === "cloze" ? "recall" : x.skill;
     } else return;
     saving.current = true;
     setBusy(true);
@@ -386,6 +396,7 @@ export function PhraseLesson({
           Back to my desk
           <ArrowRight />
         </Button>
+        {pack?.watch && <section className="notice-note"><h2>Meet these words in your own show</h2><p>{pack.watch.prompt}</p><a className="text-button" href={`#media?unit=${encodeURIComponent(pack.id)}`} onClick={onClose}>Open Watch</a><p>Optional outside practice; saved lines are evidence of activity, not a score.</p></section>}
       </main>
     );
 
@@ -429,8 +440,10 @@ export function PhraseLesson({
               busy={busy}
               onNext={() => meet(step.words)}
             />
+          ) : step.kind === "grammar" ? (
+            <><h1>Notice how this works.</h1>{step.notes.map(g => <section className="reading-stage" key={g.id}><h2>{g.title}</h2><p>{g.explanation}</p><p><strong>Formation:</strong> {g.formation}</p>{g.examples?.map((e,i) => <div key={i}><p lang="ja" className="reading-line"><Furigana text={e.ja} /></p><p>{e.en}</p><AudioButton text={plain(e.ja)} /></div>)}<p className="notice-note">{g.mistake}</p></section>)}<Button onClick={next}>Hear it in context <ArrowRight /></Button></>
           ) : step.kind === "scene" ? (
-            <Scene dialogue={step.dialogue} onNext={next} />
+            <Scene key={step.dialogue.id} dialogue={step.dialogue} onNext={next} />
           ) : step.kind === "check" ? (
             <>
               <h1>
@@ -522,17 +535,13 @@ export function PhraseLesson({
         <aside className="lesson-companion" aria-live="polite">
           <Mascot
             pose={
-              verdict === false
-                ? "encourage"
-                : verdict === true
-                  ? support === "none"
-                    ? "celebrate"
-                    : "hint"
-                  : step.kind === "scene" || exercise?.skill === "listening"
-                    ? "listen"
-                    : step.kind === "meet"
-                      ? "read"
-                      : "think"
+              verdict !== null
+                ? teacherLine.pose
+                : step.kind === "scene" || exercise?.skill === "listening"
+                  ? "listen"
+                  : step.kind === "meet"
+                    ? "read"
+                    : "think"
             }
             size={132}
           />
@@ -617,14 +626,17 @@ function Scene({
 }) {
   const [speaking, setSpeaking] = useState(-1);
   const [heard, setHeard] = useState(false);
-  const play = () =>
-    playLines(
-      dialogue.lines.map((l) => plain(l.line)),
-      (i) => {
-        setSpeaking(i);
-        if (i === -1) setHeard(true);
-      },
-    ).catch(() => setHeard(true));
+  const [audioError, setAudioError] = useState("");
+  const play = () => {
+    setAudioError("");
+    return playDialogue(dialogue, (i) => {
+      setSpeaking(i);
+      if (i === -1) setHeard(true);
+    }).catch(() => {
+      setSpeaking(-1);
+      setAudioError("The conversation could not play. Please retry; it has not been counted as heard.");
+    });
+  };
   useEffect(() => {
     void play();
     return () => stopLines();
@@ -652,6 +664,7 @@ function Scene({
           <ArrowRight />
         </Button>
       </div>
+      {audioError && <p role="alert" className="error-text">{audioError}</p>}
     </>
   );
 }
@@ -689,20 +702,35 @@ function ExerciseBody({
     truefalse: "True or false?",
     order: "Build the sentence.",
     choice: ex.prompt ?? "Which fits best?",
+    speaker: ex.prompt ?? "Who said this line?",
+    register: ex.prompt ?? "Choose the wording for this situation.",
+    compare: ex.prompt ?? "Compare the two texts.",
   }[ex.type];
   const locked = verdict !== null || busy;
+  const [audioError, setAudioError] = useState("");
+  const hear = async (lineOnly = false) => {
+    if (!scene) return;
+    setAudioError("");
+    try {
+      if (lineOnly) await playDialogueLine(scene, scene.lines.findIndex(l => plain(l.line) === plain(ex.line ?? "")));
+      else await playDialogue(scene);
+    } catch { setAudioError("The recording could not play. Please try again."); }
+  };
+  const reading = ex.reading ? readings.find(r => r.id === ex.reading) : undefined;
   return (
     <>
+      {reading && <ReadingText reading={reading} supported={support === "furigana"} onSupport={() => setSupport("furigana")} />}
+      {reading?.pair && <ReadingText reading={readings.find(r => r.id === reading.pair)!} supported={support === "furigana"} onSupport={() => setSupport("furigana")} />}
       <h1>{heading}</h1>
       {ex.context && <p className="task-context">{ex.context}</p>}
+      {ex.line && ["choice", "register", "compare"].includes(ex.type) && <><p lang="ja" className="reading-line"><Furigana text={ex.line} /></p><AudioButton text={plain(ex.line)} label="Hear the sentence" /></>}
+      {ex.type === "speaker" && ex.line && <Button secondary onClick={() => hear(true)}><SpeakerHigh /> Hear the line</Button>}
       {scene && (
-        <Button
-          secondary
-          onClick={() => playLines(scene.lines.map((l) => plain(l.line)))}
-        >
+        <Button secondary onClick={() => hear()}>
           <SpeakerHigh /> Play the conversation
         </Button>
       )}
+      {audioError && <p role="alert">{audioError}</p>}
       {ex.type === "cloze" && (
         <p className="cloze-line" lang="ja">
           {ex.line!.split("＿＿").map((part, i) => (
@@ -803,6 +831,19 @@ function ExerciseBody({
       ) : null}
     </>
   );
+}
+
+export function ReadingText({ reading, supported, onSupport }: { reading: Reading; supported: boolean; onSupport: () => void }) {
+  return <section className="letter-reading" aria-label={reading.title}>
+    <p className="muted">{reading.genre} · Reading practice</p>
+    <h2>{reading.title}</h2>
+    {reading.paragraphs.map((p, i) => <p lang="ja" key={i}>{supported ? <Furigana text={p} /> : plain(p)}</p>)}
+    {reading.panels?.map((panel,i) => <section className="notice-note" key={i}><p>{panel.description}</p>{panel.lines.map((l,j) => <p key={j} lang="ja"><strong>{l.sfx ? "Sound effect" : l.speaker}: </strong>{supported ? <Furigana text={l.line} /> : plain(l.line)}</p>)}</section>)}
+    {reading.source && <p className="muted">{reading.source.author} · <a href={reading.source.url} target="_blank" rel="noreferrer">{reading.source.title}</a> · {reading.source.licence}</p>}
+    {reading.table && <div style={{ overflowX: "auto" }}><table><thead><tr>{reading.table.head.map((h,i) => <th key={i}>{supported ? <Furigana text={h} /> : plain(h)}</th>)}</tr></thead><tbody>{reading.table.rows.map((row,i) => <tr key={i}>{row.map((v,j) => <td key={j}>{supported ? <Furigana text={v} /> : plain(v)}</td>)}</tr>)}</tbody></table></div>}
+    {!supported && <button className="text-button" onClick={onSupport}>Show furigana and glossary · supported attempt</button>}
+    {supported && <dl>{reading.glosses.map(g => <div key={g.text}><dt lang="ja">{g.text}（{g.kana}）</dt><dd>{g.meaning}</dd></div>)}</dl>}
+  </section>;
 }
 
 function Options({

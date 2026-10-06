@@ -47,6 +47,6 @@ for candidate in roster['candidates']:
         direction=candidate['instruction']+' '+roster['moods'][line['mood']]
         lines[key]=synth(cid+'-'+key,line['text'],direction,reference,candidate['seed']+100+i)
     manifest['candidates'].append({'id':cid,'name':candidate['name'],'description':candidate['description'],'base':base,'lines':lines})
-    (root/'src/generated/violetto-auditions.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-    (root/'content/voices/audition-provenance.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+    (root/'src/generated/violetto-auditions.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
+    (root/'content/voices/audition-provenance.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
 print('All four auditions ready. No full-course voice has been selected.',flush=True)

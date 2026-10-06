@@ -7,13 +7,35 @@ import {
   wordAudioText,
   speakReaction,
   replay,
+  playLines,
 } from "../src/audio";
 import manifest from "../src/generated/audio.json";
-import { emotionalLines } from "../src/persona";
+import { currentReaction, teacherLines } from "../src/reactionState";
+import { voiceCandidates } from "../src/persona";
 
 afterEach(() => {
   configureVoice({});
   vi.unstubAllGlobals();
+});
+it("does not count an interrupted conversation as heard or resume over a tapped word", async () => {
+  const clips: { onpause?: () => void; onended?: () => void; ended:boolean; pause:()=>void }[] = [];
+  vi.stubGlobal("window", {});
+  vi.stubGlobal("Audio", class {
+    ended=false;
+    onpause?:()=>void;
+    onended?:()=>void;
+    constructor() { clips.push(this); }
+    play() { return Promise.resolve(); }
+    pause() { this.onpause?.(); }
+  });
+  const callback=vi.fn();
+  const conversation=playLines([{text:"こんにちは",url:manifest["こんにちは"]},{text:"あ",url:manifest["あ"]}],callback);
+  const rejected=expect(conversation).rejects.toMatchObject({name:"AbortError"});
+  await speak("い");
+  await rejected;
+  expect(clips).toHaveLength(2);
+  expect(callback.mock.calls).toEqual([[0]]);
+  stopAudio();
 });
 it("varies new reactions, replays the same delivery, and honours mute", async () => {
   const played: string[] = [];
@@ -33,17 +55,49 @@ it("varies new reactions, replays the same delivery, and honours mute", async ()
   configureVoice({});
   await speakReaction("welcome");
   await speakReaction("welcome");
-  expect(played).toEqual(emotionalLines.welcome.map((t) => t.url));
+  expect(new Set(played).size).toBe(2);
+  expect(
+    teacherLines.some((l) => l.category === "welcome" && l.url === played[1]),
+  ).toBe(true);
+  expect(currentReaction("welcome").url).toBe(played[1]);
   await speakReaction("welcome", true);
   await replay();
   expect(played.slice(2)).toEqual([played[1], played[1]]);
   configureVoice({ spokenReactions: false });
+  const beforeMute = currentReaction("welcome").id;
   await speakReaction("welcome");
   expect(played).toHaveLength(4);
+  expect(currentReaction("welcome").id).not.toBe(beforeMute);
+  await speakReaction("welcome", true);
+  expect(played.at(-1)).toBe(currentReaction("welcome").url);
   configureVoice({});
   await speakReaction("welcome");
-  expect(played.at(-1)).toBe(played[0]);
+  expect(played.at(-1)).not.toBe(played.at(-2));
   stopAudio();
+});
+it("uses each praise message before repeating and avoids repeats at bag boundaries", async () => {
+  vi.stubGlobal("window", {});
+  configureVoice({ spokenReactions: false });
+  const ids: string[] = [];
+  for (let i = 0; i < 51; i++) {
+    await speakReaction("correct");
+    ids.push(currentReaction("correct").id);
+  }
+  expect(new Set(ids.slice(0, 25)).size).toBe(25);
+  expect(new Set(ids.slice(25, 50)).size).toBe(25);
+  expect(ids.every((id, i) => i === 0 || id !== ids[i - 1])).toBe(true);
+});
+it("keeps earlier audition text matched to its recording", async () => {
+  vi.stubGlobal("window", {});
+  configureVoice({
+    spokenReactions: false,
+    voicePreview: voiceCandidates[0].id,
+  });
+  await speakReaction("correct");
+  expect(currentReaction("correct").id).toBe("correct");
+  expect(currentReaction("correct").url).toBe(
+    voiceCandidates[0].lines.correct.url,
+  );
 });
 it("distinguishes kana ha from the topic particle without changing spelling", () => {
   expect(wordAudioText({ id: "h-は", kana: "は" })).toBe("は");

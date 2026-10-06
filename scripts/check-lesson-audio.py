@@ -7,6 +7,13 @@ p=json.loads((root/'content/voices/lesson-provenance.json').read_text(encoding='
 m=json.loads((root/'src/generated/audio.json').read_text(encoding='utf-8'))
 records=p['records'];indexed={r['url']:r for r in records}
 assert set(m.values())<=set(indexed)
+pairs={(r['text'],r['url']) for r in records}
+for text,url in m.items():
+    assert (text,url) in pairs,('Text mapped to a different recording',text,url)
+roster=json.loads((root/'content/voices/violetto.json').read_text(encoding='utf-8'))
+baseline=json.loads((root/'src/generated/violetto-baseline.json').read_text(encoding='utf-8'))
+for key,take in baseline.items():
+    assert (roster['lines'][key]['text'],take['url']) in pairs,('Baseline reaction mismatch',key)
 single=0
 for r in records:
     path=root/'public'/r['url'].lstrip('/')
@@ -20,7 +27,8 @@ for r in records:
         assert len(phrases)==1 and len(phrases[0]['moras'])==1
         mora=phrases[0]['moras'][0]
         assert mora['vowel'] in ['a','i','u','e','o','N']
-        assert mora['vowel_length']==.22 and not phrases[0]['is_interrogative']
+        expected=.30 if r['text'] in 'あいうえおアイウエオ' else .22
+        assert mora['vowel_length']==expected and not phrases[0]['is_interrogative']
         assert .35<r['seconds']<.7
         single+=1
 for text,vowel in [('あ','a'),('い','i'),('う','u'),('え','e'),('お','o')]:
@@ -31,6 +39,6 @@ for text in ['あい','あ、い。','あ い']:
     moras=[x for p in indexed[m[text]]['query']['accent_phrases'] for x in p['moras']]
     assert [x['vowel'] for x in moras]==['a','i'],(text,moras)
     assert all(x['consonant'] is None for x in moras)
-report={'clips':len(records),'manifestKeys':len(m),'singleKana':single,'pcmDecode':True,'contentHashes':True,'singleMoraQueries':True,'noExtraPhonemesInVowels':True,'reviewLimit':'Signal and synthesis-query checks do not certify perceived pronunciation or acting similarity. ASR and human listening are separate.'}
-(root/'output/lesson-audio-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
+report={'clips':len(records),'manifestKeys':len(m),'singleKana':single,'pcmDecode':True,'contentHashes':True,'textToRecordingMappings':True,'baselineReactionMappings':True,'singleMoraQueries':True,'noExtraPhonemesInVowels':True,'reviewLimit':'Signal and synthesis-query checks do not certify perceived pronunciation or acting similarity. ASR and human listening are separate.'}
+(root/'output/lesson-audio-check.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
 print(json.dumps(report,indent=2))

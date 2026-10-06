@@ -54,7 +54,9 @@ export type Roleplay = {
     meaning: string;
     task: string;
     example: string;
+    exampleMeaning?: string;
     accept: string[];
+    alternatives?: string[];
     register: string;
   }[];
 };
@@ -69,10 +71,14 @@ export type Pack = {
   roleplays: Roleplay[];
   grammar: {
     id: string;
+    lessons?: string[];
     title: string;
     explanation: string;
     example: string;
     translation: string;
+    formation?: string;
+    mistake?: string;
+    examples?: { ja: string; en: string }[];
   }[];
   kanji: {
     char: string;
@@ -84,8 +90,22 @@ export type Pack = {
   }[];
   /** Short scenes heard before their text is shown. */
   dialogues?: Dialogue[];
+  readings?: Reading[];
+  watch?: { grammar: string[]; prompt: string };
   /** Practice in new sentences; lessons and letters reference these by id. */
   exercises?: Exercise[];
+};
+export type Reading = {
+  id: string;
+  lesson: string;
+  title: string;
+  genre: "notice" | "message" | "email" | "article" | "diary" | "guide" | "story" | "essay" | "news" | "literature" | "manga";
+  paragraphs: string[];
+  glosses: { text: string; kana: string; meaning: string }[];
+  table?: { head: string[]; rows: string[][] };
+  pair?: string;
+  source?: { title: string; author: string; deathYear: number; url: string; licence: string };
+  panels?: { description: string; lines: { speaker: string; line: string; sfx?: boolean }[] }[];
 };
 /** Japanese lines use ruby markup: {漢字|かんじ}. One narrator voices every speaker. */
 export type Dialogue = {
@@ -93,15 +113,18 @@ export type Dialogue = {
   lesson: string;
   title: string;
   scene: string;
+  speed?: number;
+  words?: string[];
   lines: { speaker: string; line: string; romaji: string; meaning: string }[];
 };
 export type Exercise = {
   id: string;
   lesson?: string;
   letter?: string;
+  reading?: string;
   /** Dialogue questions replay this scene without its text. */
   dialogue?: string;
-  type: "cloze" | "reply" | "dialogue" | "truefalse" | "order" | "choice";
+  type: "cloze" | "reply" | "dialogue" | "truefalse" | "order" | "choice" | "speaker" | "register" | "compare";
   skill: Skill;
   /** An English situation, so the right answer depends on meaning. */
   context?: string;
@@ -173,6 +196,7 @@ export type SavedLine = {
   end: number;
   text: string;
   note: string;
+  unit?: string;
 };
 export type FieldSession = {
   id: string;

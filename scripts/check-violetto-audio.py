@@ -14,5 +14,5 @@ for candidate in manifest['candidates']:
         assert .01<float(np.max(np.abs(audio)))<.99
         assert hashlib.sha256(path.read_bytes()).hexdigest()==record['sha256']
         results.append({'voice':candidate['id'],'line':name,'duration':round(len(audio)/sr,3),'peak':round(float(np.max(np.abs(audio))),4),'bytes':path.stat().st_size})
-(root/'output/voice-audio-check.json').write_text(json.dumps({'checked':len(results),'totalBytes':sum(r['bytes'] for r in results),'checks':'Mono 24kHz decoding, finite non-silent signal, duration, peak ceiling, SHA-256. Does not certify pronunciation or similarity.','results':results},indent=2),encoding='utf-8')
+(root/'output/voice-audio-check.json').write_text(json.dumps({'checked':len(results),'totalBytes':sum(r['bytes'] for r in results),'checks':'Mono 24kHz decoding, finite non-silent signal, duration, peak ceiling, SHA-256. Does not certify pronunciation or similarity.','results':results},indent=2),encoding='utf-8', newline='\n')
 print('Passed',len(results),'audition clips;',round(sum(r['bytes'] for r in results)/1048576,2),'MiB')

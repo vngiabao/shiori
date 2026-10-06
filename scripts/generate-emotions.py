@@ -22,6 +22,6 @@ for key,line in r.roster['lines'].items():
     assert len({t['sha256'] for t in takes})==2,key
     manifest[key]=takes
 assert before==hashlib.sha256((root/'src/generated/audio.json').read_bytes()).hexdigest()
-(root/'src/generated/violetto-emotions.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
-(root/'content/voices/emotion-provenance.json').write_text(json.dumps({'generatedAt':datetime.now(timezone.utc).isoformat(),'engine':'VOICEVOX Core 0.17.0','model':'VVM 0.16.4 / 1.vvm','styleId':14,'credit':config['voice'],'lessonManifestSha256':before,'humanListeningReviewed':False,'records':records},ensure_ascii=False,indent=2),encoding='utf-8')
+(root/'src/generated/violetto-emotions.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
+(root/'content/voices/emotion-provenance.json').write_text(json.dumps({'generatedAt':datetime.now(timezone.utc).isoformat(),'engine':'VOICEVOX Core 0.17.0','model':'VVM 0.16.4 / 1.vvm','styleId':14,'credit':config['voice'],'lessonManifestSha256':before,'humanListeningReviewed':False,'records':records},ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
 print('Published',len(records),'expressive reaction clips; approved lesson manifest unchanged.',flush=True)

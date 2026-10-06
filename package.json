@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "npm run packs && npm run validate:jlpt && tsc --noEmit && vite build",
+    "build": "npm run packs && npm run validate:jlpt && npm run validate:audio && tsc --noEmit && vite build",
+    "validate:audio": "vitest run tests/audio-mappings.test.ts",
     "preview": "vite preview --host 127.0.0.1 --port 5175",
     "packs": "tsx scripts/build-packs.ts",
     "validate:content": "tsx scripts/build-packs.ts --check",

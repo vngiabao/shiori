@@ -35,8 +35,34 @@ const auditions = JSON.parse(
 const emotions = JSON.parse(
   fs.readFileSync("src/generated/violetto-emotions.json", "utf8"),
 );
+const teacher = JSON.parse(
+  fs.readFileSync("src/generated/violetto-teacher.json", "utf8"),
+);
+const dialogue = JSON.parse(
+  fs.readFileSync("src/generated/dialogue-voices.json", "utf8"),
+) as Record<string, { url: string }[]>;
+const dialogueUrls = Object.values(dialogue)
+  .flat()
+  .map((line) => line.url);
+const cast = JSON.parse(fs.readFileSync("src/generated/cast-auditions.json","utf8")) as {url:string}[];
+// Every new reaction and dialogue take must survive the opt-in download.
+const missingTeacher = await page.evaluate(
+  async (urls: string[]) => {
+    const cache = await caches.open("shiori-audio");
+    const missing: string[] = [];
+    for (const url of urls) if (!(await cache.match(url))) missing.push(url);
+    return missing;
+  },
+  [...teacher.map((line: { url: string }) => line.url), ...dialogueUrls, ...cast.map(t => t.url)],
+);
+expect(missingTeacher).toEqual([]);
 const checks = [];
 for (const clip of [
+  dialogueUrls[0],
+  dialogueUrls.at(-1),
+  cast.at(-1)!.url,
+  teacher[0].url,
+  teacher[50].url,
   emotions.correct[1].url,
   audio["あ"],
   audio["い"],
@@ -86,6 +112,8 @@ fs.writeFileSync(
     {
       verifiedAt: new Date().toISOString(),
       offlineReload: true,
+      teacherClipsCached: teacher.length,
+      dialogueClipsCached: dialogueUrls.length,
       lessonAvailable: true,
       jlptAndTeacherOffline: true,
       bundledAudio: checks,

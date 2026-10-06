@@ -47,10 +47,10 @@ function LetterTask({
     try {
       await recordAttempt({
         itemId: task.words[0],
-        skill: task.skill,
+        skill: task.type === "cloze" ? "recall" : task.skill,
         correct: o === task.answer,
         support: supported ? "furigana" : "none",
-        source: task.letter ?? "letter",
+        source: task.type === "cloze" ? "letter-grammar" : task.letter ?? "letter",
       });
       setPicked(o);
     } catch {
@@ -60,6 +60,7 @@ function LetterTask({
   const right = picked === task.answer;
   return (
     <div className="letter-task">
+      {task.type === "cloze" && <p className="muted">Grammar practice · not a reading-comprehension score</p>}
       <h3>{task.type === "cloze" ? task.context : task.prompt}</h3>
       {task.type === "cloze" && (
         <p className="cloze-line" lang="ja">
@@ -108,7 +109,7 @@ function LetterTask({
           role="status"
         >
           <strong>{right ? "Right." : "Not quite."}</strong> {task.explain}{" "}
-          {supported
+          {task.type === "cloze" ? (supported ? "Saved as supported grammar recall." : "Saved as unaided grammar recall.") : supported
             ? "Saved as supported reading."
             : "Saved as unaided reading."}
         </p>

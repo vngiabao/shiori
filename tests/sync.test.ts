@@ -132,6 +132,15 @@ it("rejects malformed payloads and extra fields instead of syncing recordings", 
   expect(() => snapshotOf([{ ...rows[0], schema_version: 2 }])).toThrow();
   expect(() => snapshotOf([...rows, ...rows])).toThrow();
 });
+it("round-trips optional Watch unit tags while rejecting malformed tags", () => {
+  const data = emptySnapshot();
+  data.lines = [{ id:"line", at:1, clip:"My film", start:1, end:3, text:"働けます。", note:"potential", unit:"n4-u01" }];
+  expect(snapshotOf(rowsOf(data)).lines).toEqual(data.lines);
+  data.lines[0].unit = "arbitrary private text";
+  expect(() => snapshotOf(rowsOf(data))).toThrow();
+  delete data.lines[0].unit;
+  expect(snapshotOf(rowsOf(data)).lines).toEqual(data.lines);
+});
 it("requires consent, persists decline, keeps text local and blocks another account", async () => {
   await db.profiles.put(profile);
   await db.attempts.put(attempt("a"));
@@ -226,7 +235,9 @@ it("RLS and payload allowlists cover every supported record kind (static only)",
   expect(sql).toContain("s.revision is distinct from p_revision");
   expect(sql).toContain("revoke all");
   for (const [k, v] of Object.entries(fields)) {
-    expect(sql).toContain(`when '${k}' then`);
-    for (const key of v) expect(sql).toContain(`'${key}'`);
+    const migration=fs.readFileSync("supabase/migrations/202610050002_saved_line_unit.sql","utf8");
+    const match = new RegExp(`when '${k}' then array\\[([^\\]]+)\\]`).exec(migration);
+    expect(match, k).not.toBeNull();
+    for (const key of v) expect(match![1], `${k}.${key}`).toContain(`'${key}'`);
   }
 });

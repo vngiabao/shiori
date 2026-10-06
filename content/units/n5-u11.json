@@ -190,9 +190,9 @@
       },
       {
         "speaker": "You",
-        "line": "いいですね。{私|わたし}も{富士山|ふじさん}に{登|のぼ}りたいです。",
-        "romaji": "Ii desu ne. Watashi mo Fujisan ni noboritai desu.",
-        "meaning": "That sounds great. I want to climb Mt Fuji too."
+        "line": "いいですね。{私|わたし}は{富士山|ふじさん}に{登|のぼ}りたいです。",
+        "romaji": "Ii desu ne. Watashi wa Fujisan ni noboritai desu.",
+        "meaning": "That sounds great. I'd like to climb Mt Fuji."
       },
       {
         "speaker": "Satō",
@@ -332,13 +332,18 @@
       ]
     },
     {
-      "id": "n5-u11-x-tf",
+      "id": "n5-u11-x-did",
       "dialogue": "n5-u11-d",
-      "type": "truefalse",
+      "type": "dialogue",
       "skill": "listening",
-      "prompt": "Satō-sensei climbed Mt Fuji over the break.",
-      "answer": false,
-      "explain": "富士山を見に行きました: she went to see it, not climb it.",
+      "prompt": "What does Satō-sensei say she did over the break?",
+      "options": [
+        "She went to see Mt Fuji",
+        "She went to Hokkaido",
+        "She went to a hot spring"
+      ],
+      "answer": 0,
+      "explain": "富士山を見に行きました: she went to see Mt Fuji. She has never been to Hokkaido; the hot spring was you.",
       "words": [
         "n5-u11-w-mi-ni"
       ]

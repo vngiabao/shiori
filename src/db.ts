@@ -282,6 +282,7 @@ export async function importBackup(raw: unknown) {
           typeof l.clip !== "string" ||
           typeof l.text !== "string" ||
           typeof l.note !== "string" ||
+          (l.unit !== undefined && (typeof l.unit !== "string" || !/^(n[1-5]|keigo)-u\d+$/.test(l.unit))) ||
           !Number.isFinite(l.start) ||
           !Number.isFinite(l.end),
       ))

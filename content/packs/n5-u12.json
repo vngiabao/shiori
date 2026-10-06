@@ -433,7 +433,7 @@
     {
       "id": "n5-u12-g-n-desu",
       "title": "んです: explaining",
-      "explanation": "Plain form + んです explains or asks for an explanation: 頭が痛いんです, 'it's that my head hurts'. どうしたんですか asks what's wrong. Use it when the situation calls for a reason; overusing it sounds pushy.",
+      "explanation": "Plain form + んです explains or asks for an explanation: 頭が痛いんです, 'it's that my head hurts'. Nouns and な adjectives take な: 学生なんです, 暇なんです. どうしたんですか asks what's wrong. Use it when the situation calls for a reason; overusing it sounds pushy.",
       "example": "頭が痛いんです。熱もあるんです。",
       "translation": "My head hurts. I've got a fever too."
     },
@@ -526,12 +526,12 @@
       "meaning": "What's wrong?",
       "options": [
         "{頭|あたま}が{痛|いた}いんです。",
-        "{頭|あたま}を{痛|いた}いです。",
         "お{大事|だいじ}に。",
-        "はい、どうしました。"
+        "いいえ、{元気|げんき}じゃないです。",
+        "はい、そうです。"
       ],
       "answer": 0,
-      "explain": "Explain with んです: 頭が痛いんです. 痛い takes が.",
+      "explain": "Explain with んです: 頭が痛いんです. お大事に is what the other person says to you.",
       "words": [
         "n5-u12-w-n-desu"
       ],
@@ -688,7 +688,7 @@
         "よろしくお{願|ねが}いします。"
       ],
       "answer": 2,
-      "explain": "よろしくお願いします closes a polite request. じゃあね and また明日 are for friends.",
+      "explain": "This email asks a teacher to excuse an absence, so it closes with a polite request: よろしくお願いします. じゃあね is casual, and また明日 doesn't fit when you won't be in class.",
       "words": [
         "regards"
       ],

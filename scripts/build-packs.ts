@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { createHash } from "node:crypto";
 import { validatePack } from "../src/packs";
+import { validateCourseSequence } from "../src/course-validation";
 import type { Pack } from "../src/types";
 const readOptional = (file: string) =>
   fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : {};
@@ -15,7 +16,16 @@ const packs: Pack[] = [];
 const errors: string[] = [];
 const files = fs
   .readdirSync("content/packs")
-  .filter((x) => x.endsWith(".json"));
+  .filter((x) => x.endsWith(".json"))
+  .sort((a,b) => {
+    const order = (x:string) => {
+      if (x === "first-post.json") return 0;
+      const level = /^(n[1-5]|keigo)-/.exec(x)?.[1];
+      const rank = ["n5", "n4", "n3", "n2", "n1", "keigo"].indexOf(level ?? "");
+      return rank < 0 ? 99 : 1 + rank * 2 + (/^(n[1-5]|keigo)-u/.test(x) ? 0 : 1);
+    };
+    return order(a)-order(b) || a.localeCompare(b);
+  });
 const source = files.map((file) => ({
   file,
   p: JSON.parse(
@@ -40,10 +50,10 @@ if (!dictionaryProvenance.sourcePackHashes || !dictionaryCoverage.words) {
   if (dictionaryCoverage.totalWords !== source.reduce((n, x) => n + x.p.words.length, 0))
     errors.push("JMdict word accounting differs from course; run npm run sources:jmdict");
 }
-for (const { file, p } of source) {
+for (const [index, { file, p }] of source.entries()) {
   try {
     const otherIds = source
-      .filter((x) => x.p.id !== p.id)
+      .slice(0,index)
       .flatMap((x) => x.p.words.map((w) => w.id));
     errors.push(
       ...validatePack(p, lexicon, jlpt, otherIds).map((e) => file + ": " + e),
@@ -53,6 +63,9 @@ for (const { file, p } of source) {
     errors.push(`${file}: ${String(e)}`);
   }
 }
+const sequence = validateCourseSequence(packs);
+errors.push(...sequence.errors);
+sequence.warnings.forEach(w => console.warn(w));
 const allIds = new Set<string>();
 for (const p of packs) {
   for (const entity of [
@@ -61,6 +74,7 @@ for (const p of packs) {
     ...p.letters,
     ...p.roleplays,
     ...p.grammar,
+    ...(p.readings ?? []),
   ]) {
     if (allIds.has(entity.id))
       errors.push(`Cross-pack duplicate: ${entity.id}`);

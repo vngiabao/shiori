@@ -156,7 +156,7 @@ def refresh(use_cache=False):
     report += ['', 'Re-run `npm run sources:jmdict` after new packs. `--cached` explicitly reuses the hash-pinned download. Kana-only dictionary headwords retain their own reading; unknown kana is never inserted as dictionary evidence.', '']
     destination = ROOT/'output/jmdict-mismatches.md'
     destination.parent.mkdir(exist_ok=True)
-    destination.write_text('\n'.join(report), encoding='utf-8')
+    destination.write_text('\n'.join(report), encoding='utf-8', newline='\n')
     print(f'JMdict: {len(before)} -> {len(lexicon)} forms; {len(rows)} word records; {counts}', flush=True)
 
 if __name__ == '__main__':

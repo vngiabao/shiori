@@ -55,7 +55,7 @@ export function validatePack(
       errors.push(`JMdict lemma missing or mismatch ${w.id}`);
   }
   const entityIds = new Set<string>();
-  for (const l of [...p.lessons, ...p.letters, ...p.roleplays]) {
+  for (const l of [...p.lessons, ...p.letters, ...p.roleplays, ...(p.readings ?? [])]) {
     if (entityIds.has(l.id)) errors.push(`Duplicate item ${l.id}`);
     entityIds.add(l.id);
   }
@@ -87,6 +87,7 @@ export function validatePack(
   }
   for (const rp of p.roleplays)
     for (const t of rp.turns) {
+      if (t.alternatives?.some(a => !accepts(a, t.accept))) errors.push(`Roleplay alternative rejected: ${rp.id}`);
       try {
         if (!accepts(t.example, t.accept))
           errors.push(`Role-play rejects own example ${rp.id}`);
@@ -102,17 +103,44 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
   const errors: string[] = [];
   const lessonIds = new Set(p.lessons.map((l) => l.id));
   const letterIds = new Set(p.letters.map((l) => l.id));
+  const readingIds = new Set((p.readings ?? []).map(r => r.id));
   const dialogueIds = new Set<string>();
   const ruby = (id: string, ...texts: (string | undefined)[]) => {
     for (const t of texts)
       if (t !== undefined && !rubyIsWellFormed(t))
         errors.push(`Malformed ruby ${id}`);
   };
+  for (const r of p.readings ?? []) {
+    if (!lessonIds.has(r.lesson) || !r.title || !r.paragraphs.length)
+      errors.push(`Incomplete reading ${r.id}`);
+    if (!["notice", "message", "email", "article", "diary", "guide", "story", "essay", "news", "literature", "manga"].includes(r.genre))
+      errors.push(`Reading genre ${r.id}`);
+    ruby(r.id, ...r.paragraphs, ...(r.table?.head ?? []), ...(r.table?.rows.flat() ?? []));
+    if (r.table && (!r.table.head.length || !r.table.rows.length || r.table.rows.some(row => row.length !== r.table!.head.length)))
+      errors.push(`Reading table ${r.id}`);
+    if (r.glosses.some(g => !g.text || !g.kana || !g.meaning))
+      errors.push(`Incomplete gloss ${r.id}`);
+    if (r.pair && (!readingIds.has(r.pair) || r.pair === r.id)) errors.push(`Invalid reading pair ${r.id}`);
+    if (r.genre === "literature" && (!r.source || !r.source.title || !r.source.author || !r.source.url || !r.source.licence || !Number.isInteger(r.source.deathYear) || r.source.deathYear > 1967)) errors.push(`Literature source ${r.id}`);
+    if (r.genre === "manga" && !r.panels?.length) errors.push(`Manga panels missing ${r.id}`);
+    for (const panel of r.panels ?? []) {
+      if (!panel.description || !panel.lines.length || panel.lines.some(l => !l.speaker || !l.line)) errors.push(`Incomplete manga panel ${r.id}`);
+      ruby(r.id, ...panel.lines.map(l => l.line));
+    }
+  }
+  for (const g of p.grammar) {
+    if (g.lessons && (!g.lessons.length || g.lessons.some(id => !lessonIds.has(id)))) errors.push(`Grammar lesson binding ${g.id}`);
+    if (p.lessons.length > 1 && g.formation && !g.lessons) errors.push(`Multi-lesson grammar needs explicit scope ${g.id}`);
+    ruby(g.id, ...(g.examples ?? []).map(x => x.ja));
+    if (g.examples?.some(x => !x.ja || !x.en)) errors.push(`Grammar example ${g.id}`);
+  }
   for (const d of p.dialogues ?? []) {
     if (dialogueIds.has(d.id)) errors.push(`Duplicate dialogue ${d.id}`);
     dialogueIds.add(d.id);
     if (!lessonIds.has(d.lesson)) errors.push(`Unknown lesson in ${d.id}`);
     if (d.lines.length < 3) errors.push(`Dialogue too short ${d.id}`);
+    if (d.speed !== undefined && (!Number.isFinite(d.speed) || d.speed < 1 || d.speed > 1.25)) errors.push(`Dialogue speed ${d.id}`);
+    if (d.words?.some(id => !wordIds.has(id))) errors.push(`Dialogue words ${d.id}`);
     for (const l of d.lines) {
       if (!l.speaker || !l.line || !l.romaji || !l.meaning)
         errors.push(`Incomplete dialogue line ${d.id}`);
@@ -126,9 +154,29 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
     seen.add(x.id);
     if (
       !(x.lesson && lessonIds.has(x.lesson)) &&
-      !(x.letter && letterIds.has(x.letter))
+      !(x.letter && letterIds.has(x.letter)) &&
+      !(x.reading && readingIds.has(x.reading))
     )
       errors.push(`Exercise without a lesson or letter ${x.id}`);
+    if (x.reading && !readingIds.has(x.reading)) errors.push(`Unknown reading in ${x.id}`);
+    if (x.reading && x.lesson) {
+      const readingLesson=(p.readings ?? []).find(r => r.id === x.reading)?.lesson;
+      if (readingLesson && p.lessons.findIndex(l => l.id === readingLesson) > p.lessons.findIndex(l => l.id === x.lesson)) errors.push(`Reading tested before its lesson ${x.id}`);
+    }
+    if (x.type === "compare") {
+      const primary = (p.readings ?? []).find(r => r.id === x.reading);
+      if (!primary?.pair) errors.push(`Compare needs paired readings ${x.id}`);
+      const paired = (p.readings ?? []).find(r => r.id === primary?.pair);
+      if (paired && x.lesson && p.lessons.findIndex(l => l.id === paired.lesson) > p.lessons.findIndex(l => l.id === x.lesson))
+        errors.push(`Paired reading tested before its lesson ${x.id}`);
+    }
+    if (x.type === "register" && !x.context) errors.push(`Register needs listener and situation ${x.id}`);
+    if (x.type === "speaker" && (!x.line || !x.dialogue)) errors.push(`Speaker needs a scene and line ${x.id}`);
+    if (x.type === "speaker" && x.line && x.dialogue) {
+      const matches = p.dialogues?.find(d => d.id === x.dialogue)?.lines.filter(l => plain(l.line) === plain(x.line!)) ?? [];
+      if (matches.length !== 1 || typeof x.answer !== "number" || x.options?.[x.answer] !== matches[0]?.speaker)
+        errors.push(`Speaker key must identify one exact scene line ${x.id}`);
+    }
     if (x.dialogue && !dialogueIds.has(x.dialogue))
       errors.push(`Unknown dialogue in ${x.id}`);
     if (x.type === "dialogue" && !x.dialogue)

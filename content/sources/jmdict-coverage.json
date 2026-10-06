@@ -1,10 +1,10 @@
 {
-  "totalWords": 428,
-  "uniqueForms": 415,
+  "totalWords": 588,
+  "uniqueForms": 564,
   "counts": {
     "excluded-drill": 157,
-    "matched": 201,
-    "unmatched": 66,
+    "matched": 351,
+    "unmatched": 76,
     "name-unverified": 4
   },
   "words": [
@@ -233,8 +233,51 @@
       "text": "し",
       "kana": "し",
       "status": "excluded-drill",
-      "dictionaryReadings": [],
-      "entryIds": []
+      "dictionaryReadings": [
+        "し"
+      ],
+      "entryIds": [
+        "1152850",
+        "1304750",
+        "1306380",
+        "1308090",
+        "1310720",
+        "1312610",
+        "1528180",
+        "1579470",
+        "1853420",
+        "1929950",
+        "1956330",
+        "1956480",
+        "2080710",
+        "2080900",
+        "2086640",
+        "2101130",
+        "2127930",
+        "2174430",
+        "2188750",
+        "2216440",
+        "2247830",
+        "2251110",
+        "2252800",
+        "2257670",
+        "2257780",
+        "2259200",
+        "2266770",
+        "2542020",
+        "2630380",
+        "2728300",
+        "2787310",
+        "2815550",
+        "2827275",
+        "2842984",
+        "2842985",
+        "2842986",
+        "2842987",
+        "2842988",
+        "2843029",
+        "2843516"
+      ]
     },
     {
       "pack": "first-post.json",
@@ -2679,6 +2722,2191 @@
         "2519700",
         "2827694"
       ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-arubaito",
+      "text": "アルバイト",
+      "kana": "アルバイト",
+      "status": "matched",
+      "dictionaryReadings": [
+        "アルバイト"
+      ],
+      "entryIds": [
+        "1019420",
+        "2855080"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-boshuu",
+      "text": "募集",
+      "kana": "ぼしゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぼしゅう"
+      ],
+      "entryIds": [
+        "1514830"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-mensetsu",
+      "text": "面接",
+      "kana": "めんせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "めんせつ"
+      ],
+      "entryIds": [
+        "1533510"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-jikyuu",
+      "text": "時給",
+      "kana": "じきゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じきゅう"
+      ],
+      "entryIds": [
+        "1316100"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-shuumatsu",
+      "text": "週末",
+      "kana": "しゅうまつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうまつ"
+      ],
+      "entryIds": [
+        "1333520"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-hataraku",
+      "text": "働く",
+      "kana": "はたらく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はたらく"
+      ],
+      "entryIds": [
+        "1451150"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-hatarakeru",
+      "text": "働ける",
+      "kana": "はたらける",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": [],
+      "lemma": {
+        "text": "働く",
+        "kana": "はたらく"
+      },
+      "lemmaStatus": "matched",
+      "lemmaReadingRelationship": "kanji-stem-matched"
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-tsukaeru",
+      "text": "使える",
+      "kana": "つかえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "つかえる"
+      ],
+      "entryIds": [
+        "1607180"
+      ],
+      "lemma": {
+        "text": "使う",
+        "kana": "つかう"
+      },
+      "lemmaStatus": "matched",
+      "lemmaReadingRelationship": "kanji-stem-matched"
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-hanaseru",
+      "text": "話せる",
+      "kana": "はなせる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はなせる"
+      ],
+      "entryIds": [
+        "1562360"
+      ],
+      "lemma": {
+        "text": "話す",
+        "kana": "はなす"
+      },
+      "lemmaStatus": "matched",
+      "lemmaReadingRelationship": "kanji-stem-matched"
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-tsukureru",
+      "text": "作れる",
+      "kana": "つくれる",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": [],
+      "lemma": {
+        "text": "作る",
+        "kana": "つくる"
+      },
+      "lemmaStatus": "matched",
+      "lemmaReadingRelationship": "kanji-stem-matched"
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-chuumon",
+      "text": "注文",
+      "kana": "ちゅうもん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ちゅうぶん",
+        "ちゅうもん"
+      ],
+      "entryIds": [
+        "1426650",
+        "2732450"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-renraku",
+      "text": "連絡",
+      "kana": "れんらく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "れんらく"
+      ],
+      "entryIds": [
+        "1559900"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-keiken",
+      "text": "経験",
+      "kana": "けいけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいけん"
+      ],
+      "entryIds": [
+        "1251270"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-hajimete",
+      "text": "初めて",
+      "kana": "はじめて",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はじめて"
+      ],
+      "entryIds": [
+        "1342550"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-isshuukan",
+      "text": "一週間",
+      "kana": "いっしゅうかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっしゅうかん"
+      ],
+      "entryIds": [
+        "1163270"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-sankai",
+      "text": "三回",
+      "kana": "さんかい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんかい"
+      ],
+      "entryIds": [
+        "1299940"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-shi",
+      "text": "し",
+      "kana": "し",
+      "status": "matched",
+      "dictionaryReadings": [
+        "し"
+      ],
+      "entryIds": [
+        "1152850",
+        "1304750",
+        "1306380",
+        "1308090",
+        "1310720",
+        "1312610",
+        "1528180",
+        "1579470",
+        "1853420",
+        "1929950",
+        "1956330",
+        "1956480",
+        "2080710",
+        "2080900",
+        "2086640",
+        "2101130",
+        "2127930",
+        "2174430",
+        "2188750",
+        "2216440",
+        "2247830",
+        "2251110",
+        "2252800",
+        "2257670",
+        "2257780",
+        "2259200",
+        "2266770",
+        "2542020",
+        "2630380",
+        "2728300",
+        "2787310",
+        "2815550",
+        "2827275",
+        "2842984",
+        "2842985",
+        "2842986",
+        "2842987",
+        "2842988",
+        "2843029",
+        "2843516"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-nara",
+      "text": "なら",
+      "kana": "なら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "なら"
+      ],
+      "entryIds": [
+        "1009470",
+        "2148590",
+        "2827768"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-sou",
+      "text": "そうです",
+      "kana": "そうです",
+      "status": "matched",
+      "dictionaryReadings": [
+        "そうです"
+      ],
+      "entryIds": [
+        "2837492"
+      ]
+    },
+    {
+      "pack": "n4-u01.json",
+      "id": "n4-u01-w-temiru",
+      "text": "てみる",
+      "kana": "てみる",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-tanjoubi",
+      "text": "誕生日",
+      "kana": "たんじょうび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たんじょうび"
+      ],
+      "entryIds": [
+        "1419110"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-present",
+      "text": "プレゼント",
+      "kana": "プレゼント",
+      "status": "matched",
+      "dictionaryReadings": [
+        "プレゼント"
+      ],
+      "entryIds": [
+        "1116840"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-hana",
+      "text": "花",
+      "kana": "はな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はな"
+      ],
+      "entryIds": [
+        "1194500"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-saifu",
+      "text": "財布",
+      "kana": "さいふ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さいふ"
+      ],
+      "entryIds": [
+        "1296970"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-tebukuro",
+      "text": "手袋",
+      "kana": "てぶくろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てぶくろ"
+      ],
+      "entryIds": [
+        "1328090"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-okuru",
+      "text": "送る",
+      "kana": "おくる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おくる"
+      ],
+      "entryIds": [
+        "1402730"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-ageru",
+      "text": "あげる",
+      "kana": "あげる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あげる"
+      ],
+      "entryIds": [
+        "1352320",
+        "2864817",
+        "2864818"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-kureru",
+      "text": "くれる",
+      "kana": "くれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くれる"
+      ],
+      "entryIds": [
+        "1269130",
+        "1514960"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-morau",
+      "text": "もらう",
+      "kana": "もらう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もらう"
+      ],
+      "entryIds": [
+        "1535910"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-hoshii",
+      "text": "欲しい",
+      "kana": "ほしい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほしい"
+      ],
+      "entryIds": [
+        "1547330"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-erabu",
+      "text": "選ぶ",
+      "kana": "えらぶ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えらぶ"
+      ],
+      "entryIds": [
+        "1588730"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-yorokobu",
+      "text": "喜ぶ",
+      "kana": "よろこぶ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よろこぶ"
+      ],
+      "entryIds": [
+        "1218760"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-niau",
+      "text": "似合う",
+      "kana": "にあう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "にあう"
+      ],
+      "entryIds": [
+        "1314680"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-kamoshiremasen",
+      "text": "かもしれません",
+      "kana": "かもしれません",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かもしれません"
+      ],
+      "entryIds": [
+        "1002975"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-taradou",
+      "text": "たらどうですか",
+      "kana": "たらどうですか",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-shika",
+      "text": "しか",
+      "kana": "しか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しか"
+      ],
+      "entryIds": [
+        "1005460",
+        "1306750",
+        "1308140",
+        "1308860",
+        "1312870",
+        "1312890",
+        "1313110",
+        "1319030",
+        "1579540",
+        "1762960",
+        "1762980",
+        "1768010",
+        "1825490",
+        "1879980",
+        "2174510",
+        "2407880",
+        "2536920",
+        "2561970"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-yen",
+      "text": "円",
+      "kana": "えん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えん",
+        "まる"
+      ],
+      "entryIds": [
+        "1175570",
+        "1216250"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-ryoushin",
+      "text": "両親",
+      "kana": "りょうしん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ふたおや",
+        "りょうしん"
+      ],
+      "entryIds": [
+        "1602710"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-kyonen",
+      "text": "去年",
+      "kana": "きょねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きょねん",
+        "こぞ"
+      ],
+      "entryIds": [
+        "1231690"
+      ]
+    },
+    {
+      "pack": "n4-u02.json",
+      "id": "n4-u02-w-yosan",
+      "text": "予算",
+      "kana": "よさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よさん"
+      ],
+      "entryIds": [
+        "1543000"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-natsuyasumi",
+      "text": "夏休み",
+      "kana": "なつやすみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "なつやすみ"
+      ],
+      "entryIds": [
+        "1191420"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-ryokou",
+      "text": "旅行",
+      "kana": "りょこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "りょこう"
+      ],
+      "entryIds": [
+        "1553170"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-yoyaku",
+      "text": "予約",
+      "kana": "よやく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よやく"
+      ],
+      "entryIds": [
+        "1543750"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-ryokan",
+      "text": "旅館",
+      "kana": "りょかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "りょかん"
+      ],
+      "entryIds": [
+        "1553130"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-shuppatsu",
+      "text": "出発",
+      "kana": "しゅっぱつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅっぱつ"
+      ],
+      "entryIds": [
+        "1340000"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-touchaku",
+      "text": "到着",
+      "kana": "とうちゃく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とうちゃく"
+      ],
+      "entryIds": [
+        "1449870"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-junbi",
+      "text": "準備",
+      "kana": "じゅんび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅんび"
+      ],
+      "entryIds": [
+        "1341670"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-yotei",
+      "text": "予定",
+      "kana": "よてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よてい"
+      ],
+      "entryIds": [
+        "1543240"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-chizu",
+      "text": "地図",
+      "kana": "ちず",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ちず"
+      ],
+      "entryIds": [
+        "1421290"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-motteiku",
+      "text": "持っていく",
+      "kana": "もっていく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もっていく"
+      ],
+      "entryIds": [
+        "1315700"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-kimeru",
+      "text": "決める",
+      "kana": "きめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きめる"
+      ],
+      "entryIds": [
+        "1254180"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-shiraberu",
+      "text": "調べる",
+      "kana": "しらべる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しらべる"
+      ],
+      "entryIds": [
+        "1429060"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-atsumaru",
+      "text": "集まる",
+      "kana": "あつまる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あつまる"
+      ],
+      "entryIds": [
+        "1333550"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-umi",
+      "text": "海",
+      "kana": "うみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うみ",
+        "み",
+        "わた",
+        "わだ"
+      ],
+      "entryIds": [
+        "1201190"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-yama",
+      "text": "山",
+      "kana": "やま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さん",
+        "ざん",
+        "むれ",
+        "やま",
+        "ヤマ"
+      ],
+      "entryIds": [
+        "1302680",
+        "2085690",
+        "2647220"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-oyogu",
+      "text": "泳ぐ",
+      "kana": "およぐ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "およぐ"
+      ],
+      "entryIds": [
+        "1174340"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-tomaru",
+      "text": "泊まる",
+      "kana": "とまる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とまる"
+      ],
+      "entryIds": [
+        "1474850"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-kippu",
+      "text": "切符",
+      "kana": "きっぷ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きっぷ"
+      ],
+      "entryIds": [
+        "1385170"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-hayameni",
+      "text": "早めに",
+      "kana": "はやめに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はやめに"
+      ],
+      "entryIds": [
+        "1400350"
+      ]
+    },
+    {
+      "pack": "n4-u03.json",
+      "id": "n4-u03-w-teoku",
+      "text": "ておく",
+      "kana": "ておく",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-suisenjou",
+      "text": "推薦状",
+      "kana": "すいせんじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すいせんじょう"
+      ],
+      "entryIds": [
+        "1371190"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-shorui",
+      "text": "書類",
+      "kana": "しょるい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょるい"
+      ],
+      "entryIds": [
+        "1344200"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-shimekiri",
+      "text": "締め切り",
+      "kana": "しめきり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめきり"
+      ],
+      "entryIds": [
+        "1594590"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-teishutsu",
+      "text": "提出",
+      "kana": "ていしゅつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ていしゅつ"
+      ],
+      "entryIds": [
+        "1436410"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-okureru",
+      "text": "遅れる",
+      "kana": "おくれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おくれる"
+      ],
+      "entryIds": [
+        "1589040"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-tetsudau",
+      "text": "手伝う",
+      "kana": "てつだう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てつだう"
+      ],
+      "entryIds": [
+        "1328190"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-naosu",
+      "text": "直す",
+      "kana": "なおす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "なおす"
+      ],
+      "entryIds": [
+        "1599390"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-bunshou",
+      "text": "文章",
+      "kana": "ぶんしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぶんしょう",
+        "もんじょう",
+        "もんぞう"
+      ],
+      "entryIds": [
+        "1505470"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-setumei",
+      "text": "説明",
+      "kana": "せつめい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せつめい"
+      ],
+      "entryIds": [
+        "1386460"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-shitsumon",
+      "text": "質問",
+      "kana": "しつもん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しつもん"
+      ],
+      "entryIds": [
+        "1320760"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-renraku",
+      "text": "連絡する",
+      "kana": "れんらくする",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-onegai",
+      "text": "お願い",
+      "kana": "おねがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おねがい"
+      ],
+      "entryIds": [
+        "2036870"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-tasukaru",
+      "text": "助かる",
+      "kana": "たすかる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たすかる"
+      ],
+      "entryIds": [
+        "1344380"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-isogashii",
+      "text": "忙しい",
+      "kana": "いそがしい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いそがしい",
+        "せわしい"
+      ],
+      "entryIds": [
+        "1519290",
+        "2835296"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-tsugou",
+      "text": "都合",
+      "kana": "つごう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "つごう"
+      ],
+      "entryIds": [
+        "1444980"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-nichiji",
+      "text": "日時",
+      "kana": "にちじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "にちじ"
+      ],
+      "entryIds": [
+        "1464110"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-moushiwake",
+      "text": "申し訳ありません",
+      "kana": "もうしわけありません",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もうしわけありません"
+      ],
+      "entryIds": [
+        "1612030"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-yoyuu",
+      "text": "余裕",
+      "kana": "よゆう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よゆう"
+      ],
+      "entryIds": [
+        "1544590"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-shuushoku",
+      "text": "就職",
+      "kana": "しゅうしょく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうしょく"
+      ],
+      "entryIds": [
+        "1331670"
+      ]
+    },
+    {
+      "pack": "n4-u04.json",
+      "id": "n4-u04-w-junban",
+      "text": "順番",
+      "kana": "じゅんばん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅんばん"
+      ],
+      "entryIds": [
+        "1342390"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-shirase",
+      "text": "お知らせ",
+      "kana": "おしらせ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おしらせ"
+      ],
+      "entryIds": [
+        "1002420"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-henkou",
+      "text": "変更",
+      "kana": "へんこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "へんこう"
+      ],
+      "entryIds": [
+        "1511040"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-chuushi",
+      "text": "中止",
+      "kana": "ちゅうし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ちゅうし"
+      ],
+      "entryIds": [
+        "1424410"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-enki",
+      "text": "延期",
+      "kana": "えんき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えんき"
+      ],
+      "entryIds": [
+        "1176430"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-yohou",
+      "text": "予報",
+      "kana": "よほう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よほう"
+      ],
+      "entryIds": [
+        "1543630"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-tenki",
+      "text": "天気",
+      "kana": "てんき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てんき"
+      ],
+      "entryIds": [
+        "1438690"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-ame",
+      "text": "雨",
+      "kana": "あめ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あめ"
+      ],
+      "entryIds": [
+        "1171900"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-hareru",
+      "text": "晴れる",
+      "kana": "はれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はれる"
+      ],
+      "entryIds": [
+        "1376470"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-shinbun",
+      "text": "新聞",
+      "kana": "しんぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんぶん"
+      ],
+      "entryIds": [
+        "1362360"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-nyuusu",
+      "text": "ニュース",
+      "kana": "ニュース",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ニュース"
+      ],
+      "entryIds": [
+        "1091500"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-hanashi",
+      "text": "話",
+      "kana": "はなし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はなし",
+        "わ"
+      ],
+      "entryIds": [
+        "1600900",
+        "2100460"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-hontou",
+      "text": "本当",
+      "kana": "ほんとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほんと",
+        "ほんとう",
+        "ホント",
+        "ホントウ",
+        "ホントー"
+      ],
+      "entryIds": [
+        "1523060"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-tashika",
+      "text": "確か",
+      "kana": "たしか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たしか"
+      ],
+      "entryIds": [
+        "1596930"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-tabun",
+      "text": "多分",
+      "kana": "たぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たぶん"
+      ],
+      "entryIds": [
+        "1407980"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-kakunin",
+      "text": "確認",
+      "kana": "かくにん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かくにん"
+      ],
+      "entryIds": [
+        "1205900"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-kyoukasho",
+      "text": "教科書",
+      "kana": "きょうかしょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きょうかしょ"
+      ],
+      "entryIds": [
+        "1237020"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-junbi",
+      "text": "準備する",
+      "kana": "じゅんびする",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-mottekuru",
+      "text": "持ってくる",
+      "kana": "もってくる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もってくる"
+      ],
+      "entryIds": [
+        "1315710"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-ireru",
+      "text": "入れる",
+      "kana": "いれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いれる"
+      ],
+      "entryIds": [
+        "1465610"
+      ]
+    },
+    {
+      "pack": "n4-u05.json",
+      "id": "n4-u05-w-yameru",
+      "text": "やめる",
+      "kana": "やめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "やめる"
+      ],
+      "entryIds": [
+        "1310680",
+        "1318950",
+        "2519800"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-akeru",
+      "text": "開ける",
+      "kana": "あける",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あける",
+        "はだける",
+        "ひらける"
+      ],
+      "entryIds": [
+        "1202450",
+        "1202460",
+        "2413170"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-aku",
+      "text": "開く",
+      "kana": "あく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あく",
+        "ひらく"
+      ],
+      "entryIds": [
+        "1202440",
+        "1586270"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-shimeru",
+      "text": "閉める",
+      "kana": "しめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめる"
+      ],
+      "entryIds": [
+        "1508590"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-shimaru",
+      "text": "閉まる",
+      "kana": "しまる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しまる"
+      ],
+      "entryIds": [
+        "1436560"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-tsukeru",
+      "text": "つける",
+      "kana": "つける",
+      "status": "matched",
+      "dictionaryReadings": [
+        "つける"
+      ],
+      "entryIds": [
+        "1331540",
+        "1433680",
+        "1495770",
+        "1610400",
+        "2100600"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-tsuku",
+      "text": "つく",
+      "kana": "つく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "つく"
+      ],
+      "entryIds": [
+        "1331530",
+        "1422970",
+        "1441400",
+        "1444150",
+        "1456890",
+        "1495740",
+        "1566940",
+        "2097190",
+        "2262520",
+        "2869190"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kesu",
+      "text": "消す",
+      "kana": "けす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けす"
+      ],
+      "entryIds": [
+        "1350110"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kieru",
+      "text": "消える",
+      "kana": "きえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きえる"
+      ],
+      "entryIds": [
+        "1350040"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kowasu",
+      "text": "壊す",
+      "kana": "こわす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こわす"
+      ],
+      "entryIds": [
+        "1199890"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kowareru",
+      "text": "壊れる",
+      "kana": "こわれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こわれる"
+      ],
+      "entryIds": [
+        "1199900"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-otosu",
+      "text": "落とす",
+      "kana": "おとす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おとす"
+      ],
+      "entryIds": [
+        "1589260"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-ochiru",
+      "text": "落ちる",
+      "kana": "おちる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おちる"
+      ],
+      "entryIds": [
+        "1548550"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-wasureru",
+      "text": "忘れる",
+      "kana": "わすれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "わすれる"
+      ],
+      "entryIds": [
+        "1519210"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-sagasu",
+      "text": "探す",
+      "kana": "さがす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さがす"
+      ],
+      "entryIds": [
+        "1593670"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-todokeru",
+      "text": "届ける",
+      "kana": "とどける",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とどける"
+      ],
+      "entryIds": [
+        "1457210"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-mitsukaru",
+      "text": "見つかる",
+      "kana": "みつかる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "みつかる"
+      ],
+      "entryIds": [
+        "1604550"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-isogu",
+      "text": "急ぐ",
+      "kana": "いそぐ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いそぐ"
+      ],
+      "entryIds": [
+        "1228650"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kagi",
+      "text": "鍵",
+      "kana": "かぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かぎ",
+        "けん"
+      ],
+      "entryIds": [
+        "1260490",
+        "2247650"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-otoshimono",
+      "text": "落とし物",
+      "kana": "おとしもの",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おとしもの"
+      ],
+      "entryIds": [
+        "1589250"
+      ]
+    },
+    {
+      "pack": "n4-u06.json",
+      "id": "n4-u06-w-kouban",
+      "text": "交番",
+      "kana": "こうばん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうばん"
+      ],
+      "entryIds": [
+        "1272500"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-shoutai",
+      "text": "招待",
+      "kana": "しょうたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうたい",
+        "しょうだい"
+      ],
+      "entryIds": [
+        "1349610"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-yuushoku",
+      "text": "夕食",
+      "kana": "ゆうしょく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ゆうげ",
+        "ゆうしょく"
+      ],
+      "entryIds": [
+        "1542730",
+        "1739970"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-shujin",
+      "text": "ご主人",
+      "kana": "ごしゅじん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごしゅじん"
+      ],
+      "entryIds": [
+        "1270390"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-kazoku",
+      "text": "ご家族",
+      "kana": "ごかぞく",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-irassharu",
+      "text": "いらっしゃる",
+      "kana": "いらっしゃる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いらっしゃる"
+      ],
+      "entryIds": [
+        "1000940"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-meshiagaru",
+      "text": "召し上がる",
+      "kana": "めしあがる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "めしあがる"
+      ],
+      "entryIds": [
+        "1346370"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-ossharu",
+      "text": "おっしゃる",
+      "kana": "おっしゃる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おっしゃる"
+      ],
+      "entryIds": [
+        "1238840"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-goran",
+      "text": "ご覧になる",
+      "kana": "ごらんになる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごらんになる"
+      ],
+      "entryIds": [
+        "2217040"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-nasaru",
+      "text": "なさる",
+      "kana": "なさる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "なさる"
+      ],
+      "entryIds": [
+        "1157090"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-kudasaru",
+      "text": "くださる",
+      "kana": "くださる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くださる"
+      ],
+      "entryIds": [
+        "1184280"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-tsutaeru",
+      "text": "伝える",
+      "kana": "つたえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "つたえる"
+      ],
+      "entryIds": [
+        "1441870"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-orei",
+      "text": "お礼",
+      "kana": "おれい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おれい"
+      ],
+      "entryIds": [
+        "1270810"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-gochisou",
+      "text": "ごちそう",
+      "kana": "ごちそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごちそう"
+      ],
+      "entryIds": [
+        "1593590"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-shitsurei",
+      "text": "失礼",
+      "kana": "しつれい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しちらい",
+        "しつらい",
+        "しつれい"
+      ],
+      "entryIds": [
+        "1320230"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-omiyage",
+      "text": "お土産",
+      "kana": "おみやげ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おみあげ",
+        "おみやげ"
+      ],
+      "entryIds": [
+        "1002500"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-teinei",
+      "text": "丁寧",
+      "kana": "ていねい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ていねい"
+      ],
+      "entryIds": [
+        "1427360"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-mukaeru",
+      "text": "迎える",
+      "kana": "むかえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "むかえる"
+      ],
+      "entryIds": [
+        "1253190"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-modoru",
+      "text": "戻る",
+      "kana": "もどる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もとる",
+        "もどる"
+      ],
+      "entryIds": [
+        "1535880",
+        "1642200"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-zannen",
+      "text": "残念",
+      "kana": "ざんねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ざんねん"
+      ],
+      "entryIds": [
+        "1304680"
+      ]
+    },
+    {
+      "pack": "n4-u07.json",
+      "id": "n4-u07-w-hazu",
+      "text": "はず",
+      "kana": "はず",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はず"
+      ],
+      "entryIds": [
+        "1476430",
+        "2461070"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-jisshuu",
+      "text": "実習",
+      "kana": "じっしゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じっしゅう"
+      ],
+      "entryIds": [
+        "1321200"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-busho",
+      "text": "部署",
+      "kana": "ぶしょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぶしょ"
+      ],
+      "entryIds": [
+        "1603140"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-uketsuke",
+      "text": "受付",
+      "kana": "うけつけ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うけつけ"
+      ],
+      "entryIds": [
+        "1588060"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-tantou",
+      "text": "担当",
+      "kana": "たんとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たんとう"
+      ],
+      "entryIds": [
+        "1418160"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-naisen",
+      "text": "内線",
+      "kana": "ないせん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ないせん"
+      ],
+      "entryIds": [
+        "1458650"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-youken",
+      "text": "用件",
+      "kana": "ようけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ようけん"
+      ],
+      "entryIds": [
+        "1546250"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-shiryou",
+      "text": "資料",
+      "kana": "しりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しりょう"
+      ],
+      "entryIds": [
+        "1312820"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-kaigi",
+      "text": "会議",
+      "kana": "かいぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいぎ"
+      ],
+      "entryIds": [
+        "1198360"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-kaigishitsu",
+      "text": "会議室",
+      "kana": "かいぎしつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいぎしつ"
+      ],
+      "entryIds": [
+        "1198380"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-senpai",
+      "text": "先輩",
+      "kana": "せんぱい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せんぱい"
+      ],
+      "entryIds": [
+        "1388410"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-douryou",
+      "text": "同僚",
+      "kana": "どうりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "どうりょう"
+      ],
+      "entryIds": [
+        "1453580"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-renrakusaki",
+      "text": "連絡先",
+      "kana": "れんらくさき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "れんらくさき"
+      ],
+      "entryIds": [
+        "1559930"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-mousu",
+      "text": "申す",
+      "kana": "もうす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もうす"
+      ],
+      "entryIds": [
+        "1363090"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-mairu",
+      "text": "参る",
+      "kana": "まいる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "まいる"
+      ],
+      "entryIds": [
+        "1302070"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-itasu",
+      "text": "いたす",
+      "kana": "いたす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いたす"
+      ],
+      "entryIds": [
+        "1421900"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-oru",
+      "text": "おる",
+      "kana": "おる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おる"
+      ],
+      "entryIds": [
+        "1357420",
+        "1385910",
+        "1577985"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-ukagau",
+      "text": "伺う",
+      "kana": "うかがう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うかがう"
+      ],
+      "entryIds": [
+        "1305700"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-haiken",
+      "text": "拝見する",
+      "kana": "はいけんする",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-wakariyasui",
+      "text": "わかりやすい",
+      "kana": "わかりやすい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "わかりやすい"
+      ],
+      "entryIds": [
+        "1606550"
+      ]
+    },
+    {
+      "pack": "n4-u08.json",
+      "id": "n4-u08-w-tsukainikui",
+      "text": "使いにくい",
+      "kana": "つかいにくい",
+      "status": "unmatched",
+      "dictionaryReadings": [],
+      "entryIds": []
     },
     {
       "pack": "n5-u01.json",
