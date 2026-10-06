@@ -130,3 +130,16 @@ Two sixteen-word lessons; four formation notes with three original examples each
 - Glosses support formal linking 終わっており and negative linking 省略せずに. The report is an original fictional course event, not a real news claim.
 
 TypeScript, 112 tests / 17 files, 24 Python source tests, content/dictionary/kanji/JLPT, ledger/aliases, five audio validators, preservation, all 48 browser tests, build and production offline checks pass. Browser tests decode scene audio, exercise the lessons/readings, and check accessibility, saved themes and overflow. Unit 9 light 1440 and dark 375 screenshots inspected. All 85 new WAV files mapped; previous HEAD 6bc73c0 recordings, query records and stroke bytes unchanged. Total 5,266 Clear keys / 5,278 synthesis records and 443 dialogue takes. Precache 1,313 entries / 12,089.45 KiB, below 15 MB. These checks do not certify native listening or sentence naturalness. No expansion pushed or deployed.
+
+
+## Unit 10 — whole spans, repeated events and slight states
+
+Two sixteen-word lessons, five complete notes with three original examples each, two ten-line scenes at 1.10, a 218-character diary and eighteen tasks. All 32 new pairs match the pinned dictionary. Source brief verifies たびに, 間/間に/最中, both うちに uses, がち and 気味. Interval constructions retrieve N4; Bunpro's generalized の間に has a different editorial level. No permanent/temporary or negative/positive absolute is imposed on the tendency suffixes.
+
+- The four-o'clock Monday session happens as planned. Tuesday's review separates Bao's continuous notes, the colleague's response to a call, and the completion of summary reading during the break.
+- Kenta reports one omission per day across three consecutive days last week. Monday's tiredness is a separately dated account; he explicitly attended the session. The diary's answers depend on those dates and the new checking practice.
+- Named formation clozes test のたびに, ている最中 and the stems before がち/気味. They do not force a context-free choice between interchangeable time forms or tendency suffixes.
+- Actual inspection, route and consideration references recycle units 7–9. Previous words retain IDs; no aliases or credits were invented. Glosses support linking 読み終え and decision ことにした. Replies state teacher/peer and intended action.
+- Product explanations were shortened to practical time/recurrence cues rather than repeated warnings about personal identity or diagnosis.
+
+TypeScript, 112 tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, focused browser, build and production offline reload/playback pass. Browser decodes all twenty new scene takes and checks lesson-specific notes, reading support, saved themes, accessibility and overflow. Light 1440 and dark 375 screenshots inspected. All 88 new WAV files mapped; HEAD 4d66956 Clear/query/scene/stroke bytes preserved. Total 5,366 Clear keys / 5,378 synthesis records, 463 dialogue takes, 967 kanji references. Precache 1,321 entries / 12,152.93 KiB. Latest full-browser milestone remains unit 9, 48 tests. Native review pending; no expansion deployed.

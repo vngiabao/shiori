@@ -1,0 +1,1243 @@
+{
+  "id": "n3-u10",
+  "title": "N3 · Unit 10",
+  "lessons": [
+    {
+      "title": "A span, an interruption and each update",
+      "description": "Track a whole session, an event inside it and repeated checks.",
+      "canDo": "Follow time spans and recurring events",
+      "minutes": 30,
+      "words": [
+        "n3-u10-w-hindo",
+        "n3-u10-w-hinpan",
+        "n3-u10-w-fukisoku",
+        "n3-u10-w-kuse",
+        "n3-u10-w-nikka",
+        "n3-u10-w-kurikaeshi",
+        "n3-u10-w-hanpuku",
+        "n3-u10-w-jizoku",
+        "n3-u10-w-shuuki",
+        "n3-u10-w-kankaku",
+        "n3-u10-w-maikai",
+        "n3-u10-w-tsudo",
+        "n3-u10-w-jikantai",
+        "n3-u10-w-chouki",
+        "n3-u10-w-tanki",
+        "n3-u10-w-aima"
+      ]
+    },
+    {
+      "title": "A repeated habit and a slight state",
+      "description": "Follow diary dates and choose a practical way to reduce omissions.",
+      "canDo": "Distinguish a recurring tendency from a described state",
+      "minutes": 30,
+      "words": [
+        "n3-u10-w-ichiji",
+        "n3-u10-w-chakushin",
+        "n3-u10-w-outou",
+        "n3-u10-w-kyuusoku",
+        "n3-u10-w-hirou",
+        "n3-u10-w-nebusoku",
+        "n3-u10-w-nemuke",
+        "n3-u10-w-chuuisanman",
+        "n3-u10-w-fuchou",
+        "n3-u10-w-kesseki",
+        "n3-u10-w-renzoku",
+        "n3-u10-w-nouritsu",
+        "n3-u10-w-nouryoku",
+        "n3-u10-w-choukou",
+        "n3-u10-w-kaifuku",
+        "n3-u10-w-shuuchuuryoku"
+      ]
+    }
+  ],
+  "words": [
+    [
+      "n3-u10-w-hindo",
+      "{頻度|ひんど}",
+      "hindo",
+      "frequency",
+      "neutral",
+      "{連絡|れんらく}の{頻度|ひんど}を{記録|きろく}します。"
+    ],
+    [
+      "n3-u10-w-hinpan",
+      "{頻繁|ひんぱん}",
+      "hinpan",
+      "frequent",
+      "neutral",
+      "{今週|こんしゅう}は{頻繁|ひんぱん}に{着信|ちゃくしん}があります。"
+    ],
+    [
+      "n3-u10-w-fukisoku",
+      "{不規則|ふきそく}",
+      "fukisoku",
+      "irregular",
+      "neutral",
+      "{今週|こんしゅう}は{休|やす}む{時刻|じこく}が{不規則|ふきそく}です。"
+    ],
+    [
+      "n3-u10-w-kuse",
+      "{癖|くせ}",
+      "kuse",
+      "habit; idiosyncrasy",
+      "neutral",
+      "{急|いそ}ぐと{説明|せつめい}を{省略|しょうりゃく}する{癖|くせ}があります。"
+    ],
+    [
+      "n3-u10-w-nikka",
+      "{日課|にっか}",
+      "nikka",
+      "daily routine",
+      "neutral",
+      "{朝|あさ}の{確認|かくにん}を{日課|にっか}にしています。"
+    ],
+    [
+      "n3-u10-w-kurikaeshi",
+      "{繰|く}り{返|かえ}し",
+      "kurikaeshi",
+      "repetition",
+      "neutral",
+      "{繰|く}り{返|かえ}しが{必要|ひつよう}な{作業|さぎょう}です。"
+    ],
+    [
+      "n3-u10-w-hanpuku",
+      "{反復|はんぷく}",
+      "hanpuku",
+      "repetition; repeated practice",
+      "neutral",
+      "{短|みじか}い{文|ぶん}を{反復|はんぷく}して{読|よ}みます。"
+    ],
+    [
+      "n3-u10-w-jizoku",
+      "{持続|じぞく}",
+      "jizoku",
+      "continuation; sustaining",
+      "neutral",
+      "{集中力|しゅうちゅうりょく}の{持続|じぞく}について{考|かんが}えます。"
+    ],
+    [
+      "n3-u10-w-shuuki",
+      "{周期|しゅうき}",
+      "shūki",
+      "cycle; period",
+      "neutral",
+      "{予定|よてい}が{変|か}わる{周期|しゅうき}を{調|しら}べます。"
+    ],
+    [
+      "n3-u10-w-kankaku",
+      "{間隔|かんかく}",
+      "kankaku",
+      "interval; spacing",
+      "neutral",
+      "{休息|きゅうそく}の{間隔|かんかく}を{記録|きろく}します。"
+    ],
+    [
+      "n3-u10-w-maikai",
+      "{毎回|まいかい}",
+      "maikai",
+      "every time",
+      "neutral",
+      "{毎回|まいかい}、{点検|てんけん}の{記録|きろく}を{読|よ}みます。"
+    ],
+    [
+      "n3-u10-w-tsudo",
+      "{都度|つど}",
+      "tsudo",
+      "each time; on each occasion",
+      "neutral",
+      "{変更|へんこう}の{都度|つど}、{参加者|さんかしゃ}に{伝|つた}えます。"
+    ],
+    [
+      "n3-u10-w-jikantai",
+      "{時間帯|じかんたい}",
+      "jikantai",
+      "time slot; time of day",
+      "neutral",
+      "{混雑|こんざつ}する{時間帯|じかんたい}を{調|しら}べます。"
+    ],
+    [
+      "n3-u10-w-chouki",
+      "{長期|ちょうき}",
+      "chōki",
+      "long term",
+      "neutral",
+      "{長期|ちょうき}の{予定|よてい}を{見直|みなお}します。"
+    ],
+    [
+      "n3-u10-w-tanki",
+      "{短期|たんき}",
+      "tanki",
+      "short term",
+      "neutral",
+      "{短期|たんき}の{目標|もくひょう}を{書|か}きます。"
+    ],
+    [
+      "n3-u10-w-aima",
+      "{合間|あいま}",
+      "aima",
+      "between activities; spare interval",
+      "neutral",
+      "{作業|さぎょう}の{合間|あいま}に{水|みず}を{飲|の}みます。"
+    ],
+    [
+      "n3-u10-w-ichiji",
+      "{一時|いちじ}",
+      "ichiji",
+      "temporarily; for a time",
+      "neutral",
+      "{運行|うんこう}は{一時|いちじ}{止|と}まっていました。"
+    ],
+    [
+      "n3-u10-w-chakushin",
+      "{着信|ちゃくしん}",
+      "chakushin",
+      "incoming call or message",
+      "neutral",
+      "{説明|せつめい}している{最中|さいちゅう}に{着信|ちゃくしん}がありました。"
+    ],
+    [
+      "n3-u10-w-outou",
+      "{応答|おうとう}",
+      "ōtō",
+      "response; answering",
+      "neutral",
+      "{電話|でんわ}への{応答|おうとう}は、{別|べつ}の{人|ひと}が{担当|たんとう}しました。"
+    ],
+    [
+      "n3-u10-w-kyuusoku",
+      "{休息|きゅうそく}",
+      "kyūsoku",
+      "rest",
+      "neutral",
+      "{日記|にっき}に{休息|きゅうそく}の{時間|じかん}も{書|か}きました。"
+    ],
+    [
+      "n3-u10-w-hirou",
+      "{疲労|ひろう}",
+      "hirō",
+      "fatigue",
+      "neutral",
+      "{本人|ほんにん}は{疲労|ひろう}を{感|かん}じたと{話|はな}しました。"
+    ],
+    [
+      "n3-u10-w-nebusoku",
+      "{寝不足|ねぶそく}",
+      "nebusoku",
+      "lack of sleep",
+      "neutral",
+      "{昨夜|さくや}は{寝不足|ねぶそく}だったと{言|い}いました。"
+    ],
+    [
+      "n3-u10-w-nemuke",
+      "{眠気|ねむけ}",
+      "nemuke",
+      "sleepiness",
+      "neutral",
+      "{眠気|ねむけ}があったと{日記|にっき}に{書|か}きました。"
+    ],
+    [
+      "n3-u10-w-chuuisanman",
+      "{注意散漫|ちゅういさんまん}",
+      "chūi sanman",
+      "distracted; inattentive",
+      "neutral",
+      "{着信|ちゃくしん}が{続|つづ}くと、{注意散漫|ちゅういさんまん}になりがちです。"
+    ],
+    [
+      "n3-u10-w-fuchou",
+      "{不調|ふちょう}",
+      "fuchō",
+      "poor condition; not going well",
+      "neutral",
+      "{機械|きかい}の{不調|ふちょう}について{報告|ほうこく}します。"
+    ],
+    [
+      "n3-u10-w-kesseki",
+      "{欠席|けっせき}",
+      "kesseki",
+      "absence from an event or class",
+      "neutral",
+      "{欠席|けっせき}する{場合|ばあい}は{連絡|れんらく}します。"
+    ],
+    [
+      "n3-u10-w-renzoku",
+      "{連続|れんぞく}",
+      "renzoku",
+      "consecutive occurrence; continuity",
+      "neutral",
+      "{三日|みっか}{連続|れんぞく}で{記録|きろく}を{書|か}きました。"
+    ],
+    [
+      "n3-u10-w-nouritsu",
+      "{能率|のうりつ}",
+      "nōritsu",
+      "work efficiency",
+      "neutral",
+      "{作業|さぎょう}の{能率|のうりつ}を{振|ふ}り{返|かえ}ります。"
+    ],
+    [
+      "n3-u10-w-nouryoku",
+      "{能力|のうりょく}",
+      "nōryoku",
+      "ability; capacity",
+      "neutral",
+      "{一度|いちど}の{結果|けっか}だけで{能力|のうりょく}を{判断|はんだん}しません。"
+    ],
+    [
+      "n3-u10-w-choukou",
+      "{兆候|ちょうこう}",
+      "chōkō",
+      "sign; indication",
+      "neutral",
+      "{機械|きかい}の{不調|ふちょう}の{兆候|ちょうこう}を{記録|きろく}します。"
+    ],
+    [
+      "n3-u10-w-kaifuku",
+      "{回復|かいふく}",
+      "kaifuku",
+      "recovery",
+      "neutral",
+      "{状況|じょうきょう}の{回復|かいふく}を{確認|かくにん}しました。"
+    ],
+    [
+      "n3-u10-w-shuuchuuryoku",
+      "{集中力|しゅうちゅうりょく}",
+      "shūchūryoku",
+      "ability to concentrate",
+      "neutral",
+      "{本人|ほんにん}は{集中力|しゅうちゅうりょく}が{続|つづ}かなかったと{書|か}きました。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n3-u10-g-tabi",
+      "title": "Track what happens each time",
+      "formation": "Dictionary verb + たびに; event noun + のたびに.",
+      "explanation": "Links an event to a response on each occurrence. Yamamoto checks the inspection record whenever a service update arrives. Compare a recurring event with a single completed Monday update. Emotional response is possible, not required; the expression is not an arbitrary clock interval.",
+      "example": "更新のたびに、点検の記録を確認します。",
+      "translation": "Each time there is an update, I check the inspection record.",
+      "examples": [
+        {
+          "ja": "{更新|こうしん}のたびに、{点検|てんけん}の{記録|きろく}を{確認|かくにん}します。",
+          "en": "Each time there is an update, I check the inspection record."
+        },
+        {
+          "ja": "{同|おな}じ{文|ぶん}を{読|よ}むたびに、{新|あたら}しいことに{気|き}づきます。",
+          "en": "Each time I read the same sentence, I notice something new."
+        },
+        {
+          "ja": "{予定|よてい}が{変|か}わるたびに、{参加者|さんかしゃ}に{伝|つた}えます。",
+          "en": "Whenever the schedule changes, I tell the participants."
+        }
+      ],
+      "mistake": "Use 更新のたびに, not 更新たびに. A dictionary verb precedes たびに even when describing past repeated occasions; tense of the main clause can be past. One observation is not proof of a recurring habit.",
+      "lessons": [
+        "n3-u10-lesson-1"
+      ]
+    },
+    {
+      "id": "n3-u10-g-interval",
+      "title": "A whole span, an event within it, and full progress",
+      "formation": "Interval: attributive verb/い-adjective; noun の; な-adjective な + 間(に). Full progress: verb ている or noun の + 最中に; predicate 最中だ.",
+      "explanation": "Retrieve N4 intervals. 間 can frame activity continuing throughout a span; 間に places an event or completion inside it. 最中に emphasises being right in the middle of an action, often with an interruption. It need not always mean interruption. Another action taking some time inside the span is allowed; avoid a false instantaneous-only rule.",
+      "example": "説明会の間、私はずっとメモを取っていました。",
+      "translation": "I took notes throughout the information session.",
+      "examples": [
+        {
+          "ja": "{説明会|せつめいかい}の{間|あいだ}、{私|わたし}はずっとメモを{取|と}っていました。",
+          "en": "I took notes throughout the information session."
+        },
+        {
+          "ja": "{休|やす}みの{間|あいだ}に、{要約|ようやく}を{読|よ}み{終|お}えました。",
+          "en": "During the break, I finished reading the summary."
+        },
+        {
+          "ja": "{説明|せつめい}している{最中|さいちゅう}に、{着信|ちゃくしん}がありました。",
+          "en": "An incoming call arrived right in the middle of the explanation."
+        }
+      ],
+      "mistake": "Use ている最中, not dictionary-form 説明する最中 in the construction taught here. Name a construction when testing attachment; no claim that all near-synonyms are unacceptable.",
+      "lessons": [
+        "n3-u10-lesson-1"
+      ]
+    },
+    {
+      "id": "n3-u10-g-uchi",
+      "title": "Use a window before it changes; notice gradual change",
+      "formation": "Verb dictionary/ている/ない + うちに; い-adjective + うちに; な-adjective な; noun の.",
+      "explanation": "Retrieve unit 2: act while a condition persists or before it changes. Negative 忘れないうちに means before forgetting. In another use, a change gradually occurs while doing something repeatedly. うちに does not always express a deliberate opportunity; read whether the main clause is a planned act or an emerging change.",
+      "example": "内容を忘れないうちに、要約を書きました。",
+      "translation": "I wrote the summary before I forgot the content.",
+      "examples": [
+        {
+          "ja": "{内容|ないよう}を{忘|わす}れないうちに、{要約|ようやく}を{書|か}きました。",
+          "en": "I wrote the summary before I forgot the content."
+        },
+        {
+          "ja": "{静|しず}かなうちに、{点検|てんけん}の{記録|きろく}を{読|よ}みましょう。",
+          "en": "Let us read the inspection record while it is quiet."
+        },
+        {
+          "ja": "{同|おな}じ{文|ぶん}を{読|よ}んでいるうちに、{意味|いみ}が{分|わ}かるようになりました。",
+          "en": "As I continued reading the same sentence, I came to understand its meaning."
+        }
+      ],
+      "mistake": "静かなうちに uses な; noun + の. Do not translate 忘れないうちに as after forgetting. The gradual-change use need not imply an intentional deadline.",
+      "lessons": [
+        "n3-u10-lesson-1"
+      ]
+    },
+    {
+      "id": "n3-u10-g-gachi",
+      "title": "A recurring tendency is not an identity",
+      "formation": "Verb ます-stem/noun + がち; predicate がちだ/です; modifier がちな or がちの where idiomatic.",
+      "explanation": "Describe a propensity, usually an unwanted one. Kenta reports repeatedly leaving things out when hurried, rather than just one Monday event. がち is often negative but not absolutely restricted to negative events. Dates and words such as よく clarify how often something happens. Its focus can overlap with 気味, so attachment tasks name the target.",
+      "example": "急ぐと、説明を省略しがちです。",
+      "translation": "When I hurry, I tend to leave out explanations.",
+      "examples": [
+        {
+          "ja": "{急|いそ}ぐと、{説明|せつめい}を{省略|しょうりゃく}しがちです。",
+          "en": "When I hurry, I tend to leave out explanations."
+        },
+        {
+          "ja": "{大切|たいせつ}なことを{忘|わす}れがちなので、メモを{取|と}ります。",
+          "en": "I tend to forget important things, so I take notes."
+        },
+        {
+          "ja": "{欠席|けっせき}がちな{時期|じき}がありました。",
+          "en": "There was a period when I was often absent."
+        }
+      ],
+      "mistake": "省略します→省略しがち, not 省略するがち. Look for repeated events in the context. がち versus 気味 is not a universally exclusive choice.",
+      "lessons": [
+        "n3-u10-lesson-2"
+      ]
+    },
+    {
+      "id": "n3-u10-g-gimi",
+      "title": "A slight state or sign in the speaker’s account",
+      "formation": "Verb ます-stem/noun + 気味 (suffix read ぎみ); predicate 気味だ/です; common modifier 気味の and adverb 気味に.",
+      "explanation": "Describes a mild sign, state or inclination. Kenta says he felt a little tired yesterday. That differs in focus from his repeated omission habit, but 気味 is not universally temporary and がち not universally permanent. Use the surrounding dates, repetition words and speaker’s description to follow the intended meaning.",
+      "example": "昨日は疲れ気味でした。",
+      "translation": "I felt a little tired yesterday.",
+      "examples": [
+        {
+          "ja": "{昨日|きのう}は{疲|つか}れ{気味|ぎみ}でした。",
+          "en": "I felt a little tired yesterday."
+        },
+        {
+          "ja": "{作業|さぎょう}は{遅|おく}れ{気味|ぎみ}ですが、{四時|よじ}までに{終|お}わります。",
+          "en": "The work is running a little behind, but it will finish by four."
+        },
+        {
+          "ja": "{寝不足|ねぶそく}{気味|ぎみ}だったと、{本人|ほんにん}が{話|はな}しました。",
+          "en": "The person said they were somewhat short on sleep."
+        }
+      ],
+      "mistake": "疲れます→疲れ気味, not 疲れる気味. Read the suffix ぎみ; standalone 気味 has different readings/uses. Choose the named attachment, and retain self-report attribution.",
+      "lessons": [
+        "n3-u10-lesson-2"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "n3-u10-d-review",
+      "lesson": "n3-u10-lesson-1",
+      "title": "What happened during the session",
+      "speed": 1.1,
+      "scene": "Tuesday morning, Bao and Yamamoto review Monday’s information session, which began at four as announced. They distinguish ongoing note-taking from one phone call handled by a colleague.",
+      "words": [
+        "n3-u10-w-maikai",
+        "n3-u10-w-hindo",
+        "n3-u10-w-nikka",
+        "n3-u10-w-chakushin",
+        "n3-u10-w-outou",
+        "n3-u09-w-fukkyuu",
+        "n3-u09-w-tenken",
+        "n3-u09-w-setsubi",
+        "n3-u09-w-fuguai",
+        "n3-u09-w-ingakankei",
+        "n3-u07-w-unkou",
+        "n3-u08-w-shouryaku",
+        "n3-u08-w-youyaku",
+        "n3-u08-w-reisei"
+      ],
+      "lines": [
+        {
+          "speaker": "Yamamoto",
+          "line": "{昨日|きのう}の{説明会|せつめいかい}は、{予定|よてい}どおり{四時|よじ}に{始|はじ}まりました。{今朝|けさ}は{記録|きろく}を{振|ふ}り{返|かえ}りましょう。",
+          "romaji": "Kinō no setsumeikai wa, yotei dōri yoji ni hajimarimashita. Kesa wa kiroku o furikaerimashō.",
+          "meaning": "Yesterday’s information session began at four as scheduled. Let us review the record this morning."
+        },
+        {
+          "speaker": "You",
+          "line": "{説明会|せつめいかい}の{間|あいだ}、{私|わたし}はずっとメモを{取|と}っていました。",
+          "romaji": "Setsumeikai no aida, watashi wa zutto memo o totte imashita.",
+          "meaning": "I took notes throughout the session."
+        },
+        {
+          "speaker": "Yamamoto",
+          "line": "{設備|せつび}について{説明|せつめい}している{最中|さいちゅう}に、{電話|でんわ}が{鳴|な}りましたね。",
+          "romaji": "Setsubi ni tsuite setsumei shite iru saichū ni, denwa ga narimashita ne.",
+          "meaning": "The phone rang right in the middle of the explanation about the equipment, didn’t it?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{着信|ちゃくしん}への{応答|おうとう}は{別|べつ}の{人|ひと}が{担当|たんとう}したので、{私|わたし}はメモを{続|つづ}けられました。",
+          "romaji": "Hai. Chakushin e no ōtō wa betsu no hito ga tantō shita node, watashi wa memo o tsuzukeraremashita.",
+          "meaning": "Yes. Another person answered the incoming call, so I could continue taking notes."
+        },
+        {
+          "speaker": "Yamamoto",
+          "line": "{休|やす}みの{間|あいだ}に、{要約|ようやく}を{読|よ}み{終|お}えたんですね。",
+          "romaji": "Yasumi no aida ni, yōyaku o yomioeta n desu ne.",
+          "meaning": "You finished reading the summary during the break, right?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{内容|ないよう}を{忘|わす}れないうちに、{不具合|ふぐあい}の{要因|よういん}は{調査|ちょうさ}{中|ちゅう}だと{書|か}きました。",
+          "romaji": "Hai. Naiyō o wasurenai uchi ni, fuguai no yōin wa chōsa chū da to kakimashita.",
+          "meaning": "Yes. Before I forgot the content, I wrote that the factors behind the malfunction were under investigation."
+        },
+        {
+          "speaker": "Yamamoto",
+          "line": "{運行|うんこう}の{更新|こうしん}のたびに、{点検|てんけん}の{記録|きろく}も{毎回|まいかい}{確認|かくにん}しています。",
+          "romaji": "Unkō no kōshin no tabi ni, tenken no kiroku mo maikai kakunin shite imasu.",
+          "meaning": "Each time there is a service update, I check the inspection record too, every time."
+        },
+        {
+          "speaker": "You",
+          "line": "{復旧|ふっきゅう}したことと、{原因|げんいん}が{全部|ぜんぶ}{分|わ}かったことは{違|ちが}いますね。{因果関係|いんがかんけい}の{説明|せつめい}は{省略|しょうりゃく}しません。",
+          "romaji": "Fukkyū shita koto to, gen’in ga zenbu wakatta koto wa chigaimasu ne. Inga kankei no setsumei wa shōryaku shimasen.",
+          "meaning": "Service having been restored differs from all causes being known. I will not leave out the explanation of the causal relationship."
+        },
+        {
+          "speaker": "Yamamoto",
+          "line": "{連絡|れんらく}の{頻度|ひんど}も{記録|きろく}しましょう。{朝|あさ}の{確認|かくにん}は{日課|にっか}にしています。",
+          "romaji": "Renraku no hindo mo kiroku shimashō. Asa no kakunin wa nikka ni shite imasu.",
+          "meaning": "Let us record the frequency of contact too. I make the morning check a daily routine."
+        },
+        {
+          "speaker": "You",
+          "line": "{同|おな}じ{文|ぶん}を{読|よ}んでいるうちに、{意味|いみ}が{分|わ}かるようになりました。{冷静|れいせい}に{記録|きろく}を{読|よ}みます。",
+          "romaji": "Onaji bun o yonde iru uchi ni, imi ga wakaru yō ni narimashita. Reisei ni kiroku o yomimasu.",
+          "meaning": "As I continued reading the same sentence, I came to understand its meaning. I will read the record calmly."
+        }
+      ]
+    },
+    {
+      "id": "n3-u10-d-habit",
+      "lesson": "n3-u10-lesson-2",
+      "title": "A repeated habit and yesterday’s tiredness",
+      "speed": 1.1,
+      "scene": "Tuesday after lunch, Kenta and Misaki compare a repeated communication habit with Kenta’s description of yesterday. Bao suggests a concrete way to keep the summary complete.",
+      "words": [
+        "n3-u10-w-kuse",
+        "n3-u10-w-renzoku",
+        "n3-u10-w-maikai",
+        "n3-u10-w-nebusoku",
+        "n3-u10-w-hirou",
+        "n3-u10-w-kankaku",
+        "n3-u10-w-kyuusoku",
+        "n3-u10-w-aima",
+        "n3-u08-w-shouryaku",
+        "n3-u08-w-honne",
+        "n3-u08-w-youyaku",
+        "n3-u08-w-kokorokubari",
+        "n3-u09-w-tenken",
+        "n3-u09-w-tema"
+      ],
+      "lines": [
+        {
+          "speaker": "Kenta",
+          "line": "{急|いそ}ぐと、{説明|せつめい}を{省略|しょうりゃく}しがちなんだ。{先週|せんしゅう}は{三日|みっか}{連続|れんぞく}で、{毎回|まいかい}{一|ひと}つずつ{抜|ぬ}けた。",
+          "romaji": "Isogu to, setsumei o shōryaku shigachi nan da. Senshū wa mikka renzoku de, maikai hitotsu zutsu nuketa.",
+          "meaning": "When I hurry, I tend to leave out explanations. Last week, for three consecutive days, I left one thing out each time."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "それは{繰|く}り{返|かえ}す{癖|くせ}の{話|はなし}だね。{昨日|きのう}の{気分|きぶん}だけの{話|はなし}とは{違|ちが}うんだ。",
+          "romaji": "Sore wa kurikaesu kuse no hanashi da ne. Kinō no kibun dake no hanashi to wa chigau n da.",
+          "meaning": "That is about a repeated habit, right? It differs from only describing yesterday’s state."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "うん。{昨日|きのう}は{寝不足|ねぶそく}で、{疲|つか}れ{気味|ぎみ}だった。{疲労|ひろう}を{感|かん}じたけど、それと{先週|せんしゅう}の{癖|くせ}は{分|わ}けて{書|か}くよ。",
+          "romaji": "Un. Kinō wa nebusoku de, tsukare gimi datta. Hirō o kanjita kedo, sore to senshū no kuse wa wakete kaku yo.",
+          "meaning": "Yes. Yesterday I was short on sleep and felt a little tired. I felt fatigue, but I will write that separately from last week’s habit."
+        },
+        {
+          "speaker": "You",
+          "line": "{省略|しょうりゃく}を{減|へ}らすために、{要約|ようやく}を{送|おく}る{前|まえ}に、{確認|かくにん}する{項目|こうもく}を{読|よ}みましょう。",
+          "romaji": "Shōryaku o herasu tame ni, yōyaku o okuru mae ni, kakunin suru kōmoku o yomimashō.",
+          "meaning": "To reduce omissions, let us read the checklist before sending the summary."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{点検|てんけん}の{記録|きろく}を{毎回|まいかい}{読|よ}むのも{役|やく}に{立|た}つね。",
+          "romaji": "Tenken no kiroku o maikai yomu no mo yaku ni tatsu ne.",
+          "meaning": "Reading the inspection record every time helps too."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "{確認|かくにん}の{手間|てま}を{省|はぶ}かないようにする。{相手|あいて}の{本音|ほんね}を{勝手|かって}に{決|き}める{文|ぶん}も{入|い}れないよ。",
+          "romaji": "Kakunin no tema o habukanai yō ni suru. Aite no honne o katte ni kimeru bun mo irenai yo.",
+          "meaning": "I will try not to skip the effort of checking. I will not include a sentence that decides the other person’s private feelings without asking."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{相手|あいて}への{心|こころ}{配|くば}りも{大切|たいせつ}だね。{具体的|ぐたいてき}な{行動|こうどう}を{書|か}こう。",
+          "romaji": "Aite e no kokorokubari mo taisetsu da ne. Gutaiteki na kōdō o kakō.",
+          "meaning": "Thoughtful consideration for the other person matters too. Let us write a concrete action."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "{日記|にっき}には、{休息|きゅうそく}を{取|と}った{時刻|じこく}と{間隔|かんかく}も{残|のこ}した。",
+          "romaji": "Nikki ni wa, kyūsoku o totta jikoku to kankaku mo nokoshita.",
+          "meaning": "In my diary, I also kept the times and intervals of my breaks."
+        },
+        {
+          "speaker": "You",
+          "line": "{作業|さぎょう}の{合間|あいま}に{書|か}いた{記録|きろく}ですね。{今|いま}の{状態|じょうたい}と{繰|く}り{返|かえ}す{行動|こうどう}を{比|くら}べられます。",
+          "romaji": "Sagyō no aima ni kaita kiroku desu ne. Ima no jōtai to kurikaesu kōdō o kuraberaremasu.",
+          "meaning": "Those are records you wrote between tasks, right? We can compare a current state with repeated actions."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "うん。{昨日|きのう}は{少|すこ}し{疲|つか}れていたけど、{四時|よじ}の{説明会|せつめいかい}には{参加|さんか}した。{欠席|けっせき}はしなかったよ。",
+          "romaji": "Un. Kinō wa sukoshi tsukarete ita kedo, yoji no setsumeikai ni wa sanka shita. Kesseki wa shinakatta yo.",
+          "meaning": "Yes. I was a little tired yesterday, but I attended the four-o’clock session. I did not miss it."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n3-u10-reading",
+      "lesson": "n3-u10-lesson-2",
+      "title": "A whole session; three days of omissions",
+      "genre": "diary",
+      "paragraphs": [
+        "{火曜日|かようび}の{日記|にっき}。{昨日|きのう}の{説明会|せつめいかい}は{四時|よじ}に{始|はじ}まった。{設備|せつび}の{説明|せつめい}の{最中|さいちゅう}に{着信|ちゃくしん}があったが、{応答|おうとう}は{別|べつ}の{人|ひと}が{担当|たんとう}した。{私|わたし}は{説明会|せつめいかい}の{間|あいだ}、ずっとメモを{取|と}った。{休|やす}みの{間|あいだ}に{要約|ようやく}を{読|よ}み{終|お}え、{忘|わす}れないうちに{要因|よういん}は{調査|ちょうさ}{中|ちゅう}だと{書|か}いた。",
+        "{今日|きょう}の{昼|ひる}、ケンタは{先週|せんしゅう}{三日|みっか}{連続|れんぞく}で{説明|せつめい}を{一|ひと}つずつ{省略|しょうりゃく}したと{話|はな}した。{昨日|きのう}は{疲|つか}れ{気味|ぎみ}だったが、{説明会|せつめいかい}には{参加|さんか}したとも{言|い}った。{要約|ようやく}を{送|おく}るたびに{点検|てんけん}の{記録|きろく}を{確認|かくにん}することにした。{確認|かくにん}の{手間|てま}を{省|はぶ}かない{方法|ほうほう}だ。{相手|あいて}への{心|こころ}{配|くば}りを、{具体的|ぐたいてき}な{行動|こうどう}にしたい。"
+      ],
+      "glosses": [
+        {
+          "text": "火曜日",
+          "kana": "かようび",
+          "meaning": "Tuesday"
+        },
+        {
+          "text": "日記",
+          "kana": "にっき",
+          "meaning": "diary"
+        },
+        {
+          "text": "昨日",
+          "kana": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "text": "説明会",
+          "kana": "せつめいかい",
+          "meaning": "information session"
+        },
+        {
+          "text": "四時",
+          "kana": "よじ",
+          "meaning": "four o’clock"
+        },
+        {
+          "text": "始まった",
+          "kana": "はじまった",
+          "meaning": "began"
+        },
+        {
+          "text": "設備",
+          "kana": "せつび",
+          "meaning": "equipment"
+        },
+        {
+          "text": "説明",
+          "kana": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "text": "最中",
+          "kana": "さいちゅう",
+          "meaning": "right in the middle"
+        },
+        {
+          "text": "着信",
+          "kana": "ちゃくしん",
+          "meaning": "incoming call"
+        },
+        {
+          "text": "あった",
+          "kana": "あった",
+          "meaning": "there was"
+        },
+        {
+          "text": "応答",
+          "kana": "おうとう",
+          "meaning": "answering; response"
+        },
+        {
+          "text": "別",
+          "kana": "べつ",
+          "meaning": "another; separate"
+        },
+        {
+          "text": "人",
+          "kana": "ひと",
+          "meaning": "person"
+        },
+        {
+          "text": "担当した",
+          "kana": "たんとうした",
+          "meaning": "handled"
+        },
+        {
+          "text": "私",
+          "kana": "わたし",
+          "meaning": "I"
+        },
+        {
+          "text": "間",
+          "kana": "あいだ",
+          "meaning": "during; span"
+        },
+        {
+          "text": "ずっと",
+          "kana": "ずっと",
+          "meaning": "throughout"
+        },
+        {
+          "text": "メモ",
+          "kana": "めも",
+          "meaning": "notes"
+        },
+        {
+          "text": "取った",
+          "kana": "とった",
+          "meaning": "took"
+        },
+        {
+          "text": "休み",
+          "kana": "やすみ",
+          "meaning": "break"
+        },
+        {
+          "text": "要約",
+          "kana": "ようやく",
+          "meaning": "summary"
+        },
+        {
+          "text": "読み終え",
+          "kana": "よみおえ",
+          "meaning": "finished reading; linking"
+        },
+        {
+          "text": "忘れないうちに",
+          "kana": "わすれないうちに",
+          "meaning": "before forgetting"
+        },
+        {
+          "text": "要因",
+          "kana": "よういん",
+          "meaning": "factor"
+        },
+        {
+          "text": "調査中",
+          "kana": "ちょうさちゅう",
+          "meaning": "under investigation"
+        },
+        {
+          "text": "書いた",
+          "kana": "かいた",
+          "meaning": "wrote"
+        },
+        {
+          "text": "今日",
+          "kana": "きょう",
+          "meaning": "today"
+        },
+        {
+          "text": "昼",
+          "kana": "ひる",
+          "meaning": "midday"
+        },
+        {
+          "text": "先週",
+          "kana": "せんしゅう",
+          "meaning": "last week"
+        },
+        {
+          "text": "三日",
+          "kana": "みっか",
+          "meaning": "three days"
+        },
+        {
+          "text": "連続",
+          "kana": "れんぞく",
+          "meaning": "consecutive occurrence"
+        },
+        {
+          "text": "一つずつ",
+          "kana": "ひとつずつ",
+          "meaning": "one each"
+        },
+        {
+          "text": "省略した",
+          "kana": "しょうりゃくした",
+          "meaning": "omitted"
+        },
+        {
+          "text": "話した",
+          "kana": "はなした",
+          "meaning": "said; talked"
+        },
+        {
+          "text": "疲れ気味",
+          "kana": "つかれぎみ",
+          "meaning": "somewhat tired"
+        },
+        {
+          "text": "参加した",
+          "kana": "さんかした",
+          "meaning": "attended"
+        },
+        {
+          "text": "とも言った",
+          "kana": "ともいった",
+          "meaning": "also said"
+        },
+        {
+          "text": "送るたびに",
+          "kana": "おくるたびに",
+          "meaning": "each time sending"
+        },
+        {
+          "text": "点検",
+          "kana": "てんけん",
+          "meaning": "inspection"
+        },
+        {
+          "text": "記録",
+          "kana": "きろく",
+          "meaning": "record"
+        },
+        {
+          "text": "確認することにした",
+          "kana": "かくにんすることにした",
+          "meaning": "decided to check"
+        },
+        {
+          "text": "手間",
+          "kana": "てま",
+          "meaning": "effort; trouble"
+        },
+        {
+          "text": "省かない",
+          "kana": "はぶかない",
+          "meaning": "do not skip"
+        },
+        {
+          "text": "方法",
+          "kana": "ほうほう",
+          "meaning": "method"
+        },
+        {
+          "text": "相手",
+          "kana": "あいて",
+          "meaning": "other person"
+        },
+        {
+          "text": "心配り",
+          "kana": "こころくばり",
+          "meaning": "thoughtful consideration"
+        },
+        {
+          "text": "具体的",
+          "kana": "ぐたいてき",
+          "meaning": "concrete"
+        },
+        {
+          "text": "行動",
+          "kana": "こうどう",
+          "meaning": "action"
+        },
+        {
+          "text": "したい",
+          "kana": "したい",
+          "meaning": "want to make; do"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n3-u10-x-notes",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-outou",
+        "n3-u10-w-chakushin"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-review",
+      "prompt": "Which activity did Bao continue throughout the session?",
+      "options": [
+        "Taking notes",
+        "Answering every phone call",
+        "Reading the summary only after the session"
+      ],
+      "answer": 0,
+      "explain": "ずっとメモを取っていました states ongoing note-taking across the session."
+    },
+    {
+      "id": "n3-u10-x-call",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-outou",
+        "n3-u10-w-chakushin",
+        "n3-u09-w-setsubi"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-review",
+      "prompt": "Who answered the incoming call?",
+      "options": [
+        "Another person",
+        "Bao, stopping his notes",
+        "Nobody; the phone did not ring"
+      ],
+      "answer": 0,
+      "explain": "Bao says 別の人が担当した, so he could continue taking notes."
+    },
+    {
+      "id": "n3-u10-x-break",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u08-w-youyaku",
+        "n3-u09-w-fuguai"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-review",
+      "prompt": "What did Bao complete during the break?",
+      "options": [
+        "Reading the summary",
+        "Finding all causes of the malfunction",
+        "Cancelling the session"
+      ],
+      "answer": 0,
+      "explain": "読み終えた marks the completed reading within the break, not all causes becoming known."
+    },
+    {
+      "id": "n3-u10-x-updates",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-maikai",
+        "n3-u10-w-hindo",
+        "n3-u09-w-tenken",
+        "n3-u07-w-unkou"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-review",
+      "prompt": "When does Yamamoto check the inspection record?",
+      "options": [
+        "Each time there is a service update",
+        "Only after the four-o’clock session ends",
+        "Only on the day of the Saturday film"
+      ],
+      "answer": 0,
+      "explain": "更新のたびに and 毎回 mark repeated checks."
+    },
+    {
+      "id": "n3-u10-x-tabi-noun",
+      "type": "cloze",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-maikai",
+        "n3-u09-w-tenken"
+      ],
+      "skill": "recall",
+      "context": "Form practice: complete the named event-noun pattern 更新のたびに.",
+      "line": "{更新|こうしん}＿＿たびに、{点検|てんけん}の{記録|きろく}を{確認|かくにん}します。",
+      "options": [
+        "の",
+        "な",
+        "だ"
+      ],
+      "answer": 0,
+      "explain": "The event noun 更新 connects with のたびに."
+    },
+    {
+      "id": "n3-u10-x-saichuu",
+      "type": "cloze",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-chakushin",
+        "n3-u09-w-setsubi"
+      ],
+      "skill": "recall",
+      "context": "Form practice: use the verb pattern 説明している最中に, meaning right in the middle of explaining.",
+      "line": "{設備|せつび}について{説明|せつめい}＿＿{最中|さいちゅう}に、{電話|でんわ}が{鳴|な}りました。",
+      "options": [
+        "している",
+        "する",
+        "した"
+      ],
+      "answer": 0,
+      "explain": "The taught progressive attachment is ている最中に."
+    },
+    {
+      "id": "n3-u10-x-reply-window",
+      "type": "reply",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u08-w-youyaku",
+        "n3-u09-w-youin"
+      ],
+      "skill": "listening",
+      "context": "Reply politely to Yamamoto-sensei. Agree to write the summary before you forget the content.",
+      "line": "{忘|わす}れないうちに、{要約|ようやく}を{書|か}いてください。",
+      "options": [
+        "はい。{今|いま}、{要因|よういん}は{調査|ちょうさ}{中|ちゅう}だと{書|か}きます。",
+        "{全部|ぜんぶ}{忘|わす}れた{後|あと}で、{初|はじ}めて{書|か}きます。",
+        "{要因|よういん}は{不明|ふめい}ですが、{全部|ぜんぶ}{分|わ}かったと{書|か}きます。"
+      ],
+      "answer": 0,
+      "explain": "The first acts now before forgetting and retains the stated investigation status."
+    },
+    {
+      "id": "n3-u10-x-order-span",
+      "type": "order",
+      "lesson": "n3-u10-lesson-1",
+      "words": [
+        "n3-u10-w-outou"
+      ],
+      "skill": "recall",
+      "meaning": "I took notes throughout the information session.",
+      "tiles": [
+        "{説明会|せつめいかい}の{間|あいだ}、",
+        "{私|わたし}は",
+        "ずっと",
+        "メモを{取|と}っていました。"
+      ],
+      "explain": "間 and ずっと frame the continuing note-taking across the session."
+    },
+    {
+      "id": "n3-u10-x-repeat",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-renzoku",
+        "n3-u10-w-maikai",
+        "n3-u10-w-kuse",
+        "n3-u08-w-shouryaku"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-habit",
+      "prompt": "What repeated pattern does Kenta describe?",
+      "options": [
+        "Leaving one explanation out each day for three consecutive days last week",
+        "Missing the four-o’clock session yesterday",
+        "Forgetting everything just once on Tuesday"
+      ],
+      "answer": 0,
+      "explain": "先週は三日連続で、毎回一つずつ describes the recurrence."
+    },
+    {
+      "id": "n3-u10-x-yesterday",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-nebusoku",
+        "n3-u10-w-hirou"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-habit",
+      "prompt": "What does Kenta say about yesterday?",
+      "options": [
+        "He was short on sleep and felt somewhat tired",
+        "He did not attend the session",
+        "He omitted one explanation every hour"
+      ],
+      "answer": 0,
+      "explain": "寝不足 and 疲れ気味 report yesterday’s state, distinct from last week’s habit."
+    },
+    {
+      "id": "n3-u10-x-attendance",
+      "type": "dialogue",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-kesseki",
+        "n3-u10-w-hirou"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u10-d-habit",
+      "prompt": "Did Kenta attend Monday’s session?",
+      "options": [
+        "Yes, he attended at four despite feeling tired",
+        "No, he was absent",
+        "The scene never states whether he attended"
+      ],
+      "answer": 0,
+      "explain": "He explicitly says 参加した and 欠席はしなかった."
+    },
+    {
+      "id": "n3-u10-x-gachi-stem",
+      "type": "cloze",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-kuse",
+        "n3-u08-w-shouryaku"
+      ],
+      "skill": "recall",
+      "context": "Form practice: use 省略します with the named suffix がち, to express a tendency to omit explanations.",
+      "line": "{急|いそ}ぐと、{説明|せつめい}を{省略|しょうりゃく}＿＿がちです。",
+      "options": [
+        "し",
+        "する",
+        "した"
+      ],
+      "answer": 0,
+      "explain": "The ます-stem of 省略します is 省略し; remove ます."
+    },
+    {
+      "id": "n3-u10-x-gimi-stem",
+      "type": "cloze",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-hirou",
+        "n3-u10-w-nebusoku"
+      ],
+      "skill": "recall",
+      "context": "Form practice: use 疲れます with the named suffix 気味 (ぎみ), to describe mild tiredness.",
+      "line": "{昨日|きのう}は{疲|つか}れ＿＿でした。",
+      "options": [
+        "{気味|ぎみ}",
+        "る{気味|ぎみ}",
+        "ます{気味|ぎみ}"
+      ],
+      "answer": 0,
+      "explain": "疲れ is the stem; 疲れ気味 describes being somewhat tired."
+    },
+    {
+      "id": "n3-u10-x-reply-check",
+      "type": "reply",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u08-w-youyaku",
+        "n3-u09-w-tenken",
+        "n3-u09-w-tema"
+      ],
+      "skill": "listening",
+      "context": "Reply casually to Kenta. Suggest a concrete check before he sends the summary.",
+      "line": "{説明|せつめい}を{省略|しょうりゃく}しがちなんだ。",
+      "options": [
+        "{送|おく}る{前|まえ}に、{点検|てんけん}の{記録|きろく}と{要約|ようやく}を{比|くら}べよう。",
+        "{昨日|きのう}は{欠席|けっせき}したから、{記録|きろく}はないね。",
+        "{確認|かくにん}の{手間|てま}は{必|かなら}ず{省|はぶ}こう。"
+      ],
+      "answer": 0,
+      "explain": "The first suggests comparing the record and summary; the second contradicts his attendance and the third removes the needed check."
+    },
+    {
+      "id": "n3-u10-x-order-gachi",
+      "type": "order",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-kuse",
+        "n3-u08-w-shouryaku"
+      ],
+      "skill": "recall",
+      "meaning": "When I hurry, I tend to leave out explanations.",
+      "tiles": [
+        "{急|いそ}ぐと、",
+        "{説明|せつめい}を",
+        "{省略|しょうりゃく}しがちです。"
+      ],
+      "explain": "The condition precedes the recurring tendency; the verb stem attaches to がち."
+    },
+    {
+      "id": "n3-u10-x-reading-sequence",
+      "type": "choice",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-chakushin",
+        "n3-u10-w-outou",
+        "n3-u09-w-setsubi"
+      ],
+      "skill": "reading",
+      "reading": "n3-u10-reading",
+      "context": "Read Bao’s Tuesday diary. Follow the dates and the attributed statements.",
+      "prompt": "Which event belongs to Monday rather than Tuesday?",
+      "options": [
+        "The four-o’clock information session",
+        "Kenta’s lunchtime account of last week",
+        "Writing the diary’s Tuesday heading"
+      ],
+      "answer": 0,
+      "explain": "Yesterday refers to Monday in the Tuesday diary."
+    },
+    {
+      "id": "n3-u10-x-reading-repeat",
+      "type": "choice",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u10-w-renzoku",
+        "n3-u08-w-shouryaku",
+        "n3-u08-w-youyaku"
+      ],
+      "skill": "reading",
+      "reading": "n3-u10-reading",
+      "context": "Read Bao’s Tuesday diary. Follow the dates and the attributed statements.",
+      "prompt": "Which statement describes repeated actions last week?",
+      "options": [
+        "Kenta omitted one explanation on each of three consecutive days",
+        "Bao finished the summary during one break",
+        "A single call arrived during Monday’s explanation"
+      ],
+      "answer": 0,
+      "explain": "三日連続 and 一つずつ establish recurrence; the other events happen once."
+    },
+    {
+      "id": "n3-u10-x-reading-action",
+      "type": "choice",
+      "lesson": "n3-u10-lesson-2",
+      "words": [
+        "n3-u09-w-tenken",
+        "n3-u09-w-tema",
+        "n3-u08-w-kokorokubari"
+      ],
+      "skill": "reading",
+      "reading": "n3-u10-reading",
+      "context": "Read Bao’s Tuesday diary. Follow the dates and the attributed statements.",
+      "prompt": "What new practice has been decided?",
+      "options": [
+        "Check the inspection record each time a summary is sent",
+        "Skip the checking effort when tired",
+        "State that all causes are now known"
+      ],
+      "answer": 0,
+      "explain": "送るたびに…確認することにした connects each send to the decided check."
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "each time たびに",
+      "span 間/間に",
+      "in progress 最中に",
+      "before change うちに",
+      "tendency がち",
+      "slight state 気味"
+    ],
+    "prompt": "Optionally save a time-span or habit line from your own clip. Mark the time clues and whether it describes one event, repetition, or a slight state."
+  }
+}

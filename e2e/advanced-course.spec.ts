@@ -68,6 +68,13 @@ for (const unit of [
       ["A report keeps what is still unknown", "n3-u09-d-report", "Read ため as cause or purpose in context", "Credit a benefit; notice sarcasm"],
     ],
   },
+  {
+    id: "n3-u10", reading: "A whole session; three days of omissions",
+    lessons: [
+      ["A span, an interruption and each update", "n3-u10-d-review", "Track what happens each time", "A recurring tendency is not an identity"],
+      ["A repeated habit and a slight state", "n3-u10-d-habit", "A recurring tendency is not an identity", "Track what happens each time"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

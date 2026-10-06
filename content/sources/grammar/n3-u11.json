@@ -1,0 +1,39 @@
+{
+  "unit": "n3-u11",
+  "checkedAt": "2026-10-06",
+  "status": "Formation and usage sources checked; authoring and native review pending.",
+  "method": "Publisher-authored explanations cross-checked with Japan Foundation teaching guidance and the Agency for Cultural Affairs keigo guidance. All examples and scenarios original. Editorial JLPT tags are not an official syllabus.",
+  "points": [
+    {
+      "form": "Causative permission request: させてください",
+      "sources": ["https://jlptsensei.com/learn-japanese-grammar/させてください-sasete-kudasai-meaning/", "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate1/intermediate1_teaching_topic.pdf"],
+      "location": "Marugoto Intermediate 1 teacher guidance, PDF pp. 42–43 (printed 41–42), Topic 3.",
+      "levels": ["N4 bridge at Sensei", "Intermediate 1 communicative permission at Japan Foundation"],
+      "formation": "Causative te-form + ください; actor normally speaker in permission requests, sometimes an expressly identified third person. Causative formation retrieved from N4 u10.",
+      "teachingChoice": "Contrast request for your own action with てください for listener action. No universal requirement that every explicit self-reference must be 私に; actor can be omitted or topicalized in context. Permission request is not the granting response."
+    },
+    {
+      "form": "Receiving permission: させてもらう/させていただく",
+      "sources": ["https://bunpro.jp/grammar_points/させてもらう", "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_09.pdf", "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate1/intermediate1_teaching_topic.pdf"],
+      "location": "Keigo guidance PDF pp. 42–43 (printed 40–41), section 6. Marugoto Topic 3 and reference to Topic 7.",
+      "levels": ["N3 at Bunpro", "Pragmatic guidance, no official JLPT tag"],
+      "formation": "Causative te-form + もらう/いただく, conjugated normally; permission question いただけますか/いただけませんか and past report いただきました have different time/functions.",
+      "teachingChoice": "Core appropriateness involves permission and perceived benefit; context and inferred permission affect acceptability. Do not use the longer phrase as an automatic politeness upgrade, or describe all extended uses as absolutely wrong. Report granted limited access without enlarging its scope."
+    },
+    {
+      "form": "Causative/passive roles in real use",
+      "sources": ["https://bunpro.jp/grammar_points/causative", "https://jlptsensei.com/learn-japanese-grammar/させる-saseru-causative-form-meaning/", "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate1/intermediate1_teaching_topic.pdf"],
+      "levels": ["N4 retrieval", "N4 retrieval"],
+      "formation": "Group 1 a-row + せる (う→わせる); group 2 stem + させる; する→させる; 来る→こさせる. Transitive pattern: causer は doer に object を causative. Retrieved passive object/agent roles in N4.",
+      "teachingChoice": "Let versus make depends on the actual response/context. Permission-limited printing can be described from grantor or recipient viewpoint. 署名させられた is not equivalent to a freely granted permission."
+    },
+    {
+      "form": "Causative-passive: させられる and contracted forms",
+      "sources": ["https://bunpro.jp/grammar_points/causative-passive", "https://jlptsensei.com/learn-japanese-grammar/させられる-saserareru-meaning-causative-passive-form/", "https://marugoto.jpf.go.jp/assets/docs/teacher/resource/intermediate1/intermediate1_teaching_topic.pdf"],
+      "levels": ["N4 bridge", "N4 bridge"],
+      "formation": "Causative final る→られる; common godan contraction a-row + される, except す-ending verbs; group 2 and する do not take that godan contraction. 待たせられる→待たされる; 話させられる retained. Causer marked に.",
+      "teachingChoice": "Doer is being made to act, often unwilling. Also recognize emotional elicitation in context, not absolute unwillingness. Source Sensei's displayed 聞く kana has a typo; use regular rule 聞かせられる cross-checked at Bunpro, not the erroneous kana. No forced context-free register judgment between full and contracted forms."
+    }
+  ],
+  "remaining": "Two sixteen-word lessons, four notes with three examples, two ten-line scenes at 1.10, 200–400-character workplace email, 14–18 tasks including explicit actor/register contrasts. Previous-three-unit recycling and chronology checked before commit. Human review pending."
+}
