@@ -181,6 +181,14 @@ for (const unit of [
       ["Recover a reference and check it", "n2-u08-d-umbrella", "Recover the missing noun from this conversation", "A short response can keep the story going"],
     ],
   },
+  {
+    id: "n2-u09", reading: "Yui’s Monday reply: Wednesday is confirmed",
+    secondReading: "Wednesday’s workshop answer: two afternoon sessions",
+    lessons: [
+      ["A refusal, an alternative and a deferred answer", "n2-u09-d-karaoke", "Hear a refusal in the complete exchange", "Formal inability is still a refusal"],
+      ["A formal no and a possibility with conditions", "n2-u09-d-capacity", "Formal inability is still a refusal", "Hear a refusal in the complete exchange"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
