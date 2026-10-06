@@ -1,6 +1,6 @@
 # N3 editorial review
 
-Updated 6 October 2026. Only units 1–3 are authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
+Updated 6 October 2026. Only units 1–4 are authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
 
 ## Unit 1 — Getting better at it
 
@@ -47,3 +47,17 @@ Two sixteen-word lessons; five notes, each with formation/three original example
 - Three preview keys state the seen amount, named source and remaining unchecked date. Three costume keys distinguish role/reality, self-described memory tendency and the actual practice method. Reading keys all have explicit text support; no calendar date, diagnosis or profession is invented.
 
 Mechanical gates and browser checks are recorded in course-progress.md after the full milestone run. Old Clear recordings, dialogue takes and strokes are unchanged. Human/native listening and naturalness review remains pending; this is an internal AI-assisted review of three units, not complete N3 coverage.
+
+
+## Unit 4 — expectations, conclusions and responsibility
+
+Two sixteen-word lessons; four formation notes with three examples and a common mistake each; two ten-line scenes; a 231-character diary; eighteen tasks. All thirty-two new spelling/reading pairs match the pinned dictionary. Twenty-two added reference pages preserve earlier dictionary and stroke data. はず retrieves N4 unit 7; it is not a newly invented N3 requirement.
+
+- Replaced a grammar example that introduced the second lesson’s detective word early with the already introduced character name.
+- Removed an unrelated 事実/記憶 credit from the heard reply and bound it to the actual record/conviction message. Replaced an unrelated 繰り返す credit in the form cloze with the previous unit’s 台詞, actually present in the sentence.
+- Added the exact reviewed 繰り返します surface form to recycling metadata; this is not dictionary headword verification.
+- Conviction is explicitly unconfirmed until Kenta’s account and the record check. No numerical certainty scale, synonym contest or claim that confident language proves a fact.
+- Scene keys identify yesterday’s note, the pending check, university ownership, morning movement, the return deadline and the past update recommendation. Reading keys have explicit sequence/deadline/date evidence.
+- Noun のはず, direct に違いない, な-adjective なわけ and dictionary verb + べきでした are explicitly named form tasks. Grammatical overlap does not create competing comprehension keys. Wider negative わけ constructions are deferred.
+
+TypeScript, 112 unit tests, content/dictionary/kanji/JLPT gates, five audio validators, browser lesson/reading checks and production build/offline playback pass. All 90 added WAV files are mapped; 4,673 prior Clear keys, 4,685 prior synthesis records and 323 dialogue takes are preserved. Browser decodes all twenty new scene takes, verifies both lessons’ own notes, and checks saved themes/support/axe/overflow at 375/1440. Screenshots inspected. These checks do not certify native pronunciation or naturalness. Grammar-task metadata is not independent lexical mastery.

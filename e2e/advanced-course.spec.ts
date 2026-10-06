@@ -26,6 +26,13 @@ for (const unit of [
       ["A likeness is not an identity", "n3-u03-d-costume", "A perceived trait, not an identity", "State what was reported, and by whom"],
     ],
   },
+  {
+    id: "n3-u04", reading: "From an expectation to a checked record",
+    lessons: [
+      ["Expectation, conviction and a checked fact", "n3-u04-d-note", "An expectation with grounds", "Recommend a responsible action"],
+      ["Explain the result; choose the responsible action", "n3-u04-d-record", "Recommend a responsible action", "An expectation with grounds"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
