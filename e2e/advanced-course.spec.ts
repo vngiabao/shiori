@@ -82,6 +82,13 @@ for (const unit of [
       ["Granted, completed, or made to do it", "n3-u11-d-followup", "Follow the grantor and the doer", "Ask to do the action yourself"],
     ],
   },
+  {
+    id: "n3-u12", reading: "A viewing record; the next day is not set",
+    lessons: [
+      ["Hear what the short forms contain", "n3-u12-d-watch", "Hear the full verb inside a short ending", "Remember a plan; wonder about an answer"],
+      ["Recall, wonder and respond among peers", "n3-u12-d-recall", "Remember a plan; wonder about an answer", "Hear the full verb inside a short ending"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

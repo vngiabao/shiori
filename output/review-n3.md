@@ -156,3 +156,16 @@ Two sixteen-word lessons, four complete notes with three original examples each,
 - Every scored answer follows an explicit scene statement, requested formation or reading detail. New/previous word IDs are real references, with no aliases invented for recycling. Reading questions require dates, copy disposition and the next action.
 
 TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, browser cases for units 6/9/10/11, build and production offline reload/playback pass. Light 1440 and dark 375 reading screenshots inspected. All 93 new WAV files mapped; HEAD 4f3f495's 5,366 Clear keys / 5,378 records, 463 dialogue takes and 967 dictionary/stroke references preserved. Current 5,471 Clear keys / 5,483 records, 483 dialogue takes and 980 kanji references. Precache 1,334 entries / 12,224.98 KiB. Full-browser milestone remains unit 9. Native review pending; no expansion deployed.
+
+
+## Unit 12 — contracted forms with their full meanings
+
+Two sixteen-word lessons, five complete notes with three original examples each, two ten-line scenes at 1.10, a 248-character message and eighteen tasks. All 32 new written/reading pairs match the pinned dictionary. Publisher explanations and teacher-authored contraction guides cross-check the forms. The lower-level tags are retained as N5/N4 retrieval inside an N3 peer/media bridge, not relabelled an official syllabus.
+
+- ちゃう/じゃう derives from the te-form, not the masu stem. Completion and regret are distinguished; preparatory とく/どく is not ongoing/resulting てる/でる. Named-form tasks do not mark equivalent contractions wrong.
+- Recall っけ can retrieve a future arrangement; かな wonders. The expanded nonpast んだっけ is taught, with colloquial variation acknowledged. Affirmative じゃん is not negative じゃない. Bunpro's direct の-question page supplements the search-indexed Tae Kim source.
+- Saturday viewing is reported Sunday: seven thirty, pause every ten minutes, normal speed, low but audible volume, preview then main feature, no sequel. Bao initially missed the preview while answering a call and watched it after putting the phone away. Kenta was absent Saturday; his separately seen preview was Friday. The next date remains unset.
+- The speaker task binds to Misaki's exact second-scene line. A dedicated browser test walks the actual lesson, confirms Hear line plays that cast URL, checks Right/Misaki feedback and advances the step. It does not infer a speaker from voice timbre alone.
+- Explicit reviewed surface forms for 控える cover actual contractions; absent recycling annotations were removed. Dates, actions, playback and reply distractors follow the stated scene or message.
+
+Full milestone passes: TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, all 52 browser tests, build and production offline reload/playback. Light 1440 and dark 375 reading screenshots inspected. All 94 new WAV files mapped; HEAD 4d20446's 5,471 Clear keys / 5,483 records, 483 dialogue takes and 980 dictionary/stroke references preserved. Current 5,574 Clear keys / 5,586 records, 503 dialogue takes and 987 kanji references. Precache 1,341 entries / 12,289.55 KiB, below 15 MB. Native review pending; no expansion deployed.
