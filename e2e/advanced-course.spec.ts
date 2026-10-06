@@ -149,6 +149,14 @@ for (const unit of [
       ["A limited claim and an added fact", "n2-u04-d-rain", "Limit a claim to just that amount or role", "State a considered conclusion"],
     ],
   },
+  {
+    id: "n2-u05", reading: "A nine-thirty update on the interrupted line",
+    secondReading: "Three extra evening buses for a trial",
+    lessons: [
+      ["An update and a forecast", "n2-u05-d-train", "Name the source of a report", "Find the event and the response"],
+      ["A response and an accompanying change", "n2-u05-d-bus", "Find the event and the response", "Name the source of a report"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

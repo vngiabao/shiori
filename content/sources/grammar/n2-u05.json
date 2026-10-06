@@ -1,0 +1,64 @@
+{
+  "unit": "n2-u05",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific research, internal editorial correction and content/dictionary/audio/preservation/browser/build/production offline checks passed; native review pending.",
+  "method": "Read primary publishers' or teachers' formation/explanation sections and a linguist's own lecture as published by the Japan Translation Federation. Original practice news, examples and scenes are fictional course content, not copied news or verified real events. Publisher tags are estimates, not an official JLPT inventory.",
+  "points": [
+    {
+      "form": "によると / によれば",
+      "sources": [
+        "https://bunpro.jp/grammar_points/によると-によれば",
+        "https://jlptsensei.com/learn-japanese-grammar/によると-によれば-ni-yoru-to-ni-yoreba-meaning/"
+      ],
+      "formation": "Source noun + によると/によれば; verb + ところによると variant; polite によりますと. It identifies an information source.",
+      "teachingChoice": "Retrieve reporting from N3 and identify the nine-thirty update. Either source connector is valid; following prose may directly state reported information or use a reporting ending. Distinguish source attribution from causal によって.",
+      "sourceCaution": "Both publishers tag N3. No mechanically scored hierarchy of source reliability between interchangeable variants. Sensei example translations have errors (a forecast/aspect and seismic intensity); none is copied. Initially guessed unhyphenated URLs failed; the inspected hyphenated URL above is the evidence."
+    },
+    {
+      "form": "とみられる / とみている",
+      "sources": [
+        "https://japaneseexercises.com/2025/12/23/みんなの日本語中級２　第16課　文法解説・練習/",
+        "https://nihongobu.net/n1-tomirareru/",
+        "https://jp.ikuchannel.com/grammar/pattern-to-mirareru"
+      ],
+      "formation": "Plain quoted proposition + とみられる/とみられている; complete noun/na-adjective predicates use だ. Active assessor は…とみている. News noun labels may omit だ, distinct from the full-clause task.",
+      "teachingChoice": "A formal news assessment, not completed resumption. A condition and a later exact-time announcement remain. Friends quote the report and then use ordinary conversational responses. Attribution comes from the surrounding text; passive form alone is not universal agreement.",
+      "sourceCaution": "KEN's Intermediate II course, Nihongobu N1 tag and Iku N2 tag differ. This is a genre bridge here, not a claim that it is officially N2. Iku's noun examples contain variable だ; tasks explicitly request a complete proposition. A linguistic PDF search result could not be opened and is not counted as inspected evidence."
+    },
+    {
+      "form": "を受けて / を受け",
+      "sources": [
+        "https://jp.ikuchannel.com/grammar/pattern-wo-ukete",
+        "https://webjournal.jtf.jp/articles/article-10160"
+      ],
+      "formation": "Noun/event noun phrase + を受けて or connective を受け、 then response/reaction. A proposition can be nominalised with こと before を.",
+      "teachingChoice": "User requests lead to a bus-service response. Distinguish this from merely receiving an object. The clause-attachment question explicitly requires nominalisation, not an exclusive choice between synonymous causal connectors.",
+      "sourceCaution": "Iku tags N1 and overgeneralises institutional countermeasures. Linguist Kei Ishiguro's own lecture, published by JTF, demonstrates a wider market reaction and a nominalised preceding event. Adopt that broader response/reaction account; do not teach that only an authority's deliberate measure is possible. The lecture is usage/analysis evidence, not a JLPT level list."
+    },
+    {
+      "form": "に伴い / に伴って / に伴う",
+      "sources": [
+        "https://bunpro.jp/grammar_points/に伴って-に伴い",
+        "https://yasuwangblog.com/nitomonatte-en/"
+      ],
+      "formation": "Noun or dictionary verb (optionally の) + に伴って/に伴い; attributive に伴う + noun.",
+      "teachingChoice": "The library move accompanies changed use; added services carry expenses. Teach connective versus noun-modifying form before its cloze/ordering task. Can describe gradual changes or one event, not only proportional increases.",
+      "sourceCaution": "Both tag N2. Yasu examples contain awkward wording; original examples are used. Accompaniment is not by itself a measured causal estimate. Overlapping natural alternatives are not rejected merely to force the target."
+    }
+  ],
+  "editorialReview": {
+    "newPairs": 44,
+    "readingCharacters": [
+      422,
+      414
+    ],
+    "readingGlosses": [
+      49,
+      52
+    ],
+    "sceneChoice": "Yui plans today's interview journey with Bao; Ren and Yui check whether a future evening bus works after café cleanup. Formal language appears as quoted reporting, not vocabulary-packed casual speech.",
+    "continuity": "Nine-thirty update: East–North closed, south of East normal; bus started at nine, forty-minute journey at fifteen-minute intervals, train-equivalent fares/passes; tomorrow-morning reopening conditional on inspection, exact time later. Library moved last month; next month's weekday-only three-month trial adds three buses, last at nine-thirty. Daytime/weekends/library closing unchanged, current fare maintained for now. Respondents 312, requests 184, continuation after trial undecided.",
+    "corrections": "New pairs checked against restricted JMdict readings and excluded from installed targets. Two build-shaped drafts corrected to supported ordering schema. Removed absent 臨時/改正 scene references. Source states conditional forecast, not completed reopening. Corrected okurigana ruby and one romaji vowel sequence. Actual contextual support added, with every gloss found in its reading. Dialogue speaker Bao mapped to the established You learner-role delivery before final audio validation; Japanese lines unchanged.",
+    "remaining": "N2 whole-core review after unit 16 and independent native sentence/listening review."
+  }
+}
