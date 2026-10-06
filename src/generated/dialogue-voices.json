@@ -1985,5 +1985,471 @@
       "speaker": "You",
       "index": 5
     }
+  ],
+  "n4-u09-d-room": [
+    {
+      "text": "森さんに呼ばれました。会議室に変更がありますか。",
+      "url": "/audio/vv2-771be7be33a8bda1be10.wav",
+      "seconds": 3.925333333333333,
+      "sha256": "771be7be33a8bda1be101ea5408294321d238f3f51f871123a63e586b0719d8e",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 0
+    },
+    {
+      "text": "はい。会議は十時のままですが、部屋はBです。",
+      "url": "/audio/vv2-5d559b4a0e4f00863126.wav",
+      "seconds": 3.968,
+      "sha256": "5d559b4a0e4f008631265a6a7ab00f29f261045ca94ea2dea2770bb8b1154cb9",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 1
+    },
+    {
+      "text": "資料はどこですか。受付で受け取りますか。",
+      "url": "/audio/vv2-49a9ace6641a0df6d3d4.wav",
+      "seconds": 3.296,
+      "sha256": "49a9ace6641a0df6d3d450710a808a388528ebfc8f4fb1fc756a088b1a97c306",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 2
+    },
+    {
+      "text": "Bの机に置いてあります。ドアに案内も貼ってあります。ご覧ください。",
+      "url": "/audio/vv2-2875bf784a0ecd91d1b2.wav",
+      "seconds": 5.333333333333333,
+      "sha256": "2875bf784a0ecd91d1b2aeee634e5cf025137686a90cab9320f756c41b5e91bf",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 3
+    },
+    {
+      "text": "拝見します。資料の担当は森さんですね。",
+      "url": "/audio/vv2-1ce2e19c65bff09bfa2f.wav",
+      "seconds": 3.530666666666667,
+      "sha256": "1ce2e19c65bff09bfa2fdda91e56c1649f3846f892f2013da7d46c319dbdd555",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 4
+    },
+    {
+      "text": "はい。会議の前に、自分の連絡先を書いてください。",
+      "url": "/audio/vv2-b733af5f7eb3c20327cd.wav",
+      "seconds": 4.373333333333333,
+      "sha256": "b733af5f7eb3c20327cd6abaef35b8f7983c34263f455a88c3287261cb6551eb",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 5
+    }
+  ],
+  "n4-u09-d-call": [
+    {
+      "text": "会議の間に、電話がありましたか。",
+      "url": "/audio/vv2-e669af09ca1a187d949a.wav",
+      "seconds": 2.9546666666666668,
+      "sha256": "e669af09ca1a187d949a609184088996957654406a85464e0446352e1899ee4f",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 0
+    },
+    {
+      "text": "はい。私が出ました。客は受付で待っています。",
+      "url": "/audio/vv2-17cdecc66c689e2268b6.wav",
+      "seconds": 4.1066666666666665,
+      "sha256": "17cdecc66c689e2268b663ff24de078b73b7bfbcb93d7d19cf28a1a7e53a3472",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 1
+    },
+    {
+      "text": "ご用件は何ですか。連絡先も確認したいです。",
+      "url": "/audio/vv2-6e52aa0f3a640c2a8892.wav",
+      "seconds": 3.957333333333333,
+      "sha256": "6e52aa0f3a640c2a889248a7d95ac695e7ca4e206538e03ff55c0500e75d23bf",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 2
+    },
+    {
+      "text": "資料を受け取りたいそうです。先に状況を伝えてください。",
+      "url": "/audio/vv2-619e54205dd17353481e.wav",
+      "seconds": 4.309333333333333,
+      "sha256": "619e54205dd17353481e9d0a50bc1914f17c26d205f8738ade8c3a312b4a2230",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 3
+    },
+    {
+      "text": "わかりました。部屋を明るくしてから、受付に行きます。",
+      "url": "/audio/vv2-0716960460fa1333ead1.wav",
+      "seconds": 4.1386666666666665,
+      "sha256": "0716960460fa1333ead10d30cec2c858eba1258fd961fd2db28be45f94fda836",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 4
+    },
+    {
+      "text": "お願いします。電気は消さないでください。",
+      "url": "/audio/vv2-e68b56fea2e7d7a40827.wav",
+      "seconds": 3.2,
+      "sha256": "e68b56fea2e7d7a4082762842ba570719fd5dcaed757944e2108b4dec44fc1c1",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 5
+    }
+  ],
+  "n4-u10-d-permission": [
+    {
+      "text": "森さん、今日は私に発表させていただけませんか。",
+      "url": "/audio/vv2-04339bc1ec7599f0a547.wav",
+      "seconds": 3.7866666666666666,
+      "sha256": "04339bc1ec7599f0a54738f2fdcd2131bd79d4d90ae91775c2384ed4818d95c6",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 0
+    },
+    {
+      "text": "いいですよ。会議室Bで練習しましょう。資料は机に置いてあります。",
+      "url": "/audio/vv2-55b74c1aff5a5d0e4f73.wav",
+      "seconds": 5.269333333333333,
+      "sha256": "55b74c1aff5a5d0e4f7366c7c88ae4fa41bb00775ffb7fb3188de31372742f5d",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 1
+    },
+    {
+      "text": "ありがとうございます。練習したのに、まだ緊張しています。",
+      "url": "/audio/vv2-aaa99c9fccc78d06214d.wav",
+      "seconds": 4.597333333333333,
+      "sha256": "aaa99c9fccc78d06214dfe2ba4f166a48ab062bffc148c6a96f1363c59c07db1",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 2
+    },
+    {
+      "text": "まず、企画の目的を伝えてください。時間があれば、もう一度できます。",
+      "url": "/audio/vv2-792f06b8ee5c8249135f.wav",
+      "seconds": 5.9093333333333335,
+      "sha256": "792f06b8ee5c8249135f1d6646c7963fb780ab27174e87ef21e58db6a11bff38",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 3
+    },
+    {
+      "text": "はい。森さんのように、落ち着いて話したいです。",
+      "url": "/audio/vv2-2cde57e75df009670764.wav",
+      "seconds": 3.8186666666666667,
+      "sha256": "2cde57e75df00967076452d5e33a93a2cefa74787284abd3d90453dbf1e895be",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 4
+    },
+    {
+      "text": "間違いがあったら、あとで直せます。始めましょう。",
+      "url": "/audio/vv2-78bd7c6f46a641ea1f4c.wav",
+      "seconds": 3.872,
+      "sha256": "78bd7c6f46a641ea1f4c9448a69667d25157eb187c680e6c86c73120191adc13",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 5
+    }
+  ],
+  "n4-u10-d-feedback": [
+    {
+      "text": "目的はわかりやすかったです。でも、方法の説明が少し難しかったです。",
+      "url": "/audio/vv2-551699ab2b5474a51d5f.wav",
+      "seconds": 6.005333333333334,
+      "sha256": "551699ab2b5474a51d5f0459f1693278df9f0686d71022e546d5641c2b955a77",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 0
+    },
+    {
+      "text": "方法の説明を直します。順番も確かめます。",
+      "url": "/audio/vv2-200f2714e172b8a40442.wav",
+      "seconds": 3.872,
+      "sha256": "200f2714e172b8a404421e67044d8b2fbee10c33565eff8bd5a0387bdf734529",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "この見本をご覧ください。見本のような説明を考えてください。",
+      "url": "/audio/vv2-c21420a20fd732769ea9.wav",
+      "seconds": 4.661333333333333,
+      "sha256": "c21420a20fd732769ea96a678eb6f5a177c9919711e91ca7672d894261a5c398",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 2
+    },
+    {
+      "text": "資料に書いてから、もう一度練習したいです。",
+      "url": "/audio/vv2-c2fe90285d43a357489a.wav",
+      "seconds": 3.36,
+      "sha256": "c2fe90285d43a357489ac58f191709905e79cc0a707e727b5a5b9338170eff64",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "今日はもう時間がありません。明日、十時なら練習できます。",
+      "url": "/audio/vv2-860e567091d64627d1c7.wav",
+      "seconds": 4.490666666666667,
+      "sha256": "860e567091d64627d1c73557a722791840438632fa3c9e0bdffb3a7a9aa5671e",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 4
+    },
+    {
+      "text": "では、明日お願いします。練習させていただいて、ありがとうございました。",
+      "url": "/audio/vv2-5453078dcd638d0face9.wav",
+      "seconds": 5.952,
+      "sha256": "5453078dcd638d0face9299cef146ab1539fc6c870c5d6545206f2c3889d8aef",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    }
+  ],
+  "n4-u11-d-kenta": [
+    {
+      "text": "昨日、先生に長い文を読まされたんだ。疲れたよ。",
+      "url": "/audio/vv2-542e7c97dd67689250dc.wav",
+      "seconds": 4.128,
+      "sha256": "542e7c97dd67689250dcb72c5949212a16c88522974cb1127a428d923bed15d8",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 0
+    },
+    {
+      "text": "私は毎日、短い文を読むことにしました。",
+      "url": "/audio/vv2-67d8e5fc19374bf21b67.wav",
+      "seconds": 3.8186666666666667,
+      "sha256": "67d8e5fc19374bf21b6756b0266beed148ff2030801ac9a2f9a137c4aff8fded",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "いいね。長い文より、短い文の方が読みやすいね。",
+      "url": "/audio/vv2-b2a98c7e57401a624259.wav",
+      "seconds": 4.16,
+      "sha256": "b2a98c7e57401a624259b6607842829767a63d73bf43b12f7586a266c9a795ca",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 2
+    },
+    {
+      "text": "音も聞いて、復習することにしています。",
+      "url": "/audio/vv2-cf8482eac6bab2c9272f.wav",
+      "seconds": 3.018666666666667,
+      "sha256": "cf8482eac6bab2c9272f845396c90a65367302c033a5b1ff5967ee774827f1de",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "間違えても、もう一度練習できるよ。",
+      "url": "/audio/vv2-9b02110fe23f7d099632.wav",
+      "seconds": 2.9013333333333335,
+      "sha256": "9b02110fe23f7d09963297edf27a358f6908d173dca02265b01c79bc8bd8a1a0",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 4
+    },
+    {
+      "text": "はい。でも、疲れた時は休みます。練習の記録も書きます。",
+      "url": "/audio/vv2-cac0d7eb5e16d5d0fb68.wav",
+      "seconds": 5.397333333333333,
+      "sha256": "cac0d7eb5e16d5d0fb68b2d4a13b4f25aef60776a8aee6906ba39db14a667147",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    }
+  ],
+  "n4-u11-d-mori": [
+    {
+      "text": "明日の目標は、二つの文で目的と方法を説明することです。",
+      "url": "/audio/vv2-0accb5fe7632ee68b73f.wav",
+      "seconds": 4.810666666666667,
+      "sha256": "0accb5fe7632ee68b73f6231a58e6d02d86e371f4de0d56406972f096114288d",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 0
+    },
+    {
+      "text": "資料を直しました。順番も確かめました。",
+      "url": "/audio/vv2-e7d775268207b969ac93.wav",
+      "seconds": 3.3493333333333335,
+      "sha256": "e7d775268207b969ac9333e5bea00211691d71d077a09efa841cd21abb8d98d1",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "いいですね。私は十時に来ます。",
+      "url": "/audio/vv2-16d623ddabf2c92536eb.wav",
+      "seconds": 2.5813333333333333,
+      "sha256": "16d623ddabf2c92536eb529627624cd044868b338d11e96f3232cc1b0247ba87",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 2
+    },
+    {
+      "text": "森さんが来るまで、短い文を読んで待ちます。",
+      "url": "/audio/vv2-92730183f6b4727ff5d2.wav",
+      "seconds": 3.445333333333333,
+      "sha256": "92730183f6b4727ff5d2a8d0f6cfd26c4af7b4ff424bcbc6f575c7cc7159110a",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "疲れていたら、少し休んだ方がいいですよ。",
+      "url": "/audio/vv2-b295aba372cc112c97ef.wav",
+      "seconds": 3.2533333333333334,
+      "sha256": "b295aba372cc112c97ef0933974ec2fca842a14658094cd2e46c9b597ea8f7b4",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 4
+    },
+    {
+      "text": "ありがとうございます。無理をしないことにしています。",
+      "url": "/audio/vv2-f79a5eb2094565d3de87.wav",
+      "seconds": 3.5946666666666665,
+      "sha256": "f79a5eb2094565d3de87ca4544cba8afe97666ccc4078750095afdae7a74126e",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    }
+  ],
+  "n4-u12-d-handover": [
+    {
+      "text": "実習は金曜日に終了します。報告書を私に提出してください。",
+      "url": "/audio/vv2-cf561df8fcdae655422b.wav",
+      "seconds": 5.301333333333333,
+      "sha256": "cf561df8fcdae655422bad095f6e195749bf663beb4187231874034c6ffa4921",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 0
+    },
+    {
+      "text": "締め切りはいつですか。結果と方法を書きます。",
+      "url": "/audio/vv2-68157f5ae7aa2af4e962.wav",
+      "seconds": 3.456,
+      "sha256": "68157f5ae7aa2af4e9621f698e6223dc95d81154784140132d8c46ce74323ff2",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "金曜日の三時までにお願いします。鍵は五時までに受付に返却してください。",
+      "url": "/audio/vv2-1ef31b1a47ad5e3133b1.wav",
+      "seconds": 5.8453333333333335,
+      "sha256": "1ef31b1a47ad5e3133b1cae6bdf1394f273f49ffb8ce35a2c1aad244fe1be64b",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 2
+    },
+    {
+      "text": "返却の案内はどこにありますか。",
+      "url": "/audio/vv2-c77235b7d8ef73361385.wav",
+      "seconds": 2.3893333333333335,
+      "sha256": "c77235b7d8ef7336138571be59f8ff77dd06c12bbf42c5de24c2a14bd4e0fb95",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "机に置いてあります。名前を伝えてから返却してください。",
+      "url": "/audio/vv2-27272c3c06ccc78caf1e.wav",
+      "seconds": 4.394666666666667,
+      "sha256": "27272c3c06ccc78caf1e0e0dad50456341dfc5f2c81250501394230f2d4c8561",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 4
+    },
+    {
+      "text": "わかりました。提出する前に、報告書を確認していただけませんか。",
+      "url": "/audio/vv2-207583f3227ee3270544.wav",
+      "seconds": 5.216,
+      "sha256": "207583f3227ee32705449d09d099cfd8ab25207f7ac4caf8ba729ce3e4d6f6d8",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    },
+    {
+      "text": "はい。木曜日なら確認できます。",
+      "url": "/audio/vv2-c35c4c6f1ea83444740a.wav",
+      "seconds": 2.7093333333333334,
+      "sha256": "c35c4c6f1ea83444740acb8cb0dc51e58d081b6c2233d14799c2e425f322e7a8",
+      "mood": "precise",
+      "speaker": "Mori",
+      "index": 6
+    }
+  ],
+  "n4-u12-d-reflect": [
+    {
+      "text": "実習で、どんな経験をしたの。",
+      "url": "/audio/vv2-01a9b6de2e081a571f79.wav",
+      "seconds": 2.538666666666667,
+      "sha256": "01a9b6de2e081a571f79a2b1a58ee87f7a4c6386550ff56e918a53ce0d83a842",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 0
+    },
+    {
+      "text": "会議で発表しました。練習したのに、緊張しました。",
+      "url": "/audio/vv2-a64c96bcdb927bdbaa17.wav",
+      "seconds": 4.469333333333333,
+      "sha256": "a64c96bcdb927bdbaa17388195c07c19e73c3dda663b7312c0b1c2596d536114",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 1
+    },
+    {
+      "text": "次の課題は何。",
+      "url": "/audio/vv2-240550356a3fdace845b.wav",
+      "seconds": 1.4506666666666668,
+      "sha256": "240550356a3fdace845bd671859753edf795aced0879858c2012bd143f2a2801",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 2
+    },
+    {
+      "text": "短い文で説明することです。方法の説明は直しました。",
+      "url": "/audio/vv2-206ff45aaa7a3475bccf.wav",
+      "seconds": 4.714666666666667,
+      "sha256": "206ff45aaa7a3475bccf7cab0656c51b098e9111c9d79b1a89f1b3c2473c3c1a",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 3
+    },
+    {
+      "text": "毎日の復習は続けるの。",
+      "url": "/audio/vv2-f5cd1eceb4a445f94b47.wav",
+      "seconds": 2.144,
+      "sha256": "f5cd1eceb4a445f94b470b8cc6087ee16c49e483bdc7483d6ba976cd3b2089dc",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 4
+    },
+    {
+      "text": "はい。間違えても続けます。でも、疲れた時は休みます。",
+      "url": "/audio/vv2-b1a1b0be90b4e22ec0de.wav",
+      "seconds": 5.173333333333333,
+      "sha256": "b1a1b0be90b4e22ec0de5a776468e56c4e371e206bea06ce66e3db02db9a9f9f",
+      "mood": "composed",
+      "speaker": "You",
+      "index": 5
+    },
+    {
+      "text": "いいね。無理をしないでね。",
+      "url": "/audio/vv2-f3fe41064ab667ed2738.wav",
+      "seconds": 1.92,
+      "sha256": "f3fe41064ab667ed2738d714f106026e4fba5087c8a4b7a0b226309af843eb2b",
+      "mood": "warm",
+      "speaker": "Kenta",
+      "index": 6
+    }
   ]
 }

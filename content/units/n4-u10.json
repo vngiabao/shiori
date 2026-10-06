@@ -1,0 +1,744 @@
+{
+  "id": "n4-u10",
+  "title": "N4 · Unit 10",
+  "lesson": {
+    "title": "Let me try the presentation",
+    "description": "Distinguish making someone act from letting them act, ask permission to present, and compare a guide's advice with a practice scene.",
+    "canDo": "Ask to take an action politely and identify the purpose and conditions of a practice plan",
+    "minutes": 35
+  },
+  "words": [
+    [
+      "n4-u10-w-happyou",
+      "{発表|はっぴょう}",
+      "happyō",
+      "presentation; announcement",
+      "neutral",
+      "{会議|かいぎ}で{発表|はっぴょう}します。"
+    ],
+    [
+      "n4-u10-w-renshuu",
+      "{練習|れんしゅう}",
+      "renshū",
+      "practice",
+      "neutral",
+      "{発表|はっぴょう}の{練習|れんしゅう}をします。"
+    ],
+    [
+      "n4-u10-w-setsumei",
+      "{説明|せつめい}",
+      "setsumei",
+      "explanation",
+      "neutral",
+      "{資料|しりょう}の{説明|せつめい}をします。"
+    ],
+    [
+      "n4-u10-w-kikaku",
+      "{企画|きかく}",
+      "kikaku",
+      "plan; project proposal",
+      "neutral",
+      "{新|あたら}しい{企画|きかく}を{考|かんが}えます。"
+    ],
+    [
+      "n4-u10-w-teian",
+      "{提案|ていあん}",
+      "teian",
+      "proposal; suggestion",
+      "neutral",
+      "{提案|ていあん}を{聞|き}きます。"
+    ],
+    [
+      "n4-u10-w-ikenn",
+      "{意見|いけん}",
+      "iken",
+      "opinion",
+      "neutral",
+      "{先輩|せんぱい}の{意見|いけん}を{聞|き}きます。"
+    ],
+    [
+      "n4-u10-w-kotae",
+      "{答|こた}え",
+      "kotae",
+      "answer",
+      "neutral",
+      "{答|こた}えを{考|かんが}えます。"
+    ],
+    [
+      "n4-u10-w-tashikameru",
+      "{確|たし}かめる",
+      "tashikameru",
+      "check; make sure",
+      "neutral",
+      "{時間|じかん}を{確|たし}かめます。"
+    ],
+    [
+      "n4-u10-w-naosu",
+      "{直|なお}す",
+      "naosu",
+      "correct; repair",
+      "neutral",
+      "{間違|まちが}いを{直|なお}します。"
+    ],
+    [
+      "n4-u10-w-machigai",
+      "{間違|まちが}い",
+      "machigai",
+      "mistake",
+      "neutral",
+      "{間違|まちが}いがあります。"
+    ],
+    [
+      "n4-u10-w-seikou",
+      "{成功|せいこう}",
+      "seikō",
+      "success",
+      "neutral",
+      "{発表|はっぴょう}は{成功|せいこう}しました。"
+    ],
+    [
+      "n4-u10-w-shippai",
+      "{失敗|しっぱい}",
+      "shippai",
+      "failure; mistake in an attempt",
+      "neutral",
+      "{失敗|しっぱい}したら、もう{一度|いちど}{練習|れんしゅう}します。"
+    ],
+    [
+      "n4-u10-w-kinchou",
+      "{緊張|きんちょう}する",
+      "kinchō suru",
+      "feel nervous; become tense",
+      "neutral",
+      "{発表|はっぴょう}の{前|まえ}に{緊張|きんちょう}します。"
+    ],
+    [
+      "n4-u10-w-ochitsuku",
+      "{落|お}ち{着|つ}く",
+      "ochitsuku",
+      "settle down; become calm",
+      "neutral",
+      "{少|すこ}し{休|やす}むと、{落|お}ち{着|つ}きます。"
+    ],
+    [
+      "n4-u10-w-jishin",
+      "{自信|じしん}",
+      "jishin",
+      "confidence",
+      "neutral",
+      "{少|すこ}し{自信|じしん}があります。"
+    ],
+    [
+      "n4-u10-w-hitsuyou",
+      "{必要|ひつよう}",
+      "hitsuyō",
+      "necessary; necessity",
+      "neutral",
+      "{準備|じゅんび}が{必要|ひつよう}です。"
+    ],
+    [
+      "n4-u10-w-houhou",
+      "{方法|ほうほう}",
+      "hōhō",
+      "method; way of doing",
+      "neutral",
+      "この{方法|ほうほう}を{試|ため}します。"
+    ],
+    [
+      "n4-u10-w-mokuteki",
+      "{目的|もくてき}",
+      "mokuteki",
+      "purpose; objective",
+      "neutral",
+      "{企画|きかく}の{目的|もくてき}を{説明|せつめい}します。"
+    ],
+    [
+      "n4-u10-w-kiroku",
+      "{記録|きろく}",
+      "kiroku",
+      "record",
+      "neutral",
+      "{練習|れんしゅう}の{記録|きろく}を{読|よ}みます。"
+    ],
+    [
+      "n4-u10-w-mihon",
+      "{見本|みほん}",
+      "mihon",
+      "sample; model",
+      "neutral",
+      "{見本|みほん}のように{書|か}きます。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n4-u10-g-causative",
+      "title": "Make or let someone act; ask to be allowed",
+      "formation": "Group 1 u → a + せる (う → わせる): 書く → 書かせる. Group 2 drop る + させる: 食べる → 食べさせる. する → させる; 来る → 来させる (こさせる). Intransitive: causer は person を causative; transitive: causer は person に object を causative. Causative て-form + もらう/いただく. Causative て-form + あげる/くれる describes granting permission as a benefit with the giving viewpoints from unit 2.",
+      "explanation": "The causative can mean making or allowing, depending on context; its ending alone does not decide. 森さんは私に資料を読ませました keeps 資料 as the を-marked object. 説明させていただけませんか asks a respected listener to allow your explanation. Do not use this phrase just to make any sentence sound fancy: it is practised here because Mori controls the presentation opportunity. させてもらいました describes receiving that permission, not making Mori do the work. 森さんが発表させてくれました presents Mori granting permission to me as a benefit. 友達に練習させてあげました presents me granting a friend permission. Avoid させてあげる about allowing a senior: it can imply that you control or favour them.",
+      "example": "私に説明させていただけませんか。",
+      "translation": "Could you allow me to give the explanation?",
+      "examples": [
+        {
+          "ja": "{森|もり}さんは{私|わたし}に{発表|はっぴょう}させてくれました。",
+          "en": "Mori kindly allowed me to present."
+        },
+        {
+          "ja": "{今日|きょう}、{私|わたし}に{発表|はっぴょう}させていただけませんか。",
+          "en": "Could you let me present today?"
+        },
+        {
+          "ja": "{友達|ともだち}に{練習|れんしゅう}させてあげました。",
+          "en": "I let my friend practise (presented as a benefit to them)."
+        }
+      ],
+      "mistake": "読む → 読ませる, not 読むさせる. 'I was allowed to practise' is 練習させてもらいました; 練習してもらいました asks someone else to practise for you."
+    },
+    {
+      "id": "n4-u10-g-condition",
+      "title": "Conditions, unexpected contrast and firm instructions",
+      "formation": "Group 1 u → e + ば; Group 2 drop る + れば; する → すれば; 来る → 来れば. い-adjective い → ければ; negative ない → なければ. Plain clause + のに (noun/な-adjective + なのに). Verb ます-stem + なさい.",
+      "explanation": "練習すれば describes a condition; it does not prove that practice guarantees success in real life. ～のに contrasts an outcome with what was expected and may convey disappointment. ～なさい is a firm direction used by a parent or teacher to someone under their guidance. It is not an office peer's neutral polite request. Where the first condition is an intentional action, do not mechanically attach any command to ～ば; the examples here use states/possibilities or descriptive consequences.",
+      "example": "練習したのに、緊張しました。",
+      "translation": "Although I practised, I felt nervous.",
+      "examples": [
+        {
+          "ja": "{時間|じかん}があれば、もう{一度|いちど}{練習|れんしゅう}できます。",
+          "en": "If there is time, we can practise once more."
+        },
+        {
+          "ja": "{練習|れんしゅう}したのに、{緊張|きんちょう}しました。",
+          "en": "Although I practised, I felt nervous."
+        },
+        {
+          "ja": "まず、{見本|みほん}を{読|よ}みなさい。",
+          "en": "First, read the example (firm teacher instruction)."
+        }
+      ],
+      "mistake": "静かなら and 静かであれば are possible conditions, but 静かければ is not. Before のに use 必要なのに for a な-adjective, not 必要のに."
+    },
+    {
+      "id": "n4-u10-g-model",
+      "title": "Like a model: のように and のような",
+      "formation": "Noun + のように + verb/adjective; noun + のような + noun.",
+      "explanation": "見本のように書く means write like the model. 見本のような説明 describes an explanation like the model. The phrase expresses resemblance; it does not assert that the two things are identical. This noun-linked pattern differs from a plain-clause ようだ inference taught later. Keep the noun and its の when it is the comparison standard.",
+      "example": "見本のように書いてください。",
+      "translation": "Please write like the model.",
+      "examples": [
+        {
+          "ja": "{見本|みほん}のように{書|か}いてください。",
+          "en": "Please write like the model."
+        },
+        {
+          "ja": "{森|もり}さんのように{落|お}ち{着|つ}いて{話|はな}したいです。",
+          "en": "I want to speak calmly like Mori."
+        },
+        {
+          "ja": "{見本|みほん}のような{説明|せつめい}はわかりやすいです。",
+          "en": "An explanation like the model is easy to understand."
+        }
+      ],
+      "mistake": "Before the noun 説明 use のような; before 書く use のように. Do not use 見本のように説明 when you mean 'an explanation like the model' as a noun phrase."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "n4-u10-d-permission",
+      "title": "Ask for a practice turn",
+      "scene": "Mori controls today's practice session. You ask permission to present. This practice is in room B after the earlier room change.",
+      "words": [
+        "n4-u10-w-happyou",
+        "n4-u10-w-mokuteki",
+        "n4-u10-w-kinchou",
+        "n4-u09-w-oku",
+        "n4-u08-w-shiryou",
+        "n4-u08-w-kaigishitsu",
+        "n4-u07-w-tsutaeru"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{森|もり}さん、{今日|きょう}は{私|わたし}に{発表|はっぴょう}させていただけませんか。",
+          "romaji": "Mori-san, kyō wa watashi ni happyō sasete itadakemasen ka.",
+          "meaning": "Mori, could you let me present today?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "いいですよ。{会議室|かいぎしつ}Bで{練習|れんしゅう}しましょう。{資料|しりょう}は{机|つくえ}に{置|お}いてあります。",
+          "romaji": "Ii desu yo. Kaigishitsu bī de renshū shimashō. Shiryō wa tsukue ni oite arimasu.",
+          "meaning": "Certainly. Let's practise in meeting room B. The materials have been placed on the desk."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{練習|れんしゅう}したのに、まだ{緊張|きんちょう}しています。",
+          "romaji": "Arigatō gozaimasu. Renshū shita noni, mada kinchō shite imasu.",
+          "meaning": "Thank you. Although I practised, I'm still nervous."
+        },
+        {
+          "speaker": "Mori",
+          "line": "まず、{企画|きかく}の{目的|もくてき}を{伝|つた}えてください。{時間|じかん}があれば、もう{一度|いちど}できます。",
+          "romaji": "Mazu, kikaku no mokuteki o tsutaete kudasai. Jikan ga areba, mō ichido dekimasu.",
+          "meaning": "First explain the purpose of the proposal. If there's time, you can do it again."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{森|もり}さんのように、{落|お}ち{着|つ}いて{話|はな}したいです。",
+          "romaji": "Hai. Mori-san no yō ni, ochitsuite hanashitai desu.",
+          "meaning": "Yes. I want to speak calmly like you."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{間違|まちが}いがあったら、あとで{直|なお}せます。{始|はじ}めましょう。",
+          "romaji": "Machigai ga attara, ato de naosemasu. Hajimemashō.",
+          "meaning": "If there is a mistake, you can correct it later. Let's start."
+        }
+      ]
+    },
+    {
+      "id": "n4-u10-d-feedback",
+      "title": "After the practice",
+      "scene": "The practice has ended. Mori's feedback identifies a clear purpose but an unclear method. It does not claim a perfect result.",
+      "words": [
+        "n4-u10-w-houhou",
+        "n4-u10-w-mihon",
+        "n4-u10-w-mokuteki",
+        "n4-u08-w-wakariyasui",
+        "n4-u08-w-shiryou",
+        "n4-u09-w-junban",
+        "n4-u07-w-goran"
+      ],
+      "lines": [
+        {
+          "speaker": "Mori",
+          "line": "{目的|もくてき}はわかりやすかったです。でも、{方法|ほうほう}の{説明|せつめい}が{少|すこ}し{難|むずか}しかったです。",
+          "romaji": "Mokuteki wa wakariyasukatta desu. Demo, hōhō no setsumei ga sukoshi muzukashikatta desu.",
+          "meaning": "The purpose was clear. But the explanation of the method was a little difficult."
+        },
+        {
+          "speaker": "You",
+          "line": "{方法|ほうほう}の{説明|せつめい}を{直|なお}します。{順番|じゅんばん}も{確|たし}かめます。",
+          "romaji": "Hōhō no setsumei o naoshimasu. Junban mo tashikamemasu.",
+          "meaning": "I'll revise the method explanation. I'll also check the order."
+        },
+        {
+          "speaker": "Mori",
+          "line": "この{見本|みほん}をご{覧|らん}ください。{見本|みほん}のような{説明|せつめい}を{考|かんが}えてください。",
+          "romaji": "Kono mihon o goran kudasai. Mihon no yō na setsumei o kangaete kudasai.",
+          "meaning": "Please look at this model. Think of an explanation like the model."
+        },
+        {
+          "speaker": "You",
+          "line": "{資料|しりょう}に{書|か}いてから、もう{一度|いちど}{練習|れんしゅう}したいです。",
+          "romaji": "Shiryō ni kaite kara, mō ichido renshū shitai desu.",
+          "meaning": "I'd like to write it in the materials, then practise once more."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{今日|きょう}はもう{時間|じかん}がありません。{明日|あした}、{十時|じゅうじ}なら{練習|れんしゅう}できます。",
+          "romaji": "Kyō wa mō jikan ga arimasen. Ashita, jūji nara renshū dekimasu.",
+          "meaning": "There's no more time today. Tomorrow at ten you can practise."
+        },
+        {
+          "speaker": "You",
+          "line": "では、{明日|あした}お{願|ねが}いします。{練習|れんしゅう}させていただいて、ありがとうございました。",
+          "romaji": "Dewa, ashita onegai shimasu. Renshū sasete itadaite, arigatō gozaimashita.",
+          "meaning": "Then, tomorrow please. Thank you for allowing me to practise."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n4-u10-reading",
+      "title": "Presentation practice guide",
+      "genre": "guide",
+      "paragraphs": [
+        "{発表|はっぴょう}の{前|まえ}に、{目的|もくてき}と{方法|ほうほう}を{確|たし}かめてください。",
+        "{目的|もくてき}を{先|さき}に{伝|つた}えてください。",
+        "{次|つぎ}に、{方法|ほうほう}を{説明|せつめい}してください。",
+        "{見本|みほん}のような{短|みじか}い{説明|せつめい}を{考|かんが}えてください。",
+        "{緊張|きんちょう}する{時|とき}は、{少|すこ}し{休|やす}んでください。",
+        "{間違|まちが}いがあれば、{資料|しりょう}を{直|なお}してください。",
+        "{練習|れんしゅう}の{記録|きろく}は{机|つくえ}に{置|お}いてあります。",
+        "{今日|きょう}の{練習|れんしゅう}は{終|お}わりました。",
+        "{明日|あした}は{十時|じゅうじ}に{会議室|かいぎしつ}Bで{練習|れんしゅう}します。"
+      ],
+      "glosses": [
+        {
+          "text": "確かめてください",
+          "kana": "たしかめてください",
+          "meaning": "please check"
+        },
+        {
+          "text": "先",
+          "kana": "さき",
+          "meaning": "first; ahead"
+        },
+        {
+          "text": "伝えてください",
+          "kana": "つたえてください",
+          "meaning": "please communicate"
+        },
+        {
+          "text": "次",
+          "kana": "つぎ",
+          "meaning": "next"
+        },
+        {
+          "text": "説明してください",
+          "kana": "せつめいしてください",
+          "meaning": "please explain"
+        },
+        {
+          "text": "ような",
+          "kana": "ような",
+          "meaning": "like; resembling (before a noun)"
+        },
+        {
+          "text": "短い",
+          "kana": "みじかい",
+          "meaning": "short"
+        },
+        {
+          "text": "考えてください",
+          "kana": "かんがえてください",
+          "meaning": "please think of"
+        },
+        {
+          "text": "緊張する時",
+          "kana": "きんちょうするとき",
+          "meaning": "when feeling nervous"
+        },
+        {
+          "text": "少し",
+          "kana": "すこし",
+          "meaning": "a little"
+        },
+        {
+          "text": "休んでください",
+          "kana": "やすんでください",
+          "meaning": "please rest"
+        },
+        {
+          "text": "あれば",
+          "kana": "あれば",
+          "meaning": "if there is"
+        },
+        {
+          "text": "直してください",
+          "kana": "なおしてください",
+          "meaning": "please correct"
+        },
+        {
+          "text": "机",
+          "kana": "つくえ",
+          "meaning": "desk"
+        },
+        {
+          "text": "置いてあります",
+          "kana": "おいてあります",
+          "meaning": "have been placed ready"
+        },
+        {
+          "text": "終わりました",
+          "kana": "おわりました",
+          "meaning": "has finished"
+        },
+        {
+          "text": "十時",
+          "kana": "じゅうじ",
+          "meaning": "ten o'clock"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-u10-x-permission",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u10-d-permission",
+      "prompt": "What permission does Bao request?",
+      "options": [
+        "To give the presentation",
+        "To make Mori present",
+        "To cancel all practice"
+      ],
+      "answer": 0,
+      "explain": "私に発表させていただけませんか requests permission for Bao's action.",
+      "words": [
+        "n4-u10-w-happyou"
+      ]
+    },
+    {
+      "id": "n4-u10-x-first",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u10-d-permission",
+      "prompt": "What should Bao explain first?",
+      "options": [
+        "The purpose of the proposal",
+        "The reception extension",
+        "The room-change reason"
+      ],
+      "answer": 0,
+      "explain": "まず企画の目的 establishes the first focus.",
+      "words": [
+        "n4-u10-w-mokuteki",
+        "n4-u07-w-tsutaeru"
+      ]
+    },
+    {
+      "id": "n4-u10-x-feedback",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u10-d-feedback",
+      "prompt": "Which part needs revision according to Mori?",
+      "options": [
+        "The method explanation",
+        "The already clear purpose",
+        "The choice of room B"
+      ],
+      "answer": 0,
+      "explain": "Mori contrasts the clear purpose with the difficult method explanation.",
+      "words": [
+        "n4-u10-w-houhou",
+        "n4-u08-w-wakariyasui"
+      ]
+    },
+    {
+      "id": "n4-u10-x-next",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u10-d-feedback",
+      "prompt": "When is another practice possible?",
+      "options": [
+        "Tomorrow at ten",
+        "Immediately today",
+        "Tonight at six"
+      ],
+      "answer": 0,
+      "explain": "Today's time is gone; Mori offers tomorrow at ten.",
+      "words": [
+        "n4-u10-w-renshuu"
+      ]
+    },
+    {
+      "id": "n4-u10-x-cause",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Mori had you read the materials. Complete the causative form of 読む.",
+      "line": "{森|もり}さんは{私|わたし}に{資料|しりょう}を＿＿。",
+      "options": [
+        "{読|よ}ませました",
+        "{読|よ}まれました",
+        "{読|よ}めました",
+        "{読|よ}んでいました"
+      ],
+      "answer": 0,
+      "explain": "読む → 読ませる; the actor being made/allowed to read is に-marked.",
+      "words": [
+        "n4-u08-w-shiryou"
+      ]
+    },
+    {
+      "id": "n4-u10-x-condition",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Say another practice is possible if there is time.",
+      "line": "{時間|じかん}が＿＿、もう{一度|いちど}{練習|れんしゅう}できます。",
+      "options": [
+        "あれば",
+        "あるば",
+        "ありば",
+        "あったば"
+      ],
+      "answer": 0,
+      "explain": "ある takes the e-row ば-form あれば.",
+      "words": [
+        "n4-u10-w-renshuu"
+      ]
+    },
+    {
+      "id": "n4-u10-x-model",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Describe an explanation like the model; the comparison modifies the noun 説明.",
+      "line": "{見本|みほん}＿＿{説明|せつめい}を{考|かんが}えます。",
+      "options": [
+        "のような",
+        "のように",
+        "をような",
+        "のようの"
+      ],
+      "answer": 0,
+      "explain": "Noun + のような + noun; のように would modify an action or adjective.",
+      "words": [
+        "n4-u10-w-mihon",
+        "n4-u10-w-setsumei"
+      ]
+    },
+    {
+      "id": "n4-u10-x-contrast",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Express surprise that you remained nervous despite practising.",
+      "line": "{練習|れんしゅう}した＿＿、{緊張|きんちょう}しました。",
+      "options": [
+        "のに",
+        "ために",
+        "前に",
+        "ながら"
+      ],
+      "answer": 0,
+      "explain": "のに connects completed practice with an unexpected nervous result.",
+      "words": [
+        "n4-u10-w-kinchou"
+      ]
+    },
+    {
+      "id": "n4-u10-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{私|わたし}に{説明|せつめい}させていただけませんか。",
+      "context": "You control the practice session. Give permission for the learner to explain.",
+      "options": [
+        "はい、{説明|せつめい}してください。",
+        "いいえ、{説明|せつめい}しないでください。",
+        "{私|わたし}が{説明|せつめい}します。"
+      ],
+      "answer": 0,
+      "explain": "The first reply grants the requested explanation; the others refuse or take the turn.",
+      "words": [
+        "n4-u10-w-setsumei"
+      ]
+    },
+    {
+      "id": "n4-u10-x-reply-next",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{今日|きょう}はもう{時間|じかん}がありません。",
+      "context": "Accept that there is no more time today and ask for the offered tomorrow slot.",
+      "options": [
+        "では、{明日|あした}お{願|ねが}いします。",
+        "では、{今|いま}すぐ{始|はじ}めましょう。",
+        "{今日|きょう}は{時間|じかん}がたくさんありますね。"
+      ],
+      "answer": 0,
+      "explain": "The first reply accepts the stated limit and next-day offer.",
+      "words": [
+        "n4-u10-w-renshuu"
+      ]
+    },
+    {
+      "id": "n4-u10-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Please write like the model.",
+      "tiles": [
+        "{見本|みほん}のように",
+        "{書|か}いて",
+        "ください。"
+      ],
+      "explain": "のように modifies the writing action.",
+      "words": [
+        "n4-u10-w-mihon"
+      ]
+    },
+    {
+      "id": "n4-u10-x-register",
+      "type": "register",
+      "skill": "recall",
+      "context": "You ask your senior Mori for permission to present in a practice session. Choose the polite permission request; do not order Mori to present.",
+      "prompt": "Which line fits that requested action and relationship?",
+      "options": [
+        "{発表|はっぴょう}させていただけませんか。",
+        "{発表|はっぴょう}しなさい。",
+        "{発表|はっぴょう}してもらいました。"
+      ],
+      "answer": 0,
+      "explain": "The causative permission request gives you the action. なさい directs the listener; してもらいました reports receiving someone else's action.",
+      "words": [
+        "n4-u10-w-happyou"
+      ]
+    },
+    {
+      "id": "n4-u10-r-first",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u10-reading",
+      "prompt": "What comes before explaining the method?",
+      "options": [
+        "Communicating the purpose",
+        "Reading the room-change reason",
+        "Calling every customer"
+      ],
+      "answer": 0,
+      "explain": "目的を先に, then 次に方法 sets the order.",
+      "words": [
+        "n4-u10-w-mokuteki",
+        "n4-u07-w-tsutaeru"
+      ]
+    },
+    {
+      "id": "n4-u10-r-nervous",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u10-reading",
+      "prompt": "What does the guide recommend when nervous?",
+      "options": [
+        "Rest a little",
+        "Cancel every presentation",
+        "Give a firm order to Mori"
+      ],
+      "answer": 0,
+      "explain": "緊張する時は少し休んでください is the stated advice.",
+      "words": [
+        "n4-u10-w-kinchou"
+      ]
+    },
+    {
+      "id": "n4-u10-r-record",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u10-reading",
+      "prompt": "Where is the practice record?",
+      "options": [
+        "On the desk",
+        "At reception",
+        "On the door"
+      ],
+      "answer": 0,
+      "explain": "記録は机に置いてあります; do not import the earlier door notice location.",
+      "words": [
+        "n4-u10-w-kiroku",
+        "n4-u09-w-oku"
+      ]
+    },
+    {
+      "id": "n4-u10-r-next",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u10-reading",
+      "prompt": "Which next practice is specified?",
+      "options": [
+        "Tomorrow at ten in B",
+        "Today at ten in A",
+        "Tomorrow at reception"
+      ],
+      "answer": 0,
+      "explain": "The final sentence specifies day, time and room.",
+      "words": [
+        "n4-u10-w-renshuu",
+        "n4-u08-w-kaigishitsu"
+      ]
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "causative permission",
+      "のに unexpected contrast",
+      "のように / のような"
+    ],
+    "prompt": "Optionally save five lines from your own media and identify who performs each causative action. Expand the actor and object in English; do not assume the causative always means force."
+  }
+}

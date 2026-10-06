@@ -2,6 +2,9 @@
 
 A personal, reading-led Japanese learning app. **Shiori (栞, bookmark) is the working brand**, with Koto and Shio as alternate names. Violetto is the confirmed companion name. The predominantly blue letter world with soft white paper, muted violet and ribbon-red details carries a 16-pose transparent character atlas and scalable SVG interface marks.
 
+
+Current local expansion checkpoint: twelve N5 and twelve N4 units, plus the starter pack (25 packs / 45 lessons). N4 contributes 24 scenes, 153 dialogue lines, twelve genre readings and 192 exercises. The wider N5–N1/keigo course is unfinished: decks and expanded assessments remain pending, and higher-level units are not yet installed. Audio has 1,591 Clear text mappings, 263 speaker-specific dialogue takes and 100 Violetto teacher messages. All remain AI-assisted drafts; automated checks do not replace native review. See output/course-progress.md for exact remaining work. This expansion has not been pushed or deployed.
+
 ## Run
 
 Requires a current Node version supported by Vite 8 (Node 22.12+ or 24+).
@@ -152,8 +155,10 @@ in `tests/reading-path.test.ts`; run `npm test` as well as the regular content g
 
 ## Optional cloud sync
 
-Shiori has local-only tested sync groundwork. Setup and the outstanding real
-Postgres isolation check are documented in `supabase/README.md`. With no env
+The hosted app uses the shared Supabase project with Google-only owner sign-in.
+Setup and isolation checks are documented in `supabase/README.md`. The additive
+saved-line unit-tag migration is still local and must be verified before the
+course expansion deploy. With no env
 configuration, no cloud client is started. Personal text is excluded unless
 separately enabled. Dexie v6 preserves the existing v5 reading/text stores.
 
@@ -163,7 +168,7 @@ JMdict audit counts now exclude 157 kana drill records and list four names
 separately. Optional lemma metadata never certifies a complete inflected phrase.
 `lemmaStatus` checks the base spelling/reading; `lemmaReadingRelationship` only
 records a mechanically matching kanji-bearing stem where it can be established.
-The course's 167 distinct kanji have KANJIDIC2-backed references and KanjiVG
+The course's 356 distinct kanji have KANJIDIC2-backed references and KanjiVG
 stroke data. New reference entries are in `content/kanji/n5.json`; the existing
 Read → Kanji surface loads them without a design change. Refresh with
 `python scripts/fetch-sources.py --kanji-only`. Source hashes/revisions live in

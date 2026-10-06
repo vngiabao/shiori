@@ -1,6 +1,6 @@
 # Shiori course outline: N5 → N1, media and keigo
 
-Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`). Everything below N5 is an outline to be researched, corrected and then authored level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
+Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`). N4 units 1–12 are authored and checked; its decks and expanded exam bank are still pending. N3–N1 and workplace keigo remain plans to verify and author level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
 
 ## 0. What the course is for
 
@@ -62,10 +62,10 @@ Grammar per Genki II, 3rd edition. **Verify** each lesson's list against the off
 | n4-u06 | Oops | L18 | transitive/intransitive pairs, 〜てしまう (and ちゃう), 〜と, 〜ながら, 〜ばよかったです | Report something broken or lost; express regret | Natural speed, ちゃう/じゃう | Lost-property notice |
 | n4-u07 | Dinner at the Yamamotos' | L19 | honorific verbs (いらっしゃる, 召し上がる, おっしゃる…), giving respect, 〜てくれてありがとう, 〜てよかったです, 〜はずです | Visit a home; speak respectfully to an older host | Two speakers, polite | Thank-you letter to a host family |
 | n4-u08 | First day at the office | L20 | humble/extra-modest (参る, いたす, おる, 申す), embedded questions, 〜という, 〜やすい/〜にくい, 〜ないで | Introduce yourself at the internship; answer the phone basics | Office polite, Mori-san | Company orientation sheet |
-| n4-u09 | A bad day | L21 | passive (incl. suffering passive), 〜てある, 〜間に, adjective + する, 〜てほしい | Complain about a bad day; say what you want others to do | **Ladder 3**: casual contractions てる, とく, なきゃ | Diary entry |
-| n4-u10 | Rules at home and work | L22 | causative, causative + てあげる/てくれる, verb stem + なさい, 〜ば, 〜のに, 〜のように/〜のような | Talk about what you were made / allowed to do | Casual, two friends | Rules notice + an opinion message |
-| n4-u11 | New resolutions | L23 | causative-passive, 〜ても, 〜ことにする, 〜ことにしている, 〜まで, 〜方 | Make resolutions; explain how to do something | Casual, overlapping turns | Blog post (how-to) |
-| n4-u12 | A week in Tokyo (capstone) | review | mixed | Plan, book, ask, apologise, report back | Two scenes, one with no transcript until the end | Longer letter (12–15 sentences) |
+| n4-u09 | A changed meeting room | L21 | passive (incl. suffering passive), 〜てある, 〜間に, adjective + する, 〜てほしい | Report an affected event and deliberate prepared state | **Ladder 3**: casual contractions てる, とく, なきゃ | Room-change notice |
+| n4-u10 | Let me try the presentation | L22 | causative, causative + てあげる/てくれる, verb stem + なさい, 〜ば, 〜のに, 〜のように/〜のような | Talk about what you were made / allowed to do | Casual, two friends | Presentation practice guide |
+| n4-u11 | Choosing a better practice routine | L23 | causative-passive, 〜ても, 〜ことにする, 〜ことにしている, 〜まで, ます-stem + 方 (かた) | Make resolutions; explain how to do something | Casual, overlapping turns | Practice diary |
+| n4-u12 | The internship handover (capstone) | review | mixed | Confirm deadlines, request a check, return materials and reflect | Two scenes, one with no transcript until the end | Final-week email (12 body sentences) |
 
 Per N4 unit: 18–24 new words; 3 grammar notes; 2 scenes (6–10 lines each); 10–12 exercises; one reading with 3–4 tasks; ≥30% recycled words from the previous three units.
 

@@ -2,12 +2,12 @@
 
 Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-06T00:22:30.745966+00:00).
 
-Subset: 365 → 365 forms. Every one of 588 course word records was examined.
-Results: 351 matched; 0 mismatched; 76 unmatched.
+Subset: 432 → 432 forms. Every one of 668 course word records was examined.
+Results: 426 matched; 0 mismatched; 81 unmatched.
 
 Matched means only that a dictionary spelling/reading pair exists. Unmatched does not mean incorrect: inflected forms and phrases may be absent from JMdict. Drills and names are counted separately. Course wording and readings were unchanged; optional lemma metadata was added.
 
-Kanji-bearing course records directly matched: 251. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
+Kanji-bearing course records directly matched: 326. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
 
 ## Reading mismatches
 
@@ -35,6 +35,11 @@ No mismatches among dictionary-mapped forms.
 - `n4-u07-w-kazoku` (n4-u07.json): ご家族 — `ごかぞく`.
 - `n4-u08-w-haiken` (n4-u08.json): 拝見する — `はいけんする`.
 - `n4-u08-w-tsukainikui` (n4-u08.json): 使いにくい — `つかいにくい`.
+- `n4-u09-w-seiri` (n4-u09.json): 整理する — `せいりする`.
+- `n4-u10-w-kinchou` (n4-u10.json): 緊張する — `きんちょうする`.
+- `n4-u12-w-teishutsu` (n4-u12.json): 提出する — `ていしゅつする`.
+- `n4-u12-w-henkyaku` (n4-u12.json): 返却する — `へんきゃくする`.
+- `n4-u12-w-kaizen` (n4-u12.json): 改善する — `かいぜんする`.
 - `n5-u02-w-dou-desu-ka` (n5-u02.json): どうですか — `どうですか`.
 - `n5-u02-w-daijoubu` (n5-u02.json): 大丈夫です — `だいじょうぶです`.
 - `n5-u03-w-shimasu` (n5-u03.json): します — `します`.

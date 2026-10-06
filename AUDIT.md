@@ -1,5 +1,10 @@
 # Can Shiori take you to high JLPT and professional fluency?
 
+Current expansion checkpoint (2026-10-05): 25 packs, 45 lessons, 511 dictionary/name/chunk records (492 distinct written targets), twelve genre readings, 43 scenes with 263 lines, 66 grammar notes and 356 kanji references. Suggested first-pass metadata totals 889 minutes, not measured study time. The original seed figures below are historical, not current inventory. `output/content-inventory.json` is the regenerated count source.
+
+All twelve N4 units are authored, but the level remains incomplete without its vocabulary decks and expanded assessments. N3–N1 and keigo are still outlines. No human-reviewed packs, calibrated full exam or broad proficiency guarantee is claimed. Current audio mappings and file/phoneme integrity pass; human listening is separate. Main JS is 1.53MB and must be split before the much larger course ships. No expansion has been deployed yet.
+
+
 Audit date: 4 October 2026. This is an assessment of the code and content in this folder, not a forecast of the learner's ability. Starter-pack counts are reproduced by `npx tsx scripts/audit-content.ts` in `output/content-inventory.json`. The separate JLPT bank is checked by `npm run validate:jlpt`; its scope and sources are recorded in `content/jlpt/provenance.json`.
 
 ## Update, 5 October 2026 (afternoon)

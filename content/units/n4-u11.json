@@ -1,0 +1,762 @@
+{
+  "id": "n4-u11",
+  "title": "N4 · Unit 11",
+  "lesson": {
+    "title": "Choosing a better practice routine",
+    "description": "Report being made to do something, distinguish a personal decision from an external arrangement, and compare study methods without treating persistence as guaranteed success.",
+    "canDo": "Explain a chosen routine and identify what happened despite a condition",
+    "minutes": 35
+  },
+  "words": [
+    [
+      "n4-u11-w-shuukan",
+      "{習慣|しゅうかん}",
+      "shūkan",
+      "habit",
+      "neutral",
+      "{毎日|まいにち}{練習|れんしゅう}する{習慣|しゅうかん}があります。"
+    ],
+    [
+      "n4-u11-w-tsuzukeru",
+      "{続|つづ}ける",
+      "tsuzukeru",
+      "continue something",
+      "neutral",
+      "{練習|れんしゅう}を{続|つづ}けます。"
+    ],
+    [
+      "n4-u11-w-erabu",
+      "{選|えら}ぶ",
+      "erabu",
+      "choose",
+      "neutral",
+      "{方法|ほうほう}を{選|えら}びます。"
+    ],
+    [
+      "n4-u11-w-kuraberu",
+      "{比|くら}べる",
+      "kuraberu",
+      "compare",
+      "neutral",
+      "{二|ふた}つの{方法|ほうほう}を{比|くら}べます。"
+    ],
+    [
+      "n4-u11-w-fukushuu",
+      "{復習|ふくしゅう}",
+      "fukushū",
+      "review of learned material",
+      "neutral",
+      "{授業|じゅぎょう}のあとで{復習|ふくしゅう}します。"
+    ],
+    [
+      "n4-u11-w-yoshuu",
+      "{予習|よしゅう}",
+      "yoshū",
+      "preparation before a lesson",
+      "neutral",
+      "{授業|じゅぎょう}の{前|まえ}に{予習|よしゅう}します。"
+    ],
+    [
+      "n4-u11-w-nikki",
+      "{日記|にっき}",
+      "nikki",
+      "diary",
+      "neutral",
+      "{短|みじか}い{日記|にっき}を{書|か}きます。"
+    ],
+    [
+      "n4-u11-w-tango",
+      "{単語|たんご}",
+      "tango",
+      "word; vocabulary item",
+      "neutral",
+      "{単語|たんご}を{文|ぶん}の{中|なか}で{覚|おぼ}えます。"
+    ],
+    [
+      "n4-u11-w-bun",
+      "{文|ぶん}",
+      "bun",
+      "sentence",
+      "neutral",
+      "この{文|ぶん}を{読|よ}みます。"
+    ],
+    [
+      "n4-u11-w-hatsuon",
+      "{発音|はつおん}",
+      "hatsuon",
+      "pronunciation",
+      "neutral",
+      "{発音|はつおん}を{確|たし}かめます。"
+    ],
+    [
+      "n4-u11-w-oboeru",
+      "{覚|おぼ}える",
+      "oboeru",
+      "memorize; learn",
+      "neutral",
+      "{新|あたら}しい{単語|たんご}を{覚|おぼ}えます。"
+    ],
+    [
+      "n4-u11-w-nareru",
+      "{慣|な}れる",
+      "nareru",
+      "become accustomed",
+      "neutral",
+      "{日本語|にほんご}の{音|おと}に{慣|な}れます。"
+    ],
+    [
+      "n4-u11-w-susumu",
+      "{進|すす}む",
+      "susumu",
+      "advance; move forward",
+      "neutral",
+      "{練習|れんしゅう}が{少|すこ}しずつ{進|すす}みます。"
+    ],
+    [
+      "n4-u11-w-modoru",
+      "{戻|もど}る",
+      "modoru",
+      "return; go back",
+      "neutral",
+      "{難|むずか}しい{文|ぶん}に{戻|もど}ります。"
+    ],
+    [
+      "n4-u11-w-tsukareru",
+      "{疲|つか}れる",
+      "tsukareru",
+      "become tired",
+      "neutral",
+      "{長|なが}い{練習|れんしゅう}で{疲|つか}れました。"
+    ],
+    [
+      "n4-u11-w-yasumi",
+      "{休|やす}み",
+      "yasumi",
+      "break; day off",
+      "neutral",
+      "{練習|れんしゅう}の{間|あいだ}に{休|やす}みがあります。"
+    ],
+    [
+      "n4-u11-w-muri",
+      "{無理|むり}",
+      "muri",
+      "unreasonable; too much; impossible",
+      "neutral",
+      "{無理|むり}をしないでください。"
+    ],
+    [
+      "n4-u11-w-taichou",
+      "{体調|たいちょう}",
+      "taichō",
+      "physical condition; health condition",
+      "neutral",
+      "{体調|たいちょう}を{確|たし}かめます。"
+    ],
+    [
+      "n4-u11-w-kekka",
+      "{結果|けっか}",
+      "kekka",
+      "result",
+      "neutral",
+      "{練習|れんしゅう}の{結果|けっか}を{記録|きろく}します。"
+    ],
+    [
+      "n4-u11-w-mokuhyou",
+      "{目標|もくひょう}",
+      "mokuhyō",
+      "goal; target",
+      "neutral",
+      "{今日|きょう}の{目標|もくひょう}を{決|き}めます。"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "n4-u11-g-made",
+      "title": "Being made to do something",
+      "formation": "Passive of the causative: Group 1 u → a + せられる (う → わせられる); Group 2 drop る + させられる; する → させられる; 来る → 来させられる (こさせられる). Many Group 1 verbs shorten aせられる → aされる: 読ませられる → 読まされる; す-ending 話す retains 話させられる.",
+      "explanation": "私は先生に読まされました puts the person made to read in the subject position and the person causing the action in に. It often expresses unwillingness, but do not infer an entire relationship from a form alone. It differs from unit 10's 読ませてもらいました, where permission to read is received as a benefit. In this unit Kenta recalls one difficult classroom exercise; that does not establish that all teachers force unreasonable work.",
+      "example": "先生に長い文を読まされました。",
+      "translation": "I was made to read a long sentence by the teacher.",
+      "examples": [
+        {
+          "ja": "{先生|せんせい}に{長|なが}い{文|ぶん}を{読|よ}まされました。",
+          "en": "The teacher made me read a long sentence."
+        },
+        {
+          "ja": "{先輩|せんぱい}に{何度|なんど}も{説明|せつめい}させられました。",
+          "en": "My senior colleague made me explain repeatedly."
+        },
+        {
+          "ja": "{友達|ともだち}に{待|ま}たされました。",
+          "en": "I was made to wait by my friend."
+        }
+      ],
+      "mistake": "待つ → 待たされる, not 待たれる (passive) or 待たせる (causative). 話す → 話させられる; do not shorten it to 話さされる in the standard pattern."
+    },
+    {
+      "id": "n4-u11-g-decision",
+      "title": "Make a decision; keep a rule; continue until",
+      "formation": "Verb dictionary/ない form + ことにする (decide); + ことにしている (maintain a personal practice). Verb plain nonpast + まで; noun/time + まで.",
+      "explanation": "毎日復習することにしました reports your decision. 毎日復習することにしています describes a routine you choose to maintain. The later ことになる pattern describes an arrangement/result, so do not interpret every こと expression as personal choice. ～まで describes continuing until an endpoint; ～までに is a deadline for completing an action. Context and action determine the difference. A chosen practice is not evidence that someone already mastered the words.",
+      "example": "毎日、短い文を読むことにしました。",
+      "translation": "I decided to read short sentences every day.",
+      "examples": [
+        {
+          "ja": "{毎日|まいにち}、{短|みじか}い{文|ぶん}を{読|よ}むことにしました。",
+          "en": "I decided to read short sentences every day."
+        },
+        {
+          "ja": "{疲|つか}れた{時|とき}は、{休|やす}むことにしています。",
+          "en": "I make it my practice to rest when tired."
+        },
+        {
+          "ja": "{森|もり}さんが{来|く}るまで、ここで{待|ま}ちます。",
+          "en": "I'll wait here until Mori comes."
+        }
+      ],
+      "mistake": "A deadline for handing in a document is 金曜日までに, not automatically 金曜日まで. A planned habit expressed with ことにしている does not guarantee you never miss a day."
+    },
+    {
+      "id": "n4-u11-g-even",
+      "title": "Even if; how to do something",
+      "formation": "Verb て-form + も; い-adjective い → くても; noun/な-adjective + でも. AよりBの方が + adjective. Verb dictionary form + 方が for a general comparison of actions; verb past + 方がいい often gives advice. Verb ます-stem + 方 (かた): 読む → 読み方; 使う → 使い方; する → し方; 勉強する → 勉強の仕方. Noun objects commonly become の: 文を読む → 文の読み方.",
+      "explanation": "間違えても続けます means a mistake does not stop the chosen action. It differs from ～のに, which contrasts an actual situation with an unexpected result. 短い文の方が読みやすい compares readability in this context, not the value of all short and long texts. Rest advice is not a medical diagnosis. Forms like 休んだ方がいい advise an action; they do not report that someone already rested. 読み方 means how to read or a reading method; 方 is pronounced かた here. It is different from comparison 方 (ほう) in unit 5/N5 comparisons. Learn the noun-linked object: この文の読み方. Suru nouns use の仕方, as in 勉強の仕方.",
+      "example": "間違えても、もう一度読みます。",
+      "translation": "Even if I make a mistake, I'll read it again.",
+      "examples": [
+        {
+          "ja": "{間違|まちが}えても、もう{一度|いちど}{読|よ}みます。",
+          "en": "Even if I make a mistake, I'll read it again."
+        },
+        {
+          "ja": "この{文|ぶん}の{読|よ}み{方|かた}を{教|おし}えてください。",
+          "en": "Please teach me how to read this sentence."
+        },
+        {
+          "ja": "{疲|つか}れた{時|とき}は、{少|すこ}し{休|やす}んだ{方|ほう}がいいです。",
+          "en": "When tired, it is better to rest a little."
+        }
+      ],
+      "mistake": "For 静か use 静かでも, not 静かくても. ～ても does not assert that the hypothetical event has actually happened. For how to read, use 読み方 (よみかた), not 読む方 (よむほう), which names the reading alternative/person in a different context."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "n4-u11-d-kenta",
+      "title": "A routine that is easier to keep",
+      "scene": "Kenta describes a past class exercise. You choose a short daily reading routine; no test result is claimed.",
+      "words": [
+        "n4-u11-w-bun",
+        "n4-u11-w-tsukareru",
+        "n4-u11-w-fukushuu",
+        "n4-u10-w-renshuu",
+        "n4-u10-w-kiroku",
+        "n4-u09-w-oto"
+      ],
+      "lines": [
+        {
+          "speaker": "Kenta",
+          "line": "{昨日|きのう}、{先生|せんせい}に{長|なが}い{文|ぶん}を{読|よ}まされたんだ。{疲|つか}れたよ。",
+          "romaji": "Kinō, sensei ni nagai bun o yomasareta n da. Tsukareta yo.",
+          "meaning": "Yesterday the teacher made me read a long sentence. I got tired."
+        },
+        {
+          "speaker": "You",
+          "line": "{私|わたし}は{毎日|まいにち}、{短|みじか}い{文|ぶん}を{読|よ}むことにしました。",
+          "romaji": "Watashi wa mainichi, mijikai bun o yomu koto ni shimashita.",
+          "meaning": "I decided to read short sentences every day."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "いいね。{長|なが}い{文|ぶん}より、{短|みじか}い{文|ぶん}の{方|ほう}が{読|よ}みやすいね。",
+          "romaji": "Ii ne. Nagai bun yori, mijikai bun no hō ga yomiyasui ne.",
+          "meaning": "Good idea. Short sentences are easier to read than long ones."
+        },
+        {
+          "speaker": "You",
+          "line": "{音|おと}も{聞|き}いて、{復習|ふくしゅう}することにしています。",
+          "romaji": "Oto mo kiite, fukushū suru koto ni shite imasu.",
+          "meaning": "I make it a practice to listen to the sounds too and review."
+        },
+        {
+          "speaker": "Kenta",
+          "line": "{間違|まちが}えても、もう{一度|いちど}{練習|れんしゅう}できるよ。",
+          "romaji": "Machigaete mo, mō ichido renshū dekiru yo.",
+          "meaning": "Even if you make a mistake, you can practise again."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。でも、{疲|つか}れた{時|とき}は{休|やす}みます。{練習|れんしゅう}の{記録|きろく}も{書|か}きます。",
+          "romaji": "Hai. Demo, tsukareta toki wa yasumimasu. Renshū no kiroku mo kakimasu.",
+          "meaning": "Yes. But I'll rest when tired. I'll also write a practice record."
+        }
+      ]
+    },
+    {
+      "id": "n4-u11-d-mori",
+      "title": "Review the next presentation plan",
+      "scene": "At work, Mori and Bao plan tomorrow's practice. Mori gives a concrete two-sentence target and an arrival time.",
+      "words": [
+        "n4-u11-w-mokuhyou",
+        "n4-u11-w-bun",
+        "n4-u10-w-mokuteki",
+        "n4-u10-w-houhou",
+        "n4-u10-w-tashikameru",
+        "n4-u08-w-shiryou",
+        "n4-u09-w-junban"
+      ],
+      "lines": [
+        {
+          "speaker": "Mori",
+          "line": "{明日|あした}の{目標|もくひょう}は、{二|ふた}つの{文|ぶん}で{目的|もくてき}と{方法|ほうほう}を{説明|せつめい}することです。",
+          "romaji": "Ashita no mokuhyō wa, futatsu no bun de mokuteki to hōhō o setsumei suru koto desu.",
+          "meaning": "Tomorrow's goal is to explain the purpose and method in two sentences."
+        },
+        {
+          "speaker": "You",
+          "line": "{資料|しりょう}を{直|なお}しました。{順番|じゅんばん}も{確|たし}かめました。",
+          "romaji": "Shiryō o naoshimashita. Junban mo tashikamemashita.",
+          "meaning": "I revised the materials. I also checked the order."
+        },
+        {
+          "speaker": "Mori",
+          "line": "いいですね。{私|わたし}は{十時|じゅうじ}に{来|き}ます。",
+          "romaji": "Ii desu ne. Watashi wa jūji ni kimasu.",
+          "meaning": "Good. I'll arrive at ten."
+        },
+        {
+          "speaker": "You",
+          "line": "{森|もり}さんが{来|く}るまで、{短|みじか}い{文|ぶん}を{読|よ}んで{待|ま}ちます。",
+          "romaji": "Mori-san ga kuru made, mijikai bun o yonde machimasu.",
+          "meaning": "I'll read short sentences and wait until you arrive."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{疲|つか}れていたら、{少|すこ}し{休|やす}んだ{方|ほう}がいいですよ。",
+          "romaji": "Tsukarete itara, sukoshi yasunda hō ga ii desu yo.",
+          "meaning": "If you're tired, it would be better to rest a little."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{無理|むり}をしないことにしています。",
+          "romaji": "Arigatō gozaimasu. Muri o shinai koto ni shite imasu.",
+          "meaning": "Thank you. I make it a practice not to push myself too hard."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n4-u11-reading",
+      "title": "Bao's practice diary",
+      "genre": "diary",
+      "paragraphs": [
+        "{昨日|きのう}、{発表|はっぴょう}の{資料|しりょう}を{直|なお}した。",
+        "{目的|もくてき}はわかりやすかったが、{方法|ほうほう}の{説明|せつめい}は{難|むずか}しかった。",
+        "{長|なが}い{文|ぶん}より、{短|みじか}い{文|ぶん}の{方|ほう}が{読|よ}みやすい。",
+        "{毎日|まいにち}、{短|みじか}い{文|ぶん}を{読|よ}むことにした。",
+        "{音|おと}も{聞|き}いて、{発音|はつおん}を{確|たし}かめる。",
+        "{間違|まちが}えても、もう{一度|いちど}{読|よ}む。",
+        "{疲|つか}れた{時|とき}は、{無理|むり}をしないで{休|やす}む。",
+        "{明日|あした}の{目標|もくひょう}は、{二|ふた}つの{文|ぶん}で{目的|もくてき}と{方法|ほうほう}を{説明|せつめい}することだ。",
+        "{練習|れんしゅう}のあとで、{結果|けっか}を{記録|きろく}する。"
+      ],
+      "glosses": [
+        {
+          "text": "昨日",
+          "kana": "きのう",
+          "meaning": "yesterday"
+        },
+        {
+          "text": "直した",
+          "kana": "なおした",
+          "meaning": "revised; corrected"
+        },
+        {
+          "text": "わかりやすかった",
+          "kana": "わかりやすかった",
+          "meaning": "was easy to understand"
+        },
+        {
+          "text": "難しかった",
+          "kana": "むずかしかった",
+          "meaning": "was difficult"
+        },
+        {
+          "text": "長い",
+          "kana": "ながい",
+          "meaning": "long"
+        },
+        {
+          "text": "短い",
+          "kana": "みじかい",
+          "meaning": "short"
+        },
+        {
+          "text": "方",
+          "kana": "ほう",
+          "meaning": "side; alternative in a comparison"
+        },
+        {
+          "text": "読みやすい",
+          "kana": "よみやすい",
+          "meaning": "easy to read"
+        },
+        {
+          "text": "ことにした",
+          "kana": "ことにした",
+          "meaning": "decided to"
+        },
+        {
+          "text": "間違えても",
+          "kana": "まちがえても",
+          "meaning": "even if I make a mistake"
+        },
+        {
+          "text": "疲れた時",
+          "kana": "つかれたとき",
+          "meaning": "when tired"
+        },
+        {
+          "text": "しないで",
+          "kana": "しないで",
+          "meaning": "without doing"
+        },
+        {
+          "text": "二つ",
+          "kana": "ふたつ",
+          "meaning": "two things"
+        },
+        {
+          "text": "説明すること",
+          "kana": "せつめいすること",
+          "meaning": "the act of explaining"
+        },
+        {
+          "text": "記録する",
+          "kana": "きろくする",
+          "meaning": "record"
+        },
+        {
+          "text": "毎日",
+          "kana": "まいにち",
+          "meaning": "every day"
+        },
+        {
+          "text": "読む",
+          "kana": "よむ",
+          "meaning": "read"
+        },
+        {
+          "text": "聞いて",
+          "kana": "きいて",
+          "meaning": "listen, and"
+        },
+        {
+          "text": "休む",
+          "kana": "やすむ",
+          "meaning": "rest"
+        },
+        {
+          "text": "あと",
+          "kana": "あと",
+          "meaning": "after"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-u11-x-kenta",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u11-d-kenta",
+      "prompt": "What happened to Kenta in yesterday's class?",
+      "options": [
+        "The teacher made him read a long sentence",
+        "He made the teacher read a short sentence",
+        "Mori cancelled the presentation"
+      ],
+      "answer": 0,
+      "explain": "先生に長い文を読まされた identifies Kenta as the affected reader.",
+      "words": [
+        "n4-u11-w-bun"
+      ]
+    },
+    {
+      "id": "n4-u11-x-routine",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u11-d-kenta",
+      "prompt": "Which routine has Bao chosen?",
+      "options": [
+        "Read short sentences daily and review with audio",
+        "Read only long sentences once a month",
+        "Stop after every mistake forever"
+      ],
+      "answer": 0,
+      "explain": "Bao states a daily short-sentence decision and audio review practice.",
+      "words": [
+        "n4-u11-w-fukushuu",
+        "n4-u09-w-oto"
+      ]
+    },
+    {
+      "id": "n4-u11-x-goal",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u11-d-mori",
+      "prompt": "What is tomorrow's presentation goal?",
+      "options": [
+        "Explain purpose and method in two sentences",
+        "Memorize every word in a dictionary",
+        "Write a ten-page report"
+      ],
+      "answer": 0,
+      "explain": "Mori specifies 二つの文 and both 目的 and 方法.",
+      "words": [
+        "n4-u11-w-mokuhyou",
+        "n4-u10-w-mokuteki",
+        "n4-u10-w-houhou"
+      ]
+    },
+    {
+      "id": "n4-u11-x-arrival",
+      "type": "dialogue",
+      "skill": "listening",
+      "dialogue": "n4-u11-d-mori",
+      "prompt": "Until when does Bao plan to wait?",
+      "options": [
+        "Until Mori arrives at ten",
+        "Until the guest leaves at six",
+        "Until the café closes"
+      ],
+      "answer": 0,
+      "explain": "Mori gives ten; Bao says 森さんが来るまで.",
+      "words": [
+        "n4-u08-w-shiryou"
+      ]
+    },
+    {
+      "id": "n4-u11-x-made",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "You were made to read by the teacher. Use the causative-passive of 読む, not simple passive.",
+      "line": "{先生|せんせい}に{文|ぶん}を＿＿。",
+      "options": [
+        "{読|よ}まされました",
+        "{読|よ}まれました",
+        "{読|よ}ませました",
+        "{読|よ}めました"
+      ],
+      "answer": 0,
+      "explain": "読ませられる commonly contracts to 読まされる.",
+      "words": [
+        "n4-u11-w-bun"
+      ]
+    },
+    {
+      "id": "n4-u11-x-decision",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Report your own decision to review every day.",
+      "line": "{毎日|まいにち}{復習|ふくしゅう}する＿＿。",
+      "options": [
+        "ことにしました",
+        "ところでした",
+        "ようでした",
+        "ためでした"
+      ],
+      "answer": 0,
+      "explain": "ことにしました reports a personal decision.",
+      "words": [
+        "n4-u11-w-fukushuu"
+      ]
+    },
+    {
+      "id": "n4-u11-x-even",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "Say you will read again even if you make a mistake; it is a hypothetical concession, not a report of an unexpected past result.",
+      "line": "{間違|まちが}えて＿＿、もう{一度|いちど}{読|よ}みます。",
+      "options": [
+        "も",
+        "のに",
+        "ため",
+        "まで"
+      ],
+      "answer": 0,
+      "explain": "Verb て-form + も expresses even if.",
+      "words": [
+        "n4-u10-w-machigai"
+      ]
+    },
+    {
+      "id": "n4-u11-x-until",
+      "type": "cloze",
+      "skill": "recall",
+      "context": "You will keep waiting until Mori arrives, rather than completing a task by a deadline.",
+      "line": "{森|もり}さんが{来|く}る＿＿、{短|みじか}い{文|ぶん}を{読|よ}んで{待|ま}ちます。",
+      "options": [
+        "まで",
+        "までに",
+        "のに",
+        "ような"
+      ],
+      "answer": 0,
+      "explain": "Waiting continues until the arrival endpoint, so use まで.",
+      "words": [
+        "n4-u11-w-bun"
+      ]
+    },
+    {
+      "id": "n4-u11-x-reply",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{明日|あした}の{目標|もくひょう}は{何|なん}ですか。",
+      "context": "State the agreed two-sentence purpose-and-method goal.",
+      "options": [
+        "{二|ふた}つの{文|ぶん}で{目的|もくてき}と{方法|ほうほう}を{説明|せつめい}します。",
+        "{今日|きょう}は{何|なに}もしません。",
+        "{先生|せんせい}に{待|ま}たされました。"
+      ],
+      "answer": 0,
+      "explain": "Only the first reply states the agreed target.",
+      "words": [
+        "n4-u11-w-mokuhyou",
+        "n4-u10-w-mokuteki",
+        "n4-u10-w-houhou"
+      ]
+    },
+    {
+      "id": "n4-u11-x-reply-rest",
+      "type": "reply",
+      "skill": "listening",
+      "line": "{疲|つか}れた{時|とき}はどうしますか。",
+      "context": "Describe the personal rest rule you maintain.",
+      "options": [
+        "{休|やす}むことにしています。",
+        "いつも{休|やす}まないで{続|つづ}けます。",
+        "{復習|ふくしゅう}することにしています。"
+      ],
+      "answer": 0,
+      "explain": "休むことにしています gives the chosen rest habit; the second says the opposite.",
+      "words": [
+        "n4-u11-w-tsukareru"
+      ]
+    },
+    {
+      "id": "n4-u11-x-order",
+      "type": "order",
+      "skill": "recall",
+      "meaning": "Please teach me how to read this sentence.",
+      "tiles": [
+        "この{文|ぶん}の",
+        "{読|よ}み{方|かた}を",
+        "{教|おし}えて",
+        "ください。"
+      ],
+      "explain": "読む → 読み + 方 (かた). The sentence being read takes の in this method noun phrase.",
+      "words": [
+        "n4-u11-w-bun"
+      ]
+    },
+    {
+      "id": "n4-u11-x-register",
+      "type": "register",
+      "skill": "recall",
+      "context": "You thank Mori for allowing you to practise. Choose the grateful permission expression; do not say Mori forced you or that Mori practised for you.",
+      "prompt": "Which polite description matches that viewpoint?",
+      "options": [
+        "{練習|れんしゅう}させていただきました。",
+        "{練習|れんしゅう}させられました。",
+        "{練習|れんしゅう}していただきました。"
+      ],
+      "answer": 0,
+      "explain": "させていただきました is receiving permission to perform the action; the other two change the actor/viewpoint.",
+      "words": [
+        "n4-u10-w-renshuu"
+      ]
+    },
+    {
+      "id": "n4-u11-r-revision",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u11-reading",
+      "prompt": "Which presentation part was difficult?",
+      "options": [
+        "The method explanation",
+        "The purpose",
+        "The room name"
+      ],
+      "answer": 0,
+      "explain": "The diary contrasts the clear purpose with the difficult method explanation.",
+      "words": [
+        "n4-u10-w-houhou",
+        "n4-u10-w-mokuteki"
+      ]
+    },
+    {
+      "id": "n4-u11-r-chosen",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u11-reading",
+      "prompt": "Which routine did Bao decide on?",
+      "options": [
+        "Read short sentences daily",
+        "Read long texts without breaks all day",
+        "Avoid listening entirely"
+      ],
+      "answer": 0,
+      "explain": "毎日、短い文を読むことにした states the choice.",
+      "words": [
+        "n4-u11-w-bun"
+      ]
+    },
+    {
+      "id": "n4-u11-r-audio",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u11-reading",
+      "prompt": "Why does Bao listen to the sounds?",
+      "options": [
+        "To check pronunciation",
+        "To choose an office room",
+        "To measure a guest's arrival"
+      ],
+      "answer": 0,
+      "explain": "音も聞いて、発音を確かめる gives that action's purpose.",
+      "words": [
+        "n4-u11-w-hatsuon",
+        "n4-u10-w-tashikameru",
+        "n4-u09-w-oto"
+      ]
+    },
+    {
+      "id": "n4-u11-r-evidence",
+      "type": "choice",
+      "skill": "reading",
+      "reading": "n4-u11-reading",
+      "prompt": "Which event has already happened in the diary?",
+      "options": [
+        "Bao revised the materials yesterday",
+        "Tomorrow's practice has already finished",
+        "Every pronunciation mistake has disappeared"
+      ],
+      "answer": 0,
+      "explain": "昨日…直した is past. Tomorrow's goal and planned record do not establish a result.",
+      "words": [
+        "n4-u08-w-shiryou",
+        "n4-u10-w-naosu"
+      ]
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "causative-passive actor",
+      "ことにしている routine",
+      "ても versus のに"
+    ],
+    "prompt": "Optionally save five lines from your own media. Track who was made to act and distinguish personal decisions, regular habits, hypothetical concessions and actual unexpected results."
+  }
+}

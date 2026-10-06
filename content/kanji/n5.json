@@ -20,6 +20,58 @@
     ]
   },
   {
+    "char": "案",
+    "meaning": "plan; suggestion; draft; ponder; fear; proposition; idea; expectation; worry; table; bench",
+    "components": "",
+    "on": "アン",
+    "kun": "つくえ",
+    "words": [
+      "n4-u09-w-annai",
+      "n4-u10-w-teian"
+    ]
+  },
+  {
+    "char": "依",
+    "meaning": "reliant; depend on; consequently; therefore; due to",
+    "components": "",
+    "on": "イ、エ",
+    "kun": "よる",
+    "words": [
+      "n4-u12-w-irai"
+    ]
+  },
+  {
+    "char": "意",
+    "meaning": "idea; mind; heart; taste; thought; desire; care; liking",
+    "components": "",
+    "on": "イ",
+    "kun": "",
+    "words": [
+      "n4-u09-w-chuui",
+      "n4-u10-w-ikenn"
+    ]
+  },
+  {
+    "char": "違",
+    "meaning": "difference; differ",
+    "components": "",
+    "on": "イ",
+    "kun": "ちがう、ちがい、ちがえる、ちがえる、たがう、たがえる",
+    "words": [
+      "n4-u10-w-machigai"
+    ]
+  },
+  {
+    "char": "引",
+    "meaning": "pull; tug; jerk; admit; install; quote; refer to",
+    "components": "",
+    "on": "イン",
+    "kun": "ひく、ひける",
+    "words": [
+      "n4-u12-w-hikitsugi"
+    ]
+  },
+  {
     "char": "飲",
     "meaning": "drink; smoke; take",
     "components": "",
@@ -92,6 +144,16 @@
     ]
   },
   {
+    "char": "汚",
+    "meaning": "dirty; pollute; disgrace; rape; defile",
+    "components": "",
+    "on": "オ",
+    "kun": "けがす、けがれる、けがらわしい、よごす、よごれる、きたない",
+    "words": [
+      "n4-u09-w-yogosu"
+    ]
+  },
+  {
     "char": "沖",
     "meaning": "open sea; offing; rise high into sky",
     "components": "",
@@ -119,6 +181,17 @@
     "kun": "あたたか、あたたかい、あたたまる、あたためる、ぬく",
     "words": [
       "n5-u11-w-onsen"
+    ]
+  },
+  {
+    "char": "音",
+    "meaning": "sound; noise",
+    "components": "",
+    "on": "オン、イン、-ノン",
+    "kun": "おと、ね",
+    "words": [
+      "n4-u09-w-oto",
+      "n4-u11-w-hatsuon"
     ]
   },
   {
@@ -187,6 +260,16 @@
     ]
   },
   {
+    "char": "果",
+    "meaning": "fruit; reward; carry out; achieve; complete; end; finish; succeed",
+    "components": "",
+    "on": "カ",
+    "kun": "はたす、はたす、はたす、はてる、はてる、はて",
+    "words": [
+      "n4-u11-w-kekka"
+    ]
+  },
+  {
     "char": "花",
     "meaning": "flower",
     "components": "",
@@ -197,12 +280,23 @@
     ]
   },
   {
+    "char": "課",
+    "meaning": "chapter; lesson; section; department; division; counter for chapters (of a book)",
+    "components": "",
+    "on": "カ",
+    "kun": "",
+    "words": [
+      "n4-u12-w-kadai"
+    ]
+  },
+  {
     "char": "画",
     "meaning": "brush-stroke; picture",
     "components": "",
     "on": "ガ、カク、エ、カイ",
     "kun": "えがく、かくする、かぎる、はかりごと、はかる",
     "words": [
+      "n4-u10-w-kikaku",
       "n5-u03-w-eiga"
     ]
   },
@@ -240,6 +334,16 @@
     ]
   },
   {
+    "char": "改",
+    "meaning": "reformation; change; modify; mend; renew; examine; inspect; search",
+    "components": "",
+    "on": "カイ",
+    "kun": "あらためる、あらたまる",
+    "words": [
+      "n4-u12-w-kaizen"
+    ]
+  },
+  {
     "char": "海",
     "meaning": "sea; ocean",
     "components": "",
@@ -269,7 +373,18 @@
     "kun": "たしか、たしかめる",
     "words": [
       "n4-u05-w-tashika",
-      "n4-u05-w-kakunin"
+      "n4-u05-w-kakunin",
+      "n4-u10-w-tashikameru"
+    ]
+  },
+  {
+    "char": "覚",
+    "meaning": "memorize; learn; remember; awake; sober up",
+    "components": "",
+    "on": "カク",
+    "kun": "おぼえる、さます、さめる、さとる",
+    "words": [
+      "n4-u11-w-oboeru"
     ]
   },
   {
@@ -280,6 +395,7 @@
     "kun": "まなぶ",
     "words": [
       "student",
+      "n4-u12-w-manabu",
       "n5-u01-w-daigaku"
     ]
   },
@@ -314,6 +430,17 @@
     ]
   },
   {
+    "char": "慣",
+    "meaning": "accustomed; get used to; become experienced",
+    "components": "",
+    "on": "カン",
+    "kun": "なれる、ならす",
+    "words": [
+      "n4-u11-w-shuukan",
+      "n4-u11-w-nareru"
+    ]
+  },
+  {
     "char": "漢",
     "meaning": "Sino-; China",
     "components": "",
@@ -331,6 +458,7 @@
     "kun": "あいだ、ま、あい",
     "words": [
       "n4-u01-w-isshuukan",
+      "n4-u10-w-machigai",
       "n5-u10-w-jikan"
     ]
   },
@@ -354,6 +482,16 @@
       "please",
       "regards",
       "n4-u04-w-onegai"
+    ]
+  },
+  {
+    "char": "企",
+    "meaning": "undertake; scheme; design; attempt; plan",
+    "components": "",
+    "on": "キ",
+    "kun": "くわだてる、たくらむ",
+    "words": [
+      "n4-u10-w-kikaku"
     ]
   },
   {
@@ -398,6 +536,27 @@
     ]
   },
   {
+    "char": "記",
+    "meaning": "scribe; account; narrative",
+    "components": "",
+    "on": "キ",
+    "kun": "しるす",
+    "words": [
+      "n4-u10-w-kiroku",
+      "n4-u11-w-nikki"
+    ]
+  },
+  {
+    "char": "起",
+    "meaning": "rouse; wake up; get up",
+    "components": "",
+    "on": "キ",
+    "kun": "おきる、おこる、おこす、おこす、たつ",
+    "words": [
+      "n4-u09-w-okosu"
+    ]
+  },
+  {
     "char": "議",
     "meaning": "deliberation; consultation; debate; consideration",
     "components": "",
@@ -409,6 +568,26 @@
     ]
   },
   {
+    "char": "却",
+    "meaning": "instead; on the contrary; rather; step back; withdraw; retreat",
+    "components": "",
+    "on": "キャク",
+    "kun": "かえって、しりぞく、しりぞける",
+    "words": [
+      "n4-u12-w-henkyaku"
+    ]
+  },
+  {
+    "char": "客",
+    "meaning": "guest; visitor; customer; client",
+    "components": "",
+    "on": "キャク、カク",
+    "kun": "",
+    "words": [
+      "n4-u09-w-kyaku"
+    ]
+  },
+  {
     "char": "休",
     "meaning": "rest; day off; retire; sleep",
     "components": "",
@@ -416,6 +595,7 @@
     "kun": "やすむ、やすまる、やすめる",
     "words": [
       "n4-u03-w-natsuyasumi",
+      "n4-u11-w-yasumi",
       "n5-u10-w-fuyuyasumi",
       "n5-u12-w-yasumimasu"
     ]
@@ -484,6 +664,26 @@
     ]
   },
   {
+    "char": "況",
+    "meaning": "condition; situation",
+    "components": "",
+    "on": "キョウ",
+    "kun": "まして、いわんや、おもむき",
+    "words": [
+      "n4-u09-w-joukyou"
+    ]
+  },
+  {
+    "char": "驚",
+    "meaning": "wonder; be surprised; frightened; amazed",
+    "components": "",
+    "on": "キョウ",
+    "kun": "おどろく、おどろかす",
+    "words": [
+      "n4-u09-w-odoroku"
+    ]
+  },
+  {
     "char": "業",
     "meaning": "business; vocation; arts; performance",
     "components": "",
@@ -491,6 +691,16 @@
     "kun": "わざ",
     "words": [
       "n5-u12-w-jugyou"
+    ]
+  },
+  {
+    "char": "緊",
+    "meaning": "tense; solid; hard; reliable; tight",
+    "components": "",
+    "on": "キン",
+    "kun": "しめる、しまる",
+    "words": [
+      "n4-u10-w-kinchou"
     ]
   },
   {
@@ -514,6 +724,16 @@
     ]
   },
   {
+    "char": "掲",
+    "meaning": "put up (a notice); put up; hoist; display; hang out; publish; describe",
+    "components": "",
+    "on": "ケイ",
+    "kun": "かかげる",
+    "words": [
+      "n4-u09-w-keijiban"
+    ]
+  },
+  {
     "char": "経",
     "meaning": "sutra; longitude; pass thru; expire; warp",
     "components": "",
@@ -521,7 +741,18 @@
     "kun": "へる、たつ、たていと、はかる、のり",
     "words": [
       "n4-u01-w-keiken",
+      "n4-u12-w-keiken",
       "n5-u01-w-keizai"
+    ]
+  },
+  {
+    "char": "継",
+    "meaning": "inherit; succeed; continue; patch; graft (tree)",
+    "components": "",
+    "on": "ケイ",
+    "kun": "つぐ、まま",
+    "words": [
+      "n4-u12-w-hikitsugi"
     ]
   },
   {
@@ -545,6 +776,16 @@
     ]
   },
   {
+    "char": "結",
+    "meaning": "tie; bind; contract; join; organize; do up hair; fasten",
+    "components": "",
+    "on": "ケツ、ケチ",
+    "kun": "むすぶ、ゆう、ゆわえる",
+    "words": [
+      "n4-u11-w-kekka"
+    ]
+  },
+  {
     "char": "件",
     "meaning": "affair; case; matter; item",
     "components": "",
@@ -563,6 +804,8 @@
     "words": [
       "n4-u06-w-mitsukaru",
       "n4-u08-w-haiken",
+      "n4-u10-w-ikenn",
+      "n4-u10-w-mihon",
       "n5-u03-w-mimasu",
       "n5-u03-w-mimasenka",
       "n5-u04-w-mimashita",
@@ -589,7 +832,18 @@
     "on": "ケン、ゲン",
     "kun": "あかし、しるし、ためす、ためし",
     "words": [
-      "n4-u01-w-keiken"
+      "n4-u01-w-keiken",
+      "n4-u12-w-keiken"
+    ]
+  },
+  {
+    "char": "呼",
+    "meaning": "call; call out to; invite",
+    "components": "",
+    "on": "コ",
+    "kun": "よぶ",
+    "words": [
+      "n4-u09-w-yobu"
     ]
   },
   {
@@ -610,6 +864,16 @@
     "kun": "まじわる、まじえる、まじる、まじる、まざる、まぜる、かう、かわす、かわす、こもごも",
     "words": [
       "n4-u06-w-kouban"
+    ]
+  },
+  {
+    "char": "功",
+    "meaning": "achievement; merits; success; honor; credit",
+    "components": "",
+    "on": "コウ、ク",
+    "kun": "いさお",
+    "words": [
+      "n4-u10-w-seikou"
     ]
   },
   {
@@ -690,7 +954,19 @@
     "kun": "あう、あう、あい、あい、あい、あい、あわす、あわせる、あわせる",
     "words": [
       "n4-u02-w-niau",
-      "n4-u04-w-tsugou"
+      "n4-u04-w-tsugou",
+      "n4-u12-w-uchiawase"
+    ]
+  },
+  {
+    "char": "告",
+    "meaning": "revelation; tell; inform; announce",
+    "components": "",
+    "on": "コク",
+    "kun": "つげる",
+    "words": [
+      "n4-u12-w-houkoku",
+      "n4-u12-w-houkokusho"
     ]
   },
   {
@@ -723,6 +999,16 @@
     "kun": "すわる",
     "words": [
       "n5-u06-w-suwatte"
+    ]
+  },
+  {
+    "char": "最",
+    "meaning": "utmost; most; extreme",
+    "components": "",
+    "on": "サイ、シュ",
+    "kun": "もっとも、つま",
+    "words": [
+      "n4-u12-w-saishuu"
     ]
   },
   {
@@ -897,6 +1183,7 @@
     "on": "シ",
     "kun": "おもう、おもえらく、おぼす",
     "words": [
+      "n4-u12-w-omoidasu",
       "n5-u08-w-to-omou",
       "n5-u08-w-to-omoimasu"
     ]
@@ -948,6 +1235,7 @@
     "on": "ジ、ズ",
     "kun": "こと、つかう、つかえる",
     "words": [
+      "n4-u12-w-henji",
       "n5-u12-w-odaiji"
     ]
   },
@@ -1008,6 +1296,26 @@
     ]
   },
   {
+    "char": "示",
+    "meaning": "show; indicate; point out; express; display",
+    "components": "",
+    "on": "ジ、シ",
+    "kun": "しめす",
+    "words": [
+      "n4-u09-w-keijiban"
+    ]
+  },
+  {
+    "char": "自",
+    "meaning": "oneself",
+    "components": "",
+    "on": "ジ、シ",
+    "kun": "みずから、おのずから、おのずと",
+    "words": [
+      "n4-u10-w-jishin"
+    ]
+  },
+  {
     "char": "辞",
     "meaning": "resign; word; term; expression",
     "components": "",
@@ -1035,6 +1343,7 @@
     "kun": "うしなう、うせる",
     "words": [
       "n4-u07-w-shitsurei",
+      "n4-u10-w-shippai",
       "n5-u06-w-shitsurei"
     ]
   },
@@ -1118,7 +1427,8 @@
     "words": [
       "letter",
       "n4-u02-w-tebukuro",
-      "n4-u04-w-tetsudau"
+      "n4-u04-w-tetsudau",
+      "n4-u12-w-tetsuzuki"
     ]
   },
   {
@@ -1158,6 +1468,9 @@
     "on": "シュウ",
     "kun": "おわる、おわる、おわる、おえる、つい、ついに",
     "words": [
+      "n4-u12-w-saishuu",
+      "n4-u12-w-shuuryou",
+      "n4-u12-w-owari",
       "n5-u09-w-owatta"
     ]
   },
@@ -1168,7 +1481,11 @@
     "on": "シュウ、ジュ",
     "kun": "ならう、ならい",
     "words": [
-      "n4-u08-w-jisshuu"
+      "n4-u08-w-jisshuu",
+      "n4-u10-w-renshuu",
+      "n4-u11-w-shuukan",
+      "n4-u11-w-fukushuu",
+      "n4-u11-w-yoshuu"
     ]
   },
   {
@@ -1233,6 +1550,8 @@
     "words": [
       "n4-u03-w-shuppatsu",
       "n4-u04-w-teishutsu",
+      "n4-u12-w-teishutsu",
+      "n4-u12-w-omoidasu",
       "n5-u12-w-dashimasu"
     ]
   },
@@ -1254,7 +1573,8 @@
     "on": "ジュン",
     "kun": "",
     "words": [
-      "n4-u04-w-junban"
+      "n4-u04-w-junban",
+      "n4-u09-w-junban"
     ]
   },
   {
@@ -1306,6 +1626,7 @@
     "words": [
       "n4-u04-w-shorui",
       "n4-u05-w-kyoukasho",
+      "n4-u12-w-houkokusho",
       "n5-u02-w-jisho",
       "n5-u06-w-kaite"
     ]
@@ -1328,6 +1649,16 @@
     "kun": "めす",
     "words": [
       "n4-u07-w-meshiagaru"
+    ]
+  },
+  {
+    "char": "承",
+    "meaning": "acquiesce; hear; listen to; be informed; receive",
+    "components": "",
+    "on": "ショウ、ジョウ",
+    "kun": "うけたまわる、うける",
+    "words": [
+      "n4-u12-w-shounin"
     ]
   },
   {
@@ -1389,7 +1720,18 @@
     "on": "ジョウ",
     "kun": "",
     "words": [
-      "n4-u04-w-suisenjou"
+      "n4-u04-w-suisenjou",
+      "n4-u09-w-joukyou"
+    ]
+  },
+  {
+    "char": "飾",
+    "meaning": "decorate; ornament; adorn; embellish",
+    "components": "",
+    "on": "ショク",
+    "kun": "かざる、かざり",
+    "words": [
+      "n4-u09-w-kazaru"
     ]
   },
   {
@@ -1414,6 +1756,16 @@
       "n5-u09-w-tabeta",
       "n5-u11-w-tabetai",
       "n5-u12-w-sugi"
+    ]
+  },
+  {
+    "char": "信",
+    "meaning": "faith; truth; fidelity; trust",
+    "components": "",
+    "on": "シン",
+    "kun": "",
+    "words": [
+      "n4-u10-w-jishin"
     ]
   },
   {
@@ -1481,6 +1833,16 @@
     ]
   },
   {
+    "char": "進",
+    "meaning": "advance; proceed; progress; promote",
+    "components": "",
+    "on": "シン",
+    "kun": "すすむ、すすめる",
+    "words": [
+      "n4-u11-w-susumu"
+    ]
+  },
+  {
     "char": "図",
     "meaning": "map; drawing; plan; extraordinary; audacious",
     "components": "",
@@ -1498,6 +1860,26 @@
     "kun": "おす",
     "words": [
       "n4-u04-w-suisenjou"
+    ]
+  },
+  {
+    "char": "成",
+    "meaning": "turn into; become; get; grow; elapse; reach",
+    "components": "",
+    "on": "セイ、ジョウ",
+    "kun": "なる、なす、なす",
+    "words": [
+      "n4-u10-w-seikou"
+    ]
+  },
+  {
+    "char": "整",
+    "meaning": "organize; arranging; tune; tone; meter; key (music)",
+    "components": "",
+    "on": "セイ",
+    "kun": "ととのえる、ととのう",
+    "words": [
+      "n4-u09-w-seiri"
     ]
   },
   {
@@ -1531,6 +1913,7 @@
     "on": "セイ、ジョウ",
     "kun": "しず、しずか、しずまる、しずめる",
     "words": [
+      "n4-u09-w-shizuka",
       "n5-u05-w-shizuka"
     ]
   },
@@ -1542,7 +1925,8 @@
     "kun": "きる、きる、きり、きり、ぎり、きれる、きれる、きれ、きれ、ぎれ",
     "words": [
       "n4-u03-w-kippu",
-      "n4-u04-w-shimekiri"
+      "n4-u04-w-shimekiri",
+      "n4-u12-w-shimekiri"
     ]
   },
   {
@@ -1562,7 +1946,8 @@
     "on": "セツ、ゼイ",
     "kun": "とく",
     "words": [
-      "n4-u04-w-setumei"
+      "n4-u04-w-setumei",
+      "n4-u10-w-setsumei"
     ]
   },
   {
@@ -1645,7 +2030,8 @@
     "on": "セン",
     "kun": "えらぶ、える、よる",
     "words": [
-      "n4-u02-w-erabu"
+      "n4-u02-w-erabu",
+      "n4-u11-w-erabu"
     ]
   },
   {
@@ -1660,6 +2046,16 @@
     ]
   },
   {
+    "char": "善",
+    "meaning": "virtuous; good; goodness",
+    "components": "",
+    "on": "ゼン",
+    "kun": "よい、いい、よく、よしとする",
+    "words": [
+      "n4-u12-w-kaizen"
+    ]
+  },
+  {
     "char": "早",
     "meaning": "early; fast",
     "components": "",
@@ -1668,6 +2064,16 @@
     "words": [
       "n4-u03-w-hayameni",
       "n5-u09-w-hayaku"
+    ]
+  },
+  {
+    "char": "装",
+    "meaning": "attire; dress; pretend; disguise; profess",
+    "components": "",
+    "on": "ソウ、ショウ",
+    "kun": "よそおう、よそおい",
+    "words": [
+      "n4-u09-w-souchi"
     ]
   },
   {
@@ -1703,6 +2109,17 @@
     ]
   },
   {
+    "char": "続",
+    "meaning": "continue; series; sequel",
+    "components": "",
+    "on": "ゾク、ショク、コウ、キョウ",
+    "kun": "つづく、つづける、つぐない",
+    "words": [
+      "n4-u11-w-tsuzukeru",
+      "n4-u12-w-tetsuzuki"
+    ]
+  },
+  {
     "char": "多",
     "meaning": "many; frequent; much",
     "components": "",
@@ -1710,6 +2127,26 @@
     "kun": "おおい、まさに、まさる",
     "words": [
       "n4-u05-w-tabun"
+    ]
+  },
+  {
+    "char": "打",
+    "meaning": "strike; hit; knock; pound; dozen",
+    "components": "",
+    "on": "ダ、ダース",
+    "kun": "うつ、うち、ぶつ",
+    "words": [
+      "n4-u12-w-uchiawase"
+    ]
+  },
+  {
+    "char": "体",
+    "meaning": "body; substance; object; reality; counter for images",
+    "components": "",
+    "on": "タイ、テイ",
+    "kun": "からだ、かたち",
+    "words": [
+      "n4-u11-w-taichou"
     ]
   },
   {
@@ -1753,6 +2190,7 @@
     "on": "ダイ",
     "kun": "",
     "words": [
+      "n4-u12-w-kadai",
       "n5-u09-w-shukudai"
     ]
   },
@@ -1764,6 +2202,16 @@
     "kun": "たち",
     "words": [
       "friend"
+    ]
+  },
+  {
+    "char": "単",
+    "meaning": "simple; one; single; merely",
+    "components": "",
+    "on": "タン",
+    "kun": "ひとえ",
+    "words": [
+      "n4-u11-w-tango"
     ]
   },
   {
@@ -1813,7 +2261,8 @@
     "on": "チ",
     "kun": "しる、しらせる",
     "words": [
-      "n4-u05-w-shirase"
+      "n4-u05-w-shirase",
+      "n4-u09-w-shirase"
     ]
   },
   {
@@ -1824,6 +2273,17 @@
     "kun": "",
     "words": [
       "n4-u03-w-chizu"
+    ]
+  },
+  {
+    "char": "置",
+    "meaning": "placement; put; set; deposit; leave behind; keep; employ; pawn",
+    "components": "",
+    "on": "チ",
+    "kun": "おく、おき",
+    "words": [
+      "n4-u09-w-souchi",
+      "n4-u09-w-oku"
     ]
   },
   {
@@ -1853,7 +2313,8 @@
     "on": "チャク、ジャク",
     "kun": "きる、きせる、つく、つける",
     "words": [
-      "n4-u03-w-touchaku"
+      "n4-u03-w-touchaku",
+      "n4-u10-w-ochitsuku"
     ]
   },
   {
@@ -1874,7 +2335,8 @@
     "on": "チュウ",
     "kun": "そそぐ、さす、つぐ",
     "words": [
-      "n4-u01-w-chuumon"
+      "n4-u01-w-chuumon",
+      "n4-u09-w-chuui"
     ]
   },
   {
@@ -1888,13 +2350,24 @@
     ]
   },
   {
+    "char": "張",
+    "meaning": "counter for bows & stringed instruments; stretch; spread; put up (tent)",
+    "components": "",
+    "on": "チョウ",
+    "kun": "はる、はり、ばり",
+    "words": [
+      "n4-u10-w-kinchou"
+    ]
+  },
+  {
     "char": "調",
     "meaning": "tune; tone; meter; key (music); writing style; prepare; exorcise; investigate; harmonize; mediate",
     "components": "",
     "on": "チョウ",
     "kun": "しらべる、しらべ、ととのう、ととのえる",
     "words": [
-      "n4-u03-w-shiraberu"
+      "n4-u03-w-shiraberu",
+      "n4-u11-w-taichou"
     ]
   },
   {
@@ -1914,7 +2387,8 @@
     "on": "チョク、ジキ、ジカ",
     "kun": "ただちに、なおす、なおす、なおる、なおき、すぐ",
     "words": [
-      "n4-u04-w-naosu"
+      "n4-u04-w-naosu",
+      "n4-u10-w-naosu"
     ]
   },
   {
@@ -1944,7 +2418,9 @@
     "on": "テイ、チョウ、ダイ",
     "kun": "さげる",
     "words": [
-      "n4-u04-w-teishutsu"
+      "n4-u04-w-teishutsu",
+      "n4-u10-w-teian",
+      "n4-u12-w-teishutsu"
     ]
   },
   {
@@ -1954,7 +2430,18 @@
     "on": "テイ",
     "kun": "しまる、しまり、しめる、しめ、じめ",
     "words": [
-      "n4-u04-w-shimekiri"
+      "n4-u04-w-shimekiri",
+      "n4-u12-w-shimekiri"
+    ]
+  },
+  {
+    "char": "的",
+    "meaning": "bull's eye; mark; target; object; adjective ending",
+    "components": "",
+    "on": "テキ",
+    "kun": "まと",
+    "words": [
+      "n4-u10-w-mokuteki"
     ]
   },
   {
@@ -1966,6 +2453,16 @@
     "words": [
       "n4-u05-w-tenki",
       "n5-u05-w-tenki"
+    ]
+  },
+  {
+    "char": "貼",
+    "meaning": "stick; paste; apply",
+    "components": "",
+    "on": "テン、チョウ",
+    "kun": "はる、つく",
+    "words": [
+      "n4-u09-w-haru"
     ]
   },
   {
@@ -2052,6 +2549,16 @@
     "words": [
       "n4-u05-w-hontou",
       "n4-u08-w-tantou"
+    ]
+  },
+  {
+    "char": "答",
+    "meaning": "solution; answer",
+    "components": "",
+    "on": "トウ",
+    "kun": "こたえる、こたえ",
+    "words": [
+      "n4-u10-w-kotae"
     ]
   },
   {
@@ -2145,7 +2652,8 @@
     "on": "ナイ、ダイ",
     "kun": "うち",
     "words": [
-      "n4-u08-w-naisen"
+      "n4-u08-w-naisen",
+      "n4-u09-w-annai"
     ]
   },
   {
@@ -2177,7 +2685,8 @@
     "on": "ニン",
     "kun": "みとめる、したためる",
     "words": [
-      "n4-u05-w-kakunin"
+      "n4-u05-w-kakunin",
+      "n4-u12-w-shounin"
     ]
   },
   {
@@ -2240,6 +2749,16 @@
     "kun": "おがむ、おろがむ",
     "words": [
       "n4-u08-w-haiken"
+    ]
+  },
+  {
+    "char": "敗",
+    "meaning": "failure; defeat; reversal",
+    "components": "",
+    "on": "ハイ",
+    "kun": "やぶれる",
+    "words": [
+      "n4-u10-w-shippai"
     ]
   },
   {
@@ -2310,7 +2829,9 @@
     "on": "ハツ、ホツ",
     "kun": "たつ、あばく、おこる、つかわす、はなつ",
     "words": [
-      "n4-u03-w-shuppatsu"
+      "n4-u03-w-shuppatsu",
+      "n4-u10-w-happyou",
+      "n4-u11-w-hatsuon"
     ]
   },
   {
@@ -2334,6 +2855,16 @@
     ]
   },
   {
+    "char": "板",
+    "meaning": "plank; board; plate; stage",
+    "components": "",
+    "on": "ハン、バン",
+    "kun": "いた",
+    "words": [
+      "n4-u09-w-keijiban"
+    ]
+  },
+  {
     "char": "番",
     "meaning": "turn; number in a series",
     "components": "",
@@ -2342,7 +2873,18 @@
     "words": [
       "n4-u04-w-junban",
       "n4-u06-w-kouban",
+      "n4-u09-w-junban",
       "n5-u10-w-ichiban"
+    ]
+  },
+  {
+    "char": "比",
+    "meaning": "compare; race; ratio; Philippines",
+    "components": "",
+    "on": "ヒ",
+    "kun": "くらべる",
+    "words": [
+      "n4-u11-w-kuraberu"
     ]
   },
   {
@@ -2352,6 +2894,7 @@
     "on": "ヒ",
     "kun": "つかれる、づかれ、つからす",
     "words": [
+      "n4-u11-w-tsukareru",
       "n5-u09-w-tsukareta"
     ]
   },
@@ -2377,6 +2920,16 @@
     ]
   },
   {
+    "char": "必",
+    "meaning": "invariably; certain; inevitable",
+    "components": "",
+    "on": "ヒツ",
+    "kun": "かならず",
+    "words": [
+      "n4-u10-w-hitsuyou"
+    ]
+  },
+  {
     "char": "百",
     "meaning": "hundred",
     "components": "",
@@ -2384,6 +2937,26 @@
     "kun": "もも",
     "words": [
       "n5-u02-w-hyaku"
+    ]
+  },
+  {
+    "char": "標",
+    "meaning": "signpost; seal; mark; stamp; imprint; symbol; emblem; trademark; evidence; souvenir; target",
+    "components": "",
+    "on": "ヒョウ",
+    "kun": "しるべ、しるし",
+    "words": [
+      "n4-u11-w-mokuhyou"
+    ]
+  },
+  {
+    "char": "表",
+    "meaning": "surface; table; chart; diagram",
+    "components": "",
+    "on": "ヒョウ",
+    "kun": "おもて、おもて、あらわす、あらわれる、あらわす",
+    "words": [
+      "n4-u10-w-happyou"
     ]
   },
   {
@@ -2467,6 +3040,16 @@
     ]
   },
   {
+    "char": "復",
+    "meaning": "restore; return to; revert; resume",
+    "components": "",
+    "on": "フク",
+    "kun": "また",
+    "words": [
+      "n4-u11-w-fukushuu"
+    ]
+  },
+  {
     "char": "物",
     "meaning": "thing; object; matter",
     "components": "",
@@ -2494,7 +3077,8 @@
     "kun": "ふみ、あや",
     "words": [
       "n4-u01-w-chuumon",
-      "n4-u04-w-bunshou"
+      "n4-u04-w-bunshou",
+      "n4-u11-w-bun"
     ]
   },
   {
@@ -2526,6 +3110,17 @@
     "kun": "かわる、かわり、かえる",
     "words": [
       "n4-u05-w-henkou"
+    ]
+  },
+  {
+    "char": "返",
+    "meaning": "return; answer; fade; repay",
+    "components": "",
+    "on": "ヘン",
+    "kun": "かえす、かえす、かえる、かえる",
+    "words": [
+      "n4-u12-w-henkyaku",
+      "n4-u12-w-henji"
     ]
   },
   {
@@ -2566,7 +3161,9 @@
     "on": "ホウ",
     "kun": "むくいる",
     "words": [
-      "n4-u05-w-yohou"
+      "n4-u05-w-yohou",
+      "n4-u12-w-houkoku",
+      "n4-u12-w-houkokusho"
     ]
   },
   {
@@ -2576,7 +3173,18 @@
     "on": "ホウ",
     "kun": "かた、かた、がた",
     "words": [
+      "n4-u10-w-houhou",
       "n5-u06-w-yomikata"
+    ]
+  },
+  {
+    "char": "法",
+    "meaning": "method; law; rule; principle; model; system",
+    "components": "",
+    "on": "ホウ、ハッ、ホッ、フラン",
+    "kun": "のり",
+    "words": [
+      "n4-u10-w-houhou"
     ]
   },
   {
@@ -2622,6 +3230,16 @@
     ]
   },
   {
+    "char": "無",
+    "meaning": "nothingness; none; ain't; nothing; nil; not",
+    "components": "",
+    "on": "ム、ブ",
+    "kun": "ない",
+    "words": [
+      "n4-u11-w-muri"
+    ]
+  },
+  {
     "char": "名",
     "meaning": "name; noted; distinguished; reputation",
     "components": "",
@@ -2641,7 +3259,9 @@
     "words": [
       "tomorrow",
       "see-you",
-      "n4-u04-w-setumei"
+      "n4-u04-w-setumei",
+      "n4-u09-w-akarui",
+      "n4-u10-w-setsumei"
     ]
   },
   {
@@ -2655,13 +3275,25 @@
     ]
   },
   {
+    "char": "目",
+    "meaning": "eye; class; look; insight; experience; care; favor",
+    "components": "",
+    "on": "モク、ボク",
+    "kun": "め、め、ま",
+    "words": [
+      "n4-u10-w-mokuteki",
+      "n4-u11-w-mokuhyou"
+    ]
+  },
+  {
     "char": "戻",
     "meaning": "re-; return; revert; resume; restore; go backwards",
     "components": "",
     "on": "レイ",
     "kun": "もどす、もどる",
     "words": [
-      "n4-u07-w-modoru"
+      "n4-u07-w-modoru",
+      "n4-u11-w-modoru"
     ]
   },
   {
@@ -2672,6 +3304,16 @@
     "kun": "とう、とい、とん",
     "words": [
       "n4-u04-w-shitsumon"
+    ]
+  },
+  {
+    "char": "役",
+    "meaning": "duty; war; campaign; drafted labor; office; service; role",
+    "components": "",
+    "on": "ヤク、エキ",
+    "kun": "",
+    "words": [
+      "n4-u12-w-yaku"
     ]
   },
   {
@@ -2726,6 +3368,16 @@
     ]
   },
   {
+    "char": "由",
+    "meaning": "wherefore; a reason",
+    "components": "",
+    "on": "ユ、ユウ、ユイ",
+    "kun": "よし、よる",
+    "words": [
+      "n4-u09-w-riyuu"
+    ]
+  },
+  {
     "char": "裕",
     "meaning": "abundant; rich; fertile",
     "components": "",
@@ -2755,7 +3407,8 @@
       "n4-u02-w-yosan",
       "n4-u03-w-yoyaku",
       "n4-u03-w-yotei",
-      "n4-u05-w-yohou"
+      "n4-u05-w-yohou",
+      "n4-u11-w-yoshuu"
     ]
   },
   {
@@ -2790,6 +3443,16 @@
     ]
   },
   {
+    "char": "要",
+    "meaning": "need; main point; essence; pivot; key to",
+    "components": "",
+    "on": "ヨウ",
+    "kun": "いる、かなめ",
+    "words": [
+      "n4-u10-w-hitsuyou"
+    ]
+  },
+  {
     "char": "欲",
     "meaning": "longing; covetousness; greed; passion; desire; craving",
     "components": "",
@@ -2808,6 +3471,16 @@
     "words": [
       "n5-u06-w-kite",
       "n5-u08-w-kuru"
+    ]
+  },
+  {
+    "char": "頼",
+    "meaning": "trust; request",
+    "components": "",
+    "on": "ライ",
+    "kun": "たのむ、たのもしい、たよる",
+    "words": [
+      "n4-u12-w-irai"
     ]
   },
   {
@@ -2831,7 +3504,8 @@
     "words": [
       "n4-u06-w-otosu",
       "n4-u06-w-ochiru",
-      "n4-u06-w-otoshimono"
+      "n4-u06-w-otoshimono",
+      "n4-u10-w-ochitsuku"
     ]
   },
   {
@@ -2845,6 +3519,28 @@
     ]
   },
   {
+    "char": "理",
+    "meaning": "logic; arrangement; reason; justice; truth",
+    "components": "",
+    "on": "リ",
+    "kun": "ことわり",
+    "words": [
+      "n4-u09-w-riyuu",
+      "n4-u09-w-seiri",
+      "n4-u11-w-muri"
+    ]
+  },
+  {
+    "char": "立",
+    "meaning": "stand up; rise; set up; erect",
+    "components": "",
+    "on": "リツ、リュウ、リットル",
+    "kun": "たつ、たつ、たち、たてる、たてる、たて、たて、たて、だて、だてる",
+    "words": [
+      "n4-u12-w-yaku"
+    ]
+  },
+  {
     "char": "旅",
     "meaning": "trip; travel",
     "components": "",
@@ -2854,6 +3550,16 @@
       "n4-u03-w-ryokou",
       "n4-u03-w-ryokan",
       "n5-u05-w-ryokou"
+    ]
+  },
+  {
+    "char": "了",
+    "meaning": "complete; finish",
+    "components": "",
+    "on": "リョウ",
+    "kun": "",
+    "words": [
+      "n4-u12-w-shuuryou"
     ]
   },
   {
@@ -2909,6 +3615,16 @@
     ]
   },
   {
+    "char": "練",
+    "meaning": "practice; gloss; train; drill; polish; refine",
+    "components": "",
+    "on": "レン",
+    "kun": "ねる、ねり",
+    "words": [
+      "n4-u10-w-renshuu"
+    ]
+  },
+  {
     "char": "連",
     "meaning": "take along; lead; join; connect; party; gang; clique",
     "components": "",
@@ -2928,6 +3644,16 @@
     "kun": "む、むつ、むっつ、むい",
     "words": [
       "six"
+    ]
+  },
+  {
+    "char": "録",
+    "meaning": "record",
+    "components": "",
+    "on": "ロク",
+    "kun": "しるす、とる",
+    "words": [
+      "n4-u10-w-kiroku"
     ]
   },
   {
