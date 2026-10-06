@@ -13,6 +13,7 @@ assert hashlib.sha256((root/'content/voices/dialogue-speakers.json').read_bytes(
 clear={(r['text'],r['url']):r for r in read('content/voices/lesson-provenance.json')['records']}
 records={(r['dialogue'],r['index']):r for r in p['records']}
 count=0
+overlaps=[]
 for pack in read('src/generated/packs.json'):
     for d in pack.get('dialogues',[]):
         assert len(d['lines'])==len(manifest[d['id']])
@@ -42,6 +43,19 @@ for pack in read('src/generated/packs.json'):
             pcm,sr=sf.read(path)
             assert sr==24000 and pcm.ndim==1 and np.isfinite(pcm).all()
             assert .01<np.max(np.abs(pcm))<.99 and abs(len(pcm)/sr-take['seconds'])<1/sr
+            gap=line.get('gapAfterMs',380)
+            if gap<0:
+                assert i+1<len(d['lines']) and line['speaker']!=d['lines'][i+1]['speaker']
+                next_pcm,next_sr=sf.read(root/'public'/manifest[d['id']][i+1]['url'].lstrip('/'))
+                active=np.flatnonzero(np.abs(pcm)>.001)
+                next_active=np.flatnonzero(np.abs(next_pcm)>.001)
+                assert len(active) and len(next_active) and next_sr==sr
+                signal_overlap=-gap-(len(pcm)-active[-1])/sr*1000-next_active[0]/sr*1000
+                assert signal_overlap>=20, ('Overlap is only silence',d['id'],i,signal_overlap)
+                samples=round(-gap/1000*sr)
+                combined_peak=float(np.max(np.abs(pcm[-samples:]+next_pcm[:samples])))
+                assert combined_peak<.99, ('Overlapping signals clip',d['id'],i,combined_peak)
+                overlaps.append({'dialogue':d['id'],'index':i,'signalWindowOverlapMs':round(signal_overlap,2),'combinedPeak':round(combined_peak,4)})
             count+=1
 assert count==len(records)
 for row in p.get('historicalRecords',[]):
@@ -49,6 +63,7 @@ for row in p.get('historicalRecords',[]):
     assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'], ('Historical dialogue changed',row['dialogue'],row['index'])
 report={'dialogueTakes':count,'speakers':sorted({r['speaker'] for r in p['records']}),'configuredSpeakers':list(config['speakers']),
  'allSpeakerTextMappingsValid':True,'phonemeSequencesUnchanged':True,
- 'clearLessonManifestUnchanged':True,'signalAndHashesValid':True,'humanListeningReviewed':False}
+ 'clearLessonManifestUnchanged':True,'signalAndHashesValid':True,'timedOverlaps':overlaps,
+ 'overlapCheck':'Amplitude windows above 0.001, not phonemic or native listening review.', 'humanListeningReviewed':False}
 (root/'output/dialogue-audio-check.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8', newline='\n')
 print(json.dumps(report,indent=2))

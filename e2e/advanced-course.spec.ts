@@ -173,6 +173,14 @@ for (const unit of [
       ["Take a client’s message without promising a change", "n2-u07-d-message", "Introduce yourself without changing whose name it is", "Recognise a formal identification or statement"],
     ],
   },
+  {
+    id: "n2-u08", reading: "Yui’s diary: a place to sit and a card to post",
+    secondReading: "Hana’s message: the long blue umbrella",
+    lessons: [
+      ["Follow a story through short responses", "n2-u08-d-cafe", "A short response can keep the story going", "Recover the missing noun from this conversation"],
+      ["Recover a reference and check it", "n2-u08-d-umbrella", "Recover the missing noun from this conversation", "A short response can keep the story going"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -197,6 +205,27 @@ for (const unit of [
     await ctx.close(); return failed;
   }, unit.lessons.flatMap(([, scene]) => takes[scene]));
   expect(audioFailures).toEqual([]);
+  if (unit.id === "n2-u08") await page.evaluate(() => {
+    // Real WAVs above decode first. Mock only completion for long timed scenes;
+    // conversation-timing.spec separately checks real audio-clock overlap.
+    const buffers = new WeakMap<ArrayBuffer, string>(), decoded = new WeakMap<AudioBuffer, string>();
+    const fetchReal = window.fetch;
+    window.fetch = async (...args) => {
+      const response = await fetchReal(...args), arrayBuffer = response.arrayBuffer.bind(response);
+      response.arrayBuffer = async () => {
+        const data = await arrayBuffer(); buffers.set(data, new URL(String(args[0]), location.href).pathname); return data;
+      };
+      return response;
+    };
+    const proto = AudioContext.prototype as any, decodeReal = proto.decodeAudioData;
+    proto.decodeAudioData = async function (data: ArrayBuffer) {
+      const buffer = await decodeReal.call(this, data); decoded.set(buffer, buffers.get(data)!); return buffer;
+    };
+    AudioBufferSourceNode.prototype.start = function () {
+      (window as any).played.push(decoded.get(this.buffer!));
+      queueMicrotask(() => this.onended?.call(this, new Event("ended")));
+    };
+  });
   await page.getByRole("button", { name: "Start without an account" }).click();
   await page.getByRole("button", { name: "Open my first letter" }).click();
   await expect(page.getByRole("heading", { name: "Your next letter is ready." })).toBeVisible();

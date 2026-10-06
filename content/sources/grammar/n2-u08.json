@@ -1,0 +1,56 @@
+{
+  "unit": "n2-u08",
+  "checkedAt": "2026-10-06",
+  "status": "Primary-source research, strict editorial/key review, source/content/audio/preservation/browser/build and production offline gates passed; native review pending.",
+  "method": "Inspected each listed primary publisher's own page. Earlier forms are applied listening retrieval, not newly official N2 assignments. Original scenarios and recordings do not represent measured corpus frequency. TUFS PDF/repository requests failed; none is claimed inspected.",
+  "points": [
+    {
+      "form": "へえ / なるほど / そうなんだ and brief backchannels",
+      "sources": [
+        "https://kotoba.ninjal.ac.jp/digest/15-1/d-15-01/",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/reserch/pdf/tushin49_p06-07.pdf"
+      ],
+      "formation": "Short response to another turn, interpreted with the following clause and delivery.",
+      "teachingChoice": "A listener's reaction can precede completion of the other turn. Acknowledgement alone does not settle a proposed action; original brief overlaps are scheduled with 240 ms file overlaps; nonquiet signal windows are checked separately.",
+      "sourceCaution": "NINJAL's roundtable discusses corpus timing, not a prescription to respond after every clause. JF warns that adding responses alone cannot rescue unnatural dialogue. Literal reaction translations are contextual examples."
+    },
+    {
+      "form": "えっと / なんか / まあ",
+      "sources": [
+        "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-11780161/",
+        "https://kotoba.ninjal.ac.jp/digest/15-1/d-15-01/",
+        "https://bunpro.jp/grammar_points/なんか-なんて"
+      ],
+      "formation": "A searched-for time, tentative description or provisional judgement follows the hesitation.",
+      "teachingChoice": "Recognise content after the filler. Distinguish sentence-opening なんか from indefinite 何か and noun-following low-evaluation/listing uses.",
+      "sourceCaution": "The investigator's abstract reports four conversation types, not an exhaustive fixed meaning for each filler. Bunpro's N3 particle entry does not make every sentence-initial filler dismissive."
+    },
+    {
+      "form": "Recoverable nouns and known possessive/adjective の",
+      "sources": [
+        "https://bunpro.jp/grammar_points/の-noun-ommission",
+        "https://bunpro.jp/grammar_points/adjective-の-は",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/bookshelf/200908.html",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/reserch/pdf/tushin49_p06-07.pdf"
+      ],
+      "formation": "Possessor + の leaves a known noun out; adjective + の identifies the one with that property. Context determines which object and actor fit.",
+      "teachingChoice": "Retrieve N5 patterns in a conversation about two umbrellas. Ask which one when ownership or reference is unclear.",
+      "sourceCaution": "Bunpro nominal uses do not account for every omitted subject. JF's book discussion is an instructor's review, not inspection of the full book. Particle omission is register-sensitive, not arbitrary deletion."
+    },
+    {
+      "form": "Short clarification and acknowledgement followed by refusal",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/bookshelf/200908.html",
+        "https://kotoba.ninjal.ac.jp/digest/15-1/d-15-01/"
+      ],
+      "formation": "Name the unclear object or time in a question. Read a negative or alternative clause after the initial response.",
+      "teachingChoice": "Specific scene: そうなんだ acknowledges Kenta’s evening availability; でも、今日の夕方は無理 refuses that proposal. Tomorrow at eight is accepted. No universal unfinished-sentence refusal rule is taught.",
+      "sourceCaution": "NINJAL notes that response expressions can serve functions beyond literal agreement. Clarification choices here are original instructional applications."
+    }
+  ],
+  "editorialReview": {
+    "newPairs": 44,
+    "sceneChoice": "A café and postcard plan; borrowed umbrellas with a clarification and revised return time. Supplementary conversation words are not forced into every line.",
+    "remaining": "Whole N2 core review after unit 16 and independent native sentence/listening review."
+  }
+}

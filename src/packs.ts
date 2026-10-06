@@ -221,10 +221,14 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
       errors.push(`Dialogue speed ${d.id}`);
     if (d.words?.some((id) => !wordIds.has(id)))
       errors.push(`Dialogue words ${d.id}`);
-    for (const l of d.lines) {
+    for (const [i, l] of d.lines.entries()) {
       if (!l.speaker || !l.line || !l.romaji || !l.meaning)
         errors.push(`Incomplete dialogue line ${d.id}`);
       ruby(d.id, l.line);
+      if (l.gapAfterMs !== undefined && (
+        !Number.isInteger(l.gapAfterMs) || l.gapAfterMs < -250 || l.gapAfterMs > 800 ||
+        (l.gapAfterMs < 0 && (!d.lines[i + 1] || d.lines[i + 1].speaker === l.speaker))
+      )) errors.push(`Dialogue timing ${d.id}/${i}`);
     }
   }
   const seen = new Set<string>();

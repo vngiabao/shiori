@@ -3,6 +3,7 @@ import { type Reaction } from "./persona";
 import { selectReaction } from "./reactionState";
 import type { Profile, Word } from "./types";
 let current: HTMLAudioElement | null = null;
+let cancelTimed: (() => void) | null = null;
 let last = { text: "", rate: 1, url: "" };
 let preferences: Pick<
   Profile,
@@ -36,6 +37,8 @@ export function speakReaction(key: Reaction, force = false) {
 const assets = manifest as Record<string, string>;
 export function stopAudio() {
   sequence++;
+  cancelTimed?.();
+  cancelTimed = null;
   current?.pause();
   current = null;
   if ("speechSynthesis" in window) window.speechSynthesis.cancel();
@@ -83,6 +86,78 @@ export async function playLines(
     await new Promise((r) => setTimeout(r, 380));
   }
   onLine?.(-1);
+}
+
+/** Schedule decoded recordings on the audio clock: no rate/pitch processing.
+ * Used only for explicitly authored conversational pauses/backchannels.
+ * Default dialogue playback and individual-line replay remain unchanged. */
+export async function playTimedLines(
+  lines: { text: string; url: string; gapAfterMs: number }[],
+  onLine?: (index: number) => void,
+) {
+  stopAudio();
+  const mine = ++sequence;
+  if (!lines.length) return;
+  const ctx = new AudioContext();
+  const sources: AudioBufferSourceNode[] = [];
+  const timers: ReturnType<typeof setTimeout>[] = [];
+  let rejectPlayback: ((reason: unknown) => void) | undefined;
+  let cancelled = false;
+  let closed = false;
+  const close = () => {
+    timers.forEach(clearTimeout);
+    if (!closed) { closed = true; void ctx.close().catch(() => undefined); }
+  };
+  const cancel = () => {
+    cancelled = true;
+    for (const source of sources) { source.onended = null; source.stop(); }
+    close();
+    rejectPlayback?.(new DOMException("Playback was interrupted.", "AbortError"));
+  };
+  cancelTimed = cancel;
+  try {
+    const buffers = await Promise.all(lines.map(async (line) => {
+      const response = await fetch(line.url);
+      if (!response.ok) throw new Error("The conversation recording could not be loaded.");
+      return ctx.decodeAudioData(await response.arrayBuffer());
+    }));
+    if (cancelled || mine !== sequence) throw new DOMException("Playback was interrupted.", "AbortError");
+    await ctx.resume();
+    if (cancelled || mine !== sequence) throw new DOMException("Playback was interrupted.", "AbortError");
+    const base = ctx.currentTime + .025;
+    await new Promise<void>((resolve, reject) => {
+      rejectPlayback = reject;
+      let offset = 0, ended = 0;
+      for (const [i, line] of lines.entries()) {
+        if (!Number.isInteger(line.gapAfterMs) || line.gapAfterMs < -250 || line.gapAfterMs > 800 || buffers[i].duration + line.gapAfterMs / 1000 < .1)
+          throw new Error("Invalid conversation timing.");
+        const source = ctx.createBufferSource();
+        source.buffer = buffers[i];
+        source.connect(ctx.destination);
+        source.onended = () => {
+          if (++ended === lines.length && !cancelled && mine === sequence) {
+            onLine?.(-1); resolve();
+          }
+        };
+        sources.push(source);
+        const at = base + offset;
+        source.start(at);
+        timers.push(setTimeout(() => {
+          if (!cancelled && mine === sequence) {
+            last = { text: line.text, rate: 1, url: line.url };
+            onLine?.(i);
+          }
+        }, Math.max(0, (at - ctx.currentTime) * 1000)));
+        offset += buffers[i].duration + line.gapAfterMs / 1000;
+      }
+    });
+  } catch (error) {
+    if (!cancelled) cancel();
+    throw error;
+  } finally {
+    if (cancelTimed === cancel) cancelTimed = null;
+    close();
+  }
 }
 function speakToEnd(text: string, url = assets[text]) {
   current?.pause();

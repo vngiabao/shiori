@@ -1,5 +1,5 @@
 import manifest from "./generated/dialogue-voices.json";
-import { playClip, playLines } from "./audio";
+import { playClip, playLines, playTimedLines } from "./audio";
 import { plain } from "./text";
 import type { Dialogue } from "./types";
 
@@ -28,6 +28,10 @@ export function playDialogue(
   dialogue: Dialogue,
   onLine?: (index: number) => void,
 ) {
+  if (dialogue.lines.some((line) => line.gapAfterMs !== undefined))
+    return playTimedLines(dialogue.lines.map((line, i) => ({
+      ...dialogueTake(dialogue, i), gapAfterMs: line.gapAfterMs ?? 380,
+    })), onLine);
   return playLines(
     dialogue.lines.map((_, i) => dialogueTake(dialogue, i)),
     onLine,

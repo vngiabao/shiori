@@ -141,7 +141,11 @@ export type Dialogue = {
   scene: string;
   speed?: number;
   words?: string[];
-  lines: { speaker: string; line: string; romaji: string; meaning: string }[];
+    lines: {
+      speaker: string; line: string; romaji: string; meaning: string;
+      /** Pause after this line; a negative value overlaps the next speaker by up to 250 ms. */
+      gapAfterMs?: number;
+    }[];
 };
 export type Exercise = {
   id: string;
