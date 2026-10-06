@@ -3,7 +3,7 @@
 A personal, reading-led Japanese learning app. **Shiori (栞, bookmark) is the working brand**, with Koto and Shio as alternate names. Violetto is the confirmed companion name. The predominantly blue letter world with soft white paper, muted violet and ribbon-red details carries a 16-pose transparent character atlas and scalable SVG interface marks.
 
 
-Current local expansion checkpoint: twelve N5 and twelve N4 units, the starter pack and six 100-word vocabulary decks (three N5, three N4; 31 packs / 123 lessons). N4 contributes 24 scenes, 153 dialogue lines, twelve genre readings and 192 exercises. N5 and N4 each now have sixty checkpoint plus thirty distinct timed-sample items. The wider N5–N1/keigo course is unfinished: remaining vocabulary decks and higher-level units are not installed. New deck words and their original examples have mapped Clear audio; dialogue delivery and the 100 Violetto teacher messages remain intact. All content remains AI-assisted draft material; automated checks do not replace native review. See output/course-progress.md for exact remaining work. This expansion has not been pushed or deployed.
+Current local expansion checkpoint: twelve N5 and twelve N4 units, the starter pack and eleven vocabulary decks (five N5, six N4; 941 form records including documented final batches; 36 packs / 168 lessons). N4 contributes 24 scenes, 153 dialogue lines, twelve genre readings and 192 exercises. N5 and N4 each now have sixty checkpoint plus thirty distinct timed-sample items. The wider N5–N1/keigo course is unfinished: remaining vocabulary decks and higher-level units are not installed. New deck words and their original examples have mapped Clear audio; dialogue delivery and the 100 Violetto teacher messages remain intact. All content remains AI-assisted draft material; automated checks do not replace native review. See output/course-progress.md for exact remaining work. This expansion has not been pushed or deployed.
 
 ## Run
 
@@ -168,7 +168,7 @@ JMdict audit counts now exclude 157 kana drill records and list four names
 separately. Optional lemma metadata never certifies a complete inflected phrase.
 `lemmaStatus` checks the base spelling/reading; `lemmaReadingRelationship` only
 records a mechanically matching kanji-bearing stem where it can be established.
-The course's 653 distinct kanji have KANJIDIC2-backed references and KanjiVG
+The course's 800 distinct kanji have KANJIDIC2-backed references and KanjiVG
 stroke data. New reference entries are in `content/kanji/n5.json`; the existing
 Read → Kanji surface loads them without a design change. Refresh with
 `python scripts/fetch-sources.py --kanji-only --cached`. Source hashes/revisions live in

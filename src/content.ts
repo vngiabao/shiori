@@ -1,5 +1,5 @@
 import extraKanji from "../content/kanji/n5.json";
-import data from "./generated/packs.json";
+import data from "./generated/pack-index";
 import type { Pack, Word } from "./types";
 export const packs = data as Pack[];
 export const words = packs.flatMap((p) => p.words);

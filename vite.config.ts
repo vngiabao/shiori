@@ -57,5 +57,26 @@ export default defineConfig({
     }),
   ],
   server: { port: 5174, strictPort: true },
-  build: { chunkSizeWarningLimit: 900 },
+  build: {
+    chunkSizeWarningLimit: 900,
+    rolldownOptions: {
+      output: {
+        strictExecutionOrder: true,
+        codeSplitting: {
+          groups: [
+            ...["n5", "n4", "n3", "n2", "n1", "keigo"].map((level) => ({
+              name: `course-${level}`,
+              test: new RegExp(`[/\\\\]content[/\\\\]packs[/\\\\]${level}-[^/\\\\]+\\.json$`),
+              maxSize: 300000,
+              priority: 20,
+            })),
+            { name: "course-foundation", test: /[/\\]content[/\\]packs[/\\]first-post\.json$/, priority: 20 },
+            { name: "kanji-reference", test: /[/\\]content[/\\]kanji[/\\]n5\.json$/, priority: 20 },
+            { name: "voice-mappings", test: /[/\\]src[/\\]generated[/\\].+\.json$/, maxSize: 300000, priority: 10 },
+            { name: "vendor", test: /[/\\]node_modules[/\\]/, maxSize: 350000, priority: 5 },
+          ],
+        },
+      },
+    },
+  },
 });

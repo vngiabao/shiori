@@ -1,0 +1,623 @@
+{
+  "deck": "n4-vocab-06",
+  "communityLevel": "N4",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "c93280f7085ea0b3cc8640276d6b5f33ed08ebb54c8fa7fea2a17a19f24a05d9",
+  "exclusion": "Exact spelling/reading and shared JMdict entry candidates excluded against other installed content. Within-deck candidates require explicit editorial decisions.",
+  "aliasDecisions": [],
+  "words": [
+    {
+      "id": "n4-vocab-06-w-0031",
+      "sourceRow": 31,
+      "original": {
+        "expression": "運動",
+        "reading": "うんどうする",
+        "meaning": "exercise",
+        "tags": "JLPT JLPT_N4",
+        "guid": "=pK+M[-/J"
+      },
+      "selected": {
+        "text": "運動",
+        "kana": "うんどう"
+      },
+      "dictionaryEntryIds": [
+        "1172910"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "運動",
+          "reading": "うんどうする"
+        },
+        "selected": {
+          "text": "運動",
+          "kana": "うんどう"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0122",
+      "sourceRow": 122,
+      "original": {
+        "expression": "出席",
+        "reading": "しゅっせきする",
+        "meaning": "attendance",
+        "tags": "JLPT JLPT_N4",
+        "guid": "veUCYD:#[?"
+      },
+      "selected": {
+        "text": "出席",
+        "kana": "しゅっせき"
+      },
+      "dictionaryEntryIds": [
+        "1339460"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "出席",
+          "reading": "しゅっせきする"
+        },
+        "selected": {
+          "text": "出席",
+          "kana": "しゅっせき"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0159",
+      "sourceRow": 159,
+      "original": {
+        "expression": "故障",
+        "reading": "こしょうする",
+        "meaning": "breakdown",
+        "tags": "JLPT JLPT_N4",
+        "guid": "mP~NCidGL7"
+      },
+      "selected": {
+        "text": "故障",
+        "kana": "こしょう"
+      },
+      "dictionaryEntryIds": [
+        "1267180"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "故障",
+          "reading": "こしょうする"
+        },
+        "selected": {
+          "text": "故障",
+          "kana": "こしょう"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0255",
+      "sourceRow": 255,
+      "original": {
+        "expression": "挨拶",
+        "reading": "あいさつする",
+        "meaning": "greet(ing)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "h|NjvFq!b]"
+      },
+      "selected": {
+        "text": "挨拶",
+        "kana": "あいさつ"
+      },
+      "dictionaryEntryIds": [
+        "1151120"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "挨拶",
+          "reading": "あいさつする"
+        },
+        "selected": {
+          "text": "挨拶",
+          "kana": "あいさつ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0278",
+      "sourceRow": 278,
+      "original": {
+        "expression": "運転",
+        "reading": "うんてんする",
+        "meaning": "driving",
+        "tags": "JLPT JLPT_N4",
+        "guid": "r!zv#R0ur*"
+      },
+      "selected": {
+        "text": "運転",
+        "kana": "うんてん"
+      },
+      "dictionaryEntryIds": [
+        "1172830"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "運転",
+          "reading": "うんてんする"
+        },
+        "selected": {
+          "text": "運転",
+          "kana": "うんてん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0334",
+      "sourceRow": 334,
+      "original": {
+        "expression": "遠慮",
+        "reading": "えんりょする",
+        "meaning": "restraint, reserve, hesitate",
+        "tags": "JLPT JLPT_N4",
+        "guid": "uqPUmCD*1n"
+      },
+      "selected": {
+        "text": "遠慮",
+        "kana": "えんりょ"
+      },
+      "dictionaryEntryIds": [
+        "1178450"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "遠慮",
+          "reading": "えんりょする"
+        },
+        "selected": {
+          "text": "遠慮",
+          "kana": "えんりょ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0344",
+      "sourceRow": 344,
+      "original": {
+        "expression": "入学",
+        "reading": "にゅうがくする",
+        "meaning": "entry to school or university",
+        "tags": "JLPT JLPT_N4",
+        "guid": "jo:/>1,9uU"
+      },
+      "selected": {
+        "text": "入学",
+        "kana": "にゅうがく"
+      },
+      "dictionaryEntryIds": [
+        "1465850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "入学",
+          "reading": "にゅうがくする"
+        },
+        "selected": {
+          "text": "入学",
+          "kana": "にゅうがく"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0357",
+      "sourceRow": 357,
+      "original": {
+        "expression": "生産",
+        "reading": "せいさんする",
+        "meaning": "production; to produce",
+        "tags": "JLPT JLPT_N4",
+        "guid": "pm+O;C4U:>"
+      },
+      "selected": {
+        "text": "生産",
+        "kana": "せいさん"
+      },
+      "dictionaryEntryIds": [
+        "1378990",
+        "2092600"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "生産",
+          "reading": "せいさんする"
+        },
+        "selected": {
+          "text": "生産",
+          "kana": "せいさん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0403",
+      "sourceRow": 403,
+      "original": {
+        "expression": "計画",
+        "reading": "けいかくする",
+        "meaning": "plan, project, schedule",
+        "tags": "JLPT JLPT_N4",
+        "guid": "s2fE.u9}xk"
+      },
+      "selected": {
+        "text": "計画",
+        "kana": "けいかく"
+      },
+      "dictionaryEntryIds": [
+        "1252090"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "計画",
+          "reading": "けいかくする"
+        },
+        "selected": {
+          "text": "計画",
+          "kana": "けいかく"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0419",
+      "sourceRow": 419,
+      "original": {
+        "expression": "支度",
+        "reading": "したくする",
+        "meaning": "preparation",
+        "tags": "JLPT JLPT_N4",
+        "guid": "QsqU&|{INc"
+      },
+      "selected": {
+        "text": "支度",
+        "kana": "したく"
+      },
+      "dictionaryEntryIds": [
+        "1310260"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "支度",
+          "reading": "したくする"
+        },
+        "selected": {
+          "text": "支度",
+          "kana": "したく"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0466",
+      "sourceRow": 466,
+      "original": {
+        "expression": "放送",
+        "reading": "ほうそうする",
+        "meaning": "broadcasting",
+        "tags": "JLPT JLPT_N4",
+        "guid": "HT(fAub[.Z"
+      },
+      "selected": {
+        "text": "放送",
+        "kana": "ほうそう"
+      },
+      "dictionaryEntryIds": [
+        "1516750"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "放送",
+          "reading": "ほうそうする"
+        },
+        "selected": {
+          "text": "放送",
+          "kana": "ほうそう"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0482",
+      "sourceRow": 482,
+      "original": {
+        "expression": "承知",
+        "reading": "しょうちする",
+        "meaning": "consent, acceptance",
+        "tags": "JLPT JLPT_N4",
+        "guid": "H:BcaGHLGe"
+      },
+      "selected": {
+        "text": "承知",
+        "kana": "しょうち"
+      },
+      "dictionaryEntryIds": [
+        "1349480"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "承知",
+          "reading": "しょうちする"
+        },
+        "selected": {
+          "text": "承知",
+          "kana": "しょうち"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0518",
+      "sourceRow": 518,
+      "original": {
+        "expression": "退院",
+        "reading": "たいいんする",
+        "meaning": "leaving hospital",
+        "tags": "JLPT JLPT_N4",
+        "guid": "E-^*b8-xhX"
+      },
+      "selected": {
+        "text": "退院",
+        "kana": "たいいん"
+      },
+      "dictionaryEntryIds": [
+        "1411300"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "退院",
+          "reading": "たいいんする"
+        },
+        "selected": {
+          "text": "退院",
+          "kana": "たいいん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0539",
+      "sourceRow": 539,
+      "original": {
+        "expression": "世話",
+        "reading": "せわする",
+        "meaning": "looking after; to look after",
+        "tags": "JLPT JLPT_N4",
+        "guid": "u{y[j%Z9W2"
+      },
+      "selected": {
+        "text": "世話",
+        "kana": "せわ"
+      },
+      "dictionaryEntryIds": [
+        "1374300"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "世話",
+          "reading": "せわする"
+        },
+        "selected": {
+          "text": "世話",
+          "kana": "せわ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0558",
+      "sourceRow": 558,
+      "original": {
+        "expression": "拝見",
+        "reading": "はいけんする",
+        "meaning": "(humble) (polite) seeing, look at",
+        "tags": "JLPT JLPT_N4",
+        "guid": "udBE2Kt)`="
+      },
+      "selected": {
+        "text": "拝見",
+        "kana": "はいけん"
+      },
+      "dictionaryEntryIds": [
+        "1472270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "拝見",
+          "reading": "はいけんする"
+        },
+        "selected": {
+          "text": "拝見",
+          "kana": "はいけん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0623",
+      "sourceRow": 623,
+      "original": {
+        "expression": "入院",
+        "reading": "にゅういんする",
+        "meaning": "hospitalization",
+        "tags": "JLPT JLPT_N4",
+        "guid": "iB?^g:!ksb"
+      },
+      "selected": {
+        "text": "入院",
+        "kana": "にゅういん"
+      },
+      "dictionaryEntryIds": [
+        "1465720"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "入院",
+          "reading": "にゅういんする"
+        },
+        "selected": {
+          "text": "入院",
+          "kana": "にゅういん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0630",
+      "sourceRow": 630,
+      "original": {
+        "expression": "相談",
+        "reading": "そうだんする",
+        "meaning": "consultation",
+        "tags": "JLPT JLPT_N4",
+        "guid": "h,~$1#Tmi]"
+      },
+      "selected": {
+        "text": "相談",
+        "kana": "そうだん"
+      },
+      "dictionaryEntryIds": [
+        "1401210"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "相談",
+          "reading": "そうだんする"
+        },
+        "selected": {
+          "text": "相談",
+          "kana": "そうだん"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0636",
+      "sourceRow": 636,
+      "original": {
+        "expression": "食事",
+        "reading": "しょくじする",
+        "meaning": "meal",
+        "tags": "JLPT JLPT_N4",
+        "guid": "K<!4=Wx(&)"
+      },
+      "selected": {
+        "text": "食事",
+        "kana": "しょくじ"
+      },
+      "dictionaryEntryIds": [
+        "1358490"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "食事",
+          "reading": "しょくじする"
+        },
+        "selected": {
+          "text": "食事",
+          "kana": "しょくじ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0645",
+      "sourceRow": 645,
+      "original": {
+        "expression": "生活",
+        "reading": "せいかつする",
+        "meaning": "living, life; to live",
+        "tags": "JLPT JLPT_N4",
+        "guid": "w`Fz_<nW/g"
+      },
+      "selected": {
+        "text": "生活",
+        "kana": "せいかつ"
+      },
+      "dictionaryEntryIds": [
+        "1378860"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "生活",
+          "reading": "せいかつする"
+        },
+        "selected": {
+          "text": "生活",
+          "kana": "せいかつ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    },
+    {
+      "id": "n4-vocab-06-w-0654",
+      "sourceRow": 654,
+      "original": {
+        "expression": "輸出",
+        "reading": "ゆしゅつする",
+        "meaning": "export",
+        "tags": "JLPT JLPT_N4",
+        "guid": "tgSB[Csamk"
+      },
+      "selected": {
+        "text": "輸出",
+        "kana": "ゆしゅつ"
+      },
+      "dictionaryEntryIds": [
+        "1538820"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "輸出",
+          "reading": "ゆしゅつする"
+        },
+        "selected": {
+          "text": "輸出",
+          "kana": "ゆしゅつ"
+        },
+        "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 20,
+    "reason": "Twenty explicitly reviewed noun/suru-reading source discrepancies, with dictionary-checked noun readings and original contextual examples. Five already installed nouns and one shared-entry candidate are excluded. No filler to reach 100."
+  }
+}

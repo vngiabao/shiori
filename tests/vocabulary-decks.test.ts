@@ -6,6 +6,7 @@ import { hasPractice } from "../src/PhraseLesson";
 import { validatePack } from "../src/packs";
 import lexicon from "../content/sources/jmdict-readings.json";
 import { plain, kanaOf } from "../src/text";
+import tailBatches from "../content/decks/tail-batches.json";
 
 it.each(packs.filter((p) => p.category === "vocabulary"))(
   "keeps $id traceable, dictionary checked and in small delayed-check lessons",
@@ -13,7 +14,14 @@ it.each(packs.filter((p) => p.category === "vocabulary"))(
     const provenance = JSON.parse(
       fs.readFileSync(`content/sources/decks/${deck.id}.json`, "utf8"),
     );
-    expect(deck.words).toHaveLength(100);
+    const tail = (tailBatches as Record<string, { count: number; reason: string }>)[deck.id];
+    expect(deck.words).toHaveLength(tail?.count ?? 100);
+    expect(provenance.tailBatch).toEqual(tail);
+    if (tail) {
+      expect(tail.count).toBeGreaterThan(0);
+      expect(tail.count).toBeLessThan(100);
+      expect(tail.reason.length).toBeGreaterThan(20);
+    }
     expect(provenance.officialJLPTList).toBe(false);
     expect(
       createHash("sha256")

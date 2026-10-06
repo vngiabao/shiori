@@ -31,6 +31,25 @@ def parts(text):
 def write(path, value):
     path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 
+def read_authored_rows(path, deck, policy_path):
+    authored = [re.split(r'\|(?![^{}]*\})',line) for line in path.read_text(encoding='utf-8').splitlines() if line.strip()]
+    tail = json.loads(policy_path.read_text(encoding='utf-8')).get(deck) if policy_path.exists() else None
+    expected = tail['count'] if tail else 100
+    assert isinstance(expected, int) and not isinstance(expected, bool) and 1 <= expected <= 100, 'Invalid deck size policy'
+    assert not tail or tail.get('reason'), 'A shorter final batch needs an editorial reason'
+    assert len(authored)==expected and all(len(row)==6 for row in authored), f'Deck needs {expected} authored rows'
+    assert len({row[0] for row in authored})==expected, 'Duplicate source row'
+    return authored, tail
+
+def verify_source_pair(record, text, reading, correction=None):
+    if correction is not None:
+        assert correction.get('reason') and len(correction['reason']) > 20, 'Source correction needs a review reason'
+        assert correction['original'] == {k: record[k] for k in ['expression','reading']}, 'Source correction is stale'
+        assert correction['selected'] == {'text': text, 'kana': reading}, 'Source correction does not approve this pair'
+        return
+    assert text in [s.strip() for s in record['expression'].split(';')], ('Source spelling differs',text)
+    assert reading_key(reading) in {reading_key(r) for r in reading_alternatives(record['reading'])}, ('Source reading differs',text,reading)
+
 def main():
     path = ROOT / (sys.argv[1] if len(sys.argv)>1 else 'content/decks/n5-vocab-01.txt')
     deck = path.stem
@@ -41,9 +60,10 @@ def main():
     assert hashlib.sha256(source.read_bytes()).hexdigest()==pin['sha256'], 'Source CSV differs from pin'
     with source.open(encoding='utf-8-sig',newline='') as stream:
         rows = dict(enumerate(csv.DictReader(stream),2))
-    authored = [re.split(r'\|(?![^{}]*\})',line) for line in path.read_text(encoding='utf-8').splitlines() if line.strip()]
-    assert len(authored)==100 and all(len(row)==6 for row in authored), 'A complete deck needs 100 authored rows'
-    assert len({row[0] for row in authored})==100, 'Duplicate source row'
+    # Last batches stop at the reviewed inventory boundary instead of padding
+    # the course with duplicated or obsolete forms to reach one hundred.
+    policy_path = ROOT / 'content/decks/tail-batches.json'
+    authored, tail = read_authored_rows(path, deck, policy_path)
     earlier = [w for p in (ROOT/'content/packs').glob('*.json') if p.stem!=deck
                for w in json.loads(p.read_text(encoding='utf-8'))['words'] if not w['id'].startswith(('h-','k-','sound-'))]
     wanted = {plain(row[1]) for row in authored}|{w.get('lemma',{}).get('text',w['text']) for w in earlier}
@@ -57,13 +77,15 @@ def main():
     selected_pairs, selected_entries = set(), {}
     decisions_path = ROOT / 'content/decks/alias-decisions.json'
     decisions = json.loads(decisions_path.read_text(encoding='utf-8')).get(deck, [])
+    corrections_path = ROOT / 'content/decks/source-decisions.json'
+    corrections = json.loads(corrections_path.read_text(encoding='utf-8')) if corrections_path.exists() else {}
     used_decisions = []
     for source_row, ruby, romaji, meaning, example, translation in authored:
         source_row = int(source_row)
         record = rows[source_row]
         text, reading = plain(ruby), kana(ruby)
-        assert text in [s.strip() for s in record['expression'].split(';')], (source_row,'Source spelling differs',text)
-        assert reading_key(reading) in {reading_key(r) for r in reading_alternatives(record['reading'])}, (source_row,'Source reading differs',text,reading)
+        correction = corrections.get(f'{level}:{source_row}')
+        verify_source_pair(record, text, reading, correction)
         assert reading_key(reading) in {reading_key(r) for r in lexicon.get(text,[])}, (source_row,'JMdict mismatch',text,reading)
         assert (text, reading_key(reading)) not in selected_pairs, ('Duplicate deck spelling/reading',text)
         alias_forms = {selected_entries[e] for e in entry_ids[text] if e in selected_entries}
@@ -81,13 +103,14 @@ def main():
         assert example.rstrip('」』').endswith('。') and len(plain(example))>5 and translation.strip(), ('Incomplete example',text)
         word_id = f'{deck}-w-{source_row:04}'
         url = f"https://github.com/jamsinclair/open-anki-jlpt-decks/blob/{provenance['revision']}/src/{level}.csv#L{source_row}"
-        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる'] else 'casual' if text in ['あっち','そっち','どっち','パパ']
-                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい'] else 'neutral')
+        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる','ご存じ','拝見'] else 'casual' if text in ['あっち','そっち','どっち','パパ','君','やる','みんな']
+                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い'] else 'neutral')
         words.append(dict(id=word_id,text=text,kana=reading,romaji=romaji,meaning=meaning,register=register,
                           example=plain(example),exampleRuby=example,exampleMeaning=translation,pitch=None,jlpt=None,
                           parts=parts(ruby),source=url))
         references.append(dict(id=word_id,sourceRow=source_row,original=record,selected=dict(text=text,kana=reading),
-                               dictionaryEntryIds=entry_ids[text],exampleStatus='Original AI-assisted draft; not dictionary-verified naturalness'))
+                               dictionaryEntryIds=entry_ids[text],exampleStatus='Original AI-assisted draft; not dictionary-verified naturalness',
+                               **({'sourceCorrection':correction} if correction else {})))
     lessons = [dict(id=f'{deck}-lesson-{i//8+1}',title=f'{level.upper()} vocabulary · Set {i//8+1}',
                     description='Community-list words with original examples. Reading and listening recognition are tracked separately.',
                     kind='phrase',words=[w['id'] for w in words[i:i+8]],
@@ -102,8 +125,8 @@ def main():
             source=pin,origin=provenance['dataOrigin'],licence=provenance['dataLicence'],
             dictionarySha256=dictionary_hash,sourceDraftSha256=hashlib.sha256(path.read_bytes()).hexdigest(),
             exclusion='Exact spelling/reading and shared JMdict entry candidates excluded against other installed content. Within-deck candidates require explicit editorial decisions.',
-            aliasDecisions=used_decisions,words=references))
-    print(f'{deck}: {len(words)} dictionary-checked words, 100 authored examples, {len(lessons)} small lessons; community alignment only.')
+            aliasDecisions=used_decisions,words=references,**({'tailBatch':tail} if tail else {})))
+    print(f'{deck}: {len(words)} dictionary-checked words, {len(words)} authored examples, {len(lessons)} small lessons; community alignment only.')
 
 if __name__=='__main__':
     main()
