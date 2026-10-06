@@ -6,8 +6,8 @@
   "license": "CC-BY-SA-4.0",
   "documentation": "https://www.edrdg.org/jmdict/j_jmdict.html",
   "licenseUrl": "https://www.edrdg.org/edrdg/licence.html",
-  "extractedAt": "2026-10-06T01:12:16.664507+00:00",
-  "subsetSha256": "4f5b01f3e03a299f5d13ed8bd0938d8e9ead45c5f1879cf3f8cc0b1368e0a9df",
+  "extractedAt": "2026-10-06T02:57:46.702634+00:00",
+  "subsetSha256": "7c317a4e7d9cf41ccb1b103ac96fa3942373d2edd14b9b24d0d9f9d4044f0ffe",
   "sourcePackHashes": {
     "first-post.json": "27d1e873b23483339e19e02af9e6bb74b94c1c201266a5f992c2f60b448e149b",
     "n4-u01.json": "3805e4000d9b2d7384d62abeb33825eb105804803f36b30c11cd8126efd5659c",
@@ -33,19 +33,21 @@
     "n5-u09.json": "565c52c0f838dd119b0060afc3c1e650219e5df8c4b293c64b97b2caa5e6dd8a",
     "n5-u10.json": "8ad22b6c3da8400fcdb4f885a1ba56a957466953fa1ddcf0347a83cd542c346f",
     "n5-u11.json": "a4f06df6ea456c0f3cc30a80889c498a4aebca16a9a943a4d5bd9d0e8d63ab83",
-    "n5-u12.json": "595dd87b06fe3f1b31d7c1efa1602506448bd0115d0338949be686815be208e9"
+    "n5-u12.json": "595dd87b06fe3f1b31d7c1efa1602506448bd0115d0338949be686815be208e9",
+    "n5-vocab-01.json": "0ff0aa07bc0bb444d04582f6e8d9d6c1b081bb8b9b52bc2755efbc356b39862b",
+    "n5-vocab-02.json": "e03557029b6a829bc860dfb18613bc29ad623271bf5d427eda92490cc1c8580f"
   },
   "readingRestrictionsRespected": true,
   "kanaComparison": "NFKC and katakana-to-hiragana only",
   "scope": "Dictionary spelling/reading pairs only; not meaning, pronunciation in context, grammar or naturalness",
-  "previousSubsetForms": 432,
-  "subsetForms": 432,
-  "previousWordsWithDictionaryForm": 439,
-  "totalWords": 668,
-  "uniqueForms": 636,
+  "previousSubsetForms": 632,
+  "subsetForms": 632,
+  "previousWordsWithDictionaryForm": 640,
+  "totalWords": 868,
+  "uniqueForms": 835,
   "counts": {
     "excluded-drill": 157,
-    "matched": 426,
+    "matched": 626,
     "unmatched": 81,
     "name-unverified": 4
   }

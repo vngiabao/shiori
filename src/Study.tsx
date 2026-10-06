@@ -21,6 +21,7 @@ import {
 } from "./content";
 import {
   AudioButton,
+  WordExample,
   Button,
   Dialog,
   Japanese,
@@ -97,7 +98,20 @@ export function Read({
         ))}
       </div>
       {tab === "Texts" ? (
-        <div className="grammar-list">{readings.map(r => <details key={r.id}><summary>{r.title}</summary><ReadingPreview reading={r} /><Button secondary onClick={() => start(lessons.find(l => l.id === r.lesson)!)}>Open its lesson <ArrowRight /></Button></details>)}</div>
+        <div className="grammar-list">
+          {readings.map((r) => (
+            <details key={r.id}>
+              <summary>{r.title}</summary>
+              <ReadingPreview reading={r} />
+              <Button
+                secondary
+                onClick={() => start(lessons.find((l) => l.id === r.lesson)!)}
+              >
+                Open its lesson <ArrowRight />
+              </Button>
+            </details>
+          ))}
+        </div>
       ) : tab === "Reading path" ? (
         <ReadingPath />
       ) : tab === "Text desk" ? (
@@ -210,9 +224,15 @@ export function Read({
     </>
   );
 }
-function ReadingPreview({reading}: {reading: import("./types").Reading}) {
-  const [supported,setSupported] = useState(false);
-  return <ReadingText reading={reading} supported={supported} onSupport={() => setSupported(true)} />;
+function ReadingPreview({ reading }: { reading: import("./types").Reading }) {
+  const [supported, setSupported] = useState(false);
+  return (
+    <ReadingText
+      reading={reading}
+      supported={supported}
+      onSupport={() => setSupported(true)}
+    />
+  );
 }
 export function WordDialog({ word, close }: { word: Word; close: () => void }) {
   const [audioError, setAudioError] = useState("");
@@ -248,6 +268,7 @@ export function WordDialog({ word, close }: { word: Word; close: () => void }) {
           <h3>{word.meaning}</h3>
           <span className="register">{word.register}</span>
           <AudioButton text={wordAudioText(word)} />
+          <WordExample word={word} />
           {audioError && <p role="status">{audioError}</p>}
           {[...word.text].length === 1 && <Stroke char={word.text} />}
           <p className="muted">
@@ -736,13 +757,25 @@ export function Practice({
           <details key={g.id}>
             <summary>{g.title}</summary>
             <p>{g.explanation}</p>
-            {g.formation && <p><strong>Formation:</strong> {g.formation}</p>}
+            {g.formation && (
+              <p>
+                <strong>Formation:</strong> {g.formation}
+              </p>
+            )}
             <p className="grammar-example" lang="ja">
               {g.example}
             </p>
             <p>{g.translation}</p>
             <AudioButton text={g.example} />
-            {g.examples?.map((x,i) => <div key={i}><p lang="ja"><Furigana text={x.ja} /></p><p>{x.en}</p><AudioButton text={plain(x.ja)} /></div>)}
+            {g.examples?.map((x, i) => (
+              <div key={i}>
+                <p lang="ja">
+                  <Furigana text={x.ja} />
+                </p>
+                <p>{x.en}</p>
+                <AudioButton text={plain(x.ja)} />
+              </div>
+            ))}
             {g.mistake && <p className="notice-note">{g.mistake}</p>}
           </details>
         ))}
@@ -894,7 +927,10 @@ function Conversation({ id, back }: { id: string; back: () => void }) {
         Conversations
       </button>
       <PageHeading title={r.title} description={r.scene} />
-      <p className="notice-note">Practise this phrase. This checks the target wording, not every possible natural reply.</p>
+      <p className="notice-note">
+        Practise this phrase. This checks the target wording, not every possible
+        natural reply.
+      </p>
       <div className="conversation-stage">
         <div className="partner-line">
           <span>{r.partner}</span>
@@ -957,11 +993,23 @@ function Conversation({ id, back }: { id: string; back: () => void }) {
           </div>
         </form>
         {hint && (
-          <div className="notice-note"><p lang="ja">
-            {t.example}
-            <AudioButton text={t.example} label="Hear the example" />
-            <span className="muted" lang="en"> · {t.exampleMeaning ?? t.task} · supported practice</span>
-          </p>{t.alternatives?.map(a => <p key={a}><span className="muted">Also accepted: </span><span lang="ja">{a}</span><AudioButton text={a} label="Hear the alternative" /></p>)}</div>
+          <div className="notice-note">
+            <p lang="ja">
+              {t.example}
+              <AudioButton text={t.example} label="Hear the example" />
+              <span className="muted" lang="en">
+                {" "}
+                · {t.exampleMeaning ?? t.task} · supported practice
+              </span>
+            </p>
+            {t.alternatives?.map((a) => (
+              <p key={a}>
+                <span className="muted">Also accepted: </span>
+                <span lang="ja">{a}</span>
+                <AudioButton text={a} label="Hear the alternative" />
+              </p>
+            ))}
+          </div>
         )}
         {result !== null && (
           <div role="status" className="conversation-feedback">

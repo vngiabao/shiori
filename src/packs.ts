@@ -1,11 +1,11 @@
 import type { Pack } from "./types";
-import { plain, rubyIsWellFormed } from "./text";
+import { plain, kanaOf, rubyIsWellFormed } from "./text";
 // Dictionaries may write a kana reading in katakana; this is the same reading,
 // not permission to ignore punctuation, long vowels, voicing or small kana.
 export const dictionaryReadingKey = (text: string) =>
-  text.normalize("NFKC").replace(/[ァ-ヶ]/g, (c) =>
-    String.fromCharCode(c.charCodeAt(0) - 0x60),
-  );
+  text
+    .normalize("NFKC")
+    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60));
 export const normalize = (s: string) =>
   s
     .normalize("NFKC")
@@ -45,17 +45,44 @@ export function validatePack(
       errors.push(`Reading alignment ${w.id}`);
     if (w.parts.some((p) => /\p{Script=Han}/u.test(p.text) && !p.reading))
       errors.push(`Unglossed kanji ${w.id}`);
+    if (
+      w.exampleRuby !== undefined &&
+      (!rubyIsWellFormed(w.exampleRuby) ||
+        plain(w.exampleRuby) !== w.example ||
+        !w.exampleMeaning ||
+        /\p{Script=Han}/u.test(kanaOf(w.exampleRuby)))
+    )
+      errors.push(`Incomplete supported example ${w.id}`);
     if (w.jlpt !== null && jlpt[w.text] !== w.jlpt)
       errors.push(`JLPT mapping unverified ${w.id}`);
-    if (!/^(h-|k-|sound-)/.test(w.id) && !["yui","ren","hana","n5-u01-w-sato"].includes(w.id) && lexicon[w.text] && !lexicon[w.text].some(
-      (reading) => dictionaryReadingKey(reading) === dictionaryReadingKey(w.kana),
-    ))
+    if (
+      !/^(h-|k-|sound-)/.test(w.id) &&
+      !["yui", "ren", "hana", "n5-u01-w-sato"].includes(w.id) &&
+      lexicon[w.text] &&
+      !lexicon[w.text].some(
+        (reading) =>
+          dictionaryReadingKey(reading) === dictionaryReadingKey(w.kana),
+      )
+    )
       errors.push(`JMdict reading mismatch ${w.id}`);
-    if (w.lemma && (typeof w.lemma.text !== 'string' || typeof w.lemma.kana !== 'string' || !lexicon[w.lemma.text]?.some(r=>dictionaryReadingKey(r)===dictionaryReadingKey(w.lemma!.kana))))
+    if (
+      w.lemma &&
+      (typeof w.lemma.text !== "string" ||
+        typeof w.lemma.kana !== "string" ||
+        !lexicon[w.lemma.text]?.some(
+          (r) =>
+            dictionaryReadingKey(r) === dictionaryReadingKey(w.lemma!.kana),
+        ))
+    )
       errors.push(`JMdict lemma missing or mismatch ${w.id}`);
   }
   const entityIds = new Set<string>();
-  for (const l of [...p.lessons, ...p.letters, ...p.roleplays, ...(p.readings ?? [])]) {
+  for (const l of [
+    ...p.lessons,
+    ...p.letters,
+    ...p.roleplays,
+    ...(p.readings ?? []),
+  ]) {
     if (entityIds.has(l.id)) errors.push(`Duplicate item ${l.id}`);
     entityIds.add(l.id);
   }
@@ -87,7 +114,8 @@ export function validatePack(
   }
   for (const rp of p.roleplays)
     for (const t of rp.turns) {
-      if (t.alternatives?.some(a => !accepts(a, t.accept))) errors.push(`Roleplay alternative rejected: ${rp.id}`);
+      if (t.alternatives?.some((a) => !accepts(a, t.accept)))
+        errors.push(`Roleplay alternative rejected: ${rp.id}`);
       try {
         if (!accepts(t.example, t.accept))
           errors.push(`Role-play rejects own example ${rp.id}`);
@@ -103,7 +131,7 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
   const errors: string[] = [];
   const lessonIds = new Set(p.lessons.map((l) => l.id));
   const letterIds = new Set(p.letters.map((l) => l.id));
-  const readingIds = new Set((p.readings ?? []).map(r => r.id));
+  const readingIds = new Set((p.readings ?? []).map((r) => r.id));
   const dialogueIds = new Set<string>();
   const ruby = (id: string, ...texts: (string | undefined)[]) => {
     for (const t of texts)
@@ -113,34 +141,86 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
   for (const r of p.readings ?? []) {
     if (!lessonIds.has(r.lesson) || !r.title || !r.paragraphs.length)
       errors.push(`Incomplete reading ${r.id}`);
-    if (!["notice", "message", "email", "article", "diary", "guide", "story", "essay", "news", "literature", "manga"].includes(r.genre))
+    if (
+      ![
+        "notice",
+        "message",
+        "email",
+        "article",
+        "diary",
+        "guide",
+        "story",
+        "essay",
+        "news",
+        "literature",
+        "manga",
+      ].includes(r.genre)
+    )
       errors.push(`Reading genre ${r.id}`);
-    ruby(r.id, ...r.paragraphs, ...(r.table?.head ?? []), ...(r.table?.rows.flat() ?? []));
-    if (r.table && (!r.table.head.length || !r.table.rows.length || r.table.rows.some(row => row.length !== r.table!.head.length)))
+    ruby(
+      r.id,
+      ...r.paragraphs,
+      ...(r.table?.head ?? []),
+      ...(r.table?.rows.flat() ?? []),
+    );
+    if (
+      r.table &&
+      (!r.table.head.length ||
+        !r.table.rows.length ||
+        r.table.rows.some((row) => row.length !== r.table!.head.length))
+    )
       errors.push(`Reading table ${r.id}`);
-    if (r.glosses.some(g => !g.text || !g.kana || !g.meaning))
+    if (r.glosses.some((g) => !g.text || !g.kana || !g.meaning))
       errors.push(`Incomplete gloss ${r.id}`);
-    if (r.pair && (!readingIds.has(r.pair) || r.pair === r.id)) errors.push(`Invalid reading pair ${r.id}`);
-    if (r.genre === "literature" && (!r.source || !r.source.title || !r.source.author || !r.source.url || !r.source.licence || !Number.isInteger(r.source.deathYear) || r.source.deathYear > 1967)) errors.push(`Literature source ${r.id}`);
-    if (r.genre === "manga" && !r.panels?.length) errors.push(`Manga panels missing ${r.id}`);
+    if (r.pair && (!readingIds.has(r.pair) || r.pair === r.id))
+      errors.push(`Invalid reading pair ${r.id}`);
+    if (
+      r.genre === "literature" &&
+      (!r.source ||
+        !r.source.title ||
+        !r.source.author ||
+        !r.source.url ||
+        !r.source.licence ||
+        !Number.isInteger(r.source.deathYear) ||
+        r.source.deathYear > 1967)
+    )
+      errors.push(`Literature source ${r.id}`);
+    if (r.genre === "manga" && !r.panels?.length)
+      errors.push(`Manga panels missing ${r.id}`);
     for (const panel of r.panels ?? []) {
-      if (!panel.description || !panel.lines.length || panel.lines.some(l => !l.speaker || !l.line)) errors.push(`Incomplete manga panel ${r.id}`);
-      ruby(r.id, ...panel.lines.map(l => l.line));
+      if (
+        !panel.description ||
+        !panel.lines.length ||
+        panel.lines.some((l) => !l.speaker || !l.line)
+      )
+        errors.push(`Incomplete manga panel ${r.id}`);
+      ruby(r.id, ...panel.lines.map((l) => l.line));
     }
   }
   for (const g of p.grammar) {
-    if (g.lessons && (!g.lessons.length || g.lessons.some(id => !lessonIds.has(id)))) errors.push(`Grammar lesson binding ${g.id}`);
-    if (p.lessons.length > 1 && g.formation && !g.lessons) errors.push(`Multi-lesson grammar needs explicit scope ${g.id}`);
-    ruby(g.id, ...(g.examples ?? []).map(x => x.ja));
-    if (g.examples?.some(x => !x.ja || !x.en)) errors.push(`Grammar example ${g.id}`);
+    if (
+      g.lessons &&
+      (!g.lessons.length || g.lessons.some((id) => !lessonIds.has(id)))
+    )
+      errors.push(`Grammar lesson binding ${g.id}`);
+    if (p.lessons.length > 1 && g.formation && !g.lessons)
+      errors.push(`Multi-lesson grammar needs explicit scope ${g.id}`);
+    ruby(g.id, ...(g.examples ?? []).map((x) => x.ja));
+    if (g.examples?.some((x) => !x.ja || !x.en))
+      errors.push(`Grammar example ${g.id}`);
   }
   for (const d of p.dialogues ?? []) {
     if (dialogueIds.has(d.id)) errors.push(`Duplicate dialogue ${d.id}`);
     dialogueIds.add(d.id);
     if (!lessonIds.has(d.lesson)) errors.push(`Unknown lesson in ${d.id}`);
     if (d.lines.length < 3) errors.push(`Dialogue too short ${d.id}`);
-    if (d.speed !== undefined && (!Number.isFinite(d.speed) || d.speed < 1 || d.speed > 1.25)) errors.push(`Dialogue speed ${d.id}`);
-    if (d.words?.some(id => !wordIds.has(id))) errors.push(`Dialogue words ${d.id}`);
+    if (
+      d.speed !== undefined &&
+      (!Number.isFinite(d.speed) || d.speed < 1 || d.speed > 1.25)
+    )
+      errors.push(`Dialogue speed ${d.id}`);
+    if (d.words?.some((id) => !wordIds.has(id)))
+      errors.push(`Dialogue words ${d.id}`);
     for (const l of d.lines) {
       if (!l.speaker || !l.line || !l.romaji || !l.meaning)
         errors.push(`Incomplete dialogue line ${d.id}`);
@@ -158,23 +238,45 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
       !(x.reading && readingIds.has(x.reading))
     )
       errors.push(`Exercise without a lesson or letter ${x.id}`);
-    if (x.reading && !readingIds.has(x.reading)) errors.push(`Unknown reading in ${x.id}`);
+    if (x.reading && !readingIds.has(x.reading))
+      errors.push(`Unknown reading in ${x.id}`);
     if (x.reading && x.lesson) {
-      const readingLesson=(p.readings ?? []).find(r => r.id === x.reading)?.lesson;
-      if (readingLesson && p.lessons.findIndex(l => l.id === readingLesson) > p.lessons.findIndex(l => l.id === x.lesson)) errors.push(`Reading tested before its lesson ${x.id}`);
+      const readingLesson = (p.readings ?? []).find(
+        (r) => r.id === x.reading,
+      )?.lesson;
+      if (
+        readingLesson &&
+        p.lessons.findIndex((l) => l.id === readingLesson) >
+          p.lessons.findIndex((l) => l.id === x.lesson)
+      )
+        errors.push(`Reading tested before its lesson ${x.id}`);
     }
     if (x.type === "compare") {
-      const primary = (p.readings ?? []).find(r => r.id === x.reading);
+      const primary = (p.readings ?? []).find((r) => r.id === x.reading);
       if (!primary?.pair) errors.push(`Compare needs paired readings ${x.id}`);
-      const paired = (p.readings ?? []).find(r => r.id === primary?.pair);
-      if (paired && x.lesson && p.lessons.findIndex(l => l.id === paired.lesson) > p.lessons.findIndex(l => l.id === x.lesson))
+      const paired = (p.readings ?? []).find((r) => r.id === primary?.pair);
+      if (
+        paired &&
+        x.lesson &&
+        p.lessons.findIndex((l) => l.id === paired.lesson) >
+          p.lessons.findIndex((l) => l.id === x.lesson)
+      )
         errors.push(`Paired reading tested before its lesson ${x.id}`);
     }
-    if (x.type === "register" && !x.context) errors.push(`Register needs listener and situation ${x.id}`);
-    if (x.type === "speaker" && (!x.line || !x.dialogue)) errors.push(`Speaker needs a scene and line ${x.id}`);
+    if (x.type === "register" && !x.context)
+      errors.push(`Register needs listener and situation ${x.id}`);
+    if (x.type === "speaker" && (!x.line || !x.dialogue))
+      errors.push(`Speaker needs a scene and line ${x.id}`);
     if (x.type === "speaker" && x.line && x.dialogue) {
-      const matches = p.dialogues?.find(d => d.id === x.dialogue)?.lines.filter(l => plain(l.line) === plain(x.line!)) ?? [];
-      if (matches.length !== 1 || typeof x.answer !== "number" || x.options?.[x.answer] !== matches[0]?.speaker)
+      const matches =
+        p.dialogues
+          ?.find((d) => d.id === x.dialogue)
+          ?.lines.filter((l) => plain(l.line) === plain(x.line!)) ?? [];
+      if (
+        matches.length !== 1 ||
+        typeof x.answer !== "number" ||
+        x.options?.[x.answer] !== matches[0]?.speaker
+      )
         errors.push(`Speaker key must identify one exact scene line ${x.id}`);
     }
     if (x.dialogue && !dialogueIds.has(x.dialogue))

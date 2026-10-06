@@ -1,0 +1,1955 @@
+{
+  "deck": "n5-vocab-02",
+  "communityLevel": "N5",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n5.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n5.csv",
+    "sha256": "f89abc86b391c4f2b551bbf8910b0de6cd600973b3a9f8d98347513921929ebe"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "cb50ce26595f5ea8386b532320ee9dbe4b0848a86128fe84e7d8b39ea6c906aa",
+  "exclusion": "Exact spelling/reading and shared JMdict entry candidates excluded against other installed content. Within-deck candidates require explicit editorial decisions.",
+  "aliasDecisions": [],
+  "words": [
+    {
+      "id": "n5-vocab-02-w-0002",
+      "sourceRow": 2,
+      "original": {
+        "expression": "ああ",
+        "reading": "ああ",
+        "meaning": "Ah!, Oh!",
+        "tags": "JLPT JLPT_4 JLPT_5 JLPT_N5",
+        "guid": "HI-.Ij?HS~"
+      },
+      "selected": {
+        "text": "ああ",
+        "kana": "ああ"
+      },
+      "dictionaryEntryIds": [
+        "1565440",
+        "2085080",
+        "2252550"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0014",
+      "sourceRow": 14,
+      "original": {
+        "expression": "朝御飯",
+        "reading": "あさごはん",
+        "meaning": "breakfast",
+        "tags": "Genki Genki_Ln.3 JLPT JLPT_5 JLPT_N5",
+        "guid": "wWUR=G6*(U"
+      },
+      "selected": {
+        "text": "朝御飯",
+        "kana": "あさごはん"
+      },
+      "dictionaryEntryIds": [
+        "1586330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0092",
+      "sourceRow": 92,
+      "original": {
+        "expression": "ええ",
+        "reading": "ええ",
+        "meaning": "yes",
+        "tags": "Genki Genki_Ln.1 JLPT JLPT_5 JLPT_N5",
+        "guid": "K4f;DsCIdC"
+      },
+      "selected": {
+        "text": "ええ",
+        "kana": "ええ"
+      },
+      "dictionaryEntryIds": [
+        "1001140"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0111",
+      "sourceRow": 111,
+      "original": {
+        "expression": "伯父; 叔父さん",
+        "reading": "おじさん",
+        "meaning": "uncle, middle-aged man",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "s$4&3o9W|{"
+      },
+      "selected": {
+        "text": "叔父さん",
+        "kana": "おじさん"
+      },
+      "dictionaryEntryIds": [
+        "2261490"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0129",
+      "sourceRow": 129,
+      "original": {
+        "expression": "伯母さん; 叔母さん",
+        "reading": "おばさん",
+        "meaning": "aunt",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "fk]_fvvw.h"
+      },
+      "selected": {
+        "text": "伯母さん",
+        "kana": "おばさん"
+      },
+      "dictionaryEntryIds": [
+        "2261500"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0134",
+      "sourceRow": 134,
+      "original": {
+        "expression": "おまわりさん",
+        "reading": "おまわりさん",
+        "meaning": "policeman (friendly term)",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "kI/erxg?st"
+      },
+      "selected": {
+        "text": "おまわりさん",
+        "kana": "おまわりさん"
+      },
+      "dictionaryEntryIds": [
+        "1002120"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0154",
+      "sourceRow": 154,
+      "original": {
+        "expression": "かかる",
+        "reading": "かかる",
+        "meaning": "it takes (amount of time, money) (v.i.)",
+        "tags": "Genki Genki_Ln.10 Intermediate_Japanese Intermediate_Japanese_Ln.1 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "yajlZ<1W@="
+      },
+      "selected": {
+        "text": "かかる",
+        "kana": "かかる"
+      },
+      "dictionaryEntryIds": [
+        "1193110",
+        "1207590",
+        "1249300",
+        "1609500",
+        "2076580",
+        "2841189"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0159",
+      "sourceRow": 159,
+      "original": {
+        "expression": "掛ける",
+        "reading": "かける",
+        "meaning": "to put on (e.g., glasses); to hang (e.g., on a wall)",
+        "tags": "JLPT JLPT_3 JLPT_4 JLPT_5 JLPT_N5",
+        "guid": "J@I.fZoEvE"
+      },
+      "selected": {
+        "text": "掛ける",
+        "kana": "かける"
+      },
+      "dictionaryEntryIds": [
+        "1207610"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0163",
+      "sourceRow": 163,
+      "original": {
+        "expression": "風",
+        "reading": "かぜ",
+        "meaning": "wind, breeze",
+        "tags": "Genki Genki_Ln.22 JLPT JLPT_5 JLPT_N5",
+        "guid": "wPz(SGuAqF"
+      },
+      "selected": {
+        "text": "風",
+        "kana": "かぜ"
+      },
+      "dictionaryEntryIds": [
+        "1361130",
+        "1499720",
+        "1499730"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0165",
+      "sourceRow": 165,
+      "original": {
+        "expression": "方",
+        "reading": "かた",
+        "meaning": "-- honorific form for 人 (ひと) --; way of doing",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.4 JLPT JLPT_3 JLPT_4 JLPT_5 JLPT_N5",
+        "guid": "GtdTiap.Os"
+      },
+      "selected": {
+        "text": "方",
+        "kana": "かた"
+      },
+      "dictionaryEntryIds": [
+        "1516925",
+        "1516930",
+        "1545790",
+        "2253290",
+        "2254960"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0167",
+      "sourceRow": 167,
+      "original": {
+        "expression": "片仮名",
+        "reading": "かたかな",
+        "meaning": "katakana",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "y%B]18.T{|"
+      },
+      "selected": {
+        "text": "片仮名",
+        "kana": "かたかな"
+      },
+      "dictionaryEntryIds": [
+        "1511600"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0169",
+      "sourceRow": 169,
+      "original": {
+        "expression": "学校",
+        "reading": "がっこう",
+        "meaning": "a school",
+        "tags": "Genki Genki_Ln.3 JLPT JLPT_5 JLPT_N5",
+        "guid": "jMUlk]n4bL"
+      },
+      "selected": {
+        "text": "学校",
+        "kana": "がっこう"
+      },
+      "dictionaryEntryIds": [
+        "1206730"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0170",
+      "sourceRow": 170,
+      "original": {
+        "expression": "カップ",
+        "reading": "カップ",
+        "meaning": "cup",
+        "tags": "JLPT JLPT_1 JLPT_5 JLPT_N5",
+        "guid": "N>J.3DDIIf"
+      },
+      "selected": {
+        "text": "カップ",
+        "kana": "カップ"
+      },
+      "dictionaryEntryIds": [
+        "1037670"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0171",
+      "sourceRow": 171,
+      "original": {
+        "expression": "家庭",
+        "reading": "かてい",
+        "meaning": "home; family",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.3 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "K=/LkA^bE5"
+      },
+      "selected": {
+        "text": "家庭",
+        "kana": "かてい"
+      },
+      "dictionaryEntryIds": [
+        "1192280"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0172",
+      "sourceRow": 172,
+      "original": {
+        "expression": "角",
+        "reading": "かど",
+        "meaning": "corner (e.g., desk, pavement)",
+        "tags": "Genki Genki_Ln.20 JLPT JLPT_5 JLPT_N5",
+        "guid": "NblB:vgsi`"
+      },
+      "selected": {
+        "text": "角",
+        "kana": "かど"
+      },
+      "dictionaryEntryIds": [
+        "1206100",
+        "1206110",
+        "1206120",
+        "1246440"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0174",
+      "sourceRow": 174,
+      "original": {
+        "expression": "花瓶",
+        "reading": "かびん",
+        "meaning": "(flower) vase",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "m<:4xC~U|%"
+      },
+      "selected": {
+        "text": "花瓶",
+        "kana": "かびん"
+      },
+      "dictionaryEntryIds": [
+        "1194870",
+        "2597850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0175",
+      "sourceRow": 175,
+      "original": {
+        "expression": "かぶる",
+        "reading": "かぶる",
+        "meaning": "to wear, to put on (e.g., a hat on the head)",
+        "tags": "Genki Genki_Ln.7 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "v~,/++9.ks"
+      },
+      "selected": {
+        "text": "かぶる",
+        "kana": "かぶる"
+      },
+      "dictionaryEntryIds": [
+        "1484330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0177",
+      "sourceRow": 177,
+      "original": {
+        "expression": "カメラ",
+        "reading": "カメラ",
+        "meaning": "camera",
+        "tags": "Genki Genki_Ln.8 JLPT JLPT_5 JLPT_N5",
+        "guid": "m@gkXGnk1!"
+      },
+      "selected": {
+        "text": "カメラ",
+        "kana": "カメラ"
+      },
+      "dictionaryEntryIds": [
+        "1038350"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0178",
+      "sourceRow": 178,
+      "original": {
+        "expression": "火曜日",
+        "reading": "かようび",
+        "meaning": "Tuesday",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_5 JLPT_N5",
+        "guid": "rx9;D%FE+1"
+      },
+      "selected": {
+        "text": "火曜日",
+        "kana": "かようび"
+      },
+      "dictionaryEntryIds": [
+        "1194290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0179",
+      "sourceRow": 179,
+      "original": {
+        "expression": "辛い",
+        "reading": "からい",
+        "meaning": "hot and spicy; salty",
+        "tags": "Genki Genki_Ln.13 JLPT JLPT_5 JLPT_N5",
+        "guid": "EjaGe<]5<&"
+      },
+      "selected": {
+        "text": "辛い",
+        "kana": "からい"
+      },
+      "dictionaryEntryIds": [
+        "1365850",
+        "1365860",
+        "2096480"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0180",
+      "sourceRow": 180,
+      "original": {
+        "expression": "体",
+        "reading": "からだ",
+        "meaning": "body; health",
+        "tags": "Genki Genki_Ln.23 Intermediate_Japanese Intermediate_Japanese_Ln.4 JLPT JLPT_5 JLPT_N5",
+        "guid": "x=d[R_7msH"
+      },
+      "selected": {
+        "text": "体",
+        "kana": "からだ"
+      },
+      "dictionaryEntryIds": [
+        "1409140",
+        "1409150",
+        "1409160"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0181",
+      "sourceRow": 181,
+      "original": {
+        "expression": "借りる",
+        "reading": "かりる",
+        "meaning": "to borrow, to owe",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "EV_.CiOUqY"
+      },
+      "selected": {
+        "text": "借りる",
+        "kana": "かりる"
+      },
+      "dictionaryEntryIds": [
+        "1323560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0183",
+      "sourceRow": 183,
+      "original": {
+        "expression": "軽い",
+        "reading": "かるい",
+        "meaning": "light, non-serious, minor",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "Q?,F=N/]i*"
+      },
+      "selected": {
+        "text": "軽い",
+        "kana": "かるい"
+      },
+      "dictionaryEntryIds": [
+        "1252560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0184",
+      "sourceRow": 184,
+      "original": {
+        "expression": "カレー",
+        "reading": "カレー",
+        "meaning": "curry (abbr. for curry and rice)",
+        "tags": "Genki Genki_Ln.13 JLPT JLPT_1 JLPT_5 JLPT_N5",
+        "guid": "l)iLA}_6t!"
+      },
+      "selected": {
+        "text": "カレー",
+        "kana": "カレー"
+      },
+      "dictionaryEntryIds": [
+        "1039140"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0185",
+      "sourceRow": 185,
+      "original": {
+        "expression": "カレンダー",
+        "reading": "カレンダー",
+        "meaning": "calendar",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "H,vNs@Ml~$"
+      },
+      "selected": {
+        "text": "カレンダー",
+        "kana": "カレンダー"
+      },
+      "dictionaryEntryIds": [
+        "1039220"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0186",
+      "sourceRow": 186,
+      "original": {
+        "expression": "川; 河",
+        "reading": "かわ",
+        "meaning": "river",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "QzV_(D2VAO"
+      },
+      "selected": {
+        "text": "川",
+        "kana": "かわ"
+      },
+      "dictionaryEntryIds": [
+        "1390020"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0188",
+      "sourceRow": 188,
+      "original": {
+        "expression": "可愛い",
+        "reading": "かわいい",
+        "meaning": "cute, adorable",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "cM$xbG,Do&"
+      },
+      "selected": {
+        "text": "可愛い",
+        "kana": "かわいい"
+      },
+      "dictionaryEntryIds": [
+        "1577200",
+        "2863274"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0191",
+      "sourceRow": 191,
+      "original": {
+        "expression": "黄色",
+        "reading": "きいろ",
+        "meaning": "yellow",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "c$:@4*e3c*"
+      },
+      "selected": {
+        "text": "黄色",
+        "kana": "きいろ"
+      },
+      "dictionaryEntryIds": [
+        "1576760"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0192",
+      "sourceRow": 192,
+      "original": {
+        "expression": "黄色い",
+        "reading": "きいろい",
+        "meaning": "yellow",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "yw~rIwG)7I"
+      },
+      "selected": {
+        "text": "黄色い",
+        "kana": "きいろい"
+      },
+      "dictionaryEntryIds": [
+        "1182030"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0194",
+      "sourceRow": 194,
+      "original": {
+        "expression": "聞く",
+        "reading": "きく",
+        "meaning": "to hear, to listen, to ask",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "CbCe+?lSS("
+      },
+      "selected": {
+        "text": "聞く",
+        "kana": "きく"
+      },
+      "dictionaryEntryIds": [
+        "1591110"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0195",
+      "sourceRow": 195,
+      "original": {
+        "expression": "北",
+        "reading": "きた",
+        "meaning": "north",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.10 JLPT JLPT_5 JLPT_N5",
+        "guid": "c_4*(T~qY|"
+      },
+      "selected": {
+        "text": "北",
+        "kana": "きた"
+      },
+      "dictionaryEntryIds": [
+        "1520670",
+        "2833070"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0196",
+      "sourceRow": 196,
+      "original": {
+        "expression": "ギター",
+        "reading": "ギター",
+        "meaning": "guitar",
+        "tags": "Genki Genki_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "gl.RMMgxvn"
+      },
+      "selected": {
+        "text": "ギター",
+        "kana": "ギター"
+      },
+      "dictionaryEntryIds": [
+        "1042820"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0197",
+      "sourceRow": 197,
+      "original": {
+        "expression": "汚い",
+        "reading": "きたない",
+        "meaning": "dirty, unclean, filthy",
+        "tags": "Genki Genki_Ln.16 JLPT JLPT_5 JLPT_N5",
+        "guid": "gA&c1.)X%="
+      },
+      "selected": {
+        "text": "汚い",
+        "kana": "きたない"
+      },
+      "dictionaryEntryIds": [
+        "1178940"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0198",
+      "sourceRow": 198,
+      "original": {
+        "expression": "喫茶店",
+        "reading": "きっさてん",
+        "meaning": "café",
+        "tags": "Genki Genki_Ln.2 Intermediate_Japanese Intermediate_Japanese_Ln.11 JLPT JLPT_5 JLPT_N5",
+        "guid": "b3?(}lhy[4"
+      },
+      "selected": {
+        "text": "喫茶店",
+        "kana": "きっさてん"
+      },
+      "dictionaryEntryIds": [
+        "1226440"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0199",
+      "sourceRow": 199,
+      "original": {
+        "expression": "切手",
+        "reading": "きって",
+        "meaning": "postal (postage) stamps",
+        "tags": "Genki Genki_Ln.5 Intermediate_Japanese Intermediate_Japanese_Ln.3 JLPT JLPT_5 JLPT_N5",
+        "guid": "GZ2eU+7^)f"
+      },
+      "selected": {
+        "text": "切手",
+        "kana": "きって"
+      },
+      "dictionaryEntryIds": [
+        "1385070",
+        "1591920"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0203",
+      "sourceRow": 203,
+      "original": {
+        "expression": "牛肉",
+        "reading": "ぎゅうにく",
+        "meaning": "beef",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "HN>QIS,sa)"
+      },
+      "selected": {
+        "text": "牛肉",
+        "kana": "ぎゅうにく"
+      },
+      "dictionaryEntryIds": [
+        "1231580"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0204",
+      "sourceRow": 204,
+      "original": {
+        "expression": "牛乳",
+        "reading": "ぎゅうにゅう",
+        "meaning": "milk",
+        "tags": "Genki Genki_Ln.18 JLPT JLPT_5 JLPT_N5",
+        "guid": "fkn+n(t~hl"
+      },
+      "selected": {
+        "text": "牛乳",
+        "kana": "ぎゅうにゅう"
+      },
+      "dictionaryEntryIds": [
+        "1231590"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0207",
+      "sourceRow": 207,
+      "original": {
+        "expression": "兄弟",
+        "reading": "きょうだい",
+        "meaning": "siblings (humble), brothers and sisters",
+        "tags": "Genki Genki_Ln.7 JLPT JLPT_5 JLPT_N5",
+        "guid": "tg~Kr0A/Mn"
+      },
+      "selected": {
+        "text": "兄弟",
+        "kana": "きょうだい"
+      },
+      "dictionaryEntryIds": [
+        "1249960",
+        "2870775"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0209",
+      "sourceRow": 209,
+      "original": {
+        "expression": "嫌い",
+        "reading": "きらい",
+        "meaning": "dislike",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "qw1}y,Um4C"
+      },
+      "selected": {
+        "text": "嫌い",
+        "kana": "きらい"
+      },
+      "dictionaryEntryIds": [
+        "1257240",
+        "2796330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0210",
+      "sourceRow": 210,
+      "original": {
+        "expression": "切る",
+        "reading": "きる",
+        "meaning": "to cut; to hang up (a phone)",
+        "tags": "Genki Genki_Ln.8 Intermediate_Japanese Intermediate_Japanese_Ln.12 JLPT JLPT_5 JLPT_N5",
+        "guid": "A;e]B2v]77"
+      },
+      "selected": {
+        "text": "切る",
+        "kana": "きる"
+      },
+      "dictionaryEntryIds": [
+        "1384830"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0211",
+      "sourceRow": 211,
+      "original": {
+        "expression": "着る",
+        "reading": "きる",
+        "meaning": "to put on (clothes above your waist); to wear",
+        "tags": "Genki Genki_Ln.7 Intermediate_Japanese Intermediate_Japanese_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "g$-Eqb.V#N"
+      },
+      "selected": {
+        "text": "着る",
+        "kana": "きる"
+      },
+      "dictionaryEntryIds": [
+        "1423000"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0213",
+      "sourceRow": 213,
+      "original": {
+        "expression": "キロ; キログラム",
+        "reading": "キロ; キログラム",
+        "meaning": "(abbr.) kilo (kilogram)",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "v,MI,fa=Pd"
+      },
+      "selected": {
+        "text": "キロ",
+        "kana": "キロ"
+      },
+      "dictionaryEntryIds": [
+        "1042610"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0215",
+      "sourceRow": 215,
+      "original": {
+        "expression": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "bank",
+        "tags": "Genki Genki_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "dJzM6E^Crr"
+      },
+      "selected": {
+        "text": "銀行",
+        "kana": "ぎんこう"
+      },
+      "dictionaryEntryIds": [
+        "1243490"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0216",
+      "sourceRow": 216,
+      "original": {
+        "expression": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Friday",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "H)-<3>G;wq"
+      },
+      "selected": {
+        "text": "金曜日",
+        "kana": "きんようび"
+      },
+      "dictionaryEntryIds": [
+        "1243320"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0220",
+      "sourceRow": 220,
+      "original": {
+        "expression": "果物",
+        "reading": "くだもの",
+        "meaning": "fruit",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "ff8}}%,}l0"
+      },
+      "selected": {
+        "text": "果物",
+        "kana": "くだもの"
+      },
+      "dictionaryEntryIds": [
+        "1193060"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0221",
+      "sourceRow": 221,
+      "original": {
+        "expression": "口",
+        "reading": "くち",
+        "meaning": "job opening; mouth",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.11 Intermediate_Japanese_Ln.8 JLPT JLPT_5 JLPT_N5",
+        "guid": "ODcS@5Ag5;"
+      },
+      "selected": {
+        "text": "口",
+        "kana": "くち"
+      },
+      "dictionaryEntryIds": [
+        "1275640",
+        "2271620"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0222",
+      "sourceRow": 222,
+      "original": {
+        "expression": "靴",
+        "reading": "くつ",
+        "meaning": "shoes, footwear",
+        "tags": "Genki Genki_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "n}XPqtAFrb"
+      },
+      "selected": {
+        "text": "靴",
+        "kana": "くつ"
+      },
+      "dictionaryEntryIds": [
+        "1246700"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0223",
+      "sourceRow": 223,
+      "original": {
+        "expression": "靴下",
+        "reading": "くつした",
+        "meaning": "socks",
+        "tags": "Genki Genki_Ln.23 JLPT JLPT_5 JLPT_N5",
+        "guid": "m{wv6,~qH4"
+      },
+      "selected": {
+        "text": "靴下",
+        "kana": "くつした"
+      },
+      "dictionaryEntryIds": [
+        "1246740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0224",
+      "sourceRow": 224,
+      "original": {
+        "expression": "国",
+        "reading": "くに",
+        "meaning": "country; place of origin",
+        "tags": "Genki Genki_Ln.7 JLPT JLPT_5 JLPT_N5",
+        "guid": "qu43})1T{b"
+      },
+      "selected": {
+        "text": "国",
+        "kana": "くに"
+      },
+      "dictionaryEntryIds": [
+        "1592250"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0225",
+      "sourceRow": 225,
+      "original": {
+        "expression": "曇り",
+        "reading": "くもり",
+        "meaning": "cloudiness, cloudy weather",
+        "tags": "Genki Genki_Ln.12 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "J%t?_,0ZZ)"
+      },
+      "selected": {
+        "text": "曇り",
+        "kana": "くもり"
+      },
+      "dictionaryEntryIds": [
+        "1592340"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0226",
+      "sourceRow": 226,
+      "original": {
+        "expression": "曇る",
+        "reading": "くもる",
+        "meaning": "to become cloudy, to become dim",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "h68<#-5u4*"
+      },
+      "selected": {
+        "text": "曇る",
+        "kana": "くもる"
+      },
+      "dictionaryEntryIds": [
+        "1457560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0227",
+      "sourceRow": 227,
+      "original": {
+        "expression": "暗い",
+        "reading": "くらい",
+        "meaning": "dark, gloomy",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "l[W6inIL/c"
+      },
+      "selected": {
+        "text": "暗い",
+        "kana": "くらい"
+      },
+      "dictionaryEntryIds": [
+        "1154330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0229",
+      "sourceRow": 229,
+      "original": {
+        "expression": "クラス",
+        "reading": "クラス",
+        "meaning": "a class",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_5 JLPT_N5",
+        "guid": "I|[#&/BoM*"
+      },
+      "selected": {
+        "text": "クラス",
+        "kana": "クラス"
+      },
+      "dictionaryEntryIds": [
+        "1044070"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0230",
+      "sourceRow": 230,
+      "original": {
+        "expression": "グラム",
+        "reading": "グラム",
+        "meaning": "gram",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "wf@~Kdx9Mo"
+      },
+      "selected": {
+        "text": "グラム",
+        "kana": "グラム"
+      },
+      "dictionaryEntryIds": [
+        "1046810"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0232",
+      "sourceRow": 232,
+      "original": {
+        "expression": "車",
+        "reading": "くるま",
+        "meaning": "car, vehicle",
+        "tags": "Genki Genki_Ln.7 JLPT JLPT_5 JLPT_N5",
+        "guid": "Dp50G3U@L="
+      },
+      "selected": {
+        "text": "車",
+        "kana": "くるま"
+      },
+      "dictionaryEntryIds": [
+        "1323080",
+        "2773260"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0233",
+      "sourceRow": 233,
+      "original": {
+        "expression": "黒",
+        "reading": "くろ",
+        "meaning": "black",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "eM3bqzySWE"
+      },
+      "selected": {
+        "text": "黒",
+        "kana": "くろ"
+      },
+      "dictionaryEntryIds": [
+        "1287410"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0234",
+      "sourceRow": 234,
+      "original": {
+        "expression": "黒い",
+        "reading": "くろい",
+        "meaning": "black; dark",
+        "tags": "Genki Genki_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "y`TB7E}KvC"
+      },
+      "selected": {
+        "text": "黒い",
+        "kana": "くろい"
+      },
+      "dictionaryEntryIds": [
+        "1287420"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0235",
+      "sourceRow": 235,
+      "original": {
+        "expression": "警官",
+        "reading": "けいかん",
+        "meaning": "police officer",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "r|k<lg[-^X"
+      },
+      "selected": {
+        "text": "警官",
+        "kana": "けいかん"
+      },
+      "dictionaryEntryIds": [
+        "1252330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0236",
+      "sourceRow": 236,
+      "original": {
+        "expression": "今朝",
+        "reading": "けさ",
+        "meaning": "this morning",
+        "tags": "Genki Genki_Ln.8 Intermediate_Japanese Intermediate_Japanese_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "Ojh!YT%>_O"
+      },
+      "selected": {
+        "text": "今朝",
+        "kana": "けさ"
+      },
+      "dictionaryEntryIds": [
+        "1579100"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0238",
+      "sourceRow": 238,
+      "original": {
+        "expression": "結構",
+        "reading": "けっこう",
+        "meaning": "splendid; enough, tolerably",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "OhYc[d+;sX"
+      },
+      "selected": {
+        "text": "結構",
+        "kana": "けっこう"
+      },
+      "dictionaryEntryIds": [
+        "1254760"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0239",
+      "sourceRow": 239,
+      "original": {
+        "expression": "結婚",
+        "reading": "けっこん (する)",
+        "meaning": "marriage (get married)",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "yoFb9mQ>xx"
+      },
+      "selected": {
+        "text": "結婚",
+        "kana": "けっこん"
+      },
+      "dictionaryEntryIds": [
+        "1254790"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0240",
+      "sourceRow": 240,
+      "original": {
+        "expression": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Monday",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "py]#+qmS;#"
+      },
+      "selected": {
+        "text": "月曜日",
+        "kana": "げつようび"
+      },
+      "dictionaryEntryIds": [
+        "1255890"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0241",
+      "sourceRow": 241,
+      "original": {
+        "expression": "玄関",
+        "reading": "げんかん",
+        "meaning": "entrance (to a house or a building)",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.5 JLPT JLPT_4 JLPT_5 JLPT_N5",
+        "guid": "nzna3U1d%4"
+      },
+      "selected": {
+        "text": "玄関",
+        "kana": "げんかん"
+      },
+      "dictionaryEntryIds": [
+        "1263400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0242",
+      "sourceRow": 242,
+      "original": {
+        "expression": "元気",
+        "reading": "げんき",
+        "meaning": "health(y), energetic",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "C6oDoveAM%"
+      },
+      "selected": {
+        "text": "元気",
+        "kana": "げんき"
+      },
+      "dictionaryEntryIds": [
+        "1260720"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0246",
+      "sourceRow": 246,
+      "original": {
+        "expression": "公園",
+        "reading": "こうえん",
+        "meaning": "a park",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "I!nU=ub,Sv"
+      },
+      "selected": {
+        "text": "公園",
+        "kana": "こうえん"
+      },
+      "dictionaryEntryIds": [
+        "1273270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0247",
+      "sourceRow": 247,
+      "original": {
+        "expression": "交差点",
+        "reading": "こうさてん",
+        "meaning": "intersection",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "fB2Ek#M/vd"
+      },
+      "selected": {
+        "text": "交差点",
+        "kana": "こうさてん"
+      },
+      "dictionaryEntryIds": [
+        "1592970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0248",
+      "sourceRow": 248,
+      "original": {
+        "expression": "紅茶",
+        "reading": "こうちゃ",
+        "meaning": "black tea",
+        "tags": "Genki Genki_Ln.13 JLPT JLPT_5 JLPT_N5",
+        "guid": "k->[;qN`>7"
+      },
+      "selected": {
+        "text": "紅茶",
+        "kana": "こうちゃ"
+      },
+      "dictionaryEntryIds": [
+        "1280770"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0251",
+      "sourceRow": 251,
+      "original": {
+        "expression": "コート",
+        "reading": "コート",
+        "meaning": "coat; court (e.g., tennis)",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "e4scbA,t~J"
+      },
+      "selected": {
+        "text": "コート",
+        "kana": "コート"
+      },
+      "dictionaryEntryIds": [
+        "1049000",
+        "2842174"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0254",
+      "sourceRow": 254,
+      "original": {
+        "expression": "午後",
+        "reading": "ごご",
+        "meaning": "afternoon, P.M.",
+        "tags": "Genki Genki_Ln.1 JLPT JLPT_5 JLPT_N5",
+        "guid": "C_ZC&#?>G!"
+      },
+      "selected": {
+        "text": "午後",
+        "kana": "ごご"
+      },
+      "dictionaryEntryIds": [
+        "1268990"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0255",
+      "sourceRow": 255,
+      "original": {
+        "expression": "九日",
+        "reading": "ここのか",
+        "meaning": "nine days; ninth day of the month",
+        "tags": "Genki Genki_Ln.13 JLPT JLPT_5 JLPT_N5",
+        "guid": "l7hYJ[~^44"
+      },
+      "selected": {
+        "text": "九日",
+        "kana": "ここのか"
+      },
+      "dictionaryEntryIds": [
+        "1243850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0256",
+      "sourceRow": 256,
+      "original": {
+        "expression": "九つ",
+        "reading": "ここのつ",
+        "meaning": "nine things",
+        "tags": "Genki Genki_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "DvF}1X8pH="
+      },
+      "selected": {
+        "text": "九つ",
+        "kana": "ここのつ"
+      },
+      "dictionaryEntryIds": [
+        "1243600"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0257",
+      "sourceRow": 257,
+      "original": {
+        "expression": "午前",
+        "reading": "ごぜん",
+        "meaning": "morning, A.M.",
+        "tags": "Genki Genki_Ln.1 JLPT JLPT_5 JLPT_N5",
+        "guid": "ue~BwANA9n"
+      },
+      "selected": {
+        "text": "午前",
+        "kana": "ごぜん"
+      },
+      "dictionaryEntryIds": [
+        "1269060"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0258",
+      "sourceRow": 258,
+      "original": {
+        "expression": "答える",
+        "reading": "こたえる",
+        "meaning": "to answer, to reply",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "x<$h-)|1km"
+      },
+      "selected": {
+        "text": "答える",
+        "kana": "こたえる"
+      },
+      "dictionaryEntryIds": [
+        "1449540"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0261",
+      "sourceRow": 261,
+      "original": {
+        "expression": "コップ",
+        "reading": "コップ",
+        "meaning": "a tumbler; a glass",
+        "tags": "Genki Genki_Ln.14 JLPT JLPT_5 JLPT_N5",
+        "guid": "fS_r5k@$Y6"
+      },
+      "selected": {
+        "text": "コップ",
+        "kana": "コップ"
+      },
+      "dictionaryEntryIds": [
+        "1050390",
+        "2846389",
+        "5000045"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0262",
+      "sourceRow": 262,
+      "original": {
+        "expression": "今年",
+        "reading": "ことし",
+        "meaning": "this year",
+        "tags": "Genki Genki_Ln.10 JLPT JLPT_5 JLPT_N5",
+        "guid": "F4V9w7@Age"
+      },
+      "selected": {
+        "text": "今年",
+        "kana": "ことし"
+      },
+      "dictionaryEntryIds": [
+        "1579130"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0263",
+      "sourceRow": 263,
+      "original": {
+        "expression": "言葉",
+        "reading": "ことば",
+        "meaning": "language; word(s); expression(s)",
+        "tags": "Genki Genki_Ln.13 Intermediate_Japanese Intermediate_Japanese_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "EWtR7eO/R4"
+      },
+      "selected": {
+        "text": "言葉",
+        "kana": "ことば"
+      },
+      "dictionaryEntryIds": [
+        "1264540"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0264",
+      "sourceRow": 264,
+      "original": {
+        "expression": "子供",
+        "reading": "こども",
+        "meaning": "child(ren)",
+        "tags": "Genki Genki_Ln.4 Intermediate_Japanese Intermediate_Japanese_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "CU[{wZ(D{$"
+      },
+      "selected": {
+        "text": "子供",
+        "kana": "こども"
+      },
+      "dictionaryEntryIds": [
+        "1307850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0266",
+      "sourceRow": 266,
+      "original": {
+        "expression": "御飯",
+        "reading": "ごはん",
+        "meaning": "rice (cooked); meal",
+        "tags": "Genki Genki_Ln.4 JLPT JLPT_5 JLPT_N5",
+        "guid": "biiyLkNokP"
+      },
+      "selected": {
+        "text": "御飯",
+        "kana": "ごはん"
+      },
+      "dictionaryEntryIds": [
+        "1270590",
+        "2709060",
+        "2809540"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0268",
+      "sourceRow": 268,
+      "original": {
+        "expression": "困る",
+        "reading": "こまる",
+        "meaning": "to be bothered, to have difficulty",
+        "tags": "Genki Genki_Ln.16 JLPT JLPT_5 JLPT_N5",
+        "guid": "QJ1l#P3oS5"
+      },
+      "selected": {
+        "text": "困る",
+        "kana": "こまる"
+      },
+      "dictionaryEntryIds": [
+        "1289590"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0271",
+      "sourceRow": 271,
+      "original": {
+        "expression": "今月",
+        "reading": "こんげつ",
+        "meaning": "this month",
+        "tags": "Genki Genki_Ln.8 JLPT JLPT_5 JLPT_N5",
+        "guid": "m1R02~~j["
+      },
+      "selected": {
+        "text": "今月",
+        "kana": "こんげつ"
+      },
+      "dictionaryEntryIds": [
+        "1289100"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0272",
+      "sourceRow": 272,
+      "original": {
+        "expression": "今週",
+        "reading": "こんしゅう",
+        "meaning": "this week",
+        "tags": "Genki Genki_Ln.6 JLPT JLPT_5 JLPT_N5",
+        "guid": "DK9g?(!36`"
+      },
+      "selected": {
+        "text": "今週",
+        "kana": "こんしゅう"
+      },
+      "dictionaryEntryIds": [
+        "1289220"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0273",
+      "sourceRow": 273,
+      "original": {
+        "expression": "こんな",
+        "reading": "こんな",
+        "meaning": "such, like this",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "DuEU98EMih"
+      },
+      "selected": {
+        "text": "こんな",
+        "kana": "こんな"
+      },
+      "dictionaryEntryIds": [
+        "1004880"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0274",
+      "sourceRow": 274,
+      "original": {
+        "expression": "今晩",
+        "reading": "こんばん",
+        "meaning": "tonight, this evening",
+        "tags": "Genki Genki_Ln.3 Intermediate_Japanese Intermediate_Japanese_Ln.1 JLPT JLPT_5 JLPT_N5",
+        "guid": "F3};?W>+5Y"
+      },
+      "selected": {
+        "text": "今晩",
+        "kana": "こんばん"
+      },
+      "dictionaryEntryIds": [
+        "1289470"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0275",
+      "sourceRow": 275,
+      "original": {
+        "expression": "さあ",
+        "reading": "さあ",
+        "meaning": "come now, well",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "Ag`@=t><OI"
+      },
+      "selected": {
+        "text": "さあ",
+        "kana": "さあ"
+      },
+      "dictionaryEntryIds": [
+        "1005110"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0278",
+      "sourceRow": 278,
+      "original": {
+        "expression": "魚",
+        "reading": "さかな",
+        "meaning": "fish",
+        "tags": "Genki Genki_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "zzI@?Uq@Z["
+      },
+      "selected": {
+        "text": "魚",
+        "kana": "さかな"
+      },
+      "dictionaryEntryIds": [
+        "1578010"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0280",
+      "sourceRow": 280,
+      "original": {
+        "expression": "咲く",
+        "reading": "さく",
+        "meaning": "to bloom",
+        "tags": "Genki Genki_Ln.18 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "F>Pt~gStbR"
+      },
+      "selected": {
+        "text": "咲く",
+        "kana": "さく"
+      },
+      "dictionaryEntryIds": [
+        "1297210"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0281",
+      "sourceRow": 281,
+      "original": {
+        "expression": "作文",
+        "reading": "さくぶん",
+        "meaning": "essay; composition",
+        "tags": "Genki Genki_Ln.9 JLPT JLPT_5 JLPT_N5",
+        "guid": "fOn$od$Eoc"
+      },
+      "selected": {
+        "text": "作文",
+        "kana": "さくぶん"
+      },
+      "dictionaryEntryIds": [
+        "1297960",
+        "2525510"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0282",
+      "sourceRow": 282,
+      "original": {
+        "expression": "差す",
+        "reading": "さす",
+        "meaning": "to raise (stretch out) hands, to raise (e.g., umbrella)",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "b|c|&{UKxH"
+      },
+      "selected": {
+        "text": "差す",
+        "kana": "さす"
+      },
+      "dictionaryEntryIds": [
+        "1291330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0285",
+      "sourceRow": 285,
+      "original": {
+        "expression": "砂糖",
+        "reading": "さとう",
+        "meaning": "sugar",
+        "tags": "Genki Genki_Ln.16 JLPT JLPT_5 JLPT_N5",
+        "guid": "M]8mQGX#}E"
+      },
+      "selected": {
+        "text": "砂糖",
+        "kana": "さとう"
+      },
+      "dictionaryEntryIds": [
+        "1291600"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0290",
+      "sourceRow": 290,
+      "original": {
+        "expression": "散歩",
+        "reading": "さんぽ (する)",
+        "meaning": "walk, stroll",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "C7E%FY>8|T"
+      },
+      "selected": {
+        "text": "散歩",
+        "kana": "さんぽ"
+      },
+      "dictionaryEntryIds": [
+        "1303620"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0293",
+      "sourceRow": 293,
+      "original": {
+        "expression": "塩",
+        "reading": "しお",
+        "meaning": "salt",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "mQXb>=tTk}"
+      },
+      "selected": {
+        "text": "塩",
+        "kana": "しお"
+      },
+      "dictionaryEntryIds": [
+        "1576630",
+        "2847901"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0294",
+      "sourceRow": 294,
+      "original": {
+        "expression": "しかし",
+        "reading": "しかし",
+        "meaning": "however; but",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.3 JLPT JLPT_5 JLPT_N5",
+        "guid": "g2(en9wt=#"
+      },
+      "selected": {
+        "text": "しかし",
+        "kana": "しかし"
+      },
+      "dictionaryEntryIds": [
+        "1505990",
+        "2586170"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0297",
+      "sourceRow": 297,
+      "original": {
+        "expression": "仕事",
+        "reading": "しごと",
+        "meaning": "work, job, occupation, employment",
+        "tags": "Genki Genki_Ln.1 Genki_Ln.8 JLPT JLPT_5 JLPT_N5",
+        "guid": "BpR$XStq*~"
+      },
+      "selected": {
+        "text": "仕事",
+        "kana": "しごと"
+      },
+      "dictionaryEntryIds": [
+        "1304970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0303",
+      "sourceRow": 303,
+      "original": {
+        "expression": "自転車",
+        "reading": "じてんしゃ",
+        "meaning": "bicycle",
+        "tags": "Genki Genki_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "cQ/jE!IBMW"
+      },
+      "selected": {
+        "text": "自転車",
+        "kana": "じてんしゃ"
+      },
+      "dictionaryEntryIds": [
+        "1318290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0304",
+      "sourceRow": 304,
+      "original": {
+        "expression": "自動車",
+        "reading": "じどうしゃ",
+        "meaning": "automobile",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "s>B81r@vvP"
+      },
+      "selected": {
+        "text": "自動車",
+        "kana": "じどうしゃ"
+      },
+      "dictionaryEntryIds": [
+        "1318400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0307",
+      "sourceRow": 307,
+      "original": {
+        "expression": "自分",
+        "reading": "じぶん",
+        "meaning": "myself, oneself",
+        "tags": "Genki Genki_Ln.17 Intermediate_Japanese Intermediate_Japanese_Ln.1 JLPT JLPT_5 JLPT_N5",
+        "guid": "PVgO:!yY%&"
+      },
+      "selected": {
+        "text": "自分",
+        "kana": "じぶん"
+      },
+      "dictionaryEntryIds": [
+        "1318610"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0310",
+      "sourceRow": 310,
+      "original": {
+        "expression": "締める",
+        "reading": "しめる",
+        "meaning": "to tie, to fasten, to tighten",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "zslBUbe/:)"
+      },
+      "selected": {
+        "text": "締める",
+        "kana": "しめる"
+      },
+      "dictionaryEntryIds": [
+        "1436570"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0313",
+      "sourceRow": 313,
+      "original": {
+        "expression": "シャツ",
+        "reading": "シャツ",
+        "meaning": "shirt",
+        "tags": "Genki Genki_Ln.10 JLPT JLPT_5 JLPT_N5",
+        "guid": "ubVcrQ$8%@"
+      },
+      "selected": {
+        "text": "シャツ",
+        "kana": "シャツ"
+      },
+      "dictionaryEntryIds": [
+        "1061520"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0314",
+      "sourceRow": 314,
+      "original": {
+        "expression": "シャワー",
+        "reading": "シャワー",
+        "meaning": "shower",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "op46S^HFU7"
+      },
+      "selected": {
+        "text": "シャワー",
+        "kana": "シャワー"
+      },
+      "dictionaryEntryIds": [
+        "1061820"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-02-w-0320",
+      "sourceRow": 320,
+      "original": {
+        "expression": "上手",
+        "reading": "じょうず",
+        "meaning": "be good at, skillful",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "zE7uPe$TPk"
+      },
+      "selected": {
+        "text": "上手",
+        "kana": "じょうず"
+      },
+      "dictionaryEntryIds": [
+        "1353320",
+        "1580400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ]
+}

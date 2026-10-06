@@ -20,7 +20,11 @@ export function validateKanjiReferences(
   const words = packs.flatMap((p) => p.words),
     entries = [...packs.flatMap((p) => p.kanji), ...extra];
   const chars = new Set(
-    words.flatMap((w) => [...w.text].filter((c) => /\p{Script=Han}/u.test(c))),
+    // 々 is an iteration mark in the Han script, not a separate ideograph
+    // with its own KANJIDIC entry or stroke lesson.
+    words.flatMap((w) =>
+      [...w.text].filter((c) => /\p{Unified_Ideograph}/u.test(c)),
+    ),
   );
   const normalized = (s: string) => s.replace(/[.\-]/g, "");
   for (const char of chars) {

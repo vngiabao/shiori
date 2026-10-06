@@ -1,0 +1,18 @@
+{
+  "status": "AI-assisted editorial decisions; shared dictionary IDs are candidates, not proof of identical senses",
+  "n5-vocab-01": [
+    {
+      "forms": ["あちら", "あっち"],
+      "reason": "Deliberately teach the polite and casual direction forms separately. Meanings, examples and register metadata distinguish their use; count them as form records, not two independent lexical senses."
+    },
+    {
+      "forms": ["後", "後ろ"],
+      "reason": "後 is selected with あと for after/later, while 後ろ is selected with うしろ for spatial behind/back. Examples and translations teach different uses; shared IDs alone cannot merge these readings."
+    },
+    {
+      "forms": ["男", "男の子"],
+      "reason": "Teach adult/male reference and the boy expression with their distinct selected readings and examples. Entry-wide ID overlap can cover related expressions; these are form records rather than an assertion of independent lexical senses."
+    }
+  ],
+  "n5-vocab-02": []
+}

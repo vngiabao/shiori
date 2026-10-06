@@ -56,7 +56,7 @@ Not native-reviewed; no textbook, lyric, or examination text was reproduced.
 Kana and word drills reuse the existing course and its existing provenance.
 Learner-pasted text and translations retain their own source provenance.
 
-October 2026 extension: KANJIDIC2 reference subset now covers all 167 kanji in
+October 2026 extension: KANJIDIC2 reference subset now covers all 467 kanji in
 installed course words; provenance records its pinned release URL and archive
 SHA-256. New reference glosses/readings are copied from that subset. KanjiVG
 stroke files record the upstream Git commit and individual SVG SHA-256; license
@@ -66,7 +66,8 @@ kanjidic2-provenance.json. JMdict lemma checks reuse the hash-pinned EDRDG sourc
 recorded in jmdict-provenance.json; personal names are explicitly unverified.
 
 Supabase JavaScript SDK (@supabase/supabase-js): MIT license. Sync architecture
-adapted from this workspace's Chinese/Kiyo project; no hosted service connected.
+adapted from this workspace's Chinese/Kiyo project. The hosted site shares a
+Supabase project with Kiyo using isolated Shiori tables; see supabase/README.md.
 
 Violetto teacher library (October 2026): 100 original AI-assisted Japanese
 messages in `content/voices/reaction-lines.tsv`, with furigana, romaji and English
@@ -77,11 +78,11 @@ individual WAV hashes: `content/voices/teacher-provenance.json`.
 No new mascot artwork was created for this pass. Native listening review
 remains pending; signal/phoneme checks are not pronunciation certification.
 
-Course dialogue deliveries: 98 speaker-specific takes rendered locally in the
+Course dialogue deliveries: 263 speaker-specific takes rendered locally in the
 same VOICEVOX:冥鳴ひまり voice. Wording and Clear-mode recordings are unchanged.
 Character settings: `content/voices/dialogue-speakers.json`; recording queries,
 model and WAV hashes: `content/voices/dialogue-provenance.json`. The deliveries
 are acting directions, not measured emotion labels. Native listening review
 remains pending.
 
-Vocabulary source inventory (not yet installed as learner decks): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. No dictionary/exam examples are copied into new course units.
+Vocabulary source inventory (first two N5 decks installed, 200 form records): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. Selected source rows, original cells, restricted JMdict entry IDs and original example-draft hashes are recorded in content/sources/decks/. English meanings and contextual examples are original AI-assisted authoring, awaiting native review. No dictionary/exam example sentences are copied into new course units.

@@ -44,7 +44,29 @@ const dialogue = JSON.parse(
 const dialogueUrls = Object.values(dialogue)
   .flat()
   .map((line) => line.url);
-const cast = JSON.parse(fs.readFileSync("src/generated/cast-auditions.json","utf8")) as {url:string}[];
+const cast = JSON.parse(
+  fs.readFileSync("src/generated/cast-auditions.json", "utf8"),
+) as { url: string }[];
+const decks = fs
+  .readdirSync("content/packs")
+  .filter((name) => /^n5-vocab-\d+\.json$/.test(name))
+  .map(
+    (name) =>
+      JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8")) as {
+        words: { text: string; kana: string; example: string }[];
+      },
+  );
+const deckUrls = [
+  ...new Set(
+    decks.flatMap((pack) =>
+      pack.words.flatMap((word) => [
+        audio[word.text],
+        audio[word.kana],
+        audio[word.example],
+      ]),
+    ),
+  ),
+];
 // Every new reaction and dialogue take must survive the opt-in download.
 const missingTeacher = await page.evaluate(
   async (urls: string[]) => {
@@ -53,7 +75,12 @@ const missingTeacher = await page.evaluate(
     for (const url of urls) if (!(await cache.match(url))) missing.push(url);
     return missing;
   },
-  [...teacher.map((line: { url: string }) => line.url), ...dialogueUrls, ...cast.map(t => t.url)],
+  [
+    ...teacher.map((line: { url: string }) => line.url),
+    ...dialogueUrls,
+    ...cast.map((t) => t.url),
+    ...deckUrls,
+  ],
 );
 expect(missingTeacher).toEqual([]);
 const checks = [];
@@ -68,6 +95,7 @@ for (const clip of [
   audio["い"],
   audio["こんにちは"] ?? Object.values(audio)[0],
   auditions.candidates[2].lines.correct.url,
+  ...decks.map((pack) => audio[pack.words[0].example]),
 ]) {
   const check = await page.evaluate(
     async ({ clip }) => {
@@ -114,6 +142,8 @@ fs.writeFileSync(
       offlineReload: true,
       teacherClipsCached: teacher.length,
       dialogueClipsCached: dialogueUrls.length,
+      deckAudioUrlsCached: deckUrls.length,
+      deckExampleClipsPlayed: decks.length,
       lessonAvailable: true,
       jlptAndTeacherOffline: true,
       bundledAudio: checks,

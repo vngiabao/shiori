@@ -9,6 +9,19 @@ import {
 } from "@phosphor-icons/react";
 import { speak, audioSource } from "./audio";
 import type { Word } from "./types";
+export function WordExample({ word }: { word: Word }) {
+  if (!word.exampleRuby || !word.exampleMeaning) return null;
+  return (
+    <details className="word-example">
+      <summary>See an example</summary>
+      <p lang="ja">
+        <Furigana text={word.exampleRuby} />
+      </p>
+      <p>{word.exampleMeaning}</p>
+      <AudioButton text={word.example} label="Hear the example" />
+    </details>
+  );
+}
 export const poseNames = [
   "welcome",
   "listen",

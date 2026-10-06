@@ -6,9 +6,85 @@ const questions = JSON.parse(
     new URL("../content/jlpt/questions.json", import.meta.url),
     "utf8",
   ),
-) as { level: string; stage: string; answer: number }[];
-const questionsFor = (level: string, stage: string) =>
-  questions.filter((q) => q.level === level && q.stage === stage);
+) as { id: string; level: string; stage: string; answer: number }[];
+async function answerCurrent(page: Page, stage: string) {
+  const id = await page.getByRole("radio").first().getAttribute("name");
+  const q = questions.find((item) => item.id === id);
+  expect(q).toBeDefined();
+  expect(q?.level).toBe("N5");
+  expect(q?.stage).toBe(stage);
+  await page.getByRole("radio").nth(q!.answer).click();
+  await expect(page.getByRole("radio").nth(q!.answer)).toBeChecked();
+}
+
+test("expanded N4 checkpoints rotate and preserve the selected questions through reload", async ({
+  page,
+}) => {
+  await onboard(page);
+  await page.evaluate(async () => {
+    const dbPath = "/src/db.ts";
+    const { db } = await import(dbPath);
+    await db.jlptLogs.bulkPut([
+      {
+        id: "n4-entry",
+        level: "N4",
+        cycle: 1,
+        stage: "entry",
+        source: "Self-check",
+        unit: "Entry",
+        notes: "Self-reported starting skills",
+        minutes: 0,
+        at: 100,
+        checks: [true, true, true],
+      },
+      {
+        id: "n4-study",
+        level: "N4",
+        cycle: 1,
+        stage: "vocabulary",
+        source: "Book",
+        unit: "Chapter 1",
+        notes: "I compared the readings in their sentence contexts.",
+        minutes: 20,
+        at: 101,
+      },
+    ]);
+  });
+  await page.goto("/#jlpt/N4");
+  await expect(page.getByText(/Drawn from 20 items/)).toBeVisible();
+  await page.getByRole("button", { name: "Start checkpoint" }).click();
+  const initial = await page.locator(".jlpt-question legend").innerText();
+  await page.getByRole("radio").nth(1).click();
+  await expect(page.getByRole("radio").nth(1)).toBeChecked();
+  await page.reload();
+  await expect(page.locator(".jlpt-question legend")).toHaveText(initial);
+  await expect(page.getByRole("radio").nth(1)).toBeChecked();
+  await page.getByRole("button", { name: "Next question" }).click();
+  await page.getByRole("radio").nth(0).click();
+  await expect(page.getByRole("radio").nth(0)).toBeChecked();
+  await page.getByRole("button", { name: /Submit answers/ }).click();
+  await expect(
+    page.getByRole("heading", { name: "2 / 2 correct" }),
+  ).toBeVisible();
+  await page.getByRole("button", { name: "Back to the pathway" }).click();
+  await page.locator(".jlpt-syllabus button").nth(1).click();
+  await page.getByRole("button", { name: "Start checkpoint" }).click();
+  await expect(page.locator(".jlpt-question legend")).not.toHaveText(initial);
+  await expect(
+    page.getByText("New items in your saved history", { exact: false }),
+  ).toBeVisible();
+  await page.reload();
+  await expect(page.locator(".jlpt-question legend")).toHaveText(
+    "面接は金曜日です。「面接」の読み方は？",
+  );
+  expect(
+    (
+      await new AxeBuilder({ page })
+        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+        .analyze()
+    ).violations,
+  ).toEqual([]);
+});
 
 async function onboard(page: Page) {
   await page.goto("/");
@@ -62,9 +138,8 @@ test("JLPT source-to-checkpoint pathway, timed refresh, expiry and next cycle", 
       );
     await page.getByRole("button", { name: "Save study block" }).click();
     await page.getByRole("button", { name: "Start checkpoint" }).click();
-    for (const [i, q] of questionsFor("N5", stage).entries()) {
-      await page.getByRole("radio").nth(q.answer).click();
-      await expect(page.getByRole("radio").nth(q.answer)).toBeChecked();
+    for (let i = 0; i < 2; i++) {
+      await answerCurrent(page, stage);
       if (i === 0)
         await page.getByRole("button", { name: "Next question" }).click();
       else await page.getByRole("button", { name: /Submit answers/ }).click();
@@ -95,9 +170,8 @@ test("JLPT source-to-checkpoint pathway, timed refresh, expiry and next cycle", 
   ).toBeVisible();
   await page.getByRole("button", { name: "Back to the pathway" }).click();
   await page.getByRole("button", { name: "Start 8-minute sample" }).click();
-  for (const [i, q] of questionsFor("N5", "exam").entries()) {
-    await page.getByRole("radio").nth(q.answer).click();
-    await expect(page.getByRole("radio").nth(q.answer)).toBeChecked();
+  for (let i = 0; i < 6; i++) {
+    await answerCurrent(page, "exam");
     if (i < 5)
       await page.getByRole("button", { name: "Next question" }).click();
     else await page.getByRole("button", { name: /Submit answers/ }).click();

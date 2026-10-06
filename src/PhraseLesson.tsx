@@ -7,9 +7,17 @@ import {
   SpeakerHigh,
   X,
 } from "@phosphor-icons/react";
-import { dialogues, exercises, readings, packs, wordMap, words } from "./content";
+import {
+  dialogues,
+  exercises,
+  readings,
+  packs,
+  wordMap,
+  words,
+} from "./content";
 import {
   AudioButton,
+  WordExample,
   Button,
   Furigana,
   Japanese,
@@ -50,19 +58,38 @@ export type Step =
   | { kind: "check"; word: Word; skill: Skill };
 
 export const hasPractice = (lesson: Lesson) =>
-  lesson.kind === "phrase" && exercises.some((x) => x.lesson === lesson.id);
+  lesson.kind === "phrase" &&
+  (exercises.some((x) => x.lesson === lesson.id) ||
+    packs.some(
+      (p) =>
+        p.category === "vocabulary" &&
+        p.lessons.some((l) => l.id === lesson.id),
+    ));
 
 function buildSteps(lesson: Lesson, mode: Skill): Step[] {
   const lessonWords = lesson.words.map((id) => wordMap[id]).filter(Boolean);
   const steps: Step[] = [];
   for (let i = 0; i < lessonWords.length; i += 4)
     steps.push({ kind: "meet", words: lessonWords.slice(i, i + 4) });
-  const notes = packs.find(p => p.lessons.some(l => l.id === lesson.id))?.grammar.filter(g => g.formation && (!g.lessons || g.lessons.includes(lesson.id))) ?? [];
+  const notes =
+    packs
+      .find((p) => p.lessons.some((l) => l.id === lesson.id))
+      ?.grammar.filter(
+        (g) => g.formation && (!g.lessons || g.lessons.includes(lesson.id)),
+      ) ?? [];
   if (notes.length) steps.push({ kind: "grammar", notes });
   const scenes = dialogues.filter((d) => d.lesson === lesson.id);
   if (scenes.length === 1) steps.push({ kind: "scene", dialogue: scenes[0] });
   const rawExercises = exercises.filter((x) => x.lesson === lesson.id);
-  const own = scenes.length > 1 ? [...scenes.flatMap(d => rawExercises.filter(x => x.dialogue === d.id)), ...rawExercises.filter(x => !x.dialogue)] : rawExercises;
+  const own =
+    scenes.length > 1
+      ? [
+          ...scenes.flatMap((d) =>
+            rawExercises.filter((x) => x.dialogue === d.id),
+          ),
+          ...rawExercises.filter((x) => !x.dialogue),
+        ]
+      : rawExercises;
   // Words already practised inside a sentence don't need a bare check as well;
   // the rest get one each, at most eight, so sentences carry most of the lesson.
   const tested = new Set(own.map((x) => x.words[0]));
@@ -81,8 +108,12 @@ function buildSteps(lesson: Lesson, mode: Skill): Step[] {
     Math.ceil(checks.length / Math.max(1, own.length - 1)),
   );
   own.forEach((ex, i) => {
-    if (scenes.length > 1 && ex.dialogue && !own.slice(0,i).some(x => x.dialogue === ex.dialogue)) {
-      const scene = scenes.find(d => d.id === ex.dialogue);
+    if (
+      scenes.length > 1 &&
+      ex.dialogue &&
+      !own.slice(0, i).some((x) => x.dialogue === ex.dialogue)
+    ) {
+      const scene = scenes.find((d) => d.id === ex.dialogue);
       if (scene) steps.push({ kind: "scene", dialogue: scene });
     }
     const lastForScene =
@@ -105,7 +136,9 @@ export function buildReviewSteps(memories: Memory[], limit = 20): Step[] {
     .sort((a, b) => a.due - b.due)
     .flatMap((m): Step[] => {
       const tasks = exercises.filter(
-        (x) => x.words[0] === m.itemId && (x.letter && x.type === "cloze" ? "recall" : x.skill) === m.skill,
+        (x) =>
+          x.words[0] === m.itemId &&
+          (x.letter && x.type === "cloze" ? "recall" : x.skill) === m.skill,
       );
       if (tasks.length) {
         const ex = tasks[(m.successes + m.failures) % tasks.length];
@@ -162,7 +195,7 @@ export function PhraseLesson({
   } | null>(null);
   const saving = useRef(false);
   const step = steps[index];
-  const pack = packs.find(p => p.lessons.some(l => l.id === lesson.id));
+  const pack = packs.find((p) => p.lessons.some((l) => l.id === lesson.id));
   const learnRomaji = romajiVisible(profile.created, profile.romaji);
 
   // Choices for a recognition check: meanings of other phrases, lesson-mates first.
@@ -396,7 +429,23 @@ export function PhraseLesson({
           Back to my desk
           <ArrowRight />
         </Button>
-        {pack?.watch && <section className="notice-note"><h2>Meet these words in your own show</h2><p>{pack.watch.prompt}</p><a className="text-button" href={`#media?unit=${encodeURIComponent(pack.id)}`} onClick={onClose}>Open Watch</a><p>Optional outside practice; saved lines are evidence of activity, not a score.</p></section>}
+        {pack?.watch && (
+          <section className="notice-note">
+            <h2>Meet these words in your own show</h2>
+            <p>{pack.watch.prompt}</p>
+            <a
+              className="text-button"
+              href={`#media?unit=${encodeURIComponent(pack.id)}`}
+              onClick={onClose}
+            >
+              Open Watch
+            </a>
+            <p>
+              Optional outside practice; saved lines are evidence of activity,
+              not a score.
+            </p>
+          </section>
+        )}
       </main>
     );
 
@@ -441,9 +490,37 @@ export function PhraseLesson({
               onNext={() => meet(step.words)}
             />
           ) : step.kind === "grammar" ? (
-            <><h1>Notice how this works.</h1>{step.notes.map(g => <section className="reading-stage" key={g.id}><h2>{g.title}</h2><p>{g.explanation}</p><p><strong>Formation:</strong> {g.formation}</p>{g.examples?.map((e,i) => <div key={i}><p lang="ja" className="reading-line"><Furigana text={e.ja} /></p><p>{e.en}</p><AudioButton text={plain(e.ja)} /></div>)}<p className="notice-note">{g.mistake}</p></section>)}<Button onClick={next}>Hear it in context <ArrowRight /></Button></>
+            <>
+              <h1>Notice how this works.</h1>
+              {step.notes.map((g) => (
+                <section className="reading-stage" key={g.id}>
+                  <h2>{g.title}</h2>
+                  <p>{g.explanation}</p>
+                  <p>
+                    <strong>Formation:</strong> {g.formation}
+                  </p>
+                  {g.examples?.map((e, i) => (
+                    <div key={i}>
+                      <p lang="ja" className="reading-line">
+                        <Furigana text={e.ja} />
+                      </p>
+                      <p>{e.en}</p>
+                      <AudioButton text={plain(e.ja)} />
+                    </div>
+                  ))}
+                  <p className="notice-note">{g.mistake}</p>
+                </section>
+              ))}
+              <Button onClick={next}>
+                Hear it in context <ArrowRight />
+              </Button>
+            </>
           ) : step.kind === "scene" ? (
-            <Scene key={step.dialogue.id} dialogue={step.dialogue} onNext={next} />
+            <Scene
+              key={step.dialogue.id}
+              dialogue={step.dialogue}
+              onNext={next}
+            />
           ) : step.kind === "check" ? (
             <>
               <h1>
@@ -588,8 +665,9 @@ function MeetWords({
     <>
       <h1>New words</h1>
       <p className="task-context">
-        Listen to each one and say it once. They come back later in new
-        sentences.
+        {ws.every((w) => w.exampleRuby)
+          ? "Meet the words and hear their examples. Recognition checks follow after the word lists."
+          : "Listen to each one and say it once. They come back later in new sentences."}
       </p>
       <ul className="word-list">
         {ws.map((w) => (
@@ -605,6 +683,7 @@ function MeetWords({
               )}
             </span>
             <AudioButton text={wordAudioText(w)} label="Hear" />
+            <WordExample word={w} />
           </li>
         ))}
       </ul>
@@ -634,7 +713,9 @@ function Scene({
       if (i === -1) setHeard(true);
     }).catch(() => {
       setSpeaking(-1);
-      setAudioError("The conversation could not play. Please retry; it has not been counted as heard.");
+      setAudioError(
+        "The conversation could not play. Please retry; it has not been counted as heard.",
+      );
     });
   };
   useEffect(() => {
@@ -664,7 +745,11 @@ function Scene({
           <ArrowRight />
         </Button>
       </div>
-      {audioError && <p role="alert" className="error-text">{audioError}</p>}
+      {audioError && (
+        <p role="alert" className="error-text">
+          {audioError}
+        </p>
+      )}
     </>
   );
 }
@@ -712,19 +797,50 @@ function ExerciseBody({
     if (!scene) return;
     setAudioError("");
     try {
-      if (lineOnly) await playDialogueLine(scene, scene.lines.findIndex(l => plain(l.line) === plain(ex.line ?? "")));
+      if (lineOnly)
+        await playDialogueLine(
+          scene,
+          scene.lines.findIndex((l) => plain(l.line) === plain(ex.line ?? "")),
+        );
       else await playDialogue(scene);
-    } catch { setAudioError("The recording could not play. Please try again."); }
+    } catch {
+      setAudioError("The recording could not play. Please try again.");
+    }
   };
-  const reading = ex.reading ? readings.find(r => r.id === ex.reading) : undefined;
+  const reading = ex.reading
+    ? readings.find((r) => r.id === ex.reading)
+    : undefined;
   return (
     <>
-      {reading && <ReadingText reading={reading} supported={support === "furigana"} onSupport={() => setSupport("furigana")} />}
-      {reading?.pair && <ReadingText reading={readings.find(r => r.id === reading.pair)!} supported={support === "furigana"} onSupport={() => setSupport("furigana")} />}
+      {reading && (
+        <ReadingText
+          reading={reading}
+          supported={support === "furigana"}
+          onSupport={() => setSupport("furigana")}
+        />
+      )}
+      {reading?.pair && (
+        <ReadingText
+          reading={readings.find((r) => r.id === reading.pair)!}
+          supported={support === "furigana"}
+          onSupport={() => setSupport("furigana")}
+        />
+      )}
       <h1>{heading}</h1>
       {ex.context && <p className="task-context">{ex.context}</p>}
-      {ex.line && ["choice", "register", "compare"].includes(ex.type) && <><p lang="ja" className="reading-line"><Furigana text={ex.line} /></p><AudioButton text={plain(ex.line)} label="Hear the sentence" /></>}
-      {ex.type === "speaker" && ex.line && <Button secondary onClick={() => hear(true)}><SpeakerHigh /> Hear the line</Button>}
+      {ex.line && ["choice", "register", "compare"].includes(ex.type) && (
+        <>
+          <p lang="ja" className="reading-line">
+            <Furigana text={ex.line} />
+          </p>
+          <AudioButton text={plain(ex.line)} label="Hear the sentence" />
+        </>
+      )}
+      {ex.type === "speaker" && ex.line && (
+        <Button secondary onClick={() => hear(true)}>
+          <SpeakerHigh /> Hear the line
+        </Button>
+      )}
       {scene && (
         <Button secondary onClick={() => hear()}>
           <SpeakerHigh /> Play the conversation
@@ -833,17 +949,89 @@ function ExerciseBody({
   );
 }
 
-export function ReadingText({ reading, supported, onSupport }: { reading: Reading; supported: boolean; onSupport: () => void }) {
-  return <section className="letter-reading" aria-label={reading.title}>
-    <p className="muted">{reading.genre} · Reading practice</p>
-    <h2>{reading.title}</h2>
-    {reading.paragraphs.map((p, i) => <p lang="ja" key={i}>{supported ? <Furigana text={p} /> : plain(p)}</p>)}
-    {reading.panels?.map((panel,i) => <section className="notice-note" key={i}><p>{panel.description}</p>{panel.lines.map((l,j) => <p key={j} lang="ja"><strong>{l.sfx ? "Sound effect" : l.speaker}: </strong>{supported ? <Furigana text={l.line} /> : plain(l.line)}</p>)}</section>)}
-    {reading.source && <p className="muted">{reading.source.author} · <a href={reading.source.url} target="_blank" rel="noreferrer">{reading.source.title}</a> · {reading.source.licence}</p>}
-    {reading.table && <div style={{ overflowX: "auto" }}><table><thead><tr>{reading.table.head.map((h,i) => <th key={i}>{supported ? <Furigana text={h} /> : plain(h)}</th>)}</tr></thead><tbody>{reading.table.rows.map((row,i) => <tr key={i}>{row.map((v,j) => <td key={j}>{supported ? <Furigana text={v} /> : plain(v)}</td>)}</tr>)}</tbody></table></div>}
-    {!supported && <button className="text-button" onClick={onSupport}>Show furigana and glossary · supported attempt</button>}
-    {supported && <dl>{reading.glosses.map(g => <div key={g.text}><dt lang="ja">{g.text}（{g.kana}）</dt><dd>{g.meaning}</dd></div>)}</dl>}
-  </section>;
+export function ReadingText({
+  reading,
+  supported,
+  onSupport,
+}: {
+  reading: Reading;
+  supported: boolean;
+  onSupport: () => void;
+}) {
+  return (
+    <section className="letter-reading" aria-label={reading.title}>
+      <p className="muted">{reading.genre} · Reading practice</p>
+      <h2>{reading.title}</h2>
+      {reading.paragraphs.map((p, i) => (
+        <p lang="ja" key={i}>
+          {supported ? <Furigana text={p} /> : plain(p)}
+        </p>
+      ))}
+      {reading.panels?.map((panel, i) => (
+        <section className="notice-note" key={i}>
+          <p>{panel.description}</p>
+          {panel.lines.map((l, j) => (
+            <p key={j} lang="ja">
+              <strong>{l.sfx ? "Sound effect" : l.speaker}: </strong>
+              {supported ? <Furigana text={l.line} /> : plain(l.line)}
+            </p>
+          ))}
+        </section>
+      ))}
+      {reading.source && (
+        <p className="muted">
+          {reading.source.author} ·{" "}
+          <a href={reading.source.url} target="_blank" rel="noreferrer">
+            {reading.source.title}
+          </a>{" "}
+          · {reading.source.licence}
+        </p>
+      )}
+      {reading.table && (
+        <div style={{ overflowX: "auto" }}>
+          <table>
+            <thead>
+              <tr>
+                {reading.table.head.map((h, i) => (
+                  <th key={i}>
+                    {supported ? <Furigana text={h} /> : plain(h)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {reading.table.rows.map((row, i) => (
+                <tr key={i}>
+                  {row.map((v, j) => (
+                    <td key={j}>
+                      {supported ? <Furigana text={v} /> : plain(v)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+      {!supported && (
+        <button className="text-button" onClick={onSupport}>
+          Show furigana and glossary · supported attempt
+        </button>
+      )}
+      {supported && (
+        <dl>
+          {reading.glosses.map((g) => (
+            <div key={g.text}>
+              <dt lang="ja">
+                {g.text}（{g.kana}）
+              </dt>
+              <dd>{g.meaning}</dd>
+            </div>
+          ))}
+        </dl>
+      )}
+    </section>
+  );
 }
 
 function Options({

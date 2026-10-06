@@ -1,6 +1,6 @@
 # Shiori course outline: N5 → N1, media and keigo
 
-Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`). N4 units 1–12 are authored and checked; its decks and expanded exam bank are still pending. N3–N1 and workplace keigo remain plans to verify and author level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
+Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`) with two 100-word source-backed vocabulary decks; the remaining decks are pending. N4 units 1–12 and its sixty checkpoint / thirty sample items are authored and checked; vocabulary decks and final release review remain pending. N3–N1 and workplace keigo remain plans to verify and author level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
 
 ## 0. What the course is for
 
@@ -88,7 +88,7 @@ From N3 there is no single textbook spine. Build the grammar list from **two ind
 | n3-u11 | Let me do it | させてください, させていただく, causative/passive review in real use | Workplace requests |
 | n3-u12 | **Anime casual speech** | ちゃう/じゃう, とく, てる, なきゃ/なくちゃ, っけ, じゃん, かな, の? (rising) | Ladder 4: contractions at speed, no transcript first |
 | n3-u13 | **Character speech (役割語)** | ぜ, ぞ, わ, のだ, かしら, じゃ (old man), ござる (recognition only) | Who is speaking? (anime archetypes) |
-| n3-u14 | Not only… but also | ばかりか, だけでなく, ほど, くらい, さえ | Product review |
+| n3-u14 | Not only… but also | ばかりでなく, だけでなく, ほど, くらい, さえ | Product review; stronger written ばかりか revisited at N2 u04 |
 | n3-u15 | **Reading manga** | onomatopoeia (擬音語・擬態語), dropped particles, exclamations, furigana-less panels | Original manga-style panels (text + description) |
 | n3-u16 | Capstone: a week of news | mixed + 情報検索 | NHK News Web Easy–style original article + table |
 
@@ -99,7 +99,7 @@ From N3 there is no single textbook spine. Build the grammar list from **two ind
 | n2-u01 | Written style | である / だ style, 〜ものの, 〜にもかかわらず | Short essay |
 | n2-u02 | Generalisations | ものだ, ことだ, わけではない, わけにはいかない | Advice column |
 | n2-u03 | On the occasion of | に際して, にあたって, に限らず, に限って | Formal notice / announcement |
-| n2-u04 | Arguing a point | と言える, ざるを得ない, に過ぎない, に違いない | Opinion essay (主張理解) |
+| n2-u04 | Arguing a point | と言える, ざるを得ない, に過ぎない, に違いない, ばかりか | Opinion essay (主張理解) |
 | n2-u05 | Reading the news | によると, とみられる, を受けて, に伴い | News article (original) |
 | n2-u06 | **Business email keigo** | お〜する, ご〜いたす, させていただく, いただけますでしょうか | Emails: request, confirm, apologise |
 | n2-u07 | **Phone and meetings** | keigo in speech, 〜でございます, 恐れ入りますが | Phone call with Ishikawa-kachō |

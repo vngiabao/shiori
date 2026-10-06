@@ -45,6 +45,7 @@ it("has a real WAV mapping for every shipped lesson and reaction URL", () => {
     pack.words.forEach((w) => {
       required.add(w.text);
       required.add(w.kana);
+      if (w.exampleRuby) required.add(w.example);
     });
     pack.grammar.forEach((g) => {
       required.add(g.example);

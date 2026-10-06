@@ -33,6 +33,8 @@ export type JlptQuestion = {
   answer: number;
   explanation: string;
   focus: string;
+  /** Timed samples draw two items from each written section. */
+  section?: "vocabulary" | "grammar" | "reading";
 };
 export const levelInfos = levelData as JlptLevelInfo[];
 export const jlptQuestions = questionData as JlptQuestion[];
@@ -148,8 +150,32 @@ export function createRun(
   plan: JlptPlan,
   stage: QuizStage,
   now = Date.now(),
+  history: JlptRun[] = [],
 ): JlptRun {
-  const qs = questionsFor(plan.id, stage);
+  const pool = questionsFor(plan.id, stage);
+  const seen = new Map<string, number>();
+  for (const run of history.filter(
+    (r) => r.level === plan.id && r.stage === stage,
+  ))
+    for (const id of run.questionIds) seen.set(id, (seen.get(id) ?? 0) + 1);
+  // Prefer unseen items, then the least repeated. Persist the selection so
+  // refresh, backup and sync never replace a question midway through a run.
+  const select = (items: JlptQuestion[]) =>
+    items
+      .map((question, order) => ({ question, order }))
+      .sort(
+        (a, b) =>
+          (seen.get(a.question.id) ?? 0) - (seen.get(b.question.id) ?? 0) ||
+          a.order - b.order,
+      )
+      .slice(0, 2)
+      .map((x) => x.question);
+  const qs =
+    stage === "exam"
+      ? (["vocabulary", "grammar", "reading"] as const).flatMap((section) =>
+          select(pool.filter((q) => q.section === section)),
+        )
+      : select(pool);
   return {
     id: crypto.randomUUID(),
     level: plan.id,
@@ -222,10 +248,19 @@ export function validJlptRun(value: unknown): value is JlptRun {
     typeof r.aborted !== "boolean"
   )
     return false;
-  const expected = questionsFor(r.level, r.stage).map((q) => q.id);
+  const expected = new Set(questionsFor(r.level, r.stage).map((q) => q.id));
+  const count = r.stage === "exam" ? 6 : 2;
   return (
-    JSON.stringify(expected) === JSON.stringify(r.questionIds) &&
-    r.answers.length === expected.length &&
+    r.questionIds.length === count &&
+    new Set(r.questionIds).size === count &&
+    r.questionIds.every((id) => expected.has(id)) &&
+    (r.stage !== "exam" ||
+      (["vocabulary", "grammar", "reading"] as const).every(
+        (section) =>
+          r.questionIds.filter((id) => questionMap.get(id)?.section === section)
+            .length === 2,
+      )) &&
+    r.answers.length === count &&
     r.answers.every(
       (a) => a === null || (Number.isInteger(a) && a >= 0 && a < 4),
     ) &&

@@ -15,6 +15,12 @@
 - **u11 / L23:** causative-passive, concession ても, decisions ことにする, maintained rules ことにしている, endpoint まで, method noun ます-stem + 方 (かた). Direct tasks: x-made, x-even, x-decision, x-reply-rest, x-until, x-order. Comparison 方 (ほう) is revision and does not replace the method noun.
 - **u12 / review:** request actor, embedded timing question, deadlines までに, deliberately prepared states, planned versus completed action. Direct tasks: x-register, x-question, x-deadline, x-state, x-choice, x-reply-rule, x-order. Report and key have separate explicit destinations/deadlines.
 
+## Expanded bank, 5 October
+
+N4 now has sixty checkpoint items and thirty distinct timed-sample items. Added direct retrieval covers the notes-only functions identified above: contextual なら, visible そう, number も, gift viewpoint, spontaneous versus maintained volition, quotation って, completed-action たら, general humble action, naming という, にくい, ongoing/obligation contractions, permission given/received, なさい, manner versus noun resemblance and method 方 (かた). The sample bank adds fresh contexts for regret, respectful actor, causative-passive, preparation, endpoint/deadline and reading procedures. These are short selected-response tasks, not a guarantee of broad transfer or every function's production. Selection rotates while each run stays two/six items.
+
+Answer/context review removed an ambiguous 開く reading distractor; ひらいて is not marked wrong. The timed bank has separate passages and prompts. No publisher item was copied. Language and level assignments remain AI-assisted drafts, not native-reviewed or psychometrically calibrated.
+
 ## Closure still required
 
-The full 60-item checkpoint bank must cover the notes-only functions above and revisit several fresh contexts for the directly practised functions. Its 30 timed-sample questions must be distinct from checkpoint questions and labelled uncalibrated original practice. Do not mark Phase 5 closed until this bank, source-backed decks, answer review, audio and full checks pass. No N3 material has been installed early to bypass that gate.
+Source-backed N4 decks and completion of the remaining N5 deck inventory are still required. Do not mark Phase 5 closed until decks, final answer review, audio and full checks pass together. No N3 material has been installed early to bypass that gate.

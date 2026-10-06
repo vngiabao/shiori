@@ -29,6 +29,11 @@ texts={'ようこそ。','こんにちは。お茶をお願いします。あり
 for p in packs:
     for w in p['words']:
         texts.update([w['text'],w['kana']])
+        if w.get('exampleRuby'):
+            texts.add(w['example'])
+            # The authored ruby gives a context-specific reading. No guessing
+            # from the headword's reading or another inflected form.
+            readings[w['example']]=re.sub(r'\{([^|{}]+)\|([^|{}]+)\}',r'\2',w['exampleRuby'])
         # A single written kana has its alphabet sound. Particles are selected
         # by word ID in the app rather than overriding this shared text key.
         if len(w['text'])>1:readings[w['text']]=w['kana']

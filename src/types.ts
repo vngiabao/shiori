@@ -17,6 +17,9 @@ export type Word = {
   meaning: string;
   register: "neutral" | "polite" | "casual" | "formal";
   example: string;
+  /** Optional reviewed-context teaching example; ruby and translation are support. */
+  exampleRuby?: string;
+  exampleMeaning?: string;
   pitch: number | null;
   jlpt: number | null;
   parts: { text: string; reading?: string }[];
@@ -61,6 +64,7 @@ export type Roleplay = {
   }[];
 };
 export type Pack = {
+  category?: "vocabulary";
   id: string;
   version: number;
   status: "AI-assisted draft" | "reviewed";
@@ -99,13 +103,33 @@ export type Reading = {
   id: string;
   lesson: string;
   title: string;
-  genre: "notice" | "message" | "email" | "article" | "diary" | "guide" | "story" | "essay" | "news" | "literature" | "manga";
+  genre:
+    | "notice"
+    | "message"
+    | "email"
+    | "article"
+    | "diary"
+    | "guide"
+    | "story"
+    | "essay"
+    | "news"
+    | "literature"
+    | "manga";
   paragraphs: string[];
   glosses: { text: string; kana: string; meaning: string }[];
   table?: { head: string[]; rows: string[][] };
   pair?: string;
-  source?: { title: string; author: string; deathYear: number; url: string; licence: string };
-  panels?: { description: string; lines: { speaker: string; line: string; sfx?: boolean }[] }[];
+  source?: {
+    title: string;
+    author: string;
+    deathYear: number;
+    url: string;
+    licence: string;
+  };
+  panels?: {
+    description: string;
+    lines: { speaker: string; line: string; sfx?: boolean }[];
+  }[];
 };
 /** Japanese lines use ruby markup: {漢字|かんじ}. One narrator voices every speaker. */
 export type Dialogue = {
@@ -124,7 +148,16 @@ export type Exercise = {
   reading?: string;
   /** Dialogue questions replay this scene without its text. */
   dialogue?: string;
-  type: "cloze" | "reply" | "dialogue" | "truefalse" | "order" | "choice" | "speaker" | "register" | "compare";
+  type:
+    | "cloze"
+    | "reply"
+    | "dialogue"
+    | "truefalse"
+    | "order"
+    | "choice"
+    | "speaker"
+    | "register"
+    | "compare";
   skill: Skill;
   /** An English situation, so the right answer depends on meaning. */
   context?: string;

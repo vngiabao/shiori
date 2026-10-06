@@ -1,4 +1,5 @@
 *.json text eol=lf
+.gitattributes text eol=lf
 *.ts text eol=lf
 *.tsx text eol=lf
 *.py text eol=lf
@@ -9,3 +10,4 @@
 *.tsv text eol=lf
 # Downloaded CSVs are hash-pinned source files; preserve their original bytes.
 *.csv -text
+content/decks/*.txt text eol=lf

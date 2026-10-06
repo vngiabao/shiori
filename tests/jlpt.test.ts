@@ -12,7 +12,9 @@ import {
   stageUnlocked,
   validJlptRun,
   validJlptPlan,
+  questionsFor,
   type JlptLog,
+  type JlptRun,
 } from "../src/jlpt-model";
 vi.stubGlobal("localStorage", {
   getItem: () => null,
@@ -88,6 +90,81 @@ describe("JLPT progression and timing", () => {
     ).toBe(false);
     expect(validJlptPlan({ ...plan, source: "kanzen" })).toBe(false);
   });
+  it.each(["N5", "N4"] as const)(
+    "uses all %s items before repeating and keeps sample sections balanced",
+    (level) => {
+      const expandedPlan = newPlan(level);
+      const history: JlptRun[] = [];
+      for (let i = 0; i < 10; i++) {
+        const run = createRun(expandedPlan, "grammar", 1000 + i, history);
+        expect(
+          run.questionIds.some((id) =>
+            history.some((old) => old.questionIds.includes(id)),
+          ),
+        ).toBe(false);
+        expect(validJlptRun(run)).toBe(true);
+        history.push(run);
+      }
+      expect(new Set(history.flatMap((r) => r.questionIds)).size).toBe(20);
+      const retry = createRun(expandedPlan, "grammar", 2000, history);
+      expect(retry.questionIds).toEqual(history[0].questionIds);
+      const samples: JlptRun[] = [];
+      for (let i = 0; i < 5; i++) {
+        const run = createRun(expandedPlan, "exam", 1000 + i, samples);
+        expect(
+          run.questionIds.some((id) =>
+            samples.some((old) => old.questionIds.includes(id)),
+          ),
+        ).toBe(false);
+        for (const section of ["vocabulary", "grammar", "reading"])
+          expect(
+            run.questionIds.filter(
+              (id) => questionMap.get(id)!.section === section,
+            ),
+          ).toHaveLength(2);
+        samples.push(run);
+      }
+      expect(new Set(samples.flatMap((r) => r.questionIds)).size).toBe(30);
+      expect(questionsFor(level, "exam")).toHaveLength(30);
+    },
+  );
+  it("keeps historical N4 selections valid and rejects duplicate or cross-stage IDs", () => {
+    const r = createRun(newPlan("N4"), "exam", 1000);
+    expect(r.questionIds).toEqual([
+      "n4-e1",
+      "n4-e2",
+      "n4-e3",
+      "n4-e4",
+      "n4-e5",
+      "n4-e6",
+    ]);
+    expect(validJlptRun(r)).toBe(true);
+    expect(
+      validJlptRun({ ...r, questionIds: ["n4-v1", ...r.questionIds.slice(1)] }),
+    ).toBe(false);
+    expect(
+      validJlptRun({
+        ...r,
+        questionIds: questionsFor("N4", "exam")
+          .filter((q) => q.section === "grammar")
+          .slice(0, 6)
+          .map((q) => q.id),
+      }),
+    ).toBe(false);
+    expect(
+      validJlptRun({
+        ...r,
+        questionIds: [r.questionIds[1], ...r.questionIds.slice(1)],
+      }),
+    ).toBe(false);
+    expect(
+      validJlptRun({
+        ...r,
+        questionIds: r.questionIds.slice(1),
+        answers: r.answers.slice(1),
+      }),
+    ).toBe(false);
+  });
 });
 describe("JLPT durability", () => {
   beforeEach(async () => {
@@ -120,6 +197,24 @@ describe("JLPT durability", () => {
     backup.jlptPlans = [{ ...plan, cycle: -1 }];
     await expect(importBackup(backup)).rejects.toThrow("invalid JLPT");
     expect(await db.jlptPlans.count()).toBe(0);
+  });
+  it("restores the original N4 run and a fresh rotating run without changing either result", async () => {
+    const first = createRun(newPlan("N4"), "grammar", 1000);
+    first.answers = first.questionIds.map((id) => questionMap.get(id)!.answer);
+    first.submitted = 2000;
+    const fresh = createRun(newPlan("N4"), "grammar", 3000, [first]);
+    fresh.answers = [null, 1];
+    await db.jlptRuns.bulkPut([first, fresh]);
+    const backup = await exportBackup();
+    await db.jlptRuns.clear();
+    await importBackup(backup);
+    expect(await db.jlptRuns.get(first.id)).toEqual(first);
+    expect(await db.jlptRuns.get(fresh.id)).toEqual(fresh);
+    expect(scoreRun((await db.jlptRuns.get(first.id))!)).toEqual({
+      correct: 2,
+      total: 2,
+      passed: true,
+    });
   });
   it("upgrades existing storage without removing earlier learner records", async () => {
     const name = "jlpt-migration-test";

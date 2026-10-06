@@ -1,9 +1,9 @@
 {
-  "totalWords": 668,
-  "uniqueForms": 636,
+  "totalWords": 868,
+  "uniqueForms": 835,
   "counts": {
     "excluded-drill": 157,
-    "matched": 426,
+    "matched": 626,
     "unmatched": 81,
     "name-unverified": 4
   },
@@ -1554,8 +1554,12 @@
       "text": "おばあさん",
       "kana": "おばあさん",
       "status": "excluded-drill",
-      "dictionaryReadings": [],
-      "entryIds": []
+      "dictionaryReadings": [
+        "おばあさん"
+      ],
+      "entryIds": [
+        "1002330"
+      ]
     },
     {
       "pack": "first-post.json",
@@ -8788,6 +8792,2817 @@
       ],
       "entryIds": [
         "1002390"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0003",
+      "text": "会う",
+      "kana": "あう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あう"
+      ],
+      "entryIds": [
+        "1198180"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0004",
+      "text": "青",
+      "kana": "あお",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あお"
+      ],
+      "entryIds": [
+        "1381380"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0005",
+      "text": "青い",
+      "kana": "あおい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あおい"
+      ],
+      "entryIds": [
+        "1381390"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0006",
+      "text": "赤",
+      "kana": "あか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あか"
+      ],
+      "entryIds": [
+        "2013900"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0007",
+      "text": "赤い",
+      "kana": "あかい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あかい"
+      ],
+      "entryIds": [
+        "1383240"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0013",
+      "text": "朝",
+      "kana": "あさ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あさ",
+        "あした",
+        "ちょう"
+      ],
+      "entryIds": [
+        "1428280",
+        "1428285",
+        "2857350"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0015",
+      "text": "明後日",
+      "kana": "あさって",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あさって",
+        "みょうごにち"
+      ],
+      "entryIds": [
+        "1584640"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0016",
+      "text": "足",
+      "kana": "あし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あし",
+        "そく"
+      ],
+      "entryIds": [
+        "1404630",
+        "2412230"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0018",
+      "text": "あそこ",
+      "kana": "あそこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あそこ"
+      ],
+      "entryIds": [
+        "1000320"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0019",
+      "text": "遊ぶ",
+      "kana": "あそぶ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あすぶ",
+        "あそぶ",
+        "すさぶ"
+      ],
+      "entryIds": [
+        "1542160",
+        "2476100"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0022",
+      "text": "新しい",
+      "kana": "あたらしい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたらしい"
+      ],
+      "entryIds": [
+        "1361490"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0023",
+      "text": "あちら",
+      "kana": "あちら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あちら"
+      ],
+      "entryIds": [
+        "1483185"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0025",
+      "text": "熱い",
+      "kana": "あつい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あっつい",
+        "あつい"
+      ],
+      "entryIds": [
+        "1467720"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0026",
+      "text": "厚い",
+      "kana": "あつい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あつい"
+      ],
+      "entryIds": [
+        "1275320"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0027",
+      "text": "あっち",
+      "kana": "あっち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あっち"
+      ],
+      "entryIds": [
+        "1483185"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0028",
+      "text": "後",
+      "kana": "あと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あと",
+        "うしろ",
+        "ご",
+        "しり",
+        "しりえ",
+        "のち"
+      ],
+      "entryIds": [
+        "1269320",
+        "1269330",
+        "1269410",
+        "1358760",
+        "2147630",
+        "2862495"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0029",
+      "text": "あなた",
+      "kana": "あなた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あなた"
+      ],
+      "entryIds": [
+        "1223615",
+        "1483180"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0032",
+      "text": "アパート",
+      "kana": "アパート",
+      "status": "matched",
+      "dictionaryReadings": [
+        "アパート"
+      ],
+      "entryIds": [
+        "1017760"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0034",
+      "text": "浴びる",
+      "kana": "あびる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あびる"
+      ],
+      "entryIds": [
+        "1547450"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0035",
+      "text": "危ない",
+      "kana": "あぶない",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あっぶねー",
+        "あぶない",
+        "あぶねー",
+        "アブない",
+        "アブナい"
+      ],
+      "entryIds": [
+        "1218380"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0036",
+      "text": "甘い",
+      "kana": "あまい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あまい",
+        "うまい"
+      ],
+      "entryIds": [
+        "1213400",
+        "1310460"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0037",
+      "text": "余り",
+      "kana": "あまり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あまり",
+        "あんまり"
+      ],
+      "entryIds": [
+        "1584930"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0040",
+      "text": "洗う",
+      "kana": "あらう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらう"
+      ],
+      "entryIds": [
+        "1390930"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0043",
+      "text": "歩く",
+      "kana": "あるく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あるく"
+      ],
+      "entryIds": [
+        "1514320"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0045",
+      "text": "いい",
+      "kana": "いい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いい"
+      ],
+      "entryIds": [
+        "2571360",
+        "2672300",
+        "2672310",
+        "2672320",
+        "2672330",
+        "2820690",
+        "2846378",
+        "2846386"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0047",
+      "text": "言う",
+      "kana": "いう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いう",
+        "ゆう"
+      ],
+      "entryIds": [
+        "1587040"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0049",
+      "text": "いかが",
+      "kana": "いかが",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いかが"
+      ],
+      "entryIds": [
+        "2845606"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0051",
+      "text": "いくつ",
+      "kana": "いくつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いくつ"
+      ],
+      "entryIds": [
+        "1219960"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0052",
+      "text": "いくら",
+      "kana": "いくら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いくら"
+      ],
+      "entryIds": [
+        "1021180",
+        "1219980"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0053",
+      "text": "池",
+      "kana": "いけ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いけ"
+      ],
+      "entryIds": [
+        "1421700"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0054",
+      "text": "医者",
+      "kana": "いしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いしゃ"
+      ],
+      "entryIds": [
+        "1159980"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0055",
+      "text": "椅子",
+      "kana": "いす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いす"
+      ],
+      "entryIds": [
+        "1157070"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0059",
+      "text": "一日",
+      "kana": "いちにち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いちじつ",
+        "いちにち",
+        "いっぴ",
+        "ついたち",
+        "つきたち",
+        "ひとひ"
+      ],
+      "entryIds": [
+        "1576260",
+        "2225030",
+        "2225040",
+        "2852123",
+        "2863119"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0062",
+      "text": "五日",
+      "kana": "いつか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつか",
+        "ごにち"
+      ],
+      "entryIds": [
+        "1268570"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0063",
+      "text": "一緒",
+      "kana": "いっしょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっしょ"
+      ],
+      "entryIds": [
+        "1163400"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0064",
+      "text": "五つ",
+      "kana": "いつつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつつ"
+      ],
+      "entryIds": [
+        "1268070"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0065",
+      "text": "いつも",
+      "kana": "いつも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつも"
+      ],
+      "entryIds": [
+        "1188890"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0066",
+      "text": "犬",
+      "kana": "いぬ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いぬ"
+      ],
+      "entryIds": [
+        "1258330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0068",
+      "text": "意味",
+      "kana": "いみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いみ"
+      ],
+      "entryIds": [
+        "1156800"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0069",
+      "text": "妹",
+      "kana": "いもうと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いも",
+        "いもうと"
+      ],
+      "entryIds": [
+        "1524590",
+        "2752050"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0070",
+      "text": "嫌",
+      "kana": "いや",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いや",
+        "や"
+      ],
+      "entryIds": [
+        "1587610"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0071",
+      "text": "入口",
+      "kana": "いりぐち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いりくち",
+        "いりぐち",
+        "はいりくち",
+        "はいりぐち"
+      ],
+      "entryIds": [
+        "1582820"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0073",
+      "text": "要る",
+      "kana": "いる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いる"
+      ],
+      "entryIds": [
+        "1546640"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0075",
+      "text": "色",
+      "kana": "いろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いろ",
+        "しき",
+        "しょく"
+      ],
+      "entryIds": [
+        "1357600",
+        "2097830",
+        "2270420"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0076",
+      "text": "色々",
+      "kana": "いろいろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いろいろ"
+      ],
+      "entryIds": [
+        "1587850"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0078",
+      "text": "後ろ",
+      "kana": "うしろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うしろ"
+      ],
+      "entryIds": [
+        "1269410"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0079",
+      "text": "薄い",
+      "kana": "うすい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うすい"
+      ],
+      "entryIds": [
+        "1475480"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0080",
+      "text": "歌",
+      "kana": "うた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うた"
+      ],
+      "entryIds": [
+        "1193180"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0081",
+      "text": "歌う",
+      "kana": "うたう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うたう"
+      ],
+      "entryIds": [
+        "1588120"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0083",
+      "text": "生まれる",
+      "kana": "うまれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うまれる"
+      ],
+      "entryIds": [
+        "1378690"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0085",
+      "text": "売る",
+      "kana": "うる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うる"
+      ],
+      "entryIds": [
+        "1473950"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0086",
+      "text": "うるさい",
+      "kana": "うるさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うるさい"
+      ],
+      "entryIds": [
+        "1481920"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0087",
+      "text": "上着",
+      "kana": "うわぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うわぎ"
+      ],
+      "entryIds": [
+        "1580340"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0090",
+      "text": "映画館",
+      "kana": "えいがかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えいがかん"
+      ],
+      "entryIds": [
+        "1173750"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0093",
+      "text": "駅",
+      "kana": "えき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えき"
+      ],
+      "entryIds": [
+        "1175140"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0094",
+      "text": "エレベーター",
+      "kana": "エレベーター",
+      "status": "matched",
+      "dictionaryReadings": [
+        "エレベーター"
+      ],
+      "entryIds": [
+        "1030630"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0096",
+      "text": "鉛筆",
+      "kana": "えんぴつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えんぴつ",
+        "エンピツ"
+      ],
+      "entryIds": [
+        "1178590"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0099",
+      "text": "多い",
+      "kana": "おおい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おおい"
+      ],
+      "entryIds": [
+        "1407460"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0100",
+      "text": "大きい",
+      "kana": "おおきい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おおきい"
+      ],
+      "entryIds": [
+        "1588880"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0101",
+      "text": "大きな",
+      "kana": "おおきな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おおきな"
+      ],
+      "entryIds": [
+        "1412890"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0102",
+      "text": "大勢",
+      "kana": "おおぜい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おおぜい",
+        "たいせい",
+        "たいぜい"
+      ],
+      "entryIds": [
+        "1414220",
+        "1414230"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0104",
+      "text": "お菓子",
+      "kana": "おかし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おかし"
+      ],
+      "entryIds": [
+        "1001710"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0105",
+      "text": "お金",
+      "kana": "おかね",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おかね"
+      ],
+      "entryIds": [
+        "1001820"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0106",
+      "text": "起きる",
+      "kana": "おきる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おきる"
+      ],
+      "entryIds": [
+        "1223640"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0108",
+      "text": "奥さん",
+      "kana": "おくさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おくさん"
+      ],
+      "entryIds": [
+        "1179330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0109",
+      "text": "お酒",
+      "kana": "おさけ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おさけ"
+      ],
+      "entryIds": [
+        "1329015"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0110",
+      "text": "お皿",
+      "kana": "おさら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おさら"
+      ],
+      "entryIds": [
+        "1299685"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0112",
+      "text": "おじいさん",
+      "kana": "おじいさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おじいさん"
+      ],
+      "entryIds": [
+        "1002320"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0114",
+      "text": "押す",
+      "kana": "おす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おす"
+      ],
+      "entryIds": [
+        "1180470"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0115",
+      "text": "遅い",
+      "kana": "おそい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おせー",
+        "おそい",
+        "おそーい",
+        "おっせぇ",
+        "おっせえ",
+        "おっせー",
+        "おっそい",
+        "おっそーい"
+      ],
+      "entryIds": [
+        "1421970"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0117",
+      "text": "お手洗い",
+      "kana": "おてあらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おてあらい"
+      ],
+      "entryIds": [
+        "1002100"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0118",
+      "text": "お父さん",
+      "kana": "おとうさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おとうさん",
+        "おとっさん"
+      ],
+      "entryIds": [
+        "1002590"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0119",
+      "text": "弟",
+      "kana": "おとうと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おと",
+        "おとうと",
+        "おとと",
+        "てい"
+      ],
+      "entryIds": [
+        "1581930",
+        "2837086",
+        "2837087"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0120",
+      "text": "男",
+      "kana": "おとこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "お",
+        "おっこ",
+        "おとこ",
+        "おのこ",
+        "だん",
+        "なん"
+      ],
+      "entryIds": [
+        "1419990",
+        "2742850",
+        "2742870",
+        "2742890",
+        "2843485"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0121",
+      "text": "男の子",
+      "kana": "おとこのこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おとこのこ",
+        "おのこ"
+      ],
+      "entryIds": [
+        "1420010",
+        "2742850"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0122",
+      "text": "一昨日",
+      "kana": "おととい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっさくじつ",
+        "おとつい",
+        "おととい"
+      ],
+      "entryIds": [
+        "1576050"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0123",
+      "text": "おととし",
+      "kana": "おととし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おととし"
+      ],
+      "entryIds": [
+        "1576060"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0124",
+      "text": "大人",
+      "kana": "おとな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うし",
+        "おおびと",
+        "おとな",
+        "たいじん",
+        "だいにん"
+      ],
+      "entryIds": [
+        "1414170",
+        "1785170",
+        "2860067",
+        "2864579",
+        "2866562"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0125",
+      "text": "お腹",
+      "kana": "おなか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おなか"
+      ],
+      "entryIds": [
+        "1002610"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0126",
+      "text": "同じ",
+      "kana": "おなじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おなじ",
+        "おんなし",
+        "おんなじ"
+      ],
+      "entryIds": [
+        "1451750"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0127",
+      "text": "お兄さん",
+      "kana": "おにいさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おにいさん"
+      ],
+      "entryIds": [
+        "1001830"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0130",
+      "text": "おばあさん",
+      "kana": "おばあさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おばあさん"
+      ],
+      "entryIds": [
+        "1002330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0131",
+      "text": "お風呂",
+      "kana": "おふろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おふろ"
+      ],
+      "entryIds": [
+        "2220600"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0132",
+      "text": "お弁当",
+      "kana": "おべんとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おべんとう"
+      ],
+      "entryIds": [
+        "1513065"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0135",
+      "text": "重い",
+      "kana": "おもい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おもい"
+      ],
+      "entryIds": [
+        "1335750"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0136",
+      "text": "面白い",
+      "kana": "おもしろい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おもしろい"
+      ],
+      "entryIds": [
+        "1533580"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0138",
+      "text": "降りる",
+      "kana": "おりる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おりる"
+      ],
+      "entryIds": [
+        "1589500"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0140",
+      "text": "音楽",
+      "kana": "おんがく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おんがく"
+      ],
+      "entryIds": [
+        "1183720"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0141",
+      "text": "女",
+      "kana": "おんな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おみな",
+        "おんな",
+        "じょ",
+        "すけ",
+        "め"
+      ],
+      "entryIds": [
+        "1344370",
+        "1344930",
+        "1344940",
+        "2742880",
+        "2860163"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0142",
+      "text": "女の子",
+      "kana": "おんなのこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おんなのこ",
+        "めのこ"
+      ],
+      "entryIds": [
+        "1344970",
+        "2742860"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0145",
+      "text": "外国",
+      "kana": "がいこく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "がいこく",
+        "そとぐに"
+      ],
+      "entryIds": [
+        "1203620"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0146",
+      "text": "外国人",
+      "kana": "がいこくじん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "がいこくじん"
+      ],
+      "entryIds": [
+        "1203650"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0148",
+      "text": "階段",
+      "kana": "かいだん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいだん"
+      ],
+      "entryIds": [
+        "1203090"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0149",
+      "text": "買い物",
+      "kana": "かいもの",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいもの",
+        "かいもん"
+      ],
+      "entryIds": [
+        "1589730"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0151",
+      "text": "返す",
+      "kana": "かえす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かえす"
+      ],
+      "entryIds": [
+        "1512130"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0152",
+      "text": "帰る",
+      "kana": "かえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かえる"
+      ],
+      "entryIds": [
+        "1221270"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0153",
+      "text": "顔",
+      "kana": "かお",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かお",
+        "かんばせ",
+        "がお"
+      ],
+      "entryIds": [
+        "1217730",
+        "2221310",
+        "2868628"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0161",
+      "text": "傘",
+      "kana": "かさ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かさ",
+        "からかさ"
+      ],
+      "entryIds": [
+        "1301940",
+        "1774770"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0162",
+      "text": "貸す",
+      "kana": "かす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かす"
+      ],
+      "entryIds": [
+        "1411160"
+      ]
+    },
+    {
+      "pack": "n5-vocab-01.json",
+      "id": "n5-vocab-01-w-0250",
+      "text": "声",
+      "kana": "こえ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こえ",
+        "しょう"
+      ],
+      "entryIds": [
+        "1380440",
+        "2843115"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0002",
+      "text": "ああ",
+      "kana": "ああ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ああ"
+      ],
+      "entryIds": [
+        "1565440",
+        "2085080",
+        "2252550"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0014",
+      "text": "朝御飯",
+      "kana": "あさごはん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あさごはん"
+      ],
+      "entryIds": [
+        "1586330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0092",
+      "text": "ええ",
+      "kana": "ええ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ええ"
+      ],
+      "entryIds": [
+        "1001140"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0111",
+      "text": "叔父さん",
+      "kana": "おじさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おじさん"
+      ],
+      "entryIds": [
+        "2261490"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0129",
+      "text": "伯母さん",
+      "kana": "おばさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おばさん"
+      ],
+      "entryIds": [
+        "2261500"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0134",
+      "text": "おまわりさん",
+      "kana": "おまわりさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おまわりさん"
+      ],
+      "entryIds": [
+        "1002120"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0154",
+      "text": "かかる",
+      "kana": "かかる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かかる"
+      ],
+      "entryIds": [
+        "1193110",
+        "1207590",
+        "1249300",
+        "1609500",
+        "2076580",
+        "2841189"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0159",
+      "text": "掛ける",
+      "kana": "かける",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かける"
+      ],
+      "entryIds": [
+        "1207610"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0163",
+      "text": "風",
+      "kana": "かぜ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かぜ",
+        "ふう",
+        "ふり",
+        "フリ"
+      ],
+      "entryIds": [
+        "1361130",
+        "1499720",
+        "1499730"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0165",
+      "text": "方",
+      "kana": "かた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かた",
+        "がた",
+        "さま",
+        "へ",
+        "ほう"
+      ],
+      "entryIds": [
+        "1516925",
+        "1516930",
+        "1545790",
+        "2253290",
+        "2254960"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0167",
+      "text": "片仮名",
+      "kana": "かたかな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かたかな"
+      ],
+      "entryIds": [
+        "1511600"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0169",
+      "text": "学校",
+      "kana": "がっこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "がっこう"
+      ],
+      "entryIds": [
+        "1206730"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0170",
+      "text": "カップ",
+      "kana": "カップ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "カップ"
+      ],
+      "entryIds": [
+        "1037670"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0171",
+      "text": "家庭",
+      "kana": "かてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かてい"
+      ],
+      "entryIds": [
+        "1192280"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0172",
+      "text": "角",
+      "kana": "かど",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かく",
+        "かど",
+        "すみ",
+        "つの"
+      ],
+      "entryIds": [
+        "1206100",
+        "1206110",
+        "1206120",
+        "1246440"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0174",
+      "text": "花瓶",
+      "kana": "かびん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かびん",
+        "かへい",
+        "けびょう",
+        "はながめ"
+      ],
+      "entryIds": [
+        "1194870",
+        "2597850"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0175",
+      "text": "かぶる",
+      "kana": "かぶる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かぶる"
+      ],
+      "entryIds": [
+        "1484330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0177",
+      "text": "カメラ",
+      "kana": "カメラ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "カメラ"
+      ],
+      "entryIds": [
+        "1038350"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0178",
+      "text": "火曜日",
+      "kana": "かようび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かようび"
+      ],
+      "entryIds": [
+        "1194290"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0179",
+      "text": "辛い",
+      "kana": "からい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "からい",
+        "ずらい",
+        "つらい",
+        "づらい",
+        "ツラい",
+        "ツライ"
+      ],
+      "entryIds": [
+        "1365850",
+        "1365860",
+        "2096480"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0180",
+      "text": "体",
+      "kana": "からだ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "からだ",
+        "たい",
+        "てい"
+      ],
+      "entryIds": [
+        "1409140",
+        "1409150",
+        "1409160"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0181",
+      "text": "借りる",
+      "kana": "かりる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かりる"
+      ],
+      "entryIds": [
+        "1323560"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0183",
+      "text": "軽い",
+      "kana": "かるい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かるい",
+        "かろい"
+      ],
+      "entryIds": [
+        "1252560"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0184",
+      "text": "カレー",
+      "kana": "カレー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "カレー"
+      ],
+      "entryIds": [
+        "1039140"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0185",
+      "text": "カレンダー",
+      "kana": "カレンダー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "カレンダー"
+      ],
+      "entryIds": [
+        "1039220"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0186",
+      "text": "川",
+      "kana": "かわ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かわ",
+        "がわ"
+      ],
+      "entryIds": [
+        "1390020"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0188",
+      "text": "可愛い",
+      "kana": "かわいい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かわいい",
+        "かわいーい",
+        "かわえー",
+        "かわゆい",
+        "かわーい",
+        "カワいい",
+        "カワイい",
+        "カワイイ"
+      ],
+      "entryIds": [
+        "1577200",
+        "2863274"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0191",
+      "text": "黄色",
+      "kana": "きいろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おうしょく",
+        "きいろ",
+        "こうしょく"
+      ],
+      "entryIds": [
+        "1576760"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0192",
+      "text": "黄色い",
+      "kana": "きいろい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きいろい"
+      ],
+      "entryIds": [
+        "1182030"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0194",
+      "text": "聞く",
+      "kana": "きく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きく"
+      ],
+      "entryIds": [
+        "1591110"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0195",
+      "text": "北",
+      "kana": "きた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きた",
+        "ペー"
+      ],
+      "entryIds": [
+        "1520670",
+        "2833070"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0196",
+      "text": "ギター",
+      "kana": "ギター",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ギター"
+      ],
+      "entryIds": [
+        "1042820"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0197",
+      "text": "汚い",
+      "kana": "きたない",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きたない"
+      ],
+      "entryIds": [
+        "1178940"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0198",
+      "text": "喫茶店",
+      "kana": "きっさてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きっさてん",
+        "きっちゃてん"
+      ],
+      "entryIds": [
+        "1226440"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0199",
+      "text": "切手",
+      "kana": "きって",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きって",
+        "きれて"
+      ],
+      "entryIds": [
+        "1385070",
+        "1591920"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0203",
+      "text": "牛肉",
+      "kana": "ぎゅうにく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぎゅうにく"
+      ],
+      "entryIds": [
+        "1231580"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0204",
+      "text": "牛乳",
+      "kana": "ぎゅうにゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぎゅうにゅう"
+      ],
+      "entryIds": [
+        "1231590"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0207",
+      "text": "兄弟",
+      "kana": "きょうだい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きょうだい",
+        "けいてい"
+      ],
+      "entryIds": [
+        "1249960",
+        "2870775"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0209",
+      "text": "嫌い",
+      "kana": "きらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きらい",
+        "ぎらい"
+      ],
+      "entryIds": [
+        "1257240",
+        "2796330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0210",
+      "text": "切る",
+      "kana": "きる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きる",
+        "キる"
+      ],
+      "entryIds": [
+        "1384830"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0211",
+      "text": "着る",
+      "kana": "きる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きる"
+      ],
+      "entryIds": [
+        "1423000"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0213",
+      "text": "キロ",
+      "kana": "キロ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "キロ"
+      ],
+      "entryIds": [
+        "1042610"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0215",
+      "text": "銀行",
+      "kana": "ぎんこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぎんこう"
+      ],
+      "entryIds": [
+        "1243490"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0216",
+      "text": "金曜日",
+      "kana": "きんようび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きんようび"
+      ],
+      "entryIds": [
+        "1243320"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0220",
+      "text": "果物",
+      "kana": "くだもの",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かぶつ",
+        "くだもの"
+      ],
+      "entryIds": [
+        "1193060"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0221",
+      "text": "口",
+      "kana": "くち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "く",
+        "くち",
+        "こう"
+      ],
+      "entryIds": [
+        "1275640",
+        "2271620"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0222",
+      "text": "靴",
+      "kana": "くつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くつ"
+      ],
+      "entryIds": [
+        "1246700"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0223",
+      "text": "靴下",
+      "kana": "くつした",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くつした"
+      ],
+      "entryIds": [
+        "1246740"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0224",
+      "text": "国",
+      "kana": "くに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くに"
+      ],
+      "entryIds": [
+        "1592250"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0225",
+      "text": "曇り",
+      "kana": "くもり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くもり"
+      ],
+      "entryIds": [
+        "1592340"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0226",
+      "text": "曇る",
+      "kana": "くもる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くもる"
+      ],
+      "entryIds": [
+        "1457560"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0227",
+      "text": "暗い",
+      "kana": "くらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くらい"
+      ],
+      "entryIds": [
+        "1154330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0229",
+      "text": "クラス",
+      "kana": "クラス",
+      "status": "matched",
+      "dictionaryReadings": [
+        "クラス"
+      ],
+      "entryIds": [
+        "1044070"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0230",
+      "text": "グラム",
+      "kana": "グラム",
+      "status": "matched",
+      "dictionaryReadings": [
+        "グラム"
+      ],
+      "entryIds": [
+        "1046810"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0232",
+      "text": "車",
+      "kana": "くるま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くるま",
+        "しゃ"
+      ],
+      "entryIds": [
+        "1323080",
+        "2773260"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0233",
+      "text": "黒",
+      "kana": "くろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くろ"
+      ],
+      "entryIds": [
+        "1287410"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0234",
+      "text": "黒い",
+      "kana": "くろい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くろい"
+      ],
+      "entryIds": [
+        "1287420"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0235",
+      "text": "警官",
+      "kana": "けいかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいかん"
+      ],
+      "entryIds": [
+        "1252330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0236",
+      "text": "今朝",
+      "kana": "けさ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けさ",
+        "こんちょう"
+      ],
+      "entryIds": [
+        "1579100"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0238",
+      "text": "結構",
+      "kana": "けっこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けっこう"
+      ],
+      "entryIds": [
+        "1254760"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0239",
+      "text": "結婚",
+      "kana": "けっこん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けっこん"
+      ],
+      "entryIds": [
+        "1254790"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0240",
+      "text": "月曜日",
+      "kana": "げつようび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げつようび"
+      ],
+      "entryIds": [
+        "1255890"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0241",
+      "text": "玄関",
+      "kana": "げんかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げんかん"
+      ],
+      "entryIds": [
+        "1263400"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0242",
+      "text": "元気",
+      "kana": "げんき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げんき"
+      ],
+      "entryIds": [
+        "1260720"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0246",
+      "text": "公園",
+      "kana": "こうえん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうえん"
+      ],
+      "entryIds": [
+        "1273270"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0247",
+      "text": "交差点",
+      "kana": "こうさてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうさてん"
+      ],
+      "entryIds": [
+        "1592970"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0248",
+      "text": "紅茶",
+      "kana": "こうちゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうちゃ"
+      ],
+      "entryIds": [
+        "1280770"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0251",
+      "text": "コート",
+      "kana": "コート",
+      "status": "matched",
+      "dictionaryReadings": [
+        "コート"
+      ],
+      "entryIds": [
+        "1049000",
+        "2842174"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0254",
+      "text": "午後",
+      "kana": "ごご",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごご"
+      ],
+      "entryIds": [
+        "1268990"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0255",
+      "text": "九日",
+      "kana": "ここのか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ここぬか",
+        "ここのか"
+      ],
+      "entryIds": [
+        "1243850"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0256",
+      "text": "九つ",
+      "kana": "ここのつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ここのつ"
+      ],
+      "entryIds": [
+        "1243600"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0257",
+      "text": "午前",
+      "kana": "ごぜん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごぜん"
+      ],
+      "entryIds": [
+        "1269060"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0258",
+      "text": "答える",
+      "kana": "こたえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こたえる"
+      ],
+      "entryIds": [
+        "1449540"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0261",
+      "text": "コップ",
+      "kana": "コップ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "コップ"
+      ],
+      "entryIds": [
+        "1050390",
+        "2846389",
+        "5000045"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0262",
+      "text": "今年",
+      "kana": "ことし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ことし",
+        "こんねん"
+      ],
+      "entryIds": [
+        "1579130"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0263",
+      "text": "言葉",
+      "kana": "ことば",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けとば",
+        "ことば"
+      ],
+      "entryIds": [
+        "1264540"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0264",
+      "text": "子供",
+      "kana": "こども",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こども"
+      ],
+      "entryIds": [
+        "1307850"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0266",
+      "text": "御飯",
+      "kana": "ごはん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おまんま",
+        "おんいい",
+        "ごはん"
+      ],
+      "entryIds": [
+        "1270590",
+        "2709060",
+        "2809540"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0268",
+      "text": "困る",
+      "kana": "こまる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こまる"
+      ],
+      "entryIds": [
+        "1289590"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0271",
+      "text": "今月",
+      "kana": "こんげつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こんげつ"
+      ],
+      "entryIds": [
+        "1289100"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0272",
+      "text": "今週",
+      "kana": "こんしゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こんしゅう"
+      ],
+      "entryIds": [
+        "1289220"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0273",
+      "text": "こんな",
+      "kana": "こんな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こんな"
+      ],
+      "entryIds": [
+        "1004880"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0274",
+      "text": "今晩",
+      "kana": "こんばん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こんばん"
+      ],
+      "entryIds": [
+        "1289470"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0275",
+      "text": "さあ",
+      "kana": "さあ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さあ"
+      ],
+      "entryIds": [
+        "1005110"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0278",
+      "text": "魚",
+      "kana": "さかな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うお",
+        "さかな"
+      ],
+      "entryIds": [
+        "1578010"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0280",
+      "text": "咲く",
+      "kana": "さく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さく"
+      ],
+      "entryIds": [
+        "1297210"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0281",
+      "text": "作文",
+      "kana": "さくぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さくぶん",
+        "さくもん"
+      ],
+      "entryIds": [
+        "1297960",
+        "2525510"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0282",
+      "text": "差す",
+      "kana": "さす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さす"
+      ],
+      "entryIds": [
+        "1291330"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0285",
+      "text": "砂糖",
+      "kana": "さとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さとう"
+      ],
+      "entryIds": [
+        "1291600"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0290",
+      "text": "散歩",
+      "kana": "さんぽ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんぽ"
+      ],
+      "entryIds": [
+        "1303620"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0293",
+      "text": "塩",
+      "kana": "しお",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えん",
+        "しお"
+      ],
+      "entryIds": [
+        "1576630",
+        "2847901"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0294",
+      "text": "しかし",
+      "kana": "しかし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しかし"
+      ],
+      "entryIds": [
+        "1505990",
+        "2586170"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0297",
+      "text": "仕事",
+      "kana": "しごと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しごと"
+      ],
+      "entryIds": [
+        "1304970"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0303",
+      "text": "自転車",
+      "kana": "じてんしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じてんしゃ",
+        "じでんしゃ"
+      ],
+      "entryIds": [
+        "1318290"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0304",
+      "text": "自動車",
+      "kana": "じどうしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じどうしゃ"
+      ],
+      "entryIds": [
+        "1318400"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0307",
+      "text": "自分",
+      "kana": "じぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じぶん"
+      ],
+      "entryIds": [
+        "1318610"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0310",
+      "text": "締める",
+      "kana": "しめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめる",
+        "シメる"
+      ],
+      "entryIds": [
+        "1436570"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0313",
+      "text": "シャツ",
+      "kana": "シャツ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "シャツ"
+      ],
+      "entryIds": [
+        "1061520"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0314",
+      "text": "シャワー",
+      "kana": "シャワー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "シャワー"
+      ],
+      "entryIds": [
+        "1061820"
+      ]
+    },
+    {
+      "pack": "n5-vocab-02.json",
+      "id": "n5-vocab-02-w-0320",
+      "text": "上手",
+      "kana": "じょうず",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うわて",
+        "かみて",
+        "じょうしゅ",
+        "じょうず",
+        "じょうて"
+      ],
+      "entryIds": [
+        "1353320",
+        "1580400"
       ]
     }
   ]

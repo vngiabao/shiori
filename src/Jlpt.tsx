@@ -19,6 +19,8 @@ import {
   levelInfos,
   newPlan,
   questionMap,
+  questionsFor,
+  jlptQuestions,
   remainingSeconds,
   scoreRun,
   sourceLinks,
@@ -157,7 +159,9 @@ export function JlptRoom({
         ).find((r) => r.submitted === null);
         if (existing) return;
         await db.jlptPlans.put(plan);
-        await db.jlptRuns.add(createRun(plan, stage as QuizStage));
+        await db.jlptRuns.add(
+          createRun(plan, stage as QuizStage, Date.now(), runs),
+        );
       });
       setReviewId(null);
     });
@@ -212,7 +216,8 @@ export function JlptRoom({
             (r) =>
               r.id !== run.id &&
               r.stage === run.stage &&
-              r.started < run.started,
+              r.started < run.started &&
+              r.questionIds.some((id) => run.questionIds.includes(id)),
           )}
           onDone={() => setReviewId(run.id)}
           onClose={() => {
@@ -345,6 +350,11 @@ export function JlptRoom({
                     This is a short written sample, not a full mock exam;
                     listening is practised through the linked source materials.
                   </p>
+                  <p className="muted">
+                    Drawn from {questionsFor(level, "exam").length} sample
+                    items; unseen questions are used first. This set does not
+                    assess the whole level.
+                  </p>
                   <ul className="jlpt-rules">
                     <li>No hints or answer explanations until submission.</li>
                     <li>
@@ -364,8 +374,9 @@ export function JlptRoom({
                     (r) => r.stage === "exam" && r.submitted !== null,
                   ) && (
                     <p className="muted">
-                      This set has been seen before. Repeating it measures
-                      review, not unseen-test performance.
+                      Earlier sample questions may return after the bank has
+                      been used. Repeated items measure review, not fresh test
+                      performance.
                     </p>
                   )}
                   {completed.length === 6 && (
@@ -374,8 +385,8 @@ export function JlptRoom({
                       <p>
                         This cycle is finished. Continue with the next unit in
                         your book; earlier logs and results stay in your
-                        history. The small in-app question bank repeats, so use
-                        publisher and official sets for fresh evaluation.
+                        history. The in-app bank is finite, so use publisher and
+                        official sets for fresh evaluation.
                       </p>
                       <Button
                         secondary
@@ -439,9 +450,12 @@ export function JlptRoom({
                     <div className="jlpt-checkpoint">
                       <h3>Then check the essentials.</h3>
                       <p>
-                        Two original questions; both must be correct.
-                        Explanations follow submission. These small checkpoints
-                        do not establish complete coverage of this skill.
+                        Two original questions; both must be correct. Drawn from{" "}
+                        {questionsFor(level, stage as QuizStage).length} items,
+                        with unseen items first. Finishing this checkpoint does
+                        not complete the whole bank. Explanations follow
+                        submission. These small checkpoints do not establish
+                        complete coverage of this skill.
                       </p>
                       <Button disabled={!studyLogged || busy} onClick={begin}>
                         Start checkpoint <ArrowRight size={18} />
@@ -615,11 +629,12 @@ export function JlptRoom({
             )}
           </section>
           <p className="jlpt-provenance">
-            60 original AI-assisted draft questions across N5–N1, including 30
-            sample-test questions. Not publisher questions, human-reviewed
-            assessments, official scaled scores or a complete JLPT course.
-            Sources checked 4 October 2026.{" "}
-            <a href="#settings">Back up this record</a>.
+            {jlptQuestions.length} original AI-assisted draft questions across
+            N5–N1, including{" "}
+            {jlptQuestions.filter((q) => q.stage === "exam").length} sample-test
+            questions. Not publisher questions, human-reviewed assessments,
+            official scaled scores or a complete JLPT course. Sources checked 4
+            October 2026. <a href="#settings">Back up this record</a>.
           </p>
         </>
       )}
@@ -949,7 +964,10 @@ function QuestionRun({
               {submitted
                 ? "Answer review"
                 : `Question ${index + 1} of ${run.questionIds.length}`}{" "}
-              · {repeated ? "Repeated set" : "First attempt at this set"}
+              ·{" "}
+              {repeated
+                ? "Contains previously seen items"
+                : "New items in your saved history"}
             </p>
           </div>
           {!submitted && seconds !== null && (
