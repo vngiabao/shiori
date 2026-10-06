@@ -49,7 +49,7 @@ const cast = JSON.parse(
 ) as { url: string }[];
 const decks = fs
   .readdirSync("content/packs")
-  .filter((name) => /^n5-vocab-\d+\.json$/.test(name))
+  .filter((name) => /^n[1-5]-vocab-\d+\.json$/.test(name))
   .map(
     (name) =>
       JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8")) as {

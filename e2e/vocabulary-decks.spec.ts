@@ -47,7 +47,7 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   ).toBeEnabled();
   const words = fs
     .readdirSync("content/packs")
-    .filter((name) => /^n5-vocab-\d+\.json$/.test(name))
+    .filter((name) => /^n[1-5]-vocab-\d+\.json$/.test(name))
     .flatMap(
       (name) =>
         JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8")).words,
@@ -124,4 +124,43 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   ).toHaveCount(0);
   await expect(page.locator(".word-example")).toHaveCount(0);
   await expect(page.locator(".answer-option")).toHaveCount(4);
+  await page.getByRole("button", { name: "Leave lesson" }).click();
+  await page.goto("/#library");
+  await page.getByLabel("Show lessons").selectOption("n4");
+  await page
+    .locator(".course-unit")
+    .filter({
+      has: page.getByRole("heading", {
+        name: "N4 vocabulary · Deck 1",
+        exact: true,
+      }),
+    })
+    .getByRole("button", { name: "Read", exact: true })
+    .first()
+    .click();
+  await page.setViewportSize({ width: 375, height: 1000 });
+  const n4Example = page.locator(".word-example").first();
+  await n4Example.locator("summary").click();
+  await expect(
+    n4Example.getByText("I accidentally stepped on someone's foot."),
+  ).toBeVisible();
+  const n4Audio = mapping["足を踏んでしまいました。"];
+  expect(n4Audio).toBeTruthy();
+  const n4Played = page.waitForResponse(
+    (r) => new URL(r.url()).pathname === n4Audio,
+  );
+  await n4Example.getByRole("button", { name: "Hear the example" }).click();
+  expect([200, 206]).toContain((await n4Played).status());
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+  expect(
+    (
+      await new AxeBuilder({ page })
+        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+        .analyze()
+    ).violations,
+  ).toEqual([]);
 });

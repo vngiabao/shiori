@@ -1,6 +1,6 @@
 # Shiori course outline: N5 → N1, media and keigo
 
-Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`) with two 100-word source-backed vocabulary decks; the remaining decks are pending. N4 units 1–12 and its sixty checkpoint / thirty sample items are authored and checked; vocabulary decks and final release review remain pending. N3–N1 and workplace keigo remain plans to verify and author level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
+Status: plan, written 2026-10-05. Being built in full (N4 → N1 + Keigo at work) via prompts/gpt-course-build.md and its amendment prompts/gpt-course-continue.md. N5 is authored (`content/packs/PLAN-n5.md`, units `n5-u01`–`n5-u12`) with three 100-word source-backed vocabulary decks; the remaining decks are pending. N4 units 1–12 and its sixty checkpoint / thirty sample items are authored and checked; two 100-word vocabulary decks are installed, with remaining decks and final release review pending. N3–N1 and workplace keigo remain plans to verify and author level by level. Grammar sequences marked **verify** must be checked against the named source before authoring; record what was checked in `content/sources/grammar-lists.md`.
 
 ## 0. What the course is for
 
@@ -77,14 +77,14 @@ From N3 there is no single textbook spine. Build the grammar list from **two ind
 |---|---|---|---|
 | n3-u01 | Getting better at it | ようになる, ようにする, ように (purpose), ために vs ように | Vlog-style monologue |
 | n3-u02 | Just now, about to | たばかり, ところ (ているところ, たところ, るところ), 〜うちに | Phone call in progress |
-| n3-u03 | Looks like, seems, apparently | そう / よう / らしい / みたい contrasted | Gossip scene with Misaki |
+| n3-u03 | Looks like, seems, apparently | そう / よう / らしい / みたい contrasted; っぽい (appearance/characteristic) | Gossip scene with Misaki |
 | n3-u04 | It must be, it should be | はず, わけ, べき, に違いない | Detective-style anime scene (original) |
 | n3-u05 | About, for, towards | について, に対して, にとって, によって | Opinion message |
 | n3-u06 | Decisions | ことになる, ことにする, ことはない, ことだ | Team meeting at the café |
 | n3-u07 | If and when | と / ば / たら / なら in contrast | Giving directions and advice |
-| n3-u08 | Even though | ても, のに, くせに, ながら (concessive) | Argument between friends |
+| n3-u08 | Even though | ても, のに, くせに, ながらも (concessive; contrast with simultaneous-action ながら) | Argument between friends |
 | n3-u09 | Thanks to, because of | おかげで, せいで, ため(に) cause, から/ので review | News-lite report |
-| n3-u10 | Whenever, while | たびに, 間に/間, 最中に, うちに | Story told in the past |
+| n3-u10 | Whenever, while, and recurring tendencies | たびに, 間に/間, 最中に, うちに; がち / 気味 contrasted | Story told in the past; routine diary |
 | n3-u11 | Let me do it | させてください, させていただく, causative/passive review in real use | Workplace requests |
 | n3-u12 | **Anime casual speech** | ちゃう/じゃう, とく, てる, なきゃ/なくちゃ, っけ, じゃん, かな, の? (rising) | Ladder 4: contractions at speed, no transcript first |
 | n3-u13 | **Character speech (役割語)** | ぜ, ぞ, わ, のだ, かしら, じゃ (old man), ござる (recognition only) | Who is speaking? (anime archetypes) |
@@ -106,7 +106,7 @@ From N3 there is no single textbook spine. Build the grammar list from **two ind
 | n2-u08 | Natural conversation | あいづち (へえ, なるほど, そうなんだ), fillers (えっと, なんか, まあ), omission | Ladder 5: natural speed, overlaps |
 | n2-u09 | Saying no without saying no | indirect refusal (ちょっと…, 考えておきます), 〜かねる, 〜ないこともない | Drama scene |
 | n2-u10 | Novels | narrative past, inner monologue, 〜のだった, 〜ていく/〜てくる | Original short story |
-| n2-u11 | Tendencies | っぽい, げ, がち, 気味, 〜やすい review | Character descriptions |
+| n2-u11 | Describing impressions precisely | げ; っぽい, がち, 気味, 〜やすい review and contrast | Character descriptions |
 | n2-u12 | Based on, through, around | をもとに, を通じて, をめぐって, をはじめ | Report / documentary narration |
 | n2-u13 | Comparing views (統合理解) | two opinions on one topic | Two short essays, compare tasks |
 | n2-u14 | **Kansai-ben** | や, へん, めっちゃ, ほんま, おおきに, 〜はる (recognition) | Tamura-san; anime Kansai characters |

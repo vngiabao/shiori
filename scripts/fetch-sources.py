@@ -1,5 +1,5 @@
 """Fetch reference subsets and stroke paths for every installed course pack."""
-import argparse, hashlib, gzip, json, re, urllib.request, xml.etree.ElementTree as ET, zipfile
+import argparse, hashlib, gzip, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, zipfile
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 root = Path(__file__).resolve().parent.parent
@@ -17,11 +17,19 @@ def jmdict():
     from jmdict_sources import refresh
     refresh()
 
-def kanjidic():
+def kanjidic(cached=False):
     try:
-        release=json.load(urllib.request.urlopen('https://api.github.com/repos/scriptin/jmdict-simplified/releases/latest'))
-        asset=next(a for a in release['assets'] if a['name'].startswith('kanjidic2-en-') and a['name'].endswith('.json.zip'))
-        file=fetch(asset['browser_download_url'],cache/asset['name'])
+        if cached:
+            pin=json.loads((out/'kanjidic2-provenance.json').read_text(encoding='utf-8'))
+            release={'tag_name':pin['release']}
+            asset={'browser_download_url':pin['url'], 'name':urllib.parse.unquote(pin['url'].rsplit('/',1)[1])}
+            file=cache/asset['name']
+            if not file.exists() or hashlib.sha256(file.read_bytes()).hexdigest()!=pin['sha256']:
+                raise ValueError('Cached KANJIDIC2 is absent or differs from its pin')
+        else:
+            release=json.load(urllib.request.urlopen('https://api.github.com/repos/scriptin/jmdict-simplified/releases/latest'))
+            asset=next(a for a in release['assets'] if a['name'].startswith('kanjidic2-en-') and a['name'].endswith('.json.zip'))
+            file=fetch(asset['browser_download_url'],cache/asset['name'])
         with zipfile.ZipFile(file) as z:data=json.loads(z.read(z.namelist()[0]))
         wanted={c for w in pack['words'] for c in w['text'] if '\u4e00' <= c <= '\u9fff'}
         found=[e for e in data['characters'] if e['literal'] in wanted]
@@ -61,11 +69,16 @@ def references():
     print('New kanji reference entries:',len(entries),flush=True)
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('--kanji-only',action='store_true');args=parser.parse_args()
-    kanjivg_revision=json.load(urllib.request.urlopen('https://api.github.com/repos/KanjiVG/kanjivg/commits/master'))['sha']
+    parser=argparse.ArgumentParser();parser.add_argument('--kanji-only',action='store_true');parser.add_argument('--cached',action='store_true');args=parser.parse_args()
+    kanjivg_revision=(json.loads((out/'kanjivg-provenance.json').read_text(encoding='utf-8'))['revision'] if args.cached
+                     else json.load(urllib.request.urlopen('https://api.github.com/repos/KanjiVG/kanjivg/commits/master'))['sha'])
     with ThreadPoolExecutor(max_workers=10) as pool:
-        job=None if args.kanji_only else pool.submit(jmdict)
-        kanji_job=pool.submit(kanjidic)
+        if args.cached and not args.kanji_only:
+            from jmdict_sources import refresh
+            job=pool.submit(refresh,True)
+        else:
+            job=None if args.kanji_only else pool.submit(jmdict)
+        kanji_job=pool.submit(kanjidic,args.cached)
         failures=[c for c,ok in zip(sorted(chars),pool.map(stroke,sorted(chars))) if not ok]
         kanji_job.result()
         if job: job.result()
