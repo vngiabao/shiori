@@ -141,6 +141,14 @@ for (const unit of [
       ["Who is included, and which case is singled out?", "n2-u03-d-visit", "Expand eligibility beyond the named group", "Read an instruction tied to a significant occasion"],
     ],
   },
+  {
+    id: "n2-u04", reading: "A fee that keeps the door open",
+    secondReading: "One cancellation is not the end",
+    lessons: [
+      ["A conclusion and an unavoidable action", "n2-u04-d-fee", "State a considered conclusion", "Limit a claim to just that amount or role"],
+      ["A limited claim and an added fact", "n2-u04-d-rain", "Limit a claim to just that amount or role", "State a considered conclusion"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

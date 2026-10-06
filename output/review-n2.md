@@ -1,6 +1,6 @@
 # N2 core editorial review
 
-6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–3 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
+6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–4 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
 
 ## Unit 1 — Written style
 
@@ -65,3 +65,16 @@ Continuity and answer review: old building remains open through the twentieth at
 Verification: TypeScript, 117 unit tests, 24 Python source tests, content/JMdict/kanji/JLPT, five audio validators, preservation, focused browser playback/readings at 375/1440 in saved light/dark with accessibility/overflow checks, build and real production offline reload/playback passed. All 7,442 prior Clear keys and 631 prior scene mappings retained; 125 historical takes retained; 106 new WAVs fully mapped. Current 7,568 Clear keys / 7,580 synthesis records / 655 scene takes. VOICEVOX emitted leading-short-pause warnings while processing text; final query, waveform, mapping and browser decode checks passed. Single-mora vowel phonemes remain unchanged; this does not establish perceptual pronunciation quality. Precache 1,527 entries / 13,335.73 KiB. Native review pending. No design/database/auth changes or production deployment.
 
 Next: N2 unit 4 opinion essays, then the rest of N2 core before N1 and keigo; remaining decks come after the core.
+
+
+## Unit 4 — Make a case without overstating it
+
+45 new restricted-JMdict-matched pairs; two lessons, five notes with three examples each, two twelve-line scenes, two original essays (422/449 Japanese characters), twenty tasks. Form-specific two-source research: content/sources/grammar/n2-u04.json. と言える is a considered conclusion with a complete quoted predicate; ざるを得ない includes する→せざる and circumstances forcing an action; にすぎない limits amount/role; に違いない retrieves N3 conviction; ばかりか is emphatic written addition. Equivalent forms are not rejected just to force the target.
+
+Editorial fixes: collected participation fees can pay part of expenses; income is not equated with expenditure. 仮定 is introduced before its question. Reading ruby leaves okurigana outside kanji annotations. Removed absent 原則/告知/館内 recycling references, and kept actual 題名. Replies reference the actual 予算/変更 rather than unrelated headwords. Recycling target is explicitly eight percent for practical fee and weather conversation; no argument vocabulary is stuffed into speech. Every one of the 42/41 contextual glosses occurs in its own passage.
+
+Answer and continuity review: the room is free, printing costs three thousand, proposed participation fee two hundred, and twenty attendees would hypothetically bring four thousand. Free first visits funded by the club are a proposal needing permission, not established policy. The later outdoor reading event has no indoor room secured; Ren asks by noon. Without a room, this event is cancelled while a later gathering remains a separate possibility. Bao's expectation of a happy reaction depends on finding a room. Neither permanent closure nor guaranteed room availability is inferred. Essays argue for transparent finances and a clear conditional update. All twenty answer keys follow stated information or an explicitly requested form. Ordering tasks remain constrained practice.
+
+Verification: TypeScript, 117 unit tests / 17 files, 24 Python source tests, content/JMdict/kanji/JLPT/beginner ledger, five audio validators and preservation pass. Focused browser test decodes all 24 scene WAVs and checks cast playback, lesson-bound grammar and both readings at 375/1440 in saved light/dark with accessibility and overflow checks. Light 1440 screenshot inspected. Build and production offline reload/playback pass (2026-10-06T21:17:30.900Z). All 7,568 prior Clear keys and 655 prior scene mappings preserved; 125 historical takes retained; all 112 new WAVs mapped. Current 7,701 Clear keys / 7,713 synthesis records / 679 scene takes. Existing kana query phonemes, teacher messages, pitch limits and old stroke/source bytes remain unchanged. Precache 1,540 entries / 13,421.34 KiB. Native language/listening review remains pending; signal and decode checks cannot certify listener-perceived pronunciation. No design/database/auth change or deployment.
+
+Next: source-backed N2 unit 5 news reading, then the remaining N2 core before N1 and keigo. Decks come after the core.
