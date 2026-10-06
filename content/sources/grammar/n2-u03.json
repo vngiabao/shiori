@@ -1,0 +1,61 @@
+{
+  "unit": "n2-u03",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific research, internal editorial corrections and content/dictionary/audio/preservation/browser/build/production offline checks passed; native review pending.",
+  "method": "Original formal notices and ordinary spoken discussion. Explanations checked against first-party grammar publishers and teacher material; published examples and exercises are not imported. Tags are publisher estimates, not official JLPT inventories.",
+  "points": [
+    {
+      "form": "に際して / に際し",
+      "sources": [
+        "https://bunpro.jp/grammar_points/に際して",
+        "https://www.mlcjapanese.co.jp/n2_04_27.html",
+        "https://www.mlcjapanese.co.jp/img/nisaishite_niatatte_n2_answer.pdf"
+      ],
+      "formation": "Event noun or dictionary verb + に際して/に際し. Attributive に際しての + noun; polite connector に際しまして.",
+      "teachingChoice": "Significant occasion and corresponding action/instruction, such as relocation or issuing a card. A whole sentence may report a past event; direct verb attachment remains dictionary form. Distinguish Nの際に from Nに際して, and do not insert の into the latter.",
+      "sourceCaution": "The MLC explanation and worksheet explicitly allow overlap with にあたって. No scored question rejects the overlapping marker solely on a fine nuance. Failed JLPT Sensei URLs are not counted as inspected."
+    },
+    {
+      "form": "にあたって / にあたり",
+      "sources": [
+        "https://bunpro.jp/grammar_points/にあたり-にあたって",
+        "https://www.mlcjapanese.co.jp/n2_04_27.html",
+        "https://www.mlcjapanese.co.jp/img/nisaishite_niatatte_n2_answer.pdf"
+      ],
+      "formation": "Event noun or dictionary verb + にあたって/にあたり; written 当たって/当たり are available.",
+      "teachingChoice": "Preparations, measures and intentions on undertaking something significant. Original facility-opening and event examples avoid turning every routine action into a formal milestone. Formation question supplies the requested pattern rather than forcing a false binary between the two occasion markers.",
+      "sourceCaution": "The short Bunpro URL using に当たって was inaccessible; the combined にあたり-にあたって page was actually inspected."
+    },
+    {
+      "form": "に限らず",
+      "sources": [
+        "https://bunpro.jp/grammar_points/に限らず",
+        "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00059/ja/render.do"
+      ],
+      "formation": "Noun + に限らず, expanding scope beyond that case; further included cases often take も.",
+      "teachingChoice": "A workshop includes people beyond students while retaining booking, capacity and required-item rules. Read inclusion in its actual scope; do not infer unrestricted entry or automatic publication.",
+      "sourceCaution": "JPF labels its older material 旧2級. That is historical categorisation, not an official current N2 mapping; formation and explanation are checked independently of the label."
+    },
+    {
+      "form": "に限って and formal restriction に限り",
+      "sources": [
+        "https://bunpro.jp/grammar_points/に限って",
+        "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00059/ja/render.do"
+      ],
+      "formation": "Noun + に限って; time clauses may modify 日/とき. Formal noun + に限り marks a specified restriction.",
+      "teachingChoice": "Examples distinguish a real opening-day restriction, an annoying one-off coincidence, and trusted-person disbelief. The spoken scene's forgotten items do not prove a habitual behaviour. The reading explicitly distinguishes workshop-room access from the building's hours.",
+      "sourceCaution": "JPF treats formal に限り separately from coincidence/trust uses of に限って. に限る meaning the best choice is noted as separate; it is not scored as an interchangeable notice marker."
+    }
+  ],
+  "editorialReview": {
+    "sceneChoice": "Two twelve-line scenes: Yamamoto and Bao edit a practical relocation announcement; Misaki and Bao read a workshop poster and ask about borrowing with a forgotten card. Formal markers appear where a notice or considered explanation warrants them; peer chat stays ordinary.",
+    "wordChecks": "Forty-four unused restricted-JMdict spelling/reading pairs. Examples distinguish 改定 of rules/prices from 改訂 of a publication; eligibility and formal administrative vocabulary remain supplementary study, not a spoken quota.",
+    "readingCharacters": [
+      510,
+      535
+    ],
+    "tasks": "Twenty questions with one defensible answer each, explicit form-practice labels and reply listeners. First meet list includes 移転 and 注意事項 before their first scored use.",
+    "fixesBeforeRender": "Removed absent 校正 from a standalone reply reference list. Removed the overtly formal 気遣い line from peer pen-lending chat. Notice thanks are directed to volunteers preparing the guidance, not implausible public draft-review acknowledgements. Contextual glosses occur in their own text. A documented 27 percent recycling target prioritises the actual notice/scene domain over vocabulary padding.",
+    "remaining": "N2 whole-core review after unit 16 and independent native language/listening review."
+  }
+}

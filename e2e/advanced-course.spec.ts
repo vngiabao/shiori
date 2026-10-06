@@ -133,6 +133,14 @@ for (const unit of [
       ["An inference and a commitment", "n2-u02-d-promise", "Correct an inference without saying the opposite", "A tendency, not a rule for everyone"],
     ],
   },
+  {
+    id: "n2-u03", reading: "The library’s relocation notice",
+    secondReading: "A workshop open beyond students",
+    lessons: [
+      ["Read the instructions for a new opening", "n2-u03-d-move", "Read an instruction tied to a significant occasion", "Expand eligibility beyond the named group"],
+      ["Who is included, and which case is singled out?", "n2-u03-d-visit", "Expand eligibility beyond the named group", "Read an instruction tied to a significant occasion"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

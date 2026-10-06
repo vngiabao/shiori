@@ -1,9 +1,9 @@
 {
-  "totalWords": 2681,
-  "uniqueForms": 2637,
+  "totalWords": 2725,
+  "uniqueForms": 2681,
   "counts": {
     "excluded-drill": 157,
-    "matched": 2439,
+    "matched": 2483,
     "unmatched": 81,
     "name-unverified": 4
   },
@@ -3821,6 +3821,589 @@
       ],
       "entryIds": [
         "1557350"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaikai",
+      "text": "開会",
+      "kana": "かいかい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいかい"
+      ],
+      "entryIds": [
+        "1202560"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-heikai",
+      "text": "閉会",
+      "kana": "へいかい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "へいかい"
+      ],
+      "entryIds": [
+        "1508600"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kokuchi",
+      "text": "告知",
+      "kana": "こくち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こくち"
+      ],
+      "entryIds": [
+        "1286050"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kouhou",
+      "text": "広報",
+      "kana": "こうほう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうほう"
+      ],
+      "entryIds": [
+        "1593040"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-shuuchi",
+      "text": "周知",
+      "kana": "しゅうち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうち"
+      ],
+      "entryIds": [
+        "1331210"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kokuji",
+      "text": "告示",
+      "kana": "こくじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こくじ"
+      ],
+      "entryIds": [
+        "1286010"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-shikou",
+      "text": "施行",
+      "kana": "しこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しぎょう",
+        "しこう",
+        "せぎょう",
+        "せこう"
+      ],
+      "entryIds": [
+        "1579510",
+        "2852867"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaitei-rules",
+      "text": "改定",
+      "kana": "かいてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいじょう",
+        "かいてい"
+      ],
+      "entryIds": [
+        "1201040"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaitei-text",
+      "text": "改訂",
+      "kana": "かいてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいてい"
+      ],
+      "entryIds": [
+        "1201060"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kiyaku",
+      "text": "規約",
+      "kana": "きやく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きやく"
+      ],
+      "entryIds": [
+        "1223110"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-youkou",
+      "text": "要項",
+      "kana": "ようこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ようこう"
+      ],
+      "entryIds": [
+        "1546750"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-gaiyou",
+      "text": "概要",
+      "kana": "がいよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "がいよう"
+      ],
+      "entryIds": [
+        "1204500"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-shikaku",
+      "text": "資格",
+      "kana": "しかく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しかく"
+      ],
+      "entryIds": [
+        "1312690"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-meibo",
+      "text": "名簿",
+      "kana": "めいぼ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "みょうぶ",
+        "めいぼ"
+      ],
+      "entryIds": [
+        "1531830",
+        "2639540"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kimei",
+      "text": "記名",
+      "kana": "きめい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きめい"
+      ],
+      "entryIds": [
+        "1223430"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-honnin",
+      "text": "本人",
+      "kana": "ほんにん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほんにん"
+      ],
+      "entryIds": [
+        "1522750"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-mibunshou",
+      "text": "身分証",
+      "kana": "みぶんしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "みぶんしょう"
+      ],
+      "entryIds": [
+        "2133000"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-hakkou",
+      "text": "発行",
+      "kana": "はっこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はっこう"
+      ],
+      "entryIds": [
+        "1477390"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-koufu",
+      "text": "交付",
+      "kana": "こうふ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうふ"
+      ],
+      "entryIds": [
+        "1272520"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-juryou",
+      "text": "受領",
+      "kana": "じゅりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅりょう",
+        "ずりょう",
+        "ずろう"
+      ],
+      "entryIds": [
+        "1330080",
+        "2593860"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-teiji",
+      "text": "提示",
+      "kana": "ていじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ていじ"
+      ],
+      "entryIds": [
+        "1436400"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-keiji",
+      "text": "掲示",
+      "kana": "けいじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいじ"
+      ],
+      "entryIds": [
+        "1250620"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kannai",
+      "text": "館内",
+      "kana": "かんない",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かんない"
+      ],
+      "entryIds": [
+        "1614320"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-nyuukan",
+      "text": "入館",
+      "kana": "にゅうかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "にゅうかん"
+      ],
+      "entryIds": [
+        "2556080"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-taikan",
+      "text": "退館",
+      "kana": "たいかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たいかん"
+      ],
+      "entryIds": [
+        "2793140"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kyuukan",
+      "text": "休館",
+      "kana": "きゅうかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゅうかん"
+      ],
+      "entryIds": [
+        "1836050"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaikan",
+      "text": "開館",
+      "kana": "かいかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいかん"
+      ],
+      "entryIds": [
+        "1202580"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-rinji",
+      "text": "臨時",
+      "kana": "りんじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "りんじ"
+      ],
+      "entryIds": [
+        "1555610"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-jousetsu",
+      "text": "常設",
+      "kana": "じょうせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうせつ"
+      ],
+      "entryIds": [
+        "1356060"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-shinsetsu",
+      "text": "新設",
+      "kana": "しんせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんせつ"
+      ],
+      "entryIds": [
+        "1362070"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-isetsu",
+      "text": "移設",
+      "kana": "いせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いせつ"
+      ],
+      "entryIds": [
+        "1158340"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-iten",
+      "text": "移転",
+      "kana": "いてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いてん"
+      ],
+      "entryIds": [
+        "1158390"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaishuu",
+      "text": "改修",
+      "kana": "かいしゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいしゅう"
+      ],
+      "entryIds": [
+        "1200880"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kaisou",
+      "text": "改装",
+      "kana": "かいそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいそう"
+      ],
+      "entryIds": [
+        "1200990"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-chuuijikou",
+      "text": "注意事項",
+      "kana": "ちゅういじこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ちゅういじこう"
+      ],
+      "entryIds": [
+        "1426540"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-jisan",
+      "text": "持参",
+      "kana": "じさん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じさん"
+      ],
+      "entryIds": [
+        "1315790"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-kashidashi",
+      "text": "貸出",
+      "kana": "かしだし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かしだし"
+      ],
+      "entryIds": [
+        "1590240"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-hikae",
+      "text": "控え",
+      "kana": "ひかえ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ひかえ"
+      ],
+      "entryIds": [
+        "1279050"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-gaitou",
+      "text": "該当",
+      "kana": "がいとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かくとう",
+        "がいとう"
+      ],
+      "entryIds": [
+        "1204700"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-jogai",
+      "text": "除外",
+      "kana": "じょがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょがい"
+      ],
+      "entryIds": [
+        "1345650"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-gentei",
+      "text": "限定",
+      "kana": "げんてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げんてい"
+      ],
+      "entryIds": [
+        "1264670"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-yuuguu",
+      "text": "優遇",
+      "kana": "ゆうぐう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ゆうぐう"
+      ],
+      "entryIds": [
+        "1539190"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-menjo",
+      "text": "免除",
+      "kana": "めんじょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "めんじょ"
+      ],
+      "entryIds": [
+        "1533200"
+      ]
+    },
+    {
+      "pack": "n2-u03.json",
+      "id": "n2-u03-w-tekiyou",
+      "text": "適用",
+      "kana": "てきよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てきよう"
+      ],
+      "entryIds": [
+        "1437500"
       ]
     },
     {

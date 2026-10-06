@@ -1,6 +1,6 @@
 # N2 core editorial review
 
-6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–2 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
+6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–3 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
 
 ## Unit 1 — Written style
 
@@ -52,3 +52,16 @@ Verification: TypeScript; 117 unit tests / 17 files; 24 Python source tests; con
 Audio preservation: all 7,323 prior Clear mappings and 607 prior dialogue mappings intact; 125 historical replaced takes retained; all 103 new WAV files referenced. Current 7,442 Clear keys / 7,454 synthesis records / 631 scene takes. Existing vowel phonemes, teacher moods, pitch limits, kanji source/stroke bytes unchanged. Precache 1,519 entries / 13,255.21 KiB. Design, database and sign-in unchanged. Internal review cannot establish native naturalness or perceived pronunciation.
 
 Next: N2 unit 3 formal notices, then the remaining N2 core before N1. No production deployment yet.
+
+
+## Unit 3 — Occasion markers and the scope of a notice
+
+44 new restricted-JMdict-matched pairs; two lessons, four notes with three examples each, two twelve-line scenes, two original notices/guides (510/535 Japanese characters), twenty tasks. Two-source formation checks and choices in content/sources/grammar/n2-u03.json. Significant occasion に際して and undertaking にあたって overlap: no cloze treats one as inherently wrong against the other. Eligibility に限らず is separate from booking/capacity; に限って restriction, awkward coincidence and trusted-person disbelief are contextual uses, with formal に限り distinguished.
+
+Corrections applied: removed the absent 校正 task reference, moved 移転/注意事項 into the first meet list, replaced 気遣いがうれしい with ordinary ありがとう、助かった, simplified the notice's optional-tour permission and thanked volunteers for guidance preparation. Both readings' 43/45 glosses occur in their own passage. The 27% recycling exception reflects the practical notice domain; no unrelated vocabulary was inserted into conversation.
+
+Continuity and answer review: old building remains open through the twentieth at six; closed twenty-first through month end; new building opens the first next month. Old cards remain valid. Normal opening nine-thirty differs from opening-day nine and optional tours nine/ten. The workshop is the first Sunday, ten–eleven: non-students may apply, but booking by five the preceding day, capacity twenty and required items remain. Workshop-room entry from nine-thirty is separate from building hours. Bao's forgotten-card borrowing exception is unresolved until he asks the desk. Publication of participants' articles is a later choice, not automatic. All twenty keys follow explicit text or requested formation; constrained form practice is labelled.
+
+Verification: TypeScript, 117 unit tests, 24 Python source tests, content/JMdict/kanji/JLPT, five audio validators, preservation, focused browser playback/readings at 375/1440 in saved light/dark with accessibility/overflow checks, build and real production offline reload/playback passed. All 7,442 prior Clear keys and 631 prior scene mappings retained; 125 historical takes retained; 106 new WAVs fully mapped. Current 7,568 Clear keys / 7,580 synthesis records / 655 scene takes. VOICEVOX emitted leading-short-pause warnings while processing text; final query, waveform, mapping and browser decode checks passed. Single-mora vowel phonemes remain unchanged; this does not establish perceptual pronunciation quality. Precache 1,527 entries / 13,335.73 KiB. Native review pending. No design/database/auth changes or production deployment.
+
+Next: N2 unit 4 opinion essays, then the rest of N2 core before N1 and keigo; remaining decks come after the core.
