@@ -1,0 +1,1535 @@
+{
+  "id": "n3-u16",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "title": "N3 · Unit 16",
+  "words": [
+    {
+      "id": "n3-u16-w-kiji",
+      "text": "記事",
+      "kana": "きじ",
+      "romaji": "kiji",
+      "meaning": "article; written news item",
+      "register": "neutral",
+      "example": "記事の本文まで読みます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "記事",
+          "reading": "きじ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-kisha",
+      "text": "記者",
+      "kana": "きしゃ",
+      "romaji": "kisha",
+      "meaning": "reporter; journalist",
+      "register": "neutral",
+      "example": "記者が主催者に話を聞きました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "記者",
+          "reading": "きしゃ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-houdou",
+      "text": "報道",
+      "kana": "ほうどう",
+      "romaji": "hōdō",
+      "meaning": "news reporting",
+      "register": "neutral",
+      "example": "報道で伝えられた内容を確認します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "報道",
+          "reading": "ほうどう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-shuzai",
+      "text": "取材",
+      "kana": "しゅざい",
+      "romaji": "shuzai",
+      "meaning": "gathering material; reporting interview",
+      "register": "neutral",
+      "example": "取材で聞いたことと感想を分けます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "取材",
+          "reading": "しゅざい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-midashi",
+      "text": "見出し",
+      "kana": "みだし",
+      "romaji": "midashi",
+      "meaning": "headline; heading",
+      "register": "neutral",
+      "example": "見出しだけでは条件が分かりません。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "見出",
+          "reading": "みだ"
+        },
+        {
+          "text": "し"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-honbun",
+      "text": "本文",
+      "kana": "ほんぶん",
+      "romaji": "honbun",
+      "meaning": "main text; body of an article",
+      "register": "neutral",
+      "example": "本文に会場が書いてあります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "本文",
+          "reading": "ほんぶん"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-youten",
+      "text": "要点",
+      "kana": "ようてん",
+      "romaji": "yōten",
+      "meaning": "main point; essential detail",
+      "register": "neutral",
+      "example": "時間と申込の期限を要点として残します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "要点",
+          "reading": "ようてん"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-sokuhou",
+      "text": "速報",
+      "kana": "そくほう",
+      "romaji": "sokuhō",
+      "meaning": "news flash; quick initial report",
+      "register": "neutral",
+      "example": "速報の後に出た記事も確認します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "速報",
+          "reading": "そくほう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-dekigoto",
+      "text": "出来事",
+      "kana": "できごと",
+      "romaji": "dekigoto",
+      "meaning": "event; occurrence",
+      "register": "neutral",
+      "example": "過去の出来事と今後の予定を分けます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "出来事",
+          "reading": "できごと"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-toukei",
+      "text": "統計",
+      "kana": "とうけい",
+      "romaji": "tōkei",
+      "meaning": "statistics",
+      "register": "neutral",
+      "example": "この統計は去年の来場者についてです。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "統計",
+          "reading": "とうけい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-zouka",
+      "text": "増加",
+      "kana": "ぞうか",
+      "romaji": "zōka",
+      "meaning": "increase",
+      "register": "neutral",
+      "example": "前年より人数が増加しました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "増加",
+          "reading": "ぞうか"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-genshou",
+      "text": "減少",
+      "kana": "げんしょう",
+      "romaji": "genshō",
+      "meaning": "decrease",
+      "register": "neutral",
+      "example": "一昨年より人数が減少しました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "減少",
+          "reading": "げんしょう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-chiiki",
+      "text": "地域",
+      "kana": "ちいき",
+      "romaji": "chiiki",
+      "meaning": "region; local area",
+      "register": "neutral",
+      "example": "地域の施設で展示をします。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "地域",
+          "reading": "ちいき"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-koukyou",
+      "text": "公共",
+      "kana": "こうきょう",
+      "romaji": "kōkyō",
+      "meaning": "public; community use",
+      "register": "neutral",
+      "example": "公共の施設を利用します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "公共",
+          "reading": "こうきょう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-shisetsu",
+      "text": "施設",
+      "kana": "しせつ",
+      "romaji": "shisetsu",
+      "meaning": "facility; institution",
+      "register": "neutral",
+      "example": "この施設は市役所の隣です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "施設",
+          "reading": "しせつ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-shiyakusho",
+      "text": "市役所",
+      "kana": "しやくしょ",
+      "romaji": "shiyakusho",
+      "meaning": "city hall; municipal office",
+      "register": "neutral",
+      "example": "市役所の隣に行きます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "市役所",
+          "reading": "しやくしょ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-kaisai",
+      "text": "開催",
+      "kana": "かいさい",
+      "romaji": "kaisai",
+      "meaning": "holding an event",
+      "register": "neutral",
+      "example": "土曜日に展示を開催します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "開催",
+          "reading": "かいさい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-shusai",
+      "text": "主催",
+      "kana": "しゅさい",
+      "romaji": "shusai",
+      "meaning": "organising; sponsoring an event",
+      "register": "neutral",
+      "example": "地域の読書会が主催します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "主催",
+          "reading": "しゅさい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-tenji",
+      "text": "展示",
+      "kana": "てんじ",
+      "romaji": "tenji",
+      "meaning": "display; exhibition",
+      "register": "neutral",
+      "example": "漫画のコマを展示します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "展示",
+          "reading": "てんじ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-kouza",
+      "text": "講座",
+      "kana": "こうざ",
+      "romaji": "kōza",
+      "meaning": "course; lecture session",
+      "register": "neutral",
+      "example": "講座では朗読を練習します。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "講座",
+          "reading": "こうざ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-teiin",
+      "text": "定員",
+      "kana": "ていいん",
+      "romaji": "teiin",
+      "meaning": "capacity; maximum admitted participants",
+      "register": "neutral",
+      "example": "講座の定員は二十人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "定員",
+          "reading": "ていいん"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-oubo",
+      "text": "応募",
+      "kana": "おうぼ",
+      "romaji": "ōbo",
+      "meaning": "applying; entering a recruitment or offer",
+      "register": "neutral",
+      "example": "講座に応募する前に条件を読みます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "応募",
+          "reading": "おうぼ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-toujitsu",
+      "text": "当日",
+      "kana": "とうじつ",
+      "romaji": "tōjitsu",
+      "meaning": "the day in question; event day",
+      "register": "neutral",
+      "example": "当日に整理券を持っていきます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "当日",
+          "reading": "とうじつ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-zenjitsu",
+      "text": "前日",
+      "kana": "ぜんじつ",
+      "romaji": "zenjitsu",
+      "meaning": "the preceding day",
+      "register": "neutral",
+      "example": "前日の五時までに申し込みます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "前日",
+          "reading": "ぜんじつ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-yokujitsu",
+      "text": "翌日",
+      "kana": "よくじつ",
+      "romaji": "yokujitsu",
+      "meaning": "the following day",
+      "register": "neutral",
+      "example": "翌日の日曜日は開催しません。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "翌日",
+          "reading": "よくじつ"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-yuuryou",
+      "text": "有料",
+      "kana": "ゆうりょう",
+      "romaji": "yūryō",
+      "meaning": "charged; requiring payment",
+      "register": "neutral",
+      "example": "朗読の講座は有料です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "有料",
+          "reading": "ゆうりょう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-muryou",
+      "text": "無料",
+      "kana": "むりょう",
+      "romaji": "muryō",
+      "meaning": "free of charge",
+      "register": "neutral",
+      "example": "展示は無料で見られます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "無料",
+          "reading": "むりょう"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-senchaku",
+      "text": "先着",
+      "kana": "せんちゃく",
+      "romaji": "senchaku",
+      "meaning": "arrival order; first come, first served",
+      "register": "neutral",
+      "example": "先着二十人が参加できます。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "先着",
+          "reading": "せんちゃく"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-seiriken",
+      "text": "整理券",
+      "kana": "せいりけん",
+      "romaji": "seiriken",
+      "meaning": "numbered admission or queue ticket",
+      "register": "neutral",
+      "example": "整理券には名前が書いてあります。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "整理券",
+          "reading": "せいりけん"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-shuukei",
+      "text": "集計",
+      "kana": "しゅうけい",
+      "romaji": "shūkei",
+      "meaning": "tabulation; tallying totals",
+      "register": "neutral",
+      "example": "去年の来場者を集計しました。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "集計",
+          "reading": "しゅうけい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-goukei",
+      "text": "合計",
+      "kana": "ごうけい",
+      "romaji": "gōkei",
+      "meaning": "total; sum",
+      "register": "neutral",
+      "example": "合計は五十人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "合計",
+          "reading": "ごうけい"
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-w-uchiwake",
+      "text": "内訳",
+      "kana": "うちわけ",
+      "romaji": "uchiwake",
+      "meaning": "breakdown; itemised details",
+      "register": "neutral",
+      "example": "内訳は午前三十人と午後二十人です。",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "内訳",
+          "reading": "うちわけ"
+        }
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "title": "Read a news brief with its source and date",
+      "description": "Retrieve reported speech and causes in an original local-news brief.",
+      "canDo": "Distinguish a past decision, a reported future event and a historical count",
+      "minutes": 30,
+      "words": [
+        "n3-u16-w-kiji",
+        "n3-u16-w-kisha",
+        "n3-u16-w-houdou",
+        "n3-u16-w-shuzai",
+        "n3-u16-w-midashi",
+        "n3-u16-w-honbun",
+        "n3-u16-w-youten",
+        "n3-u16-w-sokuhou",
+        "n3-u16-w-dekigoto",
+        "n3-u16-w-toukei",
+        "n3-u16-w-zouka",
+        "n3-u16-w-genshou",
+        "n3-u16-w-chiiki",
+        "n3-u16-w-koukyou",
+        "n3-u16-w-shisetsu",
+        "n3-u16-w-shiyakusho"
+      ],
+      "id": "n3-u16-lesson-1",
+      "kind": "phrase"
+    },
+    {
+      "title": "Use the timetable without mixing its quantities",
+      "description": "Retrieve decisions, comparison and conditions to choose a fitting activity.",
+      "canDo": "Find an activity, cost and deadline while keeping capacity separate from attendance",
+      "minutes": 30,
+      "words": [
+        "n3-u16-w-kaisai",
+        "n3-u16-w-shusai",
+        "n3-u16-w-tenji",
+        "n3-u16-w-kouza",
+        "n3-u16-w-teiin",
+        "n3-u16-w-oubo",
+        "n3-u16-w-toujitsu",
+        "n3-u16-w-zenjitsu",
+        "n3-u16-w-yokujitsu",
+        "n3-u16-w-yuuryou",
+        "n3-u16-w-muryou",
+        "n3-u16-w-senchaku",
+        "n3-u16-w-seiriken",
+        "n3-u16-w-shuukei",
+        "n3-u16-w-goukei",
+        "n3-u16-w-uchiwake"
+      ],
+      "id": "n3-u16-lesson-2",
+      "kind": "phrase"
+    }
+  ],
+  "letters": [],
+  "roleplays": [],
+  "grammar": [
+    {
+      "id": "n3-u16-g-report",
+      "title": "Keep the source attached to the report",
+      "formation": "Retrieve source によると + plain proposition + そうだ/そうです. Noun/na-adjective retains だ before reported そうだ.",
+      "explanation": "Identify who supplied a reported statement and when. A report of a future event does not mean the event has already taken place. Reported 開催するそうだ retains する; appearance 開催しそうだ uses the stem and has a different basis. Earlier source/observation lessons remain relevant. No numerical confidence ranking is assigned.",
+      "example": "記者によると、展示は無料だそうです。",
+      "translation": "According to the reporter, the exhibition is free.",
+      "examples": [
+        {
+          "ja": "{記者|きしゃ}によると、{展示|てんじ}は{無料|むりょう}だそうです。",
+          "en": "According to the reporter, the exhibition is free."
+        },
+        {
+          "ja": "{記事|きじ}には、{土曜日|どようび}に{開催|かいさい}するそうだと{書|か}いてある。",
+          "en": "The article says it is reportedly being held on Saturday."
+        },
+        {
+          "ja": "{見出|みだ}しだけでなく、{本文|ほんぶん}も{読|よ}むそうです。",
+          "en": "They say they will read the main text as well as the headline."
+        }
+      ],
+      "mistake": "Do not drop noun だ or confuse a reported future arrangement with a completed event.",
+      "lessons": [
+        "n3-u16-lesson-1"
+      ]
+    },
+    {
+      "id": "n3-u16-g-cause",
+      "title": "Read a stated cause without inventing a motive",
+      "formation": "Retrieve noun + のため; na-adjective + なため; attributive clause + ため. In a notice, に may be omitted. Purpose ために needs a goal context.",
+      "explanation": "A stated cause explains an outcome in the article. 施設の修理のため、会場を変えた reports a reason for changing venue; it is not an intention to make the repair happen. Tense alone does not decide cause versus purpose. Preserve the source’s scope and do not infer a different cause, such as noise or weather, from nearby vocabulary.",
+      "example": "施設の修理のため、会場を変えた。",
+      "translation": "The venue was changed because of repairs to the facility.",
+      "examples": [
+        {
+          "ja": "{施設|しせつ}の{修理|しゅうり}のため、{会場|かいじょう}を{変|か}えた。",
+          "en": "The venue was changed because of repairs to the facility."
+        },
+        {
+          "ja": "{見出|みだ}しが{短|みじか}いため、{本文|ほんぶん}で{条件|じょうけん}を{確認|かくにん}する。",
+          "en": "Because the headline is short, check the conditions in the main text."
+        },
+        {
+          "ja": "{地域|ちいき}について{知|し}るために、{記事|きじ}を{読|よ}む。",
+          "en": "Read the article in order to learn about the area."
+        }
+      ],
+      "mistake": "A repair cause is not a purpose, and the future event is not confirmed merely by being reported.",
+      "lessons": [
+        "n3-u16-lesson-1"
+      ]
+    },
+    {
+      "id": "n3-u16-g-arrangement",
+      "title": "A venue decision is not an attended event",
+      "formation": "Retrieve V-dictionary/ない + ことになった for a resulting arrangement; V-dictionary/ない + ことにした for a deliberate choice.",
+      "explanation": "The organiser arranged to use an indoor hall on Monday; the learner chooses on Thursday to read the panel descriptions. Neither past decision form establishes attendance at Saturday’s event. する/なる is a framing distinction, not a universal inside/outside decision test. This retrieves unit 6 rather than silently adding ことになっている.",
+      "example": "屋内の施設で開催することになった。",
+      "translation": "It was arranged that the event would be held indoors.",
+      "examples": [
+        {
+          "ja": "{屋内|おくない}の{施設|しせつ}で{開催|かいさい}することになった。",
+          "en": "It was arranged that the event would be held indoors."
+        },
+        {
+          "ja": "{無料|むりょう}の{展示|てんじ}を{先|さき}に{見|み}ることにした。",
+          "en": "I decided to see the free exhibition first."
+        },
+        {
+          "ja": "{翌日|よくじつ}には{開催|かいさい}しないことになった。",
+          "en": "It was arranged that the event would not be held the following day."
+        }
+      ],
+      "mistake": "Changing the plan is not attending it; not doing an action is distinct from not making a decision.",
+      "lessons": [
+        "n3-u16-lesson-2"
+      ]
+    },
+    {
+      "id": "n3-u16-g-compare",
+      "title": "Compare the same quantity and the same period",
+      "formation": "Retrieve AはBほど…ない and AよりBのほうが…. State the measured quantity, dates and population before comparing.",
+      "explanation": "A tally of last year’s visitors is a count of completed visits. This year’s lecture capacity is a limit, not actual attendance, and an application count is not an attendance count either. Compare like quantities before describing increase/decrease. A smaller capacity does not prove fewer people attended this year.",
+      "example": "去年の午後の人数は、午前ほど多くなかった。",
+      "translation": "Last year’s afternoon count was not as large as its morning count.",
+      "examples": [
+        {
+          "ja": "{去年|きょねん}の{午後|ごご}の{人数|にんずう}は、{午前|ごぜん}ほど{多|おお}くなかった。",
+          "en": "Last year’s afternoon count was not as large as its morning count."
+        },
+        {
+          "ja": "{一昨年|おととし}より{去年|きょねん}の{来場|らいじょう}{者|しゃ}の{方|ほう}が{多|おお}かった。",
+          "en": "Last year had more visitors than the year before that."
+        },
+        {
+          "ja": "{定員|ていいん}と{来場|らいじょう}{者|しゃ}の{合計|ごうけい}は{同|おな}じものではない。",
+          "en": "Capacity and the total visitor count are not the same kind of quantity."
+        }
+      ],
+      "mistake": "A table heading supplies scope. Do not compare future capacity with past attendance as a measured trend.",
+      "lessons": [
+        "n3-u16-lesson-2"
+      ]
+    },
+    {
+      "id": "n3-u16-g-condition",
+      "title": "Apply the stated conditions to the right activity",
+      "formation": "Retrieve noun + さえあれば or Vば for a sufficient condition within the stated situation. Distinguish a deadline までに from a duration まで.",
+      "explanation": "The free exhibition needs no application. The charged lecture requires prior admission and its ticket; ticket possession is sufficient only in that already admitted context. The application deadline is the previous day at five, not a promise of unlimited same-day admission. A decision to apply is not an accepted application.",
+      "example": "受付で名前を確認した後は、整理券さえあれば入れます。",
+      "translation": "After the registration desk has confirmed your name, the admission ticket is enough to enter.",
+      "examples": [
+        {
+          "ja": "{受付|うけつけ}で{名前|なまえ}を{確認|かくにん}した{後|あと}は、{整理券|せいりけん}さえあれば{入|はい}れます。",
+          "en": "After the registration desk has confirmed your name, the admission ticket is enough to enter."
+        },
+        {
+          "ja": "{前日|ぜんじつ}の{五時|ごじ}までに{応募|おうぼ}してください。",
+          "en": "Please apply by five on the preceding day."
+        },
+        {
+          "ja": "{講座|こうざ}に{参加|さんか}しないなら、{応募|おうぼ}する{必要|ひつよう}はありません。",
+          "en": "If you will not take part in the lecture, you do not need to apply."
+        }
+      ],
+      "mistake": "Keep the prior-admission context. By five is a deadline, not from five or until five continuously.",
+      "lessons": [
+        "n3-u16-lesson-2"
+      ]
+    }
+  ],
+  "kanji": [],
+  "dialogues": [
+    {
+      "id": "n3-u16-d-news",
+      "lesson": "n3-u16-lesson-1",
+      "title": "Thursday’s article about Saturday",
+      "speed": 1.1,
+      "scene": "On Thursday, Bao asks Satō-sensei about an original fictional local-news article. Monday’s initial report announced a venue change caused by repairs. Saturday’s reading event is still future. Last year’s visitor figures are separate historical data.",
+      "words": [
+        "n3-u16-w-kiji",
+        "n3-u16-w-kisha",
+        "n3-u16-w-houdou",
+        "n3-u16-w-shuzai",
+        "n3-u16-w-midashi",
+        "n3-u16-w-honbun",
+        "n3-u16-w-youten",
+        "n3-u16-w-sokuhou",
+        "n3-u16-w-dekigoto",
+        "n3-u16-w-toukei",
+        "n3-u16-w-zouka",
+        "n3-u16-w-genshou",
+        "n3-u16-w-chiiki",
+        "n3-u16-w-koukyou",
+        "n3-u16-w-shisetsu",
+        "n3-u16-w-shiyakusho",
+        "n3-u13-w-daihon",
+        "n3-u13-w-roudoku",
+        "n3-u13-w-kaishaku",
+        "n3-u14-w-shiyou",
+        "n3-u14-w-souon",
+        "n3-u14-w-seihin",
+        "n3-u15-w-koma",
+        "n3-u15-w-fukidashi",
+        "n3-u15-w-koukaon"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{先生|せんせい}、{地域|ちいき}の{記事|きじ}を{読|よ}みました。{見出|みだ}しは「{読書|どくしょ}イベントの{会場|かいじょう}が{変|か}わる」です。{今日|きょう}は{木曜日|もくようび}ですね。",
+          "romaji": "Sensei, chiiki no kiji o yomimashita. Midashi wa dokusho ibento no kaijō ga kawaru desu. Kyō wa mokuyōbi desu ne.",
+          "meaning": "Teacher, I read a local article. The headline is Reading event venue changes. Today is Thursday."
+        },
+        {
+          "speaker": "Satō",
+          "line": "{本文|ほんぶん}には、{公共|こうきょう}の{施設|しせつ}の{修理|しゅうり}のため、{月曜日|げつようび}に{会場|かいじょう}の{変更|へんこう}を{決|き}めたとあります。",
+          "romaji": "Honbun ni wa, kōkyō no shisetsu no shūri no tame, getsuyōbi ni kaijō no henkō o kimeta to arimasu.",
+          "meaning": "The body says a venue change was decided Monday because the public facility needed repairs."
+        },
+        {
+          "speaker": "You",
+          "line": "{月曜日|げつようび}の{速報|そくほう}でも{知|し}らせたそうです。{記者|きしゃ}が{取材|しゅざい}した{記事|きじ}では、{市役所|しやくしょ}の{隣|となり}の{施設|しせつ}を{使|つか}うとあります。",
+          "romaji": "Getsuyōbi no sokuhō de mo shiraseta sō desu. Kisha ga shuzai shita kiji de wa, shiyakusho no tonari no shisetsu o tsukau to arimasu.",
+          "meaning": "They reportedly announced it in Monday’s initial report too. The reporter’s article says they will use the facility next to city hall."
+        },
+        {
+          "speaker": "Satō",
+          "line": "{報道|ほうどう}の{要点|ようてん}は{土曜日|どようび}の{場所|ばしょ}と{時間|じかん}です。{過去|かこ}の{出来事|できごと}と、これからの{予定|よてい}を{分|わ}けましょう。",
+          "romaji": "Hōdō no yōten wa doyōbi no basho to jikan desu. Kako no dekigoto to, kore kara no yotei o wakemashō.",
+          "meaning": "The report’s main details are Saturday’s location and time. Let us separate past events from future arrangements."
+        },
+        {
+          "speaker": "You",
+          "line": "{台本|だいほん}の{朗読|ろうどく}や、{漫画|まんが}のコマもあるんですね。{吹|ふ}き{出|だ}しと{効果音|こうかおん}を{読|よ}む{練習|れんしゅう}に{使|つか}えそうです。",
+          "romaji": "Daihon no rōdoku ya, manga no koma mo arun desu ne. Fukidashi to kōkaon o yomu renshū ni tsukaesō desu.",
+          "meaning": "There will be a script reading and comic panels too. It looks useful for practising bubbles and effects."
+        },
+        {
+          "speaker": "Satō",
+          "line": "{解釈|かいしゃく}の{前|まえ}に、{本文|ほんぶん}を{確|たし}かめてください。{製品|せいひん}の{仕様|しよう}を{読|よ}んだときと{同|おな}じです。{騒音|そうおん}が{変更|へんこう}の{理由|りゆう}とは{書|か}いてありません。",
+          "romaji": "Kaishaku no mae ni, honbun o tashikamete kudasai. Seihin no shiyō o yonda toki to onaji desu. Sōon ga henkō no riyū to wa kaite arimasen.",
+          "meaning": "Check the body before interpreting, just as with product specifications. It does not say noise was the reason for the change."
+        },
+        {
+          "speaker": "You",
+          "line": "{去年|きょねん}の{統計|とうけい}では、{午前|ごぜん}が{三十人|さんじゅうにん}、{午後|ごご}が{二十人|にじゅうにん}でした。{今年|ことし}の{人数|にんずう}ではないですね。",
+          "romaji": "Kyonen no tōkei de wa, gozen ga sanjūnin, gogo ga nijūnin deshita. Kotoshi no ninzū de wa nai desu ne.",
+          "meaning": "Last year’s statistics show thirty morning visitors and twenty afternoon visitors. Those are not this year’s counts."
+        },
+        {
+          "speaker": "Satō",
+          "line": "{一昨年|おととし}の{同|おな}じイベントは{四十人|よんじゅうにん}でした。{去年|きょねん}は{十人|じゅうにん}{増加|ぞうか}しましたが、{今年|ことし}も{増|ふ}えるとは{限|かぎ}りません。",
+          "romaji": "Ototoshi no onaji ibento wa yonjūnin deshita. Kyonen wa jūnin zōka shimashita ga, kotoshi mo fueru to wa kagirimasen.",
+          "meaning": "The same event had forty visitors the year before. Last year increased by ten, but that does not mean this year will increase too."
+        },
+        {
+          "speaker": "You",
+          "line": "{増加|ぞうか}か{減少|げんしょう}かを{言|い}うには、{同|おな}じ{範囲|はんい}の{数字|すうじ}を{比|くら}べるんですね。{見出|みだ}しだけで{判断|はんだん}しません。",
+          "romaji": "Zōka ka genshō ka o iu ni wa, onaji han'i no sūji o kuraberun desu ne. Midashi dake de handan shimasen.",
+          "meaning": "To say increase or decrease, we compare figures with the same scope. I will not judge from the headline alone."
+        },
+        {
+          "speaker": "Satō",
+          "line": "その{通|とお}りです。{土曜日|どようび}の{予定|よてい}は、まだ{実施|じっし}された{出来事|できごと}ではありません。{条件|じょうけん}は{表|ひょう}でも{確認|かくにん}しましょう。",
+          "romaji": "Sono tōri desu. Doyōbi no yotei wa, mada jisshi sareta dekigoto de wa arimasen. Jōken wa hyō de mo kakunin shimashō.",
+          "meaning": "That is right. Saturday’s arrangement is not an event that has already happened. Check the conditions in the table too."
+        }
+      ]
+    },
+    {
+      "id": "n3-u16-d-plan",
+      "lesson": "n3-u16-lesson-2",
+      "title": "Choose the activity and check the deadline",
+      "speed": 1.1,
+      "scene": "Still Thursday, Bao and Misaki consult the event table. Saturday’s free exhibition runs 9–12 with no application. The script-reading lecture runs 10–11:30, costs 300 yen, and admits the first twenty prior applicants; apply by Friday 17:00. Admitted applicants receive a ticket for the day. Last year’s counts total fifty. Bao chooses the exhibition, not the lecture.",
+      "words": [
+        "n3-u16-w-kaisai",
+        "n3-u16-w-shusai",
+        "n3-u16-w-tenji",
+        "n3-u16-w-kouza",
+        "n3-u16-w-teiin",
+        "n3-u16-w-oubo",
+        "n3-u16-w-toujitsu",
+        "n3-u16-w-zenjitsu",
+        "n3-u16-w-yokujitsu",
+        "n3-u16-w-yuuryou",
+        "n3-u16-w-muryou",
+        "n3-u16-w-senchaku",
+        "n3-u16-w-seiriken",
+        "n3-u16-w-shuukei",
+        "n3-u16-w-goukei",
+        "n3-u16-w-uchiwake",
+        "n3-u13-w-daihon",
+        "n3-u13-w-roudoku",
+        "n3-u13-w-kaishaku",
+        "n3-u14-w-kakaku",
+        "n3-u15-w-koma",
+        "n3-u15-w-fukidashi",
+        "n3-u15-w-haikei",
+        "n3-u15-w-yohaku",
+        "n3-u15-w-jitto"
+      ],
+      "lines": [
+        {
+          "speaker": "Misaki",
+          "line": "{主催|しゅさい}は{地域|ちいき}の{読書|どくしょ}{会|かい}だね。{土曜日|どようび}に{展示|てんじ}と{講座|こうざ}を{開催|かいさい}することになったそうだよ。",
+          "romaji": "Shusai wa chiiki no dokushokai da ne. Doyōbi ni tenji to kōza o kaisai suru koto ni natta sō da yo.",
+          "meaning": "The organiser is the local reading group. They say an exhibition and a lecture have been arranged for Saturday."
+        },
+        {
+          "speaker": "You",
+          "line": "{展示|てんじ}は{九時|くじ}から{十二時|じゅうにじ}まで、{無料|むりょう}。{講座|こうざ}は{十時|じゅうじ}から{十一時半|じゅういちじはん}まで、{三百円|さんびゃくえん}で{有料|ゆうりょう}だね。",
+          "romaji": "Tenji wa kuji kara jūniji made, muryō. Kōza wa jūji kara jūichiji han made, sanbyaku-en de yūryō da ne.",
+          "meaning": "The exhibition is free from nine to twelve. The lecture costs three hundred yen and runs from ten to eleven thirty."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{台本|だいほん}の{朗読|ろうどく}の{講座|こうざ}には{応募|おうぼ}が{必要|ひつよう}だよ。{定員|ていいん}は{先着|せんちゃく}{二十人|にじゅうにん}で、{前日|ぜんじつ}の{五時|ごじ}までに{申|もう}し{込|こ}むんだね。",
+          "romaji": "Daihon no rōdoku no kōza ni wa ōbo ga hitsuyō da yo. Teiin wa senchaku nijūnin de, zenjitsu no goji made ni mōshikomun da ne.",
+          "meaning": "The script-reading lecture requires an application. It takes the first twenty, and applications are due by five the preceding day."
+        },
+        {
+          "speaker": "You",
+          "line": "{参加|さんか}が{決|き}まった{人|ひと}には{整理券|せいりけん}が{届|とど}くんだね。{当日|とうじつ}は{名前|なまえ}を{確認|かくにん}した{後|あと}、{整理券|せいりけん}さえあれば{入|はい}れるとある。",
+          "romaji": "Sanka ga kimatta hito ni wa seiriken ga todokun da ne. Tōjitsu wa namae o kakunin shita ato, seiriken sae areba haireru to aru.",
+          "meaning": "Accepted participants receive a ticket. It says that after the name check on the day, the ticket is enough for entry."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{翌日|よくじつ}の{日曜日|にちようび}は{開催|かいさい}しないよ。{価格|かかく}だけでなく、{時間|じかん}と{条件|じょうけん}も{読|よ}もう。",
+          "romaji": "Yokujitsu no nichiyōbi wa kaisai shinai yo. Kakaku dake de naku, jikan to jōken mo yomō.",
+          "meaning": "It will not be held on Sunday, the next day. Let us read not only the price but also the time and conditions."
+        },
+        {
+          "speaker": "You",
+          "line": "{集計|しゅうけい}した{去年|きょねん}の{人数|にんずう}は{合計|ごうけい}{五十人|ごじゅうにん}。{内訳|うちわけ}は{午前|ごぜん}{三十人|さんじゅうにん}と{午後|ごご}{二十人|にじゅうにん}だから、{午後|ごご}は{午前|ごぜん}ほど{多|おお}くなかったね。",
+          "romaji": "Shūkei shita kyonen no ninzū wa gōkei gojūnin. Uchiwake wa gozen sanjūnin to gogo nijūnin da kara, gogo wa gozen hodo ōku nakatta ne.",
+          "meaning": "Last year’s total was fifty. Thirty were in the morning and twenty in the afternoon, so the afternoon count was not as high."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{今年|ことし}の{講座|こうざ}の{定員|ていいん}も{二十人|にじゅうにん}だけど、{去年|きょねん}の{来場|らいじょう}{者|しゃ}とは{別|べつ}だね。{今|いま}は{減少|げんしょう}したとは{言|い}えないよ。",
+          "romaji": "Kotoshi no kōza no teiin mo nijūnin da kedo, kyonen no raijōsha to wa betsu da ne. Ima wa genshō shita to wa ienai yo.",
+          "meaning": "This year’s lecture capacity is also twenty, but it is different from last year’s visitor count. We cannot now say attendance decreased."
+        },
+        {
+          "speaker": "You",
+          "line": "コマの{吹|ふ}き{出|だ}しや{背景|はいけい}をじっと{読|よ}みたいから、{展示|てんじ}を{先|さき}に{見|み}ることにしたよ。",
+          "romaji": "Koma no fukidashi ya haikei o jitto yomitai kara, tenji o saki ni miru koto ni shita yo.",
+          "meaning": "I want to read the panel bubbles and backgrounds carefully, so I decided to see the exhibition first."
+        },
+        {
+          "speaker": "Misaki",
+          "line": "{展示|てんじ}には{応募|おうぼ}がいらないね。{余白|よはく}や{台本|だいほん}の{解釈|かいしゃく}も{考|かんが}えよう。{前後|ぜんご}を{読|よ}む{練習|れんしゅう}になるよ。",
+          "romaji": "Tenji ni wa ōbo ga iranai ne. Yohaku ya daihon no kaishaku mo kangaeyō. Zengo o yomu renshū ni naru yo.",
+          "meaning": "The exhibition needs no application. Let us think about blank space and script interpretation too. It will be practice reading context."
+        },
+        {
+          "speaker": "You",
+          "line": "まだ{木曜日|もくようび}だから、{当日|とうじつ}に{行|い}ったわけではないね。{今日|きょう}は{条件|じょうけん}を{読|よ}んで、{展示|てんじ}を{選|えら}んだだけだ。",
+          "romaji": "Mada mokuyōbi da kara, tōjitsu ni itta wake de wa nai ne. Kyō wa jōken o yonde, tenji o eranda dake da.",
+          "meaning": "It is still Thursday, so I have not attended on the event day. Today I only read the conditions and chose the exhibition."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "n3-u16-reading",
+      "lesson": "n3-u16-lesson-2",
+      "title": "A venue change, two activities and last year’s figures",
+      "genre": "news",
+      "paragraphs": [
+        "{地域|ちいき}の{読書|どくしょ}{会|かい}は、{土曜日|どようび}のイベントの{会場|かいじょう}を{市役所|しやくしょ}の{隣|となり}に{変|か}えた。{公共|こうきょう}の{施設|しせつ}の{修理|しゅうり}のため、{月曜日|げつようび}に{変更|へんこう}を{決|き}め、{速報|そくほう}で{知|し}らせたという。{木曜日|もくようび}に{取材|しゅざい}した{記者|きしゃ}によると、{予定|よてい}の{時間|じかん}は{変|か}わらないそうだ。",
+        "{無料|むりょう}の{展示|てんじ}では{漫画|まんが}のコマと{台本|だいほん}を{読|よ}める。{有料|ゆうりょう}の{朗読|ろうどく}{講座|こうざ}は{先着|せんちゃく}{二十人|にじゅうにん}。{前日|ぜんじつ}{金曜日|きんようび}の{午後|ごご}{五時|ごじ}までに{応募|おうぼ}し、{参加|さんか}が{決|き}まった{人|ひと}は{当日|とうじつ}{整理券|せいりけん}を{持|も}っていく。{翌日|よくじつ}の{日曜日|にちようび}には{開催|かいさい}しない。",
+        "{去年|きょねん}の{統計|とうけい}は{午前|ごぜん}{三十人|さんじゅうにん}、{午後|ごご}{二十人|にじゅうにん}で、{合計|ごうけい}{五十人|ごじゅうにん}。{一昨年|おととし}の{四十人|よんじゅうにん}より{増加|ぞうか}した。この{内訳|うちわけ}は{過去|かこ}の{来場|らいじょう}{者|しゃ}であり、{今年|ことし}の{定員|ていいん}や{応募|おうぼ}{者|しゃ}の{数|かず}ではない。"
+      ],
+      "table": {
+        "head": [
+          "{活動|かつどう}",
+          "{土曜日|どようび}の{時間|じかん}",
+          "{料金|りょうきん}",
+          "{条件|じょうけん}"
+        ],
+        "rows": [
+          [
+            "{展示|てんじ}",
+            "{九時|くじ}〜{十二時|じゅうにじ}",
+            "{無料|むりょう}",
+            "{応募|おうぼ}なし"
+          ],
+          [
+            "{朗読|ろうどく}{講座|こうざ}",
+            "{十時|じゅうじ}〜{十一時半|じゅういちじはん}",
+            "{三百円|さんびゃくえん}",
+            "{先着|せんちゃく}{二十人|にじゅうにん}、{前日|ぜんじつ}{午後|ごご}{五時|ごじ}までに{応募|おうぼ}"
+          ]
+        ]
+      },
+      "glosses": [
+        {
+          "text": "読書会",
+          "kana": "どくしょかい",
+          "meaning": "reading group"
+        },
+        {
+          "text": "会場",
+          "kana": "かいじょう",
+          "meaning": "venue"
+        },
+        {
+          "text": "隣",
+          "kana": "となり",
+          "meaning": "next to"
+        },
+        {
+          "text": "変えた",
+          "kana": "かえた",
+          "meaning": "changed"
+        },
+        {
+          "text": "修理",
+          "kana": "しゅうり",
+          "meaning": "repairs"
+        },
+        {
+          "text": "ため",
+          "kana": "ため",
+          "meaning": "because of here"
+        },
+        {
+          "text": "変更",
+          "kana": "へんこう",
+          "meaning": "change"
+        },
+        {
+          "text": "決め",
+          "kana": "きめ",
+          "meaning": "deciding"
+        },
+        {
+          "text": "知らせた",
+          "kana": "しらせた",
+          "meaning": "announced"
+        },
+        {
+          "text": "という",
+          "kana": "という",
+          "meaning": "it is reported; quotation"
+        },
+        {
+          "text": "によると",
+          "kana": "によると",
+          "meaning": "according to"
+        },
+        {
+          "text": "変わらない",
+          "kana": "かわらない",
+          "meaning": "does not change"
+        },
+        {
+          "text": "そうだ",
+          "kana": "そうだ",
+          "meaning": "reported; hearsay"
+        },
+        {
+          "text": "読める",
+          "kana": "よめる",
+          "meaning": "can read"
+        },
+        {
+          "text": "二十人",
+          "kana": "にじゅうにん",
+          "meaning": "twenty people"
+        },
+        {
+          "text": "五時",
+          "kana": "ごじ",
+          "meaning": "five o’clock"
+        },
+        {
+          "text": "し",
+          "kana": "し",
+          "meaning": "do; connecting form"
+        },
+        {
+          "text": "決まった",
+          "kana": "きまった",
+          "meaning": "was determined; admitted here"
+        },
+        {
+          "text": "持っていく",
+          "kana": "もっていく",
+          "meaning": "take along"
+        },
+        {
+          "text": "しない",
+          "kana": "しない",
+          "meaning": "do not hold here"
+        },
+        {
+          "text": "三十人",
+          "kana": "さんじゅうにん",
+          "meaning": "thirty people"
+        },
+        {
+          "text": "五十人",
+          "kana": "ごじゅうにん",
+          "meaning": "fifty people"
+        },
+        {
+          "text": "一昨年",
+          "kana": "おととし",
+          "meaning": "the year before last"
+        },
+        {
+          "text": "四十人",
+          "kana": "よんじゅうにん",
+          "meaning": "forty people"
+        },
+        {
+          "text": "した",
+          "kana": "した",
+          "meaning": "did; increased here"
+        },
+        {
+          "text": "過去",
+          "kana": "かこ",
+          "meaning": "past"
+        },
+        {
+          "text": "来場者",
+          "kana": "らいじょうしゃ",
+          "meaning": "visitors"
+        },
+        {
+          "text": "であり",
+          "kana": "であり",
+          "meaning": "is; written connecting copula"
+        },
+        {
+          "text": "応募者",
+          "kana": "おうぼしゃ",
+          "meaning": "applicants"
+        },
+        {
+          "text": "数",
+          "kana": "かず",
+          "meaning": "number"
+        },
+        {
+          "text": "活動",
+          "kana": "かつどう",
+          "meaning": "activity"
+        },
+        {
+          "text": "料金",
+          "kana": "りょうきん",
+          "meaning": "charge"
+        },
+        {
+          "text": "九時",
+          "kana": "くじ",
+          "meaning": "nine o’clock"
+        },
+        {
+          "text": "十二時",
+          "kana": "じゅうにじ",
+          "meaning": "twelve o’clock"
+        },
+        {
+          "text": "十時",
+          "kana": "じゅうじ",
+          "meaning": "ten o’clock"
+        },
+        {
+          "text": "十一時半",
+          "kana": "じゅういちじはん",
+          "meaning": "eleven thirty"
+        },
+        {
+          "text": "三百円",
+          "kana": "さんびゃくえん",
+          "meaning": "three hundred yen"
+        },
+        {
+          "text": "なし",
+          "kana": "なし",
+          "meaning": "none; not required"
+        }
+      ]
+    }
+  ],
+  "watch": {
+    "grammar": [
+      "reported そうだ with source",
+      "cause versus purpose ため",
+      "arrangement versus deliberate choice",
+      "comparison scope",
+      "deadline and sufficient conditions"
+    ],
+    "prompt": "Optionally read a current notice from your own media. Record its source, date, event time, conditions and what is still unknown."
+  },
+  "exercises": [
+    {
+      "id": "n3-u16-x-cause",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-honbun",
+        "n3-u16-w-shisetsu",
+        "n3-u14-w-souon",
+        "n3-u14-w-shiyou"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-news",
+      "prompt": "Why was the venue change decided?",
+      "options": [
+        "Repairs to the public facility",
+        "Noise from a headphone test",
+        "A decrease in this year’s attendance"
+      ],
+      "answer": 0,
+      "explain": "The body gives repairs as the cause; Satō explicitly says noise was not stated."
+    },
+    {
+      "id": "n3-u16-x-time",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-sokuhou",
+        "n3-u16-w-dekigoto",
+        "n3-u13-w-kaishaku"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-news",
+      "prompt": "What is already past on Thursday, and what remains future?",
+      "options": [
+        "The event was completed Monday",
+        "Monday’s venue decision is past; Saturday’s event is future",
+        "The event was cancelled Thursday"
+      ],
+      "answer": 1,
+      "explain": "Satō distinguishes the decision from the still future event."
+    },
+    {
+      "id": "n3-u16-x-figures",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-toukei",
+        "n3-u14-w-seihin",
+        "n3-u13-w-kaishaku"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-news",
+      "prompt": "What do the thirty and twenty figures describe?",
+      "options": [
+        "This year’s already completed attendance",
+        "The number of headphone accessories",
+        "Last year’s morning and afternoon visitors"
+      ],
+      "answer": 2,
+      "explain": "They are explicitly last year’s statistics, not this year’s count."
+    },
+    {
+      "id": "n3-u16-x-report-noun",
+      "type": "cloze",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-kiji"
+      ],
+      "skill": "recall",
+      "context": "Form practice: report the noun predicate 無料だ with そうです, retaining だ.",
+      "line": "{記事|きじ}によると、{展示|てんじ}は{無料|むりょう}＿＿そうです。",
+      "options": [
+        "だ",
+        "な",
+        "に"
+      ],
+      "answer": 0,
+      "explain": "Reported noun predicates retain だ. This is a source report, not stem appearance."
+    },
+    {
+      "id": "n3-u16-x-cause-noun",
+      "type": "cloze",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-shisetsu",
+        "n3-u16-w-honbun"
+      ],
+      "skill": "recall",
+      "context": "Form practice: connect 修理 as a noun cause before ため.",
+      "line": "{施設|しせつ}の{修理|しゅうり}＿＿ため、{会場|かいじょう}を{変|か}えた。",
+      "options": [
+        "な",
+        "の",
+        "だ"
+      ],
+      "answer": 1,
+      "explain": "Nouns take の before causal ため; the named cause is repairs."
+    },
+    {
+      "id": "n3-u16-x-reply-source",
+      "type": "reply",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-honbun",
+        "n3-u16-w-midashi",
+        "n3-u14-w-souon",
+        "n3-u13-w-kaishaku"
+      ],
+      "skill": "listening",
+      "context": "Reply politely to Satō-sensei. Keep the stated cause and check the body.",
+      "line": "{騒音|そうおん}が{会場|かいじょう}を{変|か}えた{理由|りゆう}だと{言|い}えますか。",
+      "options": [
+        "はい。{騒音|そうおん}が{原因|げんいん}だと{取材|しゅざい}で{必|かなら}ず{分|わ}かりました。",
+        "はい。{土曜日|どようび}のイベントにはもう{行|い}きました。",
+        "いいえ。{本文|ほんぶん}では{修理|しゅうり}のためだとあります。{解釈|かいしゃく}の{前|まえ}に、{見出|みだ}しだけでなく{本文|ほんぶん}を{確認|かくにん}します。"
+      ],
+      "answer": 2,
+      "explain": "The first follows the reported repair cause and polite context; the other replies invent a cause or attendance."
+    },
+    {
+      "id": "n3-u16-x-order-source",
+      "type": "order",
+      "lesson": "n3-u16-lesson-1",
+      "words": [
+        "n3-u16-w-kiji",
+        "n3-u16-w-honbun",
+        "n3-u15-w-koma",
+        "n3-u15-w-fukidashi"
+      ],
+      "skill": "recall",
+      "meaning": "According to the article’s main text, you can read comic panels and speech bubbles on Saturday.",
+      "tiles": [
+        "{記事|きじ}の{本文|ほんぶん}によると、",
+        "{土曜日|どようび}には",
+        "コマと{吹|ふ}き{出|だ}しを",
+        "{読|よ}めるそうです。"
+      ],
+      "explain": "The source report stays attached to the future opportunity; it does not say the learner has already attended."
+    },
+    {
+      "id": "n3-u16-x-choose",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-tenji",
+        "n3-u16-w-muryou",
+        "n3-u15-w-koma",
+        "n3-u15-w-jitto"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-plan",
+      "prompt": "What does Bao choose, without attending yet?",
+      "options": [
+        "The free exhibition to read panels carefully",
+        "The charged lecture, already completed",
+        "Sunday’s session at a new venue"
+      ],
+      "answer": 0,
+      "explain": "Bao chooses the exhibition; it is still Thursday."
+    },
+    {
+      "id": "n3-u16-x-deadline",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-zenjitsu",
+        "n3-u16-w-oubo",
+        "n3-u13-w-daihon",
+        "n3-u13-w-roudoku"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-plan",
+      "prompt": "When must a lecture application be made?",
+      "options": [
+        "After Saturday’s lecture ends",
+        "By Friday five in the afternoon, the preceding day",
+        "Any time Sunday with no capacity limit"
+      ],
+      "answer": 1,
+      "explain": "The deadline is 前日の五時までに for Saturday’s lecture."
+    },
+    {
+      "id": "n3-u16-x-counts",
+      "type": "dialogue",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-teiin",
+        "n3-u16-w-goukei",
+        "n3-u13-w-kaishaku"
+      ],
+      "skill": "listening",
+      "dialogue": "n3-u16-d-plan",
+      "prompt": "Why does the capacity of twenty not establish an attendance decrease?",
+      "options": [
+        "Twenty is always greater than fifty",
+        "The table has no activity names",
+        "Capacity is a limit; last year’s fifty is completed attendance"
+      ],
+      "answer": 2,
+      "explain": "Misaki explicitly distinguishes the quantities and the periods."
+    },
+    {
+      "id": "n3-u16-x-decision",
+      "type": "cloze",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-tenji"
+      ],
+      "skill": "recall",
+      "context": "Form practice: describe your own choice with dictionary 見る + ことにした.",
+      "line": "{展示|てんじ}を{先|さき}に＿＿ことにした。",
+      "options": [
+        "{見|み}る",
+        "{見|み}て",
+        "{見|み}ます"
+      ],
+      "answer": 0,
+      "explain": "The construction takes a dictionary-form action. A past choice is not completed attendance."
+    },
+    {
+      "id": "n3-u16-x-deadline-form",
+      "type": "cloze",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-zenjitsu",
+        "n3-u16-w-oubo"
+      ],
+      "skill": "recall",
+      "context": "Form practice: mark an application deadline, not a continuous duration, with までに.",
+      "line": "{前日|ぜんじつ}の{午後|ごご}{五時|ごじ}＿＿{応募|おうぼ}する。",
+      "options": [
+        "からに",
+        "までに",
+        "の間に"
+      ],
+      "answer": 1,
+      "explain": "までに marks the latest completion time; from five or during five does not give this deadline."
+    },
+    {
+      "id": "n3-u16-x-reply-condition",
+      "type": "reply",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-tenji",
+        "n3-u16-w-muryou",
+        "n3-u16-w-oubo",
+        "n3-u15-w-koma",
+        "n3-u15-w-haikei"
+      ],
+      "skill": "listening",
+      "context": "Reply casually to Misaki. You only intend to read the free exhibition’s panels.",
+      "line": "{講座|こうざ}に{応募|おうぼ}しないと、コマの{展示|てんじ}も{見|み}られないの？",
+      "options": [
+        "うん。{展示|てんじ}も{必|かなら}ず{三百円|さんびゃくえん}だよ。",
+        "うん。{日曜日|にちようび}だけは{応募|おうぼ}がいらないよ。",
+        "ううん。{無料|むりょう}の{展示|てんじ}には{応募|おうぼ}がいらないから、コマや{背景|はいけい}を{読|よ}めるよ。"
+      ],
+      "answer": 2,
+      "explain": "The exhibition and lecture have distinct entry rules. The other replies transfer the lecture charge or invent Sunday opening."
+    },
+    {
+      "id": "n3-u16-x-order-ticket",
+      "type": "order",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-seiriken",
+        "n3-u16-w-toujitsu"
+      ],
+      "skill": "recall",
+      "meaning": "On the day, after your registered name is checked, the admission ticket is enough to enter.",
+      "tiles": [
+        "{当日|とうじつ}、",
+        "{名前|なまえ}を{確認|かくにん}した{後|あと}は、",
+        "{整理券|せいりけん}さえあれば",
+        "{入|はい}れます。"
+      ],
+      "explain": "This sufficient-condition statement retains the registered-name context; it does not grant unlimited unregistered entry."
+    },
+    {
+      "id": "n3-u16-x-read-match",
+      "type": "reading",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-tenji",
+        "n3-u16-w-muryou",
+        "n3-u16-w-yuuryou"
+      ],
+      "skill": "reading",
+      "reading": "n3-u16-reading",
+      "prompt": "You can visit only Saturday 9–9:30 and want no charge. Which activity fits?",
+      "options": [
+        "The exhibition",
+        "The lecture",
+        "A Sunday lecture"
+      ],
+      "answer": 0,
+      "explain": "The table lists the exhibition from 9–12, free; lecture starts 10 and costs 300 yen."
+    },
+    {
+      "id": "n3-u16-x-read-total",
+      "type": "reading",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-goukei",
+        "n3-u16-w-uchiwake",
+        "n3-u16-w-zouka"
+      ],
+      "skill": "reading",
+      "reading": "n3-u16-reading",
+      "prompt": "What was last year’s total, and its change from the year before?",
+      "options": [
+        "Twenty visitors; a decrease of thirty",
+        "Fifty visitors; an increase of ten",
+        "Forty applicants; no change"
+      ],
+      "answer": 1,
+      "explain": "Thirty plus twenty is fifty; the preceding year was forty. Capacity is separate."
+    },
+    {
+      "id": "n3-u16-x-read-apply",
+      "type": "reading",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-kouza",
+        "n3-u16-w-oubo",
+        "n3-u13-w-daihon",
+        "n3-u13-w-roudoku"
+      ],
+      "skill": "reading",
+      "reading": "n3-u16-reading",
+      "prompt": "Which reader must apply by the stated Friday deadline?",
+      "options": [
+        "Someone only visiting the free display",
+        "Someone attending on Sunday",
+        "Someone seeking the Saturday script-reading lecture"
+      ],
+      "answer": 2,
+      "explain": "The lecture alone requires the first-twenty application; Sunday is not held."
+    },
+    {
+      "id": "n3-u16-x-read-update",
+      "type": "reading",
+      "lesson": "n3-u16-lesson-2",
+      "words": [
+        "n3-u16-w-honbun",
+        "n3-u16-w-shisetsu"
+      ],
+      "skill": "reading",
+      "reading": "n3-u16-reading",
+      "prompt": "What changed in Monday’s decision, according to Thursday’s article?",
+      "options": [
+        "The venue; the scheduled time did not change",
+        "The scheduled time; the venue stayed fixed",
+        "The past visitor tally; all activities became free"
+      ],
+      "answer": 0,
+      "explain": "The first paragraph specifies venue change due to repairs and unchanged times."
+    }
+  ]
+}

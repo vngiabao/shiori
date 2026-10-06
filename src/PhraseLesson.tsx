@@ -988,12 +988,17 @@ export function ReadingText({
         </p>
       )}
       {reading.table && (
-        <div style={{ overflowX: "auto" }}>
+        <div
+          className="reading-table-scroll"
+          role="region"
+          aria-label={`${reading.title} table`}
+          tabIndex={0}
+        >
           <table>
             <thead>
               <tr>
                 {reading.table.head.map((h, i) => (
-                  <th key={i}>
+                  <th key={i} scope="col">
                     {supported ? <Furigana text={h} /> : plain(h)}
                   </th>
                 ))}

@@ -3388,5 +3388,1225 @@
     "focus": "Reading · time and weather",
     "passage": "朝は雨でしたが、今は晴れです。今日は傘を持ってきました。帰る時は、傘をかばんに入れます。",
     "section": "reading"
+  },
+  {
+    "id": "n3-v03",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "記事の見出しを読みました。「見出し」の読み方は？",
+    "options": [
+      "みでし",
+      "けんだし",
+      "みだし",
+      "みいだし"
+    ],
+    "answer": 2,
+    "explanation": "見出し is みだし, a headline or heading. The compound is not read けんだし.",
+    "focus": "Headline reading"
+  },
+  {
+    "id": "n3-v04",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "参加するには条件があります。「条件」の読み方は？",
+    "options": [
+      "じょけん",
+      "じょうかん",
+      "ちょうけん",
+      "じょうけん"
+    ],
+    "answer": 3,
+    "explanation": "条件 is じょうけん: a condition. Keep the long vowel in じょう.",
+    "focus": "Condition reading"
+  },
+  {
+    "id": "n3-v05",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "雨で服が濡れました。「濡れました」の読み方は？",
+    "options": [
+      "ぬれました",
+      "なれました",
+      "ねれました",
+      "ふれました"
+    ],
+    "answer": 0,
+    "explanation": "濡れる is ぬれる, become wet. The past polite form is ぬれました.",
+    "focus": "Wet-state reading"
+  },
+  {
+    "id": "n3-v06",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "友達に相談しました。「相談」の読み方は？",
+    "options": [
+      "しょうだん",
+      "そうだん",
+      "そうたん",
+      "そうなん"
+    ],
+    "answer": 1,
+    "explanation": "相談 is そうだん: consultation or discussing a problem with someone.",
+    "focus": "Consultation reading"
+  },
+  {
+    "id": "n3-v07",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "この会場の定員は三十人です。「定員」の読み方は？",
+    "options": [
+      "ていにん",
+      "じょういん",
+      "ていいん",
+      "ていえん"
+    ],
+    "answer": 2,
+    "explanation": "定員 is ていいん, the capacity or maximum admitted number, not observed attendance.",
+    "focus": "Capacity reading"
+  },
+  {
+    "id": "n3-v08",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "資料の余白にメモを書きました。「余白」の読み方は？",
+    "options": [
+      "よびゃく",
+      "よばく",
+      "よしろ",
+      "よはく"
+    ],
+    "answer": 3,
+    "explanation": "余白 is よはく: blank space or a margin.",
+    "focus": "Margin reading"
+  },
+  {
+    "id": "n3-v09",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "この機械には保証が付きます。「保証」の読み方は？",
+    "options": [
+      "ほしょう",
+      "ほそう",
+      "ほじょう",
+      "ほしゅう"
+    ],
+    "answer": 0,
+    "explanation": "保証 is ほしょう, a guarantee or warranty. Keep しょう rather than しゅう.",
+    "focus": "Warranty reading"
+  },
+  {
+    "id": "n3-v10",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "聞いた話と自分の感想を（　）書きました。同じものとして扱っていません。",
+    "options": [
+      "集めて",
+      "分けて",
+      "消して",
+      "借りて"
+    ],
+    "answer": 1,
+    "explanation": "分けて means separating them. The next sentence explicitly denies treating report and impression as the same thing.",
+    "focus": "Separate report and impression"
+  },
+  {
+    "id": "n3-v11",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "予定を忘れないように、手帳に（　）しました。",
+    "options": [
+      "故障",
+      "返品",
+      "記録",
+      "沈黙"
+    ],
+    "answer": 2,
+    "explanation": "記録 is a record. A notebook is used to record the arrangement; the other nouns do not name that act.",
+    "focus": "Record in context"
+  },
+  {
+    "id": "n3-v12",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "今日は電車が止まっています。移動に（　）かかるので、早く出ます。",
+    "options": [
+      "涙が",
+      "衣装が",
+      "余白が",
+      "時間が"
+    ],
+    "answer": 3,
+    "explanation": "時間がかかる means takes time. The extra travel time explains leaving early.",
+    "focus": "Travel-time expression"
+  },
+  {
+    "id": "n3-v13",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "箱を開けていない商品なら、店に（　）できます。店の規則を確認してください。",
+    "options": [
+      "返品",
+      "取材",
+      "朗読",
+      "主催"
+    ],
+    "answer": 0,
+    "explanation": "返品 means return a purchased product. The sentence states the shop’s condition; it is not a universal return policy.",
+    "focus": "Product-return context"
+  },
+  {
+    "id": "n3-v14",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "この表の「合計」は何を表しますか。",
+    "options": [
+      "一番小さい数だけ",
+      "全部を合わせた数",
+      "一人当たりの料金",
+      "前の日の時刻"
+    ],
+    "answer": 1,
+    "explanation": "合計 is the sum or total, not a minimum, a per-person charge or a date.",
+    "focus": "Total paraphrase"
+  },
+  {
+    "id": "n3-v15",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "「前日」はどの日ですか。",
+    "options": [
+      "ある日の一日後",
+      "ある日と同じ日",
+      "ある日の一日前",
+      "ある日の一週間後"
+    ],
+    "answer": 2,
+    "explanation": "前日 is the preceding day relative to the stated date. 翌日 is the following day.",
+    "focus": "Relative-day paraphrase"
+  },
+  {
+    "id": "n3-v16",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "「じっと見る」に最も近いのはどれですか。",
+    "options": [
+      "声を出して読む",
+      "何度も走って行く",
+      "見ないで眠る",
+      "目を動かさず、注意して見る"
+    ],
+    "answer": 3,
+    "explanation": "In this verb combination, じっと見る means looking steadily or intently. Other uses of じっと need their own context.",
+    "focus": "Mimetic in context"
+  },
+  {
+    "id": "n3-v17",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "「修理」を自然に使っている文はどれですか。",
+    "options": [
+      "壊れた時計を修理してもらいました。",
+      "名前を修理して自己紹介しました。",
+      "雨の音を修理して聞きました。",
+      "三人を修理して四人にしました。"
+    ],
+    "answer": 0,
+    "explanation": "修理 concerns repairing a broken object or equipment. A broken clock supplies the appropriate object.",
+    "focus": "Repair usage"
+  },
+  {
+    "id": "n3-v18",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "「応募」を自然に使っている文はどれですか。",
+    "options": [
+      "窓を応募して風を入れました。",
+      "募集を見て、アルバイトに応募しました。",
+      "昼ご飯を応募して食べました。",
+      "電車を応募して駅に着きました。"
+    ],
+    "answer": 1,
+    "explanation": "応募する means apply in response to recruitment or an offer; a job advertisement provides that context.",
+    "focus": "Application usage"
+  },
+  {
+    "id": "n3-v19",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "「沈黙」に最も近いのはどれですか。",
+    "options": [
+      "急いで話すこと",
+      "大声で笑うこと",
+      "話さず、黙っていること",
+      "人に質問すること"
+    ],
+    "answer": 2,
+    "explanation": "沈黙 is silence or remaining silent. It does not tell us by itself why someone is quiet.",
+    "focus": "Silence paraphrase"
+  },
+  {
+    "id": "n3-v20",
+    "level": "N3",
+    "stage": "vocabulary",
+    "prompt": "二つの製品を比べます。「比べます」の読み方は？",
+    "options": [
+      "ならべます",
+      "えらべます",
+      "しらべます",
+      "くらべます"
+    ],
+    "answer": 3,
+    "explanation": "比べる is くらべる, compare. 並べる, 選ぶ and 調べる describe different actions.",
+    "focus": "Comparison reading"
+  },
+  {
+    "id": "n3-g03",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：可能の変化を「ようになった」で表す。漢字を（　）ようになった。",
+    "options": [
+      "読んで",
+      "読みます",
+      "読める",
+      "読めて"
+    ],
+    "answer": 2,
+    "explanation": "Potential plain 読める attaches to ようになった to describe becoming able to read. The prompt explicitly requests this form.",
+    "focus": "Ability change"
+  },
+  {
+    "id": "n3-g04",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：自分の目的を「ために」で表す。資料を（　）ために図書館へ行った。",
+    "options": [
+      "探して",
+      "探します",
+      "探せ",
+      "探す"
+    ],
+    "answer": 3,
+    "explanation": "The deliberate purpose construction takes the dictionary form 探す before ために.",
+    "focus": "Purpose formation"
+  },
+  {
+    "id": "n3-g05",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：今、作業の途中です。「ているところ」で表す。本を（　）ところです。",
+    "options": [
+      "読んでいる",
+      "読みます",
+      "読んだ",
+      "読む"
+    ],
+    "answer": 0,
+    "explanation": "読んでいるところ locates the action while it is in progress. The requested stage rules out just-finished or about-to forms.",
+    "focus": "Action in progress"
+  },
+  {
+    "id": "n3-g06",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：先生から聞いた名詞の情報を「そうです」で伝える。明日は休み（　）そうです。",
+    "options": [
+      "な",
+      "だ",
+      "に",
+      "を"
+    ],
+    "answer": 1,
+    "explanation": "A reported noun predicate retains だ: 休みだそうです. This is hearsay, not appearance-stem そう.",
+    "focus": "Reported noun"
+  },
+  {
+    "id": "n3-g07",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：な形容詞「静かだ」に「はず」を付ける。この部屋は静か（　）はずです。",
+    "options": [
+      "だ",
+      "に",
+      "な",
+      "を"
+    ],
+    "answer": 2,
+    "explanation": "A na-adjective uses な before はず: 静かなはず. This tests attachment, not a guarantee of actual quietness.",
+    "focus": "Expectation attachment"
+  },
+  {
+    "id": "n3-g08",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：名詞の話題を「について」で表す。新しい計画（　）話します。",
+    "options": [
+      "をついて",
+      "についた",
+      "がついて",
+      "について"
+    ],
+    "answer": 3,
+    "explanation": "Noun + について marks the topic of discussion. The named form avoids treating equivalent topic expressions as exclusive.",
+    "focus": "Topic formation"
+  },
+  {
+    "id": "n3-g09",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：「にとって」で立場を示す。初めて読む人（　）、この説明は役に立つ。",
+    "options": [
+      "にとって",
+      "をとって",
+      "がとって",
+      "でとって"
+    ],
+    "answer": 0,
+    "explanation": "人にとって presents that person’s viewpoint. It is not physical taking with を取って.",
+    "focus": "Viewpoint attachment"
+  },
+  {
+    "id": "n3-g10",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：決定を「ことになった」で表す。来月から（　）ことになりました。",
+    "options": [
+      "働いて",
+      "働く",
+      "働きます",
+      "働いたら"
+    ],
+    "answer": 1,
+    "explanation": "The resulting arrangement takes a dictionary or negative verb before ことになる. The past decision does not prove work has already begun.",
+    "focus": "Arrangement formation"
+  },
+  {
+    "id": "n3-g11",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "昨日返したので、今は同じ資料を返す必要がありません。「必要がない」に合うのは？",
+    "options": [
+      "返してはいけません。",
+      "返したことがありません。",
+      "返すことはありません。",
+      "返さなければなりません。"
+    ],
+    "answer": 2,
+    "explanation": "Here ことはない reassures there is no need. Prohibition, lack of past experience and obligation are different.",
+    "focus": "No need versus prohibition"
+  },
+  {
+    "id": "n3-g12",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：「ば」で条件を作る。静かに聞くなら、「聞く」は（　）になる。",
+    "options": [
+      "聞くば",
+      "聞きば",
+      "聞けたば",
+      "聞けば"
+    ],
+    "answer": 3,
+    "explanation": "聞く is godan; its e-row base 聞け combines with ば. This tests the named conditional form.",
+    "focus": "Godan conditional"
+  },
+  {
+    "id": "n3-g13",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：残念な逆接を「のに」で表す。十分に（　）のに、試験では思い出せなかった。",
+    "options": [
+      "練習した",
+      "練習して",
+      "練習します",
+      "練習し"
+    ],
+    "answer": 0,
+    "explanation": "Past plain 練習した attaches to のに. The sentence contrasts preparation with an unexpected inability to recall.",
+    "focus": "Concessive attachment"
+  },
+  {
+    "id": "n3-g14",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：名詞の原因を「せいで」で示す。交通事故（　）せいで、到着が遅れた。",
+    "options": [
+      "な",
+      "の",
+      "だ",
+      "に"
+    ],
+    "answer": 1,
+    "explanation": "Nouns take の before せいで. The sentence attributes a negative result to the accident; it does not prove personal blame.",
+    "focus": "Cause attachment"
+  },
+  {
+    "id": "n3-g15",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：毎回の出来事を「たびに」で表す。新しい本を（　）たびに、感想を書く。",
+    "options": [
+      "読んで",
+      "読みます",
+      "読む",
+      "読め"
+    ],
+    "answer": 2,
+    "explanation": "Dictionary 読む attaches to たびに for each occurrence. This is not a single continuous reading interval.",
+    "focus": "Recurrence formation"
+  },
+  {
+    "id": "n3-g16",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：「がち」で繰り返し起きることを表す。忙しいと、予定を（　）がちだ。",
+    "options": [
+      "忘れる",
+      "忘れた",
+      "忘れて",
+      "忘れ"
+    ],
+    "answer": 3,
+    "explanation": "がち attaches to a verb masu stem, here 忘れ. It describes a tendency, not a permanent identity or a diagnosis.",
+    "focus": "Tendency stem"
+  },
+  {
+    "id": "n3-g17",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：自分が読む許可を求める。「読ませてください」の意味は？",
+    "options": [
+      "私が読んでもよいかというお願い",
+      "相手に必ず読めという命令",
+      "私が読むことの禁止",
+      "相手がもう読んだという報告"
+    ],
+    "answer": 0,
+    "explanation": "The speaker asks to be allowed to read. The causee/actor is the speaker, not an order that the listener read.",
+    "focus": "Permission actor"
+  },
+  {
+    "id": "n3-g18",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "「読んじゃった」を普通の長い形にすると？",
+    "options": [
+      "読んでおいた",
+      "読んでしまった",
+      "読んでいる",
+      "読まなかった"
+    ],
+    "answer": 1,
+    "explanation": "じゃった contracts でしまった here. It can convey completion, with regret depending on context.",
+    "focus": "Completion contraction"
+  },
+  {
+    "id": "n3-g19",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "「読んどく」を普通の長い形にすると？",
+    "options": [
+      "読んでしまう",
+      "読んでいる",
+      "読んでおく",
+      "読んでみる"
+    ],
+    "answer": 2,
+    "explanation": "どく contracts でおく for preparation. It does not express an ongoing state or merely trying.",
+    "focus": "Preparation contraction"
+  },
+  {
+    "id": "n3-g20",
+    "level": "N3",
+    "stage": "grammar",
+    "prompt": "形の練習：より少ないことを「ほど…ない」で表す。AはB（　）重くない。",
+    "options": [
+      "だけで",
+      "さえで",
+      "ばかりで",
+      "ほど"
+    ],
+    "answer": 3,
+    "explanation": "AはBほど重くない says A is not as heavy as B. The prompt fixes the negative-comparison pattern.",
+    "focus": "Negative comparison"
+  },
+  {
+    "id": "n3-r03",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "ミナさんは次に何をしますか。",
+    "options": [
+      "全部問題ないと報告します。",
+      "一度も開いていないと報告します。",
+      "確認した範囲を分けて報告します。",
+      "残りのページを捨てます。"
+    ],
+    "answer": 2,
+    "explanation": "Only pages one through five were checked. Mina will report that scope while reserving judgment on the rest.",
+    "focus": "Reading · evidence scope",
+    "passage": "ミナさんは新しい資料の一ページから五ページまでを確認した。そこでは数字の間違いは見つからなかったが、六ページ以降はまだ見ていない。「前半は確認済み、後半は未確認」と分けて報告することにした。確認していない部分まで正しいと言うつもりはない。"
+  },
+  {
+    "id": "n3-r04",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "来週の会はいつ始まりますか。",
+    "options": [
+      "午後二時",
+      "午後四時",
+      "午前十一時",
+      "午後三時"
+    ],
+    "answer": 3,
+    "explanation": "The notice changes only the room. The previous three-o’clock start remains, while the new room opens at two.",
+    "focus": "Reading · changed and retained details",
+    "passage": "来週の読書会は二階の部屋を使う予定でしたが、修理のため三階に変更になりました。開始時刻は予定どおり午後三時です。新しい部屋は二時から開いています。早く来た方は自由に本を読めますが、説明が始まるまでは資料を持ち出さないでください。"
+  },
+  {
+    "id": "n3-r05",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "ケンさんについて、確かに書かれていることは？",
+    "options": [
+      "要約を読んだが、記事全部は読んでいません。",
+      "記事を全部読み終えました。",
+      "一度も記事に触れていません。",
+      "記事は途中でなくなりました。"
+    ],
+    "answer": 0,
+    "explanation": "Ken’s correction narrows his claim from reading the article to reading its summary. The whole text is still unread.",
+    "focus": "Reading · corrected claim",
+    "passage": "「あの記事、もう読んだ？」と聞かれ、ケンさんは「読んだよ」と答えた。しかし、その後「正確には要約だけ。本文はまだ」と言い直した。話し相手は、感想を聞くのは本文を読んだ後にしようと言った。ケンさんは今夜、残りを読むつもりだ。"
+  },
+  {
+    "id": "n3-r06",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "筆者が最も大切だと考えているのは？",
+    "options": [
+      "毎日同じ速さで読めば必ず上達すること",
+      "回数だけでなく、目的に合う練習かを考えること",
+      "読めない字をすべて飛ばすこと",
+      "本は一度しか読まないこと"
+    ],
+    "answer": 1,
+    "explanation": "The writer values purposeful practice and checking where reading becomes difficult, rather than counting repetitions alone.",
+    "focus": "Reading · main point",
+    "passage": "以前は同じページを十回読むだけで満足していた。今は回数よりも、どこで止まり、何が読めなかったかを記録している。文字を見てすぐ音にできるようになりたいなら、その目的に合う練習が必要だと思う。回数を増やすだけでは、苦手な箇所に気づけないこともある。"
+  },
+  {
+    "id": "n3-r07",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "火曜日までにする必要があるのは？",
+    "options": [
+      "資料を全部返すこと",
+      "会場に到着すること",
+      "参加するかどうかを連絡すること",
+      "会の感想を書くこと"
+    ],
+    "answer": 2,
+    "explanation": "The Tuesday deadline is for attendance confirmation. Materials come Wednesday and the meeting is Thursday.",
+    "focus": "Reading · deadline",
+    "passage": "木曜日の説明会に参加したい人は、火曜日の午後六時までに受付へ連絡してください。資料は水曜日にメールで送ります。当日は印刷せず、画面で見てもかまいません。参加できなくなった場合も連絡が必要です。返信がないと資料を送れないので、忘れないようにしてください。"
+  },
+  {
+    "id": "n3-r08",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "筆者が途中で再生を止めた理由は？",
+    "options": [
+      "作品が嫌いになったため",
+      "全員が帰ったため",
+      "字幕が消えたため",
+      "聞き取れなかった一文を確認するため"
+    ],
+    "answer": 3,
+    "explanation": "The writer pauses to check one missed line, then returns to the same scene. No dislike or subtitle failure is reported.",
+    "focus": "Reading · purpose",
+    "passage": "昨日、短い映画を日本語字幕で見た。最初は止めずに見るつもりだったが、一文だけどうしても聞き取れず、再生を止めた。字幕と音を比べてから同じ場面をもう一度聞いた。その後は最後まで見た。止めた回数より、次には何が聞こえるようになったかを残しておこうと思う。"
+  },
+  {
+    "id": "n3-r09",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "昨夜のタロウさんの行動は？",
+    "options": [
+      "雨の中、傘を持って帰りました。",
+      "晴れるまで会社で待ちました。",
+      "傘を忘れて家に戻りました。",
+      "雨が降る前に帰宅しました。"
+    ],
+    "answer": 0,
+    "explanation": "He returned while it was raining, with an umbrella. The expectation of improvement did not match the weather.",
+    "focus": "Reading · expectation and outcome",
+    "passage": "天気予報では夜には雨がやむはずだった。しかし、タロウさんが会社を出る時にも降っていた。机の横に置いておいた傘を持って、そのまま帰った。「予報だけを見て傘を家に置いてこなくてよかった」と思った。家に着いてからも、窓の外では雨の音がしていた。"
+  },
+  {
+    "id": "n3-r10",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "アンさんが決めたことは？",
+    "options": [
+      "今朝すでに二社で働き始めました。",
+      "相談してから、どの仕事に応募するか決めます。",
+      "どの会社にも応募しません。",
+      "時給だけを見て仕事を選びました。"
+    ],
+    "answer": 1,
+    "explanation": "An has postponed the choice until asking about duties and hours. Looking at advertisements is not an application or employment.",
+    "focus": "Reading · choice not yet made",
+    "passage": "アンさんは二つの求人を見つけた。一つは時給が高いが夜遅くまで働く。もう一つは家に近いが、仕事内容がまだよく分からない。どちらに応募するかは、店に相談してから決めることにした。今朝は広告を保存しただけで、まだ応募していない。"
+  },
+  {
+    "id": "n3-r11",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "この商品の試用について、わかることは？",
+    "options": [
+      "屋外でも一日試しました。",
+      "一か月間ずっと使いました。",
+      "室内で十分間だけ試しました。",
+      "ほかの製品より絶対に優れています。"
+    ],
+    "answer": 2,
+    "explanation": "The stated test scope is ten minutes indoors. The writer withholds judgment about outdoor conditions and general superiority.",
+    "focus": "Reading · bounded trial",
+    "passage": "新しいイヤホンを店内で十分間試した。小さい音でも話が聞きやすかったが、静かな室内での感想だ。外ではまだ使っていないので、電車の音の中でも同じように聞こえるとは言えない。購入は来週、必要な条件をもう一度確認してから決めたい。"
+  },
+  {
+    "id": "n3-r12",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "借りた道具はいつ返しますか。",
+    "options": [
+      "練習が始まる前だけ",
+      "翌週のいつでも",
+      "自宅で使い終わってから",
+      "練習が終わってから、部屋を出る前に"
+    ],
+    "answer": 3,
+    "explanation": "Tools are returned after practice but before departure. Borrowing for the room does not grant take-home permission.",
+    "focus": "Reading · action sequence",
+    "passage": "練習用の道具は、受付で名前を確認した後に借りられます。部屋の中でだけ使ってください。練習が終わったら、帰る前に受付へ返します。道具を使わない人は借りる必要はありません。初めて参加する方は、使い方を説明しますので開始十分前に来てください。"
+  },
+  {
+    "id": "n3-r13",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "しーんという文字はこの場面で何を表していますか。",
+    "options": [
+      "誰も話さなくなった静かな状態",
+      "主人公が自分の名前を言う声",
+      "雨が激しく降る音",
+      "扉を強く閉める音"
+    ],
+    "answer": 0,
+    "explanation": "The printed effect accompanies a silent panel; it is not a character’s spoken name. The next scene does not identify the silence’s cause.",
+    "focus": "Reading · printed effect",
+    "passage": "漫画の二つ目のコマには、三人が立っている絵と「しーん」という文字がある。吹き出しはない。前のコマでは質問が出たが、ここでは誰も答えていない。次のコマでは別の人が部屋に入ってくる。三人がなぜ黙ったのかは、そのページだけでは分からない。"
+  },
+  {
+    "id": "n3-r14",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "筆者は何を変えましたか。",
+    "options": [
+      "感想を書かず、すべて消します。",
+      "新しい本を読むたびに、同じ記録欄を使います。",
+      "毎回違う人に全部読んでもらいます。",
+      "難しい本だけを一日に十冊読みます。"
+    ],
+    "answer": 1,
+    "explanation": "The writer keeps consistent fields for each new book, making earlier and later reading easier to compare.",
+    "focus": "Reading · recurring practice",
+    "passage": "本を読み終えるたびに感想を書いていたが、書く項目は毎回違っていた。そこで、題名、読むのにかかった時間、分からなかった箇所の三つを同じ欄に残すことにした。長い感想が書けない日もあるが、同じ項目なら前の記録と比べやすい。"
+  },
+  {
+    "id": "n3-r15",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "受付の案内によると、写真を撮ってよいのは？",
+    "options": [
+      "建物の中ならどこでも",
+      "人の名前がある資料だけ",
+      "撮影可の表示がある場所だけ",
+      "表示がない場所だけ"
+    ],
+    "answer": 2,
+    "explanation": "The sign explicitly limits photography to marked areas. The permission to read records is not permission to photograph them.",
+    "focus": "Reading · permission scope",
+    "passage": "展示の資料は自由に読めます。ただし、写真は「撮影可」の表示がある場所だけでお願いします。名前が載った記録は撮影できません。質問がある時は受付で確認してください。館内で読める資料でも、外へ持ち出したり、人に配ったりすることはできません。"
+  },
+  {
+    "id": "n3-r16",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "来月の開催について、わかることは？",
+    "options": [
+      "今月と同じ日に決まりました。",
+      "中止が決定しています。",
+      "昨日すでに終わりました。",
+      "日程はまだ決まっていません。"
+    ],
+    "answer": 3,
+    "explanation": "The organiser will consider the next date later. A successful past event does not establish the next meeting date.",
+    "focus": "Reading · unresolved future",
+    "passage": "今月の読書会には十五人が参加し、予定した本を最後まで読んだ。主催者は、次回も開きたいと話したが、来月の日程はまだ決めていない。部屋を予約できるか確認した後、参加者に相談するそうだ。今月うまくいったことと、次回が決まっていることは別だ。"
+  },
+  {
+    "id": "n3-r17",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "去年の人数について、正しいのは？",
+    "options": [
+      "一昨年より五人増えました。",
+      "一昨年より五人減りました。",
+      "今年の定員と必ず同じです。",
+      "今年の参加はすでに三十五人です。"
+    ],
+    "answer": 0,
+    "explanation": "Last year’s 35 exceeds the year-before 30 by five. This year’s capacity of 20 is a different future quantity.",
+    "focus": "Reading · quantity and date",
+    "passage": "地域の会の来場者は、一昨年が三十人、去年が三十五人だった。今年の講座の定員は二十人だが、申し込みはまだ始まっていない。担当者は、過去の来場者数と今年の定員を同じ表に載せる時、見出しを分けることにした。定員だけでは今年の参加者数は分からない。"
+  },
+  {
+    "id": "n3-r18",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "ミキさんが言いたいことは？",
+    "options": [
+      "一度直せば、確認はいりません。",
+      "直した後の確認がまだ必要です。",
+      "原稿は最初から完成していました。",
+      "間違いは一つも直していません。"
+    ],
+    "answer": 1,
+    "explanation": "Miki corrected the identified mistake but has not checked whether the revision created another problem. Repair is not the final verification.",
+    "focus": "Reading · correction and checking",
+    "passage": "原稿の間違いを見つけ、すぐ直した。友達は「もう大丈夫だね」と言ったが、ミキさんは「直した箇所をもう一度確認してから出したい」と答えた。直す時に別の行が変わっていないかは、まだ見ていないからだ。修正したことと、修正後を確認したことは分けて考えている。"
+  },
+  {
+    "id": "n3-r19",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "筆者はどんな説明を望んでいますか。",
+    "options": [
+      "結果だけを大きな字で書く説明",
+      "全員が同じだと決める説明",
+      "判断の根拠も示す説明",
+      "確認できない原因を言い切る説明"
+    ],
+    "answer": 2,
+    "explanation": "The writer wants the grounds and limits behind a conclusion, so the reader can judge it.",
+    "focus": "Reading · grounds",
+    "passage": "説明を読む時、結論だけでなく、なぜそう言えるのかも知りたい。三人に聞いた結果なら、三人の意見だと書いてほしい。全員の考えだとまとめられると、根拠が分からなくなる。どこまで確認したのかが示されていれば、自分でもその説明を判断しやすい。"
+  },
+  {
+    "id": "n3-r20",
+    "level": "N3",
+    "stage": "reading",
+    "prompt": "午前中だけ参加でき、料金を払いたくない人に合うのは？",
+    "options": [
+      "午後一時からの有料講座",
+      "午後三時からの予約相談",
+      "夕方の有料発表会",
+      "九時からの自由展示"
+    ],
+    "answer": 3,
+    "explanation": "The only morning and free activity is the exhibition. The alternatives fail the time or cost requirements.",
+    "focus": "Reading · information retrieval",
+    "passage": "土曜日の自由展示は九時から十二時までで無料です。講座は午後一時から二時、五百円で前日までに申し込みが必要です。予約相談は午後三時、発表会は夕方六時から千円です。展示を見るだけなら申し込みはいりません。講座と相談には定員があるので、受付に確認してください。"
+  },
+  {
+    "id": "n3-e07",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "施設は駅の隣にあります。「施設」の読み方は？",
+    "options": [
+      "しせっ",
+      "せしつ",
+      "しせつ",
+      "しぜつ"
+    ],
+    "answer": 2,
+    "explanation": "施設 is しせつ, a facility. It is not the reversed sequence せしつ.",
+    "focus": "Vocabulary · facility reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e08",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "合計は四十人でした。「合計」の読み方は？",
+    "options": [
+      "こうけい",
+      "ごうかい",
+      "がっけい",
+      "ごうけい"
+    ],
+    "answer": 3,
+    "explanation": "合計 is ごうけい: the total. Both components retain their standard compound reading.",
+    "focus": "Vocabulary · total reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e09",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "頭が少し痛いので、今日は＿＿帰ります。普段より早く休みたいです。",
+    "options": [
+      "早めに",
+      "詳しく",
+      "静寂に",
+      "有料に"
+    ],
+    "answer": 0,
+    "explanation": "早めに means on the early side, matching the explicitly earlier departure. The stated headache does not establish any diagnosis.",
+    "focus": "Vocabulary · earlier timing",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e10",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "三日前より人数が少なくなりました。この変化は？",
+    "options": [
+      "増加",
+      "減少",
+      "先着",
+      "取材"
+    ],
+    "answer": 1,
+    "explanation": "減少 is a decrease; 増加 is the opposite. Here the compared quantity and dates are explicit.",
+    "focus": "Vocabulary · decrease",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e11",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "「主催」に合う使い方はどれですか。",
+    "options": [
+      "机が鉛筆を主催します。",
+      "傘を主催して雨を止めます。",
+      "大学が読書会を主催します。",
+      "資料を主催して紙に書きます。"
+    ],
+    "answer": 2,
+    "explanation": "A university can organise a reading event. The other options do not give an organising agent and event.",
+    "focus": "Vocabulary · organiser usage",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e12",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "「内訳」は何を示しますか。",
+    "options": [
+      "明日の天気だけ",
+      "会場への最短の道",
+      "次の人の名前だけ",
+      "全体を分けた各部分の内容"
+    ],
+    "answer": 3,
+    "explanation": "内訳 is an itemised breakdown, such as counts by morning and afternoon within a total.",
+    "focus": "Vocabulary · breakdown paraphrase",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e13",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "駅で友達を見つけて、＿＿笑いました。",
+    "options": [
+      "にっこり",
+      "しーん",
+      "ざあざあ",
+      "がたがた"
+    ],
+    "answer": 0,
+    "explanation": "にっこり笑う describes a smile. The other effects do not describe that action in this sentence.",
+    "focus": "Vocabulary · smile combination",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e14",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "仕事の求人に応募しました。「応募」の読み方は？",
+    "options": [
+      "おぼう",
+      "おうぼ",
+      "おうほ",
+      "おうもう"
+    ],
+    "answer": 1,
+    "explanation": "応募 is おうぼ: applying or entering in response to an offer. Preserve the long initial おう.",
+    "focus": "Vocabulary · application reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n3-e15",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：「ところ」で直前を表す。これから資料を（　）ところです。",
+    "options": [
+      "読んだ",
+      "読んでいる",
+      "読む",
+      "読んでいた"
+    ],
+    "answer": 2,
+    "explanation": "Dictionary 読むところ locates the action just before starting. The other stages conflict with the requested direct-before meaning.",
+    "focus": "Grammar · about to act",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e16",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "「見ちゃった」を普通の長い形にすると？",
+    "options": [
+      "見ておいた",
+      "見ている",
+      "見なかった",
+      "見てしまった"
+    ],
+    "answer": 3,
+    "explanation": "ちゃった contracts てしまった. Preparatory, ongoing and negative forms mean different things.",
+    "focus": "Grammar · te contraction",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e17",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：「気味」を付ける。最近、少し（　）気味です。",
+    "options": [
+      "疲れ",
+      "疲れる",
+      "疲れた",
+      "疲れて"
+    ],
+    "answer": 0,
+    "explanation": "気味 attaches to a masu stem, here 疲れ, to describe a slight state. This is formation practice rather than a diagnosis.",
+    "focus": "Grammar · slight state",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e18",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：名詞「先生」のような様子を「っぽい」で表す。（　）話し方だ。",
+    "options": [
+      "先生っぽくな",
+      "先生っぽい",
+      "先生だっぽい",
+      "先生のっぽい"
+    ],
+    "answer": 1,
+    "explanation": "Noun + っぽい produces an i-adjective. This perceived trait does not establish that the person is actually a teacher.",
+    "focus": "Grammar · likeness attachment",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e19",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：名詞による恩恵を「おかげで」で表す。友達（　）おかげで、道が分かった。",
+    "options": [
+      "な",
+      "だ",
+      "の",
+      "に"
+    ],
+    "answer": 2,
+    "explanation": "A noun takes の before おかげで. The positive outcome is learning the route with the friend’s help.",
+    "focus": "Grammar · benefit attachment",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e20",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "「昨日、待たされた」は誰の経験ですか。",
+    "options": [
+      "話し手が相手を待たせた。",
+      "話し手が待つ許可を出した。",
+      "話し手が誰にも待たず帰った。",
+      "話し手が待つようにさせられた。"
+    ],
+    "answer": 3,
+    "explanation": "待たされた is the contracted godan causative-passive of 待つ: the speaker was made to wait. It is not causative 待たせた.",
+    "focus": "Grammar · causative-passive actor",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e21",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：名詞の反復を「たびに」で表す。会議（　）たびに、要点を残します。",
+    "options": [
+      "の",
+      "な",
+      "だ",
+      "を"
+    ],
+    "answer": 0,
+    "explanation": "A noun takes の before たびに. The action occurs each time a meeting takes place.",
+    "focus": "Grammar · noun recurrence",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e22",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "形の練習：締め切りを「までに」で示す。金曜日の五時（　）提出してください。",
+    "options": [
+      "からに",
+      "までに",
+      "の間で",
+      "よりに"
+    ],
+    "answer": 1,
+    "explanation": "までに gives the completion deadline. This is not a continuous interval or a start time.",
+    "focus": "Grammar · completion deadline",
+    "section": "grammar"
+  },
+  {
+    "id": "n3-e23",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "筆者が変えようとしていることは？",
+    "options": [
+      "読んだ本を全部捨てること",
+      "毎日本の題名だけを忘れること",
+      "読んだ冊数だけでなく、読めなかった箇所を残すこと",
+      "知らない字を二度と見ないこと"
+    ],
+    "answer": 2,
+    "explanation": "The writer keeps the quantity record but adds specific obstacles so practice can be better directed.",
+    "focus": "Reading · purpose of record",
+    "passage": "毎月、読んだ本の冊数を数えていた。しかし、数が増えても、同じ漢字で止まることが多かった。そこで今月から、分からなかった箇所も記録することにした。冊数を残すのをやめるわけではない。何を練習すれば読みやすくなるかを考えるために、別の情報を加えるのだ。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e24",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "予定どおりなのはどれですか。",
+    "options": [
+      "会場",
+      "資料を配る日",
+      "申込期限",
+      "開始時刻"
+    ],
+    "answer": 3,
+    "explanation": "Only the start remains at four. The venue, materials date and deadline were changed explicitly.",
+    "focus": "Reading · update retrieval",
+    "passage": "来週の説明会について変更があります。会場は本館から別館に、資料を配る日は月曜日から火曜日になりました。申し込みの期限は水曜日の正午に延びました。開始時刻は変更せず、金曜日の午後四時です。以前の案内を持っている方は、変更した三つの点を確認してください。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e25",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "金曜日の時点で確かに行われたのは？",
+    "options": [
+      "会場の予約",
+      "土曜日の朗読会",
+      "来月の同じ会",
+      "参加者全員の来場"
+    ],
+    "answer": 0,
+    "explanation": "The hall was reserved Wednesday. The reading event is still tomorrow and the next meeting is undecided.",
+    "focus": "Reading · past and future",
+    "passage": "水曜日、主催者は土曜日の朗読会のために会場を予約した。金曜日の今日、参加者に確認メールを送っている。明日は十時に始まる予定だが、まだ全員が来ると決まったわけではない。来月も開くかどうかは、今回の後に相談するそうだ。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e26",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "写真について案内が認めていることは？",
+    "options": [
+      "ほかの人の作品を全部撮ること",
+      "自分の作品だけ撮影すること",
+      "名前のある記録を撮ること",
+      "すべてを外へ配ること"
+    ],
+    "answer": 1,
+    "explanation": "The notice explicitly permits photographing one’s own work and excludes others’ work and named records.",
+    "focus": "Reading · limited permission",
+    "passage": "今日の作業で作った自分の作品は写真を撮ってもかまいません。ただし、ほかの人の作品と、名前が載っている記録は撮影しないでください。使った道具は最後に返します。作品は持ち帰れますが、記録はこの部屋に残します。分からない場合は担当者に確認してください。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e27",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "昨年の午後の人数は午前と比べてどうでしたか。",
+    "options": [
+      "十人多かった。",
+      "同じだった。",
+      "十人少なかった。",
+      "今年の定員と比べて五人多かった。"
+    ],
+    "answer": 2,
+    "explanation": "Morning 25 minus afternoon 15 is ten. The current capacity of 12 is separate and cannot answer the past morning/afternoon comparison.",
+    "focus": "Reading · comparison",
+    "passage": "昨年の展示には午前二十五人、午後十五人が来た。合計は四十人だった。今年は別の部屋で講座も開くことになり、その定員は十二人である。まだ応募が始まっていないため、今年何人が来るかは分からない。人数を比べる時は、どの年のどの活動かを確認してほしい。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e28",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "ナオさんが資料をもう一度読むのはなぜですか。",
+    "options": [
+      "本文を初めて書き直すため",
+      "資料が全部なくなったため",
+      "友達の名前を消すため",
+      "要約に書かれていない条件を確かめるため"
+    ],
+    "answer": 3,
+    "explanation": "Nao found that the summary omitted a condition. She will check the original text rather than assuming the brief account covers everything.",
+    "focus": "Reading · reason to reread",
+    "passage": "友達が資料を短くまとめてくれたので、ナオさんは最初、その要約だけで十分だと思った。ところが、本文を見ると、申し込める人についての条件があった。要約にはその部分がない。ナオさんは、応募する前に本文をもう一度読み、条件を確認することにした。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e29",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "三人の意見について、筆者の考えに合うのは？",
+    "options": [
+      "三人にとって便利でも、全員に同じとは限らない。",
+      "三人が使えれば全員に便利だ。",
+      "便利だと言った人は一人もいない。",
+      "利用者全員にすでに聞いた。"
+    ],
+    "answer": 0,
+    "explanation": "Three positive responses support only those three viewpoints; the writer explicitly avoids extending them to everyone.",
+    "focus": "Reading · survey scope",
+    "passage": "新しい予約の方法について、三人の利用者に聞いた。三人とも「以前より便利だ」と答えた。ただし、ほかの人にはまだ聞いていない。担当者は、便利だという声があったことを報告しながら、全員が同じように考えているとは書かなかった。今後は別の利用者にも聞きたいという。",
+    "section": "reading"
+  },
+  {
+    "id": "n3-e30",
+    "level": "N3",
+    "stage": "exam",
+    "prompt": "土曜日の午前十一時に、申し込みなしで利用できるのは？",
+    "options": [
+      "有料講座",
+      "無料展示",
+      "予約相談",
+      "日曜日の朗読会"
+    ],
+    "answer": 1,
+    "explanation": "The free exhibit runs 10–12 Saturday with no application. The lecture requires prior application, consultation is afternoon, and there is no Sunday event.",
+    "focus": "Reading · schedule and prerequisites",
+    "passage": "土曜日は無料展示を十時から十二時まで開きます。申し込みはいりません。有料講座は十一時からですが、金曜日までに応募した方だけが参加できます。予約相談は午後二時、定員五人です。日曜日は会場を閉めます。展示だけを見る方は、当日受付で名前を伝えてください。",
+    "section": "reading"
   }
 ]

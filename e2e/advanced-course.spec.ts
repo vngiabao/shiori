@@ -110,6 +110,13 @@ for (const unit of [
       ["Recover a casual line from its context", "n3-u15-d-context", "Read the word with the action it modifies", "Separate a line from a printed effect"],
     ],
   },
+  {
+    id: "n3-u16", reading: "A venue change, two activities and last year’s figures",
+    lessons: [
+      ["Read a news brief with its source and date", "n3-u16-d-news", "Keep the source attached to the report", "Compare the same quantity and the same period"],
+      ["Use the timetable without mixing its quantities", "n3-u16-d-plan", "Compare the same quantity and the same period", "Keep the source attached to the report"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -167,7 +174,7 @@ for (const unit of [
     await page.reload();
     await page.getByRole("button", { name: "Texts", exact: false }).click();
     await expect(page.locator("html")).toHaveAttribute("data-theme", theme);
-    const region = page.getByRole("region", { name: unit.reading });
+    const region = page.getByRole("region", { name: unit.reading, exact: true });
     if (!(await region.isVisible())) await page.getByText(unit.reading, { exact: true }).first().click();
     await expect(region).toBeVisible();
     await expect(region.locator("ruby")).toHaveCount(0);
@@ -176,8 +183,23 @@ for (const unit of [
       await expect(region.getByText("Sound effect:", { exact: true })).toHaveCount(5);
       await expect(region.getByText("Yui:", { exact: true })).toHaveCount(3);
     }
+    if (unit.id === "n3-u16") {
+      await expect(region.getByRole("table")).toHaveCount(1);
+      await expect(region.getByRole("row")).toHaveCount(3);
+      await expect(region.getByRole("cell", { name: "無料", exact: true })).toBeVisible();
+      await expect(region.getByRole("cell", { name: "三百円", exact: true })).toBeVisible();
+    }
     await region.getByRole("button", { name: /furigana/i }).click();
     expect(await region.locator("ruby").count()).toBeGreaterThan(0);
+    if (unit.id === "n3-u16") {
+      const tableScroll = region.getByRole("region", { name: `${unit.reading} table`, exact: true });
+      await tableScroll.focus();
+      await expect(tableScroll).toBeFocused();
+      if (await tableScroll.evaluate(el => el.scrollWidth > el.clientWidth)) {
+        await page.keyboard.press("ArrowRight");
+        await expect.poll(() => tableScroll.evaluate(el => el.scrollLeft)).toBeGreaterThan(0);
+      }
+    }
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect((await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
     await page.locator("h1").click();

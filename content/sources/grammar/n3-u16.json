@@ -1,0 +1,70 @@
+{
+  "unit": "n3-u16",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific references, internal review, content/dictionary/audio and browser checks passed; native review pending.",
+  "method": "An original fictional news/timetable capstone retrieves already taught forms. Publisher and teacher sources cross-check use and formation; their JLPT tags are editorial, not an official inventory. No source sentences, test items or recordings are imported.",
+  "scope": {
+    "source": "https://www.jlpt.jp/e/about/levelsummary.html",
+    "choice": "N3 everyday texts, headlines and supported main points guide the reading task. This unit is neither an official sample nor evidence that a learner is exam-ready."
+  },
+  "points": [
+    {
+      "form": "Reported そうだ and an explicit source",
+      "sources": [
+        "https://bunpro.jp/grammar_points/そうだ",
+        "https://jlptsensei.com/learn-japanese-grammar/そうだ-sou-da-i-heard-that/"
+      ],
+      "formation": "Plain verb/i-adjective or noun/na-adjective + だ + そうだ/そうです. Source によると remains attached to the report. Stem appearance そう is distinct.",
+      "teachingChoice": "Retrieve unit 3: Monday's decision and Thursday's report do not establish that Saturday's event already occurred.",
+      "sourceCaution": "Bunpro N3 and Sensei N4 tags disagree. Their numerical certainty rankings are not adopted; the task tests source and date, not an invented confidence percentage."
+    },
+    {
+      "form": "Causal ため and purpose ために",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ために",
+        "https://jlptsensei.com/learn-japanese-grammar/ために-tame-ni-meaning/"
+      ],
+      "formation": "Noun の, na-adjective な, or attributive clause before causal ため; goal contexts support purpose ために. Notice-style causal ため can omit に.",
+      "teachingChoice": "Retrieve units 1/9: repairs are the stated venue-change cause. No weather, noise or personal motive is inferred. Tense alone does not determine cause versus purpose."
+    },
+    {
+      "form": "Choice ことにした versus arrangement ことになった",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ことになる",
+        "https://jlptsensei.com/learn-japanese-grammar/ことになる-koto-ni-naru-meaning/",
+        "https://bunpro.jp/grammar_points/ことにする",
+        "https://jlptsensei.com/learn-japanese-grammar/ことにする-koto-ni-suru-meaning/"
+      ],
+      "formation": "Dictionary/ない verb + ことにする/なる; past reports the decision or arrangement.",
+      "teachingChoice": "Retrieve unit 6 and N4. The framing differs without an absolute personal/external agency rule. Neither past form proves actual attendance. Rule/schedule ことになっている is not silently introduced as identical."
+    },
+    {
+      "form": "Negative comparison ほど and the compared quantity",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ほど",
+        "https://www.hamasensei.com/kuraihodo/"
+      ],
+      "formation": "AはBほど…ない compares A as less than B on the specified dimension; retrieve AよりBのほうが…. Positive extent/approximation uses are different.",
+      "teachingChoice": "Retrieve unit 14. Last year's morning/afternoon visitor counts and the year-before total are comparable; this year's future capacity is not measured attendance."
+    },
+    {
+      "form": "A sufficient condition within its stated scope",
+      "sources": [
+        "https://bunpro.jp/grammar_points/さえ-ば",
+        "https://japanesetest4you.com/flashcard/learn-jlpt-n3-grammar-さえ-ば-sae-ba/"
+      ],
+      "formation": "Noun + さえあれば, with the preceding admission/name-check context retained.",
+      "teachingChoice": "Retrieve unit 14. A ticket is sufficient after prior acceptance and name confirmation; it is not unlimited unregistered entry."
+    },
+    {
+      "form": "Deadline までに versus duration まで",
+      "sources": [
+        "https://bunpro.jp/grammar_points/までに",
+        "https://j-nihongo.com/maeni-2/"
+      ],
+      "formation": "Time noun or nonpast verb + までに specifies completion by that point; まで with an ongoing action is duration.",
+      "teachingChoice": "Retrieve earlier deadlines with an explicit Friday 17:00 application cutoff. A broad season or day-only deadline is avoided. N4-tagged retrieval, not a newly asserted N3 grammar item."
+    }
+  ],
+  "remaining": "Human sentence/listening review; N3 deck expansion and final whole-level gate remain separate."
+}

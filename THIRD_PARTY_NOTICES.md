@@ -78,14 +78,14 @@ individual WAV hashes: `content/voices/teacher-provenance.json`.
 No new mascot artwork was created for this pass. Native listening review
 remains pending; signal/phoneme checks are not pronunciation certification.
 
-Course dialogue deliveries: 323 speaker-specific takes rendered locally in the
+Initial course dialogue delivery pass: 323 speaker-specific takes rendered locally in the
 same VOICEVOX:冥鳴ひまり voice. Wording and Clear-mode recordings are unchanged.
 Character settings: `content/voices/dialogue-speakers.json`; recording queries,
 model and WAV hashes: `content/voices/dialogue-provenance.json`. The deliveries
 are acting directions, not measured emotion labels. Native listening review
 remains pending.
 
-Vocabulary source inventory (five N5 and six N4 decks installed, 941 form records): Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. Selected source rows, original cells, restricted JMdict entry IDs and original example-draft hashes are recorded in content/sources/decks/. English meanings and contextual examples are original AI-assisted authoring, awaiting native review. No dictionary/exam example sentences are copied into new course units.
+Vocabulary source attribution: Jonathan Waller / Tanos, shared under CC BY, version unspecified at the origin. CSV mirror: jamsinclair/open-anki-jlpt-decks, via chyyran/jlpt-anki-decks, revision 1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0. Repository MIT license is preserved at content/sources/jlpt-vocabulary/LICENSE; it does not replace upstream data attribution. Original permission: https://www.tanos.co.uk/jlpt/sharing/. File URLs and SHA-256 values are in the accompanying provenance.json. Community level assignments are not official JLPT lists. Selected source rows, original cells, restricted JMdict entry IDs and original example-draft hashes are recorded in content/sources/decks/. English meanings and contextual examples are original AI-assisted authoring, awaiting native review. No dictionary/exam example sentences are copied into new course units.
 
 ## Beginner source ledger, 6 October 2026
 
@@ -98,3 +98,12 @@ Thirty-two original word/example records, four teaching notes, twenty scene line
 N3 unit 2 adds thirty-two original word/example records, four notes, twenty scene lines, a 262-character diary and sixteen tasks. Formation references are in content/sources/grammar/n3-u02.json. Eight additional characters use the pinned dictionary/stroke source. Ninety-one new WAV files are mapped; old recordings remain unchanged. No publisher examples or third-party audio were imported.
 
 N3 unit 3 adds thirty-two original word/example records, five notes, twenty scene lines, a 226-character original message and eighteen tasks. Source pointers are in content/sources/grammar/n3-u03.json. Twenty-five additional characters use the pinned dictionary/stroke source. Ninety-two new WAV files are mapped; earlier recordings are preserved. No publisher sentences or third-party audio were imported.
+
+
+## N3 core and decks 01–04, 6 October 2026
+
+Sixteen original N3 units contain 512 target records, 71 notes, 320 dialogue lines, sixteen readings and 281 tasks. Form-specific references are linked in content/sources/grammar/; publisher prose and examples are not imported. Unit 16 adds a fictional news brief and event timetable. The N3 written bank adds original practice while preserving historical item IDs and answers; no official exam items were copied.
+
+Four N3 vocabulary decks add 400 original contextual records to the 1,017 beginner deck records. Every selected raw cell and restricted dictionary pair is recorded in content/sources/decks/n3-vocab-01.json through n3-vocab-04.json. Raw pinned CSV/JMdict/KANJIDIC2/KanjiVG sources and their earlier content remain unchanged. Meanings and examples are AI-assisted drafts; dictionary checks verify restricted spelling/readings, not native sentence naturalness or official JLPT levels. Shared dictionary-entry candidates were excluded rather than silently counted as new instruction.
+
+Current references cover 1,136 characters. There are 7,068 Clear keys / 7,080 synthesis records and 583 dialogue takes. All 859 new WAVs since HEAD 162df1b are mapped; prior recordings, queries and stroke data are unchanged. No new third-party recordings or mascot art were imported.

@@ -72,7 +72,7 @@ test("N4 grouping, reading support and two-scene lesson work at desktop and mobi
     await page.goto("/#read");
     await page.getByRole("button", {name:"Texts",exact:false}).click();
     await page.getByText("Café recruitment notice", {exact:true}).first().click();
-    const region=page.getByRole("region", {name:"Café recruitment notice"});
+    const region=page.getByRole("region", {name:"Café recruitment notice",exact:true});
     await expect(region).toBeVisible();
     await expect(region.locator("ruby")).toHaveCount(0);
     await region.getByRole("button", {name:/furigana/}).click();
@@ -82,7 +82,7 @@ test("N4 grouping, reading support and two-scene lesson work at desktop and mobi
     await page.evaluate(() => { (document.activeElement as HTMLElement)?.blur(); window.scrollTo(0,0); });
     await page.screenshot({path:`.impeccable/review/course-reading-${width}.png`,fullPage:true});
     await page.getByText("Choosing a coastal bus",{exact:true}).first().click();
-    const guide=page.getByRole("region",{name:"Choosing a coastal bus"});
+    const guide=page.getByRole("region",{name:"Choosing a coastal bus",exact:true});
     await expect(guide.getByRole("table")).toBeVisible();
     await expect(guide.getByRole("row")).toHaveCount(4);
     await expect(guide.getByRole("cell",{name:"A",exact:true})).toBeVisible();

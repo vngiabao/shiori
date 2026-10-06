@@ -45,45 +45,6 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   await expect(
     example.getByRole("button", { name: "Hear the example" }),
   ).toBeEnabled();
-  const words = fs
-    .readdirSync("content/packs")
-    .filter((name) => /^n[1-5]-vocab-\d+\.json$/.test(name))
-    .flatMap(
-      (name) =>
-        JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8")).words,
-    ) as { text: string; kana: string; example: string }[];
-  const urls = [
-    ...new Set(
-      words.flatMap((w) => [
-        mapping[w.text],
-        mapping[w.kana],
-        mapping[w.example],
-      ]),
-    ),
-  ];
-  expect(
-    await page.evaluate(async (urls) => {
-      const context = new AudioContext();
-      try {
-        for (const url of urls) {
-          const response = await fetch(url);
-          if (!response.ok) throw new Error(`Missing deck audio: ${url}`);
-          const decoded = await context.decodeAudioData(
-            await response.arrayBuffer(),
-          );
-          if (
-            decoded.numberOfChannels !== 1 ||
-            decoded.sampleRate !== context.sampleRate ||
-            decoded.duration <= 0
-          )
-            throw new Error(`Invalid deck audio: ${url}`);
-        }
-        return urls.length;
-      } finally {
-        await context.close();
-      }
-    }, urls),
-  ).toBe(urls.length);
   for (const width of [320, 375, 768, 1440]) {
     await page.setViewportSize({ width, height: 1000 });
     for (const theme of ["light", "dark"]) {
@@ -163,4 +124,120 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
         .analyze()
     ).violations,
   ).toEqual([]);
+  await page.getByRole("button", { name: "Leave lesson" }).click();
+  for (const [number, sentence, meaning] of [
+    [
+      1,
+      "この教室では、最初にお茶の作法を学びます。",
+      "In this class, we first learn tea etiquette.",
+    ],
+    [
+      2,
+      "夏になると、冷たい飲み物の需要が増えます。",
+      "Demand for cold drinks increases in summer.",
+    ],
+    [
+      3,
+      "会場に着いたとき、受付は既に始まっていました。",
+      "Reception had already started when I arrived at the venue.",
+    ],
+    [
+      4,
+      "彼が同じ映画を好きだと知って、意外に思いました。",
+      "I was surprised to learn that he liked the same film.",
+    ],
+  ] as const) {
+    await page.goto("/#library");
+    await page.getByLabel("Show lessons").selectOption("n3");
+    await page
+      .locator(".course-unit")
+      .filter({
+        has: page.getByRole("heading", {
+          name: `N3 vocabulary · Deck ${number}`,
+          exact: true,
+        }),
+      })
+      .getByRole("button", { name: "Read", exact: true })
+      .first()
+      .click();
+    const n3Example = page.locator(".word-example").first();
+    await n3Example.locator("summary").click();
+    await expect(n3Example.getByText(meaning, { exact: true })).toBeVisible();
+    const url = mapping[sentence];
+    expect(url).toBeTruthy();
+    const response = page.waitForResponse(
+      (r) => new URL(r.url()).pathname === url,
+    );
+    await n3Example.getByRole("button", { name: "Hear the example" }).click();
+    expect([200, 206]).toContain((await response).status());
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= innerWidth,
+      ),
+    ).toBe(true);
+    await page.getByRole("button", { name: "I’ve met these" }).click();
+    await page.getByRole("button", { name: "I’ve met these" }).click();
+    await expect(page.locator(".word-example")).toHaveCount(0);
+    await expect(page.locator(".answer-option")).toHaveCount(4);
+    await page.getByRole("button", { name: "Leave lesson" }).click();
+  }
 });
+
+// Each installed deck gets a bounded playback check, rather than one growing
+// all-course evaluate that eventually times out before reporting the bad deck.
+for (const name of fs
+  .readdirSync("content/packs")
+  .filter((name) => /^n[1-5]-vocab-\d+\.json$/.test(name))) {
+  test(`${name} words and examples all decode from mapped Clear recordings`, async ({
+    page,
+  }) => {
+    test.setTimeout(90000);
+    const mapping = JSON.parse(
+      fs.readFileSync("src/generated/audio.json", "utf8"),
+    );
+    const words = JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8"))
+      .words as { text: string; kana: string; example: string }[];
+    const urls: string[] = [
+      ...new Set<string>(
+        words.flatMap((w) => [
+          mapping[w.text],
+          mapping[w.kana],
+          mapping[w.example],
+        ]),
+      ),
+    ];
+    expect(
+      urls.every((url) => typeof url === "string" && url.startsWith("/audio/")),
+    ).toBe(true);
+    await page.goto("/");
+    expect(
+      await page.evaluate(async (urls) => {
+        const context = new AudioContext();
+        try {
+          let next = 0;
+          await Promise.all(
+            Array.from({ length: Math.min(8, urls.length) }, async () => {
+              while (next < urls.length) {
+                const url = urls[next++];
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`Missing deck audio: ${url}`);
+                const decoded = await context.decodeAudioData(
+                  await response.arrayBuffer(),
+                );
+                if (
+                  decoded.numberOfChannels !== 1 ||
+                  decoded.sampleRate !== context.sampleRate ||
+                  decoded.duration <= 0
+                )
+                  throw new Error(`Invalid deck audio: ${url}`);
+              }
+            }),
+          );
+          return urls.length;
+        } finally {
+          await context.close();
+        }
+      }, urls),
+    ).toBe(urls.length);
+  });
+}

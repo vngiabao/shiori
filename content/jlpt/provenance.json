@@ -1,11 +1,11 @@
 {
-  "version": 2,
-  "checkedAt": "2026-10-05",
+  "version": 3,
+  "checkedAt": "2026-10-06",
   "questionStatus": "Original AI-assisted draft; no publisher text or questions reproduced; no human editorial review yet",
   "levelStatus": "Editorial estimates for practice organisation, not verified official test-item levels",
-  "coverage": "216 questions across five pathways: N5 and N4 each have 60 checkpoint items and 30 distinct timed-sample items; N3, N2 and N1 retain six checkpoint and six sample items each. No internal listening exam, sentence-order task or full-length mock test.",
+  "coverage": "294 questions across five pathways: N5, N4 and N3 each have 60 checkpoint items and 30 distinct timed-sample items; N2/N1 retain six checkpoint and six sample items each. No internal listening exam, sentence-order runner or full-length calibrated mock test.",
   "selection": "Two items per checkpoint, six per timed sample with two per written section. Prefer unseen then least-seen items in saved history; persist selected IDs. Historical question IDs and answer positions are preserved. Completion does not require full bank coverage.",
-  "authoring": "scripts/author-n5-bank.py and scripts/author-n4-bank.py preserve historical items and compile original answer-first drafts. content/jlpt/bank-sizes.json declares expected sizes. AI-assisted answer/context review; no native-editor approval or psychometric calibration.",
+  "authoring": "scripts/author-n5-bank.py, author-n4-bank.py and author-n3-bank.py preserve historical items and compile original answer-first drafts. bank-sizes.json declares expected sizes. Internal answer/context review; no native-editor approval or psychometric calibration.",
   "sourceMethod": "Publisher catalogues establish series/level availability and provide external study access. Shiori focus lists, gates and assignments are original editorial organisation, not a publisher chapter-by-chapter mapping. Learners record their own edition and pages.",
   "sources": [
     {
@@ -38,5 +38,6 @@
       "url": "https://www.jlpt.jp/e/guideline/testsections.html",
       "use": "Reference for scope; Shiori short timers are not official test timings"
     }
-  ]
+  ],
+  "n3Review": "Original short passages distinguish source/date, past/future, conditions, permissions, comparisons and claims. Clozes name the requested formation to avoid scoring equivalent variants as wrong. A stray で after the 早めに sample blank was removed before validation. Samples use different passages/prompts from checkpoints. Short written practice does not cover every official task type."
 }

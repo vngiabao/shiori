@@ -1,9 +1,9 @@
 {
-  "totalWords": 2165,
-  "uniqueForms": 2121,
+  "totalWords": 2597,
+  "uniqueForms": 2553,
   "counts": {
     "excluded-drill": 157,
-    "matched": 1923,
+    "matched": 2355,
     "unmatched": 81,
     "name-unverified": 4
   },
@@ -9041,6 +9041,5820 @@
       ],
       "entryIds": [
         "1004060"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-kiji",
+      "text": "記事",
+      "kana": "きじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きじ"
+      ],
+      "entryIds": [
+        "1223240"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-kisha",
+      "text": "記者",
+      "kana": "きしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きしゃ"
+      ],
+      "entryIds": [
+        "1223250"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-houdou",
+      "text": "報道",
+      "kana": "ほうどう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほうどう"
+      ],
+      "entryIds": [
+        "1515730"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-shuzai",
+      "text": "取材",
+      "kana": "しゅざい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅざい"
+      ],
+      "entryIds": [
+        "1327020"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-midashi",
+      "text": "見出し",
+      "kana": "みだし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "みだし"
+      ],
+      "entryIds": [
+        "1259710"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-honbun",
+      "text": "本文",
+      "kana": "ほんぶん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほんぶん",
+        "ほんもん"
+      ],
+      "entryIds": [
+        "1584270"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-youten",
+      "text": "要点",
+      "kana": "ようてん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ようてん"
+      ],
+      "entryIds": [
+        "1546820"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-sokuhou",
+      "text": "速報",
+      "kana": "そくほう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "そくほう"
+      ],
+      "entryIds": [
+        "1405070"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-dekigoto",
+      "text": "出来事",
+      "kana": "できごと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "できごと"
+      ],
+      "entryIds": [
+        "1340570"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-toukei",
+      "text": "統計",
+      "kana": "とうけい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とうけい"
+      ],
+      "entryIds": [
+        "1449710"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-zouka",
+      "text": "増加",
+      "kana": "ぞうか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぞうか"
+      ],
+      "entryIds": [
+        "1403160"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-genshou",
+      "text": "減少",
+      "kana": "げんしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げんしょう"
+      ],
+      "entryIds": [
+        "1263210"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-chiiki",
+      "text": "地域",
+      "kana": "ちいき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ちいき"
+      ],
+      "entryIds": [
+        "1420800"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-koukyou",
+      "text": "公共",
+      "kana": "こうきょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうきょう"
+      ],
+      "entryIds": [
+        "1273510"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-shisetsu",
+      "text": "施設",
+      "kana": "しせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しせつ"
+      ],
+      "entryIds": [
+        "1310410"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-shiyakusho",
+      "text": "市役所",
+      "kana": "しやくしょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しやくしょ"
+      ],
+      "entryIds": [
+        "1308760"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-kaisai",
+      "text": "開催",
+      "kana": "かいさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいさい"
+      ],
+      "entryIds": [
+        "1202710"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-shusai",
+      "text": "主催",
+      "kana": "しゅさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅさい"
+      ],
+      "entryIds": [
+        "1325450"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-tenji",
+      "text": "展示",
+      "kana": "てんじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てんじ"
+      ],
+      "entryIds": [
+        "1440610"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-kouza",
+      "text": "講座",
+      "kana": "こうざ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "こうざ"
+      ],
+      "entryIds": [
+        "1282270"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-teiin",
+      "text": "定員",
+      "kana": "ていいん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ていいん"
+      ],
+      "entryIds": [
+        "1435400"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-oubo",
+      "text": "応募",
+      "kana": "おうぼ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おうぼ"
+      ],
+      "entryIds": [
+        "1180030"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-toujitsu",
+      "text": "当日",
+      "kana": "とうじつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "とうじつ"
+      ],
+      "entryIds": [
+        "1449210"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-zenjitsu",
+      "text": "前日",
+      "kana": "ぜんじつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぜんじつ",
+        "まえび"
+      ],
+      "entryIds": [
+        "1393790"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-yokujitsu",
+      "text": "翌日",
+      "kana": "よくじつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "よくじつ"
+      ],
+      "entryIds": [
+        "1547510"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-yuuryou",
+      "text": "有料",
+      "kana": "ゆうりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ゆうりょう"
+      ],
+      "entryIds": [
+        "1541690"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-muryou",
+      "text": "無料",
+      "kana": "むりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "むりょう"
+      ],
+      "entryIds": [
+        "1531040"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-senchaku",
+      "text": "先着",
+      "kana": "せんちゃく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せんちゃく"
+      ],
+      "entryIds": [
+        "1388150"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-seiriken",
+      "text": "整理券",
+      "kana": "せいりけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいりけん"
+      ],
+      "entryIds": [
+        "1376260"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-shuukei",
+      "text": "集計",
+      "kana": "しゅうけい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうけい"
+      ],
+      "entryIds": [
+        "1333640"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-goukei",
+      "text": "合計",
+      "kana": "ごうけい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごうけい"
+      ],
+      "entryIds": [
+        "1284740"
+      ]
+    },
+    {
+      "pack": "n3-u16.json",
+      "id": "n3-u16-w-uchiwake",
+      "text": "内訳",
+      "kana": "うちわけ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うちわけ"
+      ],
+      "entryIds": [
+        "1459360"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0002",
+      "text": "作法",
+      "kana": "さほう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さくほう",
+        "さほう"
+      ],
+      "entryIds": [
+        "1297980"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0003",
+      "text": "様々",
+      "kana": "さまざま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さまさま",
+        "さまざま"
+      ],
+      "entryIds": [
+        "1593830",
+        "1794390"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0004",
+      "text": "冷ます",
+      "kana": "さます",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さます"
+      ],
+      "entryIds": [
+        "1556740"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0005",
+      "text": "覚ます",
+      "kana": "さます",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さます"
+      ],
+      "entryIds": [
+        "1206060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0007",
+      "text": "覚める",
+      "kana": "さめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さめる"
+      ],
+      "entryIds": [
+        "1206070"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0009",
+      "text": "皿",
+      "kana": "さら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さら"
+      ],
+      "entryIds": [
+        "1299680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0010",
+      "text": "更に",
+      "kana": "さらに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さらに"
+      ],
+      "entryIds": [
+        "1279310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0011",
+      "text": "去る",
+      "kana": "さる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さる"
+      ],
+      "entryIds": [
+        "1231650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0012",
+      "text": "猿",
+      "kana": "さる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さる",
+        "ましら"
+      ],
+      "entryIds": [
+        "1177390",
+        "2743210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0013",
+      "text": "騒ぎ",
+      "kana": "さわぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さわぎ"
+      ],
+      "entryIds": [
+        "1403020"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0014",
+      "text": "参加",
+      "kana": "さんか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんか"
+      ],
+      "entryIds": [
+        "1302090"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0015",
+      "text": "参考",
+      "kana": "さんこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんこう"
+      ],
+      "entryIds": [
+        "1302280"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0017",
+      "text": "酸性",
+      "kana": "さんせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんせい"
+      ],
+      "entryIds": [
+        "1304330"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0018",
+      "text": "酸素",
+      "kana": "さんそ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さんそ"
+      ],
+      "entryIds": [
+        "1304350"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0021",
+      "text": "幸せ",
+      "kana": "しあわせ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しあわせ",
+        "しやわせ"
+      ],
+      "entryIds": [
+        "1594060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0022",
+      "text": "ジーンズ",
+      "kana": "ジーンズ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ジーンズ"
+      ],
+      "entryIds": [
+        "1064120"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0023",
+      "text": "ジェット機",
+      "kana": "ジェットき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ジェットき"
+      ],
+      "entryIds": [
+        "1064250"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0024",
+      "text": "四角",
+      "kana": "しかく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しかく"
+      ],
+      "entryIds": [
+        "1307090"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0025",
+      "text": "直に",
+      "kana": "じかに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じかに",
+        "じきに"
+      ],
+      "entryIds": [
+        "1430690",
+        "1430700"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0026",
+      "text": "しかも",
+      "kana": "しかも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しかも"
+      ],
+      "entryIds": [
+        "1506050"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0027",
+      "text": "四季",
+      "kana": "しき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しき"
+      ],
+      "entryIds": [
+        "1307130"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0029",
+      "text": "時期",
+      "kana": "じき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じき"
+      ],
+      "entryIds": [
+        "1316040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0030",
+      "text": "支給",
+      "kana": "しきゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しきゅう"
+      ],
+      "entryIds": [
+        "1310130"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0031",
+      "text": "至急",
+      "kana": "しきゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しきゅう"
+      ],
+      "entryIds": [
+        "1311900"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0032",
+      "text": "しきりに",
+      "kana": "しきりに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しきりに"
+      ],
+      "entryIds": [
+        "1005480"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0033",
+      "text": "刺激",
+      "kana": "しげき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しげき"
+      ],
+      "entryIds": [
+        "1594190"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0034",
+      "text": "資源",
+      "kana": "しげん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しげん"
+      ],
+      "entryIds": [
+        "1312720"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0036",
+      "text": "時刻",
+      "kana": "じこく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じこく"
+      ],
+      "entryIds": [
+        "1316220"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0037",
+      "text": "自殺",
+      "kana": "じさつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じさつ"
+      ],
+      "entryIds": [
+        "1317770"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0039",
+      "text": "支出",
+      "kana": "ししゅつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ししゅつ"
+      ],
+      "entryIds": [
+        "1310180"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0040",
+      "text": "事情",
+      "kana": "じじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じじょう"
+      ],
+      "entryIds": [
+        "1314010"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0041",
+      "text": "詩人",
+      "kana": "しじん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しじん"
+      ],
+      "entryIds": [
+        "1312220"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0042",
+      "text": "自身",
+      "kana": "じしん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じしん"
+      ],
+      "entryIds": [
+        "1318000"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0043",
+      "text": "沈む",
+      "kana": "しずむ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しずむ"
+      ],
+      "entryIds": [
+        "1431670"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0044",
+      "text": "自然",
+      "kana": "しぜん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しぜん",
+        "じねん"
+      ],
+      "entryIds": [
+        "1318090",
+        "2837784"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0045",
+      "text": "思想",
+      "kana": "しそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しそう"
+      ],
+      "entryIds": [
+        "1309560"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0047",
+      "text": "次第",
+      "kana": "しだい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しだい"
+      ],
+      "entryIds": [
+        "1316680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0048",
+      "text": "従う",
+      "kana": "したがう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "したがう"
+      ],
+      "entryIds": [
+        "1335210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0049",
+      "text": "したがって",
+      "kana": "したがって",
+      "status": "matched",
+      "dictionaryReadings": [
+        "したがって"
+      ],
+      "entryIds": [
+        "1335230"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0050",
+      "text": "親しい",
+      "kana": "したしい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "したしい",
+        "ちかしい"
+      ],
+      "entryIds": [
+        "1365050",
+        "2080220"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0051",
+      "text": "質",
+      "kana": "しつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しち",
+        "しつ",
+        "たち"
+      ],
+      "entryIds": [
+        "1320640",
+        "1320650",
+        "2672260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0052",
+      "text": "失業",
+      "kana": "しつぎょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しつぎょう"
+      ],
+      "entryIds": [
+        "1319860"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0053",
+      "text": "湿気",
+      "kana": "しっけ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しっき",
+        "しっけ"
+      ],
+      "entryIds": [
+        "1320410"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0054",
+      "text": "実験",
+      "kana": "じっけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じっけん"
+      ],
+      "entryIds": [
+        "1320970"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0055",
+      "text": "実現",
+      "kana": "じつげん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じつげん"
+      ],
+      "entryIds": [
+        "1321020"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0057",
+      "text": "実際",
+      "kana": "じっさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じっさい"
+      ],
+      "entryIds": [
+        "1321110"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0059",
+      "text": "湿度",
+      "kana": "しつど",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しつど"
+      ],
+      "entryIds": [
+        "1320490"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0061",
+      "text": "実に",
+      "kana": "じつに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げに",
+        "じつに",
+        "まことに"
+      ],
+      "entryIds": [
+        "1381160",
+        "2820720",
+        "2868541"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0062",
+      "text": "実は",
+      "kana": "じつは",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じつは"
+      ],
+      "entryIds": [
+        "1320830"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0064",
+      "text": "実力",
+      "kana": "じつりょく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じつりょく"
+      ],
+      "entryIds": [
+        "1321530"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0065",
+      "text": "支店",
+      "kana": "してん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "してん"
+      ],
+      "entryIds": [
+        "1310230"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0066",
+      "text": "指導",
+      "kana": "しどう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しどう"
+      ],
+      "entryIds": [
+        "1309950"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0067",
+      "text": "自動",
+      "kana": "じどう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じどう"
+      ],
+      "entryIds": [
+        "1318340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0068",
+      "text": "児童",
+      "kana": "じどう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じどう"
+      ],
+      "entryIds": [
+        "1315060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0069",
+      "text": "品",
+      "kana": "しな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しな",
+        "ひん",
+        "ほん"
+      ],
+      "entryIds": [
+        "1583470",
+        "2648750",
+        "2648780"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0070",
+      "text": "支配",
+      "kana": "しはい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しはい"
+      ],
+      "entryIds": [
+        "1310270"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0071",
+      "text": "芝居",
+      "kana": "しばい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しばい"
+      ],
+      "entryIds": [
+        "1321630"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0072",
+      "text": "しばしば",
+      "kana": "しばしば",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しばしば"
+      ],
+      "entryIds": [
+        "1005580",
+        "2179090"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0073",
+      "text": "芝生",
+      "kana": "しばふ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しばふ"
+      ],
+      "entryIds": [
+        "1321650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0074",
+      "text": "支払",
+      "kana": "しはらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しはらい"
+      ],
+      "entryIds": [
+        "1594480"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0075",
+      "text": "支払う",
+      "kana": "しはらう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しはらう"
+      ],
+      "entryIds": [
+        "1310300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0076",
+      "text": "死亡",
+      "kana": "しぼう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しぼう"
+      ],
+      "entryIds": [
+        "1310950"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0077",
+      "text": "資本",
+      "kana": "しほん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しほん"
+      ],
+      "entryIds": [
+        "1312780"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0078",
+      "text": "姉妹",
+      "kana": "しまい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きょうだい",
+        "しまい"
+      ],
+      "entryIds": [
+        "1579490"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0080",
+      "text": "自慢",
+      "kana": "じまん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じまん"
+      ],
+      "entryIds": [
+        "1318680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0081",
+      "text": "地味",
+      "kana": "じみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じみ",
+        "ちみ"
+      ],
+      "entryIds": [
+        "1421490",
+        "1763590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0082",
+      "text": "示す",
+      "kana": "しめす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめす"
+      ],
+      "entryIds": [
+        "1317110"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0083",
+      "text": "占める",
+      "kana": "しめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しめる"
+      ],
+      "entryIds": [
+        "1389460"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0084",
+      "text": "湿る",
+      "kana": "しめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しとる",
+        "しめる"
+      ],
+      "entryIds": [
+        "1320390"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0086",
+      "text": "霜",
+      "kana": "しも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しも"
+      ],
+      "entryIds": [
+        "1402930"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0087",
+      "text": "借金",
+      "kana": "しゃっきん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゃっきん"
+      ],
+      "entryIds": [
+        "1323940"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0088",
+      "text": "しゃべる",
+      "kana": "しゃべる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゃべる"
+      ],
+      "entryIds": [
+        "1427510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0089",
+      "text": "週",
+      "kana": "しゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅう"
+      ],
+      "entryIds": [
+        "1333450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0090",
+      "text": "州",
+      "kana": "しゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅう",
+        "す"
+      ],
+      "entryIds": [
+        "1331840",
+        "1331850"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0091",
+      "text": "銃",
+      "kana": "じゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅう",
+        "つつ"
+      ],
+      "entryIds": [
+        "1337000",
+        "2864475"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0092",
+      "text": "周囲",
+      "kana": "しゅうい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうい"
+      ],
+      "entryIds": [
+        "1331030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0093",
+      "text": "収穫",
+      "kana": "しゅうかく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうかく"
+      ],
+      "entryIds": [
+        "1330510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0094",
+      "text": "宗教",
+      "kana": "しゅうきょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうきょう"
+      ],
+      "entryIds": [
+        "1331400"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0095",
+      "text": "重視",
+      "kana": "じゅうし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうし"
+      ],
+      "entryIds": [
+        "1336260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0097",
+      "text": "ジュース",
+      "kana": "ジュース",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ジュース"
+      ],
+      "entryIds": [
+        "1065950",
+        "2843595"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0098",
+      "text": "修正",
+      "kana": "しゅうせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうせい"
+      ],
+      "entryIds": [
+        "1332130"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0099",
+      "text": "重体",
+      "kana": "じゅうたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうたい"
+      ],
+      "entryIds": [
+        "1595360"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0101",
+      "text": "重大",
+      "kana": "じゅうだい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうだい"
+      ],
+      "entryIds": [
+        "1336500"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0102",
+      "text": "住宅",
+      "kana": "じゅうたく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうたく"
+      ],
+      "entryIds": [
+        "1334150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0103",
+      "text": "集団",
+      "kana": "しゅうだん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうだん"
+      ],
+      "entryIds": [
+        "1333730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0105",
+      "text": "収入",
+      "kana": "しゅうにゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅうにゅう"
+      ],
+      "entryIds": [
+        "1330790"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0106",
+      "text": "住民",
+      "kana": "じゅうみん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうみん"
+      ],
+      "entryIds": [
+        "1334210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0107",
+      "text": "重要",
+      "kana": "じゅうよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅうよう"
+      ],
+      "entryIds": [
+        "1336820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0109",
+      "text": "主義",
+      "kana": "しゅぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅぎ"
+      ],
+      "entryIds": [
+        "1325260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0110",
+      "text": "宿泊",
+      "kana": "しゅくはく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅくはく"
+      ],
+      "entryIds": [
+        "1337300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0111",
+      "text": "手術",
+      "kana": "しゅじゅつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅじゅつ",
+        "しゅずつ"
+      ],
+      "entryIds": [
+        "1327790"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0112",
+      "text": "首相",
+      "kana": "しゅしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅしょう"
+      ],
+      "entryIds": [
+        "1329300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0113",
+      "text": "手段",
+      "kana": "しゅだん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅだん"
+      ],
+      "entryIds": [
+        "1328110"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0114",
+      "text": "主張",
+      "kana": "しゅちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅちょう"
+      ],
+      "entryIds": [
+        "1325910"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0115",
+      "text": "出場",
+      "kana": "しゅつじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅつじょう",
+        "でば"
+      ],
+      "entryIds": [
+        "1339220",
+        "1339230"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0116",
+      "text": "出身",
+      "kana": "しゅっしん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅっしん"
+      ],
+      "entryIds": [
+        "1339260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0117",
+      "text": "出版",
+      "kana": "しゅっぱん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅっぱん"
+      ],
+      "entryIds": [
+        "1340030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0118",
+      "text": "首都",
+      "kana": "しゅと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅと"
+      ],
+      "entryIds": [
+        "1329340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0119",
+      "text": "主婦",
+      "kana": "しゅふ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅふ"
+      ],
+      "entryIds": [
+        "1326160"
+      ]
+    },
+    {
+      "pack": "n3-vocab-01.json",
+      "id": "n3-vocab-01-w-0120",
+      "text": "主要",
+      "kana": "しゅよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅよう"
+      ],
+      "entryIds": [
+        "1326320"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0121",
+      "text": "需要",
+      "kana": "じゅよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅよう"
+      ],
+      "entryIds": [
+        "1330450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0122",
+      "text": "種類",
+      "kana": "しゅるい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゅるい"
+      ],
+      "entryIds": [
+        "1328890"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0123",
+      "text": "順",
+      "kana": "じゅん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅん",
+        "ずん"
+      ],
+      "entryIds": [
+        "1342220"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0125",
+      "text": "順調",
+      "kana": "じゅんちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅんちょう"
+      ],
+      "entryIds": [
+        "1342380"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0127",
+      "text": "使用",
+      "kana": "しよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しよう"
+      ],
+      "entryIds": [
+        "1306200"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0128",
+      "text": "小",
+      "kana": "しょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "お",
+        "ぐゎー",
+        "こ",
+        "さ",
+        "ささ",
+        "さざ",
+        "しょう"
+      ],
+      "entryIds": [
+        "2083540",
+        "2153770",
+        "2268350",
+        "2268910",
+        "2564200",
+        "2729810"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0129",
+      "text": "章",
+      "kana": "しょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょう"
+      ],
+      "entryIds": [
+        "1351270"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0130",
+      "text": "賞",
+      "kana": "しょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょう"
+      ],
+      "entryIds": [
+        "1351910"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0132",
+      "text": "障害",
+      "kana": "しょうがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうがい"
+      ],
+      "entryIds": [
+        "1352060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0133",
+      "text": "奨学金",
+      "kana": "しょうがくきん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうがくきん",
+        "しょうがっきん"
+      ],
+      "entryIds": [
+        "1347530"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0134",
+      "text": "乗客",
+      "kana": "じょうきゃく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうかく",
+        "じょうきゃく"
+      ],
+      "entryIds": [
+        "1580490"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0135",
+      "text": "上京",
+      "kana": "じょうきょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうきょう"
+      ],
+      "entryIds": [
+        "1352980"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0138",
+      "text": "正午",
+      "kana": "しょうご",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうご"
+      ],
+      "entryIds": [
+        "1377080"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0139",
+      "text": "正直",
+      "kana": "しょうじき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうじき"
+      ],
+      "entryIds": [
+        "1377590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0140",
+      "text": "常識",
+      "kana": "じょうしき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうしき"
+      ],
+      "entryIds": [
+        "1356000"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0141",
+      "text": "少女",
+      "kana": "しょうじょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おとめ",
+        "しょうじょ"
+      ],
+      "entryIds": [
+        "1580290",
+        "2855480"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0142",
+      "text": "少々",
+      "kana": "しょうしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうしょう"
+      ],
+      "entryIds": [
+        "1594930"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0143",
+      "text": "症状",
+      "kana": "しょうじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうじょう"
+      ],
+      "entryIds": [
+        "1351030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0144",
+      "text": "生じる",
+      "kana": "しょうじる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうじる"
+      ],
+      "entryIds": [
+        "1378650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0145",
+      "text": "状態",
+      "kana": "じょうたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうたい"
+      ],
+      "entryIds": [
+        "1356730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0147",
+      "text": "冗談",
+      "kana": "じょうだん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうだん"
+      ],
+      "entryIds": [
+        "1355540"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0148",
+      "text": "上等",
+      "kana": "じょうとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうとう"
+      ],
+      "entryIds": [
+        "1354030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0149",
+      "text": "衝突",
+      "kana": "しょうとつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうとつ"
+      ],
+      "entryIds": [
+        "1351560"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0150",
+      "text": "商人",
+      "kana": "しょうにん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あきうど",
+        "あきびと",
+        "あきゅうど",
+        "あきんど",
+        "しょうにん"
+      ],
+      "entryIds": [
+        "1580270"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0152",
+      "text": "少年",
+      "kana": "しょうねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうねん"
+      ],
+      "entryIds": [
+        "1349170"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0153",
+      "text": "商売",
+      "kana": "しょうばい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうばい"
+      ],
+      "entryIds": [
+        "1347200"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0154",
+      "text": "消費",
+      "kana": "しょうひ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうひ"
+      ],
+      "entryIds": [
+        "1350290"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0155",
+      "text": "商品",
+      "kana": "しょうひん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうひん"
+      ],
+      "entryIds": [
+        "1347310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0156",
+      "text": "賞品",
+      "kana": "しょうひん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうひん"
+      ],
+      "entryIds": [
+        "1351960"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0157",
+      "text": "消防",
+      "kana": "しょうぼう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうぼう"
+      ],
+      "entryIds": [
+        "1350340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0159",
+      "text": "証明",
+      "kana": "しょうめい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょうめい"
+      ],
+      "entryIds": [
+        "1351680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0161",
+      "text": "女王",
+      "kana": "じょおう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょうおう",
+        "じょおう",
+        "にょおう"
+      ],
+      "entryIds": [
+        "1345020"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0162",
+      "text": "職",
+      "kana": "しょく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しき",
+        "しょく",
+        "そく"
+      ],
+      "entryIds": [
+        "1357480",
+        "2251120"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0163",
+      "text": "職業",
+      "kana": "しょくぎょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくぎょう"
+      ],
+      "entryIds": [
+        "1357510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0164",
+      "text": "食卓",
+      "kana": "しょくたく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくたく"
+      ],
+      "entryIds": [
+        "1358530"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0165",
+      "text": "食品",
+      "kana": "しょくひん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくひん"
+      ],
+      "entryIds": [
+        "1358600"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0166",
+      "text": "植物",
+      "kana": "しょくぶつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくぶつ"
+      ],
+      "entryIds": [
+        "1357300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0167",
+      "text": "食物",
+      "kana": "しょくもつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "くいもの",
+        "しょくもつ"
+      ],
+      "entryIds": [
+        "1358620",
+        "1640430"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0168",
+      "text": "食欲",
+      "kana": "しょくよく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくよく"
+      ],
+      "entryIds": [
+        "1358660"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0169",
+      "text": "食料",
+      "kana": "しょくりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくりょう"
+      ],
+      "entryIds": [
+        "1358670"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0170",
+      "text": "食糧",
+      "kana": "しょくりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくりょう"
+      ],
+      "entryIds": [
+        "1358690"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0171",
+      "text": "書斎",
+      "kana": "しょさい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょさい"
+      ],
+      "entryIds": [
+        "1344030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0172",
+      "text": "女子",
+      "kana": "じょし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おなご",
+        "じょし",
+        "めこ"
+      ],
+      "entryIds": [
+        "1345140",
+        "2409500",
+        "2858064"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0173",
+      "text": "助手",
+      "kana": "じょしゅ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょしゅ",
+        "すけて",
+        "たすけて"
+      ],
+      "entryIds": [
+        "1344450",
+        "1344650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0176",
+      "text": "書物",
+      "kana": "しょもつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょもつ"
+      ],
+      "entryIds": [
+        "1344150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0177",
+      "text": "女優",
+      "kana": "じょゆう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じょゆう"
+      ],
+      "entryIds": [
+        "1345430"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0178",
+      "text": "処理",
+      "kana": "しょり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょり"
+      ],
+      "entryIds": [
+        "1342510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0182",
+      "text": "知合い",
+      "kana": "しりあい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しりあい"
+      ],
+      "entryIds": [
+        "1595070"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0183",
+      "text": "印",
+      "kana": "しるし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いん",
+        "しるし"
+      ],
+      "entryIds": [
+        "1168050",
+        "1168060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0184",
+      "text": "城",
+      "kana": "しろ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "き",
+        "しろ",
+        "じょう"
+      ],
+      "entryIds": [
+        "1355710",
+        "2088010",
+        "2219650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0185",
+      "text": "進学",
+      "kana": "しんがく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんがく"
+      ],
+      "entryIds": [
+        "1366010"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0186",
+      "text": "神経",
+      "kana": "しんけい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんけい"
+      ],
+      "entryIds": [
+        "1364520"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0187",
+      "text": "真剣",
+      "kana": "しんけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんけん"
+      ],
+      "entryIds": [
+        "1363650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0188",
+      "text": "信仰",
+      "kana": "しんこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんこう"
+      ],
+      "entryIds": [
+        "1359150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0189",
+      "text": "信号",
+      "kana": "しんごう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんごう"
+      ],
+      "entryIds": [
+        "1359240"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0190",
+      "text": "人工",
+      "kana": "じんこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じんこう"
+      ],
+      "entryIds": [
+        "1367380"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0191",
+      "text": "深刻",
+      "kana": "しんこく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんこく"
+      ],
+      "entryIds": [
+        "1362730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0192",
+      "text": "診察",
+      "kana": "しんさつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんさつ"
+      ],
+      "entryIds": [
+        "1365460"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0193",
+      "text": "人種",
+      "kana": "じんしゅ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じんしゅ"
+      ],
+      "entryIds": [
+        "1368020"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0194",
+      "text": "信じる",
+      "kana": "しんじる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんじる"
+      ],
+      "entryIds": [
+        "1359040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0195",
+      "text": "人生",
+      "kana": "じんせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じんせい"
+      ],
+      "entryIds": [
+        "1368370"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0196",
+      "text": "親戚",
+      "kana": "しんせき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんせき"
+      ],
+      "entryIds": [
+        "1365230"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0197",
+      "text": "新鮮",
+      "kana": "しんせん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんせん"
+      ],
+      "entryIds": [
+        "1362100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0198",
+      "text": "心臓",
+      "kana": "しんぞう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんぞう"
+      ],
+      "entryIds": [
+        "1360770"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0200",
+      "text": "身長",
+      "kana": "しんちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんちょう"
+      ],
+      "entryIds": [
+        "1365770"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0202",
+      "text": "審判",
+      "kana": "しんぱん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんばん",
+        "しんぱん"
+      ],
+      "entryIds": [
+        "1360410"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0204",
+      "text": "進歩",
+      "kana": "しんぽ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんぽ"
+      ],
+      "entryIds": [
+        "1366190"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0205",
+      "text": "親友",
+      "kana": "しんゆう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんゆう"
+      ],
+      "entryIds": [
+        "1365410"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0206",
+      "text": "信用",
+      "kana": "しんよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんよう"
+      ],
+      "entryIds": [
+        "1359620"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0207",
+      "text": "信頼",
+      "kana": "しんらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんらい"
+      ],
+      "entryIds": [
+        "1359730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0208",
+      "text": "心理",
+      "kana": "しんり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しんり"
+      ],
+      "entryIds": [
+        "1361000"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0209",
+      "text": "人類",
+      "kana": "じんるい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じんるい"
+      ],
+      "entryIds": [
+        "1369530"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0210",
+      "text": "巣",
+      "kana": "す",
+      "status": "matched",
+      "dictionaryReadings": [
+        "す"
+      ],
+      "entryIds": [
+        "1400390"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0211",
+      "text": "酢",
+      "kana": "す",
+      "status": "matched",
+      "dictionaryReadings": [
+        "す"
+      ],
+      "entryIds": [
+        "1370270"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0212",
+      "text": "図",
+      "kana": "ず",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ず"
+      ],
+      "entryIds": [
+        "1370320"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0213",
+      "text": "水準",
+      "kana": "すいじゅん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すいじゅん"
+      ],
+      "entryIds": [
+        "1371610"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0214",
+      "text": "推薦",
+      "kana": "すいせん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すいせん"
+      ],
+      "entryIds": [
+        "1371170"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0215",
+      "text": "スイッチ",
+      "kana": "スイッチ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スイッチ"
+      ],
+      "entryIds": [
+        "1067210",
+        "5746831"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0216",
+      "text": "睡眠",
+      "kana": "すいみん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すいみん"
+      ],
+      "entryIds": [
+        "1372370"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0218",
+      "text": "数字",
+      "kana": "すうじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すうじ"
+      ],
+      "entryIds": [
+        "1373060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0219",
+      "text": "スープ",
+      "kana": "スープ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スープ"
+      ],
+      "entryIds": [
+        "1067040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0220",
+      "text": "末",
+      "kana": "すえ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うら",
+        "うれ",
+        "すえ",
+        "まつ"
+      ],
+      "entryIds": [
+        "1525230",
+        "1525240",
+        "1525250",
+        "1525260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0222",
+      "text": "スキー",
+      "kana": "スキー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スキー"
+      ],
+      "entryIds": [
+        "1067770"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0223",
+      "text": "救う",
+      "kana": "すくう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すくう"
+      ],
+      "entryIds": [
+        "1229060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0224",
+      "text": "すくなくとも",
+      "kana": "すくなくとも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すくなくとも"
+      ],
+      "entryIds": [
+        "1595610"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0225",
+      "text": "優れる",
+      "kana": "すぐれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すぐれる"
+      ],
+      "entryIds": [
+        "1539080"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0226",
+      "text": "スケート",
+      "kana": "スケート",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スケート"
+      ],
+      "entryIds": [
+        "1068770"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0227",
+      "text": "スケジュール",
+      "kana": "スケジュール",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スケジュール"
+      ],
+      "entryIds": [
+        "1068870"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0228",
+      "text": "少しも",
+      "kana": "すこしも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すこしも"
+      ],
+      "entryIds": [
+        "1348900"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0229",
+      "text": "過ごす",
+      "kana": "すごす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すごす"
+      ],
+      "entryIds": [
+        "1196000"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0230",
+      "text": "筋",
+      "kana": "すじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きん",
+        "すじ"
+      ],
+      "entryIds": [
+        "1241750",
+        "2657060"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0231",
+      "text": "進める",
+      "kana": "すすめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すすめる"
+      ],
+      "entryIds": [
+        "1365990"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0232",
+      "text": "勧める",
+      "kana": "すすめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すすめる"
+      ],
+      "entryIds": [
+        "1595680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0233",
+      "text": "スター",
+      "kana": "スター",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スター"
+      ],
+      "entryIds": [
+        "1069210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0234",
+      "text": "スタイル",
+      "kana": "スタイル",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スタイル"
+      ],
+      "entryIds": [
+        "1069520"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0235",
+      "text": "スタンド",
+      "kana": "スタンド",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スタンド"
+      ],
+      "entryIds": [
+        "1069930"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0236",
+      "text": "頭痛",
+      "kana": "ずつう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ずつう"
+      ],
+      "entryIds": [
+        "1450890"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0237",
+      "text": "ずっと",
+      "kana": "ずっと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ずっと"
+      ],
+      "entryIds": [
+        "1006380"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0238",
+      "text": "すっぱい",
+      "kana": "すっぱい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すっぱい"
+      ],
+      "entryIds": [
+        "1304280"
+      ]
+    },
+    {
+      "pack": "n3-vocab-02.json",
+      "id": "n3-vocab-02-w-0239",
+      "text": "すてき",
+      "kana": "すてき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すてき"
+      ],
+      "entryIds": [
+        "1397350"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0240",
+      "text": "既に",
+      "kana": "すでに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すでに",
+        "すんでに"
+      ],
+      "entryIds": [
+        "1220310",
+        "2860958"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0241",
+      "text": "すなわち",
+      "kana": "すなわち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すなわち"
+      ],
+      "entryIds": [
+        "1404100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0242",
+      "text": "スピーチ",
+      "kana": "スピーチ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "スピーチ"
+      ],
+      "entryIds": [
+        "1072260"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0243",
+      "text": "全て",
+      "kana": "すべて",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すべて"
+      ],
+      "entryIds": [
+        "1595730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0244",
+      "text": "済ませる",
+      "kana": "すませる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すませる"
+      ],
+      "entryIds": [
+        "1295040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0246",
+      "text": "墨",
+      "kana": "すみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すみ",
+        "ぼく"
+      ],
+      "entryIds": [
+        "1521510",
+        "2826280"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0248",
+      "text": "澄む",
+      "kana": "すむ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すむ"
+      ],
+      "entryIds": [
+        "1373680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0252",
+      "text": "鋭い",
+      "kana": "するどい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "するどい"
+      ],
+      "entryIds": [
+        "1174890"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0253",
+      "text": "すれ違う",
+      "kana": "すれちがう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "すれちがう"
+      ],
+      "entryIds": [
+        "1595920"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0254",
+      "text": "ずれる",
+      "kana": "ずれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ずれる"
+      ],
+      "entryIds": [
+        "1006460"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0255",
+      "text": "正",
+      "kana": "せい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょう",
+        "せい",
+        "まさ"
+      ],
+      "entryIds": [
+        "1376590",
+        "2427830",
+        "2427840"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0256",
+      "text": "生",
+      "kana": "せい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いく",
+        "うぶ",
+        "き",
+        "しょう",
+        "せい",
+        "なま",
+        "なまり",
+        "ふ"
+      ],
+      "entryIds": [
+        "1378440",
+        "1378450",
+        "2036160",
+        "2088240",
+        "2416400",
+        "2416410",
+        "2416420"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0257",
+      "text": "性",
+      "kana": "せい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さが",
+        "しょう",
+        "せい",
+        "なりくせ"
+      ],
+      "entryIds": [
+        "1375250",
+        "1375260",
+        "2443200",
+        "2833475"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0259",
+      "text": "所為",
+      "kana": "せい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょい",
+        "せい",
+        "せえ",
+        "そい"
+      ],
+      "entryIds": [
+        "1343140",
+        "1610040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0260",
+      "text": "税",
+      "kana": "ぜい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぜい"
+      ],
+      "entryIds": [
+        "2081570"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0261",
+      "text": "性格",
+      "kana": "せいかく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいかく"
+      ],
+      "entryIds": [
+        "1375290"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0263",
+      "text": "世紀",
+      "kana": "せいき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいき"
+      ],
+      "entryIds": [
+        "1373990"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0264",
+      "text": "請求",
+      "kana": "せいきゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいきゅう"
+      ],
+      "entryIds": [
+        "1381320"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0265",
+      "text": "税金",
+      "kana": "ぜいきん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぜいきん"
+      ],
+      "entryIds": [
+        "1382100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0266",
+      "text": "清潔",
+      "kana": "せいけつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいけつ"
+      ],
+      "entryIds": [
+        "1378200"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0267",
+      "text": "制限",
+      "kana": "せいげん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいげん"
+      ],
+      "entryIds": [
+        "1374700"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0269",
+      "text": "正式",
+      "kana": "せいしき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいしき"
+      ],
+      "entryIds": [
+        "1377290"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0270",
+      "text": "性質",
+      "kana": "せいしつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいしつ"
+      ],
+      "entryIds": [
+        "1375390"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0271",
+      "text": "精神",
+      "kana": "せいしん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいしん"
+      ],
+      "entryIds": [
+        "1379950"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0272",
+      "text": "成人",
+      "kana": "せいじん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいじん"
+      ],
+      "entryIds": [
+        "1375740"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0273",
+      "text": "精々",
+      "kana": "せいぜい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいぜい"
+      ],
+      "entryIds": [
+        "1596050"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0274",
+      "text": "成績",
+      "kana": "せいせき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいせき"
+      ],
+      "entryIds": [
+        "1375760"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0275",
+      "text": "製造",
+      "kana": "せいぞう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいぞう"
+      ],
+      "entryIds": [
+        "1380690"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0276",
+      "text": "贅沢",
+      "kana": "ぜいたく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぜいたく"
+      ],
+      "entryIds": [
+        "1573150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0277",
+      "text": "成長",
+      "kana": "せいちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいちょう"
+      ],
+      "entryIds": [
+        "1375790"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0278",
+      "text": "生長",
+      "kana": "せいちょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいちょう"
+      ],
+      "entryIds": [
+        "1379370"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0279",
+      "text": "制度",
+      "kana": "せいど",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいど"
+      ],
+      "entryIds": [
+        "1374880"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0280",
+      "text": "青年",
+      "kana": "せいねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいねん"
+      ],
+      "entryIds": [
+        "1381750"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0281",
+      "text": "生年月日",
+      "kana": "せいねんがっぴ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいねんがっぴ"
+      ],
+      "entryIds": [
+        "1379410"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0283",
+      "text": "政府",
+      "kana": "せいふ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいふ"
+      ],
+      "entryIds": [
+        "1376070"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0284",
+      "text": "生物",
+      "kana": "せいぶつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいぶつ",
+        "なまもの"
+      ],
+      "entryIds": [
+        "1379430",
+        "1379440"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0285",
+      "text": "生命",
+      "kana": "せいめい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいめい"
+      ],
+      "entryIds": [
+        "1379530"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0286",
+      "text": "整理",
+      "kana": "せいり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せいり"
+      ],
+      "entryIds": [
+        "1376250"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0287",
+      "text": "咳",
+      "kana": "せき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しわぶき",
+        "せき"
+      ],
+      "entryIds": [
+        "1204300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0288",
+      "text": "石炭",
+      "kana": "せきたん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いしずみ",
+        "せきたん"
+      ],
+      "entryIds": [
+        "1382700"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0290",
+      "text": "石油",
+      "kana": "せきゆ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せきゆ"
+      ],
+      "entryIds": [
+        "1382830"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0291",
+      "text": "世間",
+      "kana": "せけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せけん"
+      ],
+      "entryIds": [
+        "1373970"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0292",
+      "text": "説",
+      "kana": "せつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せつ"
+      ],
+      "entryIds": [
+        "1386370"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0293",
+      "text": "積極的",
+      "kana": "せっきょくてき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せっきょくてき"
+      ],
+      "entryIds": [
+        "1383030"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0294",
+      "text": "設計",
+      "kana": "せっけい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "せっけい"
+      ],
+      "entryIds": [
+        "1386020"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0295",
+      "text": "絶対",
+      "kana": "ぜったい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぜったい"
+      ],
+      "entryIds": [
+        "1386840"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0296",
+      "text": "セット",
+      "kana": "セット",
+      "status": "matched",
+      "dictionaryReadings": [
+        "セット"
+      ],
+      "entryIds": [
+        "1074600"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0297",
+      "text": "愛",
+      "kana": "あい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あい",
+        "まな"
+      ],
+      "entryIds": [
+        "1150410",
+        "2751070"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0298",
+      "text": "相変わらず",
+      "kana": "あいかわらず",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいかわらず"
+      ],
+      "entryIds": [
+        "1401310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0299",
+      "text": "愛情",
+      "kana": "あいじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいじょう"
+      ],
+      "entryIds": [
+        "1150860"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0301",
+      "text": "アイスクリーム",
+      "kana": "アイスクリーム",
+      "status": "matched",
+      "dictionaryReadings": [
+        "アイスクリーム"
+      ],
+      "entryIds": [
+        "1013980"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0302",
+      "text": "愛する",
+      "kana": "あいする",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいする"
+      ],
+      "entryIds": [
+        "1150450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0303",
+      "text": "相手",
+      "kana": "あいて",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいて"
+      ],
+      "entryIds": [
+        "1401000"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0304",
+      "text": "あいにく",
+      "kana": "あいにく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいにく"
+      ],
+      "entryIds": [
+        "1379210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0306",
+      "text": "アウト",
+      "kana": "アウト",
+      "status": "matched",
+      "dictionaryReadings": [
+        "アウト"
+      ],
+      "entryIds": [
+        "1014680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0307",
+      "text": "明かり",
+      "kana": "あかり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あかり"
+      ],
+      "entryIds": [
+        "1586210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0308",
+      "text": "空き",
+      "kana": "あき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あき"
+      ],
+      "entryIds": [
+        "1609010"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0309",
+      "text": "明らか",
+      "kana": "あきらか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あきらか"
+      ],
+      "entryIds": [
+        "1532310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0310",
+      "text": "諦める",
+      "kana": "あきらめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あきらめる"
+      ],
+      "entryIds": [
+        "1436730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0311",
+      "text": "飽きる",
+      "kana": "あきる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あきる"
+      ],
+      "entryIds": [
+        "1586250"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0312",
+      "text": "握手",
+      "kana": "あくしゅ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あくしゅ"
+      ],
+      "entryIds": [
+        "1152730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0313",
+      "text": "悪魔",
+      "kana": "あくま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あくま"
+      ],
+      "entryIds": [
+        "1152510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0317",
+      "text": "預かる",
+      "kana": "あずかる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あずかる"
+      ],
+      "entryIds": [
+        "1544970"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0318",
+      "text": "預ける",
+      "kana": "あずける",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あずける"
+      ],
+      "entryIds": [
+        "1544990"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0320",
+      "text": "与える",
+      "kana": "あたえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたえる"
+      ],
+      "entryIds": [
+        "1544730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0322",
+      "text": "暖まる",
+      "kana": "あたたまる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたたまる",
+        "あったまる"
+      ],
+      "entryIds": [
+        "1586430"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0324",
+      "text": "暖める",
+      "kana": "あたためる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたためる",
+        "あっためる"
+      ],
+      "entryIds": [
+        "1586440"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0327",
+      "text": "当たり前",
+      "kana": "あたりまえ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたりまえ",
+        "あたりめえ",
+        "あたりめー",
+        "あったりめー"
+      ],
+      "entryIds": [
+        "1448800"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0328",
+      "text": "当たる",
+      "kana": "あたる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あたる"
+      ],
+      "entryIds": [
+        "1448810"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0329",
+      "text": "あちこち",
+      "kana": "あちこち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あちこち"
+      ],
+      "entryIds": [
+        "1612620"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0330",
+      "text": "扱う",
+      "kana": "あつかう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あつかう"
+      ],
+      "entryIds": [
+        "1153440"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0331",
+      "text": "集まり",
+      "kana": "あつまり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あつまり"
+      ],
+      "entryIds": [
+        "1609050"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0332",
+      "text": "当てる",
+      "kana": "あてる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あてる"
+      ],
+      "entryIds": [
+        "1448860"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0333",
+      "text": "跡",
+      "kana": "あと",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あと",
+        "せき"
+      ],
+      "entryIds": [
+        "1383680",
+        "2718510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0334",
+      "text": "穴",
+      "kana": "あな",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あな",
+        "けつ",
+        "めど"
+      ],
+      "entryIds": [
+        "1254480",
+        "1254490",
+        "2159590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0335",
+      "text": "油",
+      "kana": "あぶら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あぶら"
+      ],
+      "entryIds": [
+        "1538590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0336",
+      "text": "脂",
+      "kana": "あぶら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あぶら",
+        "やに"
+      ],
+      "entryIds": [
+        "1311750",
+        "1311760"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0337",
+      "text": "誤り",
+      "kana": "あやまり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あやまり"
+      ],
+      "entryIds": [
+        "1271290"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0338",
+      "text": "粗",
+      "kana": "あら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あら",
+        "そ",
+        "ほぼ"
+      ],
+      "entryIds": [
+        "1551940",
+        "1586730",
+        "2844798"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0339",
+      "text": "嵐",
+      "kana": "あらし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらし",
+        "アラシ"
+      ],
+      "entryIds": [
+        "1549340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0340",
+      "text": "争う",
+      "kana": "あらそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらがう",
+        "あらそう"
+      ],
+      "entryIds": [
+        "1400620",
+        "2261110"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0341",
+      "text": "新た",
+      "kana": "あらた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらた"
+      ],
+      "entryIds": [
+        "1361510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0342",
+      "text": "あらゆる",
+      "kana": "あらゆる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらゆる"
+      ],
+      "entryIds": [
+        "1586780"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0343",
+      "text": "表す",
+      "kana": "あらわす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらわす",
+        "ひょうす"
+      ],
+      "entryIds": [
+        "1263490",
+        "2410100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0345",
+      "text": "著す",
+      "kana": "あらわす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらわす"
+      ],
+      "entryIds": [
+        "1427080"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0346",
+      "text": "現れ",
+      "kana": "あらわれ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらわれ"
+      ],
+      "entryIds": [
+        "1610550"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0347",
+      "text": "現れる",
+      "kana": "あらわれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あらわれる"
+      ],
+      "entryIds": [
+        "1263510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0348",
+      "text": "ありがとう",
+      "kana": "ありがとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ありがとう"
+      ],
+      "entryIds": [
+        "1586820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0351",
+      "text": "あるいは",
+      "kana": "あるいは",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あるいは"
+      ],
+      "entryIds": [
+        "1586850"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0352",
+      "text": "アルバム",
+      "kana": "アルバム",
+      "status": "matched",
+      "dictionaryReadings": [
+        "アルバム"
+      ],
+      "entryIds": [
+        "1019450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0353",
+      "text": "泡",
+      "kana": "あわ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あぶく",
+        "あわ"
+      ],
+      "entryIds": [
+        "1517510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0354",
+      "text": "合わせる",
+      "kana": "あわせる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あわせる"
+      ],
+      "entryIds": [
+        "1284480"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0355",
+      "text": "慌てる",
+      "kana": "あわてる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あわてる"
+      ],
+      "entryIds": [
+        "1278830"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0356",
+      "text": "哀れ",
+      "kana": "あわれ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あはれ",
+        "あわれ"
+      ],
+      "entryIds": [
+        "1150110"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0358",
+      "text": "案外",
+      "kana": "あんがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あんがい"
+      ],
+      "entryIds": [
+        "1154820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0359",
+      "text": "暗記",
+      "kana": "あんき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あんき"
+      ],
+      "entryIds": [
+        "1586910"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0360",
+      "text": "安定",
+      "kana": "あんてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あんてい"
+      ],
+      "entryIds": [
+        "1154120"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0361",
+      "text": "あんなに",
+      "kana": "あんなに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あんなに"
+      ],
+      "entryIds": [
+        "1981450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0363",
+      "text": "胃",
+      "kana": "い",
+      "status": "matched",
+      "dictionaryReadings": [
+        "い"
+      ],
+      "entryIds": [
+        "1158500"
+      ]
+    },
+    {
+      "pack": "n3-vocab-03.json",
+      "id": "n3-vocab-03-w-0364",
+      "text": "委員",
+      "kana": "いいん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いいん"
+      ],
+      "entryIds": [
+        "1156100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0365",
+      "text": "意外",
+      "kana": "いがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いがい"
+      ],
+      "entryIds": [
+        "1156410"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0366",
+      "text": "行き",
+      "kana": "いき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いき",
+        "ゆき"
+      ],
+      "entryIds": [
+        "1578790"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0369",
+      "text": "勢い",
+      "kana": "いきおい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いきおい",
+        "いきよい"
+      ],
+      "entryIds": [
+        "1375040"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0370",
+      "text": "生き物",
+      "kana": "いきもの",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いきもの"
+      ],
+      "entryIds": [
+        "1378590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0371",
+      "text": "いけない",
+      "kana": "いけない",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いけない"
+      ],
+      "entryIds": [
+        "1000730"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0372",
+      "text": "医師",
+      "kana": "いし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いし",
+        "くすし"
+      ],
+      "entryIds": [
+        "1159930",
+        "2229590"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0373",
+      "text": "意思",
+      "kana": "いし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いし"
+      ],
+      "entryIds": [
+        "1156610"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0374",
+      "text": "意志",
+      "kana": "いし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いし"
+      ],
+      "entryIds": [
+        "1156560"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0375",
+      "text": "維持",
+      "kana": "いじ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いじ"
+      ],
+      "entryIds": [
+        "1158450"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0377",
+      "text": "異常",
+      "kana": "いじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いじょう"
+      ],
+      "entryIds": [
+        "1157760"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0378",
+      "text": "意地悪",
+      "kana": "いじわる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いじわる"
+      ],
+      "entryIds": [
+        "1156740"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0379",
+      "text": "泉",
+      "kana": "いずみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いずみ"
+      ],
+      "entryIds": [
+        "1390780"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0380",
+      "text": "いずれ",
+      "kana": "いずれ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いずれ"
+      ],
+      "entryIds": [
+        "1566210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0381",
+      "text": "以前",
+      "kana": "いぜん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いぜん"
+      ],
+      "entryIds": [
+        "1155150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0382",
+      "text": "板",
+      "kana": "いた",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いた"
+      ],
+      "entryIds": [
+        "1481350"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0383",
+      "text": "偉大",
+      "kana": "いだい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いだい"
+      ],
+      "entryIds": [
+        "1155920"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0384",
+      "text": "抱く",
+      "kana": "いだく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いだく",
+        "うだく",
+        "だく"
+      ],
+      "entryIds": [
+        "1584090",
+        "2844997",
+        "2844998"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0385",
+      "text": "いたずら",
+      "kana": "いたずら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いたずら"
+      ],
+      "entryIds": [
+        "1151580",
+        "2681740"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0386",
+      "text": "いただきます",
+      "kana": "いただきます",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いただきます"
+      ],
+      "entryIds": [
+        "1410800"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0387",
+      "text": "痛み",
+      "kana": "いたみ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いたみ"
+      ],
+      "entryIds": [
+        "1587300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0388",
+      "text": "至る",
+      "kana": "いたる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いたる"
+      ],
+      "entryIds": [
+        "1311870"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0390",
+      "text": "位置",
+      "kana": "いち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いち"
+      ],
+      "entryIds": [
+        "1587310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0392",
+      "text": "一度に",
+      "kana": "いちどに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いちどに"
+      ],
+      "entryIds": [
+        "1609210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0393",
+      "text": "市場",
+      "kana": "いちば",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いちば",
+        "しじょう"
+      ],
+      "entryIds": [
+        "1308300",
+        "1308305"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0395",
+      "text": "一家",
+      "kana": "いっか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっか",
+        "いっけ"
+      ],
+      "entryIds": [
+        "1575940"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0396",
+      "text": "一種",
+      "kana": "いっしゅ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっしゅ"
+      ],
+      "entryIds": [
+        "1163170"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0397",
+      "text": "一瞬",
+      "kana": "いっしゅん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっしゅん"
+      ],
+      "entryIds": [
+        "1163340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0398",
+      "text": "一生",
+      "kana": "いっしょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっしょう"
+      ],
+      "entryIds": [
+        "1576200"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0399",
+      "text": "一層",
+      "kana": "いっそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっそう"
+      ],
+      "entryIds": [
+        "1164340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0400",
+      "text": "一体",
+      "kana": "いったい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いったい"
+      ],
+      "entryIds": [
+        "1164510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0402",
+      "text": "いつでも",
+      "kana": "いつでも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつでも"
+      ],
+      "entryIds": [
+        "1577130"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0403",
+      "text": "いつのまにか",
+      "kana": "いつのまにか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつのまにか"
+      ],
+      "entryIds": [
+        "1188850"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0404",
+      "text": "一般",
+      "kana": "いっぱん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっぱん"
+      ],
+      "entryIds": [
+        "1165790"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0405",
+      "text": "一方",
+      "kana": "いっぽう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いっぽう",
+        "ひとかた"
+      ],
+      "entryIds": [
+        "1166510",
+        "2258660"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0406",
+      "text": "いつまでも",
+      "kana": "いつまでも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いつまでも"
+      ],
+      "entryIds": [
+        "1188880"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0408",
+      "text": "従兄弟",
+      "kana": "いとこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いとこ",
+        "じゅうけいてい"
+      ],
+      "entryIds": [
+        "1335290"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0409",
+      "text": "従姉妹",
+      "kana": "いとこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いとこ",
+        "じゅうしまい"
+      ],
+      "entryIds": [
+        "1335310"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0410",
+      "text": "稲",
+      "kana": "いね",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いね"
+      ],
+      "entryIds": [
+        "1167820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0411",
+      "text": "居眠り",
+      "kana": "いねむり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いねむり"
+      ],
+      "entryIds": [
+        "1231890"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0412",
+      "text": "命",
+      "kana": "いのち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いのち",
+        "みこと",
+        "めい"
+      ],
+      "entryIds": [
+        "1531940",
+        "1584630",
+        "1604460",
+        "1694240"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0413",
+      "text": "違反",
+      "kana": "いはん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いはん",
+        "いへん"
+      ],
+      "entryIds": [
+        "1158950",
+        "2825941"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0414",
+      "text": "衣服",
+      "kana": "いふく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いふく"
+      ],
+      "entryIds": [
+        "1158810"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0415",
+      "text": "居間",
+      "kana": "いま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いま"
+      ],
+      "entryIds": [
+        "1231720"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0416",
+      "text": "今に",
+      "kana": "いまに",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いまに"
+      ],
+      "entryIds": [
+        "1288940"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0417",
+      "text": "今にも",
+      "kana": "いまにも",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いまにも"
+      ],
+      "entryIds": [
+        "1288950"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0418",
+      "text": "イメージ",
+      "kana": "イメージ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "イメージ"
+      ],
+      "entryIds": [
+        "1021750"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0419",
+      "text": "否",
+      "kana": "いや",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いな",
+        "いや",
+        "ひ"
+      ],
+      "entryIds": [
+        "1482860",
+        "2857380",
+        "2857381"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0420",
+      "text": "以来",
+      "kana": "いらい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いらい"
+      ],
+      "entryIds": [
+        "1155210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0422",
+      "text": "いらいら",
+      "kana": "いらいら",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いらいら"
+      ],
+      "entryIds": [
+        "1587700"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0423",
+      "text": "いらっしゃい",
+      "kana": "いらっしゃい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いらっしゃい"
+      ],
+      "entryIds": [
+        "1000920"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0424",
+      "text": "医療",
+      "kana": "いりょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いりょう"
+      ],
+      "entryIds": [
+        "1160140"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0425",
+      "text": "岩",
+      "kana": "いわ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いわ"
+      ],
+      "entryIds": [
+        "1217270"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0426",
+      "text": "祝い",
+      "kana": "いわい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いわい",
+        "ゆわい"
+      ],
+      "entryIds": [
+        "1337370"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0427",
+      "text": "祝う",
+      "kana": "いわう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いわう"
+      ],
+      "entryIds": [
+        "1337390"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0428",
+      "text": "言わば",
+      "kana": "いわば",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いわば"
+      ],
+      "entryIds": [
+        "1264380"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0429",
+      "text": "いわゆる",
+      "kana": "いわゆる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いわゆる"
+      ],
+      "entryIds": [
+        "1343150"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0430",
+      "text": "インク",
+      "kana": "インク",
+      "status": "matched",
+      "dictionaryReadings": [
+        "インク"
+      ],
+      "entryIds": [
+        "1022210"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0431",
+      "text": "印刷",
+      "kana": "いんさつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いんさつ"
+      ],
+      "entryIds": [
+        "1168190"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0433",
+      "text": "引退",
+      "kana": "いんたい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いんたい"
+      ],
+      "entryIds": [
+        "1169610"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0434",
+      "text": "インタビュー",
+      "kana": "インタビュー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "インタビュー"
+      ],
+      "entryIds": [
+        "1023100"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0435",
+      "text": "引用",
+      "kana": "いんよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いんよう"
+      ],
+      "entryIds": [
+        "1169660"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0436",
+      "text": "ウイスキー",
+      "kana": "ウイスキー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ウイスキー"
+      ],
+      "entryIds": [
+        "1025140"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0439",
+      "text": "うがい",
+      "kana": "うがい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うがい"
+      ],
+      "entryIds": [
+        "1172200",
+        "1577660",
+        "2513320",
+        "2797680"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0440",
+      "text": "受け取る",
+      "kana": "うけとる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うけとる"
+      ],
+      "entryIds": [
+        "1329650"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0441",
+      "text": "動かす",
+      "kana": "うごかす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うごかす"
+      ],
+      "entryIds": [
+        "1451170"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0442",
+      "text": "兎",
+      "kana": "うさぎ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "う",
+        "うさぎ"
+      ],
+      "entryIds": [
+        "1443970"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0443",
+      "text": "牛",
+      "kana": "うし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うし",
+        "ぎゅう"
+      ],
+      "entryIds": [
+        "1231490",
+        "2085820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0444",
+      "text": "失う",
+      "kana": "うしなう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うしなう"
+      ],
+      "entryIds": [
+        "1319750"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0445",
+      "text": "疑う",
+      "kana": "うたがう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うたがう"
+      ],
+      "entryIds": [
+        "1225510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0446",
+      "text": "宇宙",
+      "kana": "うちゅう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うちゅう"
+      ],
+      "entryIds": [
+        "1171300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0447",
+      "text": "討つ",
+      "kana": "うつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うつ"
+      ],
+      "entryIds": [
+        "1478010"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0450",
+      "text": "映す",
+      "kana": "うつす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うつす"
+      ],
+      "entryIds": [
+        "1588330"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0451",
+      "text": "訴える",
+      "kana": "うったえる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うったえる"
+      ],
+      "entryIds": [
+        "1397720"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0452",
+      "text": "写る",
+      "kana": "うつる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うつる"
+      ],
+      "entryIds": [
+        "1321820"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0453",
+      "text": "映る",
+      "kana": "うつる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うつる"
+      ],
+      "entryIds": [
+        "1173710"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0454",
+      "text": "うなる",
+      "kana": "うなる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うなる"
+      ],
+      "entryIds": [
+        "1565300"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0455",
+      "text": "奪う",
+      "kana": "うばう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うばう"
+      ],
+      "entryIds": [
+        "1416340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0456",
+      "text": "馬",
+      "kana": "うま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うま"
+      ],
+      "entryIds": [
+        "1471560"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0457",
+      "text": "生まれ",
+      "kana": "うまれ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うまれ"
+      ],
+      "entryIds": [
+        "1609350"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0458",
+      "text": "有無",
+      "kana": "うむ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うむ",
+        "ゆうむ"
+      ],
+      "entryIds": [
+        "1541610"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0459",
+      "text": "梅",
+      "kana": "うめ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うめ",
+        "むめ"
+      ],
+      "entryIds": [
+        "1473460"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0460",
+      "text": "埋める",
+      "kana": "うめる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うずめる",
+        "うめる"
+      ],
+      "entryIds": [
+        "1524490",
+        "1524500"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0461",
+      "text": "裏切る",
+      "kana": "うらぎる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うらぎる"
+      ],
+      "entryIds": [
+        "1550380"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0462",
+      "text": "羨ましい",
+      "kana": "うらやましい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うらやましい"
+      ],
+      "entryIds": [
+        "1391940"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0463",
+      "text": "売れる",
+      "kana": "うれる",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うれる"
+      ],
+      "entryIds": [
+        "1473960"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0468",
+      "text": "永遠",
+      "kana": "えいえん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えいえん",
+        "とわ"
+      ],
+      "entryIds": [
+        "1174070",
+        "2860084"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0471",
+      "text": "営業",
+      "kana": "えいぎょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えいぎょう"
+      ],
+      "entryIds": [
+        "1173430"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0472",
+      "text": "衛星",
+      "kana": "えいせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えいせい"
+      ],
+      "entryIds": [
+        "1174760"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0473",
+      "text": "栄養",
+      "kana": "えいよう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えいよう"
+      ],
+      "entryIds": [
+        "1173990"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0474",
+      "text": "笑顔",
+      "kana": "えがお",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えがお"
+      ],
+      "entryIds": [
+        "1351400"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0475",
+      "text": "描く",
+      "kana": "えがく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えがく",
+        "かく"
+      ],
+      "entryIds": [
+        "1583460"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0476",
+      "text": "餌",
+      "kana": "えさ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "え",
+        "えさ"
+      ],
+      "entryIds": [
+        "1173340"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0477",
+      "text": "エネルギー",
+      "kana": "エネルギー",
+      "status": "matched",
+      "dictionaryReadings": [
+        "エネルギー"
+      ],
+      "entryIds": [
+        "1029430"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0478",
+      "text": "得る",
+      "kana": "える",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うる",
+        "える"
+      ],
+      "entryIds": [
+        "1454500",
+        "1588760"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0484",
+      "text": "エンジン",
+      "kana": "エンジン",
+      "status": "matched",
+      "dictionaryReadings": [
+        "エンジン"
+      ],
+      "entryIds": [
+        "1030950"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0485",
+      "text": "演説",
+      "kana": "えんぜつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えんぜつ"
+      ],
+      "entryIds": [
+        "1176960"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0486",
+      "text": "演奏",
+      "kana": "えんそう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "えんそう"
+      ],
+      "entryIds": [
+        "1607520"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0487",
+      "text": "老い",
+      "kana": "おい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おい"
+      ],
+      "entryIds": [
+        "1643510"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0488",
+      "text": "追い付く",
+      "kana": "おいつく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おいつく"
+      ],
+      "entryIds": [
+        "1588810"
+      ]
+    },
+    {
+      "pack": "n3-vocab-04.json",
+      "id": "n3-vocab-04-w-0489",
+      "text": "王",
+      "kana": "おう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おう",
+        "おおきみ",
+        "おおぎみ"
+      ],
+      "entryIds": [
+        "1629200",
+        "1785780"
       ]
     },
     {
