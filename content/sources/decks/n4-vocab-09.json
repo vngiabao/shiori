@@ -1,0 +1,315 @@
+{
+  "deck": "n4-vocab-09",
+  "communityLevel": "N4",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "55009441695de1d9a37b4db6a7de876a472e0f3e358c4fba042c8045833f8ee2",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "そう",
+        "kana": "そう"
+      },
+      "courseAliases": [
+        "mo",
+        "n4-vocab-05-w-0616"
+      ],
+      "reason": "In that manner そう is not the earlier particle も or grass 草/くさ. Explicit quoted-message context."
+    },
+    {
+      "selected": {
+        "text": "地震",
+        "kana": "じしん"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0478"
+      ],
+      "reason": "Earthquake 地震/じしん differs from absence ない. Shared entry candidates cannot merge these meanings."
+    },
+    {
+      "selected": {
+        "text": "夫",
+        "kana": "おっと"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0120"
+      ],
+      "reason": "Husband 夫/おっと is not generic man 男/おとこ. Own-spouse reference disambiguates."
+    },
+    {
+      "selected": {
+        "text": "内",
+        "kana": "うち"
+      },
+      "courseAliases": [
+        "n4-vocab-07-w-0409",
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n5-vocab-03-w-0478",
+        "n5-vocab-06-w-0048"
+      ],
+      "reason": "Inside 内/うち differs in form/use from home 家/うち and reverse 裏/うら. Interior/exterior contrast selects this meaning."
+    },
+    {
+      "selected": {
+        "text": "うまい",
+        "kana": "うまい"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0036"
+      ],
+      "reason": "Good/tasty うまい differs from sweet 甘い. Informal food approval is not a sugar-content claim."
+    },
+    {
+      "forms": [
+        "夫",
+        "妻"
+      ],
+      "reason": "Husband 夫/おっと and wife 妻/つま denote different relationships with distinct readings. Shared broad spouse-entry IDs are not identical taught senses."
+    },
+    {
+      "selected": {
+        "text": "妻",
+        "kana": "つま"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0141"
+      ],
+      "reason": "Wife 妻/つま differs from generic woman 女/おんな. Own-spouse context selects the relationship."
+    },
+    {
+      "selected": {
+        "text": "明日",
+        "kana": "あす"
+      },
+      "courseAliases": [
+        "tomorrow"
+      ],
+      "reason": "Tomorrow 明日/あす is a formal/written reading variant of earlier あした, not a new independent temporal sense."
+    }
+  ],
+  "words": [
+    {
+      "id": "n4-vocab-09-w-0078",
+      "sourceRow": 78,
+      "original": {
+        "expression": "そう",
+        "reading": "そう",
+        "meaning": "really, (is that) so; yes, right",
+        "tags": "JLPT JLPT_N4",
+        "guid": "wr0#d-auwR"
+      },
+      "selected": {
+        "text": "そう",
+        "kana": "そう"
+      },
+      "dictionaryEntryIds": [
+        "1006610",
+        "1176700",
+        "1241450",
+        "1272690",
+        "1290810",
+        "1375190",
+        "1398030",
+        "1398670",
+        "1399250",
+        "1399540",
+        "1399590",
+        "1399990",
+        "1400810",
+        "1401470",
+        "1440810",
+        "1581200",
+        "2027990",
+        "2033880",
+        "2077160",
+        "2137720",
+        "2249280",
+        "2253390",
+        "2406720",
+        "2414580",
+        "2414600",
+        "2609760",
+        "2639080",
+        "2681340",
+        "2843362",
+        "2843365",
+        "2843386",
+        "2843387",
+        "2843388",
+        "2843390",
+        "2843391",
+        "2844287"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0085",
+      "sourceRow": 85,
+      "original": {
+        "expression": "地震",
+        "reading": "じしん",
+        "meaning": "earthquake",
+        "tags": "Genki Genki_Ln.15 JLPT JLPT_N4",
+        "guid": "DGTtnnC4Nd"
+      },
+      "selected": {
+        "text": "地震",
+        "kana": "じしん"
+      },
+      "dictionaryEntryIds": [
+        "1421210",
+        "2862777"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0186",
+      "sourceRow": 186,
+      "original": {
+        "expression": "夫",
+        "reading": "おっと",
+        "meaning": "husband",
+        "tags": "JLPT JLPT_N4",
+        "guid": "zDF$wWIUs8"
+      },
+      "selected": {
+        "text": "夫",
+        "kana": "おっと"
+      },
+      "dictionaryEntryIds": [
+        "1496480",
+        "2742870",
+        "2754880",
+        "2852371",
+        "2870787"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0243",
+      "sourceRow": 243,
+      "original": {
+        "expression": "内",
+        "reading": "うち",
+        "meaning": "within, inside",
+        "tags": "JLPT JLPT_N4",
+        "guid": "G1H0$T!7Vl"
+      },
+      "selected": {
+        "text": "内",
+        "kana": "うち"
+      },
+      "dictionaryEntryIds": [
+        "1457730",
+        "2098290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0394",
+      "sourceRow": 394,
+      "original": {
+        "expression": "うまい",
+        "reading": "うまい",
+        "meaning": "delicious; skillful; fortunate",
+        "tags": "JLPT JLPT_N4",
+        "guid": "C`4~Q!,KRn"
+      },
+      "selected": {
+        "text": "うまい",
+        "kana": "うまい"
+      },
+      "dictionaryEntryIds": [
+        "1310460",
+        "2839142"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0446",
+      "sourceRow": 446,
+      "original": {
+        "expression": "妻",
+        "reading": "つま",
+        "meaning": "wife (humble)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "pfL{;:Bm<O"
+      },
+      "selected": {
+        "text": "妻",
+        "kana": "つま"
+      },
+      "dictionaryEntryIds": [
+        "1294330",
+        "2742880",
+        "2746040",
+        "2746070",
+        "2843131",
+        "2852371"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-09-w-0507",
+      "sourceRow": 507,
+      "original": {
+        "expression": "下る",
+        "reading": "さがる",
+        "meaning": "to descend, to drop, to fall",
+        "tags": "JLPT JLPT_N4",
+        "guid": "oX|5UGkIW2"
+      },
+      "selected": {
+        "text": "下がる",
+        "kana": "さがる"
+      },
+      "dictionaryEntryIds": [
+        "1184160"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "下る",
+          "reading": "さがる"
+        },
+        "selected": {
+          "text": "下がる",
+          "kana": "さがる"
+        },
+        "reason": "Use standard modern 下がる spelling for decreasing instead of unusual source 下る/さがる. Original cells remain pinned and restricted JMdict still required."
+      }
+    },
+    {
+      "id": "n4-vocab-09-w-0556",
+      "sourceRow": 556,
+      "original": {
+        "expression": "明日",
+        "reading": "あす",
+        "meaning": "tomorrow",
+        "tags": "JLPT JLPT_N4",
+        "guid": "ITR}TzQQ.H"
+      },
+      "selected": {
+        "text": "明日",
+        "kana": "あす"
+      },
+      "dictionaryEntryIds": [
+        "1584660"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ],
+  "tailBatch": {
+    "count": 8,
+    "reason": "Last manually reviewed false-alias sense and reading gaps. Contexts explicitly distinguish meanings; no padding or claim of independent lexical senses."
+  }
+}

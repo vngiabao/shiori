@@ -1,0 +1,50 @@
+{
+  "id": "n4-vocab-10",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "category": "vocabulary",
+  "title": "N4 vocabulary · Deck 10",
+  "words": [
+    {
+      "id": "n4-vocab-10-w-0563",
+      "text": "回る",
+      "kana": "まわる",
+      "romaji": "mawaru",
+      "meaning": "go around; turn (intransitive)",
+      "register": "neutral",
+      "example": "駅の周りを一周回りました。",
+      "exampleRuby": "{駅|えき}の{周|まわ}りを{一周|いっしゅう}{回|まわ}りました。",
+      "exampleMeaning": "I went once around the station.",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "回",
+          "reading": "まわ"
+        },
+        {
+          "text": "る"
+        }
+      ],
+      "source": "https://github.com/jamsinclair/open-anki-jlpt-decks/blob/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv#L563"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n4-vocab-10-lesson-1",
+      "title": "N4 vocabulary · Set 1",
+      "description": "Community-list words with original examples. Reading and listening recognition are tracked separately.",
+      "kind": "phrase",
+      "words": [
+        "n4-vocab-10-w-0563"
+      ],
+      "canDo": "Recognise these written words and their Clear voice readings.",
+      "minutes": 8
+    }
+  ],
+  "letters": [],
+  "roleplays": [],
+  "grammar": [],
+  "kanji": [],
+  "exercises": []
+}

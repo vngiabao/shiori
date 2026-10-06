@@ -2,17 +2,744 @@
   "status": "AI-assisted editorial decisions; shared dictionary IDs are candidates, not proof of identical senses",
   "n5-vocab-01": [
     {
-      "forms": ["あちら", "あっち"],
+      "forms": [
+        "あちら",
+        "あっち"
+      ],
       "reason": "Deliberately teach the polite and casual direction forms separately. Meanings, examples and register metadata distinguish their use; count them as form records, not two independent lexical senses."
     },
     {
-      "forms": ["後", "後ろ"],
+      "forms": [
+        "後",
+        "後ろ"
+      ],
       "reason": "後 is selected with あと for after/later, while 後ろ is selected with うしろ for spatial behind/back. Examples and translations teach different uses; shared IDs alone cannot merge these readings."
     },
     {
-      "forms": ["男", "男の子"],
+      "forms": [
+        "男",
+        "男の子"
+      ],
       "reason": "Teach adult/male reference and the boy expression with their distinct selected readings and examples. Entry-wide ID overlap can cover related expressions; these are form records rather than an assertion of independent lexical senses."
     }
   ],
-  "n5-vocab-02": []
+  "n5-vocab-02": [],
+  "n5-vocab-06": [
+    {
+      "selected": {
+        "text": "秋",
+        "kana": "あき"
+      },
+      "courseAliases": [
+        "n5-u01-w-ji"
+      ],
+      "reason": "Autumn is not an hour/time compound. Entry-wide matching through the earlier 時 target cannot establish the 秋/あき sense."
+    },
+    {
+      "selected": {
+        "text": "家",
+        "kana": "いえ"
+      },
+      "courseAliases": [
+        "ka",
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n4-vocab-07-w-0409",
+        "n4-vocab-09-w-0243"
+      ],
+      "reason": "House/home in the いえ reading is distinct from the earlier うち home expression and kanji component. Teach a physical house example. The later reverse-side 裏/うら candidate also differs from the house sense. The later 内 (うち) record teaches inside a space; retain the separately contextualised 家 reading and sense."
+    },
+    {
+      "selected": {
+        "text": "絵",
+        "kana": "え"
+      },
+      "courseAliases": [
+        "ga"
+      ],
+      "reason": "The standalone picture word 絵/え is not established by an earlier が reading component. This is a distinct headword reading."
+    },
+    {
+      "selected": {
+        "text": "紙",
+        "kana": "かみ"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Standalone paper 紙/かみ is not established by earlier し component or compound readings."
+    },
+    {
+      "selected": {
+        "text": "九",
+        "kana": "く"
+      },
+      "courseAliases": [
+        "nine",
+        "n5-u02-w-kono",
+        "n5-u06-w-koko"
+      ],
+      "reason": "Nine in the く reading is needed for 九月; earlier きゅう or deictic kana readings do not teach this pronunciation."
+    },
+    {
+      "selected": {
+        "text": "こっち",
+        "kana": "こっち"
+      },
+      "courseAliases": [
+        "n5-u01-w-kochira"
+      ],
+      "reason": "こっち is casual this-way, while こちら is the earlier polite expression. Count related register forms, not separate lexical senses."
+    },
+    {
+      "selected": {
+        "text": "先",
+        "kana": "さき"
+      },
+      "courseAliases": [
+        "n4-vocab-01-w-0140",
+        "n5-u04-w-mae"
+      ],
+      "reason": "先/さき ahead/before others is not equivalent to 前/まえ or the earlier future sense of 先/せん."
+    },
+    {
+      "selected": {
+        "text": "四",
+        "kana": "し"
+      },
+      "courseAliases": [
+        "four",
+        "n4-u01-w-shi",
+        "n5-u08-w-yo"
+      ],
+      "reason": "Four in the し reading is needed for 四月. Earlier よん and unrelated し kana readings cannot establish that reading."
+    },
+    {
+      "selected": {
+        "text": "七",
+        "kana": "しち"
+      },
+      "courseAliases": [
+        "seven"
+      ],
+      "reason": "Seven in the しち reading contrasts with earlier なな; count reading forms rather than new numerical senses."
+    },
+    {
+      "selected": {
+        "text": "背",
+        "kana": "せい"
+      },
+      "courseAliases": [
+        "n4-vocab-04-w-0560"
+      ],
+      "reason": "背/せい in stature is a reading variant of earlier 背/せ, explicitly used with tall. Not a separate lexical sense."
+    },
+    {
+      "selected": {
+        "text": "外",
+        "kana": "そと"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Outside 外/そと is not a door word と. Broad homonym entry overlap does not teach the outside sense."
+    },
+    {
+      "selected": {
+        "text": "空",
+        "kana": "そら"
+      },
+      "courseAliases": [
+        "n5-u09-w-kara",
+        "n5-u10-w-kara"
+      ],
+      "reason": "Sky 空/そら contrasts with empty 空/から. Explicitly separate the selected reading and meaning."
+    },
+    {
+      "selected": {
+        "text": "一日",
+        "kana": "ついたち"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0059"
+      ],
+      "reason": "First day 一日/ついたち differs from one-day 一日/いちにち. These are related written forms with different readings and uses."
+    },
+    {
+      "selected": {
+        "text": "戸",
+        "kana": "と"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Sliding door 戸/と is related to earlier generic door teaching but explicitly gives this written form; not a new independent sense."
+    },
+    {
+      "selected": {
+        "text": "十",
+        "kana": "とお"
+      },
+      "courseAliases": [
+        "ten",
+        "to"
+      ],
+      "reason": "Native-series ten とお differs from earlier じゅう. Source parenthetical annotation is not part of its pronounced reading."
+    },
+    {
+      "selected": {
+        "text": "歯",
+        "kana": "は"
+      },
+      "courseAliases": [
+        "wa",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Teeth 歯/は are not the topic particle は/わ or an unrelated component reading. Teach the lexical ha reading."
+    },
+    {
+      "selected": {
+        "text": "外",
+        "kana": "ほか"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Other 外/ほか differs from outside 外/そと and the earlier door word; example states an alternative shop. Usually written ほか/他."
+    },
+    {
+      "selected": {
+        "text": "門",
+        "kana": "もん"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Gate 門/もん is not a door と pronunciation; overlapping dictionary entries do not establish this written headword."
+    },
+    {
+      "selected": {
+        "text": "易しい",
+        "kana": "やさしい"
+      },
+      "courseAliases": [
+        "kind"
+      ],
+      "reason": "Easy 易しい contrasts with kind 優しい. Same kana and broad entry overlap must not conflate their meanings."
+    },
+    {
+      "selected": {
+        "text": "夜",
+        "kana": "よる"
+      },
+      "courseAliases": [
+        "n5-u08-w-yo"
+      ],
+      "reason": "Night 夜/よる is a different reading from prior 夜/よ; teach ordinary standalone night use."
+    },
+    {
+      "selected": {
+        "text": "私",
+        "kana": "わたくし"
+      },
+      "courseAliases": [
+        "me",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Formal modest 私/わたくし contrasts with earlier 私/わたし. Keep context formal; count register/reading forms, not independent senses."
+    },
+    {
+      "forms": [
+        "外",
+        "外"
+      ],
+      "reason": "The same spelling has outside そと and other ほか readings; each example explicitly teaches its different use. Do not count these as two distinct written headwords."
+    },
+    {
+      "forms": [
+        "門",
+        "戸"
+      ],
+      "reason": "Gate 門/もん and room sliding door 戸/と are related opening words with distinct headword readings and contextual examples. Broad dictionary IDs do not erase this useful distinction."
+    }
+  ],
+  "n4-vocab-07": [
+    {
+      "selected": {
+        "text": "折る",
+        "kana": "おる"
+      },
+      "courseAliases": [
+        "n4-u08-w-oru"
+      ],
+      "reason": "Fold/break by bending 折る is not humble be おる/居る. Kana homonym overlap is not taught coverage."
+    },
+    {
+      "selected": {
+        "text": "彼",
+        "kana": "かれ"
+      },
+      "courseAliases": [
+        "n5-u02-w-are"
+      ],
+      "reason": "He 彼/かれ is not the earlier deictic あれ. Teach a personal-reference context, not a boyfriend claim."
+    },
+    {
+      "selected": {
+        "text": "日",
+        "kana": "ひ"
+      },
+      "courseAliases": [
+        "ka"
+      ],
+      "reason": "Standalone day 日/ひ is not an earlier か compound reading. Explicitly teach the lexical hi reading."
+    },
+    {
+      "selected": {
+        "text": "葉",
+        "kana": "は"
+      },
+      "courseAliases": [
+        "wa"
+      ],
+      "reason": "Leaf 葉/は is not the topic particle は/わ. Teach leaf meaning with voiced lexical ha."
+    },
+    {
+      "selected": {
+        "text": "開く",
+        "kana": "ひらく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Opening a book 開く/ひらく differs from earlier intransitive 開く/あく. These related forms have distinct attachment and readings."
+    },
+    {
+      "selected": {
+        "text": "止める",
+        "kana": "とめる"
+      },
+      "courseAliases": [
+        "n4-u05-w-yameru"
+      ],
+      "reason": "Stopping an object 止める/とめる differs from quitting an activity 止める/やめる. Use an explicit car object."
+    },
+    {
+      "selected": {
+        "text": "漬ける",
+        "kana": "つける"
+      },
+      "courseAliases": [
+        "n4-u06-w-tsukeru"
+      ],
+      "reason": "Soaking 漬ける differs from attaching 付ける. Identical kana and overlapping broad entries do not teach this sense."
+    },
+    {
+      "selected": {
+        "text": "火",
+        "kana": "ひ"
+      },
+      "courseAliases": [
+        "ka"
+      ],
+      "reason": "Standalone fire 火/ひ is not an earlier compound か reading. A cooking-heat context selects this sense."
+    },
+    {
+      "selected": {
+        "text": "暮れる",
+        "kana": "くれる"
+      },
+      "courseAliases": [
+        "n4-u02-w-kureru"
+      ],
+      "reason": "Growing dark 暮れる differs from giving くれる. Same reading is not equivalent sense coverage."
+    },
+    {
+      "selected": {
+        "text": "隅",
+        "kana": "すみ"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0172"
+      ],
+      "reason": "An interior nook 隅/すみ differs from a turning corner 角/かど. Interior room context disambiguates."
+    },
+    {
+      "selected": {
+        "text": "毛",
+        "kana": "け"
+      },
+      "courseAliases": [
+        "n5-u09-w-mou"
+      ],
+      "reason": "Hair/fur 毛/け differs from earlier もう already. Broad entry overlap must not conflate selected pronunciation."
+    },
+    {
+      "selected": {
+        "text": "子",
+        "kana": "こ"
+      },
+      "courseAliases": [
+        "ne",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Child 子/こ differs from an earlier name, zodiac or component reading. Explicit child reference supplies the lexical sense."
+    },
+    {
+      "selected": {
+        "text": "空く",
+        "kana": "あく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Vacancy 空く/あく differs from opening 開く/あく. Seat availability disambiguates the homophone."
+    },
+    {
+      "selected": {
+        "text": "こう",
+        "kana": "こう"
+      },
+      "courseAliases": [
+        "n4-vocab-03-w-0341",
+        "n4-vocab-03-w-0376",
+        "n5-vocab-02-w-0221"
+      ],
+      "reason": "こう means in this manner, not earlier kana homonyms/compound readings. Demonstrating a tool selects this use."
+    },
+    {
+      "selected": {
+        "text": "裏",
+        "kana": "うら"
+      },
+      "courseAliases": [
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n5-vocab-06-w-0048",
+        "n4-vocab-09-w-0243"
+      ],
+      "reason": "Reverse side 裏/うら differs from interior/home 内/うち. The back-of-paper context disambiguates. The later 内 (うち) record teaches inside a space; retain the separately contextualised 裏 reading and sense."
+    },
+    {
+      "selected": {
+        "text": "市",
+        "kana": "し"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Municipality 市/し is not an unrelated し component/word. Explicit administrative-city meaning."
+    },
+    {
+      "selected": {
+        "text": "都",
+        "kana": "と"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Metropolis 都/と is not the earlier door word と. Tokyo administrative context selects the suffix use."
+    },
+    {
+      "selected": {
+        "text": "枝",
+        "kana": "えだ"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "A tree branch 枝/えだ is not an earlier し reading target. Explicit branch reading and context."
+    },
+    {
+      "selected": {
+        "text": "空く",
+        "kana": "すく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Less crowded 空く/すく differs from vacant 空く/あく and open 開く/あく. Related form count, not independent written headword count."
+    },
+    {
+      "selected": {
+        "text": "様",
+        "kana": "よう"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0165"
+      ],
+      "reason": "Appearance 様/よう in the analogy expression differs from earlier 辺/へん. Usually kana; retain selected written source form."
+    },
+    {
+      "selected": {
+        "text": "首",
+        "kana": "くび"
+      },
+      "courseAliases": [
+        "n5-u07-w-ani",
+        "n5-u12-w-atama"
+      ],
+      "reason": "Neck 首/くび differs from earlier head or older brother words. Broad entry candidates do not establish the neck sense."
+    },
+    {
+      "selected": {
+        "text": "糸",
+        "kana": "いと"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Thread 糸/いと is not an earlier unrelated し reading. Explicit sewing context."
+    },
+    {
+      "forms": [
+        "空く",
+        "空く"
+      ],
+      "reason": "The same spelling has vacant あく and less-crowded すく readings. Seat availability and crowding examples disambiguate; not two distinct written headwords."
+    },
+    {
+      "forms": [
+        "空く",
+        "開く"
+      ],
+      "reason": "Open a book 開く/ひらく differs from vacant 空く/あく and less crowded 空く/すく. Selected readings and original contexts prevent the entry-wide alias false positive."
+    },
+    {
+      "forms": [
+        "こう",
+        "子"
+      ],
+      "reason": "In this manner こう and child 子/こ have different selected readings and meanings. Broad kana/kanji entry overlap does not equate these original examples."
+    }
+  ],
+  "n4-vocab-08": [
+    {
+      "selected": {
+        "text": "心配",
+        "kana": "しんぱい"
+      },
+      "courseAliases": [
+        "n5-u08-w-shinpai",
+        "n5-u08-w-shinpai-kudasai"
+      ],
+      "reason": "Standalone worry noun is useful beyond earlier 心配しないで / 心配しないでください request chunks. Explicitly count related form records, not new independent lexical senses."
+    }
+  ],
+  "n5-vocab-07": [
+    {
+      "selected": {
+        "text": "いつ",
+        "kana": "いつ"
+      },
+      "courseAliases": [
+        "one",
+        "five",
+        "n5-u01-w-nanji"
+      ],
+      "reason": "When いつ is not established by earlier number/time compounds."
+    },
+    {
+      "selected": {
+        "text": "居る",
+        "kana": "いる"
+      },
+      "courseAliases": [
+        "n4-u08-w-oru"
+      ],
+      "reason": "Living existence 居る/いる differs from earlier modest おる. Teach ordinary existence first in this recognition deck."
+    },
+    {
+      "selected": {
+        "text": "そっち",
+        "kana": "そっち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0363"
+      ],
+      "reason": "Casual そっち contrasts with polite そちら; count related register forms."
+    },
+    {
+      "selected": {
+        "text": "着く",
+        "kana": "つく"
+      },
+      "courseAliases": [
+        "n4-u06-w-tsuku"
+      ],
+      "reason": "Arrival 着く differs from lighting つく. Explicit train-arrival context."
+    },
+    {
+      "selected": {
+        "text": "どっち",
+        "kana": "どっち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0462"
+      ],
+      "reason": "Casual どっち contrasts with polite どちら; count related register forms."
+    },
+    {
+      "selected": {
+        "text": "なる",
+        "kana": "なる"
+      },
+      "courseAliases": [
+        "n4-vocab-01-w-0009"
+      ],
+      "reason": "Become なる differs from ringing 鳴る. Seasonal change disambiguates."
+    },
+    {
+      "selected": {
+        "text": "はく",
+        "kana": "はく"
+      },
+      "courseAliases": [
+        "n5-u02-w-hyaku",
+        "n5-vocab-05-w-0325"
+      ],
+      "reason": "Wear shoes はく is not hundred 百/ひゃく or white 白/しろ. Explicit shoe object."
+    },
+    {
+      "selected": {
+        "text": "早い",
+        "kana": "はやい"
+      },
+      "courseAliases": [
+        "n5-u10-w-hayai"
+      ],
+      "reason": "Early 早い differs from fast 速い. Earlier waking time selects early."
+    },
+    {
+      "selected": {
+        "text": "辺",
+        "kana": "へん"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0165"
+      ],
+      "reason": "Vicinity 辺/へん differs from respectful person 方/かた. Explicit local-area question."
+    },
+    {
+      "selected": {
+        "text": "道",
+        "kana": "みち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0447"
+      ],
+      "reason": "Road 道/みち differs from how どう. Explicit route context."
+    },
+    {
+      "selected": {
+        "text": "メートル",
+        "kana": "メートル"
+      },
+      "courseAliases": [
+        "n4-vocab-03-w-0369"
+      ],
+      "reason": "Metre メートル differs from rice 米/こめ. Length measurement selects the loanword."
+    },
+    {
+      "selected": {
+        "text": "零",
+        "kana": "れい"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0352"
+      ],
+      "reason": "Zero 零/れい differs in pronunciation from ゼロ; count reading variants, not new numerical senses."
+    },
+    {
+      "forms": [
+        "着く",
+        "はく"
+      ],
+      "reason": "Arrive 着く/つく and wear shoes はく have different readings, meanings and transitivity. Shared entry-wide evidence does not merge the original train/shoe contexts."
+    }
+  ],
+  "n4-vocab-09": [
+    {
+      "selected": {
+        "text": "そう",
+        "kana": "そう"
+      },
+      "courseAliases": [
+        "mo",
+        "n4-vocab-05-w-0616"
+      ],
+      "reason": "In that manner そう is not the earlier particle も or grass 草/くさ. Explicit quoted-message context."
+    },
+    {
+      "selected": {
+        "text": "地震",
+        "kana": "じしん"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0478"
+      ],
+      "reason": "Earthquake 地震/じしん differs from absence ない. Shared entry candidates cannot merge these meanings."
+    },
+    {
+      "selected": {
+        "text": "夫",
+        "kana": "おっと"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0120"
+      ],
+      "reason": "Husband 夫/おっと is not generic man 男/おとこ. Own-spouse reference disambiguates."
+    },
+    {
+      "selected": {
+        "text": "内",
+        "kana": "うち"
+      },
+      "courseAliases": [
+        "n4-vocab-07-w-0409",
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n5-vocab-03-w-0478",
+        "n5-vocab-06-w-0048"
+      ],
+      "reason": "Inside 内/うち differs in form/use from home 家/うち and reverse 裏/うら. Interior/exterior contrast selects this meaning."
+    },
+    {
+      "selected": {
+        "text": "うまい",
+        "kana": "うまい"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0036"
+      ],
+      "reason": "Good/tasty うまい differs from sweet 甘い. Informal food approval is not a sugar-content claim."
+    },
+    {
+      "selected": {
+        "text": "妻",
+        "kana": "つま"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0141"
+      ],
+      "reason": "Wife 妻/つま differs from generic woman 女/おんな. Own-spouse context selects the relationship."
+    },
+    {
+      "selected": {
+        "text": "明日",
+        "kana": "あす"
+      },
+      "courseAliases": [
+        "tomorrow"
+      ],
+      "reason": "Tomorrow 明日/あす is a formal/written reading variant of earlier あした, not a new independent temporal sense."
+    },
+    {
+      "forms": [
+        "夫",
+        "妻"
+      ],
+      "reason": "Husband 夫/おっと and wife 妻/つま denote different relationships with distinct readings. Shared broad spouse-entry IDs are not identical taught senses."
+    }
+  ]
 }

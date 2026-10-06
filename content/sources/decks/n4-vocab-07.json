@@ -1,0 +1,773 @@
+{
+  "deck": "n4-vocab-07",
+  "communityLevel": "N4",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "572dfebe3693e1c566bad0aefad0d2d395a6548485d63f85ba142e84e75a6bdf",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "折る",
+        "kana": "おる"
+      },
+      "courseAliases": [
+        "n4-u08-w-oru"
+      ],
+      "reason": "Fold/break by bending 折る is not humble be おる/居る. Kana homonym overlap is not taught coverage."
+    },
+    {
+      "selected": {
+        "text": "彼",
+        "kana": "かれ"
+      },
+      "courseAliases": [
+        "n5-u02-w-are"
+      ],
+      "reason": "He 彼/かれ is not the earlier deictic あれ. Teach a personal-reference context, not a boyfriend claim."
+    },
+    {
+      "selected": {
+        "text": "日",
+        "kana": "ひ"
+      },
+      "courseAliases": [
+        "ka"
+      ],
+      "reason": "Standalone day 日/ひ is not an earlier か compound reading. Explicitly teach the lexical hi reading."
+    },
+    {
+      "selected": {
+        "text": "葉",
+        "kana": "は"
+      },
+      "courseAliases": [
+        "wa"
+      ],
+      "reason": "Leaf 葉/は is not the topic particle は/わ. Teach leaf meaning with voiced lexical ha."
+    },
+    {
+      "selected": {
+        "text": "開く",
+        "kana": "ひらく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Opening a book 開く/ひらく differs from earlier intransitive 開く/あく. These related forms have distinct attachment and readings."
+    },
+    {
+      "selected": {
+        "text": "止める",
+        "kana": "とめる"
+      },
+      "courseAliases": [
+        "n4-u05-w-yameru"
+      ],
+      "reason": "Stopping an object 止める/とめる differs from quitting an activity 止める/やめる. Use an explicit car object."
+    },
+    {
+      "selected": {
+        "text": "漬ける",
+        "kana": "つける"
+      },
+      "courseAliases": [
+        "n4-u06-w-tsukeru"
+      ],
+      "reason": "Soaking 漬ける differs from attaching 付ける. Identical kana and overlapping broad entries do not teach this sense."
+    },
+    {
+      "selected": {
+        "text": "火",
+        "kana": "ひ"
+      },
+      "courseAliases": [
+        "ka"
+      ],
+      "reason": "Standalone fire 火/ひ is not an earlier compound か reading. A cooking-heat context selects this sense."
+    },
+    {
+      "selected": {
+        "text": "暮れる",
+        "kana": "くれる"
+      },
+      "courseAliases": [
+        "n4-u02-w-kureru"
+      ],
+      "reason": "Growing dark 暮れる differs from giving くれる. Same reading is not equivalent sense coverage."
+    },
+    {
+      "selected": {
+        "text": "隅",
+        "kana": "すみ"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0172"
+      ],
+      "reason": "An interior nook 隅/すみ differs from a turning corner 角/かど. Interior room context disambiguates."
+    },
+    {
+      "selected": {
+        "text": "毛",
+        "kana": "け"
+      },
+      "courseAliases": [
+        "n5-u09-w-mou"
+      ],
+      "reason": "Hair/fur 毛/け differs from earlier もう already. Broad entry overlap must not conflate selected pronunciation."
+    },
+    {
+      "selected": {
+        "text": "子",
+        "kana": "こ"
+      },
+      "courseAliases": [
+        "ne",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Child 子/こ differs from an earlier name, zodiac or component reading. Explicit child reference supplies the lexical sense."
+    },
+    {
+      "forms": [
+        "空く",
+        "開く"
+      ],
+      "reason": "Open a book 開く/ひらく differs from vacant 空く/あく and less crowded 空く/すく. Selected readings and original contexts prevent the entry-wide alias false positive."
+    },
+    {
+      "selected": {
+        "text": "空く",
+        "kana": "あく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Vacancy 空く/あく differs from opening 開く/あく. Seat availability disambiguates the homophone."
+    },
+    {
+      "forms": [
+        "こう",
+        "子"
+      ],
+      "reason": "In this manner こう and child 子/こ have different selected readings and meanings. Broad kana/kanji entry overlap does not equate these original examples."
+    },
+    {
+      "selected": {
+        "text": "こう",
+        "kana": "こう"
+      },
+      "courseAliases": [
+        "n4-vocab-03-w-0341",
+        "n4-vocab-03-w-0376",
+        "n5-vocab-02-w-0221"
+      ],
+      "reason": "こう means in this manner, not earlier kana homonyms/compound readings. Demonstrating a tool selects this use."
+    },
+    {
+      "selected": {
+        "text": "裏",
+        "kana": "うら"
+      },
+      "courseAliases": [
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n5-vocab-06-w-0048",
+        "n4-vocab-09-w-0243"
+      ],
+      "reason": "Reverse side 裏/うら differs from interior/home 内/うち. The back-of-paper context disambiguates. The later 内 (うち) record teaches inside a space; retain the separately contextualised 裏 reading and sense."
+    },
+    {
+      "selected": {
+        "text": "市",
+        "kana": "し"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Municipality 市/し is not an unrelated し component/word. Explicit administrative-city meaning."
+    },
+    {
+      "selected": {
+        "text": "都",
+        "kana": "と"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Metropolis 都/と is not the earlier door word と. Tokyo administrative context selects the suffix use."
+    },
+    {
+      "selected": {
+        "text": "枝",
+        "kana": "えだ"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "A tree branch 枝/えだ is not an earlier し reading target. Explicit branch reading and context."
+    },
+    {
+      "forms": [
+        "空く",
+        "空く"
+      ],
+      "reason": "The same spelling has vacant あく and less-crowded すく readings. Seat availability and crowding examples disambiguate; not two distinct written headwords."
+    },
+    {
+      "selected": {
+        "text": "空く",
+        "kana": "すく"
+      },
+      "courseAliases": [
+        "n4-u06-w-aku"
+      ],
+      "reason": "Less crowded 空く/すく differs from vacant 空く/あく and open 開く/あく. Related form count, not independent written headword count."
+    },
+    {
+      "selected": {
+        "text": "様",
+        "kana": "よう"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0165"
+      ],
+      "reason": "Appearance 様/よう in the analogy expression differs from earlier 辺/へん. Usually kana; retain selected written source form."
+    },
+    {
+      "selected": {
+        "text": "首",
+        "kana": "くび"
+      },
+      "courseAliases": [
+        "n5-u07-w-ani",
+        "n5-u12-w-atama"
+      ],
+      "reason": "Neck 首/くび differs from earlier head or older brother words. Broad entry candidates do not establish the neck sense."
+    },
+    {
+      "selected": {
+        "text": "糸",
+        "kana": "いと"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Thread 糸/いと is not an earlier unrelated し reading. Explicit sewing context."
+    }
+  ],
+  "words": [
+    {
+      "id": "n4-vocab-07-w-0021",
+      "sourceRow": 21,
+      "original": {
+        "expression": "折る",
+        "reading": "おる",
+        "meaning": "to snap, to break; to bend",
+        "tags": "JLPT JLPT_N4",
+        "guid": "yVVu7>5}8_"
+      },
+      "selected": {
+        "text": "折る",
+        "kana": "おる"
+      },
+      "dictionaryEntryIds": [
+        "1385910"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0067",
+      "sourceRow": 67,
+      "original": {
+        "expression": "彼",
+        "reading": "かれ",
+        "meaning": "he, boyfriend",
+        "tags": "Genki Genki_Ln.12 Intermediate_Japanese_Ln.8 JLPT JLPT_N4",
+        "guid": "t}ZPEKulM{"
+      },
+      "selected": {
+        "text": "彼",
+        "kana": "かれ"
+      },
+      "dictionaryEntryIds": [
+        "1000580",
+        "1483070",
+        "2845746"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0076",
+      "sourceRow": 76,
+      "original": {
+        "expression": "日",
+        "reading": "ひ",
+        "meaning": "sun, sunshine, day",
+        "tags": "Genki Genki_Ln.16 JLPT JLPT_N4",
+        "guid": "Ap$ELNr5>B"
+      },
+      "selected": {
+        "text": "日",
+        "kana": "ひ"
+      },
+      "dictionaryEntryIds": [
+        "1463770",
+        "2083100",
+        "2083110",
+        "2856786"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0082",
+      "sourceRow": 82,
+      "original": {
+        "expression": "葉",
+        "reading": "は",
+        "meaning": "leaf",
+        "tags": "JLPT JLPT_N4",
+        "guid": "xQbxW<V1k4"
+      },
+      "selected": {
+        "text": "葉",
+        "kana": "は"
+      },
+      "dictionaryEntryIds": [
+        "1546550",
+        "2256490"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0133",
+      "sourceRow": 133,
+      "original": {
+        "expression": "開く",
+        "reading": "ひらく",
+        "meaning": "to open; to hold (an event)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "EqW3}ML(%4"
+      },
+      "selected": {
+        "text": "開く",
+        "kana": "ひらく"
+      },
+      "dictionaryEntryIds": [
+        "1202440",
+        "1586270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0151",
+      "sourceRow": 151,
+      "original": {
+        "expression": "止める",
+        "reading": "とめる",
+        "meaning": "to stop (something)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "uL2<QDM;W:"
+      },
+      "selected": {
+        "text": "止める",
+        "kana": "とめる"
+      },
+      "dictionaryEntryIds": [
+        "1310670",
+        "1310680",
+        "1598820"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0241",
+      "sourceRow": 241,
+      "original": {
+        "expression": "漬ける",
+        "reading": "つける",
+        "meaning": "to soak, to moisten, to pickle",
+        "tags": "JLPT JLPT_N4",
+        "guid": "h!i?H{d*F@"
+      },
+      "selected": {
+        "text": "漬ける",
+        "kana": "つける"
+      },
+      "dictionaryEntryIds": [
+        "1433680"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0286",
+      "sourceRow": 286,
+      "original": {
+        "expression": "火",
+        "reading": "ひ",
+        "meaning": "fire",
+        "tags": "JLPT JLPT_N4",
+        "guid": "gjC}:7>!AJ"
+      },
+      "selected": {
+        "text": "火",
+        "kana": "ひ"
+      },
+      "dictionaryEntryIds": [
+        "1193610",
+        "2248560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0360",
+      "sourceRow": 360,
+      "original": {
+        "expression": "暮れる",
+        "reading": "くれる",
+        "meaning": "to get dark, to come to an end",
+        "tags": "JLPT JLPT_N4",
+        "guid": "i-JL+Sl!mg"
+      },
+      "selected": {
+        "text": "暮れる",
+        "kana": "くれる"
+      },
+      "dictionaryEntryIds": [
+        "1514960"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0372",
+      "sourceRow": 372,
+      "original": {
+        "expression": "隅",
+        "reading": "すみ",
+        "meaning": "corner",
+        "tags": "JLPT JLPT_N4",
+        "guid": "eeOvjZ5zl."
+      },
+      "selected": {
+        "text": "隅",
+        "kana": "すみ"
+      },
+      "dictionaryEntryIds": [
+        "1246440"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0383",
+      "sourceRow": 383,
+      "original": {
+        "expression": "毛",
+        "reading": "け",
+        "meaning": "hair, fur",
+        "tags": "JLPT JLPT_N4",
+        "guid": "gsy(C|!IEU"
+      },
+      "selected": {
+        "text": "毛",
+        "kana": "け"
+      },
+      "dictionaryEntryIds": [
+        "1533820",
+        "2127920"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0397",
+      "sourceRow": 397,
+      "original": {
+        "expression": "子",
+        "reading": "こ",
+        "meaning": "child",
+        "tags": "JLPT JLPT_N4",
+        "guid": "u.wVLBCC7["
+      },
+      "selected": {
+        "text": "子",
+        "kana": "こ"
+      },
+      "dictionaryEntryIds": [
+        "1307770",
+        "1307780",
+        "1320810",
+        "2216440",
+        "2427540",
+        "2744640"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0402",
+      "sourceRow": 402,
+      "original": {
+        "expression": "空く",
+        "reading": "あく",
+        "meaning": "to open, to become empty (vacant)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "Cg0$u|Ogik"
+      },
+      "selected": {
+        "text": "空く",
+        "kana": "あく"
+      },
+      "dictionaryEntryIds": [
+        "1586265",
+        "1586270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0407",
+      "sourceRow": 407,
+      "original": {
+        "expression": "こう",
+        "reading": "こう",
+        "meaning": "like this, this way",
+        "tags": "JLPT JLPT_N4",
+        "guid": "Q%+*%s6}J9"
+      },
+      "selected": {
+        "text": "こう",
+        "kana": "こう"
+      },
+      "dictionaryEntryIds": [
+        "1004310",
+        "1167880",
+        "1272630",
+        "1272680",
+        "1275120",
+        "1277850",
+        "1278370",
+        "1280050",
+        "1280660",
+        "1282680",
+        "1282980",
+        "1558750",
+        "1578630",
+        "1578710",
+        "1578730",
+        "1578760",
+        "1578910",
+        "1592920",
+        "1663390",
+        "1956250",
+        "2062440",
+        "2079550",
+        "2085750",
+        "2179140",
+        "2183260",
+        "2229860",
+        "2232150",
+        "2247770",
+        "2248340",
+        "2249700",
+        "2254120",
+        "2259610",
+        "2260180",
+        "2270390",
+        "2271620",
+        "2411590",
+        "2414410",
+        "2414420",
+        "2414430",
+        "2414450",
+        "2414460",
+        "2414470",
+        "2414480",
+        "2415020",
+        "2679630",
+        "2744640",
+        "2837865",
+        "2842507",
+        "2842968",
+        "2842972",
+        "2844246"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0409",
+      "sourceRow": 409,
+      "original": {
+        "expression": "裏",
+        "reading": "うら",
+        "meaning": "reverse side, back",
+        "tags": "JLPT JLPT_N4",
+        "guid": "pQ2heE~587"
+      },
+      "selected": {
+        "text": "裏",
+        "kana": "うら"
+      },
+      "dictionaryEntryIds": [
+        "1457730",
+        "1550190",
+        "2841132"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0416",
+      "sourceRow": 416,
+      "original": {
+        "expression": "市",
+        "reading": "し",
+        "meaning": "city",
+        "tags": "JLPT JLPT_N4",
+        "guid": "rXed<x$qC("
+      },
+      "selected": {
+        "text": "市",
+        "kana": "し"
+      },
+      "dictionaryEntryIds": [
+        "1308080",
+        "1308090"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0432",
+      "sourceRow": 432,
+      "original": {
+        "expression": "都",
+        "reading": "と",
+        "meaning": "metropolitan",
+        "tags": "JLPT JLPT_N4",
+        "guid": "OcM{?!kX-7"
+      },
+      "selected": {
+        "text": "都",
+        "kana": "と"
+      },
+      "dictionaryEntryIds": [
+        "1444950",
+        "1621470"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0459",
+      "sourceRow": 459,
+      "original": {
+        "expression": "枝",
+        "reading": "えだ",
+        "meaning": "branch, twig",
+        "tags": "JLPT JLPT_N4",
+        "guid": "FAl}KCf:~8"
+      },
+      "selected": {
+        "text": "枝",
+        "kana": "えだ"
+      },
+      "dictionaryEntryIds": [
+        "1310530",
+        "2080710"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0511",
+      "sourceRow": 511,
+      "original": {
+        "expression": "空く",
+        "reading": "すく",
+        "meaning": "to be empty (in reference to people), to be less crowded",
+        "tags": "JLPT JLPT_N4",
+        "guid": "fg<?z[S^C:"
+      },
+      "selected": {
+        "text": "空く",
+        "kana": "すく"
+      },
+      "dictionaryEntryIds": [
+        "1586265",
+        "1586270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0528",
+      "sourceRow": 528,
+      "original": {
+        "expression": "様",
+        "reading": "よう",
+        "meaning": "way, manner, kind",
+        "tags": "JLPT JLPT_N4",
+        "guid": "t[MNQO-W6"
+      },
+      "selected": {
+        "text": "様",
+        "kana": "よう"
+      },
+      "dictionaryEntryIds": [
+        "1410750",
+        "1545790",
+        "1605840",
+        "2713240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0575",
+      "sourceRow": 575,
+      "original": {
+        "expression": "首",
+        "reading": "くび",
+        "meaning": "neck",
+        "tags": "JLPT JLPT_N4",
+        "guid": "JPecz-JR}]"
+      },
+      "selected": {
+        "text": "首",
+        "kana": "くび"
+      },
+      "dictionaryEntryIds": [
+        "1592270",
+        "1653340",
+        "1994890",
+        "2251080",
+        "2265230",
+        "2712010",
+        "2791500",
+        "2791510"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n4-vocab-07-w-0646",
+      "sourceRow": 646,
+      "original": {
+        "expression": "糸",
+        "reading": "いと",
+        "meaning": "thread",
+        "tags": "JLPT JLPT_N4",
+        "guid": "IpR-(E.>}{"
+      },
+      "selected": {
+        "text": "糸",
+        "kana": "いと"
+      },
+      "dictionaryEntryIds": [
+        "1311450",
+        "2127930"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ],
+  "tailBatch": {
+    "count": 22,
+    "reason": "Reviewed reading/register/sense gaps previously excluded by broad entry-wide alias candidates. No padding or claim of independent senses."
+  }
+}

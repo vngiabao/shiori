@@ -23,7 +23,8 @@ import {
   deleteCloudData,
 } from "./sync";
 import { db } from "./db";
-export function SyncPanel() {
+import { GoogleLogo } from "@phosphor-icons/react";
+export function SyncPanel({ entry = false }: { entry?: boolean }) {
   const status = useSyncExternalStore(
     subscribeSync,
     getSyncStatus,
@@ -46,7 +47,7 @@ export function SyncPanel() {
       setBusy(false);
     }
   };
-  if (!authConfigured)
+  if (!authConfigured && !entry)
     return (
       <p>
         Local guest mode is active. No cloud connection is configured. Backups
@@ -54,67 +55,79 @@ export function SyncPanel() {
       </p>
     );
   return (
-    <div className="sync-panel">
-      <p role="status">{status.message}</p>
+    <div className={`sync-panel${entry ? " sync-entry" : ""}`}>
+      {(!entry || status.account) && <p role="status">{status.message}</p>}
       {error && <p role="alert">{error}</p>}
       {!status.account ? (
         <>
-          {emailConfigured && <>
-          <label>
-            Email address
-            <input
-              type="email"
-              autoComplete="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <Button
-            disabled={busy || !email.includes("@")}
-            onClick={() =>
-              void action(async () => {
-                await sendEmailCode(email);
-                setSent(true);
-              })
-            }
-          >
-            Send sign-in email
-          </Button>
-          {sent && (
+          {emailConfigured && (
             <>
-              <p role="status">Open the sign-in link from your email in this browser. If the email includes a code, you can enter it below.</p>
               <label>
-                Email code
+                Email address
                 <input
-                  autoComplete="one-time-code"
-                  inputMode="numeric"
-                  value={code}
-                  onChange={(e) => setCode(e.target.value)}
+                  type="email"
+                  autoComplete="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </label>
               <Button
-                disabled={busy || !code.trim()}
+                disabled={busy || !email.includes("@")}
                 onClick={() =>
                   void action(async () => {
-                    await verifyEmailCode(email, code);
-                    await acceptAccount(await currentAccount());
+                    await sendEmailCode(email);
+                    setSent(true);
                   })
                 }
               >
-                Verify code
+                Send sign-in email
               </Button>
+              {sent && (
+                <>
+                  <p role="status">
+                    Open the sign-in link from your email in this browser. If
+                    the email includes a code, you can enter it below.
+                  </p>
+                  <label>
+                    Email code
+                    <input
+                      autoComplete="one-time-code"
+                      inputMode="numeric"
+                      value={code}
+                      onChange={(e) => setCode(e.target.value)}
+                    />
+                  </label>
+                  <Button
+                    disabled={busy || !code.trim()}
+                    onClick={() =>
+                      void action(async () => {
+                        await verifyEmailCode(email, code);
+                        await acceptAccount(await currentAccount());
+                      })
+                    }
+                  >
+                    Verify code
+                  </Button>
+                </>
+              )}
             </>
           )}
-          </>}
           <Button
-            secondary
+            secondary={!entry}
             disabled={busy || !oauthConfigured("google")}
             onClick={() => void action(() => signInWith("google"))}
           >
-            Continue with Google
+            <GoogleLogo aria-hidden="true" />
+            {busy ? "Connecting to Google…" : "Continue with Google"}
           </Button>
-          {!emailConfigured && <p className="muted">Private sync · Google account gbao.n.vo@gmail.com only.</p>}
-          {!oauthConfigured("google") && <p className="muted">Google sign-in is not configured yet.</p>}
+          {!emailConfigured && (
+            <p className="muted">
+              Private sync · Google account gbao.n.vo@gmail.com only.
+            </p>
+          )}
+          {!oauthConfigured("google") && (
+            <p className="muted">Google sign-in is not configured yet.</p>
+          )}
         </>
       ) : (
         <>

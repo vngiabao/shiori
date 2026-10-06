@@ -12,7 +12,6 @@ import {
   Sun,
   Moon,
   Check,
-  EnvelopeSimple,
 } from "@phosphor-icons/react";
 import { Brand, Button, Mascot, PageHeading } from "./components";
 import { db, importBackup } from "./db";
@@ -38,7 +37,6 @@ export function Welcome() {
   const [minutes, setMinutes] = useState(20);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const [account, setAccount] = useState(false);
   useEffect(() => {
     if (step === 1) document.getElementById("name")?.focus();
   }, [step]);
@@ -67,76 +65,36 @@ export function Welcome() {
   }
   return (
     <div className="welcome">
-      <header>
-        <Brand />
-        <span>日本語と、あなたをつなぐ。</span>
-      </header>
-      <main className="welcome-layout">
-        <section className="welcome-letter">
-          <div className="welcome-correspondent">
-            <span>Violetto</span>
-            <span lang="ja">あなたの言葉が、届くまで。</span>
+      <main className="welcome-entry-layout">
+        <section className="welcome-showcase" aria-label="Meet Violetto">
+          <div className="welcome-bubble">
+            <ReactionLine kind="welcome" compact />
           </div>
-          <div className="welcome-art">
-            <span className="welcome-kanji" lang="ja">
-              言葉
-            </span>
-            <Mascot size={340} />
-          </div>
-          <h1>
-            Every word,
-            <br />a little closer.
-          </h1>
-          {step === 0 && (
-            <Button className="welcome-quick-start" onClick={() => setStep(1)}>
-              Begin with Violetto <ArrowRight />
-            </Button>
-          )}
-          <p>
-            To a story you can finally read.
-            <br />
-            To a voice you begin to understand.
-            <br />
-            To the things you want to say.
-          </p>
-          <div className="welcome-signature">
-            With Violetto, your companion in Japanese.
-          </div>
-          <ReactionLine kind="welcome" compact />
+          <Mascot size={340} />
         </section>
         <section className="welcome-form">
+          <Brand />
           {step === 0 ? (
             <>
-              <p className="japanese welcome-greeting" lang="ja">
-                ようこそ。
-              </p>
-              <h2>
-                A small beginning.
-                <br />A whole new world.
-              </h2>
+              <h1>
+                Every word,
+                <br />a little closer.
+              </h1>
               <p>
-                Settle in. We’ll take your Japanese from its first sounds to the
-                words that matter to you.
+                Read your first kana. Hear the words take shape. With Violetto,
+                work towards the stories and songs you want to understand.
               </p>
-              <Button onClick={() => setStep(1)}>
+              <SyncPanel entry />
+              <div className="welcome-divider">
+                <span>or</span>
+              </div>
+              <Button secondary onClick={() => setStep(1)}>
                 Start without an account
                 <ArrowRight />
               </Button>
-              <button
-                className="text-button"
-                onClick={() => setAccount(!account)}
-              >
-                <EnvelopeSimple />
-                {authConfigured ? "Sign in & sync progress" : "Cloud sync · coming later"}
-              </button>
-              {account && (
-                <div className="notice-note">
-                  {authConfigured ? <SyncPanel /> : <>Cloud sign-in is not connected yet. Guest mode saves your
-                  progress on this device; you can export a backup at any time.</>}
-                </div>
-              )}
               <small>
-                No account needed. Your progress stays on this device.
+                Guest progress stays in this browser. With cloud sync, you
+                choose whether to add this device’s history to your account.
               </small>
             </>
           ) : (

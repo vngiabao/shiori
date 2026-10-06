@@ -1,0 +1,740 @@
+{
+  "deck": "n5-vocab-06",
+  "communityLevel": "N5",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n5.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n5.csv",
+    "sha256": "f89abc86b391c4f2b551bbf8910b0de6cd600973b3a9f8d98347513921929ebe"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "588e4343441b0de0649c9d6e837ae5114e9397f7b42802407ccf6b290ffa9778",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "秋",
+        "kana": "あき"
+      },
+      "courseAliases": [
+        "n5-u01-w-ji"
+      ],
+      "reason": "Autumn is not an hour/time compound. Entry-wide matching through the earlier 時 target cannot establish the 秋/あき sense."
+    },
+    {
+      "selected": {
+        "text": "家",
+        "kana": "いえ"
+      },
+      "courseAliases": [
+        "ka",
+        "n5-u03-w-uchi",
+        "n5-u04-w-naka",
+        "n4-vocab-07-w-0409",
+        "n4-vocab-09-w-0243"
+      ],
+      "reason": "House/home in the いえ reading is distinct from the earlier うち home expression and kanji component. Teach a physical house example. The later reverse-side 裏/うら candidate also differs from the house sense. The later 内 (うち) record teaches inside a space; retain the separately contextualised 家 reading and sense."
+    },
+    {
+      "selected": {
+        "text": "絵",
+        "kana": "え"
+      },
+      "courseAliases": [
+        "ga"
+      ],
+      "reason": "The standalone picture word 絵/え is not established by an earlier が reading component. This is a distinct headword reading."
+    },
+    {
+      "selected": {
+        "text": "紙",
+        "kana": "かみ"
+      },
+      "courseAliases": [
+        "n4-u01-w-shi"
+      ],
+      "reason": "Standalone paper 紙/かみ is not established by earlier し component or compound readings."
+    },
+    {
+      "selected": {
+        "text": "九",
+        "kana": "く"
+      },
+      "courseAliases": [
+        "nine",
+        "n5-u02-w-kono",
+        "n5-u06-w-koko"
+      ],
+      "reason": "Nine in the く reading is needed for 九月; earlier きゅう or deictic kana readings do not teach this pronunciation."
+    },
+    {
+      "selected": {
+        "text": "こっち",
+        "kana": "こっち"
+      },
+      "courseAliases": [
+        "n5-u01-w-kochira"
+      ],
+      "reason": "こっち is casual this-way, while こちら is the earlier polite expression. Count related register forms, not separate lexical senses."
+    },
+    {
+      "selected": {
+        "text": "先",
+        "kana": "さき"
+      },
+      "courseAliases": [
+        "n4-vocab-01-w-0140",
+        "n5-u04-w-mae"
+      ],
+      "reason": "先/さき ahead/before others is not equivalent to 前/まえ or the earlier future sense of 先/せん."
+    },
+    {
+      "selected": {
+        "text": "四",
+        "kana": "し"
+      },
+      "courseAliases": [
+        "four",
+        "n4-u01-w-shi",
+        "n5-u08-w-yo"
+      ],
+      "reason": "Four in the し reading is needed for 四月. Earlier よん and unrelated し kana readings cannot establish that reading."
+    },
+    {
+      "selected": {
+        "text": "七",
+        "kana": "しち"
+      },
+      "courseAliases": [
+        "seven"
+      ],
+      "reason": "Seven in the しち reading contrasts with earlier なな; count reading forms rather than new numerical senses."
+    },
+    {
+      "selected": {
+        "text": "背",
+        "kana": "せい"
+      },
+      "courseAliases": [
+        "n4-vocab-04-w-0560"
+      ],
+      "reason": "背/せい in stature is a reading variant of earlier 背/せ, explicitly used with tall. Not a separate lexical sense."
+    },
+    {
+      "selected": {
+        "text": "外",
+        "kana": "そと"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Outside 外/そと is not a door word と. Broad homonym entry overlap does not teach the outside sense."
+    },
+    {
+      "selected": {
+        "text": "空",
+        "kana": "そら"
+      },
+      "courseAliases": [
+        "n5-u09-w-kara",
+        "n5-u10-w-kara"
+      ],
+      "reason": "Sky 空/そら contrasts with empty 空/から. Explicitly separate the selected reading and meaning."
+    },
+    {
+      "selected": {
+        "text": "一日",
+        "kana": "ついたち"
+      },
+      "courseAliases": [
+        "n5-vocab-01-w-0059"
+      ],
+      "reason": "First day 一日/ついたち differs from one-day 一日/いちにち. These are related written forms with different readings and uses."
+    },
+    {
+      "selected": {
+        "text": "戸",
+        "kana": "と"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Sliding door 戸/と is related to earlier generic door teaching but explicitly gives this written form; not a new independent sense."
+    },
+    {
+      "selected": {
+        "text": "十",
+        "kana": "とお"
+      },
+      "courseAliases": [
+        "ten",
+        "to"
+      ],
+      "reason": "Native-series ten とお differs from earlier じゅう. Source parenthetical annotation is not part of its pronounced reading."
+    },
+    {
+      "selected": {
+        "text": "歯",
+        "kana": "は"
+      },
+      "courseAliases": [
+        "wa",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Teeth 歯/は are not the topic particle は/わ or an unrelated component reading. Teach the lexical ha reading."
+    },
+    {
+      "forms": [
+        "外",
+        "外"
+      ],
+      "reason": "The same spelling has outside そと and other ほか readings; each example explicitly teaches its different use. Do not count these as two distinct written headwords."
+    },
+    {
+      "selected": {
+        "text": "外",
+        "kana": "ほか"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Other 外/ほか differs from outside 外/そと and the earlier door word; example states an alternative shop. Usually written ほか/他."
+    },
+    {
+      "forms": [
+        "門",
+        "戸"
+      ],
+      "reason": "Gate 門/もん and room sliding door 戸/と are related opening words with distinct headword readings and contextual examples. Broad dictionary IDs do not erase this useful distinction."
+    },
+    {
+      "selected": {
+        "text": "門",
+        "kana": "もん"
+      },
+      "courseAliases": [
+        "to"
+      ],
+      "reason": "Gate 門/もん is not a door と pronunciation; overlapping dictionary entries do not establish this written headword."
+    },
+    {
+      "selected": {
+        "text": "易しい",
+        "kana": "やさしい"
+      },
+      "courseAliases": [
+        "kind"
+      ],
+      "reason": "Easy 易しい contrasts with kind 優しい. Same kana and broad entry overlap must not conflate their meanings."
+    },
+    {
+      "selected": {
+        "text": "夜",
+        "kana": "よる"
+      },
+      "courseAliases": [
+        "n5-u08-w-yo"
+      ],
+      "reason": "Night 夜/よる is a different reading from prior 夜/よ; teach ordinary standalone night use."
+    },
+    {
+      "selected": {
+        "text": "私",
+        "kana": "わたくし"
+      },
+      "courseAliases": [
+        "me",
+        "n4-u01-w-shi"
+      ],
+      "reason": "Formal modest 私/わたくし contrasts with earlier 私/わたし. Keep context formal; count register/reading forms, not independent senses."
+    }
+  ],
+  "words": [
+    {
+      "id": "n5-vocab-06-w-0009",
+      "sourceRow": 9,
+      "original": {
+        "expression": "秋",
+        "reading": "あき",
+        "meaning": "fall (season)",
+        "tags": "Genki Genki_Ln.10 Intermediate_Japanese Intermediate_Japanese_Ln.4 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "H~$iS3{X?*"
+      },
+      "selected": {
+        "text": "秋",
+        "kana": "あき"
+      },
+      "dictionaryEntryIds": [
+        "1315840",
+        "1332650"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0048",
+      "sourceRow": 48,
+      "original": {
+        "expression": "家",
+        "reading": "いえ",
+        "meaning": "house, home",
+        "tags": "Genki Genki_Ln.3 JLPT JLPT_2 JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "QGc`#y1e97"
+      },
+      "selected": {
+        "text": "家",
+        "kana": "いえ"
+      },
+      "dictionaryEntryIds": [
+        "1191730",
+        "1191740",
+        "1191750",
+        "1457730",
+        "2082160",
+        "2220280",
+        "2220300",
+        "2858378"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0088",
+      "sourceRow": 88,
+      "original": {
+        "expression": "絵",
+        "reading": "え",
+        "meaning": "a painting; a picture; a drawing",
+        "tags": "Genki Genki_Ln.15 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "E6H3mWmPF1"
+      },
+      "selected": {
+        "text": "絵",
+        "kana": "え"
+      },
+      "dictionaryEntryIds": [
+        "1202270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0176",
+      "sourceRow": 176,
+      "original": {
+        "expression": "紙",
+        "reading": "かみ",
+        "meaning": "paper",
+        "tags": "Genki Genki_Ln.17 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "BZj5w]P?W@"
+      },
+      "selected": {
+        "text": "紙",
+        "kana": "かみ"
+      },
+      "dictionaryEntryIds": [
+        "1311530",
+        "2787310"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0217",
+      "sourceRow": 217,
+      "original": {
+        "expression": "九",
+        "reading": "く",
+        "meaning": "nine",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "J.@??p5!Es"
+      },
+      "selected": {
+        "text": "九",
+        "kana": "く"
+      },
+      "dictionaryEntryIds": [
+        "1578150",
+        "2748010"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0260",
+      "sourceRow": 260,
+      "original": {
+        "expression": "こっち",
+        "reading": "こっち",
+        "meaning": "this person; this direction; this side",
+        "tags": "JLPT JLPT_4 JLPT_5 JLPT_N5",
+        "guid": "KZ(~KRGBCG"
+      },
+      "selected": {
+        "text": "こっち",
+        "kana": "こっち"
+      },
+      "dictionaryEntryIds": [
+        "1004500",
+        "2843401"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0279",
+      "sourceRow": 279,
+      "original": {
+        "expression": "先",
+        "reading": "さき",
+        "meaning": "future; recent, previous",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "tGm0X7=@hF"
+      },
+      "selected": {
+        "text": "先",
+        "kana": "さき"
+      },
+      "dictionaryEntryIds": [
+        "1005180",
+        "1387210",
+        "1387220"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0291",
+      "sourceRow": 291,
+      "original": {
+        "expression": "四",
+        "reading": "し",
+        "meaning": "four",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "q%G#*K^0R+"
+      },
+      "selected": {
+        "text": "四",
+        "kana": "し"
+      },
+      "dictionaryEntryIds": [
+        "1579470",
+        "2747960"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0301",
+      "sourceRow": 301,
+      "original": {
+        "expression": "七",
+        "reading": "しち",
+        "meaning": "seven",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "d9Ei.i(]l3"
+      },
+      "selected": {
+        "text": "七",
+        "kana": "しち"
+      },
+      "dictionaryEntryIds": [
+        "1319210",
+        "2747990"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0346",
+      "sourceRow": 346,
+      "original": {
+        "expression": "背",
+        "reading": "せい",
+        "meaning": "(one's) height, stature",
+        "tags": "Intermediate_Japanese Intermediate_Japanese_Ln.4 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "xQDy{9R)S2"
+      },
+      "selected": {
+        "text": "背",
+        "kana": "せい"
+      },
+      "dictionaryEntryIds": [
+        "1472650",
+        "2147990",
+        "2854021",
+        "2871704"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0365",
+      "sourceRow": 365,
+      "original": {
+        "expression": "外",
+        "reading": "そと",
+        "meaning": "outside, exterior",
+        "tags": "Genki Genki_Ln.18 Intermediate_Japanese Intermediate_Japanese_Ln.2 JLPT JLPT_5 JLPT_N5",
+        "guid": "AFB3>g85F]"
+      },
+      "selected": {
+        "text": "外",
+        "kana": "そと"
+      },
+      "dictionaryEntryIds": [
+        "1203250",
+        "1203260",
+        "1605940",
+        "2227930"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0368",
+      "sourceRow": 368,
+      "original": {
+        "expression": "空",
+        "reading": "そら",
+        "meaning": "sky",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "D.6b;1{88^"
+      },
+      "selected": {
+        "text": "空",
+        "kana": "そら"
+      },
+      "dictionaryEntryIds": [
+        "1245280",
+        "1245290",
+        "2036320",
+        "2074820"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0413",
+      "sourceRow": 413,
+      "original": {
+        "expression": "一日",
+        "reading": "ついたち",
+        "meaning": "one day; first day of the month",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "qK&D4iveg"
+      },
+      "selected": {
+        "text": "一日",
+        "kana": "ついたち"
+      },
+      "dictionaryEntryIds": [
+        "1576260",
+        "2225030",
+        "2225040",
+        "2852123",
+        "2863119"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0443",
+      "sourceRow": 443,
+      "original": {
+        "expression": "戸",
+        "reading": "と",
+        "meaning": "door (Japanese style)",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "o.K?EMap~;"
+      },
+      "selected": {
+        "text": "戸",
+        "kana": "と"
+      },
+      "dictionaryEntryIds": [
+        "1266970",
+        "1659920"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0452",
+      "sourceRow": 452,
+      "original": {
+        "expression": "十",
+        "reading": "(〜を) とお",
+        "meaning": "ten (~)",
+        "tags": "Genki Genki_Ln.9 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "BjWdBTc)9!"
+      },
+      "selected": {
+        "text": "十",
+        "kana": "とお"
+      },
+      "dictionaryEntryIds": [
+        "1579840",
+        "2748020"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0518",
+      "sourceRow": 518,
+      "original": {
+        "expression": "歯",
+        "reading": "は",
+        "meaning": "tooth",
+        "tags": "Genki Genki_Ln.12 Intermediate_Japanese Intermediate_Japanese_Ln.12 JLPT JLPT_5 JLPT_N5",
+        "guid": "J1;2F+tdr`"
+      },
+      "selected": {
+        "text": "歯",
+        "kana": "は"
+      },
+      "dictionaryEntryIds": [
+        "1313000",
+        "1557940",
+        "2842986"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0604",
+      "sourceRow": 604,
+      "original": {
+        "expression": "外",
+        "reading": "ほか",
+        "meaning": "other, the rest",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "q-Rsw+YG/*"
+      },
+      "selected": {
+        "text": "外",
+        "kana": "ほか"
+      },
+      "dictionaryEntryIds": [
+        "1203250",
+        "1203260",
+        "1605940",
+        "2227930"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0665",
+      "sourceRow": 665,
+      "original": {
+        "expression": "門",
+        "reading": "もん",
+        "meaning": "gate",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "H&[yCKRvgq"
+      },
+      "selected": {
+        "text": "門",
+        "kana": "もん"
+      },
+      "dictionaryEntryIds": [
+        "1266970",
+        "1584800",
+        "2868800"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0670",
+      "sourceRow": 670,
+      "original": {
+        "expression": "易しい",
+        "reading": "やさしい",
+        "meaning": "easy, plain, simple",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "O&W|&R47Dm"
+      },
+      "selected": {
+        "text": "易しい",
+        "kana": "やさしい"
+      },
+      "dictionaryEntryIds": [
+        "1157000"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0692",
+      "sourceRow": 692,
+      "original": {
+        "expression": "夜",
+        "reading": "よる",
+        "meaning": "evening, night",
+        "tags": "Genki Genki_Ln.6 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "lj*phUSR[b"
+      },
+      "selected": {
+        "text": "夜",
+        "kana": "よる"
+      },
+      "dictionaryEntryIds": [
+        "1536350",
+        "2827999"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0716",
+      "sourceRow": 716,
+      "original": {
+        "expression": "私",
+        "reading": "わたくし",
+        "meaning": "I (formal), myself, private affairs",
+        "tags": "Genki Genki_Ln.13 JLPT JLPT_2 JLPT_5 JLPT_N5",
+        "guid": "m!I5:hHt<W"
+      },
+      "selected": {
+        "text": "私",
+        "kana": "わたくし"
+      },
+      "dictionaryEntryIds": [
+        "1311110",
+        "1311125",
+        "1347580",
+        "2015370",
+        "2079310",
+        "2217330",
+        "2217340",
+        "2728300",
+        "2842390",
+        "2845454",
+        "2858221",
+        "2858384",
+        "2858397",
+        "2864027"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-06-w-0267",
+      "sourceRow": 267,
+      "original": {
+        "expression": "コピーする",
+        "reading": "コピーする",
+        "meaning": "to copy",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "pIfdJ-gQ=x"
+      },
+      "selected": {
+        "text": "コピー",
+        "kana": "コピー"
+      },
+      "dictionaryEntryIds": [
+        "1050590"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "コピーする",
+          "reading": "コピーする"
+        },
+        "selected": {
+          "text": "コピー",
+          "kana": "コピー"
+        },
+        "reason": "Source attaches suru to a noun headword; select dictionary-checked コピー and demonstrate its noun use. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 22,
+    "reason": "Reviewed reading/register/sense gaps previously excluded by broad entry-wide alias candidates. No padding or claim of independent senses."
+  }
+}

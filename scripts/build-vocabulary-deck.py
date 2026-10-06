@@ -45,10 +45,19 @@ def verify_source_pair(record, text, reading, correction=None):
     if correction is not None:
         assert correction.get('reason') and len(correction['reason']) > 20, 'Source correction needs a review reason'
         assert correction['original'] == {k: record[k] for k in ['expression','reading']}, 'Source correction is stale'
-        assert correction['selected'] == {'text': text, 'kana': reading}, 'Source correction does not approve this pair'
+        approved = correction.get('selections', [correction.get('selected')])
+        assert {'text': text, 'kana': reading} in approved, 'Source correction does not approve this pair'
         return
     assert text in [s.strip() for s in record['expression'].split(';')], ('Source spelling differs',text)
     assert reading_key(reading) in {reading_key(r) for r in reading_alternatives(record['reading'])}, ('Source reading differs',text,reading)
+
+def verify_course_aliases(text, reading, aliases, decisions):
+    if not aliases:
+        return None
+    decision = next((d for d in decisions if d.get('selected') == {'text': text, 'kana': reading}), None)
+    assert decision and len(decision.get('reason','')) > 20, ('Potential already-taught alias: review explicitly rather than silently duplicate',text,aliases)
+    assert sorted(decision.get('courseAliases',[])) == sorted(aliases), ('Course alias review is stale',text,aliases)
+    return decision
 
 def main():
     path = ROOT / (sys.argv[1] if len(sys.argv)>1 else 'content/decks/n5-vocab-01.txt')
@@ -90,20 +99,22 @@ def main():
         assert (text, reading_key(reading)) not in selected_pairs, ('Duplicate deck spelling/reading',text)
         alias_forms = {selected_entries[e] for e in entry_ids[text] if e in selected_entries}
         for prior in alias_forms:
-            decision = next((d for d in decisions if set(d['forms']) == {prior,text} and d.get('reason')),None)
+            decision = next((d for d in decisions if set(d.get('forms',[])) == {prior,text} and d.get('reason')),None)
             assert decision, ('Potential within-deck alias: review before inclusion',text,prior)
             used_decisions.append(decision)
         selected_pairs.add((text, reading_key(reading)))
         selected_entries.update({entry: text for entry in entry_ids[text]})
         assert not any(w['text']==text and reading_key(w['kana'])==reading_key(reading) for w in earlier), ('Already taught',text)
         aliases = [w['id'] for w in earlier if set(entry_ids.get(text,[])) & set(entry_ids.get(w.get('lemma',{}).get('text',w['text']),[]))]
-        assert not aliases, ('Potential already-taught alias: review explicitly rather than silently duplicate',text,aliases)
+        decision = verify_course_aliases(text, reading, aliases, decisions)
+        if decision:
+            used_decisions.append(decision)
         assert RUBY.sub('',ruby).count('{')==0 and RUBY.sub('',example).count('{')==0, 'Malformed ruby'
         assert re.search('[一-鿿]',kana(example)) is None, ('Unglossed example kanji',example)
         assert example.rstrip('」』').endswith('。') and len(plain(example))>5 and translation.strip(), ('Incomplete example',text)
         word_id = f'{deck}-w-{source_row:04}'
         url = f"https://github.com/jamsinclair/open-anki-jlpt-decks/blob/{provenance['revision']}/src/{level}.csv#L{source_row}"
-        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる','ご存じ','拝見'] else 'casual' if text in ['あっち','そっち','どっち','パパ','君','やる','みんな']
+        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる','ご存じ','拝見','頂く','いただく'] or (text=='私' and reading=='わたくし') else 'casual' if text in ['あっち','そっち','どっち','こっち','パパ','君','やる','みんな','うまい']
                     else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い'] else 'neutral')
         words.append(dict(id=word_id,text=text,kana=reading,romaji=romaji,meaning=meaning,register=register,
                           example=plain(example),exampleRuby=example,exampleMeaning=translation,pitch=None,jlpt=None,
@@ -124,7 +135,7 @@ def main():
     write(reference_folder/f'{deck}.json',dict(deck=deck,communityLevel=level.upper(),officialJLPTList=False,
             source=pin,origin=provenance['dataOrigin'],licence=provenance['dataLicence'],
             dictionarySha256=dictionary_hash,sourceDraftSha256=hashlib.sha256(path.read_bytes()).hexdigest(),
-            exclusion='Exact spelling/reading and shared JMdict entry candidates excluded against other installed content. Within-deck candidates require explicit editorial decisions.',
+            exclusion='Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.',
             aliasDecisions=used_decisions,words=references,**({'tailBatch':tail} if tail else {})))
     print(f'{deck}: {len(words)} dictionary-checked words, {len(words)} authored examples, {len(lessons)} small lessons; community alignment only.')
 

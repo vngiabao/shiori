@@ -1,0 +1,409 @@
+{
+  "deck": "n5-vocab-07",
+  "communityLevel": "N5",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n5.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n5.csv",
+    "sha256": "f89abc86b391c4f2b551bbf8910b0de6cd600973b3a9f8d98347513921929ebe"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "d1494b41cf7426ad02d3174048b37384aef32ce34a7548679b8e31bc8a459ecd",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "いつ",
+        "kana": "いつ"
+      },
+      "courseAliases": [
+        "one",
+        "five",
+        "n5-u01-w-nanji"
+      ],
+      "reason": "When いつ is not established by earlier number/time compounds."
+    },
+    {
+      "selected": {
+        "text": "居る",
+        "kana": "いる"
+      },
+      "courseAliases": [
+        "n4-u08-w-oru"
+      ],
+      "reason": "Living existence 居る/いる differs from earlier modest おる. Teach ordinary existence first in this recognition deck."
+    },
+    {
+      "selected": {
+        "text": "そっち",
+        "kana": "そっち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0363"
+      ],
+      "reason": "Casual そっち contrasts with polite そちら; count related register forms."
+    },
+    {
+      "selected": {
+        "text": "着く",
+        "kana": "つく"
+      },
+      "courseAliases": [
+        "n4-u06-w-tsuku"
+      ],
+      "reason": "Arrival 着く differs from lighting つく. Explicit train-arrival context."
+    },
+    {
+      "selected": {
+        "text": "どっち",
+        "kana": "どっち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0462"
+      ],
+      "reason": "Casual どっち contrasts with polite どちら; count related register forms."
+    },
+    {
+      "selected": {
+        "text": "なる",
+        "kana": "なる"
+      },
+      "courseAliases": [
+        "n4-vocab-01-w-0009"
+      ],
+      "reason": "Become なる differs from ringing 鳴る. Seasonal change disambiguates."
+    },
+    {
+      "forms": [
+        "着く",
+        "はく"
+      ],
+      "reason": "Arrive 着く/つく and wear shoes はく have different readings, meanings and transitivity. Shared entry-wide evidence does not merge the original train/shoe contexts."
+    },
+    {
+      "selected": {
+        "text": "はく",
+        "kana": "はく"
+      },
+      "courseAliases": [
+        "n5-u02-w-hyaku",
+        "n5-vocab-05-w-0325"
+      ],
+      "reason": "Wear shoes はく is not hundred 百/ひゃく or white 白/しろ. Explicit shoe object."
+    },
+    {
+      "selected": {
+        "text": "早い",
+        "kana": "はやい"
+      },
+      "courseAliases": [
+        "n5-u10-w-hayai"
+      ],
+      "reason": "Early 早い differs from fast 速い. Earlier waking time selects early."
+    },
+    {
+      "selected": {
+        "text": "辺",
+        "kana": "へん"
+      },
+      "courseAliases": [
+        "n5-vocab-02-w-0165"
+      ],
+      "reason": "Vicinity 辺/へん differs from respectful person 方/かた. Explicit local-area question."
+    },
+    {
+      "selected": {
+        "text": "道",
+        "kana": "みち"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0447"
+      ],
+      "reason": "Road 道/みち differs from how どう. Explicit route context."
+    },
+    {
+      "selected": {
+        "text": "メートル",
+        "kana": "メートル"
+      },
+      "courseAliases": [
+        "n4-vocab-03-w-0369"
+      ],
+      "reason": "Metre メートル differs from rice 米/こめ. Length measurement selects the loanword."
+    },
+    {
+      "selected": {
+        "text": "零",
+        "kana": "れい"
+      },
+      "courseAliases": [
+        "n5-vocab-03-w-0352"
+      ],
+      "reason": "Zero 零/れい differs in pronunciation from ゼロ; count reading variants, not new numerical senses."
+    }
+  ],
+  "words": [
+    {
+      "id": "n5-vocab-07-w-0061",
+      "sourceRow": 61,
+      "original": {
+        "expression": "いつ",
+        "reading": "いつ",
+        "meaning": "when",
+        "tags": "Genki Genki_Ln.3 JLPT JLPT_2 JLPT_5 JLPT_N5",
+        "guid": "oGX1~x%YQo"
+      },
+      "selected": {
+        "text": "いつ",
+        "kana": "いつ"
+      },
+      "dictionaryEntryIds": [
+        "1188760",
+        "1268060",
+        "1585390",
+        "2837668",
+        "2843147"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0072",
+      "sourceRow": 72,
+      "original": {
+        "expression": "居る",
+        "reading": "いる",
+        "meaning": "(humble) to be (animate), to exist",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "wfzvV]4NOO"
+      },
+      "selected": {
+        "text": "居る",
+        "kana": "いる"
+      },
+      "dictionaryEntryIds": [
+        "1577980",
+        "1577985"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0364",
+      "sourceRow": 364,
+      "original": {
+        "expression": "そっち",
+        "reading": "そっち",
+        "meaning": "over there",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "#PXdxM^5L"
+      },
+      "selected": {
+        "text": "そっち",
+        "kana": "そっち"
+      },
+      "dictionaryEntryIds": [
+        "1006780"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0417",
+      "sourceRow": 417,
+      "original": {
+        "expression": "着く",
+        "reading": "つく",
+        "meaning": "to arrive at, to reach",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "hc-pfPX>PQ"
+      },
+      "selected": {
+        "text": "着く",
+        "kana": "つく"
+      },
+      "dictionaryEntryIds": [
+        "1422970",
+        "1607260"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0463",
+      "sourceRow": 463,
+      "original": {
+        "expression": "どっち",
+        "reading": "どっち",
+        "meaning": "which one, which way",
+        "tags": "Genki Genki_Ln.10 JLPT JLPT_5 JLPT_N5",
+        "guid": "PxI,t`JQ.N"
+      },
+      "selected": {
+        "text": "どっち",
+        "kana": "どっち"
+      },
+      "dictionaryEntryIds": [
+        "1189360"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0495",
+      "sourceRow": 495,
+      "original": {
+        "expression": "なる",
+        "reading": "なる",
+        "meaning": "to become",
+        "tags": "Genki Genki_Ln.10 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "ukKTUxR2lk"
+      },
+      "selected": {
+        "text": "なる",
+        "kana": "なる"
+      },
+      "dictionaryEntryIds": [
+        "1375610",
+        "1532910",
+        "1611000",
+        "2138260"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0525",
+      "sourceRow": 525,
+      "original": {
+        "expression": "はく",
+        "reading": "はく",
+        "meaning": "to put on (items below your waist)",
+        "tags": "Genki Genki_Ln.7 JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "oRjJ`o{id)"
+      },
+      "selected": {
+        "text": "はく",
+        "kana": "はく"
+      },
+      "dictionaryEntryIds": [
+        "1399760",
+        "1474240",
+        "1488000",
+        "1583000",
+        "1607260",
+        "1919550",
+        "2020200",
+        "2177290",
+        "2236150",
+        "2594450",
+        "2646460",
+        "2751420",
+        "2833893"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0544",
+      "sourceRow": 544,
+      "original": {
+        "expression": "早い",
+        "reading": "はやい",
+        "meaning": "early",
+        "tags": "Genki Genki_Ln.3 JLPT JLPT_5 JLPT_N5",
+        "guid": "J6yYVxGFN*"
+      },
+      "selected": {
+        "text": "早い",
+        "kana": "はやい"
+      },
+      "dictionaryEntryIds": [
+        "1404975"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0598",
+      "sourceRow": 598,
+      "original": {
+        "expression": "辺",
+        "reading": "へん",
+        "meaning": "area, vicinity",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "v^uJ@o,r7C"
+      },
+      "selected": {
+        "text": "辺",
+        "kana": "へん"
+      },
+      "dictionaryEntryIds": [
+        "1512070",
+        "2254960",
+        "2842190",
+        "2842191"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0642",
+      "sourceRow": 642,
+      "original": {
+        "expression": "道",
+        "reading": "みち",
+        "meaning": "road, street; way, directions",
+        "tags": "Genki Genki_Ln.16 JLPT JLPT_5 JLPT_N5",
+        "guid": "g*1iadY2;L"
+      },
+      "selected": {
+        "text": "道",
+        "kana": "みち"
+      },
+      "dictionaryEntryIds": [
+        "1454080",
+        "2158900",
+        "2268290",
+        "2870839"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0657",
+      "sourceRow": 657,
+      "original": {
+        "expression": "メートル",
+        "reading": "メートル",
+        "meaning": "meter",
+        "tags": "JLPT JLPT_5 JLPT_N5",
+        "guid": "BPMIO$2k{i"
+      },
+      "selected": {
+        "text": "メートル",
+        "kana": "メートル"
+      },
+      "dictionaryEntryIds": [
+        "1132570"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n5-vocab-07-w-0704",
+      "sourceRow": 704,
+      "original": {
+        "expression": "零",
+        "reading": "れい",
+        "meaning": "zero, nought",
+        "tags": "JLPT JLPT_3 JLPT_5 JLPT_N5",
+        "guid": "rc1t]Q^qI("
+      },
+      "selected": {
+        "text": "零",
+        "kana": "れい"
+      },
+      "dictionaryEntryIds": [
+        "1557630",
+        "2839962"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ],
+  "tailBatch": {
+    "count": 12,
+    "reason": "Last manually reviewed false-alias sense and reading gaps. Contexts explicitly distinguish meanings; no padding or claim of independent lexical senses."
+  }
+}

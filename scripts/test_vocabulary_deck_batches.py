@@ -76,6 +76,28 @@ class DeckBatchTests(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, 'stale'):
             builder.verify_source_pair({'expression':'運動','reading':'changed'}, '運動', 'うんどう', correction)
 
+    def test_alias_review_requires_selected_reading_and_exact_candidate_ids(self):
+        decision = {'selected':{'text':'空','kana':'そら'}, 'courseAliases':['empty'],
+                    'reason':'Teach the sky sense with its distinct reading, rather than the earlier empty-container meaning.'}
+        self.assertIsNone(builder.verify_course_aliases('空','そら',[],[]))
+        self.assertEqual(builder.verify_course_aliases('空','そら',['empty'],[decision]),decision)
+        with self.assertRaisesRegex(AssertionError, 'review explicitly'):
+            builder.verify_course_aliases('空','そら',['empty'],[])
+        with self.assertRaisesRegex(AssertionError, 'review explicitly'):
+            builder.verify_course_aliases('空','から',['empty'],[decision])
+        with self.assertRaisesRegex(AssertionError, 'stale'):
+            builder.verify_course_aliases('空','そら',['empty','new-alias'],[decision])
+
+    def test_combined_source_row_only_approves_its_reviewed_split_pairs(self):
+        original = {'expression':'回る、回す','reading':'まわる、まわす'}
+        correction = {'original':original,
+                      'selections':[{'text':'回る','kana':'まわる'},{'text':'回す','kana':'まわす'}],
+                      'reason':'Split the combined row into separately checked intransitive and transitive forms.'}
+        builder.verify_source_pair(original,'回る','まわる',correction)
+        builder.verify_source_pair(original,'回す','まわす',correction)
+        with self.assertRaisesRegex(AssertionError,'does not approve this pair'):
+            builder.verify_source_pair(original,'回る','まわす',correction)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,0 +1,21 @@
+{
+  "scope": "Editorial accounting of source rows, not mastery, official exam coverage or proof of equivalent lexical senses. Inflected and orthographic relations retain their own target spelling and reading.",
+  "related": {
+    "n5:12":"n4-u02-w-ageru", "n5:41":"n5-u12-w-aru", "n5:42":"n5-u12-w-aru", "n5:82":"n5-u03-w-uchi", "n5:98":"n5-u05-w-oishii", "n5:113":"n5-u06-w-oshiete", "n5:139":"n5-u09-w-owatta", "n5:150":"n5-u11-w-kaimashita", "n5:156":"n5-u06-w-kaite", "n5:160":"n5-vocab-02-w-0159", "n5:212":"n5-u05-w-kirei", "n5:219":"n5-u02-w-kudasai", "n5:343":"n5-u07-w-sundeimasu", "n5:345":"n5-u06-w-suwatte", "n5:375":"n5-u02-w-daijoubu", "n5:384":"n5-u12-w-dashimasu", "n5:414":"n4-u01-w-tsukaeru", "n5:418":"n5-u04-w-tsukue", "n5:419":"n4-u01-w-tsukureru", "n5:466":"n5-u04-w-tonari", "n5:475":"n5-u06-w-totte", "n5:511":"n5-u09-w-neta", "n5:514":"n5-u11-w-noboritai", "n5:516":"drink", "n5:523":"n5-u06-w-haitte", "n5:542":"n4-u01-w-hanaseru", "n5:600":"n5-u03-w-benkyou", "n5:629":"wait", "n5:649":"n5-u03-w-mimasu", "n5:662":"n5-u06-w-motte", "n5:673":"n5-u12-w-yasumimasu", "n5:691":"read",
+    "n4:23":"n4-u08-w-ukagau", "n4:87":"n4-u05-w-yameru", "n4:99":"n4-u06-w-ochiru", "n4:108":"n4-u08-w-itasu", "n4:117":"n5-u08-w-to-omou", "n4:239":"n4-u10-w-kotae", "n4:323":"n5-vocab-05-w-0650", "n4:479":"n5-vocab-01-w-0138", "n4:550":"n4-u06-w-tsuku", "n4:555":"n4-u06-w-otosu", "n4:592":"kind"
+  },
+  "excluded": {
+    "n5:287":"Unusual source spelling さ来年; modern 再来年 should be introduced contextually rather than padded into this deck.",
+    "n5:306":"Dated 字引; current dictionary vocabulary already uses 辞書. Not counted as taught 字引.",
+    "n5:624":"Rare source spelling 曲る; teach standard 曲がる contextually. Not counted as exact coverage.",
+    "n5:698":"Dated abbreviation ラジオカセ with no restricted headword match. Do not invent its reading or mark it checked.",
+    "n4:263":"Source's overcoat sense of オーバー is dated and differs from common over/excess senses. Not included or counted as learned.",
+    "n4:303":"Rare 楽む spelling; standard 楽しむ remains a separate target to teach contextually.",
+    "n4:320":"Dated dedicated word processor ワープロ; useful modern computer language takes priority, without treating this row as covered.",
+    "n4:512":"Interjection あ is not an ordinary dictionary headword drill. Shared entry candidates such as あれ do not prove it is taught.",
+    "n4:628":"Dated gender-specific 看護婦; prefer current 看護師 in relevant scenarios, without counting this row as learned.",
+    "n4:664":"Dated 電報 is lower priority than present-day communication. Excluded, not claimed as taught.",
+    "n4:665":"家内 for one's wife can carry register and social implications. Neutral 妻 is explicitly taught; exclusion is not equivalence or source mastery."
+  },
+  "patternPolicy": "Counter suffixes, prefixes, attached expressions and annotated grammatical patterns are outside the standalone headword deck. Each row remains visible as pattern-not-headword in the ledger, not automatically covered. Useful counters and forms require contextual instruction and sound-change practice; course completion never certifies exhaustive N5/N4 coverage."
+}

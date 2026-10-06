@@ -225,7 +225,7 @@ test("phone teaching tools, keyboard reading areas and supported completion stay
   await page.setViewportSize({ width: 375, height: 1000 });
   await page.goto("/");
   await expect(
-    page.getByRole("button", { name: "Cloud sync · coming later" }),
+    page.getByRole("button", { name: "Continue with Google" }),
   ).toBeVisible();
   await onboard(page);
   await page.goto("/#read");

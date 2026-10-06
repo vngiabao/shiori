@@ -218,5 +218,179 @@
       "kana": "ゆしゅつ"
     },
     "reason": "Reviewed source noun is paired with its suru verb reading. Teach the restricted-JMdict-checked noun; its original example demonstrates the noun or suru construction. Raw source cells remain unchanged."
+  },
+  "n5:267": {
+    "original": {
+      "expression": "コピーする",
+      "reading": "コピーする"
+    },
+    "selected": {
+      "text": "コピー",
+      "kana": "コピー"
+    },
+    "reason": "Source attaches suru to a noun headword; select dictionary-checked コピー and demonstrate its noun use. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n5:683": {
+    "original": {
+      "expression": "ゆっくりと",
+      "reading": "ゆっくりと"
+    },
+    "selected": {
+      "text": "ゆっくり",
+      "kana": "ゆっくり"
+    },
+    "reason": "Source includes optional adverbial と; select dictionary headword ゆっくり without claiming its whole construction is a dictionary form. Raw CSV unchanged; restricted JMdict check still required.",
+    "existingCourseForms": [
+      "slow"
+    ]
+  },
+  "n4:38": {
+    "original": {
+      "expression": "心配",
+      "reading": "しんぱいする"
+    },
+    "selected": {
+      "text": "心配",
+      "kana": "しんぱい"
+    },
+    "reason": "Source noun has a suru-verb reading; teach the standalone noun beyond the earlier negative imperative chunks. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:118": {
+    "original": {
+      "expression": "パート (タイム)",
+      "reading": "パート (タイム)"
+    },
+    "selected": {
+      "text": "パート",
+      "kana": "パート"
+    },
+    "reason": "Parenthetical English loan expansion is an editorial annotation. Select normal short employment headword, not apartment アパート. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:156": {
+    "original": {
+      "expression": "けんかする",
+      "reading": "けんかする"
+    },
+    "selected": {
+      "text": "けんか",
+      "kana": "けんか"
+    },
+    "reason": "Source attaches suru to kana noun; select dictionary noun and demonstrate けんかをする in an original example. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:236": {
+    "original": {
+      "expression": "いただく",
+      "reading": "頂く"
+    },
+    "selected": {
+      "text": "いただく",
+      "kana": "いただく"
+    },
+    "reason": "Source spelling and reading cells are inverted kanji/kana. Select the dictionary-supported kana form and humble receiving meaning. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:247": {
+    "original": {
+      "expression": "けがする",
+      "reading": "けがする"
+    },
+    "selected": {
+      "text": "けが",
+      "kana": "けが"
+    },
+    "reason": "Source attaches suru to noun; select dictionary injury headword and demonstrate けがをする. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:316": {
+    "original": {
+      "expression": "チェックする",
+      "reading": "チェックする"
+    },
+    "selected": {
+      "text": "チェック",
+      "kana": "チェック"
+    },
+    "reason": "Source attaches suru to loan noun. Select the dictionary noun; an original example asks for a check. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:393": {
+    "original": {
+      "expression": "びっくりする",
+      "reading": "びっくりする"
+    },
+    "selected": {
+      "text": "びっくり",
+      "kana": "びっくり"
+    },
+    "reason": "Source attaches suru to reaction headword; select dictionary-supported bare form and demonstrate びっくりしました. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:553": {
+    "original": {
+      "expression": "かまう",
+      "reading": ""
+    },
+    "selected": {
+      "text": "かまう",
+      "kana": "かまう"
+    },
+    "reason": "Source reading cell is empty. Select kana headword with identical dictionary reading; attend-to-child context makes its use explicit. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:569": {
+    "original": {
+      "expression": "スーパー (マーケット)",
+      "reading": "スーパー (マーケット)"
+    },
+    "selected": {
+      "text": "スーパー",
+      "kana": "スーパー"
+    },
+    "reason": "Source parenthetical full-loan expansion is not pronounced. Select dictionary supermarket abbreviation, not an invented combined reading. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:612": {
+    "original": {
+      "expression": "真中",
+      "reading": "まんなか"
+    },
+    "selected": {
+      "text": "真ん中",
+      "kana": "まんなか"
+    },
+    "reason": "Source spelling 真中 only supports まなか in the pinned dictionary. Select standard spelling 真ん中 with まんなか, preserving original cells. Raw CSV unchanged; restricted JMdict check still required."
+  },
+  "n4:507": {
+    "original": {
+      "expression": "下る",
+      "reading": "さがる"
+    },
+    "selected": {
+      "text": "下がる",
+      "kana": "さがる"
+    },
+    "reason": "Use standard modern 下がる spelling for decreasing instead of unusual source 下る/さがる. Original cells remain pinned and restricted JMdict still required."
+  },
+  "n4:563": {
+    "original": {
+      "expression": "回る、回す",
+      "reading": "まわる、まわす"
+    },
+    "selections": [
+      {
+        "text": "回る",
+        "kana": "まわる"
+      },
+      {
+        "text": "回す",
+        "kana": "まわす"
+      }
+    ],
+    "reason": "The raw cell combines two verbs and two readings. Teach intransitive 回る (go around/turn) and transitive 回す (turn something) separately, pairing each with its own restricted dictionary reading. Neither original cell is rewritten."
+  },
+  "n4:310": {
+    "original": {
+      "expression": "ごらんになる",
+      "reading": ""
+    },
+    "selected": {
+      "text": "ご覧になる",
+      "kana": "ごらんになる"
+    },
+    "reason": "The source reading is empty. The existing n4-u07-w-goran record explicitly teaches this respectful expression with a dictionary-checked reading; record the mapping rather than duplicate the taught pair."
   }
 }

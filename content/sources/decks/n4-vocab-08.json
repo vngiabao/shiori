@@ -1,0 +1,341 @@
+{
+  "deck": "n4-vocab-08",
+  "communityLevel": "N4",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "0529b01b7567fedb4f4554b4596f1ecc1849dc8d68169bc9e70838561c095303",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "心配",
+        "kana": "しんぱい"
+      },
+      "courseAliases": [
+        "n5-u08-w-shinpai",
+        "n5-u08-w-shinpai-kudasai"
+      ],
+      "reason": "Standalone worry noun is useful beyond earlier 心配しないで / 心配しないでください request chunks. Explicitly count related form records, not new independent lexical senses."
+    }
+  ],
+  "words": [
+    {
+      "id": "n4-vocab-08-w-0038",
+      "sourceRow": 38,
+      "original": {
+        "expression": "心配",
+        "reading": "しんぱいする",
+        "meaning": "worry, concern",
+        "tags": "JLPT JLPT_N4",
+        "guid": "reB^;ntMm;"
+      },
+      "selected": {
+        "text": "心配",
+        "kana": "しんぱい"
+      },
+      "dictionaryEntryIds": [
+        "1360930"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "心配",
+          "reading": "しんぱいする"
+        },
+        "selected": {
+          "text": "心配",
+          "kana": "しんぱい"
+        },
+        "reason": "Source noun has a suru-verb reading; teach the standalone noun beyond the earlier negative imperative chunks. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0118",
+      "sourceRow": 118,
+      "original": {
+        "expression": "パート (タイム)",
+        "reading": "パート (タイム)",
+        "meaning": "part time (esp. female part time employees)",
+        "tags": "JLPT JLPT_N4",
+        "guid": "v_m4?zP2.9"
+      },
+      "selected": {
+        "text": "パート",
+        "kana": "パート"
+      },
+      "dictionaryEntryIds": [
+        "1100810"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "パート (タイム)",
+          "reading": "パート (タイム)"
+        },
+        "selected": {
+          "text": "パート",
+          "kana": "パート"
+        },
+        "reason": "Parenthetical English loan expansion is an editorial annotation. Select normal short employment headword, not apartment アパート. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0156",
+      "sourceRow": 156,
+      "original": {
+        "expression": "けんかする",
+        "reading": "けんかする",
+        "meaning": "quarrel",
+        "tags": "JLPT JLPT_N4",
+        "guid": "Oc14`ELpiF"
+      },
+      "selected": {
+        "text": "けんか",
+        "kana": "けんか"
+      },
+      "dictionaryEntryIds": [
+        "1257040",
+        "1257120",
+        "1258830",
+        "1525710",
+        "1630770",
+        "1873840",
+        "2006690",
+        "2190740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "けんかする",
+          "reading": "けんかする"
+        },
+        "selected": {
+          "text": "けんか",
+          "kana": "けんか"
+        },
+        "reason": "Source attaches suru to kana noun; select dictionary noun and demonstrate けんかをする in an original example. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0236",
+      "sourceRow": 236,
+      "original": {
+        "expression": "いただく",
+        "reading": "頂く",
+        "meaning": "-- extra-modest expression for たべる and のむ; humble expression for もらう --",
+        "tags": "Genki Genki_Ln.20 JLPT JLPT_N4",
+        "guid": "J*KGnzk|Z2"
+      },
+      "selected": {
+        "text": "いただく",
+        "kana": "いただく"
+      },
+      "dictionaryEntryIds": [
+        "1587290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "いただく",
+          "reading": "頂く"
+        },
+        "selected": {
+          "text": "いただく",
+          "kana": "いただく"
+        },
+        "reason": "Source spelling and reading cells are inverted kanji/kana. Select the dictionary-supported kana form and humble receiving meaning. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0247",
+      "sourceRow": 247,
+      "original": {
+        "expression": "けがする",
+        "reading": "けがする",
+        "meaning": "injury (to animate object), hurt",
+        "tags": "JLPT JLPT_N4",
+        "guid": "NP:|wpXW(M"
+      },
+      "selected": {
+        "text": "けが",
+        "kana": "けが"
+      },
+      "dictionaryEntryIds": [
+        "1200220"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "けがする",
+          "reading": "けがする"
+        },
+        "selected": {
+          "text": "けが",
+          "kana": "けが"
+        },
+        "reason": "Source attaches suru to noun; select dictionary injury headword and demonstrate けがをする. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0316",
+      "sourceRow": 316,
+      "original": {
+        "expression": "チェックする",
+        "reading": "チェックする",
+        "meaning": "check",
+        "tags": "JLPT JLPT_N4",
+        "guid": "o%*Ndg~YHB"
+      },
+      "selected": {
+        "text": "チェック",
+        "kana": "チェック"
+      },
+      "dictionaryEntryIds": [
+        "1077550"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "チェックする",
+          "reading": "チェックする"
+        },
+        "selected": {
+          "text": "チェック",
+          "kana": "チェック"
+        },
+        "reason": "Source attaches suru to loan noun. Select the dictionary noun; an original example asks for a check. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0393",
+      "sourceRow": 393,
+      "original": {
+        "expression": "びっくりする",
+        "reading": "びっくりする",
+        "meaning": "to be surprised",
+        "tags": "Genki Genki_Ln.21 JLPT JLPT_N4",
+        "guid": "Cr@7!m+n{m"
+      },
+      "selected": {
+        "text": "びっくり",
+        "kana": "びっくり"
+      },
+      "dictionaryEntryIds": [
+        "1226360"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "びっくりする",
+          "reading": "びっくりする"
+        },
+        "selected": {
+          "text": "びっくり",
+          "kana": "びっくり"
+        },
+        "reason": "Source attaches suru to reaction headword; select dictionary-supported bare form and demonstrate びっくりしました. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0553",
+      "sourceRow": 553,
+      "original": {
+        "expression": "かまう",
+        "reading": "",
+        "meaning": "to mind, to care about, to be concerned about",
+        "tags": "JLPT JLPT_N4",
+        "guid": "l%US3Ov|)s"
+      },
+      "selected": {
+        "text": "かまう",
+        "kana": "かまう"
+      },
+      "dictionaryEntryIds": [
+        "1279680"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "かまう",
+          "reading": ""
+        },
+        "selected": {
+          "text": "かまう",
+          "kana": "かまう"
+        },
+        "reason": "Source reading cell is empty. Select kana headword with identical dictionary reading; attend-to-child context makes its use explicit. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0569",
+      "sourceRow": 569,
+      "original": {
+        "expression": "スーパー (マーケット)",
+        "reading": "スーパー (マーケット)",
+        "meaning": "supermarket",
+        "tags": "JLPT JLPT_N4",
+        "guid": "DH3_3RD/FB"
+      },
+      "selected": {
+        "text": "スーパー",
+        "kana": "スーパー"
+      },
+      "dictionaryEntryIds": [
+        "1066710"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "スーパー (マーケット)",
+          "reading": "スーパー (マーケット)"
+        },
+        "selected": {
+          "text": "スーパー",
+          "kana": "スーパー"
+        },
+        "reason": "Source parenthetical full-loan expansion is not pronounced. Select dictionary supermarket abbreviation, not an invented combined reading. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    },
+    {
+      "id": "n4-vocab-08-w-0612",
+      "sourceRow": 612,
+      "original": {
+        "expression": "真中",
+        "reading": "まんなか",
+        "meaning": "middle, center",
+        "tags": "JLPT JLPT_N4",
+        "guid": "R5Bu:`G<@"
+      },
+      "selected": {
+        "text": "真ん中",
+        "kana": "まんなか"
+      },
+      "dictionaryEntryIds": [
+        "1604350"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "真中",
+          "reading": "まんなか"
+        },
+        "selected": {
+          "text": "真ん中",
+          "kana": "まんなか"
+        },
+        "reason": "Source spelling 真中 only supports まなか in the pinned dictionary. Select standard spelling 真ん中 with まんなか, preserving original cells. Raw CSV unchanged; restricted JMdict check still required."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 10,
+    "reason": "Reviewed residual source-cell repairs with original examples. Exact original/selected pairs preserve provenance; no padding or official-coverage claim."
+  }
+}

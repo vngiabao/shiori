@@ -1,0 +1,50 @@
+{
+  "id": "n4-vocab-11",
+  "version": 1,
+  "status": "AI-assisted draft",
+  "category": "vocabulary",
+  "title": "N4 vocabulary · Deck 11",
+  "words": [
+    {
+      "id": "n4-vocab-11-w-0563",
+      "text": "回す",
+      "kana": "まわす",
+      "romaji": "mawasu",
+      "meaning": "turn; rotate something (transitive)",
+      "register": "neutral",
+      "example": "ドアを開けるために、ノブを回しました。",
+      "exampleRuby": "ドアを{開|あ}けるために、ノブを{回|まわ}しました。",
+      "exampleMeaning": "I turned the knob to open the door.",
+      "pitch": null,
+      "jlpt": null,
+      "parts": [
+        {
+          "text": "回",
+          "reading": "まわ"
+        },
+        {
+          "text": "す"
+        }
+      ],
+      "source": "https://github.com/jamsinclair/open-anki-jlpt-decks/blob/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv#L563"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "n4-vocab-11-lesson-1",
+      "title": "N4 vocabulary · Set 1",
+      "description": "Community-list words with original examples. Reading and listening recognition are tracked separately.",
+      "kind": "phrase",
+      "words": [
+        "n4-vocab-11-w-0563"
+      ],
+      "canDo": "Recognise these written words and their Clear voice readings.",
+      "minutes": 8
+    }
+  ],
+  "letters": [],
+  "roleplays": [],
+  "grammar": [],
+  "kanji": [],
+  "exercises": []
+}

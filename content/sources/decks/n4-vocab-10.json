@@ -1,0 +1,61 @@
+{
+  "deck": "n4-vocab-10",
+  "communityLevel": "N4",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n4.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n4.csv",
+    "sha256": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "ae62e02885b73807b49705f92c7050143b424fa87c6ede6efbc6eed8c317692b",
+  "sourceDraftSha256": "0012b89ab451baad27f5d0c7eaabfefd3ac24e922e245d007d581c49576b68b4",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [],
+  "words": [
+    {
+      "id": "n4-vocab-10-w-0563",
+      "sourceRow": 563,
+      "original": {
+        "expression": "回る、回す",
+        "reading": "まわる、まわす",
+        "meaning": "to go around, to revolve",
+        "tags": "JLPT JLPT_N4",
+        "guid": "OXe]%sDun3"
+      },
+      "selected": {
+        "text": "回る",
+        "kana": "まわる"
+      },
+      "dictionaryEntryIds": [
+        "1342050",
+        "1604300",
+        "1605260",
+        "2255060"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "回る、回す",
+          "reading": "まわる、まわす"
+        },
+        "selections": [
+          {
+            "text": "回る",
+            "kana": "まわる"
+          },
+          {
+            "text": "回す",
+            "kana": "まわす"
+          }
+        ],
+        "reason": "The raw cell combines two verbs and two readings. Teach intransitive 回る (go around/turn) and transitive 回す (turn something) separately, pairing each with its own restricted dictionary reading. Neither original cell is rewritten."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 1,
+    "reason": "One of two separately taught verb pairs from the combined source row 563. Separate source-backed lessons preserve distinct transitivity, examples and readings without padding or duplicate source-row IDs in a pack."
+  }
+}

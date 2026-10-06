@@ -865,107 +865,16 @@ select {
   min-height: 100vh;
   padding: 0 70px;
 }
-.welcome > header {
-  height: 110px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid var(--rule);
-}
-.welcome > header > span {
-  font-size: 13px;
-  color: var(--ink-3);
-  letter-spacing: 2px;
-  font-family: "Noto Serif JP", serif;
-}
-.welcome-layout {
-  display: grid;
-  grid-template-columns: 1.1fr 1fr;
-  gap: 110px;
-  align-items: center;
-  max-width: 1120px;
-  margin: 55px auto 65px;
-}
-.welcome-letter {
-  position: relative;
-  padding: 22px 0 0;
-}
-.welcome-postmark {
-  position: absolute;
-  right: 15px;
-  top: 0;
-  transform: rotate(10deg);
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  width: 94px;
-  height: 94px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: "Courier Prime", monospace;
-  font-size: 13px;
-  color: var(--ink-3);
-}
-.welcome-postmark span {
-  font-size: 7px;
-  width: 70px;
-  text-align: center;
-  margin-top: 4px;
-}
-.welcome-art {
-  position: relative;
-  height: 255px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.welcome-kanji {
-  position: absolute;
-  font-size: 138px;
-  color: var(--rule);
-  letter-spacing: 0.06em;
-  left: 0;
-  bottom: 17px;
-}
-.welcome-art .mascot {
-  position: relative;
-  margin-left: 80px;
-  z-index: 1;
-}
-.welcome-letter h1 {
-  font-size: 70px;
-  line-height: 0.97;
-  margin: 28px 0 25px;
-}
-.welcome-letter > p {
-  font-size: 18px;
-  line-height: 1.9;
-  color: var(--ink-2);
-}
-.welcome-signature {
-  font-family: "Courier Prime", monospace;
-  font-size: 12px;
-  color: var(--ink-3);
-  margin-top: 28px;
-}
+
 .welcome-form {
   padding: 12px 0 15px;
 }
-.welcome-greeting {
-  font-size: 32px;
-  color: var(--accent);
-  margin-bottom: 20px;
-}
+
 .welcome-form h2 {
   font-size: 42px;
   margin-bottom: 22px;
 }
-.welcome-form > p:not(.welcome-greeting) {
-  color: var(--ink-2);
-  margin-bottom: 30px;
-  max-width: 370px;
-}
+
 .welcome-form > .button {
   width: 100%;
   margin-bottom: 15px;
@@ -2409,16 +2318,7 @@ dialog::backdrop {
   .welcome {
     padding-inline: 40px;
   }
-  .welcome-layout {
-    gap: 70px;
-  }
-  .welcome-letter h1 {
-    font-size: 62px;
-  }
-  .welcome-art .mascot {
-    width: 245px !important;
-    height: 245px !important;
-  }
+
   .envelope-path {
     grid-template-columns: repeat(4, 1fr);
     row-gap: 30px;
@@ -2708,43 +2608,15 @@ dialog::backdrop {
   .lesson-top {
     font-size: 13px;
   }
-  .welcome-layout {
-    gap: 45px;
-    margin-top: 35px;
-  }
+
   .welcome {
     padding: 0 30px;
   }
-  .welcome-letter h1 {
-    font-size: 55px;
-  }
-  .welcome-art {
-    height: 215px;
-  }
-  .welcome-art .mascot {
-    width: 230px !important;
-    height: 230px !important;
-    margin-left: 45px;
-  }
-  .welcome-kanji {
-    font-size: 90px;
-  }
-  .welcome-postmark {
-    right: 0;
-    width: 75px;
-    height: 75px;
-    top: -5px;
-    font-size: 10px;
-  }
-  .welcome-postmark span {
-    font-size: 6px;
-  }
+
   .welcome-form h2 {
     font-size: 35px;
   }
-  .welcome-letter > p {
-    font-size: 16px;
-  }
+
   .welcome-form > p {
     font-size: 16px;
   }
@@ -2752,12 +2624,7 @@ dialog::backdrop {
     font-size: 16px;
     padding-inline: 15px;
   }
-  .welcome-signature {
-    font-size: 10px;
-  }
-  .welcome > header > span {
-    font-size: 10px;
-  }
+
   .welcome-form form h2 {
     font-size: 32px;
   }
@@ -3219,80 +3086,18 @@ dialog::backdrop {
   .welcome {
     padding: 0 23px;
   }
-  .welcome > header {
-    height: 86px;
-  }
-  .welcome > header > span {
-    display: none;
-  }
-  .welcome-layout {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
-    margin: 30px auto 40px;
-  }
-  .welcome-letter {
-    width: 100%;
-    padding-top: 0;
-  }
-  .welcome-art {
-    height: 170px;
-    max-width: 330px;
-    margin: 0 auto;
-  }
-  .welcome-art > .mascot {
-    width: 200px !important;
-    height: 200px !important;
-    margin-left: 35px;
-  }
-  .welcome-kanji {
-    font-size: 91px;
-    bottom: 10px;
-    left: 25px;
-  }
-  .welcome-postmark {
-    top: -5px;
-    right: 0;
-    width: 68px;
-    height: 68px;
-    font-size: 10px;
-  }
-  .welcome-postmark span {
-    font-size: 5px;
-    width: 55px;
-  }
-  .welcome-letter h1 {
-    font-size: 51px;
-    line-height: 1;
-    margin: 25px 0 20px;
-    text-align: center;
-  }
-  .welcome-letter > p {
-    font-size: 16px;
-    line-height: 1.75;
-    text-align: center;
-  }
-  .welcome-signature {
-    font-size: 9px;
-    text-align: center;
-    margin-top: 20px;
-  }
+
   .welcome-form {
     width: 100%;
     padding-top: 30px;
     border-top: 1px solid var(--rule);
   }
-  .welcome-greeting {
-    font-size: 26px;
-    margin-bottom: 15px;
-  }
+
   .welcome-form h2 {
     font-size: 34px;
     line-height: 1.08;
   }
-  .welcome-form > p:not(.welcome-greeting) {
-    margin-bottom: 24px;
-  }
+
   .welcome-form small {
     font-size: 13px;
     margin-top: 16px;
@@ -4160,4 +3965,3 @@ dialog::backdrop {
   font-size: 16px;
   margin-top: 6px;
 }
-
