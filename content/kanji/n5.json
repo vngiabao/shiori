@@ -270,6 +270,8 @@
     "words": [
       "n3-u06-w-hikiukeru",
       "n3-u11-w-hikitsugu",
+      "n3-u14-w-nebiki",
+      "n3-u14-w-waribiki",
       "n4-u12-w-hikitsugi",
       "n4-vocab-03-w-0331",
       "n4-vocab-03-w-0417",
@@ -694,6 +696,8 @@
     "words": [
       "n3-u08-w-honne",
       "n3-u12-w-onryou",
+      "n3-u14-w-zatsuon",
+      "n3-u14-w-souon",
       "n4-u09-w-oto",
       "n4-u11-w-hatsuon",
       "n5-vocab-01-w-0140"
@@ -760,7 +764,8 @@
     "kun": "あたい",
     "words": [
       "n3-u05-w-hyouka",
-      "n3-u05-w-kachi"
+      "n3-u05-w-kachi",
+      "n3-u14-w-kakaku"
     ]
   },
   {
@@ -1176,6 +1181,7 @@
     "on": "カク、コウ、キャク、ゴウ",
     "kun": "",
     "words": [
+      "n3-u14-w-kakaku",
       "n4-vocab-04-w-0552"
     ]
   },
@@ -1287,6 +1293,7 @@
     "on": "カツ",
     "kun": "わる、わり、わり、われる、さく",
     "words": [
+      "n3-u14-w-waribiki",
       "n4-vocab-04-w-0489",
       "n4-vocab-04-w-0559"
     ]
@@ -1422,6 +1429,7 @@
     "kun": "かえる、かえる、かわる",
     "words": [
       "n3-u07-w-norikae",
+      "n3-u14-w-koukan",
       "n4-vocab-05-w-0624"
     ]
   },
@@ -1700,6 +1708,7 @@
     "on": "キ",
     "kun": "はた",
     "words": [
+      "n3-u14-w-kinou",
       "n4-vocab-01-w-0064",
       "n5-u10-w-hikouki"
     ]
@@ -2549,6 +2558,7 @@
     "on": "ケイ、キョウ、キン",
     "kun": "かるい、かろやか、かろんじる",
     "words": [
+      "n3-u14-w-keiryou",
       "n5-vocab-02-w-0183"
     ]
   },
@@ -2589,7 +2599,8 @@
     "on": "ケツ、ケン",
     "kun": "かける、かく",
     "words": [
-      "n3-u10-w-kesseki"
+      "n3-u10-w-kesseki",
+      "n3-u14-w-ketten"
     ]
   },
   {
@@ -3083,6 +3094,7 @@
     "on": "コウ",
     "kun": "まじわる、まじえる、まじる、まじる、まざる、まぜる、かう、かわす、かわす、こもごも",
     "words": [
+      "n3-u14-w-koukan",
       "n4-u06-w-kouban",
       "n4-vocab-03-w-0319",
       "n5-vocab-02-w-0247"
@@ -3353,6 +3365,16 @@
       "n3-u11-w-choukou",
       "n4-vocab-03-w-0396",
       "n4-vocab-04-w-0475"
+    ]
+  },
+  {
+    "char": "購",
+    "meaning": "subscription; buy",
+    "components": "",
+    "on": "コウ",
+    "kun": "",
+    "words": [
+      "n3-u14-w-kounyuu"
     ]
   },
   {
@@ -3795,6 +3817,7 @@
     "words": [
       "n3-u02-w-sagyou",
       "n3-u05-w-sakusha",
+      "n3-u14-w-sousa",
       "n4-u01-w-tsukureru",
       "n5-vocab-02-w-0281"
     ]
@@ -3851,6 +3874,7 @@
     "kun": "まじえる、まじる",
     "words": [
       "n3-u09-w-konzatsu",
+      "n3-u14-w-zatsuon",
       "n4-vocab-01-w-0066",
       "n5-u02-w-zasshi"
     ]
@@ -3962,6 +3986,7 @@
     "on": "シ、ジ",
     "kun": "つかえる",
     "words": [
+      "n3-u14-w-shiyou",
       "n4-vocab-04-w-0574",
       "n5-vocab-02-w-0297"
     ]
@@ -4513,6 +4538,7 @@
     "on": "シツ、シチ、チ",
     "kun": "たち、ただす、もと、わりふ",
     "words": [
+      "n3-u14-w-hinshitsu",
       "n4-u04-w-shitsumon"
     ]
   },
@@ -4529,6 +4555,7 @@
       "n3-u03-w-jijitsu",
       "n3-u06-w-jisshi",
       "n3-u13-w-genjitsu",
+      "n3-u14-w-jitsuyou",
       "n4-u08-w-jisshuu"
     ]
   },
@@ -4997,6 +5024,7 @@
     "kun": "え、おもい、おもり、おもなう、かさねる、かさなる、おも",
     "words": [
       "n3-u04-w-shinchou",
+      "n3-u14-w-omosa",
       "n5-vocab-01-w-0135"
     ]
   },
@@ -5150,6 +5178,8 @@
     "on": "ショ",
     "kun": "ところ、ところ、どころ、とこ",
     "words": [
+      "n3-u14-w-chousho",
+      "n3-u14-w-tansho",
       "n4-vocab-02-w-0174",
       "n4-vocab-02-w-0193",
       "n4-vocab-02-w-0238",
@@ -5198,6 +5228,7 @@
     "kun": "かく、がき、がき",
     "words": [
       "n3-u12-w-sujigaki",
+      "n3-u14-w-setsumeisho",
       "n4-u04-w-shorui",
       "n4-u05-w-kyoukasho",
       "n4-u12-w-houkokusho",
@@ -5445,7 +5476,8 @@
     "on": "ショウ",
     "kun": "あかし",
     "words": [
-      "n3-u04-w-shouko"
+      "n3-u04-w-shouko",
+      "n3-u14-w-hoshou"
     ]
   },
   {
@@ -6002,6 +6034,7 @@
     "words": [
       "n3-u04-w-kanousei",
       "n3-u13-w-seibetsu",
+      "n3-u14-w-seinou",
       "n4-vocab-03-w-0355",
       "n4-vocab-03-w-0368"
     ]
@@ -6116,6 +6149,16 @@
     "kun": "こえ、こわ",
     "words": [
       "n5-vocab-01-w-0250"
+    ]
+  },
+  {
+    "char": "製",
+    "meaning": "made in...; manufacture",
+    "components": "",
+    "on": "セイ",
+    "kun": "",
+    "words": [
+      "n3-u14-w-seihin"
     ]
   },
   {
@@ -6292,7 +6335,8 @@
     "on": "セツ",
     "kun": "もうける",
     "words": [
-      "n3-u09-w-setsubi"
+      "n3-u09-w-setsubi",
+      "n3-u14-w-settei"
     ]
   },
   {
@@ -6302,6 +6346,7 @@
     "on": "セツ、セチ",
     "kun": "ふし、ぶし、のっと",
     "words": [
+      "n3-u14-w-chousetsu",
       "n4-vocab-01-w-0130"
     ]
   },
@@ -6313,6 +6358,7 @@
     "kun": "とく",
     "words": [
       "n3-u08-w-settoku",
+      "n3-u14-w-setsumeisho",
       "n4-u04-w-setumei",
       "n4-u10-w-setsumei",
       "n4-vocab-01-w-0113"
@@ -6426,6 +6472,8 @@
     "on": "セン",
     "kun": "すじ",
     "words": [
+      "n3-u14-w-musen",
+      "n3-u14-w-yuusen",
       "n4-u08-w-naisen",
       "n4-vocab-02-w-0179",
       "n5-u10-w-shinkansen"
@@ -6577,6 +6625,16 @@
     ]
   },
   {
+    "char": "操",
+    "meaning": "maneuver; manipulate; operate; steer; chastity; virginity; fidelity",
+    "components": "",
+    "on": "ソウ、サン",
+    "kun": "みさお、あやつる",
+    "words": [
+      "n3-u14-w-sousa"
+    ]
+  },
+  {
     "char": "早",
     "meaning": "early; fast",
     "components": "",
@@ -6651,6 +6709,7 @@
     "words": [
       "n3-u03-w-ishou",
       "n3-u13-w-kasou",
+      "n3-u14-w-souchaku",
       "n4-u09-w-souchi"
     ]
   },
@@ -6684,6 +6743,7 @@
     "on": "ソウ",
     "kun": "さわぐ、うれい、さわがしい",
     "words": [
+      "n3-u14-w-souon",
       "n4-vocab-04-w-0464"
     ]
   },
@@ -6789,6 +6849,7 @@
     "words": [
       "n3-u04-w-ashiato",
       "n3-u10-w-nebusoku",
+      "n3-u14-w-manzoku",
       "n4-vocab-02-w-0168",
       "n4-vocab-03-w-0350",
       "n5-vocab-01-w-0016"
@@ -6803,6 +6864,16 @@
     "words": [
       "n3-u12-w-baisoku",
       "n5-u10-w-hayai"
+    ]
+  },
+  {
+    "char": "属",
+    "meaning": "belong; genus; subordinate official; affiliated",
+    "components": "",
+    "on": "ゾク、ショク",
+    "kun": "さかん、つく、やから",
+    "words": [
+      "n3-u14-w-fuzokuhin"
     ]
   },
   {
@@ -7241,6 +7312,7 @@
     "kun": "みじかい",
     "words": [
       "n3-u10-w-tanki",
+      "n3-u14-w-tansho",
       "n5-vocab-04-w-0638"
     ]
   },
@@ -7343,6 +7415,7 @@
     "kun": "ね、あたい",
     "words": [
       "n3-u05-w-kachi",
+      "n3-u14-w-nebiki",
       "n4-vocab-04-w-0517"
     ]
   },
@@ -7392,6 +7465,7 @@
     "on": "チ",
     "kun": "いけ",
     "words": [
+      "n3-u14-w-denchi",
       "n5-vocab-01-w-0053"
     ]
   },
@@ -7453,6 +7527,7 @@
     "kun": "きる、きせる、つく、つける",
     "words": [
       "n3-u10-w-chakushin",
+      "n3-u14-w-souchaku",
       "n4-u03-w-touchaku",
       "n4-u10-w-ochitsuku",
       "n4-vocab-03-w-0358",
@@ -7636,6 +7711,7 @@
       "n3-u08-w-kuchou",
       "n3-u10-w-fuchou",
       "n3-u13-w-kyouchou",
+      "n3-u14-w-chousetsu",
       "n4-u03-w-shiraberu",
       "n4-u11-w-taichou"
     ]
@@ -7648,6 +7724,7 @@
     "kun": "ながい、おさ",
     "words": [
       "n3-u10-w-chouki",
+      "n3-u14-w-chousho",
       "n4-vocab-01-w-0084",
       "n4-vocab-01-w-0127",
       "n4-vocab-03-w-0327",
@@ -7795,6 +7872,7 @@
       "n3-u04-w-dantei",
       "n3-u06-w-kettei",
       "n3-u06-w-kotei",
+      "n3-u14-w-settei",
       "n4-u03-w-yotei"
     ]
   },
@@ -7983,6 +8061,8 @@
       "n3-u05-w-shiten",
       "n3-u07-w-shuuten",
       "n3-u09-w-tenken",
+      "n3-u14-w-ketten",
+      "n3-u14-w-riten",
       "n4-vocab-01-w-0061",
       "n5-vocab-02-w-0247"
     ]
@@ -8019,6 +8099,7 @@
       "n3-u02-w-juuden",
       "n3-u02-w-dengen",
       "n3-u09-w-teiden",
+      "n3-u14-w-denchi",
       "n4-vocab-03-w-0390",
       "n5-vocab-03-w-0440",
       "n5-vocab-03-w-0441",
@@ -8075,6 +8156,7 @@
     "kun": "みち",
     "words": [
       "n3-u01-w-togireru",
+      "n3-u14-w-youto",
       "n4-vocab-05-w-0622"
     ]
   },
@@ -8555,6 +8637,7 @@
     "on": "ニュウ、ジュ",
     "kun": "いる、いる、いり、いれる、いれ、はいる",
     "words": [
+      "n3-u14-w-kounyuu",
       "n4-u05-w-ireru",
       "n4-vocab-03-w-0389",
       "n4-vocab-03-w-0430",
@@ -8688,7 +8771,9 @@
     "words": [
       "n3-u04-w-kanousei",
       "n3-u10-w-nouritsu",
-      "n3-u10-w-nouryoku"
+      "n3-u10-w-nouryoku",
+      "n3-u14-w-seinou",
+      "n3-u14-w-kinou"
     ]
   },
   {
@@ -9275,6 +9360,10 @@
     "on": "ヒン、ホン",
     "kun": "しな",
     "words": [
+      "n3-u14-w-seihin",
+      "n3-u14-w-hinshitsu",
+      "n3-u14-w-henpin",
+      "n3-u14-w-fuzokuhin",
       "n4-vocab-01-w-0147",
       "n4-vocab-02-w-0259"
     ]
@@ -9328,6 +9417,7 @@
     "words": [
       "n3-u02-w-katazuke",
       "n3-u11-w-oshitsukeru",
+      "n3-u14-w-fuzokuhin",
       "n4-u08-w-uketsuke",
       "n4-vocab-03-w-0345"
     ]
@@ -9787,6 +9877,7 @@
       "n3-u01-w-kurikaesu",
       "n3-u02-w-orikaesu",
       "n3-u10-w-kurikaeshi",
+      "n3-u14-w-henpin",
       "n4-u12-w-henkyaku",
       "n4-u12-w-henji",
       "n5-vocab-01-w-0151"
@@ -9832,7 +9923,8 @@
     "kun": "たもつ",
     "words": [
       "n3-u02-w-hozon",
-      "n3-u11-w-hokan"
+      "n3-u11-w-hokan",
+      "n3-u14-w-hoshou"
     ]
   },
   {
@@ -10241,7 +10333,8 @@
     "on": "マン、バン",
     "kun": "みちる、みつ、みたす",
     "words": [
-      "n3-u08-w-fuman"
+      "n3-u08-w-fuman",
+      "n3-u14-w-manzoku"
     ]
   },
   {
@@ -10331,6 +10424,7 @@
     "kun": "ない",
     "words": [
       "n3-u09-w-buji",
+      "n3-u14-w-musen",
       "n4-u11-w-muri",
       "n4-vocab-02-w-0171",
       "n5-vocab-03-w-0483"
@@ -10391,6 +10485,7 @@
     "words": [
       "tomorrow",
       "see-you",
+      "n3-u14-w-setsumeisho",
       "n4-u04-w-setumei",
       "n4-u09-w-akarui",
       "n4-u10-w-setsumei",
@@ -10639,6 +10734,7 @@
     "on": "ユウ、ウ",
     "kun": "ある",
     "words": [
+      "n3-u14-w-yuusen",
       "n5-u05-w-yuumei"
     ]
   },
@@ -10781,6 +10877,7 @@
     "kun": "さま、さん",
     "words": [
       "n3-u03-w-yousu",
+      "n3-u14-w-shiyou",
       "n4-vocab-07-w-0528"
     ]
   },
@@ -10805,6 +10902,8 @@
       "n3-u01-w-ouyou",
       "n3-u02-w-kyuuyou",
       "n3-u08-w-bukiyou",
+      "n3-u14-w-youto",
+      "n3-u14-w-jitsuyou",
       "n4-u08-w-youken",
       "n4-vocab-02-w-0149",
       "n4-vocab-02-w-0154",
@@ -10976,6 +11075,7 @@
     "on": "リ",
     "kun": "きく",
     "words": [
+      "n3-u14-w-riten",
       "n4-vocab-02-w-0149",
       "n5-vocab-04-w-0601"
     ]
@@ -11158,7 +11258,8 @@
     "on": "リョウ",
     "kun": "はかる",
     "words": [
-      "n3-u12-w-onryou"
+      "n3-u12-w-onryou",
+      "n3-u14-w-keiryou"
     ]
   },
   {

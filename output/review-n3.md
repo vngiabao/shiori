@@ -181,3 +181,15 @@ Two sixteen-word lessons, five notes with three original examples each, two ten-
 - Formation clozes name the requested pattern; the old-copula task is not incorrectly classified as a register decision. Only surface forms actually present retain recycling references.
 
 Passes: TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT, beginner ledger, five audio validators, preservation, focused unit-13 browser decode/playback/themes/accessibility, build and production offline playback. Light 1440 and dark 375 reading screenshots inspected. Earlier HEAD 23207d3 mappings, 5,586 synthesis records, 503 dialogue takes and 987 kanji/strokes unchanged. All 95 new WAVs referenced. Current 5,680 Clear keys / 5,692 records, 523 dialogues and 1,004 kanji references. Precache 1,358 entries / 12,365.60 KiB. Full browser milestone remains unit 12; next after unit 15. Native review pending; nothing deployed.
+
+
+## Unit 14 — specifications, impressions and sufficient conditions
+
+Two sixteen-word lessons, five notes with three original examples, two ten-line scenes at 1.10, a 274-character written review and 18 tasks. All 32 new dictionary pairs match. Each formation/use has independent publisher/teacher sources; numerical approximation is not misrepresented as an upper bound and equivalent addition patterns are not exclusive distractors.
+
+- Fictional A is wired, 180 g, 3,000 yen; B wireless, 220 g, 5,000 yen. Each is tried ten minutes in the same quiet room at the same volume. Outdoor performance remains untested. Warranty and opened-package return terms remain separate.
+- Negative comparison follows actual weights/prices, not universal product superiority. Even-in-room example is explicitly formation practice, not an extra trial observation. One sufficient condition is bounded by the already compatible device.
+- Both advantages and cable drawback are reported; Bao chooses A for home listening without buying it. Reading answers follow prices, trial scope and purchase status. Stem/na-adjective/noun formation tasks name their target.
+- Reviewed 戻して retrieves 戻す; earlier real surface references are preserved. All 90 new WAVs mapped. Prior HEAD be16c6d Clear records, 523 dialogue takes and 1,004 dictionary/stroke records unchanged. Current 5,782 Clear keys / 5,794 records, 543 dialogue takes and 1,008 kanji pages.
+
+TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT/ledger, five audio checks, preservation and focused browser decoding/playback/themes/accessibility pass. Light 1440 and dark 375 reading screenshots inspected. Build and production offline playback pass; precache 1,362 entries / 12,427.70 KiB. Native review pending; not deployed.

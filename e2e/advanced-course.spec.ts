@@ -96,6 +96,13 @@ for (const unit of [
       ["Understand the line beyond its ending", "n3-u13-d-reading", "A marked style still carries a meaning", "Read a bundle of character cues"],
     ],
   },
+  {
+    id: "n3-u14", reading: "A home-listening review, not a universal rating",
+    lessons: [
+      ["Read features and trial conditions", "n3-u14-d-compare", "Add a second feature, without denying the first", "Keep the comparison direction in a negative sentence"],
+      ["Choose for a purpose, with a stated condition", "n3-u14-d-decide", "Keep the comparison direction in a negative sentence", "Add a second feature, without denying the first"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
