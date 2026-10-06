@@ -1,6 +1,6 @@
 # N2 core editorial review
 
-6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–5 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
+6 October 2026. AI-assisted source and editorial checking, not independent native review. Units 1–6 are complete at this checkpoint; review the whole core after unit 16 before starting N1. Believable conversations take priority over numerical recycling. No earlier unit or recording may be discarded.
 
 ## Unit 1 — Written style
 
@@ -91,3 +91,16 @@ Applied fixes before final gates: supported order schema replaces two unsupporte
 Verification: TypeScript, 117 unit tests / 17 files, 24 Python source tests, content/JMdict/kanji/JLPT/beginner ledger, all five audio validators and preservation pass. All 24 new scene WAVs decode in browser; both lessons bind only their grammar and recordings. Both readings checked at 375/1440 in saved light/dark with accessibility/overflow checks; light 1440 inspected. Production build and real offline reload/playback pass (2026-10-06T21:43:20.941Z). All 7,701 prior Clear keys / 679 dialogue mappings intact, 125 historical takes retained; 109 new WAVs fully referenced. Current 7,830 Clear keys / 7,842 synthesis records / 703 dialogue takes / 1,186 kanji references. Precache 1,544 entries / 13,491.66 KiB. Native language/listening review pending; decoding/signal checks cannot certify listener-perceived pronunciation. No design/database/auth changes or production deployment.
 
 Next: N2 unit 6 business-email keigo. Core units precede the remaining decks.
+
+
+## Unit 6 — Business email: actor, request and deadline
+
+44 new restricted-JMdict-matched pairs; two lessons, four three-example notes, two twelve-line scenes, two original emails (444/435 Japanese characters) and twenty tasks. Two-source form briefs distinguish own-side recipient-directed humble acts, combined お/ご…いたす, permission for your own action and requests for the recipient to act. Culture Agency guidance controls category/context distinctions; publisher shorthand is not treated as an absolute rule. ASK's own teacher material demonstrates the extended request いただけますでしょうか; clearer shorter requests remain valid. Earlier keigo is retrieved in the N2 email genre, not labelled newly official N2 grammar.
+
+Strict editorial review: first scene is an ordinary colleague check of a four-page brochure. Map lettering must be enlarged; all four pages are attached. Client reply is requested by Friday at three, with an availability alternative. Printing has not been ordered; one hundred copies are proposed, not delivered. Mori will explain charges separately. The second call corrects a written weekday, not the actual visit: Thursday at two, client's second-floor meeting room, Mori and learner attending. Tamura explicitly permits use of a supplied table if its numbers remain readable. The correction email proposes thirty minutes and requests proposal review before Thursday; the separately sent brochure retains Friday at three. All six reading keys rely on explicit Japanese facts, not on implied compliance. All twenty task keys were reread for actor, permission, dates and alternatives. Form tasks state their constraint; register questions do not reject shorter valid polite variants. Ordering is constrained practice, not free production.
+
+Naturalness and support: colleagues use ordinary です/ます; external requests have a purpose and a choice. No unrelated deck words are forced into calls. Eight-percent recycling exception counts only actual references. All 58/55 context glosses occur in their own passage; they are reading aids, not mastery evidence. No design, database or auth change. Native language and listening review pending.
+
+Verification: TypeScript, 117 unit tests / 17 files, 24 Python source tests, content/JMdict/kanji/JLPT/ledger, five audio validators and preservation pass. All 24 new scene WAVs decode in the focused browser case. Both lessons bind their own grammar and audio; both readings checked at 375/1440 in saved light/dark with accessibility/overflow checks. Light 1440 inspected. Production build and real offline playback pass (2026-10-06T21:59:11.400Z). All 7,830 prior Clear keys / 703 dialogue mappings intact; 125 historical takes retained; 109 new WAVs fully mapped. Current 7,959 Clear keys / 7,971 synthesis records / 727 dialogue takes / 1,194 kanji references. Precache 1,553 entries / 13,568.45 KiB. Signal/decoding checks cannot certify perceived pronunciation. No production deployment.
+
+Next: N2 unit 7 phone and meetings; remaining core precedes decks.

@@ -157,6 +157,14 @@ for (const unit of [
       ["A response and an accompanying change", "n2-u05-d-bus", "Find the event and the response", "Name the source of a report"],
     ],
   },
+  {
+    id: "n2-u06", reading: "Request a review before ordering the printing",
+    secondReading: "Correct the weekday, keep two deadlines separate",
+    lessons: [
+      ["Send a clear request for review", "n2-u06-d-review", "Offer an action towards the recipient", "Ask to perform an action yourself"],
+      ["Correct an error and ask permission", "n2-u06-d-correction", "Ask to perform an action yourself", "Offer an action towards the recipient"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

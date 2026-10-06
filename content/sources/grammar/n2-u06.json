@@ -1,0 +1,60 @@
+{
+  "unit": "n2-u06",
+  "checkedAt": "2026-10-06",
+  "status": "Form-specific primary-source research, internal editorial review, content/dictionary/audio/preservation/browser/build and production offline gates passed; native review pending.",
+  "method": "Read each source's formation or usage section. Culture Agency explanations and its published guidance are one institutional source, not two independent sources. Publisher tags are estimates. Original examples, work scenes and emails are not copied textbook exercises.",
+  "points": [
+    {
+      "form": "お〜する / ご〜する",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://bunpro.jp/grammar_points/お-する",
+        "https://www.mlcjapanese.co.jp/Download/Keigo.pdf"
+      ],
+      "formation": "Suitable verb stem with お…する; suitable Sino-Japanese する-noun with ご…する. Prefix exceptions include お電話. Established special forms are lexical, not universally template-built.",
+      "teachingChoice": "Respect the recipient of your side's act. Ask who sends/checks; a respected third party can differ from the listener. Bunpro's N4 tag makes this retrieval applied to email, not a new official N2 form.",
+      "sourceCaution": "Bunpro's shorthand speaker/listener dichotomy is too narrow; the official account includes own-side actors and third-party recipients. MLC's compact table combines categories; do not copy its three-column taxonomy as the official five-category system."
+    },
+    {
+      "form": "ご〜いたす / お〜いたす",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/93927001_09.pdf",
+        "https://jp.ikuchannel.com/articles/keigo-regular-forms-oninaru",
+        "https://www.mlcjapanese.co.jp/Download/Keigo.pdf"
+      ],
+      "formation": "ご + appropriate verbal noun + いたす; お + appropriate stem + いたす. Polite いたします.",
+      "teachingChoice": "The Agency PDF at pages 22/30 describes combined 謙譲I/丁重II. Use your side's explanation to a client; do not call the combination automatically wrong double keigo.",
+      "sourceCaution": "A more formal option is not always the best internal-colleague wording. Do not generalise the template to every verb."
+    },
+    {
+      "form": "させていただく",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://bunpro.jp/grammar_points/させてもらう"
+      ],
+      "formation": "Causative て-form + いただく; potential question いただけますか. 使う→使わせて, する→させて, 来る→来させて (こさせて).",
+      "teachingChoice": "Your action under another's permission, with benefit or felt benefit. A client-supplied table gives a concrete permission case. Contrast recipient checking with speaker checking.",
+      "sourceCaution": "The Agency recognises variation and imagined permission/benefit; avoid a blanket wrong/right ban. Bunpro's double-keigo warning is not a universal rule."
+    },
+    {
+      "form": "いただけますか / いただけませんか / いただけますでしょうか",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://bunpro.jp/grammar_points/ていただけませんか",
+        "https://www.ask-books.com/jp/omotenashi/TM/TM_L5S1.pdf"
+      ],
+      "formation": "て-form + potential polite request; regular お/ご-stem + いただけますか. The longer ますでしょうか request is demonstrated in ASK's own teacher material, page 93 in print / PDF page 3.",
+      "teachingChoice": "Requests leave the recipient a choice; いただきます can state an arrangement. Teach shorter alternatives as valid. The longer form is recognised usage, not universally ungrammatical or always better.",
+      "sourceCaution": "ASK supplies an authentic pedagogical usage example, not a general prescription for email style. No multiple-choice task rejects a valid shorter request just to force でしょうか."
+    }
+  ],
+  "editorialReview": {
+    "newPairs": 44,
+    "readingCharacters": [
+      444,
+      435
+    ],
+    "sceneChoice": "A practical four-page brochure review and a client call correcting a weekday and asking permission to include a table. Colleagues speak naturally; external email is appropriately formal.",
+    "remaining": "Whole N2 core review after unit 16 and independent native sentence/listening review."
+  }
+}
