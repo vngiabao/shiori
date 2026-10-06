@@ -698,6 +698,10 @@
       "n3-u12-w-onryou",
       "n3-u14-w-zatsuon",
       "n3-u14-w-souon",
+      "n3-u15-w-giongo",
+      "n3-u15-w-ashioto",
+      "n3-u15-w-monooto",
+      "n3-u15-w-koukaon",
       "n4-u09-w-oto",
       "n4-u11-w-hatsuon",
       "n5-vocab-01-w-0140"
@@ -848,6 +852,7 @@
       "n3-u01-w-kouka",
       "n3-u09-w-inga",
       "n3-u09-w-ingakankei",
+      "n3-u15-w-koukaon",
       "n4-u11-w-kekka",
       "n5-vocab-02-w-0220"
     ]
@@ -1434,6 +1439,16 @@
     ]
   },
   {
+    "char": "汗",
+    "meaning": "sweat; perspire",
+    "components": "",
+    "on": "カン",
+    "kun": "あせ",
+    "words": [
+      "n3-u15-w-ase"
+    ]
+  },
+  {
     "char": "漢",
     "meaning": "Sino-; China",
     "components": "",
@@ -1830,6 +1845,17 @@
     "words": [
       "n3-u03-w-engi",
       "n4-vocab-03-w-0294"
+    ]
+  },
+  {
+    "char": "擬",
+    "meaning": "mimic; aim (a gun) at; nominate; imitate",
+    "components": "",
+    "on": "ギ",
+    "kun": "まがい、もどき",
+    "words": [
+      "n3-u15-w-giongo",
+      "n3-u15-w-gitaigo"
     ]
   },
   {
@@ -2499,6 +2525,7 @@
     "on": "ケイ",
     "kun": "",
     "words": [
+      "n3-u15-w-haikei",
       "n4-vocab-02-w-0256"
     ]
   },
@@ -3155,7 +3182,8 @@
     "kun": "きく、ききめ、ならう",
     "words": [
       "n3-u01-w-kouka",
-      "n3-u01-w-kouritsu"
+      "n3-u01-w-kouritsu",
+      "n3-u15-w-koukaon"
     ]
   },
   {
@@ -4242,7 +4270,8 @@
     "kun": "みる",
     "words": [
       "n3-u05-w-shiten",
-      "n3-u12-w-shichou"
+      "n3-u12-w-shichou",
+      "n3-u15-w-shisen"
     ]
   },
   {
@@ -4577,6 +4606,7 @@
     "kun": "うつす、うつる、うつ、うつし",
     "words": [
       "n3-u11-w-fukusha",
+      "n3-u15-w-byousha",
       "n4-vocab-03-w-0346",
       "n5-u06-w-shashin"
     ]
@@ -4712,6 +4742,7 @@
     "on": "ジャク、セキ",
     "kun": "さび、さびしい、さびれる、さみしい",
     "words": [
+      "n3-u15-w-seijaku",
       "n4-vocab-02-w-0285"
     ]
   },
@@ -5079,6 +5110,7 @@
       "n3-u02-w-gaishutsu",
       "n3-u11-w-mochidasu",
       "n3-u11-w-moushideru",
+      "n3-u15-w-fukidashi",
       "n4-u03-w-shuppatsu",
       "n4-u04-w-teishutsu",
       "n4-u12-w-teishutsu",
@@ -5939,6 +5971,7 @@
     "kun": "ふく",
     "words": [
       "n3-u12-w-fukikae",
+      "n3-u15-w-fukidashi",
       "n5-vocab-04-w-0581"
     ]
   },
@@ -6202,6 +6235,7 @@
     "kun": "しず、しずか、しずまる、しずめる",
     "words": [
       "n3-u08-w-reisei",
+      "n3-u15-w-seijaku",
       "n4-u09-w-shizuka",
       "n5-u05-w-shizuka"
     ]
@@ -6474,6 +6508,7 @@
     "words": [
       "n3-u14-w-musen",
       "n3-u14-w-yuusen",
+      "n3-u15-w-shisen",
       "n4-u08-w-naisen",
       "n4-vocab-02-w-0179",
       "n5-u10-w-shinkansen"
@@ -6850,6 +6885,7 @@
       "n3-u04-w-ashiato",
       "n3-u10-w-nebusoku",
       "n3-u14-w-manzoku",
+      "n3-u15-w-ashioto",
       "n4-vocab-02-w-0168",
       "n4-vocab-03-w-0350",
       "n5-vocab-01-w-0016"
@@ -7054,7 +7090,8 @@
     "on": "タイ",
     "kun": "わざと",
     "words": [
-      "n3-u05-w-taido"
+      "n3-u05-w-taido",
+      "n3-u15-w-gitaigo"
     ]
   },
   {
@@ -7760,6 +7797,16 @@
       "n4-u04-w-naosu",
       "n4-u10-w-naosu",
       "n4-vocab-04-w-0533"
+    ]
+  },
+  {
+    "char": "沈",
+    "meaning": "sink; be submerged; subside; be depressed; aloes",
+    "components": "",
+    "on": "チン、ジン",
+    "kun": "しずむ、しずめる",
+    "words": [
+      "n3-u15-w-chinmoku"
     ]
   },
   {
@@ -8824,6 +8871,7 @@
     "on": "ハイ",
     "kun": "せ、せい、そむく、そむける",
     "words": [
+      "n3-u15-w-haikei",
       "n4-vocab-04-w-0560",
       "n5-u07-w-segatakai",
       "n5-vocab-05-w-0350",
@@ -8916,6 +8964,7 @@
     "on": "ハク、ビャク",
     "kun": "しろ、しら、しろい",
     "words": [
+      "n3-u15-w-yohaku",
       "n5-vocab-01-w-0136",
       "n5-vocab-03-w-0326",
       "n5-vocab-05-w-0325"
@@ -9343,6 +9392,16 @@
     ]
   },
   {
+    "char": "描",
+    "meaning": "sketch; compose; write; draw; paint",
+    "components": "",
+    "on": "ビョウ",
+    "kun": "えがく、かく",
+    "words": [
+      "n3-u15-w-byousha"
+    ]
+  },
+  {
     "char": "病",
     "meaning": "ill; sick",
     "components": "",
@@ -9649,6 +9708,7 @@
       "n3-u03-w-toujoujinbutsu",
       "n3-u13-w-jinbutsu",
       "n3-u13-w-monogatari",
+      "n3-u15-w-monooto",
       "n4-u06-w-otoshimono",
       "n4-vocab-01-w-0071",
       "n4-vocab-01-w-0128",
@@ -10539,6 +10599,16 @@
     ]
   },
   {
+    "char": "黙",
+    "meaning": "silence; become silent; stop speaking; leave as is",
+    "components": "",
+    "on": "モク、ボク",
+    "kun": "だまる、もだす",
+    "words": [
+      "n3-u15-w-chinmoku"
+    ]
+  },
+  {
     "char": "目",
     "meaning": "eye; class; look; insight; experience; care; favor",
     "components": "",
@@ -10829,6 +10899,7 @@
     "kun": "あまる、あまり、あます、あんまり",
     "words": [
       "n3-u06-w-yobun",
+      "n3-u15-w-yohaku",
       "n4-u04-w-yoyuu",
       "n5-vocab-01-w-0037"
     ]
@@ -11315,6 +11386,16 @@
     ]
   },
   {
+    "char": "涙",
+    "meaning": "tears; sympathy",
+    "components": "",
+    "on": "ルイ、レイ",
+    "kun": "なみだ",
+    "words": [
+      "n3-u15-w-namida"
+    ]
+  },
+  {
     "char": "類",
     "meaning": "sort; kind; variety; class; genus",
     "components": "",
@@ -11554,6 +11635,16 @@
     "kun": "まどう",
     "words": [
       "n3-u08-w-tomadou"
+    ]
+  },
+  {
+    "char": "枠",
+    "meaning": "frame; framework; spindle; spool; bounding-box; (kokuji)",
+    "components": "",
+    "on": "",
+    "kun": "わく",
+    "words": [
+      "n3-u15-w-waku"
     ]
   },
   {

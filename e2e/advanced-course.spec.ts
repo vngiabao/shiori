@@ -103,6 +103,13 @@ for (const unit of [
       ["Choose for a purpose, with a stated condition", "n3-u14-d-decide", "Keep the comparison direction in a negative sentence", "Add a second feature, without denying the first"],
     ],
   },
+  {
+    id: "n3-u15", reading: "Four panels: the umbrella and the late arrival",
+    lessons: [
+      ["Read bubbles and printed effects", "n3-u15-d-page", "Separate a line from a printed effect", "Read the word with the action it modifies"],
+      ["Recover a casual line from its context", "n3-u15-d-context", "Read the word with the action it modifies", "Separate a line from a printed effect"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -164,6 +171,11 @@ for (const unit of [
     if (!(await region.isVisible())) await page.getByText(unit.reading, { exact: true }).first().click();
     await expect(region).toBeVisible();
     await expect(region.locator("ruby")).toHaveCount(0);
+    if (unit.id === "n3-u15") {
+      await expect(region.locator("section.notice-note")).toHaveCount(4);
+      await expect(region.getByText("Sound effect:", { exact: true })).toHaveCount(5);
+      await expect(region.getByText("Yui:", { exact: true })).toHaveCount(3);
+    }
     await region.getByRole("button", { name: /furigana/i }).click();
     expect(await region.locator("ruby").count()).toBeGreaterThan(0);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

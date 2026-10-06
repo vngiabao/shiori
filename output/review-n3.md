@@ -193,3 +193,15 @@ Two sixteen-word lessons, five notes with three original examples, two ten-line 
 - Reviewed 戻して retrieves 戻す; earlier real surface references are preserved. All 90 new WAVs mapped. Prior HEAD be16c6d Clear records, 523 dialogue takes and 1,004 dictionary/stroke records unchanged. Current 5,782 Clear keys / 5,794 records, 543 dialogue takes and 1,008 kanji pages.
 
 TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT/ledger, five audio checks, preservation and focused browser decoding/playback/themes/accessibility pass. Light 1440 and dark 375 reading screenshots inspected. Build and production offline playback pass; precache 1,362 entries / 12,427.70 KiB. Native review pending; not deployed.
+
+
+## Unit 15 — a printed effect is not a speaker's line
+
+Two sixteen-word lessons, five notes with three original examples each, two ten-line scenes at 1.10, a 266-character original four-panel comic and eighteen tasks. All 32 target pairs match the pinned dictionary. Japan Foundation notation guidance, NINJAL and independent teacher explanations cross-check the conventions; source simplifications and access limits are recorded rather than silently copied.
+
+- Terminal small っ is an abrupt cutoff, not a separately spoken つ. Drawn-out reactions are separated from accurate kana drills. Some mimetics cross categories; no universal sound/state or hiragana/katakana rule is imposed.
+- Restoring を recovers the umbrella as object. The later panel confirms Yui's ownership, Kenta's bread purchase and lateness, wet clothes without injury, and his separately dated lounging/sleeping at home. Reactions, questions, tears and sweat are not unique evidence of their cause.
+- Printed effects are explicitly labelled outside speech. Five effect-label lines include one grouped line; the browser assertion was corrected from six to five without altering the content or layout. Dialogue casts and recorded lines remain bound to their real IDs.
+- Only genuinely present earlier surfaces retain recycling references; additional linking and contracted forms are explicitly glossed. Clozes name the requested form rather than scoring equivalent expressions as wrong.
+
+Passes: TypeScript, 112 unit tests, 24 Python source tests, content/dictionary/kanji/JLPT/ledger, five audio validators, preservation, build and production offline playback. The full browser run passed 54 cases; the one incorrect test-count assertion was fixed and its unit-15 case passed on rerun. Light 1440 and dark 375 screenshots inspected. All 95 new WAV files mapped. Prior HEAD 78a0dff's 5,782 Clear keys, 5,794 synthesis records, 543 dialogue takes and 1,008 kanji/strokes preserved. Current 5,871 keys / 5,883 records, 563 dialogues and 1,015 kanji pages. Precache 1,369 entries / 12,490.24 KiB. Native review pending; nothing deployed.

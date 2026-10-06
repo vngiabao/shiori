@@ -57,4 +57,5 @@ import pack53 from "../../content/packs/n3-u11.json";
 import pack54 from "../../content/packs/n3-u12.json";
 import pack55 from "../../content/packs/n3-u13.json";
 import pack56 from "../../content/packs/n3-u14.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20, pack21, pack22, pack23, pack24, pack25, pack26, pack27, pack28, pack29, pack30, pack31, pack32, pack33, pack34, pack35, pack36, pack37, pack38, pack39, pack40, pack41, pack42, pack43, pack44, pack45, pack46, pack47, pack48, pack49, pack50, pack51, pack52, pack53, pack54, pack55, pack56] as unknown as Pack[];
+import pack57 from "../../content/packs/n3-u15.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20, pack21, pack22, pack23, pack24, pack25, pack26, pack27, pack28, pack29, pack30, pack31, pack32, pack33, pack34, pack35, pack36, pack37, pack38, pack39, pack40, pack41, pack42, pack43, pack44, pack45, pack46, pack47, pack48, pack49, pack50, pack51, pack52, pack53, pack54, pack55, pack56, pack57] as unknown as Pack[];
