@@ -33,6 +33,13 @@ for (const unit of [
       ["Explain the result; choose the responsible action", "n3-u04-d-record", "Recommend a responsible action", "An expectation with grounds"],
     ],
   },
+  {
+    id: "n3-u05", reading: "Three opinions are not everybody’s opinion",
+    lessons: [
+      ["Topic, target and two viewpoints", "n3-u05-d-opinions", "Name the topic of a discussion", "Read what によって connects"],
+      ["A survey has a scope", "n3-u05-d-survey", "Read what によって connects", "Name the topic of a discussion"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {

@@ -1,6 +1,6 @@
 # N3 editorial review
 
-Updated 6 October 2026. Only units 1–4 are authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
+Updated 6 October 2026. Only units 1–5 are authored. This is an AI-assisted internal review, not independent native review, complete N3 coverage or JLPT readiness.
 
 ## Unit 1 — Getting better at it
 
@@ -61,3 +61,17 @@ Two sixteen-word lessons; four formation notes with three examples and a common 
 - Noun のはず, direct に違いない, な-adjective なわけ and dictionary verb + べきでした are explicitly named form tasks. Grammatical overlap does not create competing comprehension keys. Wider negative わけ constructions are deferred.
 
 TypeScript, 112 unit tests, content/dictionary/kanji/JLPT gates, five audio validators, browser lesson/reading checks and production build/offline playback pass. All 90 added WAV files are mapped; 4,673 prior Clear keys, 4,685 prior synthesis records and 323 dialogue takes are preserved. Browser decodes all twenty new scene takes, verifies both lessons’ own notes, and checks saved themes/support/axe/overflow at 375/1440. Screenshots inspected. These checks do not certify native pronunciation or naturalness. Grammar-task metadata is not independent lexical mastery.
+
+
+## Unit 5 — topic, target, viewpoint and a survey’s scope
+
+Two sixteen-word lessons; four notes with complete attachments and three or four original examples; two ten-line scenes; a 214-character opinion message; sixteen tasks. Thirty-two new pairs match the pinned dictionary. The viewpoint note is bound to both lessons because its use is tested in the first scene; topic/target belong to lesson one, dependence/method to lesson two. This is deliberate retrieval, not a fifth new grammar note.
+
+- Replaced untaught early 要望 in the first scene with existing 質問. Replaced early によって with familiar で until its lesson, and an untaught negative わけ construction with an explicit という意味ではありません paraphrase.
+- Replaced two less useful planned words with 字幕 and 画面, which the learner actually needs in these scenes. Added explicit reading support for 読む, ケンタ, 案, たち and 数; surface coverage is still supported work, not a claim of independent knowledge.
+- Removed unrelated previous-unit credits from scenes and form exercises. Added actual 調査 and 作業 references in the survey/check sequence, reaching the recycling target with real text rather than guessed aliases.
+- Listening keys distinguish Bao’s reading-first preference, Kenta’s listening-first preference, shared selectable subtitles, the three-person survey scope and a pending screen check.
+- Reading keys state the shared proposal, the limit on generalising and the next comparison. No public consensus, completed screen check, exam readiness or causal learning gain is invented.
+- Topic/target attachments and the two noun modifiers are explicitly named form tasks; no competing natural synonym is marked wrong. Viewpoint differs from topic/recipient. によって’s four functions are labelled; によると is not silently substituted.
+
+Old clips, mapping records and stroke bytes are preserved. All 87 new WAV files are mapped. TypeScript, 112 unit tests, content/dictionary/JLPT, five audio validators, focused browser and production build/offline checks pass. Browser decodes twenty new dialogue files and checks both lessons plus the message at 375/1440 in saved light/dark themes with axe and overflow checks; screenshots inspected. Native listening/naturalness remains pending. Full level review remains pending.
