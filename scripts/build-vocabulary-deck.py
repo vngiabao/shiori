@@ -114,8 +114,8 @@ def main():
         assert example.rstrip('」』').endswith('。') and len(plain(example))>5 and translation.strip(), ('Incomplete example',text)
         word_id = f'{deck}-w-{source_row:04}'
         url = f"https://github.com/jamsinclair/open-anki-jlpt-decks/blob/{provenance['revision']}/src/{level}.csv#L{source_row}"
-        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる','ご存じ','拝見','頂く','いただく'] or (text=='私' and reading=='わたくし') else 'casual' if text in ['あっち','そっち','どっち','こっち','パパ','君','やる','みんな','うまい']
-                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い'] else 'neutral')
+        register = ('formal' if text in ['申し上げる','差し上げる','おいでになる','ご存じ','拝見','頂く','いただく','お目に掛かる'] or (text=='私' and reading=='わたくし') else 'casual' if text in ['あっち','そっち','どっち','こっち','パパ','君','やる','みんな','うまい']
+                    else 'polite' if text in ['あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い','方々'] else 'neutral')
         words.append(dict(id=word_id,text=text,kana=reading,romaji=romaji,meaning=meaning,register=register,
                           example=plain(example),exampleRuby=example,exampleMeaning=translation,pitch=None,jlpt=None,
                           parts=parts(ruby),source=url))

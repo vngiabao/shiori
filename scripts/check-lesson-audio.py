@@ -6,6 +6,7 @@ root=Path(__file__).resolve().parent.parent
 p=json.loads((root/'content/voices/lesson-provenance.json').read_text(encoding='utf-8'))
 m=json.loads((root/'src/generated/audio.json').read_text(encoding='utf-8'))
 records=p['records'];indexed={r['url']:r for r in records}
+by_text_url={(r['text'],r['url']):r for r in records}
 assert set(m.values())<=set(indexed)
 pairs={(r['text'],r['url']) for r in records}
 for text,url in m.items():
@@ -15,7 +16,10 @@ if reading_path.exists():
     overrides=json.loads(reading_path.read_text(encoding='utf-8'))
     assert len({e['text'] for e in overrides['entries']})==len(overrides['entries'])
     for entry in overrides['entries']:
-        row=indexed[m[entry['text']]]
+        # Different written forms may legitimately share identical PCM (金 and
+        # 鐘 both read かね here). Validate the selected text's synthesis input,
+        # rather than an unrelated last record that happens to share its URL.
+        row=by_text_url[(entry['text'],m[entry['text']])]
         assert row['readingInput']==entry['readingInput'],('Contextual reading ignored',entry['text'])
         moras=''.join(t['text'] for a in row['query']['accent_phrases'] for t in a['moras'])
         assert moras==entry['expectedMoras'],('Contextual pronunciation changed',entry['text'],moras)

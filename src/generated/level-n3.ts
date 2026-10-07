@@ -20,4 +20,6 @@ import pack16 from "../../content/packs/n3-vocab-01.json";
 import pack17 from "../../content/packs/n3-vocab-02.json";
 import pack18 from "../../content/packs/n3-vocab-03.json";
 import pack19 from "../../content/packs/n3-vocab-04.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19] as unknown as Pack[];
+import pack20 from "../../content/packs/n3-vocab-05.json";
+import pack21 from "../../content/packs/n3-vocab-06.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20, pack21] as unknown as Pack[];

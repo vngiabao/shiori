@@ -2,6 +2,18 @@
 
 Updated 2026-10-07. Authorized scope: N4 → N3 → N2 → N1 → twelve workplace-keigo scenarios, then deploy to shiori.gbaonvo.com. Chinese stays read-only. Preserve design, auth, database identity and recordings. A separate backup branch may be pushed only after verifying that it cannot trigger a production deployment; otherwise keep local commits and record the uncertainty. Final deploy and removal of Shiori's extra Access gate authorized after completion.
 
+## Active deck/bank work — 2026-10-07
+
+Core checkpoint cffee4606c403f26147adcd5a33263e7aa5ad810 is backed up to origin/course-build; exact remote HEAD verified. Next preservation baseline is cffee46. Main production remains untouched.
+
+N3 decks 05 and 06 are authored, compiled and rendered (200 new form records / examples, 26 lessons). All nine new exact-key pronunciation inputs were queried and inspected before generation. Deck05 fixes 母/箱 lexical h and 王's long o; deck06 fixes 金's selected かね and two topic は pronunciations. 機械/器械 share pinned JMdict entry1220810; the explicit alias decision treats them as related spelling/form records, not two independent words. Existing recordings are preserved: cffee46's 11,984 Clear keys / 1,695 scene mappings unchanged; 365 new WAVs referenced / 133 historical takes. Current Clear 12,529 keys / 12,541 synthesis records. Kanji references now 1,468.
+
+Final deck gates PASS: 130 unit tests / twenty files, 24 Python tests, content/JMdict/JLPT294/ledger, five audio validators, production build, three focused browser cases and real interrupted-download/retry/offline verification. Report 2026-10-07T11:33:37.879Z: twenty cached course chunks, 100 teacher clips, 1,695 scene clips, 3,234 deck audio URLs and twenty-four deck examples played. Precache 1,824 entries / 12,667.95 KiB. Current inventory 105 packs / 4,392 entries / 371 lessons / 1,468 kanji references. Earlier session7354 failed at the checker false positive; corrected checker and final session66264 exit0 are authoritative.
+
+N2 bank expansion is PREPARED ONLY in ignored output/author-n2-bank.py: 78 original answer-first additions (18 vocabulary/18 grammar/18reading +8 per timed written section), all IDs noncolliding. Thirteen reading pairs verified against the pinned restricted JMdict; no mismatches. The short passages are supplemental written practice, not full calibrated exams. Arrays and counts checked, but canonical questions.json/bank-sizes.json are UNCHANGED. After deck checkpoint/review, finish editorial/formation review, copy helper to scripts/author-n2-bank.py, run it once, preserve all294 historical question objects, update provenance/review, add N2 rotation/reload browser coverage and gates. Then N1 bank and remaining many N3/N2/N1 source-backed decks. Do not deploy yet.
+
+Do not rerun output/checkpoint-keigo-core.py (it prepends historical snapshots again), author helpers over canonical corrections, pin-deck5.py/pin-deck6.py or alias-deck6.py (they assert additions are new). Query helper output/query-deck.py is reusable; it skips already mapped keys. Core final U11 courtesy line is compiled/recorded and verified.
+
 ## All twelve workplace-keigo scenarios verified — 2026-10-07
 
 All core units N5/N4/N3/N2/N1 and all twelve workplace scenarios are authored and internally checked; native review remains pending. Keigo adds 248 restricted-JMdict spelling/reading pairs, twelve lessons, 36 notes / 108 examples, 24 scenes / 238 lines, twelve documents and 168 contextual tasks. The last scenarios cover interviews, client visits and seasonal greetings without implying a job offer, an approved extra order or a decided future price.
@@ -12,7 +24,7 @@ Offline saving now recovers from a failed connection: the button re-enables, fin
 
 Current inventory: 103 packs / 4,192 entries / 345 lessons / 289 notes / 167 scenes / 96 genre readings (46,620 characters) / 1,435 kanji references. These are authored records, not learned vocabulary or proficiency evidence.
 
-Exact next: finish remaining source-backed N3/N2/N1 vocabulary/kanji decks and N2/N1 written banks, final cross-course review/checks, then the already-authorised migration, push/deploy and removal of only Shiori's Access gate. Draft n3-vocab-05.txt and its small compiler register additions are NOT yet installed or verified. Preserve design, auth, data and old audio; backup only course-build before completion, never main. Native listening/editor review and the owner's two-device sync test remain separate.
+Exact next: finish remaining source-backed N3/N2/N1 vocabulary/kanji decks and N2/N1 written banks, final cross-course review/checks, then the already-authorised migration, push/deploy and removal of only Shiori's Access gate. Deck05 and06 have since been installed and verified; see the newer checkpoint above. Preserve design, auth, data and old audio; backup only course-build before completion, never main. Native listening/editor review and the owner's two-device sync test remain separate.
 
 
 ## Earlier verified checkpoints

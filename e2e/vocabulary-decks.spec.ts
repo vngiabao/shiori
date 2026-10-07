@@ -146,6 +146,11 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "彼が同じ映画を好きだと知って、意外に思いました。",
       "I was surprised to learn that he liked the same film.",
     ],
+    [
+      5,
+      "犬がボールを追って走りました。",
+      "The dog ran after the ball.",
+    ],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");

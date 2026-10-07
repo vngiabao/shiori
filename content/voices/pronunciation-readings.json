@@ -420,6 +420,69 @@
       "expectedMoras": "キュウネンチュウワオセワニナリマシタ",
       "unit": "keigo-u12",
       "reason": "The authored previous-year span is きゅうねんちゅう; retain topic-particle wa. Full new-key query inspected; native intonation review remains separate."
+    },
+    {
+      "text": "母に、この料理の作り方を教わりました。",
+      "readingInput": "母に、このりょうりのつくりかたをおそわりました。",
+      "expectedMoras": "ハハニコノリョオリノツクリカタオオソワリマシタ",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "犬が箱のにおいを嗅いでいました。",
+      "readingInput": "いぬが箱のにおいをかいでいました。",
+      "expectedMoras": "イヌガハコノニオイオカイデイマシタ",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "王様",
+      "readingInput": "おーさま",
+      "expectedMoras": "オオサマ",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "おうさま",
+      "readingInput": "おーさま",
+      "expectedMoras": "オオサマ",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "物語の王様は、小さな村を訪ねます。",
+      "readingInput": "ものがたりのおーさまは、ちいさなむらをたずねます。",
+      "expectedMoras": "モノガタリノオオサマワチイサナムラオタズネマス",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "昔、この国を治めた王について調べました。",
+      "readingInput": "むかし、このくにをおさめたおーについてしらべました。",
+      "expectedMoras": "ムカシコノクニオオサメタオオニツイテシラベマシタ",
+      "unit": "n3-vocab-05",
+      "reason": "Pre-render query review: lexical は in 母/箱 must not become particle わ; 王 has a long o vowel. Exact corrected mora sequence inspected; native intonation review remains separate."
+    },
+    {
+      "text": "金",
+      "readingInput": "かね",
+      "expectedMoras": "カネ",
+      "unit": "n3-vocab-06",
+      "reason": "Pre-render query review: selected money reading 金→かね, and topic は after 彼 must be わ. Exact corrected mora sequence inspected; intonation remains subject to native listening review."
+    },
+    {
+      "text": "私の考えを聞いてから、彼は自分の意見を話しました。",
+      "readingInput": "わたしのかんがえをきいてから、かれわじぶんのいけんをはなしました。",
+      "expectedMoras": "ワタシノカンガエオキイテカラカレワジブンノイケンオハナシマシタ",
+      "unit": "n3-vocab-06",
+      "reason": "Pre-render query review: selected money reading 金→かね, and topic は after 彼 must be わ. Exact corrected mora sequence inspected; intonation remains subject to native listening review."
+    },
+    {
+      "text": "彼は手先が器用で、小さな模型を作ります。",
+      "readingInput": "かれわてさきがきようで、ちいさなもけいをつくります。",
+      "expectedMoras": "カレワテサキガキヨオデチイサナモケイオツクリマス",
+      "unit": "n3-vocab-06",
+      "reason": "Pre-render query review: selected money reading 金→かね, and topic は after 彼 must be わ. Exact corrected mora sequence inspected; intonation remains subject to native listening review."
     }
   ]
 }
