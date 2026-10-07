@@ -38,7 +38,7 @@ const result = {
   kanjiReferencePages: kanji.length,
   reviewedPacks: packs.filter((p) => p.status === "reviewed").length,
   jlptMappedWords: words.filter((w) => w.jlpt !== null).length,
-  professionalModules: 0,
+  professionalModules: packs.filter((p) => /^keigo-u\d+$/.test(p.id)).length,
   unseenExamSets: 0,
 };
 fs.mkdirSync("output", { recursive: true });

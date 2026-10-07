@@ -1,0 +1,1945 @@
+{
+  "deck": "n3-vocab-11",
+  "communityLevel": "N3",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n3.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n3.csv",
+    "sha256": "ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "96d749f97e845f98ac05cca9234d805e42059a56edff34a3349862cefe8176a7",
+  "sourceDraftSha256": "156febc81f05de67e0bc5bff59a2ddb6315f63dcd669e5bafe15f8a91d0a92da",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "forms": [
+        "球",
+        "弾"
+      ],
+      "reason": "Pinned JMdict1240530 lists both under たま but marks sport-ball sense especially 球 and bullet sense especially 弾. Ball and fictional ammunition examples teach context-specific senses, not absolute spelling rules; shared readings do not imply identical meanings."
+    }
+  ],
+  "words": [
+    {
+      "id": "n3-vocab-11-w-1377",
+      "sourceRow": 1377,
+      "original": {
+        "expression": "大部分",
+        "reading": "だいぶぶん",
+        "meaning": "most part, majority",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "xCOUr6=j:7"
+      },
+      "selected": {
+        "text": "大部分",
+        "kana": "だいぶぶん"
+      },
+      "dictionaryEntryIds": [
+        "1414850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1378",
+      "sourceRow": 1378,
+      "original": {
+        "expression": "タイプライター",
+        "reading": "タイプライター",
+        "meaning": "typewriter",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "wfroZ+;inq"
+      },
+      "selected": {
+        "text": "タイプライター",
+        "kana": "タイプライター"
+      },
+      "dictionaryEntryIds": [
+        "1075960"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1379",
+      "sourceRow": 1379,
+      "original": {
+        "expression": "逮捕",
+        "reading": "たいほ",
+        "meaning": "arrest, apprehension, capture",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "mP*P.Zr^,5"
+      },
+      "selected": {
+        "text": "逮捕",
+        "kana": "たいほ"
+      },
+      "dictionaryEntryIds": [
+        "1411470"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1381",
+      "sourceRow": 1381,
+      "original": {
+        "expression": "ダイヤ",
+        "reading": "ダイヤ",
+        "meaning": "(railway) schedule; diamond",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "u65Ybwgo>d"
+      },
+      "selected": {
+        "text": "ダイヤ",
+        "kana": "ダイヤ"
+      },
+      "dictionaryEntryIds": [
+        "1076860",
+        "2855660"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1382",
+      "sourceRow": 1382,
+      "original": {
+        "expression": "太陽",
+        "reading": "たいよう",
+        "meaning": "sun",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "Ods5M>&o#p"
+      },
+      "selected": {
+        "text": "太陽",
+        "kana": "たいよう"
+      },
+      "dictionaryEntryIds": [
+        "1408370"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1383",
+      "sourceRow": 1383,
+      "original": {
+        "expression": "平ら",
+        "reading": "たいら",
+        "meaning": "flatness, level, smooth",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "CCHa|.m;y*"
+      },
+      "selected": {
+        "text": "平ら",
+        "kana": "たいら"
+      },
+      "dictionaryEntryIds": [
+        "1506930",
+        "2839880"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1384",
+      "sourceRow": 1384,
+      "original": {
+        "expression": "代理",
+        "reading": "だいり",
+        "meaning": "representation, proxy, deputy",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "`LJ^*Zc6."
+      },
+      "selected": {
+        "text": "代理",
+        "kana": "だいり"
+      },
+      "dictionaryEntryIds": [
+        "1412400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1385",
+      "sourceRow": 1385,
+      "original": {
+        "expression": "大陸",
+        "reading": "たいりく",
+        "meaning": "continent",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.8",
+        "guid": "j9v8D@q,-`"
+      },
+      "selected": {
+        "text": "大陸",
+        "kana": "たいりく"
+      },
+      "dictionaryEntryIds": [
+        "1415150"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1386",
+      "sourceRow": 1386,
+      "original": {
+        "expression": "倒す",
+        "reading": "たおす",
+        "meaning": "to throw down, to beat",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "O)2K@u<S75"
+      },
+      "selected": {
+        "text": "倒す",
+        "kana": "たおす"
+      },
+      "dictionaryEntryIds": [
+        "1445770",
+        "2644840"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1387",
+      "sourceRow": 1387,
+      "original": {
+        "expression": "タオル",
+        "reading": "タオル",
+        "meaning": "(hand) towel",
+        "tags": "JLPT Genki_Ln.18 JLPT_3 JLPT_2 Genki",
+        "guid": "wEC@Qp%tX#"
+      },
+      "selected": {
+        "text": "タオル",
+        "kana": "タオル"
+      },
+      "dictionaryEntryIds": [
+        "1076170"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1388",
+      "sourceRow": 1388,
+      "original": {
+        "expression": "だが",
+        "reading": "だが",
+        "meaning": "but, however",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "yVQqFsidK:"
+      },
+      "selected": {
+        "text": "だが",
+        "kana": "だが"
+      },
+      "dictionaryEntryIds": [
+        "2055530"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1389",
+      "sourceRow": 1389,
+      "original": {
+        "expression": "互い",
+        "reading": "たがい",
+        "meaning": "mutual, each other",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "A/w*RxK,aS"
+      },
+      "selected": {
+        "text": "互い",
+        "kana": "たがい"
+      },
+      "dictionaryEntryIds": [
+        "1268770"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1390",
+      "sourceRow": 1390,
+      "original": {
+        "expression": "高める",
+        "reading": "たかめる",
+        "meaning": "to raise, to lift, to boost",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "k95gRhn5$b"
+      },
+      "selected": {
+        "text": "高める",
+        "kana": "たかめる"
+      },
+      "dictionaryEntryIds": [
+        "1283240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1391",
+      "sourceRow": 1391,
+      "original": {
+        "expression": "宝",
+        "reading": "たから",
+        "meaning": "treasure",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "Ms,V*:XqhK"
+      },
+      "selected": {
+        "text": "宝",
+        "kana": "たから"
+      },
+      "dictionaryEntryIds": [
+        "1516160"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1393",
+      "sourceRow": 1393,
+      "original": {
+        "expression": "炊く",
+        "reading": "たく",
+        "meaning": "to boil, to cook",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "nMc=w-?iw5"
+      },
+      "selected": {
+        "text": "炊く",
+        "kana": "たく"
+      },
+      "dictionaryEntryIds": [
+        "1596830"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1396",
+      "sourceRow": 1396,
+      "original": {
+        "expression": "だけど",
+        "reading": "だけど",
+        "meaning": "however",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "B]!P5f2EJ8"
+      },
+      "selected": {
+        "text": "だけど",
+        "kana": "だけど"
+      },
+      "dictionaryEntryIds": [
+        "1007370"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1399",
+      "sourceRow": 1399,
+      "original": {
+        "expression": "多少",
+        "reading": "たしょう",
+        "meaning": "a little (same as 少し (すこし))",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.13",
+        "guid": "Lr;d$E?/U|"
+      },
+      "selected": {
+        "text": "多少",
+        "kana": "たしょう"
+      },
+      "dictionaryEntryIds": [
+        "1407810"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1401",
+      "sourceRow": 1401,
+      "original": {
+        "expression": "助ける",
+        "reading": "たすける",
+        "meaning": "to help (v.t.), to save, to rescue",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Genki Genki_Ln.22 Intermediate_Japanese_Ln.3",
+        "guid": "l/GW}?_@LC"
+      },
+      "selected": {
+        "text": "助ける",
+        "kana": "たすける"
+      },
+      "dictionaryEntryIds": [
+        "1344410"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1402",
+      "sourceRow": 1402,
+      "original": {
+        "expression": "ただ",
+        "reading": "ただ",
+        "meaning": "free of charge; just (~); only (~)",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.9 Genki_Ln.23 Genki",
+        "guid": "FnqECB)M9z"
+      },
+      "selected": {
+        "text": "ただ",
+        "kana": "ただ"
+      },
+      "dictionaryEntryIds": [
+        "1538900",
+        "2406710"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1405",
+      "sourceRow": 1405,
+      "original": {
+        "expression": "戦い",
+        "reading": "たたかい",
+        "meaning": "battle, fight",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "q9<05fFYz"
+      },
+      "selected": {
+        "text": "戦い",
+        "kana": "たたかい"
+      },
+      "dictionaryEntryIds": [
+        "1596950"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1406",
+      "sourceRow": 1406,
+      "original": {
+        "expression": "戦う",
+        "reading": "たたかう",
+        "meaning": "to fight, to compete, to battle",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.7",
+        "guid": "Bby>Z<O$Cf"
+      },
+      "selected": {
+        "text": "戦う",
+        "kana": "たたかう"
+      },
+      "dictionaryEntryIds": [
+        "1596960"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1407",
+      "sourceRow": 1407,
+      "original": {
+        "expression": "叩く",
+        "reading": "たたく",
+        "meaning": "to strike, to beat",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "qn)FIw6-x/"
+      },
+      "selected": {
+        "text": "叩く",
+        "kana": "たたく"
+      },
+      "dictionaryEntryIds": [
+        "1416170",
+        "2829135"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1408",
+      "sourceRow": 1408,
+      "original": {
+        "expression": "直ちに",
+        "reading": "ただちに",
+        "meaning": "at once, immediately",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "K6vcg?:lAW"
+      },
+      "selected": {
+        "text": "直ちに",
+        "kana": "ただちに"
+      },
+      "dictionaryEntryIds": [
+        "1430670"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1409",
+      "sourceRow": 1409,
+      "original": {
+        "expression": "畳む",
+        "reading": "たたむ",
+        "meaning": "to fold (clothes)",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "rkct5mr//("
+      },
+      "selected": {
+        "text": "畳む",
+        "kana": "たたむ"
+      },
+      "dictionaryEntryIds": [
+        "1356780"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1410",
+      "sourceRow": 1410,
+      "original": {
+        "expression": "立ち上がる",
+        "reading": "たちあがる",
+        "meaning": "to stand up",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "HlZc:`g<19"
+      },
+      "selected": {
+        "text": "立ち上がる",
+        "kana": "たちあがる"
+      },
+      "dictionaryEntryIds": [
+        "1551370"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1412",
+      "sourceRow": 1412,
+      "original": {
+        "expression": "建つ",
+        "reading": "たつ",
+        "meaning": "to stand; to be built (v.i.), to erect, to be erected",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.10",
+        "guid": "n<i_4fThiw"
+      },
+      "selected": {
+        "text": "建つ",
+        "kana": "たつ"
+      },
+      "dictionaryEntryIds": [
+        "1597045"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1413",
+      "sourceRow": 1413,
+      "original": {
+        "expression": "経つ",
+        "reading": "たつ",
+        "meaning": "(time) passes",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.4",
+        "guid": "r,N`cWnW^X"
+      },
+      "selected": {
+        "text": "経つ",
+        "kana": "たつ"
+      },
+      "dictionaryEntryIds": [
+        "1251100"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1414",
+      "sourceRow": 1414,
+      "original": {
+        "expression": "達する",
+        "reading": "たっする",
+        "meaning": "to reach, to get to",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "wK1Ias[)#c"
+      },
+      "selected": {
+        "text": "達する",
+        "kana": "たっする"
+      },
+      "dictionaryEntryIds": [
+        "1416230"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1416",
+      "sourceRow": 1416,
+      "original": {
+        "expression": "だって",
+        "reading": "だって",
+        "meaning": "but, because, even",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "EX/P_yzE.A"
+      },
+      "selected": {
+        "text": "だって",
+        "kana": "だって"
+      },
+      "dictionaryEntryIds": [
+        "2643970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1417",
+      "sourceRow": 1417,
+      "original": {
+        "expression": "たっぷり",
+        "reading": "たっぷり",
+        "meaning": "full, in plenty, ample",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "m+yv?z5be0"
+      },
+      "selected": {
+        "text": "たっぷり",
+        "kana": "たっぷり"
+      },
+      "dictionaryEntryIds": [
+        "1007240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1418",
+      "sourceRow": 1418,
+      "original": {
+        "expression": "たとえ",
+        "reading": "たとえ",
+        "meaning": "even if, no matter, though",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "hFX[Llvj7<"
+      },
+      "selected": {
+        "text": "たとえ",
+        "kana": "たとえ"
+      },
+      "dictionaryEntryIds": [
+        "1597120",
+        "1597125"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1419",
+      "sourceRow": 1419,
+      "original": {
+        "expression": "谷",
+        "reading": "たに",
+        "meaning": "valley",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "hcMe_RS(U*"
+      },
+      "selected": {
+        "text": "谷",
+        "kana": "たに"
+      },
+      "dictionaryEntryIds": [
+        "1581590"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1420",
+      "sourceRow": 1420,
+      "original": {
+        "expression": "他人",
+        "reading": "たにん",
+        "meaning": "unrelated person, stranger",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "hCa*aP>NLK"
+      },
+      "selected": {
+        "text": "他人",
+        "kana": "たにん"
+      },
+      "dictionaryEntryIds": [
+        "1581400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1421",
+      "sourceRow": 1421,
+      "original": {
+        "expression": "種",
+        "reading": "たね",
+        "meaning": "seed; material; cause",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "q$QKyzwhUV"
+      },
+      "selected": {
+        "text": "種",
+        "kana": "たね"
+      },
+      "dictionaryEntryIds": [
+        "1328810",
+        "1328820",
+        "2735690"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1422",
+      "sourceRow": 1422,
+      "original": {
+        "expression": "束",
+        "reading": "たば",
+        "meaning": "bunch, bundle",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "HpG5d&jd4^"
+      },
+      "selected": {
+        "text": "束",
+        "kana": "たば"
+      },
+      "dictionaryEntryIds": [
+        "1404450",
+        "1404460",
+        "2521420"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1425",
+      "sourceRow": 1425,
+      "original": {
+        "expression": "旅",
+        "reading": "たび",
+        "meaning": "travel, trip, journey",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "AP3&ju<[do"
+      },
+      "selected": {
+        "text": "旅",
+        "kana": "たび"
+      },
+      "dictionaryEntryIds": [
+        "1553120",
+        "2630400"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1426",
+      "sourceRow": 1426,
+      "original": {
+        "expression": "たびたび",
+        "reading": "たびたび",
+        "meaning": "often, repeatedly, frequently",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "N_zxk]NfeP"
+      },
+      "selected": {
+        "text": "たびたび",
+        "kana": "たびたび"
+      },
+      "dictionaryEntryIds": [
+        "1597160"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1428",
+      "sourceRow": 1428,
+      "original": {
+        "expression": "球",
+        "reading": "たま",
+        "meaning": "globe, sphere, ball",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "IL5}@,L(HU"
+      },
+      "selected": {
+        "text": "球",
+        "kana": "たま"
+      },
+      "dictionaryEntryIds": [
+        "1226280",
+        "1229880",
+        "1240530"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1429",
+      "sourceRow": 1429,
+      "original": {
+        "expression": "弾",
+        "reading": "たま",
+        "meaning": "bullet, shot",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "t`CC/|.iog"
+      },
+      "selected": {
+        "text": "弾",
+        "kana": "たま"
+      },
+      "dictionaryEntryIds": [
+        "1240530",
+        "2179300"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1431",
+      "sourceRow": 1431,
+      "original": {
+        "expression": "騙す",
+        "reading": "だます",
+        "meaning": "to trick, to cheat, to deceive",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "Lk)a>8:jDg"
+      },
+      "selected": {
+        "text": "騙す",
+        "kana": "だます"
+      },
+      "dictionaryEntryIds": [
+        "1574550"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1432",
+      "sourceRow": 1432,
+      "original": {
+        "expression": "偶々",
+        "reading": "たまたま",
+        "meaning": "unexpectedly, accidentally, by chance",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "JUx|gK)1.9"
+      },
+      "selected": {
+        "text": "偶々",
+        "kana": "たまたま"
+      },
+      "dictionaryEntryIds": [
+        "1597180"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1433",
+      "sourceRow": 1433,
+      "original": {
+        "expression": "たまらない",
+        "reading": "たまらない",
+        "meaning": "intolerable, unbearable, unendurable",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "l`8q_oGHnv"
+      },
+      "selected": {
+        "text": "たまらない",
+        "kana": "たまらない"
+      },
+      "dictionaryEntryIds": [
+        "1211340"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1434",
+      "sourceRow": 1434,
+      "original": {
+        "expression": "溜まる",
+        "reading": "たまる",
+        "meaning": "to collect, to gather, to accumulate",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "vB$#wF*|#8"
+      },
+      "selected": {
+        "text": "溜まる",
+        "kana": "たまる"
+      },
+      "dictionaryEntryIds": [
+        "1552650"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1435",
+      "sourceRow": 1435,
+      "original": {
+        "expression": "黙る",
+        "reading": "だまる",
+        "meaning": "to be silent",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "s)emL*qV&)"
+      },
+      "selected": {
+        "text": "黙る",
+        "kana": "だまる"
+      },
+      "dictionaryEntryIds": [
+        "1534930"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1436",
+      "sourceRow": 1436,
+      "original": {
+        "expression": "試し",
+        "reading": "ためし",
+        "meaning": "trial, test",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "qBNYe=mSa8"
+      },
+      "selected": {
+        "text": "試し",
+        "kana": "ためし"
+      },
+      "dictionaryEntryIds": [
+        "1312250"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1437",
+      "sourceRow": 1437,
+      "original": {
+        "expression": "試す",
+        "reading": "ためす",
+        "meaning": "to attempt, to test",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "OHz{.@pYIY"
+      },
+      "selected": {
+        "text": "試す",
+        "kana": "ためす"
+      },
+      "dictionaryEntryIds": [
+        "1312260"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1438",
+      "sourceRow": 1438,
+      "original": {
+        "expression": "溜める",
+        "reading": "ためる",
+        "meaning": "to accumulate, to collect",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "I-!#mDL3^x"
+      },
+      "selected": {
+        "text": "溜める",
+        "kana": "ためる"
+      },
+      "dictionaryEntryIds": [
+        "1552630"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1439",
+      "sourceRow": 1439,
+      "original": {
+        "expression": "便り",
+        "reading": "たより",
+        "meaning": "news, correspondence, letter",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "gbz0bmQQdz"
+      },
+      "selected": {
+        "text": "便り",
+        "kana": "たより"
+      },
+      "dictionaryEntryIds": [
+        "1512410"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1442",
+      "sourceRow": 1442,
+      "original": {
+        "expression": "単位",
+        "reading": "たんい",
+        "meaning": "credit (for a course in school); unit, denomination",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.3",
+        "guid": "ddo&;VY0jx"
+      },
+      "selected": {
+        "text": "単位",
+        "kana": "たんい"
+      },
+      "dictionaryEntryIds": [
+        "1417040"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1444",
+      "sourceRow": 1444,
+      "original": {
+        "expression": "男子",
+        "reading": "だんし",
+        "meaning": "young man",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "o|;<c@[|f3"
+      },
+      "selected": {
+        "text": "男子",
+        "kana": "だんし"
+      },
+      "dictionaryEntryIds": [
+        "1420070"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1445",
+      "sourceRow": 1445,
+      "original": {
+        "expression": "単純",
+        "reading": "たんじゅん",
+        "meaning": "simplicity",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "c0+aDZX4Q5"
+      },
+      "selected": {
+        "text": "単純",
+        "kana": "たんじゅん"
+      },
+      "dictionaryEntryIds": [
+        "1417550"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1446",
+      "sourceRow": 1446,
+      "original": {
+        "expression": "誕生",
+        "reading": "たんじょう",
+        "meaning": "birth",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "dP`<<G(e41"
+      },
+      "selected": {
+        "text": "誕生",
+        "kana": "たんじょう"
+      },
+      "dictionaryEntryIds": [
+        "1419080"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1447",
+      "sourceRow": 1447,
+      "original": {
+        "expression": "ダンス",
+        "reading": "ダンス",
+        "meaning": "dance",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "euR|T?GwM~"
+      },
+      "selected": {
+        "text": "ダンス",
+        "kana": "ダンス"
+      },
+      "dictionaryEntryIds": [
+        "1077250"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1448",
+      "sourceRow": 1448,
+      "original": {
+        "expression": "団体",
+        "reading": "だんたい",
+        "meaning": "organization, association",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "N[4TY72XQk"
+      },
+      "selected": {
+        "text": "団体",
+        "kana": "だんたい"
+      },
+      "dictionaryEntryIds": [
+        "1419270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1450",
+      "sourceRow": 1450,
+      "original": {
+        "expression": "単なる",
+        "reading": "たんなる",
+        "meaning": "mere, simple, sheer",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.15",
+        "guid": "bCE(TsI6rY"
+      },
+      "selected": {
+        "text": "単なる",
+        "kana": "たんなる"
+      },
+      "dictionaryEntryIds": [
+        "1417020"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1451",
+      "sourceRow": 1451,
+      "original": {
+        "expression": "単に",
+        "reading": "たんに",
+        "meaning": "simply, merely",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "ndj9zxLbCH"
+      },
+      "selected": {
+        "text": "単に",
+        "kana": "たんに"
+      },
+      "dictionaryEntryIds": [
+        "1417030"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1453",
+      "sourceRow": 1453,
+      "original": {
+        "expression": "地位",
+        "reading": "ちい",
+        "meaning": "(social) position, status",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "PA:U(:c/cc"
+      },
+      "selected": {
+        "text": "地位",
+        "kana": "ちい"
+      },
+      "dictionaryEntryIds": [
+        "1420780"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1455",
+      "sourceRow": 1455,
+      "original": {
+        "expression": "チーズ",
+        "reading": "チーズ",
+        "meaning": "cheese",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.9",
+        "guid": "v`l$a/$V*R"
+      },
+      "selected": {
+        "text": "チーズ",
+        "kana": "チーズ"
+      },
+      "dictionaryEntryIds": [
+        "1077330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1456",
+      "sourceRow": 1456,
+      "original": {
+        "expression": "チーム",
+        "reading": "チーム",
+        "meaning": "team",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.7",
+        "guid": "zOpx4Q5dSu"
+      },
+      "selected": {
+        "text": "チーム",
+        "kana": "チーム"
+      },
+      "dictionaryEntryIds": [
+        "1077360"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1457",
+      "sourceRow": 1457,
+      "original": {
+        "expression": "知恵",
+        "reading": "ちえ",
+        "meaning": "wisdom, wit, intelligence",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "jp9hTe)yc?"
+      },
+      "selected": {
+        "text": "知恵",
+        "kana": "ちえ"
+      },
+      "dictionaryEntryIds": [
+        "1420530"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1458",
+      "sourceRow": 1458,
+      "original": {
+        "expression": "地下",
+        "reading": "ちか",
+        "meaning": "basement, underground",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "I;*P_Q7^ak"
+      },
+      "selected": {
+        "text": "地下",
+        "kana": "ちか"
+      },
+      "dictionaryEntryIds": [
+        "1420840",
+        "2872078"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1459",
+      "sourceRow": 1459,
+      "original": {
+        "expression": "違い",
+        "reading": "ちがい",
+        "meaning": "difference, discrepancy",
+        "tags": "Genki_Ln.17 JLPT JLPT_3 JLPT_2 Genki",
+        "guid": "E&4b+:J$~A"
+      },
+      "selected": {
+        "text": "違い",
+        "kana": "ちがい"
+      },
+      "dictionaryEntryIds": [
+        "1158870"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1461",
+      "sourceRow": 1461,
+      "original": {
+        "expression": "近頃",
+        "reading": "ちかごろ",
+        "meaning": "lately, recently, nowadays",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "f(L:7>]T]*"
+      },
+      "selected": {
+        "text": "近頃",
+        "kana": "ちかごろ"
+      },
+      "dictionaryEntryIds": [
+        "1242300"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1462",
+      "sourceRow": 1462,
+      "original": {
+        "expression": "地球",
+        "reading": "ちきゅう",
+        "meaning": "the earth",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "qL[iG:?A.4"
+      },
+      "selected": {
+        "text": "地球",
+        "kana": "ちきゅう"
+      },
+      "dictionaryEntryIds": [
+        "1420970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1463",
+      "sourceRow": 1463,
+      "original": {
+        "expression": "地区",
+        "reading": "ちく",
+        "meaning": "district, section",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "f^*Mzp$yP!"
+      },
+      "selected": {
+        "text": "地区",
+        "kana": "ちく"
+      },
+      "dictionaryEntryIds": [
+        "1421020"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1465",
+      "sourceRow": 1465,
+      "original": {
+        "expression": "知事",
+        "reading": "ちじ",
+        "meaning": "prefectural governor",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.4",
+        "guid": "ISq?4C~q1c"
+      },
+      "selected": {
+        "text": "知事",
+        "kana": "ちじ"
+      },
+      "dictionaryEntryIds": [
+        "1420580"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1466",
+      "sourceRow": 1466,
+      "original": {
+        "expression": "知識",
+        "reading": "ちしき",
+        "meaning": "knowledge, information",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.1",
+        "guid": "JB`8NU-%cx"
+      },
+      "selected": {
+        "text": "知識",
+        "kana": "ちしき"
+      },
+      "dictionaryEntryIds": [
+        "1420590"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1467",
+      "sourceRow": 1467,
+      "original": {
+        "expression": "父親",
+        "reading": "ちちおや",
+        "meaning": "father",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "x^b@}}_x/I"
+      },
+      "selected": {
+        "text": "父親",
+        "kana": "ちちおや"
+      },
+      "dictionaryEntryIds": [
+        "1497680"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1468",
+      "sourceRow": 1468,
+      "original": {
+        "expression": "知能",
+        "reading": "ちのう",
+        "meaning": "intelligence, brains",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "s0*$SOLx]G"
+      },
+      "selected": {
+        "text": "知能",
+        "kana": "ちのう"
+      },
+      "dictionaryEntryIds": [
+        "1420680"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1469",
+      "sourceRow": 1469,
+      "original": {
+        "expression": "地平線",
+        "reading": "ちへいせん",
+        "meaning": "horizon",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "K*ilXC|Xu$"
+      },
+      "selected": {
+        "text": "地平線",
+        "kana": "ちへいせん"
+      },
+      "dictionaryEntryIds": [
+        "1421440"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1470",
+      "sourceRow": 1470,
+      "original": {
+        "expression": "地方",
+        "reading": "ちほう",
+        "meaning": "area, locality, region",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "z)]^*l}=r,"
+      },
+      "selected": {
+        "text": "地方",
+        "kana": "ちほう"
+      },
+      "dictionaryEntryIds": [
+        "1421450",
+        "2796690"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1472",
+      "sourceRow": 1472,
+      "original": {
+        "expression": "チャンス",
+        "reading": "チャンス",
+        "meaning": "chance, opportunity",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "m8a~R)2L&s"
+      },
+      "selected": {
+        "text": "チャンス",
+        "kana": "チャンス"
+      },
+      "dictionaryEntryIds": [
+        "1078040"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1473",
+      "sourceRow": 1473,
+      "original": {
+        "expression": "ちゃんと",
+        "reading": "ちゃんと",
+        "meaning": "perfectly, properly, exactly",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "fb]dH3uhx1"
+      },
+      "selected": {
+        "text": "ちゃんと",
+        "kana": "ちゃんと"
+      },
+      "dictionaryEntryIds": [
+        "1007720"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1476",
+      "sourceRow": 1476,
+      "original": {
+        "expression": "中央",
+        "reading": "ちゅうおう",
+        "meaning": "central, center, middle",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "hbJS=^3J3d"
+      },
+      "selected": {
+        "text": "中央",
+        "kana": "ちゅうおう"
+      },
+      "dictionaryEntryIds": [
+        "1423430"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1477",
+      "sourceRow": 1477,
+      "original": {
+        "expression": "中学",
+        "reading": "ちゅうがく",
+        "meaning": "middle school, junior high school",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.1",
+        "guid": "BDc+1/~Gst"
+      },
+      "selected": {
+        "text": "中学",
+        "kana": "ちゅうがく"
+      },
+      "dictionaryEntryIds": [
+        "1423640"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1478",
+      "sourceRow": 1478,
+      "original": {
+        "expression": "中古",
+        "reading": "ちゅうこ",
+        "meaning": "used, second-hand",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "oGNXy5VYfH"
+      },
+      "selected": {
+        "text": "中古",
+        "kana": "ちゅうこ"
+      },
+      "dictionaryEntryIds": [
+        "1424150"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1480",
+      "sourceRow": 1480,
+      "original": {
+        "expression": "駐車",
+        "reading": "ちゅうしゃ",
+        "meaning": "parking (e.g., car)",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "r:>>eJ5z0v"
+      },
+      "selected": {
+        "text": "駐車",
+        "kana": "ちゅうしゃ"
+      },
+      "dictionaryEntryIds": [
+        "1426910"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1481",
+      "sourceRow": 1481,
+      "original": {
+        "expression": "昼食",
+        "reading": "ちゅうしょく",
+        "meaning": "lunch (same as 昼ご飯 (ひるごはん))",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.6",
+        "guid": "Ce&bm$.+x}"
+      },
+      "selected": {
+        "text": "昼食",
+        "kana": "ちゅうしょく"
+      },
+      "dictionaryEntryIds": [
+        "1602330",
+        "2863029",
+        "2863031"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1482",
+      "sourceRow": 1482,
+      "original": {
+        "expression": "中心",
+        "reading": "ちゅうしん",
+        "meaning": "center, core",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.10",
+        "guid": "qN$B1x]6v4"
+      },
+      "selected": {
+        "text": "中心",
+        "kana": "ちゅうしん"
+      },
+      "dictionaryEntryIds": [
+        "1424550",
+        "1695530"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1483",
+      "sourceRow": 1483,
+      "original": {
+        "expression": "注目",
+        "reading": "ちゅうもく",
+        "meaning": "notice, attention, observation",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "D//womH([Q"
+      },
+      "selected": {
+        "text": "注目",
+        "kana": "ちゅうもく"
+      },
+      "dictionaryEntryIds": [
+        "1426670"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1487",
+      "sourceRow": 1487,
+      "original": {
+        "expression": "調子",
+        "reading": "ちょうし",
+        "meaning": "condition, state, tune, tone",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.5",
+        "guid": "d]P8,Fg)ha"
+      },
+      "selected": {
+        "text": "調子",
+        "kana": "ちょうし"
+      },
+      "dictionaryEntryIds": [
+        "1429170"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1488",
+      "sourceRow": 1488,
+      "original": {
+        "expression": "頂上",
+        "reading": "ちょうじょう",
+        "meaning": "top, summit, peak",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "dQdf#E1ni7"
+      },
+      "selected": {
+        "text": "頂上",
+        "kana": "ちょうじょう"
+      },
+      "dictionaryEntryIds": [
+        "1430220"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1490",
+      "sourceRow": 1490,
+      "original": {
+        "expression": "貯金",
+        "reading": "ちょきん",
+        "meaning": "(bank) savings",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "Qk=_]>V~E6"
+      },
+      "selected": {
+        "text": "貯金",
+        "kana": "ちょきん"
+      },
+      "dictionaryEntryIds": [
+        "1427170"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1491",
+      "sourceRow": 1491,
+      "original": {
+        "expression": "直接",
+        "reading": "ちょくせつ",
+        "meaning": "direct, immediate, firsthand",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "s&G:wJLBgj"
+      },
+      "selected": {
+        "text": "直接",
+        "kana": "ちょくせつ"
+      },
+      "dictionaryEntryIds": [
+        "1431110"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1492",
+      "sourceRow": 1492,
+      "original": {
+        "expression": "著者",
+        "reading": "ちょしゃ",
+        "meaning": "author, writer",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "f3<v-734W$"
+      },
+      "selected": {
+        "text": "著者",
+        "kana": "ちょしゃ"
+      },
+      "dictionaryEntryIds": [
+        "1427110"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1493",
+      "sourceRow": 1493,
+      "original": {
+        "expression": "散らす",
+        "reading": "ちらす",
+        "meaning": "to scatter, to disperse, to distribute",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "vw$z+tJyr%"
+      },
+      "selected": {
+        "text": "散らす",
+        "kana": "ちらす"
+      },
+      "dictionaryEntryIds": [
+        "1303460"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1494",
+      "sourceRow": 1494,
+      "original": {
+        "expression": "散る",
+        "reading": "ちる",
+        "meaning": "to fall, to scatter (e.g., blossoms)",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "J2:m]+werC"
+      },
+      "selected": {
+        "text": "散る",
+        "kana": "ちる"
+      },
+      "dictionaryEntryIds": [
+        "1303490"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1495",
+      "sourceRow": 1495,
+      "original": {
+        "expression": "遂に",
+        "reading": "ついに",
+        "meaning": "finally, at last",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "nxB*ZCg|Xk"
+      },
+      "selected": {
+        "text": "遂に",
+        "kana": "ついに"
+      },
+      "dictionaryEntryIds": [
+        "1372630"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1496",
+      "sourceRow": 1496,
+      "original": {
+        "expression": "通過",
+        "reading": "つうか",
+        "meaning": "passage through, passing",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "ph$_=yR?BI"
+      },
+      "selected": {
+        "text": "通過",
+        "kana": "つうか"
+      },
+      "dictionaryEntryIds": [
+        "1433070"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1497",
+      "sourceRow": 1497,
+      "original": {
+        "expression": "通貨",
+        "reading": "つうか",
+        "meaning": "currency",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "/j4TmH~2}"
+      },
+      "selected": {
+        "text": "通貨",
+        "kana": "つうか"
+      },
+      "dictionaryEntryIds": [
+        "1433050"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1498",
+      "sourceRow": 1498,
+      "original": {
+        "expression": "通学",
+        "reading": "つうがく",
+        "meaning": "commuting to school",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "J:l]_|3w@r"
+      },
+      "selected": {
+        "text": "通学",
+        "kana": "つうがく"
+      },
+      "dictionaryEntryIds": [
+        "1433090"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1499",
+      "sourceRow": 1499,
+      "original": {
+        "expression": "通勤",
+        "reading": "つうきん",
+        "meaning": "commuting to work",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "e/9Ql]v_wl"
+      },
+      "selected": {
+        "text": "通勤",
+        "kana": "つうきん"
+      },
+      "dictionaryEntryIds": [
+        "1433140"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1501",
+      "sourceRow": 1501,
+      "original": {
+        "expression": "通じる",
+        "reading": "つうじる",
+        "meaning": "to run to, to lead to, to communicate",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "t0;rVhq2PA"
+      },
+      "selected": {
+        "text": "通じる",
+        "kana": "つうじる"
+      },
+      "dictionaryEntryIds": [
+        "1432880"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1502",
+      "sourceRow": 1502,
+      "original": {
+        "expression": "通信",
+        "reading": "つうしん",
+        "meaning": "correspondence, communications",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "jbQzL}efHR"
+      },
+      "selected": {
+        "text": "通信",
+        "kana": "つうしん"
+      },
+      "dictionaryEntryIds": [
+        "1433330"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1503",
+      "sourceRow": 1503,
+      "original": {
+        "expression": "通訳",
+        "reading": "つうやく",
+        "meaning": "interpretation; interpreter",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.8",
+        "guid": "A:!.K&=/gb"
+      },
+      "selected": {
+        "text": "通訳",
+        "kana": "つうやく"
+      },
+      "dictionaryEntryIds": [
+        "1433560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1504",
+      "sourceRow": 1504,
+      "original": {
+        "expression": "捕まる",
+        "reading": "つかまる",
+        "meaning": "to be arrested; to be caught",
+        "tags": "JLPT JLPT_3 JLPT_2 Genki Genki_Ln.21",
+        "guid": "zje2ssH%h&"
+      },
+      "selected": {
+        "text": "捕まる",
+        "kana": "つかまる"
+      },
+      "dictionaryEntryIds": [
+        "1514110"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1505",
+      "sourceRow": 1505,
+      "original": {
+        "expression": "掴む",
+        "reading": "つかむ",
+        "meaning": "to seize, to catch, to grasp",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "AX[XflD{[A"
+      },
+      "selected": {
+        "text": "掴む",
+        "kana": "つかむ"
+      },
+      "dictionaryEntryIds": [
+        "1433650"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1507",
+      "sourceRow": 1507,
+      "original": {
+        "expression": "付き合い",
+        "reading": "つきあい",
+        "meaning": "socialization; friendship; association",
+        "tags": "JLPT Intermediate_Japanese JLPT_3 JLPT_2 Intermediate_Japanese_Ln.5",
+        "guid": "y]4O/.LN};"
+      },
+      "selected": {
+        "text": "付き合い",
+        "kana": "つきあい"
+      },
+      "dictionaryEntryIds": [
+        "1495640"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1509",
+      "sourceRow": 1509,
+      "original": {
+        "expression": "次々",
+        "reading": "つぎつぎ",
+        "meaning": "in succession, one by one",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "tMy_Cz-rgH"
+      },
+      "selected": {
+        "text": "次々",
+        "kana": "つぎつぎ"
+      },
+      "dictionaryEntryIds": [
+        "1597850"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-11-w-1517",
+      "sourceRow": 1517,
+      "original": {
+        "expression": "伝わる",
+        "reading": "つたわる",
+        "meaning": "to be handed down, to be transmitted",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "I(SdOHy)n4"
+      },
+      "selected": {
+        "text": "伝わる",
+        "kana": "つたわる"
+      },
+      "dictionaryEntryIds": [
+        "1441900"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ]
+}

@@ -609,6 +609,97 @@
       "unit": "n3-vocab-10",
       "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
       "expectedMoras": "ドオブツエンノセツメイニワゾオノタイジュウガカイテアリマス"
+    },
+    {
+      "text": "太陽",
+      "readingInput": "たいよー",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "タイヨオ"
+    },
+    {
+      "text": "たいよう",
+      "readingInput": "たいよー",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "タイヨオ"
+    },
+    {
+      "text": "雲の間から、太陽が顔を出しました。",
+      "readingInput": "雲の間から、たいよーが顔を出しました。",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "クモノアイダカラタイヨオガカオオダシマシタ"
+    },
+    {
+      "text": "彼は、音楽に合わせて太鼓を叩きました。",
+      "readingInput": "彼は、おんがくにあわせてたいこをたたきました。",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "カレワオンガクニアワセテタイコオタタキマシタ"
+    },
+    {
+      "text": "質問を聞いて、彼は少し黙りました。",
+      "readingInput": "しつもんをきいて、彼はすこしだまりました。",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "シツモンオキイテカレワスコシダマリマシタ"
+    },
+    {
+      "text": "彼は単に名前を忘れただけです。",
+      "readingInput": "彼はたんになまえをわすれただけです。",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "カレワタンニナマエオワスレタダケデス"
+    },
+    {
+      "text": "この表では、長さの単位はセンチメートルです。",
+      "readingInput": "このひょーでは、ながさのたんいはセンチメートルです。",
+      "unit": "n3-vocab-11",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "コノヒョオデワナガサノタンイワセンチメエトルデス"
+    },
+    {
+      "text": "計画の変更には、予想以上に強い抵抗がありました。",
+      "readingInput": "けいかくのへんこうには、よそーいじょうにつよいていこうがありました。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "ケイカクノヘンコオニワヨソオイジョオニツヨイテイコオガアリマシタ"
+    },
+    {
+      "text": "この建物は、この地域の伝統的な家の典型です。",
+      "readingInput": "このたてものは、このちいきのでんとーてきないえのてんけいです。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "コノタテモノワコノチイキノデントオテキナイエノテンケイデス"
+    },
+    {
+      "text": "丘の上にある塔から、町が見渡せます。",
+      "readingInput": "おかのうえにあるとーから、まちがみわたせます。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "オカノウエニアルトオカラマチガミワタセマス"
+    },
+    {
+      "text": "二人が同時に話し始めて、思わず笑いました。",
+      "readingInput": "ふたりがどうじに話し始めて、おもわずわらいました。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "フタリガドオジニハナシハジメテオモワズワライマシタ"
+    },
+    {
+      "text": "物語の魔女は、毒の入ったりんごを渡しました。",
+      "readingInput": "ものがたりのまじょは、どくのハイッタりんごをわたしました。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "モノガタリノマジョワドクノハイッタリンゴオワタシマシタ"
+    },
+    {
+      "text": "箱の中身を確かめてください。",
+      "readingInput": "ハコのなかみをたしかめてください。",
+      "unit": "n3-vocab-12",
+      "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
+      "expectedMoras": "ハコノナカミオタシカメテクダサイ"
     }
   ]
 }

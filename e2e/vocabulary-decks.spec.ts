@@ -171,6 +171,16 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "会場の席が、少しずつ埋まってきました。",
       "The seats at the venue have gradually been filling up.",
     ],
+    [
+      11,
+      "荷物の大部分は、本です。",
+      "Most of the luggage consists of books.",
+    ],
+    [
+      12,
+      "この話の続きは、明日聞かせてください。",
+      "Please tell me the rest of this story tomorrow.",
+    ],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");
