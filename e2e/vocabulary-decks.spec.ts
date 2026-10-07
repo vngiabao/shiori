@@ -161,6 +161,16 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "この倉庫には、収穫した穀物を保管しています。",
       "The harvested grain is stored in this warehouse.",
     ],
+    [
+      9,
+      "もしかすると、彼はまだ道に迷っているのかもしれません。",
+      "Perhaps he's still lost on the way.",
+    ],
+    [
+      10,
+      "会場の席が、少しずつ埋まってきました。",
+      "The seats at the venue have gradually been filling up.",
+    ],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");

@@ -11,7 +11,8 @@ spec=importlib.util.spec_from_file_location('voice',root/'scripts/render-japanes
 voice=importlib.util.module_from_spec(spec);spec.loader.exec_module(voice)
 def read(path):return json.loads((root/path).read_text(encoding='utf-8'))
 def write(path,value):
-    (root/path).write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8', newline='\n')
+    options={'separators':(',',':')} if path=='content/voices/lesson-provenance.json' else {'indent':2}
+    (root/path).write_text(json.dumps(value,ensure_ascii=False,**options)+'\n',encoding='utf-8', newline='\n')
 def ruby_reading(text):return re.sub(r'\{([^|{}]+)\|([^|{}]+)\}',r'\2',text)
 categories={
  'welcome':(['composed','warm'],['welcome']),

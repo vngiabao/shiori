@@ -518,6 +518,97 @@
       "unit": "n3-vocab-08",
       "reason": "Inspected exact input preserves lexical はこ as ハコ and 王 as a long オー; a model query had mistaken lexical は for a particle. This verifies sound sequences, not native intonation.",
       "expectedMoras": "モノガタリノオオワヘイシニモンオアケルヨオメイジマシタ"
+    },
+    {
+      "text": "もしかすると、彼はまだ道に迷っているのかもしれません。",
+      "readingInput": "もしかすると、彼はまだみちにまよっているのかもしれません。",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "モシカスルトカレワマダミチニマヨッテイルノカモシレマセン"
+    },
+    {
+      "text": "彼は、みんなを笑わせるためにわざと転んだふりをしました。",
+      "readingInput": "彼は、みんなをわらわせるためにわざところんだふりをしました。",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "カレワミンナオワラワセルタメニワザトコロンダフリオシマシタ"
+    },
+    {
+      "text": "彼は怒りを抑えて、静かに話しました。",
+      "readingInput": "彼はいかりをおさえて、しずかにはなしました。",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "カレワイカリオオサエテシズカニハナシマシタ"
+    },
+    {
+      "text": "二つの町は、友好を深めるために交流会を開きました。",
+      "readingInput": "ふたつのまちは、ゆうこうをふかめるために交流会をひらきました。",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "フタツノマチワユウコオオフカメルタメニコオリュウカイオヒラキマシタ"
+    },
+    {
+      "text": "先生に宛てた手紙を、封筒に入れました。",
+      "readingInput": "せんせいにあてたてがみを、封筒にいれました。",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "センセイニアテタテガミオフウトオニイレマシタ"
+    },
+    {
+      "text": "雇う",
+      "readingInput": "やとー",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ヤトオ"
+    },
+    {
+      "text": "やとう",
+      "readingInput": "やとー",
+      "unit": "n3-vocab-09",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ヤトオ"
+    },
+    {
+      "text": "物語の王は、朝から森へ狩りに出ました。",
+      "readingInput": "ものがたりのおーは、あさからもりへかりにでました。",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "モノガタリノオオワアサカラモリエカリニデマシタ"
+    },
+    {
+      "text": "ぞう",
+      "readingInput": "ぞー",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ゾオ"
+    },
+    {
+      "text": "揃う",
+      "readingInput": "そろー",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ソロオ"
+    },
+    {
+      "text": "そろう",
+      "readingInput": "そろー",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ソロオ"
+    },
+    {
+      "text": "動物園で、象が水を飲んでいました。",
+      "readingInput": "どうぶつえんで、象がみずをのんでいました。",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ドオブツエンデゾオガミズオノンデイマシタ"
+    },
+    {
+      "text": "動物園の説明には、象の体重が書いてあります。",
+      "readingInput": "どうぶつえんのせつめいには、象のたいじゅうがかいてあります。",
+      "unit": "n3-vocab-10",
+      "reason": "Inspected exact input corrects topic は→ワ or an intended long vowel without changing any historical recording. Sound sequences are checked; native intonation review remains separate.",
+      "expectedMoras": "ドオブツエンノセツメイニワゾオノタイジュウガカイテアリマス"
     }
   ]
 }

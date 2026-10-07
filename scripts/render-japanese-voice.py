@@ -143,5 +143,8 @@ if __name__=='__main__':
     provenance={'version':2,'createdAt':datetime.now(timezone.utc).isoformat(),'engine':'VOICEVOX Core 0.17.0','model':'VVM 0.16.4 / 1.vvm','modelSha256':hashlib.sha256(model_path.read_bytes()).hexdigest(),'styleId':style,'credit':'VOICEVOX:冥鳴ひまり','source':'https://github.com/VOICEVOX/voicevox_core','direction':'Clear female middle register, restrained intonation, precise short vowels; composed Violetto performance direction. Not a measured match to Yui Ishikawa.','checks':'Explicit one-mora kana query, vowel voicing, fixed short duration, PCM decoding, peak, query and content hashes. ASR is screening only, not listening certification.','humanListeningReviewed':False,'records':records}
     (root/'src/generated/audio.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
     (root/'src/generated/violetto-baseline.json').write_text(json.dumps({k:{f:v[f] for f in ['url','seconds','sha256']} for k,v in baseline.items()},ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
-    (root/'content/voices/lesson-provenance.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2),encoding='utf-8', newline='\n')
+    # Keep every query and checksum, but avoid whitespace that pushes the
+    # growing audit record towards GitHub's per-file limit. Parsed data and
+    # recording hashes remain identical; this file is not a runtime asset.
+    (root/'content/voices/lesson-provenance.json').write_text(json.dumps(provenance,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8', newline='\n')
     print('Published',len(manifest),'lesson clips +',len(baseline),'reactions',flush=True)
