@@ -128,3 +128,5 @@ N1 unit 9 reproduces 26 consecutive public-domain paragraphs (1,098 characters) 
 N1 unit 10: original library-hours programme, summaries and tasks. Formation research: Bunpro, Mainichi-nonbiri, NihongoNET, NihongokyoshiNET and Sanshusha’s publisher errata (page 5 inspected). No publisher examples are copied. Cached JMdict/KANJIDIC2/KanjiVG pins unchanged; eight new explicit pronunciation inputs retain prior recordings. Native review pending.
 
 N1 unit 11: original fictional class report, handout, comments and tasks. Formation research uses Mainichi-nonbiri, NihongokyoshiNET, Bunpro, Nihongo-arekore and Keio’s own report-writing guide, with no copied examples. Cached dictionary/stroke source pins unchanged. Seven new speech-query inputs preserve earlier audio. Native review pending.
+
+N1 unit 12: original workplace report, handover, scenes and tasks. Formation research: Culture Agency keigo chapters2–4, Bunpro いたす, MLC Business Japanese and Japan Businessmail Association internal-transfer example463. No publisher examples imported. Cached dictionary and stroke pins preserved; native review pending.

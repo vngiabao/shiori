@@ -344,6 +344,15 @@ for (const unit of [
       ["A careful abstract keeps its limits", "n1-u11-d-revision", "Keep an interpretation smaller than its evidence", "Identify the basis of the analysis"],
     ],
   },
+  {
+    id: "n1-u12", reading: "Weekly report: done, agreed and still planned",
+    secondReading: "Handover: what the next person needs to know",
+    lessons: [
+      ["A report and a meeting: status before style", "n1-u12-d-report", "Report your own action without inflating it", "Past gratitude can accompany a new beginning"],
+      ["An apology and a real deadline", "n1-u12-d-client", "An apology names what went wrong", "Report your own action without inflating it"],
+      ["A farewell with a usable handover", "n1-u12-d-farewell", "Past gratitude can accompany a new beginning", "An apology names what went wrong"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -459,7 +468,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06" || unit.id === "n1-u07" || unit.id === "n1-u08" || unit.id === "n1-u09" || unit.id === "n1-u10" || unit.id === "n1-u11") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id.startsWith("n1-u")) {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();

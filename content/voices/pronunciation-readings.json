@@ -294,6 +294,20 @@
       "unit": "n1-u11",
       "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
       "expectedMoras": "コノホオコクワキロクオシメストコロマデデスケンテエワオコナッテイマセン"
+    },
+    {
+      "text": "修正版を本日中にお送りいたします。",
+      "readingInput": "修正版をほんじつじゅうにお送りいたします。",
+      "unit": "n1-u12",
+      "reason": "New-key preflight fixes 本日中 to ほんじつじゅう and keeps 旧版 consistent with the restricted headword きゅうはん. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "シュウセエバンオホンジツジュウニオオクリイタシマス"
+    },
+    {
+      "text": "ありがとうございます。旧版は配布せず、お返事の後で差し替えをお願いします。",
+      "readingInput": "ありがとうございます。きゅうはんは配布せず、お返事のあとで差し替えをお願いします。",
+      "unit": "n1-u12",
+      "reason": "New-key preflight fixes 本日中 to ほんじつじゅう and keeps 旧版 consistent with the restricted headword きゅうはん. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "アリガトオゴザイマスキュウハンワハイフセズオヘンジノアトデサシカエオオネガイシマス"
     }
   ]
 }

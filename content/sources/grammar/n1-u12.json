@@ -1,0 +1,68 @@
+{
+  "unit": "n1-u12",
+  "checkedAt": "2026-10-07",
+  "status": "Source/editorial/query/mapping/browser/build/offline checks passed; native review pending.",
+  "method": "Original workplace capstone retrieving earlier keigo in advanced documents. Relevant authored sections actually inspected. Neither this capstone nor publisher labels constitute an official N1 syllabus.",
+  "points": [
+    {
+      "form": "Own-side いたす",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://bunpro.jp/grammar_points/いたす"
+      ],
+      "formation": "Suru noun + いたす/いたします; selected お+verb stem or ご+suru noun constructions, with lexical compatibility.",
+      "teachingChoice": "Actor remains own side. Humble wording does not establish completion or approval; ordinary team です・ます can be suitable."
+    },
+    {
+      "form": "Directed apology お詫び申し上げます",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+        "https://www.mlcjapanese.co.jp/business_japanese.html"
+      ],
+      "formation": "Selected お/ご+verbal-noun stem+申し上げる; a selected expression, not universal attachment to every noun or verb.",
+      "teachingChoice": "Name the wrong venue closing time and correction. A confirmed company error is not made conditional on the client feeling offended."
+    },
+    {
+      "form": "Considerate ご確認いただけますか",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+        "https://www.mlcjapanese.co.jp/business_japanese.html"
+      ],
+      "formation": "ご+確認+いただけますか or verb te-form+いただけますか; speaker is receiver, listener performs the requested action.",
+      "teachingChoice": "Request and deadline remain distinct from received approval. Combined politeness categories are not automatically double honorifics."
+    },
+    {
+      "form": "Past gratitude during an internal transfer",
+      "sources": [
+        "https://business-mail.jp/example/463",
+        "https://www.mlcjapanese.co.jp/business_japanese.html"
+      ],
+      "formation": "Selected お世話になる: past なりました, ongoing なっております, contextual future なります.",
+      "teachingChoice": "Japan Businessmail Association internal-transfer example explicitly combines past thanks and ongoing collaboration. The original scenario uses an internal transfer, not resignation."
+    }
+  ],
+  "sourceCautions": [
+    "Guessed MLC keigo.html failed. MyNavi resignation page did not expose the searched text. Neither is used as inspected evidence.",
+    "No publisher examples copied; only short conventional set phrases recur.",
+    "Existing agreed booklet terms remain separate from a new venue-notice correction for the next exhibition.",
+    "New two-person procedure is decided Thursday, first use planned next Monday. No effectiveness result is invented."
+  ],
+  "audioScope": "Three thirteen-line original scenes at 1.2; existing single Violetto cast deliveries. Clear vocabulary and practice audio remain Clear. Two exact new pronunciation inputs correct 本日中 and keep 旧版 consistent with its restricted headword.",
+  "checks": {
+    "wordPairs": 52,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "tasks": 20,
+    "readingLengths": [
+      1215,
+      1158
+    ],
+    "unitTests": 123,
+    "pythonTests": 24,
+    "audioValidators": 5,
+    "offlineVerifiedAt": "2026-10-07T08:13:17.698Z",
+    "precacheKiB": 12398.04
+  }
+}
