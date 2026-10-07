@@ -19,7 +19,11 @@ async function cacheAsset(cache: Cache, url: string) {
   for (let attempt = 0; attempt < 3; attempt++) {
     let response: Response;
     try {
-      response = await fetch(url);
+      // The opt-in owns these writes. Otherwise CacheFirst also writes and
+      // expires the same batch while this downloader is still saving it.
+      response = await fetch(url, {
+        headers: { "X-Shiori-Offline-Download": "1" },
+      });
     } catch {
       if (attempt < 2) {
         await new Promise((resolve) =>
@@ -43,9 +47,21 @@ async function cacheAsset(cache: Cache, url: string) {
       );
     }
     try {
-      await cache.put(url, response);
+      // Hashed recording bytes are identical for fetch and media requests.
+      // Do not keep separate Origin variants of the same immutable file.
+      const headers = new Headers(response.headers);
+      headers.delete("Vary");
+      await cache.put(
+        url,
+        new Response(response.body, {
+          status: response.status,
+          statusText: response.statusText,
+          headers,
+        }),
+      );
       return;
-    } catch {
+    } catch (error) {
+      console.warn("Offline cache write failed", url, error);
       throw new Error(
         "This browser couldn’t save more files. Check available storage, then try again; saved files will be kept.",
       );

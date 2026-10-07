@@ -1,11 +1,24 @@
 import { chromium, expect } from "@playwright/test";
 import fs from "node:fs";
-const browser = await chromium.launch({ channel: "chrome" });
-const context = await browser.newContext();
+import path from "node:path";
+// A regular, isolated profile exercises disk-backed PWA storage. An incognito
+// context has a RAM-based quota that cannot fit the complete multi-year library.
+// Never use or remove the user's browser profile, or override browser quotas.
+const cacheRoot = path.resolve(".cache");
+fs.mkdirSync(cacheRoot, { recursive: true });
+const profile = fs.mkdtempSync(path.join(cacheRoot, "offline-check-"));
+const context = await chromium.launchPersistentContext(profile, {
+  channel: "chrome",
+  headless: true,
+});
 const page = await context.newPage();
 try {
   const errors: string[] = [];
   page.on("pageerror", (e) => errors.push(e.message));
+  page.on("console", (message) => {
+    if (message.text().includes("Offline cache write failed"))
+      console.log(message.text());
+  });
   await page.goto("http://127.0.0.1:5175");
   await page.getByRole("button", { name: "Start without an account" }).click();
   await page.getByRole("button", { name: "Open my first letter" }).click();
@@ -35,8 +48,14 @@ try {
     .getByRole("button", { name: "Save lesson audio for offline" })
     .click();
   await expect(
-    page.getByRole("status").filter({ hasText: "All lesson audio is saved" }),
+    page.getByRole("status").filter({
+      hasText:
+        /All lesson audio is saved|couldn’t save more files|could not be downloaded|download stopped|not retained/,
+    }),
   ).toBeVisible({ timeout: 600000 });
+  await expect(
+    page.getByRole("status").filter({ hasText: "All lesson audio is saved" }),
+  ).toBeVisible();
   const requiredAudio = new Set<string>();
   const collectAudio = (value: unknown) => {
     if (typeof value === "string" && /^\/(audio|voice-auditions)\//.test(value))
@@ -257,5 +276,11 @@ try {
     checks,
   );
 } finally {
-  await browser.close();
+  await context.close();
+  if (
+    path.dirname(path.resolve(profile)) !== cacheRoot ||
+    !path.basename(profile).startsWith("offline-check-")
+  )
+    throw new Error("Refusing to remove an unexpected browser profile path");
+  fs.rmSync(profile, { recursive: true, force: true });
 }

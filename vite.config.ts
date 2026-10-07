@@ -105,8 +105,9 @@ export default defineConfig({
             },
           },
           {
-            urlPattern: ({ url }) =>
+            urlPattern: ({ url, request }) =>
               url.origin === self.location.origin &&
+              !request.headers.has("X-Shiori-Offline-Download") &&
               (url.pathname.startsWith("/audio/") ||
                 url.pathname.startsWith("/voice-auditions/")),
             handler: "CacheFirst",

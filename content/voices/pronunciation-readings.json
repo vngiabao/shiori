@@ -1792,6 +1792,41 @@
       "readingInput": "そぼは、にわのていれがいきがいだと話します。",
       "expectedMoras": "ソボワニワノテイレガイキガイダトハナシマス",
       "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-13",
+      "text": "箱の側面に、番号が書いてあります。",
+      "readingInput": "ハコのそくめんに、ばんごうがかいてあります。",
+      "expectedMoras": "ハコノソクメンニバンゴオガカイテアリマス",
+      "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-13",
+      "text": "年齢に関係なく、対等な立場で話したいです。",
+      "readingInput": "ねんれいにかんけいなく、たいとうなたちばで話したいです。",
+      "expectedMoras": "ネンレイニカンケイナクタイトオナタチバデハナシタイデス",
+      "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-14",
+      "text": "友達は、「旦那と旅行した」と話しました。",
+      "readingInput": "ともだちは、「だんなとりょこうした」と話しました。",
+      "expectedMoras": "トモダチワダンナトリョコオシタトハナシマシタ",
+      "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-15",
+      "text": "ドラマの人物が、「腕にできものができた」と話します。",
+      "readingInput": "ドラマのじんぶつが、「うでにできものができた」と話します。",
+      "expectedMoras": "ドラマノジンブツガウデニデキモノガデキタトハナシマス",
+      "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-15",
+      "text": "小説の人物は、「同じ学校の連中」と話します。",
+      "readingInput": "しょうせつのじんぶつは、「おなじがっこうのれんちゅう」と話します。",
+      "expectedMoras": "ショオセツノジンブツワオナジガッコオノレンチュウトハナシマス",
+      "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
     }
   ]
 }

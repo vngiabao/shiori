@@ -120,6 +120,22 @@ export function wordQuestions(
       !w.id.startsWith("k-") &&
       !w.id.startsWith("sound-"),
   );
+  const meanings = [...new Set(vocabulary.map((w) => w.meaning))];
+  const meaningIndex = new Map(meanings.map((meaning, i) => [meaning, i]));
+  const alternatives = (answer: string) => {
+    const excluded = meaningIndex.get(answer)!;
+    const available = meanings.length - 1;
+    const swaps = new Map<number, number>();
+    const selected: string[] = [];
+    // Sample three distinct meanings without shuffling the whole course per word.
+    for (let i = 0; i < Math.min(3, available); i++) {
+      const j = i + Math.floor(Math.random() * (available - i));
+      const value = swaps.get(j) ?? j;
+      swaps.set(j, swaps.get(i) ?? i);
+      selected.push(meanings[value >= excluded ? value + 1 : value]);
+    }
+    return selected;
+  };
   return vocabulary.map((w) => ({
     id: `word:${w.id}`,
     line: wordRuby(w),
@@ -127,11 +143,7 @@ export function wordQuestions(
     answer: w.meaning,
     options: [
       w.meaning,
-      ...shuffle(
-        [...new Set(vocabulary.map((v) => v.meaning))].filter(
-          (m) => m !== w.meaning,
-        ),
-      ).slice(0, 3),
+      ...alternatives(w.meaning),
     ],
     hint: w.kana,
     explanation: `${w.text}（${w.kana}） — ${w.meaning}`,

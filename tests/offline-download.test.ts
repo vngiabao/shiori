@@ -18,12 +18,12 @@ function setup() {
     keys: vi.fn(async (url: string, _options?: CacheQueryOptions) =>
       saved.has(url) ? [new Request("https://shiori.gbaonvo.com" + url)] : [],
     ),
-    put: vi.fn(async (url: string) => {
+    put: vi.fn(async (url: string, _response?: Response) => {
       saved.add(url);
     }),
   };
   vi.stubGlobal("caches", { open: vi.fn(async () => cache) });
-  const fetch = vi.fn(async (url: string) =>
+  const fetch = vi.fn(async (url: string, _options?: RequestInit) =>
     url === "/course-assets.json"
       ? new Response("[]")
       : new Response("recording"),
@@ -87,6 +87,25 @@ it("shares saved immutable clips between fetch and media Origin variants", async
   const { cache, urls } = setup();
   await saveAudioOffline(vi.fn());
   expect(cache.match).toHaveBeenCalledWith(urls[2], { ignoreVary: true });
+});
+
+it("owns offline writes and removes Origin variants from immutable responses", async () => {
+  const { cache, fetch, urls } = setup();
+  fetch.mockImplementation(async (url) =>
+    url === "/course-assets.json"
+      ? new Response("[]")
+      : new Response("recording", {
+          headers: { Vary: "Origin", "Content-Type": "audio/wav" },
+        }),
+  );
+  await saveAudioOffline(vi.fn());
+  expect(fetch).toHaveBeenCalledWith(urls[0], {
+    headers: { "X-Shiori-Offline-Download": "1" },
+  });
+  const written = cache.put.mock.calls.find(([url]) => url === urls[0])![1]!;
+  expect(written.headers.has("Vary")).toBe(false);
+  expect(written.headers.get("Content-Type")).toBe("audio/wav");
+  expect(await written.text()).toBe("recording");
 });
 
 it("rejects a download whose earlier files disappeared before completion", async () => {
