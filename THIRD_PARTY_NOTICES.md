@@ -133,3 +133,5 @@ N1 unit 12: original workplace report, handover, scenes and tasks. Formation res
 
 
 Workplace-keigo U1–6: original reception, telephone, email, meeting, request and refusal scenes/documents/tasks. Form-specific research sources and inspected limitations are recorded in content/sources/grammar/keigo-u01…u06.json: Culture Agency keigo chapters2–4, Japan Foundation Irodori/BMA, MLC, NEC authored phone guidance, Japan Businessmail Association, Bunpro and Jepang. No publisher prose/exercise or real voice recording imported. Cached JMdict/KANJIDIC2/KanjiVG pins and earlier media hashes preserved. Native review pending.
+
+Workplace-keigo U7–9 source briefs record Culture Agency chapters 2–4; the Businessmail Association authored apology/negotiation guidance; Japan Foundation presentation guide JLP00006 and MLC questions/permission. The original lesson facts, prose and exercises are AI-assisted drafts; the references support selected forms and organisation, not exam labels or native review. Pinned dictionary/kanji datasets remain unchanged upstream.

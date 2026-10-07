@@ -350,6 +350,34 @@
       "expectedMoras": "カヨオノカイギデワノオニュウビワキメテナカッタネヨオシガキンヨオニトドクカラキンヨオジュウワムリダヨ",
       "unit": "keigo-u06",
       "reason": "New-key preflight aligns 金曜中 with authored きんようじゅう, a during-Friday time span. Full inspected mora sequence pinned; not native intonation certification."
+    },
+    {
+      "text": "こちらの確認不足でした。",
+      "readingInput": "こちらのかくにんぶそくでした。",
+      "expectedMoras": "コチラノカクニンブソクデシタ",
+      "unit": "keigo-u07",
+      "reason": "確認不足 uses the authored かくにんぶそく compound. Full new-key query inspected before synthesis; native listening remains separate."
+    },
+    {
+      "text": "こちらの確認不足で、二十部の箱を積み忘れておりました。お詫び申し上げます。",
+      "readingInput": "こちらのかくにんぶそくで、二十部の箱を積み忘れておりました。お詫び申し上げます。",
+      "expectedMoras": "コチラノカクニンブソクデニジュウブノハコオツミワスレテオリマシタオワビモオシアゲマス",
+      "unit": "keigo-u07",
+      "reason": "確認不足 uses the authored かくにんぶそく compound. Full new-key query inspected before synthesis; native listening remains separate."
+    },
+    {
+      "text": "五時まではおりますので、四時半までなら受け取れます。",
+      "readingInput": "五時までわおりますので、四時半までなら受け取れます。",
+      "expectedMoras": "ゴジマデワオリマスノデヨジハンマデナラウケトレマス",
+      "unit": "keigo-u07",
+      "reason": "Topic particle は after まで must be pronounced wa, not ha; text/ruby remain unchanged. Full new-key query inspected before synthesis; native listening remains separate."
+    },
+    {
+      "text": "五分で説明するなら、変更点と料金の順がいいね。",
+      "readingInput": "ごふんで説明するなら、変更点と料金の順がいいね。",
+      "expectedMoras": "ゴフンデセツメエスルナラヘンコオテントリョオキンノジュンガイイネ",
+      "unit": "keigo-u09",
+      "reason": "New-key preflight: 五分 here is a five-minute duration, ごふん, not ごぶ. Full mora sequence inspected before synthesis; native intonation remains separate."
     }
   ]
 }

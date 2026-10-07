@@ -1,0 +1,862 @@
+{
+  "id": "keigo-u08",
+  "title": "Keigo at work: negotiate an option",
+  "lesson": {
+    "title": "A budget limit; a sample before the decision",
+    "description": "Confirm a budget, offer conditional alternatives and preserve the client’s decision.",
+    "canDo": "Track who considers a proposal and which specifications the price actually covers.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u08-w-v01",
+      "{掛率|かけりつ}",
+      "kakeritsu",
+      "a price multiplier (often relative to list price)",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v02",
+      "{下限|かげん}",
+      "kagen",
+      "a lower limit",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v03",
+      "{上限|じょうげん}",
+      "jōgen",
+      "an upper limit",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v04",
+      "{価格帯|かかくたい}",
+      "kakakutai",
+      "a price range",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v05",
+      "{税込|ぜいこみ}",
+      "zeikomi",
+      "including tax",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v06",
+      "{税別|ぜいべつ}",
+      "zeibetsu",
+      "excluding tax",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v07",
+      "{割高|わりだか}",
+      "waridaka",
+      "relatively expensive",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v08",
+      "{割安|わりやす}",
+      "wariyasu",
+      "relatively inexpensive",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v09",
+      "{卸値|おろしね}",
+      "oroshine",
+      "wholesale price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v10",
+      "{希望小売価格|きぼうこうりかかく}",
+      "kibō kōri kakaku",
+      "suggested retail price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v11",
+      "{定価|ていか}",
+      "teika",
+      "list price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v12",
+      "{割引率|わりびきりつ}",
+      "waribikiritsu",
+      "discount rate",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v13",
+      "{歩留|ぶどま}り",
+      "budomari",
+      "production yield",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v14",
+      "{差額|さがく}",
+      "sagaku",
+      "the difference in amount",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v15",
+      "{売価|ばいか}",
+      "baika",
+      "selling price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v16",
+      "{買値|かいね}",
+      "kaine",
+      "purchase price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v17",
+      "{元値|もとね}",
+      "motone",
+      "original price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v18",
+      "{特価|とっか}",
+      "tokka",
+      "a special reduced price",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v19",
+      "{端数|はすう}",
+      "hasū",
+      "a fractional or odd amount",
+      "neutral"
+    ],
+    [
+      "keigo-u08-w-v20",
+      "{値札|ねふだ}",
+      "nefuda",
+      "a price tag",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u08-g-constraint",
+      "title": "Ask for the client’s limits before proposing",
+      "explanation": "ご予算を伺ってもよろしいでしょうか asks permission to ask the client’s budget. You do the asking; the client states their own limit. In this scene ご予算 refers to the client’s budget, while 弊社 refers to your company.",
+      "formation": "Selected 伺う → 伺って + もよろしいでしょうか. ご予算 / ご希望 refer to the client’s budget / wishes; prefixes are not mechanically added to every noun.",
+      "mistake": "Do not use 伺う to order the client to ask your company. Do not assume that agreeing to discuss a budget changes it.",
+      "example": "ご予算を伺ってもよろしいでしょうか。",
+      "translation": "May I ask your budget?",
+      "examples": [
+        {
+          "ja": "ご{予算|よさん}を{伺|うかが}ってもよろしいでしょうか。",
+          "en": "May I ask your budget?"
+        },
+        {
+          "ja": "ご{希望|きぼう}の{部数|ぶすう}をお{聞|き}かせください。",
+          "en": "Please tell us how many copies you would like."
+        },
+        {
+          "ja": "{弊社|へいしゃ}から{二|ふた}つの{案|あん}をご{提案|ていあん}いたします。",
+          "en": "We will propose two options from our company."
+        }
+      ],
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "lessons": [
+        "keigo-u08-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u08-g-condition",
+      "title": "State which condition makes the offer possible",
+      "explanation": "白黒でしたら… is a polite conditional offer: the stated price applies if the printing is black and white. It is not an unconditional discount on colour printing. Restate what stays the same and what changes.",
+      "formation": "Selected noun + でしたら, the polite conditional corresponding to だったら; compare 白黒なら / 白黒でしたら. Selected ご用意できます expresses your ability to prepare the copies for the client.",
+      "mistake": "Do not remove the condition when reporting the offer. Do not treat the conditional form as proof that the client has accepted.",
+      "example": "白黒でしたら、五十部で一万二千円です。",
+      "translation": "If it is black and white, fifty copies cost twelve thousand yen.",
+      "examples": [
+        {
+          "ja": "{白黒|しろくろ}でしたら、{五十部|ごじゅうぶ}で{一万二千円|いちまんにせんえん}です。",
+          "en": "If it is black and white, fifty copies cost twelve thousand yen."
+        },
+        {
+          "ja": "カラーで{四十部|よんじゅうぶ}でしたら、{同|おな}じ{金額|きんがく}です。",
+          "en": "If it is forty copies in colour, the amount is the same."
+        },
+        {
+          "ja": "その{条件|じょうけん}でしたら、ご{用意|ようい}できます。",
+          "en": "We can prepare them under those conditions."
+        }
+      ],
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "lessons": [
+        "keigo-u08-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u08-g-decision",
+      "title": "A review is not an acceptance",
+      "explanation": "検討いたします reports your own review of a proposal in formal wording. ご検討いただけますか asks the client to consider it. A request for a sample or an agreement to review the options does not authorise production.",
+      "formation": "Selected 検討する → 検討いたします (own action). Selected ご検討 + いただけますか asks to receive the client’s consideration. Distinguish review, acceptance and completed production.",
+      "mistake": "Do not put the client’s review in the first person, or mark a requested sample as a placed order.",
+      "example": "社内で検討いたします。",
+      "translation": "We will review it within our company.",
+      "examples": [
+        {
+          "ja": "{社内|しゃない}で{検討|けんとう}いたします。",
+          "en": "We will review it within our company."
+        },
+        {
+          "ja": "こちらの{案|あん}をご{検討|けんとう}いただけますか。",
+          "en": "Could you consider this option?"
+        },
+        {
+          "ja": "お{返事|へんじ}をいただいてから、{印刷|いんさつ}を{始|はじ}めます。",
+          "en": "We will start printing after receiving your reply."
+        }
+      ],
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "lessons": [
+        "keigo-u08-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u08-d-budget",
+      "lesson": "keigo-u08-lesson",
+      "title": "Check which prices you can actually offer",
+      "scene": "A week after the missing-box delivery, You and Mori prepare for Tamura’s different event next month. Every quoted price in this fictional job includes tax.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u07-w-v13",
+        "keigo-u08-w-v05"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{先日|せんじつ}の{不足分|ふそくぶん}は、{四時|よじ}{二十分|にじゅっぷん}にお{届|とど}けできました。{田村様|たむらさま}からも{受領|じゅりょう}のご{連絡|れんらく}がありました。",
+          "romaji": "Senjitsu no fusokubun wa, yoji nijuppun ni otodoke dekimashita. Tamura-sama kara mo juryō no gorenraku ga arimashita.",
+          "meaning": "We delivered the previous missing copies at four twenty. Ms Tamura also confirmed receipt."
+        },
+        {
+          "speaker": "Mori",
+          "line": "よかった。{今日|きょう}の{相談|そうだん}は、{来月|らいげつ}の{別|べつ}のイベント{用|よう}だね。",
+          "romaji": "Yokatta. Kyō no sōdan wa, raigetsu no betsu no ibento yō da ne.",
+          "meaning": "Good. Today’s discussion is for a different event next month, right?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。カラーで{五十部|ごじゅうぶ}、{税込|ぜいこみ}{一万五千円|いちまんごせんえん}の{見積り|みつもり}です。",
+          "romaji": "Hai. Karā de gojūbu, zeikomi ichiman gosen en no mitsumori desu.",
+          "meaning": "Yes. The estimate is fifteen thousand yen including tax for fifty colour copies."
+        },
+        {
+          "speaker": "Mori",
+          "line": "その{仕様|しよう}のまま{値引|ねび}きはできないよ。{予算|よさん}に{合|あ}わせるなら、{部数|ぶすう}か{色|いろ}を{変|か}えよう。",
+          "romaji": "Sono shiyō no mama nebiki wa dekinai yo. Yosan ni awaseru nara, busū ka iro o kaeyō.",
+          "meaning": "We can’t discount those specifications. To fit the budget, we’ll need to change the number or colour."
+        },
+        {
+          "speaker": "You",
+          "line": "{白黒|しろくろ}で{五十部|ごじゅうぶ}なら、いくらですか。",
+          "romaji": "Shirokuro de gojūbu nara, ikura desu ka.",
+          "meaning": "How much is fifty in black and white?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "{税込|ぜいこみ}{一万二千円|いちまんにせんえん}。カラーで{四十部|よんじゅうぶ}にしても、{同|おな}じ{金額|きんがく}だよ。",
+          "romaji": "Zeikomi ichiman nisen en. Karā de yonjūbu ni shite mo, onaji kingaku da yo.",
+          "meaning": "Twelve thousand yen including tax. Forty in colour would cost the same."
+        },
+        {
+          "speaker": "You",
+          "line": "{内容|ないよう}と{納期|のうき}は{同|おな}じですね。まず、{五十部|ごじゅうぶ}が{必要|ひつよう}か{確認|かくにん}します。",
+          "romaji": "Naiyō to nōki wa onaji desu ne. Mazu, gojūbu ga hitsuyō ka kakunin shimasu.",
+          "meaning": "The content and delivery date are unchanged, right? I’ll first check whether they need fifty."
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん。{白黒|しろくろ}の{見本|みほん}も{出|だ}せる。{金曜|きんよう}{三時|さんじ}までなら{用意|ようい}できるよ。",
+          "romaji": "Un. Shirokuro no mihon mo daseru. Kin’yō sanji made nara yōi dekiru yo.",
+          "meaning": "Right. We can provide a black-and-white sample too, by three on Friday."
+        },
+        {
+          "speaker": "You",
+          "line": "では、{二|ふた}つの{案|あん}をご{提案|ていあん}します。カラー{五十部|ごじゅうぶ}の{値引|ねび}きとは{説明|せつめい}しません。",
+          "romaji": "Dewa, futatsu no an o goteian shimasu. Karā gojūbu no nebiki to wa setsumei shimasen.",
+          "meaning": "Then I’ll offer both options. I won’t describe them as a discount on fifty colour copies."
+        },
+        {
+          "speaker": "Mori",
+          "line": "そうだね。{返事|へんじ}があるまでは{見本|みほん}だけ。{本番|ほんばん}の{印刷|いんさつ}はまだ{始|はじ}めないで。",
+          "romaji": "Sō da ne. Henji ga aru made wa mihon dake. Honban no insatsu wa mada hajimenaide.",
+          "meaning": "That’s right. Only make the sample until we hear back. Don’t start the full print run yet."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u08-d-options",
+      "lesson": "keigo-u08-lesson",
+      "title": "Fifty copies matter; the colour can be reviewed",
+      "scene": "You speak to Tamura with two verified alternatives. There is no authority to discount fifty colour copies; the client can decide after seeing a sample.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u08-w-v03",
+        "keigo-u08-w-v05"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}、ご{予算|よさん}を{伺|うかが}ってもよろしいでしょうか。",
+          "romaji": "Tamura-sama, goyosan o ukagatte mo yoroshii deshō ka.",
+          "meaning": "Ms Tamura, may I ask your budget?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{上限|じょうげん}は{税込|ぜいこみ}{一万二千円|いちまんにせんえん}です。{五十部|ごじゅうぶ}は{必要|ひつよう}なので、{減|へ}らせません。",
+          "romaji": "Jōgen wa zeikomi ichiman nisen en desu. Gojūbu wa hitsuyō na node, herasemasen.",
+          "meaning": "Our limit is twelve thousand yen including tax. We need fifty copies, so we can’t reduce that."
+        },
+        {
+          "speaker": "You",
+          "line": "{白黒|しろくろ}でしたら、{五十部|ごじゅうぶ}でご{予算|よさん}に{収|おさ}まります。カラーでしたら、{四十部|よんじゅうぶ}になります。",
+          "romaji": "Shirokuro deshitara, gojūbu de goyosan ni osamarimasu. Karā deshitara, yonjūbu ni narimasu.",
+          "meaning": "In black and white, fifty copies would fit your budget. In colour, it would be forty."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "カラーで{五十部|ごじゅうぶ}のまま、その{金額|きんがく}にできませんか。",
+          "romaji": "Karā de gojūbu no mama, sono kingaku ni dekimasen ka.",
+          "meaning": "Could you keep fifty in colour at that price?"
+        },
+        {
+          "speaker": "You",
+          "line": "{申|もう}し{訳|わけ}ありませんが、その{仕様|しよう}では{難|むずか}しいです。{白黒|しろくろ}でも{内容|ないよう}は{変|か}わりません。",
+          "romaji": "Mōshiwake arimasen ga, sono shiyō de wa muzukashii desu. Shirokuro demo naiyō wa kawarimasen.",
+          "meaning": "I’m sorry, but we can’t do that with those specifications. The content would stay the same in black and white."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{色|いろ}で{区別|くべつ}している{表|ひょう}があるので、{白黒|しろくろ}でも{読|よ}めるか{見|み}たいです。",
+          "romaji": "Iro de kubetsu shite iru hyō ga aru node, shirokuro demo yomeru ka mitai desu.",
+          "meaning": "There is a table that distinguishes things by colour, so I’d like to see if it’s readable in black and white."
+        },
+        {
+          "speaker": "You",
+          "line": "{金曜|きんよう}{三時|さんじ}までに{見本|みほん}をお{送|おく}りいたします。ご{覧|らん}になってから、ご{検討|けんとう}いただけますか。",
+          "romaji": "Kin’yō sanji made ni mihon o ookuri itashimasu. Goran ni natte kara, gokentō itadakemasu ka.",
+          "meaning": "We’ll send a sample by three on Friday. Could you consider it after looking at it?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい。{見本|みほん}を{確認|かくにん}して、{月曜|げつよう}{午前|ごぜん}にお{返事|へんじ}します。",
+          "romaji": "Hai. Mihon o kakunin shite, getsuyō gozen ni ohenji shimasu.",
+          "meaning": "Yes. I’ll check the sample and reply on Monday morning."
+        },
+        {
+          "speaker": "You",
+          "line": "{承知|しょうち}しました。お{返事|へんじ}をいただいてから、{印刷|いんさつ}を{始|はじ}めます。",
+          "romaji": "Shōchi shimashita. Ohenji o itadaite kara, insatsu o hajimemasu.",
+          "meaning": "Understood. We’ll start printing after receiving your reply."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "お{願|ねが}いします。{今日|きょう}はまだ{白黒|しろくろ}での{注文|ちゅうもん}を{決|き}めていませんので。",
+          "romaji": "Onegai shimasu. Kyō wa mada shirokuro de no chūmon o kimete imasen node.",
+          "meaning": "Please do. I haven’t decided to place the black-and-white order today."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u08-reading-options",
+      "lesson": "keigo-u08-lesson",
+      "title": "Estimate record: changed and unchanged specifications",
+      "genre": "guide",
+      "paragraphs": [
+        "{来月|らいげつ}のイベント{用|よう}の{見積り|みつもり}。カラー{五十部|ごじゅうぶ}は{税込|ぜいこみ}{一万五千円|いちまんごせんえん}。{田村様|たむらさま}の{上限|じょうげん}は{税込|ぜいこみ}{一万二千円|いちまんにせんえん}で、{五十部|ごじゅうぶ}が{必要|ひつよう}。{同|おな}じ{仕様|しよう}での{値引|ねび}きはできない。",
+        "{提案|ていあん}は{白黒|しろくろ}{五十部|ごじゅうぶ}、またはカラー{四十部|よんじゅうぶ}。どちらも{税込|ぜいこみ}{一万二千円|いちまんにせんえん}。{内容|ないよう}と{納期|のうき}は{変|か}わらない。{白黒|しろくろ}の{表|ひょう}が{読|よ}めるかを{確認|かくにん}するため、{金曜|きんよう}{三時|さんじ}までに{見本|みほん}をお{送|おく}りする。",
+        "{田村様|たむらさま}のお{返事|へんじ}は{月曜|げつよう}{午前|ごぜん}。{見本|みほん}の{依頼|いらい}はあったが、{本番|ほんばん}の{印刷|いんさつ}はまだ{承認|しょうにん}されていない。"
+      ],
+      "glosses": [
+        {
+          "text": "来月",
+          "kana": "らいげつ",
+          "meaning": "next month"
+        },
+        {
+          "text": "用",
+          "kana": "よう",
+          "meaning": "for use"
+        },
+        {
+          "text": "見積り",
+          "kana": "みつもり",
+          "meaning": "estimate"
+        },
+        {
+          "text": "五十部",
+          "kana": "ごじゅうぶ",
+          "meaning": "fifty copies"
+        },
+        {
+          "text": "税込",
+          "kana": "ぜいこみ",
+          "meaning": "including tax"
+        },
+        {
+          "text": "一万五千円",
+          "kana": "いちまんごせんえん",
+          "meaning": "fifteen thousand yen"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "上限",
+          "kana": "じょうげん",
+          "meaning": "upper limit"
+        },
+        {
+          "text": "一万二千円",
+          "kana": "いちまんにせんえん",
+          "meaning": "twelve thousand yen"
+        },
+        {
+          "text": "必要",
+          "kana": "ひつよう",
+          "meaning": "needed"
+        },
+        {
+          "text": "同",
+          "kana": "おな",
+          "meaning": "same (in 同じ)"
+        },
+        {
+          "text": "仕様",
+          "kana": "しよう",
+          "meaning": "specifications"
+        },
+        {
+          "text": "値引",
+          "kana": "ねび",
+          "meaning": "discount (in 値引き)"
+        },
+        {
+          "text": "提案",
+          "kana": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "text": "白黒",
+          "kana": "しろくろ",
+          "meaning": "black and white"
+        },
+        {
+          "text": "四十部",
+          "kana": "よんじゅうぶ",
+          "meaning": "forty copies"
+        },
+        {
+          "text": "内容",
+          "kana": "ないよう",
+          "meaning": "content"
+        },
+        {
+          "text": "納期",
+          "kana": "のうき",
+          "meaning": "delivery deadline"
+        },
+        {
+          "text": "変",
+          "kana": "か",
+          "meaning": "change (in 変わる)"
+        },
+        {
+          "text": "表",
+          "kana": "ひょう",
+          "meaning": "table"
+        },
+        {
+          "text": "読",
+          "kana": "よ",
+          "meaning": "read (in 読める)"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking"
+        },
+        {
+          "text": "金曜",
+          "kana": "きんよう",
+          "meaning": "Friday"
+        },
+        {
+          "text": "三時",
+          "kana": "さんじ",
+          "meaning": "three o’clock"
+        },
+        {
+          "text": "見本",
+          "kana": "みほん",
+          "meaning": "sample"
+        },
+        {
+          "text": "送",
+          "kana": "おく",
+          "meaning": "send (in 送る)"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ",
+          "meaning": "reply"
+        },
+        {
+          "text": "月曜",
+          "kana": "げつよう",
+          "meaning": "Monday"
+        },
+        {
+          "text": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning"
+        },
+        {
+          "text": "依頼",
+          "kana": "いらい",
+          "meaning": "request"
+        },
+        {
+          "text": "本番",
+          "kana": "ほんばん",
+          "meaning": "full production run"
+        },
+        {
+          "text": "印刷",
+          "kana": "いんさつ",
+          "meaning": "printing"
+        },
+        {
+          "text": "承認",
+          "kana": "しょうにん",
+          "meaning": "approval"
+        },
+        {
+          "text": "イベント",
+          "kana": "いべんと",
+          "meaning": "event"
+        },
+        {
+          "text": "カラー",
+          "kana": "からー",
+          "meaning": "colour printing"
+        },
+        {
+          "text": "変わらない",
+          "kana": "かわらない",
+          "meaning": "does not change"
+        },
+        {
+          "text": "読める",
+          "kana": "よめる",
+          "meaning": "can be read"
+        },
+        {
+          "text": "送る",
+          "kana": "おくる",
+          "meaning": "send"
+        },
+        {
+          "text": "あったが",
+          "kana": "あったが",
+          "meaning": "there was …, but"
+        },
+        {
+          "text": "承認されていない",
+          "kana": "しょうにんされていない",
+          "meaning": "has not been approved"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u08-x-options",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "Which offered combination costs twelve thousand yen?",
+      "options": [
+        "{白黒|しろくろ}{五十部|ごじゅうぶ}、またはカラー{四十部|よんじゅうぶ}。",
+        "カラー{五十部|ごじゅうぶ}、または{白黒|しろくろ}{四十部|よんじゅうぶ}。",
+        "どちらの{色|いろ}でも{五十部|ごじゅうぶ}。"
+      ],
+      "answer": 0,
+      "explain": "The price depends on the stated specifications; fifty in colour is fifteen thousand.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u08-d-budget",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-oldjob",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "What is explicitly confirmed about the PREVIOUS missing copies?",
+      "options": [
+        "{四時|よじ}{二十分|にじゅっぷん}に{届|とど}き、{受領|じゅりょう}の{連絡|れんらく}があった。",
+        "{五時|ごじ}に{届|とど}いたが、{受領|じゅりょう}は{未確認|みかくにん}。",
+        "{今日|きょう}も{梱包|こんぽう}の{机|つくえ}にある。"
+      ],
+      "answer": 0,
+      "explain": "The opening resolves the previous shortage with actual delivery and receipt, before a new job begins.",
+      "words": [
+        "keigo-u07-w-v13"
+      ],
+      "dialogue": "keigo-u08-d-budget",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-constraint",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "Which requirement does Tamura say cannot be reduced?",
+      "options": [
+        "{五十部|ごじゅうぶ}という{部数|ぶすう}。",
+        "カラーという{色|いろ}の{指定|してい}。",
+        "{一万五千円|いちまんごせんえん}という{上限|じょうげん}。"
+      ],
+      "answer": 0,
+      "explain": "Fifty is required. She is willing to inspect black-and-white readability, not committed to colour.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "dialogue": "keigo-u08-d-options",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-sample",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "Why does Tamura ask for a sample?",
+      "options": [
+        "{色|いろ}で{区別|くべつ}した{表|ひょう}が{白黒|しろくろ}でも{読|よ}めるか{見|み}たいから。",
+        "{部数|ぶすう}を{四十部|よんじゅうぶ}に{変|か}えたから。",
+        "カラー{五十部|ごじゅうぶ}の{値引|ねび}きが{決|き}まったから。"
+      ],
+      "answer": 0,
+      "explain": "Her stated concern is the table’s readability. The order is still undecided.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u08-d-options",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-ask",
+      "lesson": "keigo-u08-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: YOU ask the external client’s budget.",
+      "line": "ご{予算|よさん}を＿＿もよろしいでしょうか。",
+      "options": [
+        "{伺|うかが}って",
+        "おっしゃって",
+        "いらっしゃって"
+      ],
+      "answer": 0,
+      "explain": "伺う makes the speaker the person asking the client.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-condition",
+      "lesson": "keigo-u08-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: say the twelve-thousand-yen offer applies IF black and white is selected.",
+      "line": "{白黒|しろくろ}＿＿、{五十部|ごじゅうぶ}で{一万二千円|いちまんにせんえん}です。",
+      "options": [
+        "でしたら",
+        "でしたが",
+        "でしたので"
+      ],
+      "answer": 0,
+      "explain": "でしたら states the condition, not a past choice or already-established reason.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-limit",
+      "lesson": "keigo-u08-lesson",
+      "type": "reply",
+      "prompt": "The client asks to retain fifty colour copies for twelve thousand yen. Give the confirmed limit and alternative.",
+      "line": "カラーで{五十部|ごじゅうぶ}のまま、その{金額|きんがく}にできませんか。",
+      "options": [
+        "その{仕様|しよう}では{難|むずか}しいです。{白黒|しろくろ}でしたらご{予算|よさん}に{収|おさ}まります。",
+        "はい、そのまま{一万二千円|いちまんにせんえん}にいたします。",
+        "では、{四十部|よんじゅうぶ}で{注文|ちゅうもん}を{確定|かくてい}します。"
+      ],
+      "answer": 0,
+      "explain": "No same-specification discount is available, and the client requires fifty copies.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u08-d-options",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-wait",
+      "lesson": "keigo-u08-lesson",
+      "type": "reply",
+      "prompt": "Tamura will review the sample before deciding. Respond without starting production.",
+      "line": "{見本|みほん}を{確認|かくにん}して、{月曜|げつよう}{午前|ごぜん}にお{返事|へんじ}します。",
+      "options": [
+        "{承知|しょうち}しました。お{返事|へんじ}をお{待|ま}ちしております。",
+        "ありがとうございます。{本日|ほんじつ}{五十部|ごじゅうぶ}の{印刷|いんさつ}を{始|はじ}めます。",
+        "では、カラーで{四十部|よんじゅうぶ}ですね。"
+      ],
+      "answer": 0,
+      "explain": "Monday’s reply is still pending; neither full-run option has been accepted.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u08-d-options",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u08-x-order",
+      "lesson": "keigo-u08-lesson",
+      "type": "order",
+      "tiles": [
+        "ご{予算|よさん}を",
+        "{伺|うかが}っても",
+        "よろしいでしょうか。"
+      ],
+      "meaning": "May I ask your budget? (Use the taught formal question.)",
+      "explain": "The speaker asks the client’s permission to ask their budget.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-formal",
+      "lesson": "keigo-u08-lesson",
+      "type": "register",
+      "prompt": "Three ways: use the taught formal wording to ask an external client’s budget.",
+      "context": "Specify the listener and who performs the action. Offering choices does not authorise production.",
+      "options": [
+        "ご{予算|よさん}を{伺|うかが}ってもよろしいでしょうか。",
+        "{予算|よさん}を{聞|き}いてもいいですか。",
+        "{予算|よさん}を{聞|き}いてもいい？"
+      ],
+      "answer": 0,
+      "explain": "伺ってもよろしいでしょうか is the specified formal wording.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-ordinary",
+      "lesson": "keigo-u08-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask a peer in ordinary polite wording.",
+      "context": "Specify the listener and who performs the action. Offering choices does not authorise production.",
+      "options": [
+        "{予算|よさん}を{聞|き}いてもいいですか。",
+        "ご{予算|よさん}を{伺|うかが}ってもよろしいでしょうか。",
+        "{予算|よさん}を{聞|き}いてもいい？"
+      ],
+      "answer": 0,
+      "explain": "聞いてもいいですか is the requested ordinary polite question.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-reviewer",
+      "lesson": "keigo-u08-lesson",
+      "type": "register",
+      "prompt": "Which line asks the CLIENT to consider your option?",
+      "context": "Specify the listener and who performs the action. Offering choices does not authorise production.",
+      "options": [
+        "こちらの{案|あん}をご{検討|けんとう}いただけますか。",
+        "{弊社|へいしゃ}で{検討|けんとう}いたします。",
+        "{私|わたし}が{検討|けんとう}しました。"
+      ],
+      "answer": 0,
+      "explain": "ご検討いただけますか requests the client’s consideration. The others describe your company’s or your own review.",
+      "words": [
+        "keigo-u08-w-v03"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-unchanged",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "According to the written estimate, what stays the same in BOTH offered alternatives?",
+      "options": [
+        "{内容|ないよう}と{納期|のうき}。",
+        "カラーと{五十部|ごじゅうぶ}。",
+        "{元|もと}の{金額|きんがく}と{色|いろ}。"
+      ],
+      "answer": 0,
+      "explain": "The document preserves content and deadline; colour or number changes.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "reading": "keigo-u08-reading-options",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u08-x-next",
+      "lesson": "keigo-u08-lesson",
+      "type": "choice",
+      "prompt": "What does the written estimate schedule BEFORE the client’s Monday reply?",
+      "options": [
+        "{金曜|きんよう}{三時|さんじ}までに{白黒|しろくろ}の{見本|みほん}を{送|おく}る。",
+        "{金曜|きんよう}{三時|さんじ}までに{本番|ほんばん}の{印刷|いんさつ}を{終|お}える。",
+        "{月曜|げつよう}{午前|ごぜん}までにカラー{五十部|ごじゅうぶ}を{送|おく}る。"
+      ],
+      "answer": 0,
+      "explain": "Only the sample is scheduled before the reply; full production is not approved.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "reading": "keigo-u08-reading-options",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "The previous shortage is closed with actual receipt; its 不足分 reference fits the story naturally, without forcing price-list words into conversation."
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "id": "keigo-u09",
+  "title": "Keigo at work: present a sample",
+  "lesson": {
+    "title": "Five minutes, two points and one unanswered question",
+    "description": "Direct attention to a page, explain a change and separate a checked answer from a promise.",
+    "canDo": "Follow a client presentation and distinguish explanation, review and an actual order.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u09-w-v01",
+      "{目次|もくじ}",
+      "mokuji",
+      "table of contents",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v02",
+      "{箇条書|かじょうが}き",
+      "kajōgaki",
+      "a bulleted list",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v03",
+      "{図解|ずかい}",
+      "zukai",
+      "explanation using a diagram",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v04",
+      "{図示|ずし}",
+      "zushi",
+      "showing in a diagram",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v05",
+      "{実演|じつえん}",
+      "jitsuen",
+      "a demonstration",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v06",
+      "{配布物|はいふぶつ}",
+      "haifubutsu",
+      "distributed materials",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v07",
+      "{投影機|とうえいき}",
+      "tōeiki",
+      "a projector",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v08",
+      "{指示棒|しじぼう}",
+      "shijibō",
+      "a pointing stick",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v09",
+      "{視認性|しにんせい}",
+      "shininsei",
+      "visibility; ease of visually recognising something",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v10",
+      "{可読性|かどくせい}",
+      "kadokusei",
+      "readability",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v11",
+      "{概説|がいせつ}",
+      "gaisetsu",
+      "an overview",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v12",
+      "{挿図|そうず}",
+      "sōzu",
+      "an illustration inserted in a text",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v13",
+      "{講壇|こうだん}",
+      "kōdan",
+      "a lecture platform",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v14",
+      "{演台|えんだい}",
+      "endai",
+      "a lectern",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v15",
+      "{話法|わほう}",
+      "wahō",
+      "a way of speaking",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v16",
+      "{小見出|こみだ}し",
+      "komidashi",
+      "a subheading",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v17",
+      "{凡例|はんれい}",
+      "hanrei",
+      "a key or legend for a chart",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v18",
+      "{縦軸|たてじく}",
+      "tatejiku",
+      "a vertical axis",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v19",
+      "{横軸|よこじく}",
+      "yokojiku",
+      "a horizontal axis",
+      "neutral"
+    ],
+    [
+      "keigo-u09-w-v20",
+      "{図版|ずはん}",
+      "zuhan",
+      "a printed illustration or plate",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u09-g-explain",
+      "title": "Own explanation; client as listener",
+      "explanation": "ご説明いたします introduces your own explanation to a client. The client does not become the person explaining. State the purpose and order briefly, rather than adding a long ceremonial opening.",
+      "formation": "Selected 説明する → ご説明いたします. {本日|ほんじつ}は / まず / 次に organise the presentation; they do not mean approval has been given.",
+      "mistake": "Do not use ご説明なさいます for your own presentation. Own-side ご説明 can be directed to the respected listener.",
+      "example": "{本日|ほんじつ}は、見本の変更点をご説明いたします。",
+      "translation": "Today I will explain the changes to the sample.",
+      "examples": [
+        {
+          "ja": "{本日|ほんじつ}は、{見本|みほん}の{変更点|へんこうてん}をご{説明|せつめい}いたします。",
+          "en": "Today I will explain the changes to the sample."
+        },
+        {
+          "ja": "まず、{表|ひょう}の{凡例|はんれい}をご{説明|せつめい}いたします。",
+          "en": "First, I will explain the table’s key."
+        },
+        {
+          "ja": "{次|つぎ}に、{料金|りょうきん}を{確認|かくにん}いたします。",
+          "en": "Next, I will confirm the price."
+        }
+      ],
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "lessons": [
+        "keigo-u09-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u09-g-look",
+      "title": "Ask the listener to look at a specific place",
+      "explanation": "ご覧ください respectfully directs the client’s attention to the material. You provide a page or section so they can follow. 拝見します instead describes your own looking at someone else’s material.",
+      "formation": "Selected 見る → ご覧になる; ご覧ください is the selected request. Compare casual 見て / ordinary polite 見てください / ご覧ください.",
+      "mistake": "Do not put 拝見してください in a request for the client to look. Do not omit which material or page matters.",
+      "example": "二ページの表をご覧ください。",
+      "translation": "Please look at the table on page two.",
+      "examples": [
+        {
+          "ja": "{二|に}ページの{表|ひょう}をご{覧|らん}ください。",
+          "en": "Please look at the table on page two."
+        },
+        {
+          "ja": "{右下|みぎした}の{凡例|はんれい}をご{覧|らん}ください。",
+          "en": "Please look at the key at the lower right."
+        },
+        {
+          "ja": "お{手元|てもと}の{見本|みほん}をご{覧|らん}ください。",
+          "en": "Please look at the sample in front of you."
+        }
+      ],
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "lessons": [
+        "keigo-u09-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u09-g-question",
+      "title": "Answer what is known; confirm what is not",
+      "explanation": "お答えいたします reports your own answer to the listener. When a requested fact has not been checked, say what you will check and when you will reply. A confident-sounding honorific does not make an unknown date certain.",
+      "formation": "Selected 答える stem 答え → お答えいたします. 調べてから、お返事いたします states checking before replying. Question permission: 質問してもよろしいでしょうか.",
+      "mistake": "Do not promise an unverified delivery date. Do not use お答えになります to describe your own answer.",
+      "example": "ご質問にお答えいたします。",
+      "translation": "I will answer your question.",
+      "examples": [
+        {
+          "ja": "ご{質問|しつもん}にお{答|こた}えいたします。",
+          "en": "I will answer your question."
+        },
+        {
+          "ja": "{調|しら}べてから、お{返事|へんじ}いたします。",
+          "en": "I will reply after checking."
+        },
+        {
+          "ja": "{質問|しつもん}してもよろしいでしょうか。",
+          "en": "May I ask a question?"
+        }
+      ],
+      "words": [
+        "keigo-u09-w-v05"
+      ],
+      "lessons": [
+        "keigo-u09-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u09-d-rehearsal",
+      "lesson": "keigo-u09-lesson",
+      "title": "Rehearse the sample explanation",
+      "scene": "It is Friday, before the sample is due. You and Mori check the table for Tamura’s event and prepare a five-minute explanation. The order remains undecided.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u08-w-v05",
+        "keigo-u09-w-v17"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}にお{送|おく}りする{白黒|しろくろ}の{見本|みほん}です。{凡例|はんれい}を{右下|みぎした}に{加|くわ}えました。",
+          "romaji": "Tamura-sama ni ookuri suru shirokuro no mihon desu. Hanrei o migishita ni kuwaemashita.",
+          "meaning": "This is the black-and-white sample we’re sending Ms Tamura. I added a key at the lower right."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{色|いろ}だけで{分|わ}けてた{表|ひょう}だね。{番号|ばんごう}でも{区別|くべつ}できるようになった？",
+          "romaji": "Iro dake de waketeta hyō da ne. Bangō demo kubetsu dekiru yō ni natta?",
+          "meaning": "That’s the table that used to rely on colour, right? Can you distinguish the categories by number now?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{一|いち}、{二|に}、{三|さん}を{付|つ}けました。{内容|ないよう}は{変|か}えていません。",
+          "romaji": "Hai. Ichi, ni, san o tsukemashita. Naiyō wa kaete imasen.",
+          "meaning": "Yes. I added one, two and three. The content is unchanged."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{五分|ごふん}で{説明|せつめい}するなら、{変更点|へんこうてん}と{料金|りょうきん}の{順|じゅん}がいいね。",
+          "romaji": "Gofun de setsumei suru nara, henkōten to ryōkin no jun ga ii ne.",
+          "meaning": "For a five-minute explanation, cover the changes and then the price."
+        },
+        {
+          "speaker": "You",
+          "line": "{二|に}ページの{表|ひょう}を{見|み}てもらってから、{税込|ぜいこみ}{一万二千円|いちまんにせんえん}とお{伝|つた}えします。",
+          "romaji": "Ni pēji no hyō o mite moratte kara, zeikomi ichiman nisen en to otsutae shimasu.",
+          "meaning": "After asking her to look at the table on page two, I’ll state twelve thousand yen including tax."
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん。{白黒|しろくろ}{五十部|ごじゅうぶ}の{金額|きんがく}だよ。カラー{五十部|ごじゅうぶ}の{料金|りょうきん}と{混|ま}ぜないで。",
+          "romaji": "Un. Shirokuro gojūbu no kingaku da yo. Karā gojūbu no ryōkin to mazenaide.",
+          "meaning": "Right. That’s for fifty black-and-white copies. Don’t confuse it with the price for fifty colour copies."
+        },
+        {
+          "speaker": "You",
+          "line": "{納期|のうき}を{早|はや}めたいと{言|い}われたら、どうしますか。",
+          "romaji": "Nōki o hayametai to iwaretara, dō shimasu ka.",
+          "meaning": "What if she asks for earlier delivery?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "その{日程|にってい}はまだ{調|しら}べてない。{印刷|いんさつ}{担当|たんとう}に{確認|かくにん}してから{答|こた}えよう。",
+          "romaji": "Sono nittei wa mada shirabetenai. Insatsu tantō ni kakunin shite kara kotaeyō.",
+          "meaning": "We haven’t checked that schedule. Ask the printing team before answering."
+        },
+        {
+          "speaker": "You",
+          "line": "{今日|きょう}{五時|ごじ}までに{確認|かくにん}して、お{返事|へんじ}します。",
+          "romaji": "Kyō goji made ni kakunin shite, ohenji shimasu.",
+          "meaning": "I’ll check and reply by five today."
+        },
+        {
+          "speaker": "Mori",
+          "line": "それでいいよ。{今日|きょう}は{見本|みほん}の{説明|せつめい}だから、{本番|ほんばん}の{注文|ちゅうもん}はまだだよ。",
+          "romaji": "Sore de ii yo. Kyō wa mihon no setsumei da kara, honban no chūmon wa mada da yo.",
+          "meaning": "That works. Today is the sample explanation, so the full order is still pending."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u09-d-demo",
+      "lesson": "keigo-u09-lesson",
+      "title": "Show what changed, then take a question",
+      "scene": "You explain the sample to Tamura on Friday. The numbers and key make the black-and-white table readable; an earlier delivery request still needs checking.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u08-w-v05",
+        "keigo-u09-w-v17"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{本日|ほんじつ}は、{白黒|しろくろ}の{見本|みほん}について{五分|ごふん}ほどご{説明|せつめい}いたします。",
+          "romaji": "Honjitsu wa, shirokuro no mihon ni tsuite gofun hodo gosetsumei itashimasu.",
+          "meaning": "Today I’ll take about five minutes to explain the black-and-white sample."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい、お{願|ねが}いします。",
+          "romaji": "Hai, onegai shimasu.",
+          "meaning": "Yes, please."
+        },
+        {
+          "speaker": "You",
+          "line": "まず、{二|に}ページの{表|ひょう}をご{覧|らん}ください。{色|いろ}の{代|か}わりに{番号|ばんごう}を{付|つ}けました。{凡例|はんれい}は{右下|みぎした}にございます。",
+          "romaji": "Mazu, ni pēji no hyō o goran kudasai. Iro no kawari ni bangō o tsukemashita. Hanrei wa migishita ni gozaimasu.",
+          "meaning": "First, please look at the table on page two. We added numbers instead of colours. The key is at the lower right."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "これなら{区別|くべつ}できますね。{内容|ないよう}は{前|まえ}と{同|おな}じですか。",
+          "romaji": "Kore nara kubetsu dekimasu ne. Naiyō wa mae to onaji desu ka.",
+          "meaning": "I can tell them apart like this. Is the content the same as before?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい、{内容|ないよう}は{変|か}えておりません。{白黒|しろくろ}{五十部|ごじゅうぶ}で、{税込|ぜいこみ}{一万二千円|いちまんにせんえん}です。",
+          "romaji": "Hai, naiyō wa kaete orimasen. Shirokuro gojūbu de, zeikomi ichiman nisen en desu.",
+          "meaning": "Yes, the content is unchanged. Fifty black-and-white copies cost twelve thousand yen including tax."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{質問|しつもん}してもよろしいでしょうか。{予定|よてい}より{一日|いちにち}{早|はや}く{受|う}け{取|と}ることはできますか。",
+          "romaji": "Shitsumon shite mo yoroshii deshō ka. Yotei yori ichinichi hayaku uketoru koto wa dekimasu ka.",
+          "meaning": "May I ask a question? Could we receive them one day earlier than planned?"
+        },
+        {
+          "speaker": "You",
+          "line": "{印刷|いんさつ}{担当|たんとう}に{確認|かくにん}して、{本日|ほんじつ}{五時|ごじ}までにお{返事|へんじ}いたします。",
+          "romaji": "Insatsu tantō ni kakunin shite, honjitsu goji made ni ohenji itashimasu.",
+          "meaning": "I will check with the printing team and reply by five today."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "わかりました。{月曜|げつよう}{午前|ごぜん}に、{白黒|しろくろ}で{注文|ちゅうもん}するかお{返事|へんじ}します。",
+          "romaji": "Wakarimashita. Getsuyō gozen ni, shirokuro de chūmon suru ka ohenji shimasu.",
+          "meaning": "Understood. I’ll reply on Monday morning about whether to order in black and white."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{変更点|へんこうてん}と{料金|りょうきん}をメールでもお{送|おく}りします。",
+          "romaji": "Arigatō gozaimasu. Henkōten to ryōkin o mēru demo ookuri shimasu.",
+          "meaning": "Thank you. I’ll also email the changes and price."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "お{願|ねが}いします。{納期|のうき}についても{確認|かくにん}できましたら、ご{連絡|れんらく}ください。",
+          "romaji": "Onegai shimasu. Nōki ni tsuite mo kakunin dekimashitara, gorenraku kudasai.",
+          "meaning": "Please do. Let me know about the delivery date once you have checked."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u09-reading-followup",
+      "lesson": "keigo-u09-lesson",
+      "title": "Follow-up record: sample explanation and open question",
+      "genre": "guide",
+      "paragraphs": [
+        "{金曜|きんよう}、{田村様|たむらさま}に{白黒|しろくろ}の{見本|みほん}を{説明|せつめい}した。{二|に}ページの{表|ひょう}に{番号|ばんごう}を{付|つ}け、{右下|みぎした}に{凡例|はんれい}を{加|くわ}えた。{内容|ないよう}は{変|か}えていない。{白黒|しろくろ}{五十部|ごじゅうぶ}は{税込|ぜいこみ}{一万二千円|いちまんにせんえん}。",
+        "{田村様|たむらさま}は{予定|よてい}より{一日|いちにち}{早|はや}く{受|う}け{取|と}れるか{質問|しつもん}した。{印刷|いんさつ}{担当|たんとう}に{確認|かくにん}して、{金曜|きんよう}{五時|ごじ}までに{返事|へんじ}をする。{早|はや}い{納期|のうき}はまだ{約束|やくそく}していない。",
+        "{注文|ちゅうもん}についての{田村様|たむらさま}の{返事|へんじ}は{月曜|げつよう}{午前|ごぜん}。{説明|せつめい}しただけで{本番|ほんばん}の{印刷|いんさつ}を{始|はじ}めない。"
+      ],
+      "glosses": [
+        {
+          "text": "金曜",
+          "kana": "きんよう",
+          "meaning": "Friday"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "白黒",
+          "kana": "しろくろ",
+          "meaning": "black and white"
+        },
+        {
+          "text": "見本",
+          "kana": "みほん",
+          "meaning": "sample"
+        },
+        {
+          "text": "説明",
+          "kana": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "text": "二",
+          "kana": "に",
+          "meaning": "two"
+        },
+        {
+          "text": "表",
+          "kana": "ひょう",
+          "meaning": "table"
+        },
+        {
+          "text": "番号",
+          "kana": "ばんごう",
+          "meaning": "number"
+        },
+        {
+          "text": "付",
+          "kana": "つ",
+          "meaning": "attach (in 付ける)"
+        },
+        {
+          "text": "右下",
+          "kana": "みぎした",
+          "meaning": "lower right"
+        },
+        {
+          "text": "凡例",
+          "kana": "はんれい",
+          "meaning": "key; legend"
+        },
+        {
+          "text": "加",
+          "kana": "くわ",
+          "meaning": "add (in 加える)"
+        },
+        {
+          "text": "内容",
+          "kana": "ないよう",
+          "meaning": "content"
+        },
+        {
+          "text": "変",
+          "kana": "か",
+          "meaning": "change (in 変える)"
+        },
+        {
+          "text": "五十部",
+          "kana": "ごじゅうぶ",
+          "meaning": "fifty copies"
+        },
+        {
+          "text": "税込",
+          "kana": "ぜいこみ",
+          "meaning": "including tax"
+        },
+        {
+          "text": "一万二千円",
+          "kana": "いちまんにせんえん",
+          "meaning": "twelve thousand yen"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい",
+          "meaning": "plan"
+        },
+        {
+          "text": "一日",
+          "kana": "いちにち",
+          "meaning": "one day"
+        },
+        {
+          "text": "早",
+          "kana": "はや",
+          "meaning": "early (in 早く)"
+        },
+        {
+          "text": "受",
+          "kana": "う",
+          "meaning": "receive (in 受け取る)"
+        },
+        {
+          "text": "取",
+          "kana": "と",
+          "meaning": "take (in 受け取る)"
+        },
+        {
+          "text": "質問",
+          "kana": "しつもん",
+          "meaning": "question"
+        },
+        {
+          "text": "印刷",
+          "kana": "いんさつ",
+          "meaning": "printing"
+        },
+        {
+          "text": "担当",
+          "kana": "たんとう",
+          "meaning": "person responsible"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking"
+        },
+        {
+          "text": "五時",
+          "kana": "ごじ",
+          "meaning": "five o’clock"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ",
+          "meaning": "reply"
+        },
+        {
+          "text": "納期",
+          "kana": "のうき",
+          "meaning": "delivery deadline"
+        },
+        {
+          "text": "約束",
+          "kana": "やくそく",
+          "meaning": "promise"
+        },
+        {
+          "text": "注文",
+          "kana": "ちゅうもん",
+          "meaning": "order"
+        },
+        {
+          "text": "月曜",
+          "kana": "げつよう",
+          "meaning": "Monday"
+        },
+        {
+          "text": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning"
+        },
+        {
+          "text": "本番",
+          "kana": "ほんばん",
+          "meaning": "full run"
+        },
+        {
+          "text": "始",
+          "kana": "はじ",
+          "meaning": "begin (in 始める)"
+        },
+        {
+          "text": "説明した",
+          "kana": "せつめいした",
+          "meaning": "explained"
+        },
+        {
+          "text": "付け",
+          "kana": "つけ",
+          "meaning": "adding"
+        },
+        {
+          "text": "加えた",
+          "kana": "くわえた",
+          "meaning": "added"
+        },
+        {
+          "text": "変えていない",
+          "kana": "かえていない",
+          "meaning": "has not changed"
+        },
+        {
+          "text": "受け取れる",
+          "kana": "うけとれる",
+          "meaning": "can receive"
+        },
+        {
+          "text": "質問した",
+          "kana": "しつもんした",
+          "meaning": "asked"
+        },
+        {
+          "text": "約束していない",
+          "kana": "やくそくしていない",
+          "meaning": "has not promised"
+        },
+        {
+          "text": "始めない",
+          "kana": "はじめない",
+          "meaning": "does not begin"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u09-x-order",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "Which order does Mori recommend for the five-minute explanation?",
+      "options": [
+        "{変更点|へんこうてん}、{料金|りょうきん}。",
+        "{納期|のうき}、{会社|かいしゃ}の{歴史|れきし}。",
+        "{注文|ちゅうもん}の{確定|かくてい}、{色|いろ}の{変更|へんこう}。"
+      ],
+      "answer": 0,
+      "explain": "Mori suggests changes first, then price. The full order is not confirmed.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u09-d-rehearsal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-limit",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "What does Mori say to do if asked for earlier delivery?",
+      "options": [
+        "{印刷|いんさつ}{担当|たんとう}に{確認|かくにん}してから{答|こた}える。",
+        "すぐに{早|はや}い{納期|のうき}を{約束|やくそく}する。",
+        "カラーに{変|か}えると{答|こた}える。"
+      ],
+      "answer": 0,
+      "explain": "The earlier schedule has not been checked.",
+      "words": [
+        "keigo-u09-w-v05"
+      ],
+      "dialogue": "keigo-u09-d-rehearsal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-key",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "Where does the presenter tell Tamura to look for the key?",
+      "options": [
+        "{二|に}ページの{表|ひょう}の{右下|みぎした}。",
+        "{一|いち}ページの{左上|ひだりうえ}。",
+        "{三|さん}ページの{右上|みぎうえ}。"
+      ],
+      "answer": 0,
+      "explain": "The spoken instruction specifies the table on page two and its lower right.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "dialogue": "keigo-u09-d-demo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-time",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "What is promised by five on Friday?",
+      "options": [
+        "{納期|のうき}を{確認|かくにん}した{返事|へんじ}。",
+        "{五十部|ごじゅうぶ}すべての{納入|のうにゅう}。",
+        "{田村様|たむらさま}からの{注文|ちゅうもん}{確定|かくてい}。"
+      ],
+      "answer": 0,
+      "explain": "The presenter promises a checked reply, not delivery or the client’s decision.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u09-d-demo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-own",
+      "lesson": "keigo-u09-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: YOU formally explain a sample to the client.",
+      "line": "{見本|みほん}をご{説明|せつめい}＿＿。",
+      "options": [
+        "いたします",
+        "なさいます",
+        "くださいます"
+      ],
+      "answer": 0,
+      "explain": "いたします describes your own explanation.",
+      "words": [
+        "keigo-u09-w-v05"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-look",
+      "lesson": "keigo-u09-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: ask the CLIENT to look at the table using the taught respectful request.",
+      "line": "{表|ひょう}を＿＿ください。",
+      "options": [
+        "ご{覧|らん}",
+        "{拝見|はいけん}",
+        "{伺|うかが}って"
+      ],
+      "answer": 0,
+      "explain": "ご覧ください requests the client’s looking; 拝見 is for your own looking.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-price",
+      "lesson": "keigo-u09-lesson",
+      "type": "reply",
+      "prompt": "Respond with the verified black-and-white price.",
+      "line": "{白黒|しろくろ}{五十部|ごじゅうぶ}では、おいくらですか。",
+      "options": [
+        "{税込|ぜいこみ}{一万二千円|いちまんにせんえん}です。",
+        "{税込|ぜいこみ}{一万五千円|いちまんごせんえん}です。",
+        "カラー{四十部|よんじゅうぶ}でお{届|とど}けします。"
+      ],
+      "answer": 0,
+      "explain": "Fifty black-and-white copies are twelve thousand including tax.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "dialogue": "keigo-u09-d-demo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-unknown",
+      "lesson": "keigo-u09-lesson",
+      "type": "reply",
+      "prompt": "The earlier date is unchecked. Give the next action and reply deadline.",
+      "line": "{予定|よてい}より{一日|いちにち}{早|はや}く{受|う}け{取|と}ることはできますか。",
+      "options": [
+        "{印刷|いんさつ}{担当|たんとう}に{確認|かくにん}して、{本日|ほんじつ}{五時|ごじ}までにお{返事|へんじ}いたします。",
+        "はい、{必|かなら}ず{一日|いちにち}{早|はや}く{届|とど}きます。",
+        "では、{月曜|げつよう}に{注文|ちゅうもん}を{決|き}めます。"
+      ],
+      "answer": 0,
+      "explain": "The presenter must check before committing to an earlier date.",
+      "words": [
+        "keigo-u09-w-v05"
+      ],
+      "dialogue": "keigo-u09-d-demo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u09-x-build",
+      "lesson": "keigo-u09-lesson",
+      "type": "order",
+      "tiles": [
+        "{二|に}ページの",
+        "{表|ひょう}を",
+        "ご{覧|らん}ください。"
+      ],
+      "meaning": "Please look at the table on page two. (Use the taught respectful request.)",
+      "explain": "Place the page description before the table, followed by the request.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-formal",
+      "lesson": "keigo-u09-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask an external client to look at the table in the taught respectful wording.",
+      "context": "The listener looks at the material; the speaker makes the request.",
+      "options": [
+        "{表|ひょう}をご{覧|らん}ください。",
+        "{表|ひょう}を{見|み}てください。",
+        "{表|ひょう}を{見|み}て。"
+      ],
+      "answer": 0,
+      "explain": "ご覧ください is the specified respectful request.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-ordinary",
+      "lesson": "keigo-u09-lesson",
+      "type": "register",
+      "prompt": "Three ways: use ordinary polite wording to ask a peer to look at the table.",
+      "context": "The listener looks at the material; the speaker makes the request.",
+      "options": [
+        "{表|ひょう}を{見|み}てください。",
+        "{表|ひょう}をご{覧|らん}ください。",
+        "{表|ひょう}を{見|み}て。"
+      ],
+      "answer": 0,
+      "explain": "見てください is the requested ordinary polite form.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-casual",
+      "lesson": "keigo-u09-lesson",
+      "type": "register",
+      "prompt": "Three ways: use casual wording to ask a close friend to look at the table.",
+      "context": "The listener looks at the material; the speaker makes the request.",
+      "options": [
+        "{表|ひょう}を{見|み}て。",
+        "{表|ひょう}をご{覧|らん}ください。",
+        "{表|ひょう}を{見|み}てください。"
+      ],
+      "answer": 0,
+      "explain": "見て is the specified casual request.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-numbers",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "What change to the table is recorded in the follow-up?",
+      "options": [
+        "{番号|ばんごう}と{凡例|はんれい}を{加|くわ}えた。",
+        "{内容|ないよう}と{料金|りょうきん}を{変|か}えた。",
+        "カラー{五十部|ごじゅうぶ}に{変|か}えた。"
+      ],
+      "answer": 0,
+      "explain": "Numbers and a key are added, while content and the black-and-white price remain unchanged.",
+      "words": [
+        "keigo-u09-w-v17"
+      ],
+      "reading": "keigo-u09-reading-followup",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u09-x-decision",
+      "lesson": "keigo-u09-lesson",
+      "type": "choice",
+      "prompt": "When does the record expect the client’s ORDER decision?",
+      "options": [
+        "{月曜|げつよう}{午前|ごぜん}。",
+        "{金曜|きんよう}{五時|ごじ}。",
+        "{金曜|きんよう}{三時|さんじ}。"
+      ],
+      "answer": 0,
+      "explain": "Monday morning is the order reply. Friday five is the presenter’s answer about delivery.",
+      "words": [
+        "keigo-u08-w-v05"
+      ],
+      "reading": "keigo-u09-reading-followup",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "The prior tax-inclusive quote is naturally reused in the same sample discussion; presentation headwords remain supplementary study rather than forced dialogue."
+  }
+}

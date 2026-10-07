@@ -1,0 +1,50 @@
+{
+  "unit": "keigo-u08",
+  "checkedAt": "2026-10-07",
+  "status": "Source/editorial/query/audio/browser/build/offline checks pass; native review pending.",
+  "method": "Original conditional-price discussion. Previous shortage closed explicitly; new job, fixed fictional tax-inclusive prices, unapproved full print run.",
+  "points": [
+    {
+      "form": "budget question and client-directed own actions",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html"
+      ],
+      "teachingChoice": "Selected ご予算 / 伺う and own directed ご提案; no universal ban on own-side お/ご."
+    },
+    {
+      "form": "noun + でしたら conditional alternative",
+      "sources": [
+        "https://bunpro.jp/grammar_points/たら",
+        "https://bunpro.jp/grammar_points/なら"
+      ],
+      "teachingChoice": "Price applies only with the stated black-and-white or forty-colour condition. Conditional form does not certify agreement."
+    },
+    {
+      "form": "検討いたします / ご検討いただけますか",
+      "sources": [
+        "https://bunpro.jp/grammar_points/いたす",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html"
+      ],
+      "teachingChoice": "Own review versus client consideration; polite request leaves the decision with the recipient."
+    }
+  ],
+  "sourceCautions": [
+    "No claim that every なら is strictly a guess or every たら nearly always means when. Only the stated commercial condition is tested.",
+    "Bunpro broad prefix/origin generalisations are not used mechanically; selected forms corroborated by Culture Agency categories.",
+    "The guessed business-mail example18 URL failed; no content from that URL relied on.",
+    "Excluded 折合い and 据置き candidates as aliases of installed 折り合い and 据え置き. No new-coverage credit for spelling variants.",
+    "Prices and tax inclusions are fictional scenario facts, not quotations or financial guidance."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      183
+    ]
+  }
+}

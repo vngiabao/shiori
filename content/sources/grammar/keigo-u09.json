@@ -1,0 +1,46 @@
+{
+  "unit": "keigo-u09",
+  "checkedAt": "2026-10-07",
+  "status": "Source/editorial/query/audio/browser/build/offline checks pass; native review pending.",
+  "method": "Original short client sample demonstration, with explicit order and unanswered-delivery state.",
+  "points": [
+    {
+      "form": "structured opening, signposting and purpose",
+      "sources": [
+        "https://www.kyozai.jpf.go.jp/kyozai/material/JLP00006/ja/render.do"
+      ],
+      "teachingChoice": "Clear purpose, ordered points, audience-readable material and concise conclusion; a five-minute sample demonstration is not a CEFR certification."
+    },
+    {
+      "form": "own directed explanation versus listener looking",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.kyozai.jpf.go.jp/kyozai/material/JLP00006/ja/render.do"
+      ],
+      "teachingChoice": "Selected ご説明いたします / ご覧ください / own 拝見 contrast; roles explicit."
+    },
+    {
+      "form": "question permission and responsible answer",
+      "sources": [
+        "https://www.mlcjapanese.co.jp/keigo_04.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html"
+      ],
+      "teachingChoice": "Selected 質問してもよろしいでしょうか; concise own answer and checking deadline. No forced させていただく."
+    }
+  ],
+  "sourceCautions": [
+    "JF contest classroom task informs organisation only; no source contest, rubric or script imported.",
+    "Courtesy does not make an unknown schedule certain. Formal self-action and recipient-action kept distinct.",
+    "Scenario prices and deadlines are original fictional facts. No vocabulary padding."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      163
+    ]
+  }
+}

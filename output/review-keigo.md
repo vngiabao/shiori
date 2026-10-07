@@ -1,6 +1,6 @@
 # Workplace-keigo review — 2026-10-07
 
-The first six of twelve scenarios are authored and verified. These are original AI-assisted drafts, with form-specific sources in content/sources/grammar/keigo-uNN.json; dictionary and signal checks do not certify naturalness or perceived acting.
+The first nine of twelve scenarios are authored and verified. These are original AI-assisted drafts, with form-specific sources in content/sources/grammar/keigo-uNN.json; dictionary and signal checks do not certify naturalness or perceived acting.
 
 ## Editorial findings and applied fixes
 
@@ -24,3 +24,14 @@ All 11,125 baseline Clear keys and 1,457 prior scene mappings from cebd833 are p
 ## Remaining work
 
 U7–12, the remaining source-backed N3/N2/N1 decks and N2/N1 JLPT expansion, whole-course final review and deployment are unfinished. U7 apology is authored but not yet compiled/checked. Owner-only Google sync and live Access removal wait for the final authorised deployment. No production deployment at this checkpoint. Native/editor listening review and the owner’s two-device sync test remain separate.
+
+
+## Workplace-keigo U1–9 verified checkpoint — 2026-10-07
+
+Nine scenarios: 188 new restricted-JMdict pairs, nine lessons, twenty-seven notes / eighty-one examples, eighteen scenes / 178 lines, nine documents and 126 contextual tasks. U7–9 add apology, negotiation and presentation. The delayed twenty copies are received explicitly before the next job; a reduced-budget sample does not imply an order; presentation questions and Friday-five reply stay separate from Monday order approval. Actual 五分 duration is pinned to ごふん, not ごぶ. Precise reading/gloss fixes are canonical; do not rerun ignored author helpers.
+
+Final TypeScript, 125 unit tests / nineteen files, 24 Python tests, source/content/dictionary/ledger/JLPT294, five audio validators, preservation, U7–9 focused browser cases, production build and real offline playback pass. Theme checks now require the saved light/dark value before and after reload; screenshots remain in the existing design. All 11,559 earlier Clear keys / 1,575 prior scene mappings from 907c030 are unchanged; all 216 new WAVs referenced; 132 historical takes retained. Current 11,775 Clear keys / 11,787 synthesis records / 1,635 dialogue takes. Precache 1,786 entries / 12,525.66 KiB; offline 2026-10-07T10:21:54.719Z, eighteen chunks / 100 teacher clips / 2,855 deck audio URLs / twenty-two examples played. No production deployment; native listening/editor review pending.
+
+Exact next: U10 interview and U11 client visit are authored but NOT compiled/verified. Finish U10, then U11 and U12 seasonal greetings, before remaining N3/N2/N1 decks and N2/N1 JLPT banks, whole-course checks and the authorised final deploy. Keep design, auth, database and old recordings; backup only course-build, never main before completion.
+
+U7: original accepted order/30+20 deficit, possible recovery and pending receipt. U8: receipt closed at 16:20; different later event, tax-inclusive fictional quote, sample and pending client choice. U9: unchanged content, numbered key, five-minute purpose, unconfirmed earlier delivery and exact reply deadline. No gift, seating, cultural or acting certification is inferred.
