@@ -151,6 +151,16 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "犬がボールを追って走りました。",
       "The dog ran after the ball.",
     ],
+    [
+      7,
+      "坂道を歩くと、足の筋肉をよく使います。",
+      "Walking uphill makes good use of your leg muscles.",
+    ],
+    [
+      8,
+      "この倉庫には、収穫した穀物を保管しています。",
+      "The harvested grain is stored in this warehouse.",
+    ],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");

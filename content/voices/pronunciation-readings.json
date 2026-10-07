@@ -483,6 +483,41 @@
       "expectedMoras": "カレワテサキガキヨオデチイサナモケイオツクリマス",
       "unit": "n3-vocab-06",
       "reason": "Pre-render query review: selected money reading 金→かね, and topic は after 彼 must be わ. Exact corrected mora sequence inspected; intonation remains subject to native listening review."
+    },
+    {
+      "text": "管",
+      "readingInput": "くだ",
+      "unit": "n3-vocab-07",
+      "reason": "The selected tube reading is くだ. A lone kanji query defaulted to カン; exact input was queried before generation.",
+      "expectedMoras": "クダ"
+    },
+    {
+      "text": "買う前に、全部でいくらになるか計算します。",
+      "readingInput": "買うまえに、ぜんぶでいくらになるかけいさんします。",
+      "unit": "n3-vocab-07",
+      "reason": "The kana analyser incorrectly contracted 買う to コオ. Mixed written 買う restores カウ; the full exact query sequence was checked before generation.",
+      "expectedMoras": "カウマエニゼンブデイクラニナルカケイサンシマス"
+    },
+    {
+      "text": "倒れないように、両手で箱を支えました。",
+      "readingInput": "たおれないように、りょうてで箱をささえました。",
+      "unit": "n3-vocab-08",
+      "reason": "Inspected exact input preserves lexical はこ as ハコ and 王 as a long オー; a model query had mistaken lexical は for a particle. This verifies sound sequences, not native intonation.",
+      "expectedMoras": "タオレナイヨオニリョオテデハコオササエマシタ"
+    },
+    {
+      "text": "箱の上で、リボンを結びました。",
+      "readingInput": "箱のうえで、リボンをむすびました。",
+      "unit": "n3-vocab-08",
+      "reason": "Inspected exact input preserves lexical はこ as ハコ and 王 as a long オー; a model query had mistaken lexical は for a particle. This verifies sound sequences, not native intonation.",
+      "expectedMoras": "ハコノウエデリボンオムスビマシタ"
+    },
+    {
+      "text": "物語の王は、兵士に門を開けるよう命じました。",
+      "readingInput": "ものがたりのおーは、へいしにもんをあけるようめいじました。",
+      "unit": "n3-vocab-08",
+      "reason": "Inspected exact input preserves lexical はこ as ハコ and 王 as a long オー; a model query had mistaken lexical は for a particle. This verifies sound sequences, not native intonation.",
+      "expectedMoras": "モノガタリノオオワヘイシニモンオアケルヨオメイジマシタ"
     }
   ]
 }

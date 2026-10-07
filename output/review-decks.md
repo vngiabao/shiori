@@ -1,5 +1,13 @@
 # Vocabulary deck editorial review
 
+## N3 decks 07–08 — 2026-10-07
+
+200 pinned-source spelling/reading records, original supported examples and 26 short lessons. Reviewed every authored sense/example/translation and new synthesis query. Rough 食う and critical けち retain casual register labels. 郡 is a district/county, not a country. 下り describes this timetable's direction rather than every network. 綿/めん is explicitly an on-reading; 見舞い/土産 are plain forms of their polite variants; 寧ろ is often written むしろ. Related 越える/超える and 越す/超す choices have precise pinned-entry decisions. JMdict1175300 marks exceeding often 超す but does not assert an exclusive crossing spelling; canonical rationale corrected accordingly.
+
+Five exact new synthesis inputs fix 管→くだ, 買う→カウ, lexical 箱→ハコ in two sentences and 王's long vowel. All 12,529 earlier Clear keys and 1,695 dialogue mappings are preserved; 382 new WAVs are referenced and 133 historical takes retained. A stale dialogue catalog hash was refreshed incrementally before final checks; no dialogue recordings changed.
+
+Final132unit/24Python/source/content/ledger/JLPT450/fiveaudio/build/27deckbrowser checks pass. Real offline report2026-10-07T12:28:29.244Z: interrupted-download retry,20chunks,100teacher/1695dialogue/3623deckURLs/26exampleplaybacks. Precache1867entries/12878.03KiB under15MiB. Logs output/n3-deck78-*.log. Raw skipped rows remain pending coverage review; no native sentence/audio approval or mastery is claimed. No production deployment.
+
 ## N3 decks 05–06 — 2026-10-07
 
 200 source-backed spelling/reading records and 200 original supported examples. Every selected pair matches the pinned CSV and restricted JMdict entries. Reviewed examples and English for the intended sense; no native-editor approval is claimed. 方々 is labelled polite and お目に掛かる formal/humble. 下す at おろす is a less-common written form, with the usual 下ろす explained. 卸す is wholesale; 影 and 陰 are distinguished by contextual examples. 過程/課程, 皮/革, 感心/関心 and 機械/器械 are taught through different contexts. The last pair shares one dictionary entry and is explicitly recorded as related written forms, not two independent words or an absolute spelling rule.
