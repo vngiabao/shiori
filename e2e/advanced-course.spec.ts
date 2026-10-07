@@ -237,6 +237,14 @@ for (const unit of [
       ["One extra zero in the message", "n2-u15-d-message", "Read a laughter reaction in a typed exchange", "Hear genuine enthusiasm and serious intent"],
     ],
   },
+  {
+    id: "n2-u16", reading: "Bao’s preparation: a reason, an action and a question",
+    secondReading: "Thanks for the interview; the result is still pending",
+    lessons: [
+      ["A reason grounded in actual work", "n2-u16-d-purpose", "Introduce your own experience respectfully", "Ask the interviewer without reversing the actor"],
+      ["A follow-up, a repair and the next step", "n2-u16-d-followup", "Ask the interviewer without reversing the actor", "Introduce your own experience respectfully"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -351,7 +359,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();
