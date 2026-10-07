@@ -126,6 +126,48 @@
       "unit": "n1-u07",
       "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
       "expectedMoras": "ゾオリ"
+    },
+    {
+      "text": "先生、甘くかけないって、色の話ですか。",
+      "readingInput": "先生、うまくかけないって、色の話ですか。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "センセエウマクカケナイッテイロノハナシデスカ"
+    },
+    {
+      "text": "その次の、どうも甘くかけない、は主人ですか。",
+      "readingInput": "その次の、どうもうまくかけない、は主人ですか。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "ソノツギノドオモウマクカケナイワシュジンデスカ"
+    },
+    {
+      "text": "最後の一行も読んでください。友人はどんな顔ですか。",
+      "readingInput": "最後のイチギョーも読んでください。友人はどんな顔ですか。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "サイゴノイチギョオモヨンデクダサイユウジンワドンナカオデスカ"
+    },
+    {
+      "text": "金縁の眼鏡の後ろで、嘲けるように笑っています。",
+      "readingInput": "金縁の眼鏡の後ろで、あざけるように笑っています。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "キンブチノメガネノウシロデアザケルヨオニワラッテイマス"
+    },
+    {
+      "text": "猫は二人の反応を並べて見せてるんだね。",
+      "readingInput": "猫は二人の反応をならべて見せてるんだね。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "ネコワフタリノハンノオオナラベテミセテルンダネ"
+    },
+    {
+      "text": "そこは猫の一行を読めば伝わる。",
+      "readingInput": "そこは猫のイチギョーを読めば伝わる。",
+      "unit": "n1-u08",
+      "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
+      "expectedMoras": "ソコワネコノイチギョオオヨメバツタワル"
     }
   ]
 }

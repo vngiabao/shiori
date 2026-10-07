@@ -1,0 +1,65 @@
+{
+  "unit": "n1-u08",
+  "checkedAt": "2026-10-07",
+  "status": "Formation/editorial/source-integrity/audio/browser/build/offline checks pass; native reading/listening review pending.",
+  "method": "Actual selected source paragraphs and author card inspected, plus authored formation sections; publisher level labels are instructional bridges, not an official JLPT syllabus.",
+  "points": [
+    {
+      "form": "N/na + である",
+      "sources": [
+        "https://bunpro.jp/grammar_points/である",
+        "https://imabi.org/copula-verb-variants/"
+      ],
+      "formation": "Noun/na stem + である, selected written narration; distinguish a written narrator from a spoken character. おらん retrieves unit 3.",
+      "teachingChoice": "Recognise written literary framing. Do not claim every だ slot can freely be replaced in all styles."
+    },
+    {
+      "form": "とみえる / と見えた",
+      "sources": [
+        "https://bunpro.jp/grammar_points/とみえる",
+        "https://japanese-language-education.com/tomieru/"
+      ],
+      "formation": "Plain verb/adjective clause + とみえる; source nominal 決心と見えた recognised separately.",
+      "teachingChoice": "Externally based inference versus a subsequent observed action; no claim that visible signs reveal exact thoughts."
+    },
+    {
+      "form": "Question-word clause + やら",
+      "sources": [
+        "https://imabi.org/the-particles-やら-なり-きり/",
+        "https://kotobank.jp/word/やら-649803"
+      ],
+      "formation": "Selected uncertain question clause 何をかいたものやら; not the enumeration AやらBやら.",
+      "teachingChoice": "Recover 何をかいたのか through following 誰にも鑑定がつかない. No unrelated etymology or universal translation."
+    },
+    {
+      "form": "Quoted clause + と / nested attribution",
+      "sources": [
+        "https://imabi.org/the-particle-と-ii-citation/",
+        "https://guidetojapanese.org/learn/complete/verb_phrase"
+      ],
+      "formation": "Quoted clause + と + reporting verb; distinguish narrator, master, friend and attributed artist words.",
+      "teachingChoice": "Quote speaker identification and contrasts at the source ending. Do not import IMABI’s overly absolute mental-quotation restrictions."
+    }
+  ],
+  "sourceCautions": [
+    "Sōseki source prose exact at 924 characters in three consecutive complete paragraphs; source ruby preserved, additional support context-checked. Source 下’s しも remains as printed; other added support uses the contextual readings, including 第一→だいいち and 今日から→きょうから.",
+    "Official aozora.gr.jp requests failed. Actual inspected text/card retrieved from the documented renewal mirror; source selected plain text and raw hash are pinned separately.",
+    "IMABI やら and Tae Kim quotation sections were read in returned full search content; later open attempts failed. No claim of a successful later open.",
+    "The novel friend’s Andrea del Sarto attribution is not certified art history.",
+    "Broad genre/painting headwords are supplementary recognition study, not quotas for friends’ speech."
+  ],
+  "audioScope": "Three original thirteen-line scenes at 1.15, existing one-voice cast and moods. Clear words and heard practice/examples; no full paragraph narration.",
+  "checks": {
+    "wordPairs": 54,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "readingCharacters": [
+      924,
+      1018
+    ],
+    "tasks": 20,
+    "remaining": "Independent native reading/listening review.",
+    "offlineVerifiedAt": "2026-10-07T06:16:21.889Z"
+  }
+}
