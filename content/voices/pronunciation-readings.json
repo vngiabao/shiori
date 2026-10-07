@@ -938,6 +938,216 @@
       "readingInput": "おとうとはぶきようですが、ていねいにハコをつくりました。",
       "expectedMoras": "オトオトワブキヨオデスガテイネイニハコオツクリマシタ",
       "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "王女",
+      "readingInput": "おーじょ",
+      "expectedMoras": "オオジョ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "おうじょ",
+      "readingInput": "おーじょ",
+      "expectedMoras": "オオジョ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "物語の王女は、城を出て旅をします。",
+      "readingInput": "ものがたりのおーじょは、しろをでてたびをします。",
+      "expectedMoras": "モノガタリノオオジョワシロオデテタビオシマス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "欧米",
+      "readingInput": "おーべー",
+      "expectedMoras": "オオベエ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "おうべい",
+      "readingInput": "おーべー",
+      "expectedMoras": "オオベエ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "この展示は、欧米の楽器を紹介しています。",
+      "readingInput": "このてんじは、おーべーのがっきをしょうかいしています。",
+      "expectedMoras": "コノテンジワオオベエノガッキオショオカイシテイマス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "物語では、王が息子を甘やかしています。",
+      "readingInput": "ものがたりでは、おーがむすこをあまやかしています。",
+      "expectedMoras": "モノガタリデワオオガムスコオアマヤカシテイマス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "卒業以後も、先生と連絡を取っています。",
+      "readingInput": "そつぎょーいごも、せんせいとれんらくをとっています。",
+      "expectedMoras": "ソツギョオイゴモセンセイトレンラクオトッテイマス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "三時以降なら、いつでも大丈夫です。",
+      "readingInput": "さんじいこーなら、いつでもだいじょうぶです。",
+      "expectedMoras": "サンジイコオナライツデモダイジョオブデス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "木の葉が、水に浮いています。",
+      "readingInput": "きのハが、みずにういています。",
+      "expectedMoras": "キノハガミズニウイテイマス",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "彼は、うわさをはっきりと打ち消しました。",
+      "readingInput": "かれワ、うわさをはっきりとうちけしました。",
+      "expectedMoras": "カレワウワサオハッキリトウチケシマシタ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-01",
+      "text": "風で飛んだ帽子を追いかけました。",
+      "readingInput": "かぜでとんだぼーしをおいかけました。",
+      "expectedMoras": "カゼデトンダボオシオオイカケマシタ",
+      "reason": "Fresh query review: contracted ジョ in 王女, exact long-o/e vowels, lexical 葉/は versus topic は. Correct only these new text inputs; all earlier recordings retained."
+    },
+    {
+      "unit": "n2-vocab-02",
+      "text": "叔父は、母の弟です。",
+      "readingInput": "おじワ、ハハのおとうとです。",
+      "expectedMoras": "オジワハハノオトオトデス",
+      "reason": "Protect lexical 母/はは from being parsed as two topic particles."
+    },
+    {
+      "unit": "n2-vocab-02",
+      "text": "伯母は、母の姉です。",
+      "readingInput": "おばワ、ハハのあねです。",
+      "expectedMoras": "オバワハハノアネデス",
+      "reason": "Protect lexical 母/はは from being parsed as two topic particles."
+    },
+    {
+      "unit": "n2-vocab-02",
+      "text": "写真には、火山の火口が写っています。",
+      "readingInput": "しゃしんには、かざんのかこーがうつっています。",
+      "expectedMoras": "シャシンニワカザンノカコオガウツッテイマス",
+      "reason": "Selected volcanic-crater かこう uses a long o, not an o-u sequence."
+    },
+    {
+      "unit": "n2-vocab-02",
+      "text": "飛行機が下降し、地上の家が見えてきました。",
+      "readingInput": "ひこうきがかこーし、ちじょうのいえがみえてきました。",
+      "expectedMoras": "ヒコオキガカコオシチジョオノイエガミエテキマシタ",
+      "reason": "Selected descent かこう uses a long o, not an o-u sequence."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "休業",
+      "readingInput": "きゅうぎょー",
+      "expectedMoras": "キュウギョオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "きゅうぎょう",
+      "readingInput": "きゅうぎょー",
+      "expectedMoras": "キュウギョオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "漁業",
+      "readingInput": "ぎょぎょー",
+      "expectedMoras": "ギョギョオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "ぎょぎょう",
+      "readingInput": "ぎょぎょー",
+      "expectedMoras": "ギョギョオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "蛍光灯",
+      "readingInput": "けいこーとー",
+      "expectedMoras": "ケイコオトオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "けいこうとう",
+      "readingInput": "けいこーとー",
+      "expectedMoras": "ケイコオトオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "激増",
+      "readingInput": "げきぞー",
+      "expectedMoras": "ゲキゾオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "げきぞう",
+      "readingInput": "げきぞー",
+      "expectedMoras": "ゲキゾオ",
+      "reason": "Protect the selected long-o vowel sequence instead of a literal o-u sequence in the isolated headword."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "母が風邪をひいたので、家で看病しました。",
+      "readingInput": "ハハがかぜをひいたので、いえでかんびょうしました。",
+      "expectedMoras": "ハハガカゼオヒイタノデイエデカンビョオシマシタ",
+      "reason": "母 is lexical はは, not two topic particles."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "舞台の王女は、金色の冠をかぶっていました。",
+      "readingInput": "ぶたいのおーじょは、きんいろのかんむりをかぶっていました。",
+      "expectedMoras": "ブタイノオオジョワキンイロノカンムリオカブッテイマシタ",
+      "reason": "Contract 王女/おうじょ correctly; avoid engine-added full よ mora."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "昼休みに、キャンパスの庭で友達と話しました。",
+      "readingInput": "ひるやすみに、キャンパスのにわでともだちとハナシました。",
+      "expectedMoras": "ヒルヤスミニキャンパスノニワデトモダチトハナシマシタ",
+      "reason": "話しました begins with lexical は, not particle わ."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "改装のため、この店は一週間休業します。",
+      "readingInput": "かいそうのため、このみせはいっしゅうかんきゅうぎょーします。",
+      "expectedMoras": "カイソオノタメコノミセワイッシュウカンキュウギョオシマス",
+      "reason": "Use selected long-o reading of 休業 in the sentence."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "教室の蛍光灯を交換しました。",
+      "readingInput": "きょうしつのけいこーとーをこうかんしました。",
+      "expectedMoras": "キョオシツノケイコオトオオコオカンシマシタ",
+      "reason": "Both long-o vowels in 蛍光灯 remain correctly realised in context."
+    },
+    {
+      "unit": "n2-vocab-03",
+      "text": "顕微鏡で、葉の細胞を観察しました。",
+      "readingInput": "けんびきょうで、ハのさいぼうをかんさつしました。",
+      "expectedMoras": "ケンビキョオデハノサイボオオカンサツシマシタ",
+      "reason": "葉 is lexical は, not topic particle わ."
     }
   ]
 }

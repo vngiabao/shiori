@@ -232,6 +232,95 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   }
 });
 
+test("N2 deck lesson examples retain the design and play before hidden retrieval", async ({
+  page,
+}) => {
+  test.setTimeout(90000);
+  await page.goto("/");
+  await page.getByRole("button", { name: "Start without an account" }).click();
+  await page.getByRole("button", { name: "Open my first letter" }).click();
+  const decks = fs
+    .readdirSync("content/packs")
+    .filter((name) => /^n2-vocab-\d+\.json$/.test(name))
+    .sort();
+  expect(decks.length).toBeGreaterThan(0);
+  const selected = [
+    ...new Set([decks[0], decks[Math.floor(decks.length / 2)], decks.at(-1)!]),
+  ];
+  const mapping = JSON.parse(
+    fs.readFileSync("src/generated/audio.json", "utf8"),
+  );
+  for (const [index, name] of selected.entries()) {
+    const pack = JSON.parse(fs.readFileSync(`content/packs/${name}`, "utf8"));
+    const word = pack.words[0];
+    await page.setViewportSize({
+      width: [320, 375, 1440][index],
+      height: 1000,
+    });
+    await page.goto("/#library");
+    await page.getByLabel("Show lessons").selectOption("n2");
+    await page
+      .locator(".course-unit")
+      .filter({
+        has: page.getByRole("heading", { name: pack.title, exact: true }),
+      })
+      .getByRole("button", { name: "Read", exact: true })
+      .first()
+      .click();
+    const example = page.locator(".word-example").first();
+    await example.locator("summary").click();
+    await expect(
+      example.getByText(word.exampleMeaning, { exact: true }),
+    ).toBeVisible();
+    const expected = mapping[word.example];
+    expect(expected).toBeTruthy();
+    const played = page.waitForResponse(
+      (r) => new URL(r.url()).pathname === expected,
+    );
+    await example.getByRole("button", { name: "Hear the example" }).click();
+    expect([200, 206]).toContain((await played).status());
+    for (const theme of ["light", "dark"]) {
+      await page.evaluate((value) => {
+        document.documentElement.dataset.theme = value;
+      }, theme);
+      await page.evaluate(() => document.fonts.ready);
+      await page.evaluate(async () => {
+        await new Promise<void>((resolve) =>
+          requestAnimationFrame(() => requestAnimationFrame(() => resolve())),
+        );
+        // Measure the settled palette, rather than a frame during its colour transition.
+        await Promise.all(
+          document
+            .getAnimations()
+            .filter((a) => a instanceof CSSTransition)
+            .map((a) => a.finished.catch(() => undefined)),
+        );
+      });
+      expect(
+        await page.evaluate(
+          () => document.documentElement.scrollWidth <= innerWidth,
+        ),
+      ).toBe(true);
+      expect(
+        (
+          await new AxeBuilder({ page })
+            .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+            .analyze()
+        ).violations,
+      ).toEqual([]);
+      await page.screenshot({
+        path: `.impeccable/review/${pack.id}-example-${theme}-${[320, 375, 1440][index]}.png`,
+        fullPage: true,
+      });
+    }
+    await page.getByRole("button", { name: "I’ve met these" }).click();
+    await page.getByRole("button", { name: "I’ve met these" }).click();
+    await expect(page.locator(".word-example")).toHaveCount(0);
+    await expect(page.locator(".answer-option")).toHaveCount(4);
+    await page.getByRole("button", { name: "Leave lesson" }).click();
+  }
+});
+
 // Each installed deck gets a bounded playback check, rather than one growing
 // all-course evaluate that eventually times out before reporting the bad deck.
 for (const name of fs

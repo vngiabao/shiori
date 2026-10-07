@@ -1246,6 +1246,296 @@
       }
     },
     {
+      "literal": "圧",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5727"
+        },
+        {
+          "type": "jis208",
+          "value": "1-16-21"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 32
+        },
+        {
+          "type": "nelson_c",
+          "value": 27
+        }
+      ],
+      "misc": {
+        "grade": 5,
+        "strokeCounts": [
+          5
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-52-58"
+          }
+        ],
+        "frequency": 718,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "818"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "970"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2970"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3688"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1883"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2563"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "152"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "163"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "598"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "874"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 3,
+            "page": 122
+          },
+          "value": "4879P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "612"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1342"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1425"
+        },
+        {
+          "type": "sakade",
+          "morohashi": null,
+          "value": "544"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "426"
+        },
+        {
+          "type": "henshall3",
+          "morohashi": null,
+          "value": "641"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "645"
+        },
+        {
+          "type": "crowley",
+          "morohashi": null,
+          "value": "397"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1197"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "348"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "154"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "3-2-3"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2p3.1"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "7121.4"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3372"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ya1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ya4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "ab"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "압"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Áp"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Yểm"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Yếp"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "アツ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "エン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "オウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "お.す"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "へ.す"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おさ.える"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "お.さえる"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "pressure"
+              },
+              {
+                "lang": "en",
+                "value": "push"
+              },
+              {
+                "lang": "en",
+                "value": "overwhelm"
+              },
+              {
+                "lang": "en",
+                "value": "oppress"
+              },
+              {
+                "lang": "en",
+                "value": "dominate"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "扱",
       "codepoints": [
         {
@@ -7623,6 +7913,239 @@
           }
         ],
         "nanori": []
+      }
+    },
+    {
+      "literal": "井",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "4e95"
+        },
+        {
+          "type": "jis208",
+          "value": "1-16-70"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 7
+        },
+        {
+          "type": "nelson_c",
+          "value": 4
+        }
+      ],
+      "misc": {
+        "grade": 4,
+        "strokeCounts": [
+          4
+        ],
+        "variants": [],
+        "frequency": 339,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "165"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "76"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "3454"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "4265"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "2153"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2905"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1806"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1946"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "252"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "103"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "916"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 1,
+            "page": 519
+          },
+          "value": "258"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1470"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1193"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1255"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1031"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1019"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1064"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "34"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1824"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "4-4-3"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "0a4.46"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "5500.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1955"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "jing3"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "jeong"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "정"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tỉnh"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セイ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ショウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "い"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "well"
+              },
+              {
+                "lang": "en",
+                "value": "well crib"
+              },
+              {
+                "lang": "en",
+                "value": "town"
+              },
+              {
+                "lang": "en",
+                "value": "community"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "いの",
+          "さい",
+          "ひ"
+        ]
       }
     },
     {
@@ -20897,6 +21420,282 @@
       }
     },
     {
+      "literal": "往",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5f80"
+        },
+        {
+          "type": "jis208",
+          "value": "1-17-93"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 60
+        }
+      ],
+      "misc": {
+        "grade": 5,
+        "strokeCounts": [
+          8
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-55-40"
+          },
+          {
+            "type": "nelson_c",
+            "value": "4213"
+          }
+        ],
+        "frequency": 1421,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1605"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1733"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "292"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "348"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "217"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "261"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "880"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "945"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1283"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "579"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "875"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 813
+          },
+          "value": "10073"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "623"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "918"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "940"
+        },
+        {
+          "type": "sakade",
+          "morohashi": null,
+          "value": "555"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1277"
+        },
+        {
+          "type": "henshall3",
+          "morohashi": null,
+          "value": "652"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "677"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "520"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "621"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "889"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-5"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3i5.6"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2021.4"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2072"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "wang3"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "wang4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "wang"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "왕"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Vãng"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "オウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "い.く"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "いにしえ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "さき.に"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ゆ.く"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "journey"
+              },
+              {
+                "lang": "en",
+                "value": "travel"
+              },
+              {
+                "lang": "en",
+                "value": "chase away"
+              },
+              {
+                "lang": "en",
+                "value": "let go"
+              },
+              {
+                "lang": "en",
+                "value": "going"
+              },
+              {
+                "lang": "en",
+                "value": "before"
+              },
+              {
+                "lang": "en",
+                "value": "formerly"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "みち"
+        ]
+      }
+    },
+    {
       "literal": "応",
       "codepoints": [
         {
@@ -21737,6 +22536,228 @@
           }
         ],
         "nanori": []
+      }
+    },
+    {
+      "literal": "欧",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6b27"
+        },
+        {
+          "type": "jis208",
+          "value": "1-18-04"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 76
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          8
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-61-31"
+          }
+        ],
+        "frequency": 421,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2413"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2931"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "887"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "1098"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "596"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "787"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1699"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1834"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "766"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1416"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 6,
+            "page": 621
+          },
+          "value": "16024P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1034"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1022"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1061"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "649"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1198"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "554"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1121"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1715"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-4-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4j4.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "7778.2"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3462"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ou1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "gu"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "구"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Âu"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Ẩu"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "オウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "うた.う"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "は.く"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "Europe"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "おお",
+          "ひろ"
+        ]
       }
     },
     {
@@ -28478,6 +29499,227 @@
       }
     },
     {
+      "literal": "河",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6cb3"
+        },
+        {
+          "type": "jis208",
+          "value": "1-18-47"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 85
+        }
+      ],
+      "misc": {
+        "grade": 5,
+        "strokeCounts": [
+          8
+        ],
+        "variants": [],
+        "frequency": 663,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2530"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "3102"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "336"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "394"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "251"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "298"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "146"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "157"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "698"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "597"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "633"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 6,
+            "page": 1007
+          },
+          "value": "17245"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "628"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "389"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "391"
+        },
+        {
+          "type": "sakade",
+          "morohashi": null,
+          "value": "561"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "669"
+        },
+        {
+          "type": "henshall3",
+          "morohashi": null,
+          "value": "658"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "679"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1127"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1170"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "148"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-5"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3a5.30"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3112.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "349"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "he2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "ha"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "하"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Hà"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "カ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "かわ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "river"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "かっ",
+          "こ",
+          "こう"
+        ]
+      }
+    },
+    {
       "literal": "火",
       "codepoints": [
         {
@@ -33418,6 +34660,241 @@
               {
                 "lang": "en",
                 "value": "counter for occurrences"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "塊",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "584a"
+        },
+        {
+          "type": "jis208",
+          "value": "1-18-84"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 32
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          13
+        ],
+        "variants": [
+          {
+            "type": "jis212",
+            "value": "1-19-15"
+          }
+        ],
+        "frequency": 1800,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1122"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1070"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "632"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "775"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "457"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "579"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2024"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2180"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1946"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1670"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 3,
+            "page": 224
+          },
+          "value": "5319"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1065"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1524"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1625"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1161"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1613"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1753"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "386"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "2043"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-10"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3b10.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "4611.3"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1457"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "kuai4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "goe"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "괴"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Khối"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "カイ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ケ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "かたまり"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "つちくれ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "clod"
+              },
+              {
+                "lang": "en",
+                "value": "lump"
+              },
+              {
+                "lang": "en",
+                "value": "chunk"
+              },
+              {
+                "lang": "en",
+                "value": "clot"
+              },
+              {
+                "lang": "en",
+                "value": "mass"
               }
             ]
           }
@@ -39082,6 +40559,218 @@
           }
         ],
         "nanori": []
+      }
+    },
+    {
+      "literal": "垣",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "57a3"
+        },
+        {
+          "type": "jis208",
+          "value": "1-19-32"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 32
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          9
+        ],
+        "variants": [],
+        "frequency": 1539,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1075"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1009"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "351"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "416"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "260"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "311"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "154"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "165"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1272"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "795"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 3,
+            "page": 175
+          },
+          "value": "5060"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1073"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1276"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1350"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1151"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1241"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1784"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "373"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "156"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-6"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3b6.5"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "4111.6"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1472"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "yuan2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "weon"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "원"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Viên"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "エン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "かき"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "hedge"
+              },
+              {
+                "lang": "en",
+                "value": "fence"
+              },
+              {
+                "lang": "en",
+                "value": "wall"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "がい"
+        ]
       }
     },
     {
@@ -46050,6 +47739,237 @@
           }
         ],
         "nanori": []
+      }
+    },
+    {
+      "literal": "冠",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "51a0"
+        },
+        {
+          "type": "jis208",
+          "value": "1-20-07"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 14
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          9
+        ],
+        "variants": [],
+        "frequency": 1503,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "627"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "401"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2081"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2583"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1319"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1790"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "304"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "326"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1548"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "905"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1170"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 2,
+            "page": 123
+          },
+          "value": "1580"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1097"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1615"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1723"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1081"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1232"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1656"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "165"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "310"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-2-7"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2i7.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3721.4"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3657"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "guan1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "guan4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "gwan"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "관"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Quan"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Quán"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "カン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "かんむり"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "crown"
+              },
+              {
+                "lang": "en",
+                "value": "best"
+              },
+              {
+                "lang": "en",
+                "value": "peerless"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "か",
+          "かっぷ",
+          "まさる"
+        ]
       }
     },
     {
@@ -58376,6 +60296,276 @@
       }
     },
     {
+      "literal": "幾",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5e7e"
+        },
+        {
+          "type": "jis208",
+          "value": "1-20-86"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 52
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          12
+        ],
+        "variants": [],
+        "frequency": 1725,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1496"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1601"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "3582"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "4403"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "2229"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2999"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1381"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1481"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1646"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "2597"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "996"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 543
+          },
+          "value": "9208"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1129"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "877"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "897"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1257"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1526"
+        },
+        {
+          "type": "crowley",
+          "morohashi": null,
+          "value": "464"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "408"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "580"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1393"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "4-12-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4n8.4"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2225.3"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2245.3"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2759"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ji3"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ji1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "gi"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "기"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Ki"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Kỉ"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Kí"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "キ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "いく-"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "いく.つ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "いく.ら"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "how many"
+              },
+              {
+                "lang": "en",
+                "value": "how much"
+              },
+              {
+                "lang": "en",
+                "value": "how far"
+              },
+              {
+                "lang": "en",
+                "value": "how long"
+              },
+              {
+                "lang": "en",
+                "value": "some"
+              },
+              {
+                "lang": "en",
+                "value": "several"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "い",
+          "く"
+        ]
+      }
+    },
+    {
       "literal": "揮",
       "codepoints": [
         {
@@ -62489,6 +64679,212 @@
           "ひ",
           "ひかる"
         ]
+      }
+    },
+    {
+      "literal": "飢",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "98e2"
+        },
+        {
+          "type": "jis208",
+          "value": "1-21-18"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 184
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [],
+        "frequency": 1659,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "5155"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "6675"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1668"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2101"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1093"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1490"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1475"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1585"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1947"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1717"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 12,
+            "page": 378
+          },
+          "value": "44023P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1127"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1304"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1383"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1903"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1404"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1346"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1902"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1487"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-8-2"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "8b2.1"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "8771.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2857"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ji1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "gi"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "기"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Cơ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "キ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.える"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "hungry"
+              },
+              {
+                "lang": "en",
+                "value": "starve"
+              }
+            ]
+          }
+        ],
+        "nanori": []
       }
     },
     {
@@ -72196,6 +74592,233 @@
       }
     },
     {
+      "literal": "漁",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6f01"
+        },
+        {
+          "type": "jis208",
+          "value": "1-21-89"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 85
+        }
+      ],
+      "misc": {
+        "grade": 4,
+        "strokeCounts": [
+          14
+        ],
+        "variants": [],
+        "frequency": 1094,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2684"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "3309"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "698"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "856"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "492"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "631"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "172"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "184"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "628"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "2086"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "850"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 7,
+            "page": 203
+          },
+          "value": "18101"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "459"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "699"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "712"
+        },
+        {
+          "type": "sakade",
+          "morohashi": null,
+          "value": "588"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "707"
+        },
+        {
+          "type": "henshall3",
+          "morohashi": null,
+          "value": "483"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "616"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "914"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1240"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "174"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-11"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3a11.1"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3713.6"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "340"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "yu2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "eo"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "어"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Ngư"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ギョ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "リョウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あさ.る"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "fishing"
+              },
+              {
+                "lang": "en",
+                "value": "fishery"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "魚",
       "codepoints": [
         {
@@ -76834,6 +79457,243 @@
               {
                 "lang": "en",
                 "value": "feelings"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "脅",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "8105"
+        },
+        {
+          "type": "jis208",
+          "value": "1-22-28"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 130
+        },
+        {
+          "type": "nelson_c",
+          "value": 19
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [
+          {
+            "type": "jis212",
+            "value": "1-54-09"
+          }
+        ],
+        "frequency": 1183,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "727"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "4803"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2109"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2614"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1336"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1811"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "871"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "936"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1421"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1157"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1544"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 9,
+            "page": 313
+          },
+          "value": "29466"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1169"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1263"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1335"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1675"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1344"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1707"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1019"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "880"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-2-8"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2g8.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "4022.7"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1646"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "posn",
+          "value": "2-6-4"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "xie2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "hyeob"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "협"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Hiếp"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "キョウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おびや.かす"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おど.す"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おど.かす"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "threaten"
+              },
+              {
+                "lang": "en",
+                "value": "coerce"
               }
             ]
           }
@@ -84893,6 +87753,320 @@
       }
     },
     {
+      "literal": "櫛",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6adb"
+        },
+        {
+          "type": "jis208",
+          "value": "1-22-91"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 75
+        }
+      ],
+      "misc": {
+        "grade": 9,
+        "strokeCounts": [
+          17,
+          19
+        ],
+        "variants": [],
+        "frequency": 2256,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2398"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2884"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "1413"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1019"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2476"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2542"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "2797"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 6,
+            "page": 594
+          },
+          "value": "15817X"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-4-13"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4a15.5"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "4892.7"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "zhi4"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "jie2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "jeul"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "즐"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Trất"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "シツ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くし"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くしけず.る"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "comb"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "屑",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5c51"
+        },
+        {
+          "type": "jis208",
+          "value": "1-22-93"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 44
+        }
+      ],
+      "misc": {
+        "grade": 9,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [],
+        "frequency": null,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1395"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1424"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3861"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2680"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2219"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2330"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 154
+          },
+          "value": "7709X"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "3-3-7"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3r7.4"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "7722.7"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "xie4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "seol"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "설"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tiết"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セツ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くず"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "いさぎよ.い"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "rubbish"
+              },
+              {
+                "lang": "en",
+                "value": "junk"
+              },
+              {
+                "lang": "en",
+                "value": "trash"
+              },
+              {
+                "lang": "en",
+                "value": "waste"
+              },
+              {
+                "lang": "en",
+                "value": "scraps"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "屈",
       "codepoints": [
         {
@@ -90184,6 +93358,175 @@
       }
     },
     {
+      "literal": "稽",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "7a3d"
+        },
+        {
+          "type": "jis208",
+          "value": "1-23-46"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 115
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          15
+        ],
+        "variants": [],
+        "frequency": 2372,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "3304"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "4163"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "1573"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1137"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2088"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "983"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 8,
+            "page": 611
+          },
+          "value": "25218"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1084"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-5-11"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "5d11.3"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2396.1"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2278"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ji1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "qi3"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "gye"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "계"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Kê"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Khể"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ケイ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "かんが.える"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "とど.める"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "think"
+              },
+              {
+                "lang": "en",
+                "value": "consider"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "系",
       "codepoints": [
         {
@@ -91126,6 +94469,216 @@
               {
                 "lang": "en",
                 "value": "connect"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "蛍",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "86cd"
+        },
+        {
+          "type": "jis208",
+          "value": "1-23-54"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 142
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          11
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-74-05"
+          },
+          {
+            "type": "nelson_c",
+            "value": "4176"
+          }
+        ],
+        "frequency": 2031,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "5302"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2591"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3204"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1658"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2248"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "518"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "557"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1925"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 10,
+            "page": 23
+          },
+          "value": "32983"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1200"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1878"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "2043"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1717"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1482"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1676"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1607"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "524"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-5-6"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3n8.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3213.6"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "9013.6"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "posn",
+          "value": "2-3-8"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ying2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "hyeong"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "형"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Huỳnh"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ケイ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ほたる"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "lightning-bug"
+              },
+              {
+                "lang": "en",
+                "value": "firefly"
               }
             ]
           }
@@ -105741,6 +109294,216 @@
               {
                 "lang": "en",
                 "value": "storehouse"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "弧",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5f27"
+        },
+        {
+          "type": "jis208",
+          "value": "1-24-44"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 57
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          9
+        ],
+        "variants": [],
+        "frequency": 2371,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1567"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1687"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "360"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "430"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "266"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "320"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1878"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2023"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1958"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1729"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 703
+          },
+          "value": "9757X"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1230"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1481"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1578"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1271"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1224"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1447"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "609"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1896"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-6"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3h6.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "1223.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3562"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "hu2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "ho"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "호"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Hồ"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "O"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "コ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "arc"
+              },
+              {
+                "lang": "en",
+                "value": "arch"
+              },
+              {
+                "lang": "en",
+                "value": "bow"
               }
             ]
           }
@@ -124725,6 +128488,235 @@
       }
     },
     {
+      "literal": "恨",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6068"
+        },
+        {
+          "type": "jis208",
+          "value": "1-26-08"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 61
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          9
+        ],
+        "variants": [],
+        "frequency": 1877,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1677"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1842"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "369"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "439"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "272"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "328"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1460"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1570"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1957"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1052"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1227"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 1033
+          },
+          "value": "10588"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1277"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1755"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1879"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1293"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1256"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1452"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "814"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1472"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-6"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4k6.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "9703.2"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1165"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "hen4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "han"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "한"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Hận"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "コン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "うら.む"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "うら.めしい"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "regret"
+              },
+              {
+                "lang": "en",
+                "value": "bear a grudge"
+              },
+              {
+                "lang": "en",
+                "value": "resentment"
+              },
+              {
+                "lang": "en",
+                "value": "malice"
+              },
+              {
+                "lang": "en",
+                "value": "hatred"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "懇",
       "codepoints": [
         {
@@ -129925,6 +133917,235 @@
               {
                 "lang": "en",
                 "value": "evil"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "砕",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "7815"
+        },
+        {
+          "type": "jis208",
+          "value": "1-26-53"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 112
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          9
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-66-76"
+          }
+        ],
+        "frequency": 1579,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "3179"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "3990"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1134"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "1458"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "773"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1048"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "116"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "121"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1695"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1467"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 8,
+            "page": 348
+          },
+          "value": "24080P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1287"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1710"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1827"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1568"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1287"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1550"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1400"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "117"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-5-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "5a4.6"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "1464.1"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3355"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "sui4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "swae"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "쇄"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Toái"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "サイ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くだ.く"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くだ.ける"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "smash"
+              },
+              {
+                "lang": "en",
+                "value": "break"
+              },
+              {
+                "lang": "en",
+                "value": "crush"
+              },
+              {
+                "lang": "en",
+                "value": "familiar"
+              },
+              {
+                "lang": "en",
+                "value": "popular"
               }
             ]
           }
@@ -139522,6 +143743,188 @@
               {
                 "lang": "en",
                 "value": "tart"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "斬",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "65ac"
+        },
+        {
+          "type": "jis208",
+          "value": "1-27-34"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 69
+        },
+        {
+          "type": "nelson_c",
+          "value": 159
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          11
+        ],
+        "variants": [],
+        "frequency": 2132,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "4613"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2384"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1482"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "1874"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1347"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2092"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1215"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 5,
+            "page": 623
+          },
+          "value": "13555"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1923"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-7-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "7c4.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "5202.1"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1554"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "zhan3"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "cham"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "참"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Trảm"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ザン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "サン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ゼン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "き.る"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "beheading"
+              },
+              {
+                "lang": "en",
+                "value": "kill"
+              },
+              {
+                "lang": "en",
+                "value": "murder"
               }
             ]
           }
@@ -173295,6 +177698,231 @@
       }
     },
     {
+      "literal": "旬",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "65ec"
+        },
+        {
+          "type": "jis208",
+          "value": "1-29-60"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 72
+        },
+        {
+          "type": "nelson_c",
+          "value": 20
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          6
+        ],
+        "variants": [],
+        "frequency": 1162,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "747"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2415"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2978"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3698"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1891"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2572"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "67"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "71"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "937"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "301"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1327"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 5,
+            "page": 748
+          },
+          "value": "13746"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1373"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "338"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "338"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1404"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1078"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "664"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "965"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "67"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "3-2-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4c2.5"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2762.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2552"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "xun2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "sun"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "순"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tuần"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Quân"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ジュン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "シュン"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "decameron"
+              },
+              {
+                "lang": "en",
+                "value": "ten-day period"
+              },
+              {
+                "lang": "en",
+                "value": "season (for specific products)"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "準",
       "codepoints": [
         {
@@ -187861,6 +192489,240 @@
       }
     },
     {
+      "literal": "剰",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5270"
+        },
+        {
+          "type": "jis208",
+          "value": "1-30-74"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 18
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          11
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-49-84"
+          }
+        ],
+        "frequency": 1448,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "698"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "501"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1779"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2233"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1164"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1584"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1586"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1710"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1546"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1426"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1662"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 2,
+            "page": 299
+          },
+          "value": "2107"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1418"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1068"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1115"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1097"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1412"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1321"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "202"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1600"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-9-2"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2f9.1"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2290.0"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "2243"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "sheng4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "ing"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "잉"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Thặng"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Thừa"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ジョウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あまつさえ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あま.り"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あま.る"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "surplus"
+              },
+              {
+                "lang": "en",
+                "value": "besides"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "城",
       "codepoints": [
         {
@@ -193167,6 +198029,212 @@
           "のぶ",
           "まこと"
         ]
+      }
+    },
+    {
+      "literal": "唇",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5507"
+        },
+        {
+          "type": "jis208",
+          "value": "1-31-16"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 30
+        },
+        {
+          "type": "nelson_c",
+          "value": 161
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-70-92"
+          }
+        ],
+        "frequency": 1992,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "4654"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "807"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2737"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3401"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1752"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2385"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2013"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2169"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1929"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 2,
+            "page": 1020
+          },
+          "value": "3697"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1435"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1737"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1859"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1134"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1316"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1794"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "290"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "2032"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-7-3"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3d7.12"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "7160.3"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3377"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "chun2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "jin"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "진"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Thần"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "シン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くちびる"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "lips"
+              }
+            ]
+          }
+        ],
+        "nanori": []
       }
     },
     {
@@ -209113,6 +214181,347 @@
       }
     },
     {
+      "literal": "斉",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6589"
+        },
+        {
+          "type": "jis208",
+          "value": "1-32-38"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 67
+        },
+        {
+          "type": "nelson_c",
+          "value": 210
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          8
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-83-78"
+          },
+          {
+            "type": "jis212",
+            "value": "1-16-32"
+          },
+          {
+            "type": "jis212",
+            "value": "1-33-56"
+          }
+        ],
+        "frequency": 1209,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "5423"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2366"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2054"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2548"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1299"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1768"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1729"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1866"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1528"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "701"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1958"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 5,
+            "page": 603
+          },
+          "value": "13454"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1473"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1477"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1574"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1393"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1223"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1779"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1874"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1745"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-2-6"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2j6.5"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "0022.4"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "454"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "posn",
+          "value": "2-4-4"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "posn",
+          "value": "4-8-4"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "qi2"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ji4"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "qi4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "ja"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "che"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "chae"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "자"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "체"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "채"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tế"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tề"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tày"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tầy"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tè"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セイ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "サイ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "そろ.う"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ひと.しい"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ひと.しく"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あたる"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "はやい"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "adjusted"
+              },
+              {
+                "lang": "en",
+                "value": "alike"
+              },
+              {
+                "lang": "en",
+                "value": "equal"
+              },
+              {
+                "lang": "en",
+                "value": "similar variety of"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "ただ",
+          "なり",
+          "ひと",
+          "ひとし"
+        ]
+      }
+    },
+    {
       "literal": "税",
       "codepoints": [
         {
@@ -209595,6 +215004,236 @@
               {
                 "lang": "en",
                 "value": "place"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "惜",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "60dc"
+        },
+        {
+          "type": "jis208",
+          "value": "1-32-43"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 61
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          11
+        ],
+        "variants": [],
+        "frequency": 1641,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1712"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1894"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "484"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "586"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "355"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "442"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1187"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1271"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1542"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1024"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 1084
+          },
+          "value": "10814"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1484"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "765"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "779"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1303"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1434"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1455"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "820"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1195"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-8"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4k8.11"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "9406.1"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1178"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "xi1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "xi2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "seog"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "석"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tích"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セキ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "お.しい"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "お.しむ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "pity"
+              },
+              {
+                "lang": "en",
+                "value": "be sparing of"
+              },
+              {
+                "lang": "en",
+                "value": "frugal"
+              },
+              {
+                "lang": "en",
+                "value": "stingy"
+              },
+              {
+                "lang": "en",
+                "value": "regret"
               }
             ]
           }
@@ -216091,6 +221730,237 @@
       }
     },
     {
+      "literal": "扇",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6247"
+        },
+        {
+          "type": "jis208",
+          "value": "1-32-80"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 63
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [],
+        "frequency": 1805,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1823"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2056"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1950"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2449"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1239"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1704"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "1079"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "1160"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1442"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1156"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1430"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 5,
+            "page": 74
+          },
+          "value": "11743P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1492"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1555"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1657"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1333"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1337"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1733"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "845"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "1088"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-1-9"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4m6.1"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3022.7"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "3053"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "posn",
+          "value": "3-4-6"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "shan4"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "shan1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "seon"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "선"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Phiến"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Thiên"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おうぎ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "fan"
+              },
+              {
+                "lang": "en",
+                "value": "folding fan"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "おう",
+          "おおぎ"
+        ]
+      }
+    },
+    {
       "literal": "泉",
       "codepoints": [
         {
@@ -217067,6 +222937,189 @@
         ],
         "nanori": [
           "そめ"
+        ]
+      }
+    },
+    {
+      "literal": "煎",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "714e"
+        },
+        {
+          "type": "jis208",
+          "value": "1-32-89"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 86
+        },
+        {
+          "type": "nelson_c",
+          "value": 12
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          13
+        ],
+        "variants": [],
+        "frequency": 2458,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "611"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "3453"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2950"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2054"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2548"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "310"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 7,
+            "page": 468
+          },
+          "value": "19184X"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1933"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-3-10"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "2o11.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "8033.2"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "940"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "jian1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "jeon"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "전"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tiên"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tiễn"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "セン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "せん.じる"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "い.る"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "に.る"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "broil"
+              },
+              {
+                "lang": "en",
+                "value": "parch"
+              },
+              {
+                "lang": "en",
+                "value": "roast"
+              },
+              {
+                "lang": "en",
+                "value": "boil"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "いり"
         ]
       }
     },
@@ -245336,6 +251389,221 @@
       }
     },
     {
+      "literal": "旦",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "65e6"
+        },
+        {
+          "type": "jis208",
+          "value": "1-35-22"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 72
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          5
+        ],
+        "variants": [],
+        "frequency": null,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2098"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "2411"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2389"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3041"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1548"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2119"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "30"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "30"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1849"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "162"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1892"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 5,
+            "page": 741
+          },
+          "value": "13734"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "2085"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "2111"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "30"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-4-1"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4c1.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "6010.0"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "dan4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "dan"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "단"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Đán"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "タン"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ダン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あき.らか"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あきら"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ただし"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あさ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あした"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "daybreak"
+              },
+              {
+                "lang": "en",
+                "value": "dawn"
+              },
+              {
+                "lang": "en",
+                "value": "morning"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "淡",
       "codepoints": [
         {
@@ -255058,6 +261326,239 @@
       }
     },
     {
+      "literal": "庁",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5e81"
+        },
+        {
+          "type": "jis208",
+          "value": "1-36-03"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 53
+        }
+      ],
+      "misc": {
+        "grade": 6,
+        "strokeCounts": [
+          5
+        ],
+        "variants": [
+          {
+            "type": "jis208",
+            "value": "1-55-12"
+          },
+          {
+            "type": "jis208",
+            "value": "1-55-13"
+          }
+        ],
+        "frequency": 793,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1498"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1603"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "3034"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "3768"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1920"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "2612"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "591"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "635"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "459"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "174"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1034"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 547
+          },
+          "value": "9223"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "938"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "763"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "777"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "506"
+        },
+        {
+          "type": "henshall3",
+          "morohashi": null,
+          "value": "950"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "837"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "541"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "582"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "598"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "3-3-2"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3q2.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "0022.1"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "553"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ting1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "cheong"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "청"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Sảnh"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Thinh"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "チョウ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "テイ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "やくしょ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "government office"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "張",
       "codepoints": [
         {
@@ -264094,6 +270595,173 @@
               {
                 "lang": "en",
                 "value": "give up"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "釘",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "91d8"
+        },
+        {
+          "type": "jis208",
+          "value": "1-37-03"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 167
+        }
+      ],
+      "misc": {
+        "grade": 9,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [],
+        "frequency": 2496,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "4816"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "6217"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "1667"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2100"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1489"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2766"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2788"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1154"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 11,
+            "page": 494
+          },
+          "value": "40159"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-8-2"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "8a2.4"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "8112.0"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ding1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ding4"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "jeong"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "정"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Đinh"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "テイ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "チョウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くぎ"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "nail"
+              },
+              {
+                "lang": "en",
+                "value": "tack"
+              },
+              {
+                "lang": "en",
+                "value": "peg"
               }
             ]
           }
@@ -280624,6 +287292,192 @@
         "nanori": [
           "みち"
         ]
+      }
+    },
+    {
+      "literal": "憧",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "61a7"
+        },
+        {
+          "type": "jis208",
+          "value": "1-38-20"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 61
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          15
+        ],
+        "variants": [],
+        "frequency": 2259,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1767"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1982"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "899"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "511"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "664"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2280"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "681"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 1188
+          },
+          "value": "11242"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "2077"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1853"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-12"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "4k12.5"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "9001.4"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "chong1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "dong"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "동"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Sung"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Tráng"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ショウ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "トウ"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ドウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あこが.れる"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "yearn after"
+              },
+              {
+                "lang": "en",
+                "value": "long for"
+              },
+              {
+                "lang": "en",
+                "value": "aspire to"
+              },
+              {
+                "lang": "en",
+                "value": "admire"
+              },
+              {
+                "lang": "en",
+                "value": "adore"
+              }
+            ]
+          }
+        ],
+        "nanori": []
       }
     },
     {
@@ -316716,6 +323570,246 @@
       }
     },
     {
+      "literal": "浮",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "6d6e"
+        },
+        {
+          "type": "jis208",
+          "value": "1-41-66"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 85
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          10
+        ],
+        "variants": [],
+        "frequency": 776,
+        "radicalNames": [],
+        "jlptLevel": 2
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "2575"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "3159"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "435"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "522"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "319"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "393"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "730"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "787"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1047"
+        },
+        {
+          "type": "oneill_names",
+          "morohashi": null,
+          "value": "1069"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "991"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 6,
+            "page": 1149
+          },
+          "value": "17487X"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1752"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "938"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "968"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "684"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1359"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "820"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "1197"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "738"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-3-7"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3a6.11"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "3214.7"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "347"
+        },
+        {
+          "type": "skip",
+          "skipMisclassification": "stroke_count",
+          "value": "1-3-6"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "fu2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "bu"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "부"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Phù"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "フ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.く"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.かれる"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.かぶ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.かべる"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "floating"
+              },
+              {
+                "lang": "en",
+                "value": "float"
+              },
+              {
+                "lang": "en",
+                "value": "rise to surface"
+              }
+            ]
+          }
+        ],
+        "nanori": [
+          "うき"
+        ]
+      }
+    },
+    {
       "literal": "父",
       "codepoints": [
         {
@@ -331672,6 +338766,182 @@
       }
     },
     {
+      "literal": "呆",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5446"
+        },
+        {
+          "type": "jis208",
+          "value": "1-42-82"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 30
+        }
+      ],
+      "misc": {
+        "grade": null,
+        "strokeCounts": [
+          7
+        ],
+        "variants": [],
+        "frequency": 1848,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "896"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "738"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2712"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "2181"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "2297"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 2,
+            "page": 920
+          },
+          "value": "3395"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-3-4"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3d4.13"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "6090.4"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "dai1"
+              },
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "ai2"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "mae"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "bo"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "매"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "보"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Ngốc"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ホウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ほけ.る"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "ぼ.ける"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "あき.れる"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "おろか"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "be amazed"
+              },
+              {
+                "lang": "en",
+                "value": "disgusted"
+              },
+              {
+                "lang": "en",
+                "value": "shocked"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
       "literal": "報",
       "codepoints": [
         {
@@ -332417,6 +339687,232 @@
         "nanori": [
           "ほ"
         ]
+      }
+    },
+    {
+      "literal": "崩",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "5d29"
+        },
+        {
+          "type": "jis208",
+          "value": "1-42-88"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 46
+        }
+      ],
+      "misc": {
+        "grade": 8,
+        "strokeCounts": [
+          11
+        ],
+        "variants": [],
+        "frequency": 778,
+        "radicalNames": [],
+        "jlptLevel": 1
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "1430"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "1491"
+        },
+        {
+          "type": "halpern_njecd",
+          "morohashi": null,
+          "value": "2296"
+        },
+        {
+          "type": "halpern_kkd",
+          "morohashi": null,
+          "value": "2863"
+        },
+        {
+          "type": "halpern_kkld",
+          "morohashi": null,
+          "value": "1478"
+        },
+        {
+          "type": "halpern_kkld_2ed",
+          "morohashi": null,
+          "value": "1989"
+        },
+        {
+          "type": "heisig",
+          "morohashi": null,
+          "value": "774"
+        },
+        {
+          "type": "heisig6",
+          "morohashi": null,
+          "value": "836"
+        },
+        {
+          "type": "gakken",
+          "morohashi": null,
+          "value": "1700"
+        },
+        {
+          "type": "oneill_kk",
+          "morohashi": null,
+          "value": "1490"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 4,
+            "page": 286
+          },
+          "value": "8212P"
+        },
+        {
+          "type": "henshall",
+          "morohashi": null,
+          "value": "1801"
+        },
+        {
+          "type": "sh_kk",
+          "morohashi": null,
+          "value": "1122"
+        },
+        {
+          "type": "sh_kk2",
+          "morohashi": null,
+          "value": "1174"
+        },
+        {
+          "type": "jf_cards",
+          "morohashi": null,
+          "value": "1244"
+        },
+        {
+          "type": "tutt_cards",
+          "morohashi": null,
+          "value": "1426"
+        },
+        {
+          "type": "kanji_in_context",
+          "morohashi": null,
+          "value": "1663"
+        },
+        {
+          "type": "kodansha_compact",
+          "morohashi": null,
+          "value": "547"
+        },
+        {
+          "type": "maniette",
+          "morohashi": null,
+          "value": "781"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "2-3-8"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "3o8.7"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "2222.7"
+        },
+        {
+          "type": "deroo",
+          "skipMisclassification": null,
+          "value": "1246"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "beng1"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "bung"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "붕"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Băng"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "ホウ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くず.れる"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "-くず.れ"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "くず.す"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "crumble"
+              },
+              {
+                "lang": "en",
+                "value": "die"
+              },
+              {
+                "lang": "en",
+                "value": "demolish"
+              },
+              {
+                "lang": "en",
+                "value": "level"
+              }
+            ]
+          }
+        ],
+        "nanori": []
       }
     },
     {
@@ -389855,6 +397351,123 @@
               {
                 "lang": "en",
                 "value": "nod approval"
+              }
+            ]
+          }
+        ],
+        "nanori": []
+      }
+    },
+    {
+      "literal": "饉",
+      "codepoints": [
+        {
+          "type": "ucs",
+          "value": "9949"
+        },
+        {
+          "type": "jis208",
+          "value": "1-81-28"
+        }
+      ],
+      "radicals": [
+        {
+          "type": "classical",
+          "value": 184
+        }
+      ],
+      "misc": {
+        "grade": null,
+        "strokeCounts": [
+          20
+        ],
+        "variants": [],
+        "frequency": null,
+        "radicalNames": [],
+        "jlptLevel": null
+      },
+      "dictionaryReferences": [
+        {
+          "type": "nelson_c",
+          "morohashi": null,
+          "value": "5179"
+        },
+        {
+          "type": "nelson_n",
+          "morohashi": null,
+          "value": "6709"
+        },
+        {
+          "type": "moro",
+          "morohashi": {
+            "volume": 12,
+            "page": 425
+          },
+          "value": "44366"
+        }
+      ],
+      "queryCodes": [
+        {
+          "type": "skip",
+          "skipMisclassification": null,
+          "value": "1-9-11"
+        },
+        {
+          "type": "sh_desc",
+          "skipMisclassification": null,
+          "value": "8b11.2"
+        },
+        {
+          "type": "four_corner",
+          "skipMisclassification": null,
+          "value": "8471.4"
+        }
+      ],
+      "readingMeaning": {
+        "groups": [
+          {
+            "readings": [
+              {
+                "type": "pinyin",
+                "onType": null,
+                "status": null,
+                "value": "jin3"
+              },
+              {
+                "type": "korean_r",
+                "onType": null,
+                "status": null,
+                "value": "geun"
+              },
+              {
+                "type": "korean_h",
+                "onType": null,
+                "status": null,
+                "value": "근"
+              },
+              {
+                "type": "vietnam",
+                "onType": null,
+                "status": null,
+                "value": "Cận"
+              },
+              {
+                "type": "ja_on",
+                "onType": null,
+                "status": null,
+                "value": "キン"
+              },
+              {
+                "type": "ja_kun",
+                "onType": null,
+                "status": null,
+                "value": "う.える"
+              }
+            ],
+            "meanings": [
+              {
+                "lang": "en",
+                "value": "hunger"
               }
             ]
           }
