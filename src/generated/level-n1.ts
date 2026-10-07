@@ -9,4 +9,5 @@ import pack5 from "../../content/packs/n1-u06.json";
 import pack6 from "../../content/packs/n1-u07.json";
 import pack7 from "../../content/packs/n1-u08.json";
 import pack8 from "../../content/packs/n1-u09.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8] as unknown as Pack[];
+import pack9 from "../../content/packs/n1-u10.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9] as unknown as Pack[];

@@ -1,0 +1,68 @@
+{
+  "unit": "n1-u10",
+  "checkedAt": "2026-10-07",
+  "status": "Source/editorial/query/mapping/browser/build/offline checks passed; native review pending.",
+  "method": "Relevant sections of independently authored formation sources read; publisher errata page 5 visually inspected. Original discussion, summaries and questions; no copied publisher examples. These earlier-level grammar forms are retrieved in advanced listening, not advertised as exclusively N1.",
+  "points": [
+    {
+      "form": "Noun/person + にしたところで / にしたって",
+      "sources": [
+        "https://bunpro.jp/grammar_points/878",
+        "https://mainichi-nonbiri.com/grammar/n1-nishitatte/"
+      ],
+      "formation": "A selected person/group noun followed by にしたところで introduces even that person’s limitation. Other plain-form attachments are acknowledged but not required here.",
+      "teachingChoice": "Even the director cannot decide without costs. Negative results are common, not a universal requirement; avoid claiming permanent ignorance."
+    },
+    {
+      "form": "Noun + を踏まえて / を踏まえた + noun",
+      "sources": [
+        "https://bunpro.jp/grammar_points/を踏まえて",
+        "https://nihongo-net.com/2020/05/18/jlptn1-wohumaete/"
+      ],
+      "formation": "Ichidan 踏まえる; noun + を踏まえて informs an action, を踏まえた modifies a following noun.",
+      "teachingChoice": "Survey response breakdown informs a proposal; neither representative population support nor approval is entailed."
+    },
+    {
+      "form": "Noun + に即して / に即した + noun",
+      "sources": [
+        "https://bunpro.jp/grammar_points/に即して",
+        "https://nihongo-net.com/2020/05/26/jlptn1-nisokushite/"
+      ],
+      "formation": "に即して modifies an action; に即した modifies 案. Actual staffing circumstances here.",
+      "teachingChoice": "Bunpro’s prose about before-noun use conflicts with its accurate formation table; no such exclusive-use claim is adopted. No absolute spelling prohibition about 則して."
+    },
+    {
+      "form": "Negative form + とも限らない",
+      "sources": [
+        "https://nihongokyoshi-net.com/2019/12/19/jlptn2-grammar-naitomokagiranai/",
+        "https://www.sanshusha.co.jp/data/docs1/105685.pdf"
+      ],
+      "formation": "Verb negative + とも限らない; 増えないとも限らない does not rule out an increase. iくない / na・nounではない or colloquialじゃない + とも限らない.",
+      "teachingChoice": "Publisher errata corrected attachment table on printed page217 (PDFpage5) inspected visually. No fixed numerical probability or automatic positive certainty. Publisher level labels vary."
+    }
+  ],
+  "sourceCautions": [
+    "Mainichi correct slug n1-nishitatte inspected; failed guessed n1-nishitatokorode not represented as read.",
+    "RapidJT article inspected but its broad low-probability/generality claims are not adopted.",
+    "Satō remains the teacher assisting a library survey; no unannounced librarian career.",
+    "Response counts are not population proportions or post-trial attendance. Four weeks is proposed, not approved.",
+    "A short original Violetto programme is supported practice, not proof of understanding real discussion programmes."
+  ],
+  "audioScope": "Three original thirteen-line scenes at1.2; existing distinct Violetto cast deliveries, Clear vocabulary and task audio. No new model/recording/mascot art.",
+  "checks": {
+    "wordPairs": 54,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "tasks": 20,
+    "readingLengths": [
+      957,
+      926
+    ],
+    "unitTests": 123,
+    "pythonTests": 24,
+    "audioValidators": 5,
+    "offlineVerifiedAt": "2026-10-07T07:18:28.304Z",
+    "precacheKiB": 12325.5
+  }
+}

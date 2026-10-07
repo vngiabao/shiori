@@ -189,6 +189,62 @@
       "unit": "n1-u09",
       "reason": "Contextual 山猫軒→やまねこけん and 地の文→じのぶん; その後 matches authored sono ato. Exact inspected query sequence, not native intonation certification.",
       "expectedMoras": "コノブブンナラネソノアトノコトワマダカカナイ"
+    },
+    {
+      "text": "聴取",
+      "readingInput": "チョーシュ",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "チョオシュ"
+    },
+    {
+      "text": "ちょうしゅ",
+      "readingInput": "チョーシュ",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "チョオシュ"
+    },
+    {
+      "text": "恒常的",
+      "readingInput": "コージョーテキ",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "コオジョオテキ"
+    },
+    {
+      "text": "こうじょうてき",
+      "readingInput": "コージョーテキ",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "コオジョオテキ"
+    },
+    {
+      "text": "繁忙",
+      "readingInput": "ハンボー",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "ハンボオ"
+    },
+    {
+      "text": "はんぼう",
+      "readingInput": "ハンボー",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "ハンボオ"
+    },
+    {
+      "text": "今は十七時に閉まりますよね。仕事の後だと間に合わなくて。",
+      "readingInput": "今は十七時に閉まりますよね。仕事のあとだと間に合わなくて。",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "イマワジュウシチジニシマリマスヨネシゴトノアトダトマニアワナクテ"
+    },
+    {
+      "text": "読み違えると、結論が逆ですね。増えると決めつけずに、試して確かめるわけだ。",
+      "readingInput": "よみちがえると、結論が逆ですね。増えると決めつけずに、試して確かめるわけだ。",
+      "unit": "n1-u10",
+      "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "ヨミチガエルトケツロンガギャクデスネフエルトキメツケズニタメシテタシカメルワケダ"
     }
   ]
 }
