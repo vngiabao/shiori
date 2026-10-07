@@ -205,6 +205,14 @@ for (const unit of [
       ["Today’s slight condition and a recurring pattern", "n2-u11-d-library", "A slight condition in the stated period", "An emotion suggested by what you see"],
     ],
   },
+  {
+    id: "n2-u12", reading: "A shopping street in photographs and voices",
+    secondReading: "A meeting report: the cinema site is still undecided",
+    lessons: [
+      ["A film’s source and the person who connected them", "n2-u12-d-film", "Name the material used to make a work", "Follow the issue around which views differ"],
+      ["Report the issue, the participants and what remains open", "n2-u12-d-report", "Follow the issue around which views differ", "Name the material used to make a work"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
