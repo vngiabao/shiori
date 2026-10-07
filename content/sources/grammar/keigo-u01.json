@@ -1,0 +1,48 @@
+{
+  "unit": "keigo-u01",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original reception scenario; no publisher exercises or prose imported.",
+  "points": [
+    {
+      "form": "いらっしゃる / おります / 参ります",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://bunpro.jp/grammar_points/いらっしゃる"
+      ],
+      "teachingChoice": "Separate respected guest and own-side colleague; no universal ban on respectful third-party references."
+    },
+    {
+      "form": "伺ってもよろしいでしょうか",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.mlcjapanese.co.jp/business_japanese.html"
+      ],
+      "teachingChoice": "Ask the name from the receptionist’s own side; check permission versus completed asking."
+    },
+    {
+      "form": "Selected お待ちください / お掛けください",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://bunpro.jp/grammar_points/お-ください"
+      ],
+      "teachingChoice": "Selected verb stems, listener performs requested action; ordinary 待ってください is not globally labelled wrong."
+    }
+  ],
+  "sourceCautions": [
+    "Bunpro ご～ください generalisation not adopted; Culture Agency recognises selected ご確認ください.",
+    "SFSU polite-form PDF text extracted previously but table labels not visually inspected; not relied on.",
+    "Twenty-four supplementary headwords are not a quota for the conversations."
+  ],
+  "checks": {
+    "wordPairs": 24,
+    "lessons": 1,
+    "notes": 3,
+    "scenes": 2,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      215
+    ]
+  }
+}

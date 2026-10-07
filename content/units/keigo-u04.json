@@ -1,0 +1,909 @@
+{
+  "id": "keigo-u04",
+  "title": "Keigo at work: take a turn in a meeting",
+  "lesson": {
+    "title": "A question, fifty copies and an unapproved quote",
+    "description": "Follow roles and quantities in a client meeting; take a turn before clarifying the order.",
+    "canDo": "Ask to clarify a point and distinguish a discussed quantity from approval to print.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u04-w-v01",
+      "{議長|ぎちょう}",
+      "gichō",
+      "the chair of a meeting or assembly",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v02",
+      "{挙手|きょしゅ}",
+      "kyoshu",
+      "raising a hand",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v03",
+      "{意見交換|いけんこうかん}",
+      "iken kōkan",
+      "exchanging opinions",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v04",
+      "{検討会|けんとうかい}",
+      "kentōkai",
+      "a meeting to consider an issue",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v05",
+      "{会議録|かいぎろく}",
+      "kaigiroku",
+      "a written record of a meeting",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v06",
+      "{持|も}ち{時間|じかん}",
+      "mochijikan",
+      "the time allotted to a speaker",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v07",
+      "{散会|さんかい}",
+      "sankai",
+      "ending a meeting and dispersing",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v08",
+      "{根回|ねまわ}し",
+      "nemawashi",
+      "consultation before a formal decision",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v09",
+      "{事前協議|じぜんきょうぎ}",
+      "jizen kyōgi",
+      "discussion before the main proceedings",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v10",
+      "{定例会|ていれいかい}",
+      "teireikai",
+      "a regularly scheduled meeting",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v11",
+      "{例会|れいかい}",
+      "reikai",
+      "a regular meeting of an organisation",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v12",
+      "{座長|ざちょう}",
+      "zachō",
+      "the chair of a discussion or session",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v13",
+      "{幹事|かんじ}",
+      "kanji",
+      "an organiser or coordinating secretary",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v14",
+      "{分科会|ぶんかかい}",
+      "bunkakai",
+      "a subgroup meeting on a particular subject",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v15",
+      "{協議会|きょうぎかい}",
+      "kyōgikai",
+      "a council or group for consultation",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v16",
+      "{議案|ぎあん}",
+      "gian",
+      "a proposal submitted for discussion",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v17",
+      "{議事|ぎじ}",
+      "giji",
+      "the business or proceedings of a meeting",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v18",
+      "{口火|くちび}",
+      "kuchibi",
+      "the first move that starts a discussion",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v19",
+      "{発言権|はつげんけん}",
+      "hatsugenken",
+      "the right to speak",
+      "neutral"
+    ],
+    [
+      "keigo-u04-w-v20",
+      "{全会一致|ぜんかいいっち}",
+      "zenkai itchi",
+      "unanimity among all meeting participants",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u04-g-explain",
+      "title": "Explain your own proposal to the client",
+      "explanation": "ご説明いたします announces your own explanation directed to the client. ご説明になります respectfully describes the other person explaining. A formal introduction does not make the proposal a decision.",
+      "formation": "Selected 説明する → ご説明する → ご説明いたします. Compare 説明します (ordinary polite) and 説明する (plain). The explaining person remains explicit.",
+      "mistake": "Do not change who explains by selecting a respectful form for your own action. Do not call a proposed amount an approved order.",
+      "example": "私からご説明いたします。",
+      "translation": "I’ll explain it.",
+      "examples": [
+        {
+          "ja": "{私|わたし}からご{説明|せつめい}いたします。",
+          "en": "I’ll explain it."
+        },
+        {
+          "ja": "まず、{料金|りょうきん}をご{説明|せつめい}いたします。",
+          "en": "First, I’ll explain the prices."
+        },
+        {
+          "ja": "{田村様|たむらさま}がご{説明|せつめい}になります。",
+          "en": "Ms Tamura will explain it."
+        }
+      ],
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "lessons": [
+        "keigo-u04-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u04-g-ask",
+      "title": "Ask for the other person’s view from your side",
+      "explanation": "ご意見を伺います means that you will ask for or hear the other person’s view. お考え refers respectfully to their thinking. Keep a question about their needs separate from your own offer.",
+      "formation": "聞く・尋ねる → 伺う → 伺います in this directed humble use. ご意見 / お考え identify the other person’s views; 私の考え describes your own view without an honorific for yourself.",
+      "mistake": "伺ってください would ask the client to perform your humble action. Use a selected request such as お聞かせください when the client is the speaker.",
+      "example": "ご意見を伺います。",
+      "translation": "I’d like to hear your view.",
+      "examples": [
+        {
+          "ja": "ご{意見|いけん}を{伺|うかが}います。",
+          "en": "I’d like to hear your view."
+        },
+        {
+          "ja": "ご{希望|きぼう}を{伺|うかが}ってもよろしいでしょうか。",
+          "en": "May I ask what you’d like?"
+        },
+        {
+          "ja": "お{考|かんが}えをお{聞|き}かせください。",
+          "en": "Please let us hear your thoughts."
+        }
+      ],
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "lessons": [
+        "keigo-u04-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u04-g-turn",
+      "title": "Ask for a turn before making your point",
+      "explanation": "一点、確認してもよろしいでしょうか asks permission for you to check a point. 確認してください instead asks the listener to check. A preface such as 恐れ入りますが makes the interruption considerate; it does not supply permission by itself.",
+      "formation": "確認する → 確認して + もよろしいでしょうか. よろしい replaces いい in this formal question. Compare 確認してもいいですか and 確認してもいい？ for the same speaker’s requested action.",
+      "mistake": "Do not translate a request to take a turn as an order to the client. Wait for the chair or client’s response rather than assume that the preface permits interruption.",
+      "example": "一点、確認してもよろしいでしょうか。",
+      "translation": "May I check one point?",
+      "examples": [
+        {
+          "ja": "{一点|いってん}、{確認|かくにん}してもよろしいでしょうか。",
+          "en": "May I check one point?"
+        },
+        {
+          "ja": "{少|すこ}し{補足|ほそく}してもよろしいでしょうか。",
+          "en": "May I add a little detail?"
+        },
+        {
+          "ja": "{次|つぎ}の{項目|こうもく}に{進|すす}んでもよろしいでしょうか。",
+          "en": "May we move to the next item?"
+        }
+      ],
+      "words": [
+        "keigo-u04-w-v06"
+      ],
+      "lessons": [
+        "keigo-u04-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u04-d-prepare",
+      "lesson": "keigo-u04-lesson",
+      "title": "Five minutes before the meeting",
+      "scene": "At 1:55 on Tuesday, you and Mori prepare for Tamura’s two-o’clock meeting.",
+      "words": [
+        "keigo-u01-w-v04",
+        "keigo-u04-w-v03",
+        "keigo-u04-w-v06"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "Mori",
+          "line": "{田村様|たむらさま}はもういらっしゃった？",
+          "romaji": "Tamura-sama wa mō irasshatta?",
+          "meaning": "Has Ms Tamura arrived?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{応接室|おうせつしつ}でお{待|ま}ちです。",
+          "romaji": "Hai. Ōsetsushitsu de omachi desu.",
+          "meaning": "Yes, she’s waiting in the reception room."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{今日|きょう}は{僕|ぼく}が{進行|しんこう}するね。{料金|りょうきん}の{説明|せつめい}はお{願|ねが}い。",
+          "romaji": "Kyō wa boku ga shinkō suru ne. Ryōkin no setsumei wa onegai.",
+          "meaning": "I’ll lead today. Could you explain the prices?"
+        },
+        {
+          "speaker": "You",
+          "line": "{私|わたし}の{持|も}ち{時間|じかん}は{五分|ごふん}ですね。",
+          "romaji": "Watashi no mochijikan wa gofun desu ne.",
+          "meaning": "I have five minutes, right?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん。その{後|あと}で{意見交換|いけんこうかん}をしよう。{印刷|いんさつ}の{部数|ぶすう}も{聞|き}きたい。",
+          "romaji": "Un. Sono ato de iken kōkan o shiyō. Insatsu no busū mo kikitai.",
+          "meaning": "Yes. Then we’ll discuss it. I also want to ask how many copies she needs."
+        },
+        {
+          "speaker": "You",
+          "line": "{月曜|げつよう}の{返事|へんじ}は「{料金表|りょうきんひょう}を{確認|かくにん}しました」でしたね。",
+          "romaji": "Getsuyō no henji wa ryōkinhyō o kakunin shimashita deshita ne.",
+          "meaning": "Her reply on Monday said she had checked the price list, right?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "そう。でも、まだ{注文|ちゅうもん}はもらってない。{今日|きょう}は{必要|ひつよう}な{部数|ぶすう}を{確|たし}かめよう。",
+          "romaji": "Sō. Demo, mada chūmon wa morattenai. Kyō wa hitsuyō na busū o tashikameyō.",
+          "meaning": "Right, but we haven’t received an order yet. Today we’ll check how many copies she needs."
+        },
+        {
+          "speaker": "You",
+          "line": "{金額|きんがく}は{部数|ぶすう}を{聞|き}いてから、{見積|みつも}りにするんですね。",
+          "romaji": "Kingaku wa busū o kiite kara, mitsumori ni surun desu ne.",
+          "meaning": "So we’ll work out the quote after asking about the quantity."
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん。{印刷|いんさつ}を{始|はじ}めるのは、{見積|みつも}りへの{返事|へんじ}をもらってから。",
+          "romaji": "Un. Insatsu o hajimeru no wa, mitsumori e no henji o moratte kara.",
+          "meaning": "Yes. We’ll wait for her reply to the quote before starting printing."
+        },
+        {
+          "speaker": "You",
+          "line": "{分|わ}かりました。{会議|かいぎ}のメモは{私|わたし}が{取|と}ります。",
+          "romaji": "Wakarimashita. Kaigi no memo wa watashi ga torimasu.",
+          "meaning": "Understood. I’ll take the meeting notes."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u04-d-meeting",
+      "lesson": "keigo-u04-lesson",
+      "title": "A quantity for the quote, not an order",
+      "scene": "At two, Mori leads the client meeting. You explain the price list and take notes.",
+      "words": [
+        "keigo-u04-w-v03",
+        "keigo-u04-w-v05",
+        "keigo-u04-w-v06"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "Mori",
+          "line": "{本日|ほんじつ}はお{時間|じかん}をいただき、ありがとうございます。まず、バオからご{説明|せつめい}いたします。",
+          "romaji": "Honjitsu wa ojikan o itadaki, arigatō gozaimasu. Mazu, Bao kara gosetsumei itashimasu.",
+          "meaning": "Thank you for your time today. Bao will explain first."
+        },
+        {
+          "speaker": "You",
+          "line": "{料金表|りょうきんひょう}の{二|に}ページをご{覧|らん}ください。{三十部|さんじゅうぶ}の{場合|ばあい}と{五十部|ごじゅうぶ}の{場合|ばあい}を{載|の}せています。",
+          "romaji": "Ryōkinhyō no ni pēji o goran kudasai. Sanjūbu no baai to gojūbu no baai o nosete imasu.",
+          "meaning": "Please look at page two of the price list. It shows options for thirty and fifty copies."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ありがとうございます。{参加者|さんかしゃ}が{増|ふ}えて、{四十部|よんじゅうぶ}になりそうなんです。",
+          "romaji": "Arigatō gozaimasu. Sankasha ga fuete, yonjūbu ni narisō nan desu.",
+          "meaning": "Thank you. More people are attending, so I think we’ll need forty copies."
+        },
+        {
+          "speaker": "You",
+          "line": "{恐|おそ}れ{入|い}りますが、{一点|いってん}、{確認|かくにん}してもよろしいでしょうか。",
+          "romaji": "Osoreirimasu ga, itten, kakunin shite mo yoroshii deshō ka.",
+          "meaning": "Excuse me, may I check one point?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい、どうぞ。",
+          "romaji": "Hai, dōzo.",
+          "meaning": "Yes, please do."
+        },
+        {
+          "speaker": "You",
+          "line": "{予備|よび}の{分|ぶん}も{含|ふく}めて{四十部|よんじゅうぶ}でしょうか。",
+          "romaji": "Yobi no bun mo fukumete yonjūbu deshō ka.",
+          "meaning": "Does forty include spare copies?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "いいえ。{予備|よび}を{十部|じゅうぶ}、{追加|ついか}してください。{全部|ぜんぶ}で{五十部|ごじゅうぶ}です。",
+          "romaji": "Iie. Yobi o jūbu, tsuika shite kudasai. Zenbu de gojūbu desu.",
+          "meaning": "No. Please add ten spares, making fifty altogether."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{承知|しょうち}しました。{五十部|ごじゅうぶ}で{見積|みつも}りを{作|つく}り、{明日|あした}{正午|しょうご}までにお{送|おく}りいたします。",
+          "romaji": "Shōchi shimashita. Gojūbu de mitsumori o tsukuri, ashita shōgo made ni ookuri itashimasu.",
+          "meaning": "Understood. We’ll prepare a quote for fifty and send it by noon tomorrow."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "それを{見|み}てから{返事|へんじ}をします。{印刷|いんさつ}はまだ{始|はじ}めないでください。",
+          "romaji": "Sore o mite kara henji o shimasu. Insatsu wa mada hajimenaide kudasai.",
+          "meaning": "I’ll reply after looking at it. Please don’t start printing yet."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{会議録|かいぎろく}にも、{見積|みつも}りへのお{返事|へんじ}をいただいてから{印刷|いんさつ}、と{書|か}きます。",
+          "romaji": "Hai. Kaigiroku ni mo, mitsumori e no ohenji o itadaite kara insatsu, to kakimasu.",
+          "meaning": "Yes. I’ll also note in the meeting record that printing waits for your reply to the quote."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u04-reading-minutes",
+      "lesson": "keigo-u04-lesson",
+      "title": "Meeting record: fifty copies, quote still to come",
+      "genre": "guide",
+      "paragraphs": [
+        "{火曜|かよう}{二時|にじ}の{打合|うちあわ}せ。{出席者|しゅっせきしゃ}は{田村様|たむらさま}、{森|もり}、バオ。{森|もり}が{進行|しんこう}し、バオが{料金表|りょうきんひょう}を{説明|せつめい}してメモを{取|と}った。{説明|せつめい}の{持|も}ち{時間|じかん}は{五分|ごふん}で、その{後|あと}に{意見交換|いけんこうかん}を{行|おこな}った。",
+        "{必要|ひつよう}な{印刷物|いんさつぶつ}は、{参加者|さんかしゃ}の{四十部|よんじゅうぶ}に{予備|よび}の{十部|じゅうぶ}を{加|くわ}えた{五十部|ごじゅうぶ}。{田村様|たむらさま}は{料金表|りょうきんひょう}を{確認済|かくにんず}みだが、{注文|ちゅうもん}はまだ{出|だ}していない。",
+        "{森|もり}は{五十部|ごじゅうぶ}の{見積|みつも}りを{水曜|すいよう}{正午|しょうご}までに{送|おく}る。{田村様|たむらさま}が{見積|みつも}りを{見|み}て{返事|へんじ}をするまで、{印刷|いんさつ}は{始|はじ}めない。{会議録|かいぎろく}はバオが{作成|さくせい}する。"
+      ],
+      "glosses": [
+        {
+          "text": "火曜",
+          "kana": "かよう",
+          "meaning": "Tuesday"
+        },
+        {
+          "text": "二時",
+          "kana": "にじ",
+          "meaning": "two o'clock"
+        },
+        {
+          "text": "打合",
+          "kana": "うちあわ",
+          "meaning": "a meeting (stem)"
+        },
+        {
+          "text": "出席者",
+          "kana": "しゅっせきしゃ",
+          "meaning": "people attending"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "森",
+          "kana": "もり",
+          "meaning": "Mori"
+        },
+        {
+          "text": "進行",
+          "kana": "しんこう",
+          "meaning": "leading the meeting"
+        },
+        {
+          "text": "料金表",
+          "kana": "りょうきんひょう",
+          "meaning": "the price list"
+        },
+        {
+          "text": "説明",
+          "kana": "せつめい",
+          "meaning": "an explanation"
+        },
+        {
+          "text": "取",
+          "kana": "と",
+          "meaning": "take (notes; stem)"
+        },
+        {
+          "text": "持",
+          "kana": "も",
+          "meaning": "allotted (in 持ち時間)"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん",
+          "meaning": "time"
+        },
+        {
+          "text": "五分",
+          "kana": "ごふん",
+          "meaning": "five minutes"
+        },
+        {
+          "text": "後",
+          "kana": "あと",
+          "meaning": "afterwards"
+        },
+        {
+          "text": "意見交換",
+          "kana": "いけんこうかん",
+          "meaning": "exchanging opinions"
+        },
+        {
+          "text": "行",
+          "kana": "おこな",
+          "meaning": "carry out (stem)"
+        },
+        {
+          "text": "必要",
+          "kana": "ひつよう",
+          "meaning": "needed"
+        },
+        {
+          "text": "印刷物",
+          "kana": "いんさつぶつ",
+          "meaning": "printed items"
+        },
+        {
+          "text": "参加者",
+          "kana": "さんかしゃ",
+          "meaning": "participants"
+        },
+        {
+          "text": "四十部",
+          "kana": "よんじゅうぶ",
+          "meaning": "forty copies"
+        },
+        {
+          "text": "予備",
+          "kana": "よび",
+          "meaning": "spares"
+        },
+        {
+          "text": "十部",
+          "kana": "じゅうぶ",
+          "meaning": "ten copies"
+        },
+        {
+          "text": "加",
+          "kana": "くわ",
+          "meaning": "add (stem)"
+        },
+        {
+          "text": "五十部",
+          "kana": "ごじゅうぶ",
+          "meaning": "fifty copies"
+        },
+        {
+          "text": "確認済",
+          "kana": "かくにんず",
+          "meaning": "already checked"
+        },
+        {
+          "text": "注文",
+          "kana": "ちゅうもん",
+          "meaning": "an order"
+        },
+        {
+          "text": "出",
+          "kana": "だ",
+          "meaning": "place an order (stem)"
+        },
+        {
+          "text": "見積",
+          "kana": "みつも",
+          "meaning": "a quote"
+        },
+        {
+          "text": "水曜",
+          "kana": "すいよう",
+          "meaning": "Wednesday"
+        },
+        {
+          "text": "正午",
+          "kana": "しょうご",
+          "meaning": "noon"
+        },
+        {
+          "text": "送",
+          "kana": "おく",
+          "meaning": "send (stem)"
+        },
+        {
+          "text": "見",
+          "kana": "み",
+          "meaning": "look at (stem)"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ",
+          "meaning": "a reply"
+        },
+        {
+          "text": "印刷",
+          "kana": "いんさつ",
+          "meaning": "printing"
+        },
+        {
+          "text": "始",
+          "kana": "はじ",
+          "meaning": "begin (stem)"
+        },
+        {
+          "text": "会議録",
+          "kana": "かいぎろく",
+          "meaning": "the meeting record"
+        },
+        {
+          "text": "作成",
+          "kana": "さくせい",
+          "meaning": "preparing a document"
+        },
+        {
+          "text": "打合せ",
+          "kana": "うちあわせ",
+          "meaning": "a business meeting"
+        },
+        {
+          "text": "説明して",
+          "kana": "せつめいして",
+          "meaning": "explained and"
+        },
+        {
+          "text": "取った",
+          "kana": "とった",
+          "meaning": "took notes"
+        },
+        {
+          "text": "持ち時間",
+          "kana": "もちじかん",
+          "meaning": "the allotted speaking time"
+        },
+        {
+          "text": "行った",
+          "kana": "おこなった",
+          "meaning": "carried out"
+        },
+        {
+          "text": "加えた",
+          "kana": "くわえた",
+          "meaning": "added"
+        },
+        {
+          "text": "確認済み",
+          "kana": "かくにんずみ",
+          "meaning": "already checked"
+        },
+        {
+          "text": "出していない",
+          "kana": "だしていない",
+          "meaning": "has not placed an order"
+        },
+        {
+          "text": "見積り",
+          "kana": "みつもり",
+          "meaning": "a price quotation"
+        },
+        {
+          "text": "始めない",
+          "kana": "はじめない",
+          "meaning": "will not begin"
+        },
+        {
+          "text": "メモ",
+          "kana": "めも",
+          "meaning": "notes"
+        },
+        {
+          "text": "バオ",
+          "kana": "ばお",
+          "meaning": "Bao"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u04-x-chair",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "Who leads the meeting?",
+      "options": [
+        "{森|もり}。",
+        "バオ。",
+        "{田村様|たむらさま}。"
+      ],
+      "answer": 0,
+      "explain": "Mori says he will lead; Bao explains prices and takes notes.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "dialogue": "keigo-u04-d-prepare",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-time",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "How much speaking time is allotted to Bao’s price explanation?",
+      "options": [
+        "{五分|ごふん}。",
+        "{三十分|さんじゅっぷん}。",
+        "{五十分|ごじゅっぷん}。"
+      ],
+      "answer": 0,
+      "explain": "Bao confirms five minutes.",
+      "words": [
+        "keigo-u04-w-v06"
+      ],
+      "dialogue": "keigo-u04-d-prepare",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-quantity",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "How many copies should the quote cover after the spare copies are clarified?",
+      "options": [
+        "{五十部|ごじゅうぶ}。",
+        "{四十部|よんじゅうぶ}。",
+        "{三十部|さんじゅうぶ}。"
+      ],
+      "answer": 0,
+      "explain": "Forty for participants plus ten spares is fifty.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "dialogue": "keigo-u04-d-meeting",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-pending",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "At the end of the meeting, what has Tamura NOT done?",
+      "options": [
+        "{見積|みつも}りに{返事|へんじ}をすること。",
+        "{予備|よび}の{十部|じゅうぶ}を{頼|たの}むこと。",
+        "バオの{質問|しつもん}に{答|こた}えること。"
+      ],
+      "answer": 0,
+      "explain": "The new fifty-copy quote is still to be sent; her reply will follow it.",
+      "words": [
+        "keigo-u04-w-v05"
+      ],
+      "dialogue": "keigo-u04-d-meeting",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-explain",
+      "lesson": "keigo-u04-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: announce your own explanation to the client. 私から＿＿。",
+      "options": [
+        "ご{説明|せつめい}いたします",
+        "ご{説明|せつめい}になります",
+        "ご{覧|らん}になります"
+      ],
+      "answer": 0,
+      "explain": "いたします describes your own action; になります respects another actor.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "line": "{私|わたし}から＿＿。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-view",
+      "lesson": "keigo-u04-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: you ask for the client’s view. ご意見を＿＿。",
+      "options": [
+        "{伺|うかが}います",
+        "おっしゃいます",
+        "いらっしゃいます"
+      ],
+      "answer": 0,
+      "explain": "伺います describes your asking or hearing the other person’s view.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "line": "ご{意見|いけん}を＿＿。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-spares",
+      "lesson": "keigo-u04-lesson",
+      "type": "reply",
+      "prompt": "The client says she may need forty copies. Before quoting, clarify whether that includes spares.",
+      "options": [
+        "{予備|よび}の{分|ぶん}も{含|ふく}めて{四十部|よんじゅうぶ}でしょうか。",
+        "{印刷|いんさつ}はもう{終|お}わりました。",
+        "{予備|よび}は{不要|ふよう}ですね。"
+      ],
+      "answer": 0,
+      "explain": "Ask about the unknown detail rather than infer it.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "line": "{四十部|よんじゅうぶ}になりそうなんです。",
+      "dialogue": "keigo-u04-d-meeting",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-wait",
+      "lesson": "keigo-u04-lesson",
+      "type": "reply",
+      "prompt": "The client explicitly asks you not to start printing before she replies. Acknowledge that condition.",
+      "options": [
+        "お{返事|へんじ}をいただいてから{印刷|いんさつ}いたします。",
+        "すぐに{印刷|いんさつ}を{始|はじ}めます。",
+        "{注文|ちゅうもん}をいただき、ありがとうございます。"
+      ],
+      "answer": 0,
+      "explain": "Wait for the reply; neither an immediate start nor an already-received order is stated.",
+      "words": [
+        "keigo-u04-w-v05"
+      ],
+      "line": "{印刷|いんさつ}はまだ{始|はじ}めないでください。",
+      "dialogue": "keigo-u04-d-meeting",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u04-x-order",
+      "lesson": "keigo-u04-lesson",
+      "type": "order",
+      "words": [
+        "keigo-u04-w-v19"
+      ],
+      "tiles": [
+        "{一点|いってん}、",
+        "{確認|かくにん}しても",
+        "よろしいでしょうか。"
+      ],
+      "meaning": "May I check one point? (Use the taught formal question.)",
+      "explain": "The speaker asks permission for their own checking action.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-formal",
+      "lesson": "keigo-u04-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask permission to check a point with the client, using the taught formal よろしいでしょうか ending.",
+      "options": [
+        "{確認|かくにん}してもよろしいでしょうか。",
+        "{確認|かくにん}してもいいですか。",
+        "{確認|かくにん}してもいい？"
+      ],
+      "answer": 0,
+      "explain": "よろしいでしょうか is the named formal question; all three ask about the speaker’s action.",
+      "words": [
+        "keigo-u04-w-v19"
+      ],
+      "context": "You ask the external client for a turn to check a point.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-ordinary",
+      "lesson": "keigo-u04-lesson",
+      "type": "register",
+      "prompt": "Three ways: use ordinary です・ます wording to ask a peer if you can check a detail.",
+      "options": [
+        "{確認|かくにん}してもいいですか。",
+        "{確認|かくにん}してもよろしいでしょうか。",
+        "{確認|かくにん}してもいい？"
+      ],
+      "answer": 0,
+      "explain": "いいですか is ordinary polite; よろしいでしょうか is formal and いい？ is casual.",
+      "words": [
+        "keigo-u04-w-v19"
+      ],
+      "context": "A peer colleague; the task specifically requests ordinary polite wording.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-deadline",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "In the meeting record, when will Mori send the quote?",
+      "options": [
+        "{水曜|すいよう}{正午|しょうご}まで。",
+        "{火曜|かよう}{二時|にじ}まで。",
+        "{月曜|げつよう}{十時|じゅうじ}まで。"
+      ],
+      "answer": 0,
+      "explain": "The record specifies Wednesday noon, separate from the earlier price-list deadline.",
+      "words": [
+        "keigo-u04-w-v05"
+      ],
+      "reading": "keigo-u04-reading-minutes",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-next",
+      "lesson": "keigo-u04-lesson",
+      "type": "choice",
+      "prompt": "What must happen before printing begins, according to the record?",
+      "options": [
+        "{田村様|たむらさま}が{新|あたら}しい{見積|みつも}りを{見|み}て{返事|へんじ}をする。",
+        "{森|もり}が{会議|かいぎ}を{始|はじ}める。",
+        "バオが{料金表|りょうきんひょう}を{添付|てんぷ}する。"
+      ],
+      "answer": 0,
+      "explain": "A reply to the new quote is required; those earlier actions do not authorize printing.",
+      "words": [
+        "keigo-u04-w-v05"
+      ],
+      "reading": "keigo-u04-reading-minutes",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u04-x-actor",
+      "lesson": "keigo-u04-lesson",
+      "type": "register",
+      "prompt": "Ask the client to tell you their view. Choose the respectful request with the client as speaker.",
+      "options": [
+        "お{考|かんが}えをお{聞|き}かせください。",
+        "ご{意見|いけん}を{伺|うかが}います。",
+        "{私|わたし}からご{説明|せつめい}いたします。"
+      ],
+      "answer": 0,
+      "explain": "お聞かせください asks the other person to speak. 伺います announces your listening and ご説明いたします your explaining.",
+      "words": [
+        "keigo-u04-w-v03"
+      ],
+      "context": "The client will tell you her thoughts; the task asks for a request directed to her.",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "応接室 returns naturally in the preparation scene. Broader meeting and committee headwords are supplementary reading vocabulary, not padding in this client conversation."
+  }
+}

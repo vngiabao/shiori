@@ -28,8 +28,13 @@ export function validateCourseSequence(packs: Pack[]) {
   const wordForms = new Map(packs.flatMap(p => p.words).map(w => [w.id, [w.text, w.kana, ...(reviewedForms[w.text] ?? [])]]));
   for (const p of packs) {
     const exception = p.recycling;
-    const validException = exception && Number.isFinite(exception.target) && exception.target > 0 && exception.target <= .30 && typeof exception.reason === "string" && exception.reason.trim().length >= 40;
-    if (exception && !validException) errors.push(`${p.id}: recycling exception needs a target in (0, 30%] and a specific editorial reason`);
+    // The reception bridge follows literary/academic N1 units. A reviewed zero
+    // target there avoids forcing their specialised words into a guest greeting.
+    // Other units still require positive reuse; reference checks remain active.
+    const validException = exception && Number.isFinite(exception.target) &&
+      (exception.target > 0 || (p.id === "keigo-u01" && exception.target === 0)) &&
+      exception.target <= .30 && typeof exception.reason === "string" && exception.reason.trim().length >= 40;
+    if (exception && !validException) errors.push(`${p.id}: recycling exception needs a positive target up to 30% (or the reviewed reception bridge) and a specific editorial reason`);
     for (const r of p.readings ?? []) {
       const index=p.lessons.findIndex(l => l.id === r.lesson);
       const taught=new Set(p.lessons.slice(0,index+1).flatMap(l => l.words));

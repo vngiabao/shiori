@@ -1,0 +1,48 @@
+{
+  "unit": "keigo-u04",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original connected client meeting, quantities, deadline and record; no publisher exercises copied.",
+  "points": [
+    {
+      "form": "ご説明いたします",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf"
+      ],
+      "teachingChoice": "Selected directed own-side action and いたす; distinguish another actor’s explanation."
+    },
+    {
+      "form": "ご意見を伺います / お考えをお聞かせください",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf"
+      ],
+      "teachingChoice": "Asker and recipient; Irodori printed L16-28 explicitly lists 聞く→伺います."
+    },
+    {
+      "form": "確認してもよろしいでしょうか",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://bunpou.jepang.org/fr/lecon/0785/te-mo-yoroshii-desu"
+      ],
+      "teachingChoice": "Own-action permission versus listener-action request; wait for the response."
+    }
+  ],
+  "sourceCautions": [
+    "Jepang community study tags are not official level assignments. Its universal implied-you explanation is not adopted; context controls the actor.",
+    "Culture Agency examples concern authority and situation, not a universal ban on particular words.",
+    "EasyJapaneseE and Bunpro guessed いただく URLs failed inspection and are not cited as evidence.",
+    "New vocabulary includes meeting and committee recognition; no claim that a client conversation uses all of it."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      185
+    ]
+  }
+}

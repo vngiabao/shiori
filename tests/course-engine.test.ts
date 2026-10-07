@@ -10,6 +10,26 @@ const make = (): Pack => structuredClone(base);
 const reading = (): Reading => ({ id:"test-r", lesson:base.lessons[0].id, title:"Office notice", genre:"notice", paragraphs:["{会社|かいしゃ}に{行|い}く。"], glosses:[{text:"会社",kana:"かいしゃ",meaning:"company"},{text:"に",kana:"に",meaning:"to"},{text:"行く",kana:"いく",meaning:"go"}] });
 const validate = (p:Pack) => validatePack(p, {}, {}, ["watashi", "wa", "desu", "no-part", "hello", "tea", "please", "you", "coffee"]);
 
+it("rejects a dialogue whose situation would disappear from the listening screen", () => {
+  const p = make(), d = p.dialogues![0];
+  delete (d as Partial<typeof d>).scene;
+  expect(validate(p)).toContain(`Incomplete dialogue context ${d.id}`);
+  d.scene = "   ";
+  expect(validate(p)).toContain(`Incomplete dialogue context ${d.id}`);
+});
+
+it("rejects a grammar note that would render blank or crash the audio renderer", () => {
+  const p = make();
+  const note = p.grammar[0];
+  delete (note as Partial<typeof note>).example;
+  expect(validate(p)).toContain(`Incomplete grammar note ${note.id}`);
+  note.example = "   ";
+  expect(validate(p)).toContain(`Incomplete grammar note ${note.id}`);
+  note.example = "日本語です。";
+  delete (note as Partial<typeof note>).explanation;
+  expect(validate(p)).toContain(`Incomplete grammar note ${note.id}`);
+});
+
 it("requires accountable reading surfaces, valid tables, pairs and public-domain sources", () => {
   const r=reading();
   expect(readingCoverage(r,[]).ratio).toBe(1);
@@ -49,6 +69,12 @@ it("allows a documented naturalness target but still checks actual references an
   expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("specific editorial reason"))).toBe(true);
   second.recycling={target:0,reason:"This zero target must never disable the normal recycling checks."};
   expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("exception"))).toBe(true);
+  second.id="keigo-u01";
+  second.exercises[0].words=["new-target"];
+  second.recycling.reason="Reception follows specialised N1 reports. There is no natural previous-unit word to add to this greeting without padding.";
+  expect(validateCourseSequence([first,second]).errors).toEqual([]);
+  second.exercises[0].words=[word.id];
+  expect(validateCourseSequence([first,second]).errors.some(x=>x.includes("absent from task"))).toBe(true);
 });
 it("validates register situations, compared texts, speaker lines and natural-speed limits", () => {
   const p=make();
@@ -72,7 +98,9 @@ it("rebuilds all twelve N5 drafts byte-for-byte and supports explicit multi-less
   draft.id="engine-fixture";
   draft.lessons=[{...draft.lesson,words:[draft.words[0][0]]},{...draft.lesson,words:[draft.words[1][0]]}];
   delete draft.lesson;delete draft.letter;
-  draft.dialogues=[{...draft.dialogue,lesson:"engine-fixture-lesson-2"}];delete draft.dialogue;
+  draft.dialogues=[{...draft.dialogue,description:draft.dialogue.scene,lesson:"engine-fixture-lesson-2"}];
+  const expectedScene=draft.dialogue.scene;
+  delete draft.dialogues[0].scene;delete draft.dialogue;
   draft.exercises=draft.exercises.map((x:object)=>({...x,lesson:"engine-fixture-lesson-1"}));
   const input="output/engine-fixture.json",output="content/packs/engine-fixture.json";
   try {
@@ -81,6 +109,8 @@ it("rebuilds all twelve N5 drafts byte-for-byte and supports explicit multi-less
     const p=JSON.parse(readFileSync(output,"utf8"));
     expect(p.lessons.map((l:{id:string})=>l.id)).toEqual(["engine-fixture-lesson-1","engine-fixture-lesson-2"]);
     expect(p.dialogues[0].lesson).toBe("engine-fixture-lesson-2");
+    expect(p.dialogues[0].scene).toBe(expectedScene);
+    expect(p.dialogues[0].description).toBeUndefined();
     expect(p.exercises.every((x:{lesson:string})=>x.lesson==="engine-fixture-lesson-1")).toBe(true);
   } finally { rmSync(input,{force:true});rmSync(output,{force:true}); }
 },30000);

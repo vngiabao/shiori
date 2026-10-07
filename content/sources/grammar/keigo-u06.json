@@ -1,0 +1,47 @@
+{
+  "unit": "keigo-u06",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original connected job with a concrete production limit and unaccepted delivery alternatives.",
+  "points": [
+    {
+      "form": "stem + かねる / お約束いたしかねます",
+      "sources": [
+        "https://bunpro.jp/grammar_points/かねる",
+        "https://bunpou.jepang.org/en/lesson/0400/kaneru"
+      ],
+      "teachingChoice": "Selected formal refusal: 約束→お約束いたす→いたしかねます; affirmative surface expresses inability, distinct from かねない."
+    },
+    {
+      "form": "considerate refusal with a reason",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://bunpou.jepang.org/en/lesson/0400/kaneru"
+      ],
+      "teachingChoice": "Contextual burden and a concrete reason; no claim that ordinary polite refusals are universally rude."
+    },
+    {
+      "form": "conditional alternative and own-side delivery",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter4/detail.html",
+        "https://bunpou.jepang.org/en/lesson/0400/kaneru"
+      ],
+      "teachingChoice": "Own directed action; proposed option remains separate from recipient acceptance."
+    }
+  ],
+  "sourceCautions": [
+    "Do not adopt absolute transitive-only attachment, physical-impossibility prohibitions or claims that every refusal implies a genuine desire to help. Selected forms are taught.",
+    "The guessed Culture Agency a_18 PDF could not be opened; it is not cited as inspected evidence.",
+    "No courier timetable is imported; these are explicit fictional scenario facts."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      191
+    ]
+  }
+}

@@ -198,6 +198,9 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
     }
   }
   for (const g of p.grammar) {
+    // These fields feed both the learner's explanation and the audio renderer.
+    if (![g.title, g.explanation, g.example, g.translation].every(x => typeof x === "string" && x.trim()))
+      errors.push(`Incomplete grammar note ${g.id}`);
     if (
       g.lessons &&
       (!g.lessons.length || g.lessons.some((id) => !lessonIds.has(id)))
@@ -210,6 +213,8 @@ export function validatePractice(p: Pack, wordIds: Set<string>) {
       errors.push(`Grammar example ${g.id}`);
   }
   for (const d of p.dialogues ?? []) {
+    if (![d.title, d.scene].every(x => typeof x === "string" && x.trim()))
+      errors.push(`Incomplete dialogue context ${d.id}`);
     if (dialogueIds.has(d.id)) errors.push(`Duplicate dialogue ${d.id}`);
     dialogueIds.add(d.id);
     if (!lessonIds.has(d.lesson)) errors.push(`Unknown lesson in ${d.id}`);

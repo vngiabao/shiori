@@ -308,6 +308,48 @@
       "unit": "n1-u12",
       "reason": "New-key preflight fixes 本日中 to ほんじつじゅう and keeps 旧版 consistent with the restricted headword きゅうはん. Full inspected mora sequence pinned; not native intonation certification.",
       "expectedMoras": "アリガトオゴザイマスキュウハンワハイフセズオヘンジノアトデサシカエオオネガイシマス"
+    },
+    {
+      "text": "三時半から四時までです。その後は会議で電話に出られないんです。",
+      "readingInput": "三時半から四時までです。そのあとは会議で電話に出られないんです。",
+      "unit": "keigo-u02",
+      "reason": "Contextual preflight: その後 in this short phone reply is authored そのあと. Pin the inspected complete mora sequence; not native intonation certification.",
+      "expectedMoras": "サンジハンカラヨジマデデスソノアトワカイギデデンワニデラレナインデス"
+    },
+    {
+      "text": "昨日のメール、いただきました。ファイルも開けました。",
+      "readingInput": "昨日のメール、いただきました。ファイルもひらけました。",
+      "unit": "keigo-u03",
+      "reason": "The authored context is opening a received file, with ひらけました in its ruby. Preserve that reading in the full inspected mora sequence; not native intonation certification.",
+      "expectedMoras": "キノオノメエルイタダキマシタファイルモヒラケマシタ"
+    },
+    {
+      "text": "うん。その後で意見交換をしよう。印刷の部数も聞きたい。",
+      "readingInput": "うん。そのあとで意見交換をしよう。印刷の部数も聞きたい。",
+      "expectedMoras": "ウンソノアトデイケンコオカンオシヨオインサツノブスウモキキタイ",
+      "unit": "keigo-u04",
+      "reason": "New-key preflight fixes contextual その後 to authored そのあと and 五十部 to ごじゅうぶ. Full inspected mora sequence pinned; not native intonation certification."
+    },
+    {
+      "text": "承知しました。五十部で見積りを作り、明日正午までにお送りいたします。",
+      "readingInput": "承知しました。ごじゅうぶで見積りを作り、明日正午までにお送りいたします。",
+      "expectedMoras": "ショオチシマシタゴジュウブデミツモリオツクリアシタショオゴマデニオオクリイタシマス",
+      "unit": "keigo-u04",
+      "reason": "New-key preflight fixes contextual その後 to authored そのあと and 五十部 to ごじゅうぶ. Full inspected mora sequence pinned; not native intonation certification."
+    },
+    {
+      "text": "お手数ですが、ファイルの名前も教えていただけますか。",
+      "readingInput": "おてすうですが、ファイルの名前も教えていただけますか。",
+      "expectedMoras": "オテスウデスガファイルノナマエモオシエテイタダケマスカ",
+      "unit": "keigo-u05",
+      "reason": "New-key preflight corrects 手数 in this courteous preface from てかず to authored てすう. Full inspected mora sequence pinned; not native intonation certification."
+    },
+    {
+      "text": "火曜の会議では、納入日は決めてなかったね。用紙が金曜に届くから、金曜中は無理だよ。",
+      "readingInput": "火曜の会議では、納入日は決めてなかったね。用紙が金曜に届くから、きんようじゅうは無理だよ。",
+      "expectedMoras": "カヨオノカイギデワノオニュウビワキメテナカッタネヨオシガキンヨオニトドクカラキンヨオジュウワムリダヨ",
+      "unit": "keigo-u06",
+      "reason": "New-key preflight aligns 金曜中 with authored きんようじゅう, a during-Friday time span. Full inspected mora sequence pinned; not native intonation certification."
     }
   ]
 }

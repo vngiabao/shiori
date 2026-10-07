@@ -979,12 +979,10 @@
     {
       "id": "n1-u11-g-definition",
       "title": "Read a term’s definition within its scope",
-      "point": "Noun + とは introduces what that term means here. The following explanation defines it; this is different from sentence-final surprise とは. A study can specify a working definition without redefining the word everywhere.",
       "formation": "Noun + とは + definition (…ことだ / …を指す / …である).",
       "mistake": "Do not treat この調査では as a universal definition. Do not add だ before とは when the term itself is being defined.",
       "example": "この調査では、読了時間とは案内を読み終えるまでの時間を指す。",
       "exampleRuby": "この{調査|ちょうさ}では、{読了時間|どくりょうじかん}とは{案内|あんない}を{読|よ}み{終|お}えるまでの{時間|じかん}を{指|さ}す。",
-      "meaning": "In this investigation, reading time means the time until one finishes reading the notice.",
       "examples": [
         {
           "ja": "この{調査|ちょうさ}では、{読了時間|どくりょうじかん}とは{案内|あんない}を{読|よ}み{終|お}えるまでの{時間|じかん}を{指|さ}す。",
@@ -1004,17 +1002,17 @@
       ],
       "lessons": [
         "n1-u11-lesson-1"
-      ]
+      ],
+      "explanation": "Noun + とは introduces what that term means here. The following explanation defines it; this is different from sentence-final surprise とは. A study can specify a working definition without redefining the word everywhere.",
+      "translation": "In this investigation, reading time means the time until one finishes reading the notice."
     },
     {
       "id": "n1-u11-g-accepted",
       "title": "Attribute a stated view rather than silently endorse it",
-      "point": "とされる / とされている presents something regarded or treated in a stated source or community. Name the source and keep its scope; the expression alone does not prove the proposition or tell us who originally established it.",
       "formation": "Plain verb/i-adjective + とされる・とされている; noun/na-adjective + (だ)とされる・とされている. Here the source is explicitly the class policy.",
       "mistake": "Do not change the handout’s view into a measured result. Adding とされている without a source is not a citation.",
       "example": "授業の方針では、正確な案内が必要だとされている。",
       "exampleRuby": "{授業|じゅぎょう}の{方針|ほうしん}では、{正確|せいかく}な{案内|あんない}が{必要|ひつよう}だとされている。",
-      "meaning": "The class policy regards accurate notices as necessary.",
       "examples": [
         {
           "ja": "{授業|じゅぎょう}の{方針|ほうしん}では、{正確|せいかく}な{案内|あんない}が{必要|ひつよう}だとされている。",
@@ -1034,17 +1032,17 @@
       ],
       "lessons": [
         "n1-u11-lesson-1"
-      ]
+      ],
+      "explanation": "とされる / とされている presents something regarded or treated in a stated source or community. Name the source and keep its scope; the expression alone does not prove the proposition or tell us who originally established it.",
+      "translation": "The class policy regards accurate notices as necessary."
     },
     {
       "id": "n1-u11-g-basis",
       "title": "Identify the basis of the analysis",
-      "point": "Noun + に基づいて / に基づき describes the basis for a judgment or action. に基づいた / に基づく modifies a noun. State the actual records used, not an unavailable population result.",
       "formation": "Noun + に基づいて・に基づき + action; noun + に基づいた・に基づく + noun.",
       "mistake": "Do not attach directly to an unnominalised verb clause, or assume をもとに is always an incorrect alternative.",
       "example": "十人の記録に基づいて、中央値を計算した。",
       "exampleRuby": "{十人|じゅうにん}の{記録|きろく}に{基|もと}づいて、{中央値|ちゅうおうち}を{計算|けいさん}した。",
-      "meaning": "The median was calculated from ten people’s records.",
       "examples": [
         {
           "ja": "{十人|じゅうにん}の{記録|きろく}に{基|もと}づいて、{中央値|ちゅうおうち}を{計算|けいさん}した。",
@@ -1064,17 +1062,17 @@
       ],
       "lessons": [
         "n1-u11-lesson-2"
-      ]
+      ],
+      "explanation": "Noun + に基づいて / に基づき describes the basis for a judgment or action. に基づいた / に基づく modifies a noun. State the actual records used, not an unavailable population result.",
+      "translation": "The median was calculated from ten people’s records."
     },
     {
       "id": "n1-u11-g-inference",
       "title": "Keep an interpretation smaller than its evidence",
-      "point": "Plain proposition + と考えられる gives a reasoned interpretation or possibility in formal prose. Evidence and scope must accompany it. It is not a certainty marker, and it does not by itself establish an objective fact.",
       "formation": "Plain verb/i-adjective + と考えられる; noun/na-adjective + だと考えられる. Retrieve と言える and contrast a measured statement with an interpretation.",
       "mistake": "Do not infer a proven cause from a fixed-order comparison. Do not replace any subjective statement mechanically with と考えられる and call it evidence.",
       "example": "二回目に内容に慣れたことも、時間が短くなった理由だと考えられる。",
       "exampleRuby": "{二回目|にかいめ}に{内容|ないよう}に{慣|な}れたことも、{時間|じかん}が{短|みじか}くなった{理由|りゆう}だと{考|かんが}えられる。",
-      "meaning": "Familiarity with the content on the second attempt may also explain the shorter time.",
       "examples": [
         {
           "ja": "{二回目|にかいめ}に{内容|ないよう}に{慣|な}れたことも、{時間|じかん}が{短|みじか}くなった{理由|りゆう}だと{考|かんが}えられる。",
@@ -1094,7 +1092,9 @@
       ],
       "lessons": [
         "n1-u11-lesson-3"
-      ]
+      ],
+      "explanation": "Plain proposition + と考えられる gives a reasoned interpretation or possibility in formal prose. Evidence and scope must accompany it. It is not a certainty marker, and it does not by itself establish an objective fact.",
+      "translation": "Familiarity with the content on the second attempt may also explain the shorter time."
     }
   ],
   "kanji": [],
@@ -1103,7 +1103,6 @@
       "id": "n1-u11-d-definition",
       "lesson": "n1-u11-lesson-1",
       "title": "Reading time is not response accuracy",
-      "description": "Yui and Ren ask Satō about a small original classroom investigation.",
       "words": [
         "n1-u11-w-v17",
         "n2-u01-w-teigi",
@@ -1189,13 +1188,13 @@
           "romaji": "Onaji yomikata ga tsukaemasu. Tsugi wa, bunseki ni tsukatta ninzū o kakunin shimashō.",
           "meaning": "That reading approach applies here. Next check how many records were analysed."
         }
-      ]
+      ],
+      "scene": "Yui and Ren ask Satō about a small original classroom investigation."
     },
     {
       "id": "n1-u11-d-results",
       "lesson": "n1-u11-lesson-2",
       "title": "Ten complete pairs, not twelve",
-      "description": "Satō helps the learners follow reported measures and exclusions.",
       "words": [
         "n1-u11-w-v22",
         "n1-u11-w-v46"
@@ -1280,13 +1279,13 @@
           "romaji": "Sono tōri desu. Tsugi wa, hissha ga doko made ieru to shite iru ka yomimashō.",
           "meaning": "Exactly. Next read how far the author thinks the conclusion can go."
         }
-      ]
+      ],
+      "scene": "Satō helps the learners follow reported measures and exclusions."
     },
     {
       "id": "n1-u11-d-revision",
       "lesson": "n1-u11-lesson-3",
       "title": "Revise the claim, not the results",
-      "description": "The group preserves limits and keeps an uncompleted follow-up separate.",
       "words": [
         "n1-u11-w-v28",
         "n1-u11-w-v06"
@@ -1371,7 +1370,8 @@
           "romaji": "Sore nara, kansatsu to seigen no ryōhō o dokusha ni tsutaeraremasu.",
           "meaning": "That communicates both the observation and its limitation."
         }
-      ]
+      ],
+      "scene": "The group preserves limits and keeps an uncompleted follow-up separate."
     }
   ],
   "readings": [

@@ -6,6 +6,8 @@ import path from "node:path";
 import { kanaOf, plain } from "../src/text";
 import type { Pack, Word } from "../src/types";
 
+type DraftDialogue = Omit<NonNullable<Pack["dialogues"]>[number], "lesson" | "scene"> &
+  { lesson?: string; scene?: string; description?: string; context?: string };
 type Draft = {
   lemmas?: Record<string, NonNullable<Word["lemma"]>>;
   id: string;
@@ -22,8 +24,8 @@ type Draft = {
   /** [id, ruby text, romaji, meaning, register, example (ruby)?] */
   words: [string, string, string, string, Word["register"], string?][];
   grammar: Pack["grammar"];
-  dialogue?: Omit<NonNullable<Pack["dialogues"]>[number], "lesson"> & { lesson?: string };
-  dialogues?: (Omit<NonNullable<Pack["dialogues"]>[number], "lesson"> & { lesson?: string })[];
+  dialogue?: DraftDialogue;
+  dialogues?: DraftDialogue[];
   readings?: (Omit<NonNullable<Pack["readings"]>[number], "lesson"> & { lesson?: string })[];
   exercises: NonNullable<Pack["exercises"]>;
   letter?: {
@@ -116,7 +118,9 @@ const pack: Pack = {
   roleplays: [],
   grammar: d.grammar,
   kanji: [],
-  dialogues: (d.dialogues ?? (d.dialogue ? [d.dialogue] : [])).map(x => ({ ...x, lesson: bindLesson(x) })),
+  dialogues: (d.dialogues ?? (d.dialogue ? [d.dialogue] : [])).map(({ description, context, ...x }) => ({
+    ...x, scene: x.scene ?? description ?? context ?? "", lesson: bindLesson(x),
+  })),
   ...(d.readings ? { readings: d.readings.map(x => ({ ...x, lesson: bindLesson(x) })) } : {}),
   ...(d.watch ? { watch: d.watch } : {}),
   ...(d.recycling ? { recycling: d.recycling } : {}),

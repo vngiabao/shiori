@@ -1,0 +1,52 @@
+{
+  "unit": "keigo-u03",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original email, two connected office exchanges and exercises. Published usage references guide forms and workflow; no source template copied.",
+  "points": [
+    {
+      "form": "お送りする / お送りいたします",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "teachingChoice": "Selected own-side action directed towards the recipient; explicit tense and subject."
+    },
+    {
+      "form": "ご確認いただければ幸いです",
+      "sources": [
+        "https://business-mail.jp/phrase/11722",
+        "https://bunpro.jp/grammar_points/ていただけませんか"
+      ],
+      "teachingChoice": "Written request, named file and deadline; compare the received benefit in another request form."
+    },
+    {
+      "form": "拝見しました / ご覧になる / いただきました",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf",
+        "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00088/ja/render.do"
+      ],
+      "teachingChoice": "Own looking and other-person looking; receipt does not prove review or agreement."
+    }
+  ],
+  "workflowSources": [
+    "https://business-mail.jp/mail-writing/10606",
+    "https://business-mail.jp/mail-writing/10612"
+  ],
+  "sourceCautions": [
+    "Irodori English/Japanese printed L16-27 through L16-29 inspected; PDF layout screenshot verification pending.",
+    "Bunpro お-する inspected but almost-any-verb and listener-only generalisations not adopted; selected forms and Culture Agency distinctions prevail.",
+    "Email source categorical warnings and storage-size advice are not universal language rules. Only filename, recipient and clear deadline advice applied.",
+    "No real client/company data or external message is sent."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 18,
+    "tasks": 14,
+    "readingLengths": [
+      233
+    ]
+  }
+}

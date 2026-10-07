@@ -1,0 +1,49 @@
+{
+  "unit": "keigo-u02",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original office phone call and memo; company-owned NEC guide corroborates selected call procedures, Japan Foundation and Culture Agency supply form distinctions.",
+  "points": [
+    {
+      "form": "申す versus おっしゃる",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00088/ja/render.do"
+      ],
+      "teachingChoice": "Own name and respected caller; irregular polite ending おっしゃいます."
+    },
+    {
+      "form": "おっしゃっていただけますか",
+      "sources": [
+        "https://www.kyozai.jpf.go.jp/kyozai/material/BMA00088/ja/render.do",
+        "https://symphonict.nesic.co.jp/workingstyle/canario/response/points/"
+      ],
+      "teachingChoice": "Ask for the missing time, then confirm it; no guess becomes a promise."
+    },
+    {
+      "form": "承る and 申し伝える",
+      "sources": [
+        "https://symphonict.nesic.co.jp/workingstyle/canario/response/differentwords/",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter6/detail.html"
+      ],
+      "teachingChoice": "Taking a message and relaying it are separate from the colleague agreeing to a callback."
+    }
+  ],
+  "sourceCautions": [
+    "NEC advice is one authored business-use reference, not a universal ban on plain polite wording or なるほど.",
+    "NEC classification of all お/ご prefixes as 丁寧語 is not adopted; Culture Agency five-way distinctions prevail.",
+    "Japan Foundation old JLPT 3級 is not mapped to current N3.",
+    "No personal telephone number or real company name supplied.",
+    "Culture Agency chapter6 detail fully inspected: 申し伝える is an own-side formal statement towards the listener, not respect automatically granted to the message recipient. The guessed chapter6 directory failed; detail.html was read."
+  ],
+  "checks": {
+    "wordPairs": 24,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      211
+    ]
+  }
+}

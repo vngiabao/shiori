@@ -1,0 +1,47 @@
+{
+  "unit": "keigo-u05",
+  "checkedAt": "2026-10-07",
+  "status": "Source-informed editorial, dictionary, query/mapping, browser, build and offline checks pass; native review pending.",
+  "method": "Original requests with explicit authority, actor, scope and pending confirmation.",
+  "points": [
+    {
+      "form": "ていただけませんか",
+      "sources": [
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf",
+        "https://bunpro.jp/grammar_points/ていただけませんか"
+      ],
+      "teachingChoice": "JF printed L16-25–26 / parsed pages24–25: listener action received as help, request versus completed receipt."
+    },
+    {
+      "form": "request preface and listener decision",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter3/detail.html",
+        "https://www.irodori.jpf.go.jp/assets/data/pre-intermediate/pdf/ZZ_L16.pdf"
+      ],
+      "teachingChoice": "Culture Agency sections1–3: authority, acknowledgement of burden and indirect requests. No universal ban on a concise request between familiar colleagues."
+    },
+    {
+      "form": "ていただき thanks after the review",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://bunpro.jp/grammar_points/ていただけませんか"
+      ],
+      "teachingChoice": "Receiving help; distinguish the request from contextually completed help."
+    }
+  ],
+  "sourceCautions": [
+    "Do not teach Bunpro’s literal topped-with explanation as reliable word history.",
+    "JF comparative politeness is contextual; not a universal ladder that forces the longest wording.",
+    "No copied textbook dialogue; no native reviewer has certified these original scenes."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      184
+    ]
+  }
+}

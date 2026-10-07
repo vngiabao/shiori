@@ -417,8 +417,16 @@ for (const unit of [
     await expect(page.getByRole("heading", { name: "Notice how this works." })).toBeVisible();
     await expect(page.getByText(allowed, { exact: true })).toBeVisible();
     await expect(page.getByText(absent, { exact: true })).toHaveCount(0);
+    const pack = JSON.parse(readFileSync(`content/packs/${unit.id}.json`, "utf8"));
+    const lesson = pack.lessons.find((l: any) => l.title === title);
+    for (const note of pack.grammar.filter((g: any) =>
+      g.formation && (!g.lessons || g.lessons.includes(lesson.id)))) {
+      await expect(page.getByText(note.explanation, { exact: true })).toBeVisible();
+    }
     await page.getByRole("button", { name: "Hear it in context" }).click();
     await expect(page.getByRole("heading", { name: "Listen to the conversation." })).toBeVisible();
+    const dialogue = pack.dialogues.find((d: any) => d.id === scene);
+    await expect(page.locator(".lesson-main .task-context").first()).toContainText(dialogue.scene);
     await page.getByRole("button", { name: "Play again", exact: true }).click();
     // Playback retains a 380 ms inter-line pause even with mocked media.
     // Longer scenes must finish without weakening the exact mapping check.

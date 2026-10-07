@@ -1,0 +1,902 @@
+{
+  "id": "keigo-u03",
+  "title": "Keigo at work: send and acknowledge an email",
+  "lesson": {
+    "title": "The right file; a request is not a reply",
+    "description": "Check an attachment before sending, request a dated review, and interpret an acknowledgement.",
+    "canDo": "Separate sending, receiving, checking and agreeing in a business email.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u03-w-v01",
+      "{送付先|そうふさき}",
+      "sōfusaki",
+      "the destination for sending a document",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v02",
+      "{受信箱|じゅしんばこ}",
+      "jushinbako",
+      "an email inbox",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v03",
+      "{送信箱|そうしんばこ}",
+      "sōshinbako",
+      "an email outbox",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v04",
+      "{宛名|あてな}",
+      "atena",
+      "the addressee's written name",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v05",
+      "{書式|しょしき}",
+      "shoshiki",
+      "a document's format",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v06",
+      "{書|か}き{出|だ}し",
+      "kakidashi",
+      "the opening of a written message",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v07",
+      "{結|むす}び",
+      "musubi",
+      "the closing of a written message",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v08",
+      "{誤字|ごじ}",
+      "goji",
+      "a wrong written character; a typo",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v09",
+      "{返信用|へんしんよう}",
+      "henshinyō",
+      "for use in replying",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v10",
+      "{改行|かいぎょう}",
+      "kaigyō",
+      "a line break",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v11",
+      "{校閲|こうえつ}",
+      "kōetsu",
+      "reviewing a text for errors",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v12",
+      "{同報|どうほう}",
+      "dōhō",
+      "sending the same message to several recipients",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v13",
+      "{不達|ふたつ}",
+      "futatsu",
+      "failure of a message to reach its destination",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v14",
+      "{送受信|そうじゅしん}",
+      "sōjushin",
+      "sending and receiving messages",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v15",
+      "{添|そ}え{状|じょう}",
+      "soejō",
+      "a covering note accompanying documents",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v16",
+      "{開封|かいふう}",
+      "kaifū",
+      "opening a received letter or message",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v17",
+      "{受取人|うけとりにん}",
+      "uketorinin",
+      "the recipient",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v18",
+      "{書留|かきとめ}",
+      "kakitome",
+      "registered post",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v19",
+      "{郵便物|ゆうびんぶつ}",
+      "yūbinbutsu",
+      "an item sent by post",
+      "neutral"
+    ],
+    [
+      "keigo-u03-w-v20",
+      "{電子|でんし}メール",
+      "denshi mēru",
+      "electronic mail",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u03-g-send",
+      "title": "Your sending action goes towards the client",
+      "explanation": "お送りいたします describes your own sending action to the client. It does not mean that the client has already received or reviewed the file. Past お送りしました reports that you sent it.",
+      "formation": "Selected 送る → 送り (ます stem) → お送りする → お送りいたします. した/しました mark a completed action; します/いたします here announce an intended one. Learn verb-specific forms rather than adding お to every verb.",
+      "mistake": "Do not use ご覧になります to report your own sending action, or say お送りしました before actually sending.",
+      "example": "資料をお送りいたします。",
+      "translation": "I’ll send you the material.",
+      "examples": [
+        {
+          "ja": "{資料|しりょう}をお{送|おく}りいたします。",
+          "en": "I’ll send you the material."
+        },
+        {
+          "ja": "{昨日|きのう}お{送|おく}りしたファイルです。",
+          "en": "This is the file I sent you yesterday."
+        },
+        {
+          "ja": "{田村様|たむらさま}に{料金表|りょうきんひょう}をお{送|おく}りします。",
+          "en": "I’ll send Ms Tamura the price list."
+        }
+      ],
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "lessons": [
+        "keigo-u03-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u03-g-request",
+      "title": "A courteous request still needs a clear deadline",
+      "explanation": "ご確認いただければ幸いです asks the recipient to check something. Name the file and the deadline separately. The conditional request is not proof that the recipient has checked it, agreed to it or given you permission.",
+      "formation": "Selected ご確認 + いただく potential conditional いただければ + 幸いです. Compare 確認してください (ordinary polite request) and 確認して (casual). The recipient checks; the sender receives the help.",
+      "mistake": "Do not turn a courteous request into a completed confirmation. Do not silently drop the requested deadline when translating it.",
+      "example": "月曜十時までにご確認いただければ幸いです。",
+      "translation": "I’d appreciate your checking it by ten on Monday.",
+      "examples": [
+        {
+          "ja": "{月曜|げつよう}{十時|じゅうじ}までにご{確認|かくにん}いただければ{幸|さいわ}いです。",
+          "en": "I’d appreciate your checking it by ten on Monday."
+        },
+        {
+          "ja": "{添付|てんぷ}の{料金表|りょうきんひょう}をご{確認|かくにん}いただければ{幸|さいわ}いです。",
+          "en": "I’d appreciate your checking the attached price list."
+        },
+        {
+          "ja": "{内容|ないよう}を{確認|かくにん}していただけませんか。",
+          "en": "Could you check the contents?"
+        }
+      ],
+      "words": [
+        "keigo-u03-w-v20"
+      ],
+      "lessons": [
+        "keigo-u03-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u03-g-read",
+      "title": "Receiving, looking and approving are different actions",
+      "explanation": "拝見しました reports that you looked at the other person’s material. いただきました reports receipt. Neither alone guarantees approval of every price. ご覧になる instead respectfully describes the other person’s looking.",
+      "formation": "見る → 拝見する → 拝見します; past 拝見しました. Respectful other-person form ご覧になる → ご覧になります. Future 確認いたします here promises a check still to come.",
+      "mistake": "Do not infer agreement from a receipt message. Do not describe your own looking with ご覧になりました.",
+      "example": "ご案内を拝見しました。",
+      "translation": "I’ve read your notice.",
+      "examples": [
+        {
+          "ja": "ご{案内|あんない}を{拝見|はいけん}しました。",
+          "en": "I’ve read your notice."
+        },
+        {
+          "ja": "{資料|しりょう}をいただきました。",
+          "en": "I’ve received the material."
+        },
+        {
+          "ja": "{田村様|たむらさま}は{資料|しりょう}をご{覧|らん}になりました。",
+          "en": "Ms Tamura has looked at the material."
+        }
+      ],
+      "words": [
+        "keigo-u03-w-v16"
+      ],
+      "lessons": [
+        "keigo-u03-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u03-d-draft",
+      "lesson": "keigo-u03-lesson",
+      "title": "A wrong attachment caught before sending",
+      "description": "On Wednesday after Mori’s callback, you prepare the requested PDF for Tamura’s visit next Tuesday.",
+      "words": [
+        "keigo-u03-w-v04",
+        "keigo-u03-w-v01",
+        "keigo-u03-w-v08"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{石川|いしかわ}さん、{田村様|たむらさま}へのメール、{送|おく}る{前|まえ}に{見|み}てもらえますか。",
+          "romaji": "Ishikawa-san, Tamura-sama e no mēru, okuru mae ni mite moraemasu ka.",
+          "meaning": "Ishikawa, could you look at my email to Ms Tamura before I send it?"
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "うん。{来週|らいしゅう}{火曜|かよう}の{打合|うちあわ}せの{資料|しりょう}だね。",
+          "romaji": "Un. Raishū kayō no uchiawase no shiryō da ne.",
+          "meaning": "Sure. It’s the material for next Tuesday’s meeting, right?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{森|もり}さんから{引継|ひきつ}ぎました。{料金表|りょうきんひょう}をお{送|おく}りいたします、と{書|か}きました。",
+          "romaji": "Hai. Mori-san kara hikitsugimashita. Ryōkinhyō o ookuri itashimasu, to kakimashita.",
+          "meaning": "Yes, Mori handed it over to me. I wrote that I’ll send the price list."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "{宛名|あてな}は{合|あ}ってる。でも{添付|てんぷ}は{写真|しゃしん}だよ。{料金表|りょうきんひょう}は{三|さん}ページのほう。",
+          "romaji": "Atena wa atteru. Demo tenpu wa shashin da yo. Ryōkinhyō wa san pēji no hō.",
+          "meaning": "The addressee is right, but you attached the photos. The price list is the three-page file."
+        },
+        {
+          "speaker": "You",
+          "line": "あ、{違|ちが}うファイルを{選|えら}んでいました。{差|さ}し{替|か}えます。",
+          "romaji": "A, chigau fairu o erande imashita. Sashikaemasu.",
+          "meaning": "Oh, I selected the wrong file. I’ll replace it."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "{送付先|そうふさき}も、{先方|せんぽう}に{教|おし}えてもらったアドレスと{比|くら}べて。",
+          "romaji": "Sōfusaki mo, senpō ni oshiete moratta adoresu to kurabete.",
+          "meaning": "Check the recipient address against the one the client gave us, too."
+        },
+        {
+          "speaker": "You",
+          "line": "{一致|いっち}しています。{月曜|げつよう}{十時|じゅうじ}までにご{確認|かくにん}いただければ{幸|さいわ}いです、と{入|い}れてあります。",
+          "romaji": "Itchi shite imasu. Getsuyō jūji made ni gokakunin itadakereba saiwai desu, to irete arimasu.",
+          "meaning": "It matches. I’ve asked her to check it by ten on Monday."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "いいね。{誤字|ごじ}もない。{火曜|かよう}{二時|にじ}の{打合|うちあわ}せとは{別|べつ}の{期限|きげん}だと{分|わ}かるよ。",
+          "romaji": "Ii ne. Goji mo nai. Kayō niji no uchiawase to wa betsu no kigen da to wakaru yo.",
+          "meaning": "Good. No typos either. It’s clear that the deadline is separate from Tuesday’s two-o’clock meeting."
+        },
+        {
+          "speaker": "You",
+          "line": "では、この{料金表|りょうきんひょう}を{付|つ}けて{送|おく}ります。{森|もり}さんにはコピーを{送|おく}ります。",
+          "romaji": "Dewa, kono ryōkinhyō o tsukete okurimasu. Mori-san ni wa kopī o okurimasu.",
+          "meaning": "Then I’ll send it with this price list attached and copy Mori in."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "うん。{返事|へんじ}が{来|き}たら、{金額|きんがく}まで{確認|かくにん}したのかも{読|よ}もう。",
+          "romaji": "Un. Henji ga kitara, kingaku made kakunin shita no ka mo yomō.",
+          "meaning": "Right. When the reply comes, check whether she’s reviewed the amounts as well."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u03-d-received",
+      "lesson": "keigo-u03-lesson",
+      "title": "Received does not mean reviewed",
+      "description": "On Thursday Tamura calls to acknowledge Wednesday’s email.",
+      "words": [
+        "keigo-u03-w-v16",
+        "keigo-u03-w-v01",
+        "keigo-u01-w-v19"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "Tamura",
+          "line": "{昨日|きのう}のメール、いただきました。ファイルも{開|ひら}けました。",
+          "romaji": "Kinō no mēru, itadakimashita. Fairu mo hirakemashita.",
+          "meaning": "I received yesterday’s email and could open the file."
+        },
+        {
+          "speaker": "You",
+          "line": "ご{連絡|れんらく}ありがとうございます。{三|さん}ページの{料金表|りょうきんひょう}でございます。",
+          "romaji": "Gorenraku arigatō gozaimasu. San pēji no ryōkinhyō de gozaimasu.",
+          "meaning": "Thank you for letting me know. It’s the three-page price list."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ええ。{金額|きんがく}はまだ{見|み}ていません。{月曜|げつよう}{十時|じゅうじ}までに{確認|かくにん}して{返事|へんじ}をします。",
+          "romaji": "Ee. Kingaku wa mada mite imasen. Getsuyō jūji made ni kakunin shite henji o shimasu.",
+          "meaning": "Yes. I haven’t looked at the amounts yet. I’ll check them and reply by ten on Monday."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{来社|らいしゃ}は{火曜|かよう}{二時|にじ}のままでよろしいでしょうか。",
+          "romaji": "Arigatō gozaimasu. Raisha wa kayō niji no mama de yoroshii deshō ka.",
+          "meaning": "Thank you. Is your visit still at two on Tuesday?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい、そのままでお{願|ねが}いします。",
+          "romaji": "Hai, sono mama de onegai shimasu.",
+          "meaning": "Yes, please keep that time."
+        },
+        {
+          "speaker": "You",
+          "line": "かしこまりました。{森|もり}にも{伝|つた}えます。{内容|ないよう}についてご{質問|しつもん}がございましたら、お{知|し}らせください。",
+          "romaji": "Kashikomarimashita. Mori ni mo tsutaemasu. Naiyō ni tsuite goshitsumon ga gozaimashitara, oshirase kudasai.",
+          "meaning": "Understood. I’ll tell Mori too. Please let me know if you have any questions about the contents."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ありがとうございます。では、{月曜|げつよう}に。",
+          "romaji": "Arigatō gozaimasu. Dewa, getsuyō ni.",
+          "meaning": "Thank you. I’ll be in touch on Monday."
+        },
+        {
+          "speaker": "You",
+          "line": "よろしくお{願|ねが}いいたします。{失礼|しつれい}いたします。",
+          "romaji": "Yoroshiku onegai itashimasu. Shitsurei itashimasu.",
+          "meaning": "Thank you. Goodbye."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u03-reading-email",
+      "lesson": "keigo-u03-lesson",
+      "title": "Wednesday’s email: one attachment, two different dates",
+      "genre": "email",
+      "paragraphs": [
+        "{件名|けんめい}：{来週|らいしゅう}{火曜|かよう}の{打合|うちあわ}せ{資料|しりょう}とご{確認|かくにん}の{お願い|おねがい}。{田村様|たむらさま}。いつもお{世話|せわ}になっております。{受付|うけつけ}のバオです。",
+        "{森|もり}から{引継|ひきつ}ぎました{資料|しりょう}をお{送|おく}りいたします。{添付|てんぷ}は{三|さん}ページの{料金表|りょうきんひょう}で、{写真|しゃしん}は{含|ふく}まれておりません。{料金|りょうきん}の{内容|ないよう}を、{月曜|げつよう}{十時|じゅうじ}までにご{確認|かくにん}いただければ{幸|さいわ}いです。ご{質問|しつもん}がございましたら、このメールにご{返信|へんしん}ください。",
+        "{打合|うちあわ}せは{火曜|かよう}{二時|にじ}、{三階|さんがい}の{応接室|おうせつしつ}で{予定|よてい}しております。ご{確認|かくにん}の{期限|きげん}と{面会|めんかい}の{時刻|じこく}は{異|こと}なりますので、お{間違|まちが}いのないようお{願|ねが}いいたします。どうぞよろしくお{願|ねが}いいたします。バオ。"
+      ],
+      "glosses": [
+        {
+          "text": "件名",
+          "kana": "けんめい",
+          "meaning": "the email subject"
+        },
+        {
+          "text": "来週",
+          "kana": "らいしゅう",
+          "meaning": "next week"
+        },
+        {
+          "text": "火曜",
+          "kana": "かよう",
+          "meaning": "Tuesday"
+        },
+        {
+          "text": "打合",
+          "kana": "うちあわ",
+          "meaning": "part of 打合せ, a business meeting"
+        },
+        {
+          "text": "資料",
+          "kana": "しりょう",
+          "meaning": "the material sent for review"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking the prices"
+        },
+        {
+          "text": "お願い",
+          "kana": "おねがい",
+          "meaning": "a request"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "世話",
+          "kana": "せわ",
+          "meaning": "part of the business greeting お世話になっております"
+        },
+        {
+          "text": "受付",
+          "kana": "うけつけ",
+          "meaning": "reception"
+        },
+        {
+          "text": "森",
+          "kana": "もり",
+          "meaning": "Mori, the colleague"
+        },
+        {
+          "text": "引継",
+          "kana": "ひきつ",
+          "meaning": "part of 引継ぎ, handover"
+        },
+        {
+          "text": "送",
+          "kana": "おく",
+          "meaning": "send (stem)"
+        },
+        {
+          "text": "添付",
+          "kana": "てんぷ",
+          "meaning": "the attached file"
+        },
+        {
+          "text": "三",
+          "kana": "さん",
+          "meaning": "three"
+        },
+        {
+          "text": "料金表",
+          "kana": "りょうきんひょう",
+          "meaning": "the price list"
+        },
+        {
+          "text": "写真",
+          "kana": "しゃしん",
+          "meaning": "photographs"
+        },
+        {
+          "text": "含",
+          "kana": "ふく",
+          "meaning": "include (stem)"
+        },
+        {
+          "text": "料金",
+          "kana": "りょうきん",
+          "meaning": "the listed prices"
+        },
+        {
+          "text": "内容",
+          "kana": "ないよう",
+          "meaning": "the contents"
+        },
+        {
+          "text": "月曜",
+          "kana": "げつよう",
+          "meaning": "Monday"
+        },
+        {
+          "text": "十時",
+          "kana": "じゅうじ",
+          "meaning": "ten o'clock"
+        },
+        {
+          "text": "幸",
+          "kana": "さいわ",
+          "meaning": "appreciated; desirable (in 幸い)"
+        },
+        {
+          "text": "質問",
+          "kana": "しつもん",
+          "meaning": "a question about the contents"
+        },
+        {
+          "text": "返信",
+          "kana": "へんしん",
+          "meaning": "replying to the email"
+        },
+        {
+          "text": "二時",
+          "kana": "にじ",
+          "meaning": "two o'clock"
+        },
+        {
+          "text": "三階",
+          "kana": "さんがい",
+          "meaning": "third floor"
+        },
+        {
+          "text": "応接室",
+          "kana": "おうせつしつ",
+          "meaning": "the reception room"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい",
+          "meaning": "the scheduled plan"
+        },
+        {
+          "text": "期限",
+          "kana": "きげん",
+          "meaning": "the review deadline"
+        },
+        {
+          "text": "面会",
+          "kana": "めんかい",
+          "meaning": "the appointment"
+        },
+        {
+          "text": "時刻",
+          "kana": "じこく",
+          "meaning": "the exact time"
+        },
+        {
+          "text": "異",
+          "kana": "こと",
+          "meaning": "differ (stem)"
+        },
+        {
+          "text": "間違",
+          "kana": "まちが",
+          "meaning": "mistake (stem)"
+        },
+        {
+          "text": "願",
+          "kana": "ねが",
+          "meaning": "request (stem)"
+        },
+        {
+          "text": "打合せ",
+          "kana": "うちあわせ",
+          "meaning": "a business meeting"
+        },
+        {
+          "text": "引継ぎました",
+          "kana": "ひきつぎました",
+          "meaning": "received the handover"
+        },
+        {
+          "text": "お送りいたします",
+          "kana": "おおくりいたします",
+          "meaning": "I will send it formally"
+        },
+        {
+          "text": "含まれておりません",
+          "kana": "ふくまれておりません",
+          "meaning": "is not included"
+        },
+        {
+          "text": "いただければ",
+          "kana": "いただければ",
+          "meaning": "if I could receive your help"
+        },
+        {
+          "text": "幸い",
+          "kana": "さいわい",
+          "meaning": "appreciated (in a courteous request)"
+        },
+        {
+          "text": "予定しております",
+          "kana": "よていしております",
+          "meaning": "we have scheduled it"
+        },
+        {
+          "text": "異なります",
+          "kana": "ことなります",
+          "meaning": "are different"
+        },
+        {
+          "text": "お間違い",
+          "kana": "おまちがい",
+          "meaning": "a mistake"
+        },
+        {
+          "text": "いつも",
+          "kana": "いつも",
+          "meaning": "always; regularly"
+        },
+        {
+          "text": "この",
+          "kana": "この",
+          "meaning": "this"
+        },
+        {
+          "text": "お世話になっております",
+          "kana": "おせわになっております",
+          "meaning": "a conventional business greeting acknowledging the relationship"
+        },
+        {
+          "text": "メール",
+          "kana": "めーる",
+          "meaning": "the email"
+        },
+        {
+          "text": "よろしく",
+          "kana": "よろしく",
+          "meaning": "part of the courteous closing"
+        },
+        {
+          "text": "ございましたら",
+          "kana": "ございましたら",
+          "meaning": "if there are (formal conditional)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u03-x-wrongfile",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "What mistake is caught before sending?",
+      "options": [
+        "{写真|しゃしん}のファイルを{選|えら}んでいた。",
+        "{田村様|たむらさま}の{宛名|あてな}を{間違|まちが}えた。",
+        "メールをもう{送|おく}ってしまった。"
+      ],
+      "answer": 0,
+      "explain": "The wrong attachment is selected; the name is right and it has not been sent.",
+      "words": [
+        "keigo-u03-w-v04"
+      ],
+      "dialogue": "keigo-u03-d-draft",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-file",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "Which file should replace the photos?",
+      "options": [
+        "{三|さん}ページの{料金表|りょうきんひょう}。",
+        "{一|いち}ページの{写真|しゃしん}。",
+        "{二|に}ページの{履歴書|りれきしょ}。"
+      ],
+      "answer": 0,
+      "explain": "Ishikawa identifies the three-page price list.",
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "dialogue": "keigo-u03-d-draft",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-done",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "At Thursday’s call, what has Tamura already done?",
+      "options": [
+        "メールを{受|う}け{取|と}り、ファイルを{開|ひら}いた。",
+        "{金額|きんがく}をすべて{確認|かくにん}した。",
+        "{火曜|かよう}の{面会|めんかい}を{中止|ちゅうし}した。"
+      ],
+      "answer": 0,
+      "explain": "She received and opened the file but explicitly has not reviewed the amounts.",
+      "words": [
+        "keigo-u03-w-v16"
+      ],
+      "dialogue": "keigo-u03-d-received",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-visit",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "Which visit time remains agreed?",
+      "options": [
+        "{火曜|かよう}{二時|にじ}。",
+        "{月曜|げつよう}{十時|じゅうじ}。",
+        "{木曜|もくよう}{三時|さんじ}。"
+      ],
+      "answer": 0,
+      "explain": "Monday ten is the review deadline, not the visit.",
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "dialogue": "keigo-u03-d-received",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-send",
+      "lesson": "keigo-u03-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: announce your own intended sending action towards the client. 資料を＿＿。",
+      "options": [
+        "お{送|おく}りいたします",
+        "ご{覧|らん}になります",
+        "いらっしゃいます"
+      ],
+      "answer": 0,
+      "explain": "Selected お送りいたします describes your own sending action.",
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "line": "{資料|しりょう}を＿＿。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-look",
+      "lesson": "keigo-u03-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: you already read the client’s notice. ご案内を＿＿。",
+      "options": [
+        "{拝見|はいけん}しました",
+        "ご{覧|らん}になりました",
+        "{拝見|はいけん}いたします"
+      ],
+      "answer": 0,
+      "explain": "Past 拝見しました identifies your own completed reading.",
+      "words": [
+        "keigo-u03-w-v16"
+      ],
+      "line": "ご{案内|あんない}を＿＿。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-receive",
+      "lesson": "keigo-u03-lesson",
+      "type": "reply",
+      "prompt": "The client says she received the file but has not reviewed the prices. Acknowledge that status.",
+      "options": [
+        "ご{連絡|れんらく}ありがとうございます。ご{確認|かくにん}のお{返事|へんじ}をお{待|ま}ちしております。",
+        "{金額|きんがく}にご{同意|どうい}いただき、ありがとうございます。",
+        "{資料|しりょう}はまだ{送|おく}っておりません。"
+      ],
+      "answer": 0,
+      "explain": "Receipt is acknowledged without inventing price approval.",
+      "words": [
+        "keigo-u03-w-v16"
+      ],
+      "line": "{金額|きんがく}はまだ{見|み}ていません。",
+      "dialogue": "keigo-u03-d-received",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-correct",
+      "lesson": "keigo-u03-lesson",
+      "type": "reply",
+      "prompt": "Before sending, Ishikawa points out that you attached photos. Respond with the needed correction.",
+      "options": [
+        "{料金表|りょうきんひょう}に{差|さ}し{替|か}えてから{送|おく}ります。",
+        "{写真|しゃしん}のまま{送|おく}ります。",
+        "{田村様|たむらさま}は{金額|きんがく}に{同意|どうい}されました。"
+      ],
+      "answer": 0,
+      "explain": "Replace the selected attachment before sending.",
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "line": "{添付|てんぷ}は{写真|しゃしん}だよ。",
+      "dialogue": "keigo-u03-d-draft",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u03-x-order",
+      "lesson": "keigo-u03-lesson",
+      "type": "order",
+      "words": [
+        "keigo-u03-w-v20"
+      ],
+      "tiles": [
+        "ご{確認|かくにん}",
+        "いただければ",
+        "{幸|さいわ}いです。"
+      ],
+      "meaning": "I’d appreciate your checking it. (Use the taught written request.)",
+      "explain": "The recipient performs the check; the sender receives the help.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-formal",
+      "lesson": "keigo-u03-lesson",
+      "type": "register",
+      "prompt": "Three ways: choose the taught written keigo request ending in 幸いです.",
+      "options": [
+        "ご{確認|かくにん}いただければ{幸|さいわ}いです。",
+        "{確認|かくにん}してください。",
+        "{確認|かくにん}して。"
+      ],
+      "answer": 0,
+      "explain": "ご確認いただければ幸いです uses the requested conditional written formula.",
+      "words": [
+        "keigo-u03-w-v20"
+      ],
+      "context": "You are writing to the external client. Select the named construction, not just any grammatical request.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-casual",
+      "lesson": "keigo-u03-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask a close friend to check a personal message in casual wording.",
+      "options": [
+        "{確認|かくにん}して。",
+        "{確認|かくにん}してください。",
+        "ご{確認|かくにん}いただければ{幸|さいわ}いです。"
+      ],
+      "answer": 0,
+      "explain": "確認して is casual; 確認してください is ordinary polite and ご確認いただければ幸いです is a formal written request.",
+      "words": [
+        "keigo-u03-w-v20"
+      ],
+      "context": "A personal message to a close friend; the task asks for casual wording.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-deadline",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "In Wednesday’s email, when is the requested price review due?",
+      "options": [
+        "{月曜|げつよう}{十時|じゅうじ}まで。",
+        "{火曜|かよう}{二時|にじ}まで。",
+        "{水曜|すいよう}{正午|しょうご}まで。"
+      ],
+      "answer": 0,
+      "explain": "Monday ten is written as the review deadline.",
+      "words": [
+        "keigo-u03-w-v01"
+      ],
+      "reading": "keigo-u03-reading-email",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-included",
+      "lesson": "keigo-u03-lesson",
+      "type": "choice",
+      "prompt": "What does the email say is attached?",
+      "options": [
+        "{料金表|りょうきんひょう}だけで、{写真|しゃしん}は{含|ふく}まれない。",
+        "{写真|しゃしん}だけで、{料金表|りょうきんひょう}は{含|ふく}まれない。",
+        "{料金表|りょうきんひょう}と{写真|しゃしん}の{両方|りょうほう}。"
+      ],
+      "answer": 0,
+      "explain": "The email specifies the price list and excludes photographs.",
+      "words": [
+        "keigo-u03-w-v20"
+      ],
+      "reading": "keigo-u03-reading-email",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u03-x-actor",
+      "lesson": "keigo-u03-lesson",
+      "type": "register",
+      "prompt": "You are the client reading a document the company sent. Report your own completed reading with the taught humble verb.",
+      "options": [
+        "{資料|しりょう}を{拝見|はいけん}しました。",
+        "{資料|しりょう}をご{覧|らん}になりました。",
+        "{資料|しりょう}をお{送|おく}りいたします。"
+      ],
+      "answer": 0,
+      "explain": "The respectful action depends on the speaker and recipient, not on a permanent employee/client label.",
+      "words": [
+        "keigo-u03-w-v16"
+      ],
+      "context": "Tamura speaks about her own completed reading to the person who sent the material.",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.01,
+    "reason": "来社 recurs naturally; document terminology remains supplementary recognition study rather than vocabulary padding in the dialogue."
+  }
+}

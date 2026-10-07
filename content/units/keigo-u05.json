@@ -1,0 +1,884 @@
+{
+  "id": "keigo-u05",
+  "title": "Keigo at work: make a request",
+  "lesson": {
+    "title": "A limited favour and a deadline still to confirm",
+    "description": "Ask for specific help, accept a smaller scope and record what remains unconfirmed.",
+    "canDo": "Make a considerate request and distinguish an offer from a confirmed deadline.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u05-w-v01",
+      "{依頼状|いらいじょう}",
+      "iraijō",
+      "a written request",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v02",
+      "{依頼者|いらいしゃ}",
+      "iraisha",
+      "the person making a request",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v03",
+      "{申請書|しんせいしょ}",
+      "shinseisho",
+      "an application form",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v04",
+      "{申請者|しんせいしゃ}",
+      "shinseisha",
+      "the applicant",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v05",
+      "{承認者|しょうにんしゃ}",
+      "shōninsha",
+      "the person who approves something",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v06",
+      "{稟議書|りんぎしょ}",
+      "ringisho",
+      "a document circulated for internal approval",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v07",
+      "{合議|ごうぎ}",
+      "gōgi",
+      "joint deliberation",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v08",
+      "{承認印|しょうにんいん}",
+      "shōnin'in",
+      "an approval stamp",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v09",
+      "{記入例|きにゅうれい}",
+      "kinyūrei",
+      "an example showing how to complete a form",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v10",
+      "{締切|しめきり}{日|び}",
+      "shimekiribi",
+      "the deadline date",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v11",
+      "{提出者|ていしゅつしゃ}",
+      "teishutsusha",
+      "the person submitting something",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v12",
+      "{委任状|いにんじょう}",
+      "ininjō",
+      "a written authorisation to act for someone",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v13",
+      "{代行|だいこう}",
+      "daikō",
+      "carrying out a task on someone’s behalf",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v14",
+      "{代筆|だいひつ}",
+      "daihitsu",
+      "writing on someone’s behalf",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v15",
+      "{補佐|ほさ}",
+      "hosa",
+      "assisting someone in their role",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v16",
+      "{手助|てだす}け",
+      "tedasuke",
+      "help with a task",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v17",
+      "{余力|よりょく}",
+      "yoryoku",
+      "capacity left after other work",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v18",
+      "{表紙|ひょうし}",
+      "hyōshi",
+      "the cover of a document or book",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v19",
+      "{添付書類|てんぷしょるい}",
+      "tenpu shorui",
+      "documents attached to an application or message",
+      "neutral"
+    ],
+    [
+      "keigo-u05-w-v20",
+      "{添削|てんさく}",
+      "tensaku",
+      "correcting or editing someone’s writing",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u05-g-request",
+      "title": "Ask for help; leave the decision with the listener",
+      "explanation": "確認していただけませんか asks the other person to check something for you. It is a request, not an announcement that the work has been accepted. State what needs checking and by when.",
+      "formation": "Verb て-form + いただけませんか. Compare 見てもらえますか (ordinary polite) and 見てくれる？ (casual). The listener performs the checking; the speaker receives the help.",
+      "mistake": "確認していただきます can sound like a decided assignment. In this peer request you do not have authority to allocate the other person’s work.",
+      "example": "金額を確認していただけませんか。",
+      "translation": "Could you check the amounts for me?",
+      "examples": [
+        {
+          "ja": "{金額|きんがく}を{確認|かくにん}していただけませんか。",
+          "en": "Could you check the amounts for me?"
+        },
+        {
+          "ja": "{二|に}ページだけ{見|み}ていただけませんか。",
+          "en": "Could you look at just page two?"
+        },
+        {
+          "ja": "{金曜|きんよう}{午前|ごぜん}{十時|じゅうじ}までに{送|おく}っていただけませんか。",
+          "en": "Could you send it by ten on Friday morning?"
+        }
+      ],
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "lessons": [
+        "keigo-u05-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u05-g-burden",
+      "title": "Acknowledge the interruption, then make the request specific",
+      "explanation": "お忙しいところ恐れ入りますが acknowledges that you are interrupting. It does not identify the task or make the listener available. Follow it with a specific request and listen to the response.",
+      "formation": "Selected preface お忙しいところ + 恐れ入りますが + request. 急で申し訳ありませんが acknowledges short notice; use it when the request really is sudden.",
+      "mistake": "Adding a preface does not entitle you to demand an impossible deadline. If the listener can do only part of the task, confirm that smaller scope.",
+      "example": "お忙しいところ恐れ入りますが、見積りを見ていただけませんか。",
+      "translation": "Sorry to interrupt you; could you look at the quote?",
+      "examples": [
+        {
+          "ja": "お{忙|いそが}しいところ{恐|おそ}れ{入|い}りますが、{見積|みつも}りを{見|み}ていただけませんか。",
+          "en": "Sorry to interrupt you; could you look at the quote?"
+        },
+        {
+          "ja": "{急|きゅう}で{申|もう}し{訳|わけ}ありませんが、{今日|きょう}の{午前中|ごぜんちゅう}にお{願|ねが}いできますか。",
+          "en": "Sorry for the short notice; could you do it this morning?"
+        },
+        {
+          "ja": "お{手数|てすう}ですが、ファイルの{名前|なまえ}も{教|おし}えていただけますか。",
+          "en": "Could you also tell me the file name, please?"
+        }
+      ],
+      "words": [
+        "keigo-u05-w-v17"
+      ],
+      "lessons": [
+        "keigo-u05-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u05-g-agree",
+      "title": "Confirm the scope before thanking the helper",
+      "explanation": "二ページの金額だけですね checks which part the helper has agreed to do. 見ていただき、ありがとうございます thanks them after the review has happened. Do not turn a limited offer into agreement to review the whole document.",
+      "formation": "Task + だけですね checks the limit. Verb て-form + いただき、ありがとうございます expresses thanks for received help; timing comes from context.",
+      "mistake": "二ページなら can limit an offer to page two. It does not mean the helper will also rewrite the cover or review every attached document.",
+      "example": "二ページの金額だけですね。",
+      "translation": "Just the amounts on page two, right?",
+      "examples": [
+        {
+          "ja": "{二|に}ページの{金額|きんがく}だけですね。",
+          "en": "Just the amounts on page two, right?"
+        },
+        {
+          "ja": "{十一時二十分|じゅういちじにじゅっぷん}までにお{返|かえ}しいただけるんですね。",
+          "en": "So you can return it by eleven twenty?"
+        },
+        {
+          "ja": "{見|み}ていただき、ありがとうございます。",
+          "en": "Thank you for checking it."
+        }
+      ],
+      "words": [
+        "keigo-u05-w-v18"
+      ],
+      "lessons": [
+        "keigo-u05-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u05-d-check",
+      "lesson": "keigo-u05-lesson",
+      "title": "Just the amounts on page two",
+      "scene": "On Wednesday morning, the fifty-copy quote is ready for an internal check before its noon send.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u05-w-v17",
+        "keigo-u05-w-v18",
+        "n1-u10-w-v14",
+        "keigo-u04-w-v05"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{森|もり}さん、{今|いま}、{少|すこ}しお{願|ねが}いしてもいいですか。",
+          "romaji": "Mori-san, ima, sukoshi onegai shite mo ii desu ka.",
+          "meaning": "Mori, could I ask you a favour?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん、{何|なに}？ {十一時半|じゅういちじはん}から{会議|かいぎ}だけど。",
+          "romaji": "Un, nani? Jūichiji han kara kaigi da kedo.",
+          "meaning": "Sure, what is it? I have a meeting at eleven thirty, though."
+        },
+        {
+          "speaker": "You",
+          "line": "{急|きゅう}で{申|もう}し{訳|わけ}ありませんが、{見積|みつも}りの{金額|きんがく}を{確認|かくにん}していただけませんか。",
+          "romaji": "Kyū de mōshiwake arimasen ga, mitsumori no kingaku o kakunin shite itadakemasen ka.",
+          "meaning": "Sorry for the short notice; could you check the amounts in the quote?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "{何時|なんじ}まで？ {全部|ぜんぶ}を{読|よ}む{余力|よりょく}はないかも。",
+          "romaji": "Nanji made? Zenbu o yomu yoryoku wa nai kamo.",
+          "meaning": "By when? I may not have time to read the whole thing."
+        },
+        {
+          "speaker": "You",
+          "line": "{十一時半|じゅういちじはん}までです。{会議録|かいぎろく}どおり、{五十部|ごじゅうぶ}で{見積|みつも}りました。{二|に}ページの{金額|きんがく}だけで{大丈夫|だいじょうぶ}です。",
+          "romaji": "Jūichiji han made desu. Kaigiroku dōri, gojūbu de mitsumorimashita. Ni pēji no kingaku dake de daijōbu desu.",
+          "meaning": "By eleven thirty. I quoted fifty copies as recorded in the meeting. Just the amounts on page two would be enough."
+        },
+        {
+          "speaker": "Mori",
+          "line": "それなら{会議|かいぎ}の{前|まえ}に{見|み}るよ。{十一時二十分|じゅういちじにじゅっぷん}までには{返|かえ}せる。",
+          "romaji": "Sore nara kaigi no mae ni miru yo. Jūichiji nijuppun made ni wa kaeseru.",
+          "meaning": "Then I’ll check it before the meeting. I can return it by eleven twenty."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{表紙|ひょうし}と{文章|ぶんしょう}は{私|わたし}が{確認|かくにん}します。",
+          "romaji": "Arigatō gozaimasu. Hyōshi to bunshō wa watashi ga kakunin shimasu.",
+          "meaning": "Thank you. I’ll check the cover and wording."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{二|に}ページの{金額|きんがく}だけね。{共有|きょうゆう}フォルダのどのファイル？",
+          "romaji": "Ni pēji no kingaku dake ne. Kyōyū foruda no dono fairu?",
+          "meaning": "Just the amounts on page two, then. Which file in the shared folder?"
+        },
+        {
+          "speaker": "You",
+          "line": "「{田村様|たむらさま}、{五十部|ごじゅうぶ}、{見積|みつも}り」です。{今日|きょう}の{日付|ひづけ}も{入|はい}っています。",
+          "romaji": "Tamura-sama, gojūbu, mitsumori desu. Kyō no hizuke mo haitte imasu.",
+          "meaning": "It’s named “Tamura, fifty copies, quote,” with today’s date too."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{分|わ}かった。{直|なお}した{所|ところ}があれば、メモを{付|つ}けて{返|かえ}すね。",
+          "romaji": "Wakatta. Naoshita tokoro ga areba, memo o tsukete kaesu ne.",
+          "meaning": "Got it. If I change anything, I’ll return it with a note."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u05-d-logo",
+      "lesson": "keigo-u05-lesson",
+      "title": "Noon needs another person’s confirmation",
+      "scene": "Later on Wednesday, you call Tamura to request a print-ready cover logo for Friday.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u05-w-v18",
+        "keigo-u05-w-v19"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}、お{忙|いそが}しいところ{恐|おそ}れ{入|い}ります。{表紙|ひょうし}のロゴについてお{願|ねが}いがあります。",
+          "romaji": "Tamura-sama, oisogashii tokoro osoreirimasu. Hyōshi no rogo ni tsuite onegai ga arimasu.",
+          "meaning": "Ms Tamura, sorry to interrupt you. I have a request about the cover logo."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい、ロゴですか？",
+          "romaji": "Hai, rogo desu ka?",
+          "meaning": "Yes, the logo?"
+        },
+        {
+          "speaker": "You",
+          "line": "{印刷|いんさつ}{用|よう}のファイルを、{金曜|きんよう}{午前|ごぜん}{十時|じゅうじ}までに{送|おく}っていただけませんか。",
+          "romaji": "Insatsu-yō no fairu o, kin'yō gozen jūji made ni okutte itadakemasen ka.",
+          "meaning": "Could you send the print-ready file by ten on Friday morning?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "その{時間|じかん}は{難|むずか}しいです。{担当|たんとう}が{金曜|きんよう}の{朝|あさ}まで{出張|しゅっちょう}なんです。",
+          "romaji": "Sono jikan wa muzukashii desu. Tantō ga kin'yō no asa made shutchō nan desu.",
+          "meaning": "That time will be difficult. The person responsible is away until Friday morning."
+        },
+        {
+          "speaker": "You",
+          "line": "{正午|しょうご}まででしたら、いかがでしょうか。",
+          "romaji": "Shōgo made deshitara, ikaga deshō ka.",
+          "meaning": "Would noon be possible?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{正午|しょうご}なら{大丈夫|だいじょうぶ}だと{思|おも}います。{担当|たんとう}に{確認|かくにん}して、{今日|きょう}{中|じゅう}に{連絡|れんらく}しますね。",
+          "romaji": "Shōgo nara daijōbu da to omoimasu. Tantō ni kakunin shite, kyōjū ni renraku shimasu ne.",
+          "meaning": "I think noon would work. I’ll check with the person responsible and let you know today."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{今日|きょう}のお{返事|へんじ}をお{待|ま}ちしております。",
+          "romaji": "Arigatō gozaimasu. Kyō no ohenji o omachi shite orimasu.",
+          "meaning": "Thank you. I’ll wait for your reply today."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ロゴは、まだ{送|おく}っていませんよね？",
+          "romaji": "Rogo wa, mada okutte imasen yo ne?",
+          "meaning": "I haven’t sent the logo yet, have I?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{前|まえ}のメールの{添付書類|てんぷしょるい}には{入|はい}っていませんでした。",
+          "romaji": "Hai. Mae no mēru no tenpu shorui ni wa haitte imasen deshita.",
+          "meaning": "That’s right. It wasn’t in the attachments to the previous email."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{分|わ}かりました。ファイルの{形式|けいしき}も{聞|き}いておきます。",
+          "romaji": "Wakarimashita. Fairu no keishiki mo kiite okimasu.",
+          "meaning": "Understood. I’ll also check the file format."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u05-reading-requests",
+      "lesson": "keigo-u05-lesson",
+      "title": "Request record: scope, timing and an open question",
+      "genre": "guide",
+      "paragraphs": [
+        "{水曜|すいよう}の{依頼|いらい}メモ。{森|もり}には{見積|みつも}りの{二|に}ページの{金額|きんがく}だけを{確認|かくにん}してもらう。{返却|へんきゃく}は{十一時二十分|じゅういちじにじゅっぷん}まで。{表紙|ひょうし}と{文章|ぶんしょう}の{確認|かくにん}はバオが{行|おこな}う。",
+        "ロゴのファイルは{田村様|たむらさま}に{依頼|いらい}した。{金曜|きんよう}{午前|ごぜん}{十時|じゅうじ}という{希望|きぼう}は{難|むずか}しいとのこと。{正午|しょうご}の{案|あん}は{担当者|たんとうしゃ}への{確認|かくにん}が{必要|ひつよう}で、{田村様|たむらさま}は{水曜|すいよう}{中|じゅう}に{返事|へんじ}をする。",
+        "ロゴはまだ{受|う}け{取|と}っていない。{正午|しょうご}に{送|おく}るという{約束|やくそく}もまだ{決|き}まっていない。{返事|へんじ}が{来|き}たら{締切日|しめきりび}と{時間|じかん}をメモに{追記|ついき}する。"
+      ],
+      "glosses": [
+        {
+          "text": "水曜",
+          "kana": "すいよう",
+          "meaning": "Wednesday"
+        },
+        {
+          "text": "依頼",
+          "kana": "いらい",
+          "meaning": "request"
+        },
+        {
+          "text": "森",
+          "kana": "もり",
+          "meaning": "Mori"
+        },
+        {
+          "text": "見積",
+          "kana": "みつも",
+          "meaning": "quotation (part of 見積り)"
+        },
+        {
+          "text": "二",
+          "kana": "に",
+          "meaning": "two"
+        },
+        {
+          "text": "金額",
+          "kana": "きんがく",
+          "meaning": "amount of money"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking"
+        },
+        {
+          "text": "返却",
+          "kana": "へんきゃく",
+          "meaning": "returning a document"
+        },
+        {
+          "text": "十一時二十分",
+          "kana": "じゅういちじにじゅっぷん",
+          "meaning": "eleven twenty"
+        },
+        {
+          "text": "表紙",
+          "kana": "ひょうし",
+          "meaning": "cover"
+        },
+        {
+          "text": "文章",
+          "kana": "ぶんしょう",
+          "meaning": "wording"
+        },
+        {
+          "text": "行",
+          "kana": "おこな",
+          "meaning": "carry out (in 行う)"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "金曜",
+          "kana": "きんよう",
+          "meaning": "Friday"
+        },
+        {
+          "text": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning"
+        },
+        {
+          "text": "十時",
+          "kana": "じゅうじ",
+          "meaning": "ten o’clock"
+        },
+        {
+          "text": "希望",
+          "kana": "きぼう",
+          "meaning": "desired arrangement"
+        },
+        {
+          "text": "難",
+          "kana": "むずか",
+          "meaning": "difficult (in 難しい)"
+        },
+        {
+          "text": "正午",
+          "kana": "しょうご",
+          "meaning": "noon"
+        },
+        {
+          "text": "案",
+          "kana": "あん",
+          "meaning": "proposal"
+        },
+        {
+          "text": "担当者",
+          "kana": "たんとうしゃ",
+          "meaning": "person responsible"
+        },
+        {
+          "text": "必要",
+          "kana": "ひつよう",
+          "meaning": "necessary"
+        },
+        {
+          "text": "中",
+          "kana": "じゅう",
+          "meaning": "during"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ",
+          "meaning": "reply"
+        },
+        {
+          "text": "受",
+          "kana": "う",
+          "meaning": "receive (in 受け取る)"
+        },
+        {
+          "text": "取",
+          "kana": "と",
+          "meaning": "receive (in 受け取る)"
+        },
+        {
+          "text": "送",
+          "kana": "おく",
+          "meaning": "send (in 送る)"
+        },
+        {
+          "text": "約束",
+          "kana": "やくそく",
+          "meaning": "agreement"
+        },
+        {
+          "text": "決",
+          "kana": "き",
+          "meaning": "be settled (in 決まる)"
+        },
+        {
+          "text": "来",
+          "kana": "き",
+          "meaning": "arrive (in 来る)"
+        },
+        {
+          "text": "締切日",
+          "kana": "しめきりび",
+          "meaning": "deadline date"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん",
+          "meaning": "time"
+        },
+        {
+          "text": "追記",
+          "kana": "ついき",
+          "meaning": "adding a note"
+        },
+        {
+          "text": "見積り",
+          "kana": "みつもり",
+          "meaning": "quote"
+        },
+        {
+          "text": "行う",
+          "kana": "おこなう",
+          "meaning": "carry out"
+        },
+        {
+          "text": "難しい",
+          "kana": "むずかしい",
+          "meaning": "difficult"
+        },
+        {
+          "text": "受け取っていない",
+          "kana": "うけとっていない",
+          "meaning": "have not received"
+        },
+        {
+          "text": "決まっていない",
+          "kana": "きまっていない",
+          "meaning": "not yet settled"
+        },
+        {
+          "text": "来たら",
+          "kana": "きたら",
+          "meaning": "when it arrives"
+        },
+        {
+          "text": "送る",
+          "kana": "おくる",
+          "meaning": "send"
+        },
+        {
+          "text": "メモ",
+          "kana": "めも",
+          "meaning": "note"
+        },
+        {
+          "text": "バオ",
+          "kana": "ばお",
+          "meaning": "Bao"
+        },
+        {
+          "text": "ロゴ",
+          "kana": "ろご",
+          "meaning": "logo"
+        },
+        {
+          "text": "ファイル",
+          "kana": "ふぁいる",
+          "meaning": "file"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u05-x-scope",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "Which part has Mori agreed to check?",
+      "options": [
+        "{二|に}ページの{金額|きんがく}だけ。",
+        "{表紙|ひょうし}と{文章|ぶんしょう}だけ。",
+        "{全部|ぜんぶ}のページ。"
+      ],
+      "answer": 0,
+      "explain": "The agreed scope is the amounts on page two; Bao handles the rest.",
+      "words": [
+        "keigo-u05-w-v18"
+      ],
+      "dialogue": "keigo-u05-d-check",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-return",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "By when will Mori return the quote?",
+      "options": [
+        "{十一時二十分|じゅういちじにじゅっぷん}まで。",
+        "{十一時半|じゅういちじはん}まで。",
+        "{正午|しょうご}まで。"
+      ],
+      "answer": 0,
+      "explain": "The request was eleven thirty; the accepted return time is eleven twenty.",
+      "words": [
+        "keigo-u05-w-v17"
+      ],
+      "dialogue": "keigo-u05-d-check",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-format",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "What else will Tamura check with the person responsible?",
+      "options": [
+        "ファイルの{形式|けいしき}。",
+        "{見積|みつも}りの{金額|きんがく}。",
+        "{会議|かいぎ}の{場所|ばしょ}。"
+      ],
+      "answer": 0,
+      "explain": "The last line specifically says file format.",
+      "words": [
+        "keigo-u05-w-v19"
+      ],
+      "dialogue": "keigo-u05-d-logo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-settled",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "At the end of the call, what has NOT been settled?",
+      "options": [
+        "ロゴを{正午|しょうご}までに{送|おく}れるか。",
+        "{田村様|たむらさま}が{今日|きょう}{返事|へんじ}をすること。",
+        "{十時|じゅうじ}までという{希望|きぼう}が{難|むずか}しいこと。"
+      ],
+      "answer": 0,
+      "explain": "Noon needs another person’s confirmation; today’s reply is promised.",
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "dialogue": "keigo-u05-d-logo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-request",
+      "lesson": "keigo-u05-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: ask the listener to check the amounts for you.",
+      "line": "{金額|きんがく}を{確認|かくにん}して＿＿。",
+      "options": [
+        "いただけませんか",
+        "いただきました",
+        "おります"
+      ],
+      "answer": 0,
+      "explain": "いただけませんか makes a request; いただきました reports completed help.",
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-thanks",
+      "lesson": "keigo-u05-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: the review is finished. Thank Mori for doing it.",
+      "line": "{見|み}て＿＿、ありがとうございます。",
+      "options": [
+        "いただき",
+        "いただけませんか",
+        "ください"
+      ],
+      "answer": 0,
+      "explain": "いただき links received help to thanks; the other forms request it.",
+      "words": [
+        "keigo-u05-w-v16"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-partial",
+      "lesson": "keigo-u05-lesson",
+      "type": "reply",
+      "prompt": "Mori cannot read the entire document. Reduce the request to the amounts on page two.",
+      "line": "{全部|ぜんぶ}を{読|よ}む{余力|よりょく}はないかも。",
+      "options": [
+        "{二|に}ページの{金額|きんがく}だけで{大丈夫|だいじょうぶ}です。",
+        "では、{全|すべ}てお{願|ねが}いします。",
+        "ロゴを{送|おく}りました。"
+      ],
+      "answer": 0,
+      "explain": "The reply reduces the scope instead of overriding the limit.",
+      "words": [
+        "keigo-u05-w-v17"
+      ],
+      "dialogue": "keigo-u05-d-check",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-pending",
+      "lesson": "keigo-u05-lesson",
+      "type": "reply",
+      "prompt": "Tamura will check whether noon is possible. Acknowledge the promised reply without calling noon agreed.",
+      "line": "{担当|たんとう}に{確認|かくにん}して、{今日|きょう}{中|じゅう}に{連絡|れんらく}します。",
+      "options": [
+        "{今日|きょう}のお{返事|へんじ}をお{待|ま}ちしております。",
+        "では、{正午|しょうご}で{決定|けってい}ですね。",
+        "ロゴを{受|う}け{取|と}りました。"
+      ],
+      "answer": 0,
+      "explain": "Wait for confirmation; neither the deadline nor receipt is completed.",
+      "words": [
+        "keigo-u05-w-v17"
+      ],
+      "dialogue": "keigo-u05-d-logo",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u05-x-order",
+      "lesson": "keigo-u05-lesson",
+      "type": "order",
+      "tiles": [
+        "{二|に}ページだけ",
+        "{見|み}て",
+        "いただけませんか。"
+      ],
+      "meaning": "Could you look at just page two? (Use the taught request.)",
+      "explain": "The て-form connects to いただけませんか.",
+      "words": [
+        "keigo-u05-w-v18"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-formal",
+      "lesson": "keigo-u05-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask the external client to send the file, using the taught humble request.",
+      "context": "A request for help, not a work assignment; the actor and requested form are named.",
+      "options": [
+        "{送|おく}っていただけませんか。",
+        "{送|おく}ってもらえますか。",
+        "{送|おく}ってくれる？"
+      ],
+      "answer": 0,
+      "explain": "いただけませんか is the named humble request.",
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-ordinary",
+      "lesson": "keigo-u05-lesson",
+      "type": "register",
+      "prompt": "Three ways: ask a peer for help using ordinary polite もらえますか.",
+      "context": "A request for help, not a work assignment; the actor and requested form are named.",
+      "options": [
+        "{見|み}てもらえますか。",
+        "{見|み}ていただけませんか。",
+        "{見|み}てくれる？"
+      ],
+      "answer": 0,
+      "explain": "もらえますか is the specifically requested ordinary polite form.",
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-actor",
+      "lesson": "keigo-u05-lesson",
+      "type": "register",
+      "prompt": "You lack authority to assign the peer’s work. Which sentence leaves the decision with them?",
+      "context": "A request for help, not a work assignment; the actor and requested form are named.",
+      "options": [
+        "{確認|かくにん}していただけますか。",
+        "{確認|かくにん}していただきます。",
+        "{確認|かくにん}していただきました。"
+      ],
+      "answer": 0,
+      "explain": "A question leaves the decision open; the statement assigns or reports the task.",
+      "words": [
+        "keigo-u05-w-v02"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-cover",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "According to the request record, who checks the cover and wording?",
+      "options": [
+        "バオ。",
+        "{森|もり}。",
+        "{田村様|たむらさま}。"
+      ],
+      "answer": 0,
+      "explain": "The record separates Bao’s task from Mori’s limited review.",
+      "words": [
+        "keigo-u05-w-v18"
+      ],
+      "reading": "keigo-u05-reading-requests",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u05-x-update",
+      "lesson": "keigo-u05-lesson",
+      "type": "choice",
+      "prompt": "What will Bao add to the record once Tamura replies?",
+      "options": [
+        "{締切日|しめきりび}と{時間|じかん}。",
+        "{新|あたら}しい{金額|きんがく}。",
+        "{新|あたら}しい{会議室|かいぎしつ}。"
+      ],
+      "answer": 0,
+      "explain": "The last sentence explicitly specifies the deadline date and time.",
+      "words": [
+        "keigo-u05-w-v10"
+      ],
+      "reading": "keigo-u05-reading-requests",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "会議録 returns naturally when confirming the fifty-copy quantity from Tuesday’s meeting. Application and approval headwords remain supplemental office reading; no scene is padded to include all of them."
+  }
+}

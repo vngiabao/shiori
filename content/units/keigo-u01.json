@@ -1,0 +1,925 @@
+{
+  "id": "keigo-u01",
+  "title": "Keigo at work: receive a visitor",
+  "lesson": {
+    "title": "Receive a visitor: names, waiting and your own side",
+    "description": "Prepare for a client’s appointment, receive an early arrival, and read the reception record.",
+    "canDo": "Track the guest and receptionist while choosing the requested register.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u01-w-v01",
+      "{入館証|にゅうかんしょう}",
+      "nyūkanshō",
+      "a building visitor pass",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v02",
+      "{来訪者|らいほうしゃ}",
+      "raihōsha",
+      "a visitor to the premises",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v03",
+      "{来客|らいきゃく}",
+      "raikyaku",
+      "a guest who comes to visit",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v04",
+      "{応接室|おうせつしつ}",
+      "ōsetsushitsu",
+      "a room for receiving visitors",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v05",
+      "{面会|めんかい}",
+      "menkai",
+      "meeting a person in a visit",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v06",
+      "{待合室|まちあいしつ}",
+      "machiaishitsu",
+      "a waiting room",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v07",
+      "{来訪|らいほう}",
+      "raihō",
+      "a visit to a place",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v08",
+      "{名札|なふだ}",
+      "nafuda",
+      "a name badge",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v09",
+      "{名刺交換|めいしこうかん}",
+      "meishikōkan",
+      "exchanging business cards",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v10",
+      "{応対|おうたい}",
+      "ōtai",
+      "attending to a visitor or caller",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v11",
+      "{取次|とりつ}ぎ",
+      "toritsugi",
+      "passing a visitor or message to the right person",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v12",
+      "{受付係|うけつけがかり}",
+      "uketsukegakari",
+      "a receptionist",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v13",
+      "アポイント",
+      "apointo",
+      "an appointment",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v14",
+      "{守衛|しゅえい}",
+      "shuei",
+      "a gatekeeper or building guard",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v15",
+      "{警備員|けいびいん}",
+      "keibiin",
+      "a security guard",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v16",
+      "{正面玄関|しょうめんげんかん}",
+      "shōmengenkan",
+      "the main entrance",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v17",
+      "{非常口|ひじょうぐち}",
+      "hijōguchi",
+      "an emergency exit",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v18",
+      "{案内板|あんないばん}",
+      "annaiban",
+      "a sign giving directions",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v19",
+      "{来社|らいしゃ}",
+      "raisha",
+      "visiting a company",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v20",
+      "{一礼|いちれい}",
+      "ichirei",
+      "a single bow",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v21",
+      "{会釈|えしゃく}",
+      "eshaku",
+      "a small acknowledging bow",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v22",
+      "{腰掛|こしか}け",
+      "koshikake",
+      "a seat to sit on",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v23",
+      "{所属|しょぞく}",
+      "shozoku",
+      "the organisation or department one belongs to",
+      "neutral"
+    ],
+    [
+      "keigo-u01-w-v24",
+      "{社名|しゃめい}",
+      "shamei",
+      "a company's name",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u01-g-presence",
+      "title": "The guest and your own colleague use different forms",
+      "formation": "いる・来る・行く → いらっしゃる for a respected guest; polite form いらっしゃいます. Own-side いる → おります; 来る・行く → 参ります. These are selected lexical replacements, not a suffix added to any verb.",
+      "mistake": "Do not say that you yourself いらっしゃいます. Do not present your own manager to the client with an honorific merely because the manager outranks you.",
+      "examples": [
+        {
+          "ja": "{田村様|たむらさま}は、もういらっしゃいましたか。",
+          "en": "Has Ms Tamura arrived yet?"
+        },
+        {
+          "ja": "{石川|いしかわ}はただ{今|いま}、{会議室|かいぎしつ}におります。",
+          "en": "Ishikawa is currently in the meeting room."
+        },
+        {
+          "ja": "{石川|いしかわ}は{二時|にじ}にこちらへ{参|まい}ります。",
+          "en": "Ishikawa will come here at two."
+        }
+      ],
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "lessons": [
+        "keigo-u01-lesson"
+      ],
+      "exampleRuby": "{田村様|たむらさま}は、もういらっしゃいましたか。",
+      "example": "田村様は、もういらっしゃいましたか。",
+      "explanation": "When speaking to a client, describe the client respectfully with いらっしゃる. Describe your own colleague’s presence with おります, and coming here with 参ります. The person doing the action matters. Inside your team, a title such as 課長 may be natural; when presenting your own colleague to a client, this scenario uses the surname without a title.",
+      "translation": "Has Ms Tamura arrived yet?"
+    },
+    {
+      "id": "keigo-u01-g-name",
+      "title": "Ask the visitor’s name from your own side",
+      "formation": "聞く・尋ねる → 伺う in this directed humble use. 伺う → 伺って + もよろしいでしょうか asks whether your asking is acceptable. 伺う can also mean visit, which is not its meaning here.",
+      "mistake": "A humble verb does not mean that the visitor has already answered. Keep the asker, the name and the answer distinct.",
+      "examples": [
+        {
+          "ja": "お{名前|なまえ}を{伺|うかが}ってもよろしいでしょうか。",
+          "en": "May I ask your name?"
+        },
+        {
+          "ja": "お{名前|なまえ}を{伺|うかが}いました。",
+          "en": "I asked their name."
+        },
+        {
+          "ja": "ご{用件|ようけん}を{伺|うかが}ってもよろしいでしょうか。",
+          "en": "May I ask what your visit is about?"
+        }
+      ],
+      "words": [
+        "keigo-u01-w-v11"
+      ],
+      "lessons": [
+        "keigo-u01-lesson"
+      ],
+      "exampleRuby": "お{名前|なまえ}を{伺|うかが}ってもよろしいでしょうか。",
+      "example": "お名前を伺ってもよろしいでしょうか。",
+      "explanation": "お名前を伺ってもよろしいでしょうか asks permission for you to ask the visitor’s name. 伺う here means ask or hear; it is not the guest asking you. Confirm the name you heard before contacting your colleague.",
+      "translation": "May I ask your name?"
+    },
+    {
+      "id": "keigo-u01-g-wait",
+      "title": "Ask the guest to wait; do not announce that you will wait",
+      "formation": "Selected お + verb masu-stem + ください: 待つ → 待ち → お待ちください; 掛ける → 掛け → お掛けください. Compare your own action お待ちいたします. Lexical compatibility matters; this is not a universal template.",
+      "mistake": "If you want the guest to remain in reception, お待ちいたします reverses who waits. Plain 待ってください can be polite, but the three-style task explicitly requests the formal wording taught here.",
+      "examples": [
+        {
+          "ja": "こちらでお{待|ま}ちください。",
+          "en": "Please wait here."
+        },
+        {
+          "ja": "どうぞお{掛|か}けください。",
+          "en": "Please have a seat."
+        },
+        {
+          "ja": "{玄関|げんかん}でお{待|ま}ちいたします。",
+          "en": "I will wait for you at the entrance."
+        }
+      ],
+      "words": [
+        "keigo-u01-w-v22"
+      ],
+      "lessons": [
+        "keigo-u01-lesson"
+      ],
+      "exampleRuby": "こちらでお{待|ま}ちください。",
+      "example": "こちらでお待ちください。",
+      "explanation": "こちらでお待ちください asks the guest to wait here. お待ちいたします says that you or your side will wait. The words can sound similarly formal while assigning the action to different people. Selected requests can also offer the visitor a seat.",
+      "translation": "Please wait here."
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u01-d-prepare",
+      "lesson": "keigo-u01-lesson",
+      "title": "Before the two-o’clock appointment",
+      "description": "You check the reception arrangements with Ishikawa before Tamura arrives.",
+      "words": [
+        "keigo-u01-w-v03",
+        "keigo-u01-w-v04",
+        "keigo-u01-w-v08"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "Ishikawa",
+          "line": "{今日|きょう}は{二時|にじ}に{田村様|たむらさま}がいらっしゃいます。",
+          "romaji": "Kyō wa niji ni Tamura-sama ga irasshaimasu.",
+          "meaning": "Ms Tamura is coming at two today."
+        },
+        {
+          "speaker": "You",
+          "line": "{応接室|おうせつしつ}は{三階|さんがい}ですね。",
+          "romaji": "Ōsetsushitsu wa sangai desu ne.",
+          "meaning": "The reception room is on the third floor, right?"
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "ええ。{私|わたし}は{二時|にじ}まで{会議|かいぎ}ですが、{終|お}わったら{受付|うけつけ}へ{行|い}きます。",
+          "romaji": "Ee. Watashi wa niji made kaigi desu ga, owattara uketsuke e ikimasu.",
+          "meaning": "Yes. I have a meeting until two, and I’ll come to reception afterwards."
+        },
+        {
+          "speaker": "You",
+          "line": "{早|はや}く{着|つ}かれたら、こちらでお{待|ま}ちいただくんですね。",
+          "romaji": "Hayaku tsukaretara, kochira de omachi itadakun desu ne.",
+          "meaning": "If she arrives early, she’ll wait here, right?"
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "そうです。{椅子|いす}を{一|ひと}つ{空|あ}けておいてください。",
+          "romaji": "Sō desu. Isu o hitotsu akete oite kudasai.",
+          "meaning": "That’s right. Please leave a chair free."
+        },
+        {
+          "speaker": "You",
+          "line": "{入館証|にゅうかんしょう}はこちらでお{渡|わた}ししますか。",
+          "romaji": "Nyūkanshō wa kochira de owatashi shimasu ka.",
+          "meaning": "Should I give her the visitor pass here?"
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "ええ。{帰|かえ}りに{受付|うけつけ}へ{返|かえ}していただきます。",
+          "romaji": "Ee. Kaeri ni uketsuke e kaeshite itadakimasu.",
+          "meaning": "Yes. She’ll return it to reception when she leaves."
+        },
+        {
+          "speaker": "You",
+          "line": "{名札|なふだ}も{付|つ}けました。これで{誰|だれ}が{受付係|うけつけがかり}か{分|わ}かりますね。",
+          "romaji": "Nafuda mo tsukemashita. Kore de dare ga uketsukegakari ka wakarimasu ne.",
+          "meaning": "I’ve put my badge on too. Now people can see who the receptionist is."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "よろしくお{願|ねが}いします。{次|つぎ}の{予定|よてい}があるので、{面会|めんかい}は{三十分|さんじゅっぷん}の{予定|よてい}です。",
+          "romaji": "Yoroshiku onegai shimasu. Tsugi no yotei ga aru node, menkai wa sanjuppun no yotei desu.",
+          "meaning": "Thank you. I have another appointment afterwards, so the visit is scheduled for thirty minutes."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{田村様|たむらさま}がいらっしゃったら、ご{連絡|れんらく}します。",
+          "romaji": "Hai. Tamura-sama ga irasshattara, gorenraku shimasu.",
+          "meaning": "I’ll let you know when Ms Tamura arrives."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u01-d-arrival",
+      "lesson": "keigo-u01-lesson",
+      "title": "Ten minutes early",
+      "description": "Tamura arrives at 1:50 for her two-o’clock appointment. You receive her at reception.",
+      "words": [
+        "keigo-u01-w-v01",
+        "keigo-u01-w-v11",
+        "keigo-u01-w-v02"
+      ],
+      "speed": 1.05,
+      "lines": [
+        {
+          "speaker": "Tamura",
+          "line": "こんにちは。{二時|にじ}に{石川|いしかわ}さんと{約束|やくそく}しているんですが。",
+          "romaji": "Konnichiwa. Niji ni Ishikawa-san to yakusoku shite iru n desu ga.",
+          "meaning": "Hello. I have an appointment with Ishikawa at two."
+        },
+        {
+          "speaker": "You",
+          "line": "いらっしゃいませ。お{名前|なまえ}を{伺|うかが}ってもよろしいでしょうか。",
+          "romaji": "Irasshaimase. Onamae o ukagatte mo yoroshii deshō ka.",
+          "meaning": "Welcome. May I ask your name?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{田村|たむら}です。ちょっと{早|はや}く{着|つ}いてしまって。",
+          "romaji": "Tamura desu. Chotto hayaku tsuite shimatte.",
+          "meaning": "I’m Tamura. I’ve arrived a little early."
+        },
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}ですね。{石川|いしかわ}はただ{今|いま}、{会議中|かいぎちゅう}でございます。",
+          "romaji": "Tamura-sama desu ne. Ishikawa wa tadaima, kaigichū de gozaimasu.",
+          "meaning": "Ms Tamura, thank you. Ishikawa is in a meeting at the moment."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "いま{一時五十分|いちじごじゅっぷん}ですね。{二時|にじ}までここで{待|ま}てばいいですか。",
+          "romaji": "Ima ichiji gojuppun desu ne. Niji made koko de mateba ii desu ka.",
+          "meaning": "It’s 1:50 now. Should I wait here until two?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{石川|いしかわ}は{二時|にじ}にこちらへ{参|まい}ります。どうぞお{掛|か}けください。",
+          "romaji": "Hai. Ishikawa wa niji ni kochira e mairimasu. Dōzo okake kudasai.",
+          "meaning": "Yes. Ishikawa will come here at two. Please have a seat."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ありがとうございます。{今日|きょう}の{資料|しりょう}はこちらです。",
+          "romaji": "Arigatō gozaimasu. Kyō no shiryō wa kochira desu.",
+          "meaning": "Thank you. Here are today’s documents."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。{石川|いしかわ}にお{渡|わた}しします。こちらが{入館証|にゅうかんしょう}です。",
+          "romaji": "Arigatō gozaimasu. Ishikawa ni owatashi shimasu. Kochira ga nyūkanshō desu.",
+          "meaning": "Thank you. I’ll give them to Ishikawa. This is your visitor pass."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{帰|かえ}るときに{返|かえ}すんですね。",
+          "romaji": "Kaeru toki ni kaesu n desu ne.",
+          "meaning": "I return it when I leave, right?"
+        },
+        {
+          "speaker": "You",
+          "line": "はい、{受付|うけつけ}にお{返|かえ}しください。では、{石川|いしかわ}に{到着|とうちゃく}を{伝|つた}えます。こちらでお{待|ま}ちください。",
+          "romaji": "Hai, uketsuke ni okaeshi kudasai. Dewa, Ishikawa ni tōchaku o tsutaemasu. Kochira de omachi kudasai.",
+          "meaning": "Yes, please return it to reception. I’ll let Ishikawa know you’ve arrived. Please wait here."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u01-reading-visit",
+      "lesson": "keigo-u01-lesson",
+      "title": "Reception record: the appointment and the arrival",
+      "genre": "guide",
+      "paragraphs": [
+        "{来訪|らいほう}の{予定|よてい}：{田村様|たむらさま}。{担当|たんとう}は{石川|いしかわ}。{面会|めんかい}は{本日|ほんじつ}{二時|にじ}から{二時半|にじはん}まで、{三階|さんがい}の{応接室|おうせつしつ}で{行|おこな}う。{来訪者|らいほうしゃ}は{正面玄関|しょうめんげんかん}から{入|はい}り、{受付|うけつけ}で{名前|なまえ}を{伝|つた}える。",
+        "{石川|いしかわ}は{二時|にじ}まで{別|べつ}の{会議|かいぎ}に{出席|しゅっせき}している。{二時|にじ}より{早|はや}く{到着|とうちゃく}した{場合|ばあい}は、{受付|うけつけ}の{椅子|いす}で{待|ま}っていただく。{受付係|うけつけがかり}は{到着|とうちゃく}を{石川|いしかわ}に{連絡|れんらく}する。{来訪者|らいほうしゃ}だけで{三階|さんがい}へ{上|あ}がっていただく{手順|てじゅん}ではない。",
+        "{入館証|にゅうかんしょう}は{受付|うけつけ}で{渡|わた}し、{退館|たいかん}するときに{同|おな}じ{受付|うけつけ}で{回収|かいしゅう}する。{資料|しりょう}を{預|あず}かったら、{石川|いしかわ}に{渡|わた}す。{面会|めんかい}が{長引|ながび}く{場合|ばあい}は、{後|あと}の{予定|よてい}を{石川|いしかわ}に{確認|かくにん}する。"
+      ],
+      "glosses": [
+        {
+          "text": "来訪",
+          "kana": "らいほう",
+          "meaning": "a visit to a place"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい",
+          "meaning": "a scheduled plan"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura, the client"
+        },
+        {
+          "text": "担当",
+          "kana": "たんとう",
+          "meaning": "the person handling the visit"
+        },
+        {
+          "text": "石川",
+          "kana": "いしかわ",
+          "meaning": "Ishikawa, your colleague"
+        },
+        {
+          "text": "面会",
+          "kana": "めんかい",
+          "meaning": "meeting a person in a visit"
+        },
+        {
+          "text": "本日",
+          "kana": "ほんじつ",
+          "meaning": "today (formal)"
+        },
+        {
+          "text": "二時",
+          "kana": "にじ",
+          "meaning": "two o'clock"
+        },
+        {
+          "text": "二時半",
+          "kana": "にじはん",
+          "meaning": "half past two"
+        },
+        {
+          "text": "三階",
+          "kana": "さんがい",
+          "meaning": "the third floor"
+        },
+        {
+          "text": "応接室",
+          "kana": "おうせつしつ",
+          "meaning": "a room for receiving visitors"
+        },
+        {
+          "text": "行",
+          "kana": "おこな",
+          "meaning": "carry out (stem), in 行う"
+        },
+        {
+          "text": "来訪者",
+          "kana": "らいほうしゃ",
+          "meaning": "a visitor to the premises"
+        },
+        {
+          "text": "正面玄関",
+          "kana": "しょうめんげんかん",
+          "meaning": "the main entrance"
+        },
+        {
+          "text": "入",
+          "kana": "はい",
+          "meaning": "enter (stem), in 入る"
+        },
+        {
+          "text": "受付",
+          "kana": "うけつけ",
+          "meaning": "reception"
+        },
+        {
+          "text": "名前",
+          "kana": "なまえ",
+          "meaning": "name"
+        },
+        {
+          "text": "伝",
+          "kana": "つた",
+          "meaning": "tell (stem)"
+        },
+        {
+          "text": "別",
+          "kana": "べつ",
+          "meaning": "another; separate"
+        },
+        {
+          "text": "会議",
+          "kana": "かいぎ",
+          "meaning": "meeting"
+        },
+        {
+          "text": "出席",
+          "kana": "しゅっせき",
+          "meaning": "attendance at a meeting"
+        },
+        {
+          "text": "早",
+          "kana": "はや",
+          "meaning": "early (stem)"
+        },
+        {
+          "text": "到着",
+          "kana": "とうちゃく",
+          "meaning": "arrival"
+        },
+        {
+          "text": "場合",
+          "kana": "ばあい",
+          "meaning": "in the case that"
+        },
+        {
+          "text": "椅子",
+          "kana": "いす",
+          "meaning": "chair"
+        },
+        {
+          "text": "待",
+          "kana": "ま",
+          "meaning": "wait (stem)"
+        },
+        {
+          "text": "受付係",
+          "kana": "うけつけがかり",
+          "meaning": "a receptionist"
+        },
+        {
+          "text": "連絡",
+          "kana": "れんらく",
+          "meaning": "contact"
+        },
+        {
+          "text": "上",
+          "kana": "あ",
+          "meaning": "go up (stem), in 上がる"
+        },
+        {
+          "text": "手順",
+          "kana": "てじゅん",
+          "meaning": "procedure"
+        },
+        {
+          "text": "入館証",
+          "kana": "にゅうかんしょう",
+          "meaning": "a building visitor pass"
+        },
+        {
+          "text": "渡",
+          "kana": "わた",
+          "meaning": "hand over (stem)"
+        },
+        {
+          "text": "退館",
+          "kana": "たいかん",
+          "meaning": "leaving the building"
+        },
+        {
+          "text": "同",
+          "kana": "おな",
+          "meaning": "the same (stem)"
+        },
+        {
+          "text": "回収",
+          "kana": "かいしゅう",
+          "meaning": "collecting something back"
+        },
+        {
+          "text": "資料",
+          "kana": "しりょう",
+          "meaning": "documents for the visit"
+        },
+        {
+          "text": "預",
+          "kana": "あず",
+          "meaning": "take into one's care (stem)"
+        },
+        {
+          "text": "長引",
+          "kana": "ながび",
+          "meaning": "run longer (stem)"
+        },
+        {
+          "text": "後",
+          "kana": "あと",
+          "meaning": "later; after"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking something"
+        },
+        {
+          "text": "入り",
+          "kana": "はいり",
+          "meaning": "enter (continuative)"
+        },
+        {
+          "text": "待って",
+          "kana": "まって",
+          "meaning": "wait (te-form)"
+        },
+        {
+          "text": "渡し",
+          "kana": "わたし",
+          "meaning": "hand over (continuative)"
+        },
+        {
+          "text": "預かったら",
+          "kana": "あずかったら",
+          "meaning": "once you have received it into your care"
+        },
+        {
+          "text": "長引く",
+          "kana": "ながびく",
+          "meaning": "run longer than planned"
+        },
+        {
+          "text": "だけで",
+          "kana": "だけで",
+          "meaning": "on their own, in 来訪者だけで"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u01-x-appointment",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "When is the planned visit?",
+      "options": [
+        "{二時|にじ}から{二時半|にじはん}まで。",
+        "{一時|いちじ}から{一時半|いちじはん}まで。",
+        "{三時|さんじ}から{三時半|さんじはん}まで。"
+      ],
+      "answer": 0,
+      "explain": "The appointment begins at two and is scheduled for thirty minutes.",
+      "words": [
+        "keigo-u01-w-v05"
+      ],
+      "dialogue": "keigo-u01-d-prepare",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-early",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "Why does Tamura wait at reception?",
+      "options": [
+        "{約束|やくそく}の{時刻|じこく}より{早|はや}く{着|つ}いたから。",
+        "{面会|めんかい}が{取|と}り{消|け}されたから。",
+        "{石川|いしかわ}が{一日|いちにち}{休|やす}みだから。"
+      ],
+      "answer": 0,
+      "explain": "She arrives at 1:50 for two, while Ishikawa is still in his meeting.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "dialogue": "keigo-u01-d-arrival",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-pass",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "Where should Tamura return her visitor pass?",
+      "options": [
+        "{受付|うけつけ}。",
+        "{三階|さんがい}の{応接室|おうせつしつ}。",
+        "{自宅|じたく}。"
+      ],
+      "answer": 0,
+      "explain": "You explicitly ask for its return to reception.",
+      "words": [
+        "keigo-u01-w-v01"
+      ],
+      "dialogue": "keigo-u01-d-arrival",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-presence",
+      "lesson": "keigo-u01-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: tell the external client where your own colleague is. 石川は会議室に＿＿。",
+      "options": [
+        "おります",
+        "いらっしゃいます",
+        "おっしゃいます"
+      ],
+      "answer": 0,
+      "explain": "おります describes own-side presence to the client. いらっしゃる respects the actor; おっしゃる means say.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "line": "{石川|いしかわ}は{会議室|かいぎしつ}に＿＿。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-arrivalform",
+      "lesson": "keigo-u01-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: respectfully ask your manager if the client has arrived. 田村様はもう＿＿か。",
+      "options": [
+        "いらっしゃいました",
+        "参りました",
+        "申しました"
+      ],
+      "answer": 0,
+      "explain": "The actor is the respected guest. 参る is own-side coming; 申す is saying.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "line": "{田村様|たむらさま}はもう＿＿か。",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-name",
+      "lesson": "keigo-u01-lesson",
+      "type": "reply",
+      "prompt": "The visitor mentions an appointment but has not given her name. Ask permission to ask it.",
+      "options": [
+        "お{名前|なまえ}を{伺|うかが}ってもよろしいでしょうか。",
+        "お{名前|なまえ}は、もう{伺|うかが}いました。",
+        "こちらの{名前|なまえ}は{石川|いしかわ}です。"
+      ],
+      "answer": 0,
+      "explain": "お名前を伺ってもよろしいでしょうか asks her name. 伺いました reports a completed action; 田村です gives a name.",
+      "words": [
+        "keigo-u01-w-v11"
+      ],
+      "line": "{二時|にじ}に{石川|いしかわ}さんと{約束|やくそく}しているんですが。",
+      "dialogue": "keigo-u01-d-arrival",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-waitreply",
+      "lesson": "keigo-u01-lesson",
+      "type": "reply",
+      "prompt": "Tamura asks whether she should wait until two. Confirm and offer her a seat.",
+      "options": [
+        "はい。どうぞお{掛|か}けください。",
+        "いいえ。{面会|めんかい}は{中止|ちゅうし}です。",
+        "はい。すぐに{一人|ひとり}で{三階|さんがい}へ{行|い}ってください。"
+      ],
+      "answer": 0,
+      "explain": "A seat at reception is offered; cancellation and going up alone are not the procedure.",
+      "words": [
+        "keigo-u01-w-v22"
+      ],
+      "line": "{二時|にじ}までここで{待|ま}てばいいですか。",
+      "dialogue": "keigo-u01-d-arrival",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-waitorder",
+      "lesson": "keigo-u01-lesson",
+      "type": "order",
+      "words": [
+        "keigo-u01-w-v22"
+      ],
+      "tiles": [
+        "こちらで",
+        "お{待|ま}ち",
+        "ください。"
+      ],
+      "meaning": "Please wait here. (Formal wording to a visitor.)",
+      "explain": "The visitor is being asked to wait, not being told that you will wait.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-formal",
+      "lesson": "keigo-u01-lesson",
+      "type": "register",
+      "prompt": "Three ways: choose the explicitly formal お + masu-stem + ください wording to ask a client to wait here.",
+      "options": [
+        "こちらでお{待|ま}ちください。",
+        "ここで{待|ま}ってください。",
+        "ここで{待|ま}ってね。"
+      ],
+      "answer": 0,
+      "explain": "お待ちください is the requested formal construction. 待ってください is ordinary polite wording; 待って fits a close friend.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "context": "You are receiving an external client. Select the requested formal construction, not merely any polite sentence.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-friend",
+      "lesson": "keigo-u01-lesson",
+      "type": "register",
+      "prompt": "Three ways: choose the casual wording for your close friend at home.",
+      "options": [
+        "ここで{待|ま}ってね。",
+        "ここで{待|ま}ってください。",
+        "こちらでお{待|ま}ちください。"
+      ],
+      "answer": 0,
+      "explain": "The first is the requested casual style. The others express the same action with more distance.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "context": "The listener is a close friend, and you are explicitly using casual speech.",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-actor",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "Who is supposed to wait in こちらでお待ちください?",
+      "options": [
+        "{田村様|たむらさま}。",
+        "{受付係|うけつけがかり}。",
+        "{石川|いしかわ}。"
+      ],
+      "answer": 0,
+      "explain": "The receptionist addresses Tamura with the request.",
+      "words": [
+        "keigo-u01-w-v12"
+      ],
+      "dialogue": "keigo-u01-d-arrival",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u01-x-document",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "According to the reception record, should a visitor arriving early go upstairs alone?",
+      "options": [
+        "いいえ、{受付|うけつけ}で{待|ま}つ。",
+        "はい、{一人|ひとり}で{三階|さんがい}へ{行|い}く。",
+        "いいえ、そのまま{帰|かえ}る。"
+      ],
+      "answer": 0,
+      "explain": "The document explicitly says to wait at reception and not go up alone.",
+      "words": [
+        "keigo-u01-w-v02"
+      ],
+      "reading": "keigo-u01-reading-visit",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-documents",
+      "lesson": "keigo-u01-lesson",
+      "type": "choice",
+      "prompt": "What should the receptionist do with the documents she receives?",
+      "options": [
+        "{石川|いしかわ}に{渡|わた}す。",
+        "{非常口|ひじょうぐち}に{置|お}く。",
+        "{田村様|たむらさま}の{家|いえ}へ{送|おく}る。"
+      ],
+      "answer": 0,
+      "explain": "The documents are for Ishikawa; the guide and the spoken promise agree.",
+      "words": [
+        "keigo-u01-w-v11"
+      ],
+      "reading": "keigo-u01-reading-visit",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u01-x-ownside",
+      "lesson": "keigo-u01-lesson",
+      "type": "register",
+      "prompt": "Which sentence accurately tells the external client that your own colleague will come here at two?",
+      "options": [
+        "{石川|いしかわ}は{二時|にじ}にこちらへ{参|まい}ります。",
+        "{石川|いしかわ}は{二時|にじ}までこちらにおりました。",
+        "{石川|いしかわ}は{二時|にじ}にこちらで{申|もう}します。"
+      ],
+      "answer": 0,
+      "explain": "参ります states his coming at two. おりました reports past presence; 申します means saying and leaves its content unstated.",
+      "words": [
+        "keigo-u01-w-v03"
+      ],
+      "context": "Ishikawa is your colleague. The client is waiting, and the action is his future arrival.",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0,
+    "reason": "Reception retrieves common appointment language. The previous three N1 units are not a natural source of extra reception vocabulary; remove the forced successor-duty line rather than pad the scene to meet a quota."
+  }
+}

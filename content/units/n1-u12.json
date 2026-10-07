@@ -452,12 +452,10 @@
         "n1-u12-lesson-1"
       ],
       "title": "Report your own action without inflating it",
-      "point": "いたします is the polite form of own-side いたす. Use it for your report or planned action; the verb does not turn a proposal into a completed result. Ordinary です・ます remains appropriate within many teams.",
       "formation": "Suru noun + いたします; selected お + verb stem / ご + suru noun + いたします. Not an automatic prefix for every verb.",
       "mistake": "Do not describe the client’s action with our humble いたす. Avoid unnecessary させていただく when no permission/benefit is relevant.",
       "example": "今週の対応について報告いたします。",
       "exampleRuby": "{今週|こんしゅう}の{対応|たいおう}について{報告|ほうこく}いたします。",
-      "meaning": "I will report on this week’s response.",
       "examples": [
         {
           "ja": "{今週|こんしゅう}の{対応|たいおう}について{報告|ほうこく}いたします。",
@@ -474,7 +472,9 @@
       ],
       "words": [
         "n1-u12-w-v01"
-      ]
+      ],
+      "explanation": "いたします is the polite form of own-side いたす. Use it for your report or planned action; the verb does not turn a proposal into a completed result. Ordinary です・ます remains appropriate within many teams.",
+      "translation": "I will report on this week’s response."
     },
     {
       "id": "n1-u12-g-apology",
@@ -482,12 +482,10 @@
         "n1-u12-lesson-2"
       ],
       "title": "An apology names what went wrong",
-      "point": "お詫び申し上げます directs a formal apology to the affected person. Name the concrete error and its effect, then explain the correction. This is not a template promising that no future error can occur.",
       "formation": "Selected お + verbal-noun stem + 申し上げます: お詫び申し上げます / お礼申し上げます; ご + selected Sino-Japanese verbal noun + 申し上げます. Lexical compatibility matters.",
       "mistake": "Do not use the humble apology for the client’s action. Do not blame the recipient through an evasive conditional when the company’s mistake is established.",
       "example": "閉館時刻を誤って記載し、お詫び申し上げます。",
       "exampleRuby": "{閉館時刻|へいかんじこく}を{誤|あやま}って{記載|きさい}し、お{詫|わ}び{申し上|もうしあ}げます。",
-      "meaning": "I apologise for writing the closing time incorrectly.",
       "examples": [
         {
           "ja": "{閉館時刻|へいかんじこく}を{誤|あやま}って{記載|きさい}し、お{詫|わ}び{申し上|もうしあ}げます。",
@@ -504,7 +502,9 @@
       ],
       "words": [
         "n1-u12-w-v46"
-      ]
+      ],
+      "explanation": "お詫び申し上げます directs a formal apology to the affected person. Name the concrete error and its effect, then explain the correction. This is not a template promising that no future error can occur.",
+      "translation": "I apologise for writing the closing time incorrectly."
     },
     {
       "id": "n1-u12-g-request",
@@ -512,12 +512,10 @@
         "n1-u12-lesson-2"
       ],
       "title": "A request leaves the decision with the listener",
-      "point": "ご確認いただけますか asks whether the speaker can receive the listener’s checking. State what needs checking and the real deadline. It is a request, not an announcement that approval has occurred.",
       "formation": "ご + 確認 + いただけますか; verb te-form + いただけますか. The receiver is the implied speaker; the actor being asked is the listener.",
       "mistake": "Do not mechanically add する to ご確認いただく. Do not describe a decision as 承認済み before a reply arrives.",
       "example": "修正版をご確認いただけますか。",
       "exampleRuby": "{修正版|しゅうせいばん}をご{確認|かくにん}いただけますか。",
-      "meaning": "Could you check the corrected version?",
       "examples": [
         {
           "ja": "{修正版|しゅうせいばん}をご{確認|かくにん}いただけますか。",
@@ -534,7 +532,9 @@
       ],
       "words": [
         "n1-u12-w-v19"
-      ]
+      ],
+      "explanation": "ご確認いただけますか asks whether the speaker can receive the listener’s checking. State what needs checking and the real deadline. It is a request, not an announcement that approval has occurred.",
+      "translation": "Could you check the corrected version?"
     },
     {
       "id": "n1-u12-g-thanks",
@@ -542,12 +542,10 @@
         "n1-u12-lesson-3"
       ],
       "title": "Past gratitude can accompany a new beginning",
-      "point": "お世話になりました thanks someone for past help. お世話になっております refers to an ongoing relationship. An internal department transfer is not automatically a resignation; combine past thanks with a concrete continuing relationship.",
       "formation": "お世話になる → なりました (past) / なっております (ongoing humble-polite) / なります (future or present context). Selected set phrase, not a productive template for every noun.",
       "mistake": "Do not infer leaving the company from past gratitude alone. Do not change a future department transfer into completed departure.",
       "example": "この部署では、大変お世話になりました。",
       "exampleRuby": "この{部署|ぶしょ}では、{大変|たいへん}お{世話|せわ}になりました。",
-      "meaning": "Thank you for all your help in this department.",
       "examples": [
         {
           "ja": "この{部署|ぶしょ}では、{大変|たいへん}お{世話|せわ}になりました。",
@@ -564,7 +562,9 @@
       ],
       "words": [
         "n1-u12-w-v06"
-      ]
+      ],
+      "explanation": "お世話になりました thanks someone for past help. お世話になっております refers to an ongoing relationship. An internal department transfer is not automatically a resignation; combine past thanks with a concrete continuing relationship.",
+      "translation": "Thank you for all your help in this department."
     }
   ],
   "dialogues": [

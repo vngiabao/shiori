@@ -1,0 +1,888 @@
+{
+  "id": "keigo-u06",
+  "title": "Keigo at work: decline a request",
+  "lesson": {
+    "title": "A firm Friday limit; two Monday alternatives",
+    "description": "Decline an impossible deadline and offer an option without inventing client agreement.",
+    "canDo": "Recognise a courteous refusal, explain the reason and track an unaccepted alternative.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u06-w-v01",
+      "{代替品|だいたいひん}",
+      "daitaihin",
+      "an alternative product",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v02",
+      "{代用品|だいようひん}",
+      "daiyōhin",
+      "a substitute item",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v03",
+      "{別便|べつびん}",
+      "betsubin",
+      "a separate shipment",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v04",
+      "{急送|きゅうそう}",
+      "kyūsō",
+      "sending something urgently",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v05",
+      "{速達|そくたつ}",
+      "sokutatsu",
+      "express mail",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v06",
+      "{翌々日|よくよくじつ}",
+      "yokuyokujitsu",
+      "the day after tomorrow",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v07",
+      "{日取|ひど}り",
+      "hidori",
+      "the date chosen for an event",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v08",
+      "{残部|ざんぶ}",
+      "zanbu",
+      "copies left over",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v09",
+      "{在庫品|ざいこひん}",
+      "zaikohin",
+      "goods held in stock",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v10",
+      "{売切|うりき}れ",
+      "urikire",
+      "sold out",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v11",
+      "{前倒|まえだお}し",
+      "maedaoshi",
+      "bringing something forward in time",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v12",
+      "{配送先|はいそうさき}",
+      "haisōsaki",
+      "a delivery destination",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v13",
+      "{手渡|てわた}し",
+      "tewatashi",
+      "handing something over directly",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v14",
+      "{先送|さきおく}り",
+      "sakiokuri",
+      "postponement",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v15",
+      "{先延|さきの}ばし",
+      "sakinobashi",
+      "putting something off",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v16",
+      "{発送日|はっそうび}",
+      "hassōbi",
+      "the shipping date",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v17",
+      "{未着|みちゃく}",
+      "michaku",
+      "not yet arrived",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v18",
+      "{送料|そうりょう}",
+      "sōryō",
+      "shipping charge",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v19",
+      "{小包|こづつみ}",
+      "kozutsumi",
+      "a parcel",
+      "neutral"
+    ],
+    [
+      "keigo-u06-w-v20",
+      "{梱包材|こんぽうざい}",
+      "konpōzai",
+      "packing materials",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u06-g-cannot",
+      "title": "A courteous refusal still means no",
+      "explanation": "お約束いたしかねます says that you cannot make the requested promise. In this scene the Friday delivery is refused, not merely awaiting approval. かねません belongs to the different かねない pattern and does not make this refusal.",
+      "formation": "Selected 約束する → お約束いたす → お約束いたしかねます. かねる follows a verb stem; it already expresses inability or difficulty without ない.",
+      "mistake": "Do not interpret a courteous refusal as consent. Do not use this pattern as a mechanical replacement for every physical inability.",
+      "example": "金曜のお届けはお約束いたしかねます。",
+      "translation": "We cannot promise delivery on Friday.",
+      "examples": [
+        {
+          "ja": "{金曜|きんよう}のお{届|とど}けはお{約束|やくそく}いたしかねます。",
+          "en": "We cannot promise delivery on Friday."
+        },
+        {
+          "ja": "その{日程|にってい}ではお{引|ひ}き{受|う}けいたしかねます。",
+          "en": "We cannot accept that schedule."
+        },
+        {
+          "ja": "{今|いま}は{判断|はんだん}しかねます。",
+          "en": "We cannot make a decision at the moment."
+        }
+      ],
+      "words": [
+        "keigo-u06-w-v11"
+      ],
+      "lessons": [
+        "keigo-u06-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u06-g-reason",
+      "title": "State the limit and its concrete reason",
+      "explanation": "申し訳ありませんが introduces a courteous refusal. Pair it with what you cannot do and the relevant reason. A repeated apology without a limit leaves the listener unsure what is possible.",
+      "formation": "申し訳ありませんが + concrete limit. Compare ordinary polite すみませんが and a casual ごめん. The apology does not change the refusal’s meaning.",
+      "mistake": "Do not invent a reason or imply that an express shipment fixes unfinished printing. In this scene the paper arrives Friday, before production can finish.",
+      "example": "申し訳ありませんが、金曜には間に合いません。",
+      "translation": "I’m sorry, but it will not be ready by Friday.",
+      "examples": [
+        {
+          "ja": "{申|もう}し{訳|わけ}ありませんが、{金曜|きんよう}には{間|ま}に{合|あ}いません。",
+          "en": "I’m sorry, but it will not be ready by Friday."
+        },
+        {
+          "ja": "{用紙|ようし}が{金曜|きんよう}に{届|とど}くため、{納入|のうにゅう}は{月曜|げつよう}になります。",
+          "en": "The paper arrives Friday, so delivery will be Monday."
+        },
+        {
+          "ja": "{急送|きゅうそう}でも、{印刷|いんさつ}の{時間|じかん}は{短|みじか}くなりません。",
+          "en": "Even urgent shipping does not shorten the printing time."
+        }
+      ],
+      "words": [
+        "keigo-u06-w-v04"
+      ],
+      "lessons": [
+        "keigo-u06-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u06-g-alternative",
+      "title": "Offer an alternative; wait for its acceptance",
+      "explanation": "月曜午前でしたら、お届けできます offers delivery on Monday morning under that condition. It does not mean the client has accepted it. Ask whether the option works, then record their reply.",
+      "formation": "Time + でしたら + possible alternative. Compare 月曜なら届けられる (casual) and 月曜なら届けられます (ordinary polite). Selected お届けできます is your directed action.",
+      "mistake": "The alternative must be feasible. A client who says they will check with the venue has not accepted delivery or pickup.",
+      "example": "月曜午前でしたら、お届けできます。",
+      "translation": "We can deliver on Monday morning.",
+      "examples": [
+        {
+          "ja": "{月曜|げつよう}{午前|ごぜん}でしたら、お{届|とど}けできます。",
+          "en": "We can deliver on Monday morning."
+        },
+        {
+          "ja": "{月曜|げつよう}{九時|くじ}に、こちらでお{渡|わた}しすることも{可能|かのう}です。",
+          "en": "We can also hand it over here at nine on Monday."
+        },
+        {
+          "ja": "こちらの{日程|にってい}でいかがでしょうか。",
+          "en": "Would this schedule work for you?"
+        }
+      ],
+      "words": [
+        "keigo-u06-w-v13"
+      ],
+      "lessons": [
+        "keigo-u06-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u06-d-limit",
+      "lesson": "keigo-u06-lesson",
+      "title": "Shipping speed cannot finish the printing",
+      "scene": "Thursday morning: Tamura asks for Friday delivery of the fifty-copy job. You check the production limit with Mori.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u06-w-v11",
+        "keigo-u06-w-v04",
+        "keigo-u06-w-v09",
+        "keigo-u06-w-v13",
+        "keigo-u06-w-v12",
+        "keigo-u06-w-v16",
+        "keigo-u05-w-v18"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}から、{金曜|きんよう}に{五十部|ごじゅうぶ}を{届|とど}けてほしいと{連絡|れんらく}がありました。",
+          "romaji": "Tamura-sama kara, kin’yō ni gojūbu o todokete hoshii to renraku ga arimashita.",
+          "meaning": "Ms Tamura asked us to deliver the fifty copies on Friday."
+        },
+        {
+          "speaker": "Mori",
+          "line": "{火曜|かよう}の{会議|かいぎ}では、{納入日|のうにゅうび}は{決|き}めてなかったね。{用紙|ようし}が{金曜|きんよう}に{届|とど}くから、{金曜|きんよう}{中|じゅう}は{無理|むり}だよ。",
+          "romaji": "Kayō no kaigi de wa, nōnyūbi wa kimete nakatta ne. Yōshi ga kin’yō ni todoku kara, kin’yōjū wa muri da yo.",
+          "meaning": "We didn’t settle a delivery date at Tuesday’s meeting. The paper arrives Friday, so finishing that day is impossible."
+        },
+        {
+          "speaker": "You",
+          "line": "{前倒|まえだお}しはできないんですね。{急送|きゅうそう}にしても{難|むずか}しいですか。",
+          "romaji": "Maedaoshi wa dekinain desu ne. Kyūsō ni shite mo muzukashii desu ka.",
+          "meaning": "So we can’t bring it forward. Would urgent shipping help?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "うん。{送|おく}る{前|まえ}の{印刷|いんさつ}が{終|お}わらない。{在庫品|ざいこひん}でも、{指定|してい}された{紙|かみ}の{代|か}わりにはならないよ。 {表紙|ひょうし}のロゴもまだ{届|とど}いていないし。",
+          "romaji": "Un. Okuru mae no insatsu ga owaranai. Zaikohin demo, shitei sareta kami no kawari ni wa naranai yo. Hyōshi no rogo mo mada todoite inai shi.",
+          "meaning": "No. The printing wouldn’t finish before shipping. The paper in stock also won’t substitute for the specified paper. We haven’t received the cover logo yet either."
+        },
+        {
+          "speaker": "You",
+          "line": "{月曜|げつよう}なら{届|とど}けられますか。",
+          "romaji": "Getsuyō nara todokeraremasu ka.",
+          "meaning": "Could we deliver on Monday?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "{月曜|げつよう}の{午前|ごぜん}、{十一時|じゅういちじ}までには{会場|かいじょう}に{届|とど}けられる。",
+          "romaji": "Getsuyō no gozen, jūichiji made ni wa kaijō ni todokerareru.",
+          "meaning": "We can deliver to the venue by eleven on Monday morning."
+        },
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}がこちらに{取|と}りにいらっしゃる{場合|ばあい}は？",
+          "romaji": "Tamura-sama ga kochira ni tori ni irassharu baai wa?",
+          "meaning": "What if Ms Tamura comes here to pick it up?"
+        },
+        {
+          "speaker": "Mori",
+          "line": "{月曜|げつよう}{九時|くじ}に{手渡|てわた}しできる。その{二|ふた}つの{案|あん}を{伝|つた}えて。",
+          "romaji": "Getsuyō kuji ni tewatashi dekiru. Sono futatsu no an o tsutaete.",
+          "meaning": "We can hand it over at nine on Monday. Tell her those two options."
+        },
+        {
+          "speaker": "You",
+          "line": "{分|わ}かりました。{金曜|きんよう}のお{届|とど}けはお{約束|やくそく}せず、{月曜|げつよう}の{案|あん}を{相談|そうだん}します。",
+          "romaji": "Wakarimashita. Kin’yō no otodoke wa oyakusoku sezu, getsuyō no an o sōdan shimasu.",
+          "meaning": "Understood. I won’t promise Friday delivery; I’ll discuss the Monday options."
+        },
+        {
+          "speaker": "Mori",
+          "line": "お{返事|へんじ}をもらうまでは、{配送先|はいそうさき}も{発送日|はっそうび}も{確定|かくてい}しないでね。",
+          "romaji": "Ohenji o morau made wa, haisōsaki mo hassōbi mo kakutei shinaide ne.",
+          "meaning": "Don’t finalise the destination or shipping date until we have her reply."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u06-d-refusal",
+      "lesson": "keigo-u06-lesson",
+      "title": "Monday might work; it is not agreed yet",
+      "scene": "You call Tamura with the confirmed production limit and two feasible Monday options.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u06-w-v04",
+        "keigo-u06-w-v12",
+        "keigo-u06-w-v13"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "{田村様|たむらさま}、{金曜|きんよう}のお{届|とど}けについて{確認|かくにん}いたしました。",
+          "romaji": "Tamura-sama, kin’yō no otodoke ni tsuite kakunin itashimashita.",
+          "meaning": "Ms Tamura, I’ve checked about Friday delivery."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{金曜|きんよう}に{間|ま}に{合|あ}いそうですか。",
+          "romaji": "Kin’yō ni maniaisō desu ka.",
+          "meaning": "Does it look possible for Friday?"
+        },
+        {
+          "speaker": "You",
+          "line": "{申|もう}し{訳|わけ}ありませんが、{金曜|きんよう}のお{届|とど}けはお{約束|やくそく}いたしかねます。{用紙|ようし}が{金曜|きんよう}に{届|とど}くためです。",
+          "romaji": "Mōshiwake arimasen ga, kin’yō no otodoke wa oyakusoku itashikanemasu. Yōshi ga kin’yō ni todoku tame desu.",
+          "meaning": "I’m sorry, but we cannot promise Friday delivery. The paper arrives on Friday."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "そうですか。{急送|きゅうそう}でも{難|むずか}しいんですね。",
+          "romaji": "Sō desu ka. Kyūsō demo muzukashiin desu ne.",
+          "meaning": "I see. Even urgent shipping won’t work, then."
+        },
+        {
+          "speaker": "You",
+          "line": "はい。{月曜|げつよう}{午前|ごぜん}でしたら、{十一時|じゅういちじ}までに{会場|かいじょう}へお{届|とど}けできます。",
+          "romaji": "Hai. Getsuyō gozen deshitara, jūichiji made ni kaijō e otodoke dekimasu.",
+          "meaning": "That’s right. We can deliver to the venue by eleven on Monday morning."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{使|つか}うのは{火曜|かよう}なので、{月曜|げつよう}でもいいかもしれません。{会場|かいじょう}に{聞|き}いてみます。",
+          "romaji": "Tsukau no wa kayō na node, getsuyō demo ii kamoshiremasen. Kaijō ni kiite mimasu.",
+          "meaning": "We’re using them Tuesday, so Monday might work. I’ll ask the venue."
+        },
+        {
+          "speaker": "You",
+          "line": "{月曜|げつよう}{九時|くじ}に、こちらでお{渡|わた}しすることも{可能|かのう}です。",
+          "romaji": "Getsuyō kuji ni, kochira de owatashi suru koto mo kanō desu.",
+          "meaning": "We can also hand them over here at nine on Monday."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "ありがとうございます。その{二|ふた}つを{確認|かくにん}して、{今日|きょう}{三時|さんじ}までに{返事|へんじ}をします。",
+          "romaji": "Arigatō gozaimasu. Sono futatsu o kakunin shite, kyō sanji made ni henji o shimasu.",
+          "meaning": "Thank you. I’ll check both options and reply by three today."
+        },
+        {
+          "speaker": "You",
+          "line": "{承知|しょうち}しました。{配送先|はいそうさき}のお{返事|へんじ}もお{待|ま}ちしております。",
+          "romaji": "Shōchi shimashita. Haisōsaki no ohenji mo omachi shite orimasu.",
+          "meaning": "Understood. I’ll wait to hear about the delivery destination too."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい。{会場|かいじょう}に{届|とど}けてもらうか、{私|わたし}が{取|と}りに{行|い}くか、まだ{決|き}めていません。",
+          "romaji": "Hai. Kaijō ni todokete morau ka, watashi ga tori ni iku ka, mada kimete imasen.",
+          "meaning": "Yes. I haven’t decided between delivery to the venue and collecting them myself."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u06-reading-delivery",
+      "lesson": "keigo-u06-lesson",
+      "title": "Delivery record: refused, offered and undecided",
+      "genre": "guide",
+      "paragraphs": [
+        "{木曜|もくよう}の{配送|はいそう}メモ。{田村様|たむらさま}は{金曜|きんよう}に{五十部|ごじゅうぶ}のお{届|とど}けを{希望|きぼう}したが、その{日|ひ}には{間|ま}に{合|あ}わない。{用紙|ようし}が{金曜|きんよう}に{届|とど}き、その{後|あと}で{印刷|いんさつ}するため。{急送|きゅうそう}でも、この{作業|さぎょう}{時間|じかん}は{短|みじか}くならない。",
+        "{提案|ていあん}は{二|ふた}つ。{月曜|げつよう}{十一時|じゅういちじ}までに{会場|かいじょう}へお{届|とど}けするか、{月曜|げつよう}{九時|くじ}にこちらで{手渡|てわた}しする。{火曜|かよう}に{使|つか}う{予定|よてい}のため、{田村様|たむらさま}が{会場|かいじょう}に{確認|かくにん}する。",
+        "{田村様|たむらさま}のお{返事|へんじ}は{木曜|もくよう}{三時|さんじ}まで。{配送先|はいそうさき}と{受渡|うけわた}しの{方法|ほうほう}はまだ{未定|みてい}。{月曜|げつよう}の{案|あん}が{承認|しょうにん}されたとは{記録|きろく}しない。"
+      ],
+      "glosses": [
+        {
+          "text": "木曜",
+          "kana": "もくよう",
+          "meaning": "Thursday"
+        },
+        {
+          "text": "配送",
+          "kana": "はいそう",
+          "meaning": "delivery"
+        },
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "金曜",
+          "kana": "きんよう",
+          "meaning": "Friday"
+        },
+        {
+          "text": "五十部",
+          "kana": "ごじゅうぶ",
+          "meaning": "fifty copies"
+        },
+        {
+          "text": "届",
+          "kana": "とど",
+          "meaning": "deliver or arrive (in 届ける / 届く)"
+        },
+        {
+          "text": "希望",
+          "kana": "きぼう",
+          "meaning": "desired arrangement"
+        },
+        {
+          "text": "日",
+          "kana": "ひ",
+          "meaning": "day"
+        },
+        {
+          "text": "間",
+          "kana": "ま",
+          "meaning": "time (in 間に合う)"
+        },
+        {
+          "text": "合",
+          "kana": "あ",
+          "meaning": "be in time (in 間に合う)"
+        },
+        {
+          "text": "用紙",
+          "kana": "ようし",
+          "meaning": "paper for printing"
+        },
+        {
+          "text": "後",
+          "kana": "あと",
+          "meaning": "after"
+        },
+        {
+          "text": "印刷",
+          "kana": "いんさつ",
+          "meaning": "printing"
+        },
+        {
+          "text": "急送",
+          "kana": "きゅうそう",
+          "meaning": "urgent shipping"
+        },
+        {
+          "text": "作業",
+          "kana": "さぎょう",
+          "meaning": "work"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん",
+          "meaning": "time"
+        },
+        {
+          "text": "短",
+          "kana": "みじか",
+          "meaning": "short (in 短い)"
+        },
+        {
+          "text": "提案",
+          "kana": "ていあん",
+          "meaning": "proposal"
+        },
+        {
+          "text": "二",
+          "kana": "ふた",
+          "meaning": "two (in 二つ)"
+        },
+        {
+          "text": "月曜",
+          "kana": "げつよう",
+          "meaning": "Monday"
+        },
+        {
+          "text": "十一時",
+          "kana": "じゅういちじ",
+          "meaning": "eleven o’clock"
+        },
+        {
+          "text": "会場",
+          "kana": "かいじょう",
+          "meaning": "venue"
+        },
+        {
+          "text": "九時",
+          "kana": "くじ",
+          "meaning": "nine o’clock"
+        },
+        {
+          "text": "手渡",
+          "kana": "てわた",
+          "meaning": "hand over (in 手渡し)"
+        },
+        {
+          "text": "火曜",
+          "kana": "かよう",
+          "meaning": "Tuesday"
+        },
+        {
+          "text": "使",
+          "kana": "つか",
+          "meaning": "use (in 使う)"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい",
+          "meaning": "plan"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking"
+        },
+        {
+          "text": "返事",
+          "kana": "へんじ",
+          "meaning": "reply"
+        },
+        {
+          "text": "三時",
+          "kana": "さんじ",
+          "meaning": "three o’clock"
+        },
+        {
+          "text": "配送先",
+          "kana": "はいそうさき",
+          "meaning": "delivery destination"
+        },
+        {
+          "text": "受渡",
+          "kana": "うけわた",
+          "meaning": "handover (in 受渡し)"
+        },
+        {
+          "text": "方法",
+          "kana": "ほうほう",
+          "meaning": "method"
+        },
+        {
+          "text": "未定",
+          "kana": "みてい",
+          "meaning": "not yet decided"
+        },
+        {
+          "text": "案",
+          "kana": "あん",
+          "meaning": "proposal"
+        },
+        {
+          "text": "承認",
+          "kana": "しょうにん",
+          "meaning": "approval"
+        },
+        {
+          "text": "記録",
+          "kana": "きろく",
+          "meaning": "record"
+        },
+        {
+          "text": "間に合わない",
+          "kana": "まにあわない",
+          "meaning": "will not be ready in time"
+        },
+        {
+          "text": "届け",
+          "kana": "とどけ",
+          "meaning": "delivery (in お届け)"
+        },
+        {
+          "text": "届き",
+          "kana": "とどき",
+          "meaning": "arrives (in 届く)"
+        },
+        {
+          "text": "手渡し",
+          "kana": "てわたし",
+          "meaning": "handing over directly"
+        },
+        {
+          "text": "受渡し",
+          "kana": "うけわたし",
+          "meaning": "handover"
+        },
+        {
+          "text": "短くならない",
+          "kana": "みじかくならない",
+          "meaning": "does not become shorter"
+        },
+        {
+          "text": "メモ",
+          "kana": "めも",
+          "meaning": "note"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u06-x-reason",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "Why will urgent shipping NOT make Friday delivery possible?",
+      "options": [
+        "{金曜|きんよう}に{届|とど}く{用紙|ようし}で、まだ{印刷|いんさつ}が{必要|ひつよう}だから。",
+        "{会場|かいじょう}が{金曜|きんよう}に{閉|し}まるから。",
+        "{田村様|たむらさま}が{金曜|きんよう}に{出張|しゅっちょう}するから。"
+      ],
+      "answer": 0,
+      "explain": "The internal scene separates production time from shipping speed.",
+      "words": [
+        "keigo-u06-w-v04"
+      ],
+      "dialogue": "keigo-u06-d-limit",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-pickup",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "When can Tamura collect the copies here?",
+      "options": [
+        "{月曜|げつよう}{九時|くじ}。",
+        "{月曜|げつよう}{十一時|じゅういちじ}。",
+        "{金曜|きんよう}{九時|くじ}。"
+      ],
+      "answer": 0,
+      "explain": "Nine is pickup; eleven is the latest venue delivery time.",
+      "words": [
+        "keigo-u06-w-v13"
+      ],
+      "dialogue": "keigo-u06-d-limit",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-decision",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "Which option has Tamura accepted at the end of the call?",
+      "options": [
+        "まだ{決|き}めていない。",
+        "{月曜|げつよう}の{会場|かいじょう}へのお{届|とど}け。",
+        "{月曜|げつよう}の{手渡|てわた}し。"
+      ],
+      "answer": 0,
+      "explain": "Her last line explicitly says the choice is still open.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "dialogue": "keigo-u06-d-refusal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-reply",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "By when will Tamura reply?",
+      "options": [
+        "{今日|きょう}{三時|さんじ}まで。",
+        "{金曜|きんよう}{正午|しょうご}まで。",
+        "{月曜|げつよう}{九時|くじ}まで。"
+      ],
+      "answer": 0,
+      "explain": "Three today is the reply deadline, not a delivery date.",
+      "words": [
+        "keigo-u06-w-v07"
+      ],
+      "dialogue": "keigo-u06-d-refusal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-cannot",
+      "lesson": "keigo-u06-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: state that you cannot promise Friday delivery.",
+      "line": "お{約束|やくそく}いたし＿＿。",
+      "options": [
+        "かねます",
+        "かねません",
+        "ました"
+      ],
+      "answer": 0,
+      "explain": "かねます expresses the selected inability; the negative belongs to a different pattern.",
+      "words": [
+        "keigo-u06-w-v11"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-alternative",
+      "lesson": "keigo-u06-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: offer Monday morning as the possible condition.",
+      "line": "{月曜|げつよう}{午前|ごぜん}＿＿、お{届|とど}けできます。",
+      "options": [
+        "でしたら",
+        "でしたが",
+        "でしたので"
+      ],
+      "answer": 0,
+      "explain": "でしたら supplies the condition for the offer, not a completed agreement.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-urgent",
+      "lesson": "keigo-u06-lesson",
+      "type": "reply",
+      "prompt": "Tamura asks whether express shipping solves the problem. Explain the production limit.",
+      "line": "{急送|きゅうそう}でも{難|むずか}しいんですね。",
+      "options": [
+        "はい。{印刷|いんさつ}が{金曜|きんよう}{中|じゅう}には{終|お}わりません。",
+        "はい、{金曜|きんよう}に{必|かなら}ず{届|とど}きます。",
+        "{配送先|はいそうさき}は{決|き}まりました。"
+      ],
+      "answer": 0,
+      "explain": "The reply explains the actual limit instead of promising an unachievable delivery.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "dialogue": "keigo-u06-d-refusal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-wait",
+      "lesson": "keigo-u06-lesson",
+      "type": "reply",
+      "prompt": "Tamura will check both Monday options before replying. Acknowledge the open decision.",
+      "line": "{今日|きょう}{三時|さんじ}までに{返事|へんじ}をします。",
+      "options": [
+        "お{返事|へんじ}をお{待|ま}ちしております。",
+        "では、{手渡|てわた}しで{確定|かくてい}ですね。",
+        "では、{会場|かいじょう}へのお{届|とど}けで{確定|かくてい}ですね。"
+      ],
+      "answer": 0,
+      "explain": "Neither delivery nor pickup has been accepted.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "dialogue": "keigo-u06-d-refusal",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u06-x-order",
+      "lesson": "keigo-u06-lesson",
+      "type": "order",
+      "tiles": [
+        "{月曜|げつよう}{午前|ごぜん}でしたら、",
+        "お{届|とど}け",
+        "できます。"
+      ],
+      "meaning": "We can deliver on Monday morning. (Use the taught formal offer.)",
+      "explain": "The conditional offer does not assert client agreement.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-formal",
+      "lesson": "keigo-u06-lesson",
+      "type": "register",
+      "prompt": "Three ways: use the taught formal refusal when you cannot promise Friday delivery.",
+      "context": "The speaker and requested degree of formality are stated; delivery remains subject to the client’s decision.",
+      "options": [
+        "{金曜|きんよう}のお{届|とど}けはお{約束|やくそく}いたしかねます。",
+        "{金曜|きんよう}には{届|とど}けられません。",
+        "{金曜|きんよう}は{無理|むり}だよ。"
+      ],
+      "answer": 0,
+      "explain": "お約束いたしかねます is the specifically requested formal refusal.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-ordinary",
+      "lesson": "keigo-u06-lesson",
+      "type": "register",
+      "prompt": "Three ways: tell a peer in ordinary polite wording that Friday delivery is impossible.",
+      "context": "The speaker and requested degree of formality are stated; delivery remains subject to the client’s decision.",
+      "options": [
+        "{金曜|きんよう}には{届|とど}けられません。",
+        "{金曜|きんよう}のお{届|とど}けはお{約束|やくそく}いたしかねます。",
+        "{金曜|きんよう}は{無理|むり}だよ。"
+      ],
+      "answer": 0,
+      "explain": "届けられません is ordinary polite; the others are formal and casual.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-actor",
+      "lesson": "keigo-u06-lesson",
+      "type": "register",
+      "prompt": "Which wording offers your own delivery action to the external client?",
+      "context": "The speaker and requested degree of formality are stated; delivery remains subject to the client’s decision.",
+      "options": [
+        "{私|わたし}どもからお{届|とど}けいたします。",
+        "{田村様|たむらさま}がお{届|とど}けになります。",
+        "{田村様|たむらさま}からお{届|とど}けください。"
+      ],
+      "answer": 0,
+      "explain": "The selected own-side action does not change the client into the deliverer.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-venue",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "According to the delivery record, when can copies arrive at the venue?",
+      "options": [
+        "{月曜|げつよう}{十一時|じゅういちじ}まで。",
+        "{月曜|げつよう}{九時|くじ}まで。",
+        "{金曜|きんよう}{三時|さんじ}まで。"
+      ],
+      "answer": 0,
+      "explain": "The venue option is Monday by eleven; pickup here is nine.",
+      "words": [
+        "keigo-u06-w-v12"
+      ],
+      "reading": "keigo-u06-reading-delivery",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u06-x-record",
+      "lesson": "keigo-u06-lesson",
+      "type": "choice",
+      "prompt": "What does the record explicitly leave undecided?",
+      "options": [
+        "{配送先|はいそうさき}と{受渡|うけわた}しの{方法|ほうほう}。",
+        "{印刷|いんさつ}する{部数|ぶすう}。",
+        "{使|つか}う{曜日|ようび}。"
+      ],
+      "answer": 0,
+      "explain": "The destination and handover method await the client’s response.",
+      "words": [
+        "keigo-u06-w-v13"
+      ],
+      "reading": "keigo-u06-reading-delivery",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "The quote and fifty-copy job continue naturally. A prior-unit reference will be bound only to words actually spoken; no shipping vocabulary quota is forced into the dialogue."
+  }
+}
