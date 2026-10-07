@@ -110,3 +110,6 @@ Current references cover 1,136 characters. There are 7,068 Clear keys / 7,080 sy
 
 
 N2 interview-capstone research: JASSO 2027 Employment Guide for International Students (official 2025/12/12 PDF; selected printed pages 34/48/59), MHLW JobCard interview guidance, Culture Agency keigo chapter 2, MLC Keigo table, Bunpro いたす and Mynavi’s 御社/貴社/弊社 explanation. URLs and inspected scope in content/sources/grammar/n2-u16.json. These are formation and context references; no publisher dialogue, exercise, exam item or real speaker recording was imported. All capstone text is original AI-assisted draft; independent native review pending.
+
+
+N1 unit 1 adds 54 original source-checked pairs, three lessons, four notes, 39 scene lines, two original readings (1062/1120 characters) and twenty tasks. Sources and review: content/sources/grammar/n1-u01.json / output/review-n1.md. Formation references are consulted, never copied as lesson prose. Current inventory: 80 packs, 3,354 records, 300 lessons, 208 notes, 110 scenes / 1,028 lines, 62 readings / 21,795 characters and 1,292 kanji pages. All prior audio and reference bytes preserved; all 151 new WAVs mapped, including two indexed superseded takes. Native review and the rest of N1/keigo/decks/final deploy remain unfinished. Precache 14,424.09 KiB; production offline verification 2026-10-07T02:05:25.761Z.

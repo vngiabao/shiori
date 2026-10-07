@@ -245,6 +245,15 @@ for (const unit of [
       ["A follow-up, a repair and the next step", "n2-u16-d-followup", "Ask the interviewer without reversing the actor", "Introduce your own experience respectfully"],
     ],
   },
+  {
+    id: "n1-u01", reading: "The letter brought back across the bridge",
+    secondReading: "What I kept; what I revised",
+    lessons: [
+      ["A gesture, before the words are heard", "n1-u01-d-draft", "A gesture described as almost doing something", "An obstacle does not stop the action"],
+      ["Across the bridge, then into the letter", "n1-u01-d-detail", "An obstacle does not stop the action", "Not even one: a strong negative boundary"],
+      ["Keep the letter; revise the draft", "n1-u01-d-edit", "Not even one: a strong negative boundary", "A gesture described as almost doing something"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -359,7 +368,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();

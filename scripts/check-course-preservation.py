@@ -50,8 +50,12 @@ def collect(v):
  elif isinstance(v,list):
   for x in v:collect(x)
 for name in ['audio','violetto-baseline','violetto-auditions','violetto-emotions','violetto-teacher','dialogue-voices','cast-auditions']:collect(now(f'src/generated/{name}.json'))
+active_urls=set(urls)
+# Superseded speaker takes remain explicitly indexed and hash-checked in history.
+# They are intentional archived recordings, not unreferenced loose WAVs.
+collect(history)
 files=subprocess.check_output(['git','ls-files','--others','--exclude-standard','public/audio'],cwd=root).decode().splitlines()
 assert all('/'+name.removeprefix('public/') in urls for name in files),'New orphan audio'
-report={'base':args.base,'oldClearKeysPreserved':len(before),'unchangedDialogueMappingsPreserved':unchanged,'revisedDialogueMappings':revised,'historicalDialogueRecords':len(history),'newWavsMapped':len(files),'oldKanjiAndStrokesUnchanged':True}
+report={'base':args.base,'oldClearKeysPreserved':len(before),'unchangedDialogueMappingsPreserved':unchanged,'revisedDialogueMappings':revised,'historicalDialogueRecords':len(history),'newWavsMapped':len(files),'newWavsActive':sum('/'+name.removeprefix('public/') in active_urls for name in files),'newWavsArchived':sum('/'+name.removeprefix('public/') not in active_urls for name in files),'oldKanjiAndStrokesUnchanged':True}
 (root/'output/course-preservation-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(f"Preserved {len(before)} Clear keys and {unchanged} unchanged dialogue mappings; {len(revised)} authorised scene revisions correctly mapped, {len(history)} historical takes retained. All {len(files)} new WAVs referenced.")
