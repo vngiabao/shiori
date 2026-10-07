@@ -1,6 +1,6 @@
 # Shiori whole-course release — 7 October 2026
 
-Release checks are in progress. Production deployment and removal of Shiori's extra Cloudflare Access gate are not yet complete. `course-progress.md` records the exact current step; older checkpoint reports are historical.
+All local release checks pass. Production deployment and removal of Shiori's extra Cloudflare Access gate are the remaining rollout steps. `course-progress.md` records the exact current step; older checkpoint reports are historical.
 
 ## Authored scope
 
@@ -19,7 +19,7 @@ The final production test found and fixed an initial-scene playback race. Previo
 
 ## Evidence already complete
 
-Content, dictionary readings, four vocabulary ledgers, grammar-note binding, all 450 written practice items, five audio validators and preservation checks pass. TypeScript, 183 unit tests, 31 Python source tests and the production build pass. All three deployment dry runs and the simulated CI name/tag guard check pass. Full production browser and final-build offline checks are the remaining local gates.
+Content, dictionary readings, four vocabulary ledgers, grammar-note binding, all 450 written practice items, five audio validators and preservation checks pass. TypeScript, 183 unit tests, 31 Python source tests and the production build pass. The full production browser suite passes all 175 applicable cases; eleven development-only module fixtures are separately verified on the development server. All three deployment dry runs and the simulated CI name/tag guard check pass. Final-build offline verification passes at 2026-10-07T22:49:07.000Z: interrupted download/retry, all 19,361 required recordings retained, all 32 course chunks cached, examples played from all 73 decks, advanced lessons/JLPT/teacher audio available after offline reload and zero page errors. The completed content is backed up at commit 02489634 on the non-production course-build branch.
 
 The production shell precaches 2,369 entries / 14,756.83 KiB, below 15 MiB. The complete optional offline audio library is about 2 GB; limited browser storage can prevent or later evict it. Retry, storage failure and retention are checked explicitly. Course text loads by level; audio caches on use unless the learner requests the optional complete download.
 
