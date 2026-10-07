@@ -191,3 +191,10 @@ The status stays "AI-assisted draft" until a person reviews it.
 Research update (6 October 2026): n3-u06 retrieves ことにする from N4 units 11/12 and fully teaches the arrangement/result bridge ことになる. Both publishers disagree N3/N4 on these forms. Advisory ことだ is N3-tagged by Bunpro and N2-tagged by JLPT Sensei; introduce supported use here and retrieve in n2-u02, without claiming an official level. Form-specific brief: content/sources/grammar/n3-u06.json.
 
 Research update (6 October 2026): n3-u07 contrasts N4 conditional retrieval (と/ば/たら/なら). n3-u08 form brief verifies the concessive のに-despite page separately from purpose のに. ても/のに are N4 bridges; くせに/ながらも are N3-tagged by both selected publishers. All tags are editorial.
+
+
+## N1 unit 5 verified checkpoint
+
+54 restricted-JMdict pairs, three lessons, four notes, 39 scene lines, two original readings (874/879 characters), twenty tasks. Final TypeScript, 121 unit tests / 18 files, 24 Python tests, content/dictionary/ledger/JLPT294, five audio validators and preservation pass. All 9,879 prior Clear keys and 1,145 earlier scene mappings preserved; all 141 new WAVs referenced; 131 historical takes retained. Current 10,035 Clear keys / 10,047 synthesis records / 1,184 scene takes / 1,337 kanji references. Browser decodes all 39 scene WAVs, checks three lesson-specific note sets, replay, both readings at 375/1440 in saved light/dark themes, axe and overflow; detail screenshots inspected. Production build and real offline playback pass: 1,701 entries / 14,865.84 KiB; offline 2026-10-07T03:57:23.610Z. Native review pending; no production deployment.
+
+Exact next: implement actual on-demand course delivery/cache before further expansion crosses the 15 MiB install cap, retaining course access, saved progress and prior audio. Then N1 unit 6 speeches/ceremonies: research precise opening, thanks, toast and closing forms using primary authored sources before drafting. Finish N1 and twelve keigo cores before remaining decks. Never rerun ignored author-n1-u05.py or refine-n1-u05.py over canonical corrections.

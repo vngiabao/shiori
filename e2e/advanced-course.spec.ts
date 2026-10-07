@@ -281,6 +281,15 @@ for (const unit of [
       ["A smaller proposal is still a proposal", "n1-u04-d-review", "An unattained extent, then a lesser one", "A stated claim meets a practical qualification"],
     ],
   },
+  {
+    id: "n1-u05", reading: "Two booklet offers: confirmation requested",
+    secondReading: "The reply that made the order ready",
+    lessons: [
+      ["Put conditions behind a proposal", "n1-u05-d-options", "State the condition behind the offer", "Make a request without treating it as an answer"],
+      ["Request the client’s confirmation", "n1-u05-d-client", "Make a request without treating it as an answer", "Restate the understanding and invite correction"],
+      ["Check the terms before proceeding", "n1-u05-d-confirm", "Restate the understanding and invite correction", "State the condition behind the offer"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -395,7 +404,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();
