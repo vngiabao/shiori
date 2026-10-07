@@ -1,11 +1,11 @@
 {
-  "version": 3,
-  "checkedAt": "2026-10-06",
+  "version": 5,
+  "checkedAt": "2026-10-07",
   "questionStatus": "Original AI-assisted draft; no publisher text or questions reproduced; no human editorial review yet",
   "levelStatus": "Editorial estimates for practice organisation, not verified official test-item levels",
-  "coverage": "294 questions across five pathways: N5, N4 and N3 each have 60 checkpoint items and 30 distinct timed-sample items; N2/N1 retain six checkpoint and six sample items each. No internal listening exam, sentence-order runner or full-length calibrated mock test.",
+  "coverage": "450 original questions across five pathways: each level has sixty checkpoint items and thirty distinct timed-sample items. No internal listening exam, sentence-order runner or full-length calibrated mock test. Advanced passages are short/medium supplemental practice, not a complete representation of long official reading tasks.",
   "selection": "Two items per checkpoint, six per timed sample with two per written section. Prefer unseen then least-seen items in saved history; persist selected IDs. Historical question IDs and answer positions are preserved. Completion does not require full bank coverage.",
-  "authoring": "scripts/author-n5-bank.py, author-n4-bank.py and author-n3-bank.py preserve historical items and compile original answer-first drafts. bank-sizes.json declares expected sizes. Internal answer/context review; no native-editor approval or psychometric calibration.",
+  "authoring": "scripts/author-n5-bank.py through author-n1-bank.py preserve historical items and compile original answer-first drafts. bank-sizes.json declares expected sizes. Internal answer/context review; no native-editor approval or psychometric calibration.",
   "sourceMethod": "Publisher catalogues establish series/level availability and provide external study access. Shiori focus lists, gates and assignments are original editorial organisation, not a publisher chapter-by-chapter mapping. Learners record their own edition and pages.",
   "sources": [
     {
@@ -39,5 +39,7 @@
       "use": "Reference for scope; Shiori short timers are not official test timings"
     }
   ],
-  "n3Review": "Original short passages distinguish source/date, past/future, conditions, permissions, comparisons and claims. Clozes name the requested formation to avoid scoring equivalent variants as wrong. A stray で after the 早めに sample blank was removed before validation. Samples use different passages/prompts from checkpoints. Short written practice does not cover every official task type."
+  "n3Review": "Original short passages distinguish source/date, past/future, conditions, permissions, comparisons and claims. Clozes name the requested formation to avoid scoring equivalent variants as wrong. A stray で after the 早めに sample blank was removed before validation. Samples use different passages/prompts from checkpoints. Short written practice does not cover every official task type.",
+  "n2Review": "78 original additions. Thirteen reading pairs checked against pinned restricted JMdict; formations checked against existing researched N2/keigo briefs. Explicit named-form tasks avoid false contrasts between overlapping valid constructions. Actor/own-side contexts make keigo choices determinate. Short reading questions distinguish proposals from decisions, confirmed actions from conditional ones, and specific instructions from unsupported claims. Corrected an unasserted-error inference in the email task and made the library-trial question ask about the proposal. All294 historical objects preserved; new timed prompts/passages distinct from checkpoints. Short supplemental tasks, not full-length N2 exam calibration.",
+  "n1Review": "78 original additions. Fifteen restricted pinned JMdict base-reading pairs; formations checked against researched N1/keigo briefs. Named forms, literary negation and respectful actor frames have explicit contexts. Twenty-six original short/medium passages distinguish inference from evidence, conditions from firm actions, purpose, common positions and differences. Confirmed-sample and Saturday-return questions revised to avoid unsupported assertions. All372 historical objects preserved. Editorial estimates, not certified N1 difficulty."
 }

@@ -4608,5 +4608,2445 @@
     "focus": "Reading · schedule and prerequisites",
     "passage": "土曜日は無料展示を十時から十二時まで開きます。申し込みはいりません。有料講座は十一時からですが、金曜日までに応募した方だけが参加できます。予約相談は午後二時、定員五人です。日曜日は会場を閉めます。展示だけを見る方は、当日受付で名前を伝えてください。",
     "section": "reading"
+  },
+  {
+    "id": "n2-v03",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "資料の概要をまとめました。「概要」の読み方は？",
+    "options": [
+      "かいよう",
+      "がいよ",
+      "がいよう",
+      "がいゆう"
+    ],
+    "answer": 2,
+    "explanation": "概要 is がいよう, an outline or overview. Both がい and よう are retained.",
+    "focus": "Overview reading"
+  },
+  {
+    "id": "n2-v04",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "期限を延長しました。「延長」の読み方は？",
+    "options": [
+      "えんじょう",
+      "いんちょう",
+      "えんしょう",
+      "えんちょう"
+    ],
+    "answer": 3,
+    "explanation": "延長 is えんちょう, extension. It is not 炎上 or 院長.",
+    "focus": "Extension reading"
+  },
+  {
+    "id": "n2-v05",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "申請書を提出してください。「申請」の読み方は？",
+    "options": [
+      "しんせい",
+      "しんしょう",
+      "もうせい",
+      "しんぜい"
+    ],
+    "answer": 0,
+    "explanation": "申請 is しんせい, an application or request for authorisation.",
+    "focus": "Application reading"
+  },
+  {
+    "id": "n2-v06",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "静かな環境で働きたい。「環境」の読み方は？",
+    "options": [
+      "かんぎょう",
+      "かんきょう",
+      "かんけい",
+      "かんこう"
+    ],
+    "answer": 1,
+    "explanation": "環境 is かんきょう, environment. 関係 and 観光 are different words.",
+    "focus": "Environment reading"
+  },
+  {
+    "id": "n2-v07",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "料金には税金が含まれます。「含まれます」の読み方は？",
+    "options": [
+      "ふくめます",
+      "つつまれます",
+      "ふくまれます",
+      "ふまれます"
+    ],
+    "answer": 2,
+    "explanation": "含まれる is ふくまれる, be included; 含める is a different verb form.",
+    "focus": "Included reading"
+  },
+  {
+    "id": "n2-v08",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "相手の提案を承認しました。「承認」の読み方は？",
+    "options": [
+      "しょうねん",
+      "じょうにん",
+      "せいにん",
+      "しょうにん"
+    ],
+    "answer": 3,
+    "explanation": "承認 is しょうにん, approval or recognition. Keep しょう and にん.",
+    "focus": "Approval reading"
+  },
+  {
+    "id": "n2-v09",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "議論の根拠を確認しました。「根拠」の読み方は？",
+    "options": [
+      "こんきょ",
+      "こんこ",
+      "ねきょ",
+      "こんぎょ"
+    ],
+    "answer": 0,
+    "explanation": "根拠 is こんきょ, a basis or grounds for an argument.",
+    "focus": "Grounds reading"
+  },
+  {
+    "id": "n2-v10",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "複数の案を比較します。「比較」の読み方は？",
+    "options": [
+      "びかく",
+      "ひかく",
+      "ひこう",
+      "ひがく"
+    ],
+    "answer": 1,
+    "explanation": "比較 is ひかく, comparison; the first consonant is h, not b.",
+    "focus": "Comparison reading"
+  },
+  {
+    "id": "n2-v11",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "この変更の影響を調べます。「影響」の読み方は？",
+    "options": [
+      "えいこう",
+      "えきょう",
+      "えいきょう",
+      "えいぎょう"
+    ],
+    "answer": 2,
+    "explanation": "影響 is えいきょう, influence or an effect. 営業 is えいぎょう.",
+    "focus": "Effect reading"
+  },
+  {
+    "id": "n2-v12",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "施設の維持に費用がかかる。「維持」の読み方は？",
+    "options": [
+      "いち",
+      "ゆいじ",
+      "いし",
+      "いじ"
+    ],
+    "answer": 3,
+    "explanation": "維持 is いじ, maintenance or keeping something in its existing state.",
+    "focus": "Maintenance reading"
+  },
+  {
+    "id": "n2-v13",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "会議で意見が分かれたので、結論は次回に（　）した。",
+    "options": [
+      "持ち越すことに",
+      "見落とすことに",
+      "乗り越えることに",
+      "取り戻すことに"
+    ],
+    "answer": 0,
+    "explanation": "持ち越す postpones an unresolved matter to a later occasion. 次回 and the divided opinions supply the context.",
+    "focus": "Carry-over collocation"
+  },
+  {
+    "id": "n2-v14",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "新しい案には賛成です。ただし、費用について一つ（　）があります。予算を超えないか心配です。",
+    "options": [
+      "歓迎",
+      "懸念",
+      "恩恵",
+      "承認"
+    ],
+    "answer": 1,
+    "explanation": "懸念 means concern. The following sentence specifies worry about exceeding the budget.",
+    "focus": "Concern in context"
+  },
+  {
+    "id": "n2-v15",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "話し合いの前に、参加者へ資料を（　）した。全員に一部ずつ渡した。",
+    "options": [
+      "廃止",
+      "中断",
+      "配布",
+      "採用"
+    ],
+    "answer": 2,
+    "explanation": "配布 is distribution. The second sentence makes giving each participant a copy explicit.",
+    "focus": "Distribution context"
+  },
+  {
+    "id": "n2-v16",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "人数ではなく、一人一人の話を詳しく聞く調査をした。「詳しく」に近いのは？",
+    "options": [
+      "急いで終わらせて",
+      "順序を逆にして",
+      "同じ言葉だけで",
+      "細かいところまで"
+    ],
+    "answer": 3,
+    "explanation": "詳しく concerns detail, not speed, reverse order or verbatim repetition.",
+    "focus": "Detail paraphrase"
+  },
+  {
+    "id": "n2-v17",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "この文では、調査の「対象」を十代の利用者に限っている。「対象」とは？",
+    "options": [
+      "調べる相手や範囲",
+      "調査を終える時刻",
+      "使う紙の厚さ",
+      "必ず得られる答え"
+    ],
+    "answer": 0,
+    "explanation": "Here 対象 names the people or scope studied, not a time, material or guaranteed conclusion.",
+    "focus": "Target in context"
+  },
+  {
+    "id": "n2-v18",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "「手間を省く」に最も近い意味は？",
+    "options": [
+      "仕事の人数を必ず増やす",
+      "作業に必要な労力を減らす",
+      "完成した物をすべて捨てる",
+      "費用を知らせない"
+    ],
+    "answer": 1,
+    "explanation": "手間 is the effort or work involved; 省く omits or reduces it. It does not necessarily change staffing.",
+    "focus": "Effort collocation"
+  },
+  {
+    "id": "n2-v19",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "「見直す」を自然に使った文はどれですか。",
+    "options": [
+      "駅まで見直して、電車に乗りました。",
+      "コップを見直して、お茶を飲みました。",
+      "結果が悪かったので、計画を見直しました。",
+      "弟を見直して、三人にしました。"
+    ],
+    "answer": 2,
+    "explanation": "In this sentence, 見直す means reconsider or review the plan because the result was poor.",
+    "focus": "Review usage"
+  },
+  {
+    "id": "n2-v20",
+    "level": "N2",
+    "stage": "vocabulary",
+    "prompt": "「補う」を自然に使った文はどれですか。",
+    "options": [
+      "予定の時刻を補って、遅れました。",
+      "窓を補って、景色を見ました。",
+      "食事を補って、皿を洗いました。",
+      "不足している説明を、図で補いました。"
+    ],
+    "answer": 3,
+    "explanation": "補う fills a lack. The missing explanation is supplemented with a diagram.",
+    "focus": "Supplement usage"
+  },
+  {
+    "id": "n2-g03",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「に際して」で行事と注意を結ぶ。会場を（　）に際して、利用規則を確認した。",
+    "options": [
+      "予約したの",
+      "予約して",
+      "予約する",
+      "予約します"
+    ],
+    "answer": 2,
+    "explanation": "Dictionary verb + に際して: 予約するに際して. The final past tense does not change this attachment.",
+    "focus": "Occasion attachment"
+  },
+  {
+    "id": "n2-g04",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「にあたって」で準備を述べる。店の開店（　）、スタッフ全員で打ち合わせた。",
+    "options": [
+      "をあたって",
+      "のあたって",
+      "があたって",
+      "にあたって"
+    ],
+    "answer": 3,
+    "explanation": "Event noun + にあたって attaches directly. Similar occasion expressions may overlap; this prompt requests the named construction.",
+    "focus": "Undertaking attachment"
+  },
+  {
+    "id": "n2-g05",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「に限らず」で範囲を広げる。学生（　）、社会人も参加できます。",
+    "options": [
+      "に限らず",
+      "を限らず",
+      "が限らず",
+      "の限らず"
+    ],
+    "answer": 0,
+    "explanation": "Noun + に限らず includes cases beyond the noun, here working adults as well as students.",
+    "focus": "Inclusive scope"
+  },
+  {
+    "id": "n2-g06",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「かねる」で難しい対応を丁重に断る。今すぐのお返事は（　）かねます。",
+    "options": [
+      "いたす",
+      "いたし",
+      "いたした",
+      "いたして"
+    ],
+    "answer": 1,
+    "explanation": "Verb masu stem + かねる: いたし + かねます. Here the speaker politely says an immediate answer is difficult.",
+    "focus": "Polite difficulty stem"
+  },
+  {
+    "id": "n2-g07",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「ないこともない」で可能性を控えめに認める。時間を変えれば、参加（　）こともない。",
+    "options": [
+      "できなく",
+      "できず",
+      "できない",
+      "できます"
+    ],
+    "answer": 2,
+    "explanation": "Negative plain できない + こともない cautiously admits participation may be possible. It is not a commitment.",
+    "focus": "Qualified possibility"
+  },
+  {
+    "id": "n2-g08",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「をもとにした」で名詞を修飾する。昔の写真（　）映像です。",
+    "options": [
+      "をもとにしての",
+      "をもとにするの",
+      "をもとに",
+      "をもとにした"
+    ],
+    "answer": 3,
+    "explanation": "をもとにした modifies 映像. This asks for the named source-material modifier, not an exclusive choice among equivalent source expressions.",
+    "focus": "Source modifier"
+  },
+  {
+    "id": "n2-g09",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「をめぐる」で名詞を修飾する。跡地の利用（　）議論が続いている。",
+    "options": [
+      "をめぐる",
+      "をめぐって",
+      "をめぐりの",
+      "をめぐるの"
+    ],
+    "answer": 0,
+    "explanation": "Noun + をめぐる modifies 議論. をめぐって can connect to a predicate but is not the requested noun modifier here.",
+    "focus": "Issue modifier"
+  },
+  {
+    "id": "n2-g10",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「を通じて」で仲介を示す。友人（　）、その先生に連絡した。",
+    "options": [
+      "に通じて",
+      "を通じて",
+      "が通じて",
+      "の通じて"
+    ],
+    "answer": 1,
+    "explanation": "Noun + を通じて marks the intermediary, here a friend. The named form avoids a false contrast with を通して.",
+    "focus": "Intermediary attachment"
+  },
+  {
+    "id": "n2-g11",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：な形容詞「便利だ」を「一方で」に付ける。この道具は便利（　）一方で、手入れに時間がかかる。",
+    "options": [
+      "だ",
+      "に",
+      "な",
+      "を"
+    ],
+    "answer": 2,
+    "explanation": "A na-adjective uses な before 一方で: 便利な一方で. The two clauses discuss different aspects.",
+    "focus": "Na-adjective contrast"
+  },
+  {
+    "id": "n2-g12",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「に応じて」で条件に合わせた変化を示す。参加人数（　）、部屋の広さを変える。",
+    "options": [
+      "を応じて",
+      "が応じて",
+      "の応じて",
+      "に応じて"
+    ],
+    "answer": 3,
+    "explanation": "Noun + に応じて means according to or in response to that condition; the room changes with the number.",
+    "focus": "Condition-responsive change"
+  },
+  {
+    "id": "n2-g13",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「だけに」で理由と結果を強く結ぶ。準備に時間を（　）だけに、中止が残念だ。",
+    "options": [
+      "かけた",
+      "かけて",
+      "かけます",
+      "かけたら"
+    ],
+    "answer": 0,
+    "explanation": "Plain past かけた attaches to だけに. The preparation effort makes the disappointment particularly strong.",
+    "focus": "Reason attachment"
+  },
+  {
+    "id": "n2-g14",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：名詞「初めて」を「にしては」に付ける。初めて（　）、とても上手にできた。",
+    "options": [
+      "をしては",
+      "にしては",
+      "がしては",
+      "のしては"
+    ],
+    "answer": 1,
+    "explanation": "Noun + にしては compares the result with what that circumstance might suggest.",
+    "focus": "Against-expectation attachment"
+  },
+  {
+    "id": "n2-g15",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「わけにはいかない」で状況上の制約を述べる。約束したので、途中で（　）わけにはいかない。",
+    "options": [
+      "帰って",
+      "帰ります",
+      "帰る",
+      "帰り"
+    ],
+    "answer": 2,
+    "explanation": "Dictionary verb + わけにはいかない: leaving is constrained by the promise, not stated to be physically impossible.",
+    "focus": "Situational constraint"
+  },
+  {
+    "id": "n2-g16",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「にすぎない」で限定する。これは私個人の感想（　）。",
+    "options": [
+      "をすぎません",
+      "がすぎません",
+      "のすぎません",
+      "にすぎません"
+    ],
+    "answer": 3,
+    "explanation": "Noun + にすぎない limits the statement to a personal impression. It does not deny having that impression.",
+    "focus": "Limitation attachment"
+  },
+  {
+    "id": "n2-g17",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "形の練習：「かどうか」で疑問を文に組み込む。この案が実現できる（　）、調べている。",
+    "options": [
+      "かどうか",
+      "をどうか",
+      "がどうか",
+      "のどうか"
+    ],
+    "answer": 0,
+    "explanation": "A plain predicate + かどうか embeds whether the proposal is feasible. The investigation has not yet resolved it.",
+    "focus": "Embedded uncertainty"
+  },
+  {
+    "id": "n2-g18",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "顧客に、自分が資料を見たことを伝える。最も合う文は？",
+    "options": [
+      "資料をご覧になりました。",
+      "資料を拝見しました。",
+      "資料をお読みになってください。",
+      "資料をご覧になりますか。"
+    ],
+    "answer": 1,
+    "explanation": "拝見 is the speaker’s own humble act of looking. The other forms refer to or request the respected listener’s action.",
+    "focus": "Keigo actor"
+  },
+  {
+    "id": "n2-g19",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "社外の人に、自分の会社の部長が不在だと伝える。適切なのは？",
+    "options": [
+      "松本部長様は、ただいまいらっしゃいません。",
+      "部長の松本様は、ただいまいらっしゃいません。",
+      "部長の松本は、ただいま席を外しております。",
+      "部長の松本は、ただいま席を外してくださいます。"
+    ],
+    "answer": 2,
+    "explanation": "In this external own-company reference, use the role plus name without elevating the own-side colleague; おります is suitable for the speaker’s side.",
+    "focus": "External own-side reference"
+  },
+  {
+    "id": "n2-g20",
+    "level": "N2",
+    "stage": "grammar",
+    "prompt": "面接で相手の会社を指す。通常の話し言葉に合うのは？",
+    "options": [
+      "弊社",
+      "当社",
+      "自社",
+      "御社"
+    ],
+    "answer": 3,
+    "explanation": "御社 addresses the listener’s company in the stated spoken interview. 弊社, 当社 and 自社 refer to one’s own company.",
+    "focus": "Spoken company reference"
+  },
+  {
+    "id": "n2-r03",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者が朝に練習する曲を変えた理由は？",
+    "options": [
+      "全部の曲を忘れたため",
+      "夜の練習を完全にやめるため",
+      "限られた時間で難しい部分を練習するため",
+      "短い曲だけが好きになったため"
+    ],
+    "answer": 2,
+    "explanation": "The writer isolates difficult passages to make a short morning session useful; whole pieces are still played at night.",
+    "focus": "Practice priorities",
+    "passage": "仕事に出る前の十分間、好きな曲を最初から弾いていた。しかし、途中で時間切れになり、後半の苦手なところまで進めない日が多かった。そこで朝は、難しい二小節だけを繰り返すことにした。曲全体は夜に弾く。短い時間でも、練習する場所を先に決めておけば、ただ途中まで弾くより役に立つ。朝の十分間を長くする必要はなかった。"
+  },
+  {
+    "id": "n2-r04",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "この案内によると、予約済みの人は何をする必要がありますか。",
+    "options": [
+      "全員予約を取り直す",
+      "当日の入口で追加料金を払う",
+      "西側の入口だけを使う",
+      "利用日前日までに新しい入口を確認する"
+    ],
+    "answer": 3,
+    "explanation": "Existing bookings remain valid. The notice asks users to check the new east entrance by the previous day; it does not impose a new fee.",
+    "focus": "Notice action",
+    "passage": "来月から会議室への入口を変更します。工事中の西側入口は使えませんので、東側入口からお入りください。すでにいただいた予約は有効で、取り直す必要はありません。ただし、東側への行き方を知らない方は、利用日の前日までにウェブサイトの地図をご確認ください。室内の設備と利用料金には変更がありません。"
+  },
+  {
+    "id": "n2-r05",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者は借りた本について、どのように考えていますか。",
+    "options": [
+      "読み切れなくても、気になった箇所から学べる",
+      "最後まで読まなければ何も残らない",
+      "借りた本はすべて買うべきだ",
+      "読んだページ数だけが大切だ"
+    ],
+    "answer": 0,
+    "explanation": "The writer rejects treating an unfinished book as wasted time and values useful passages encountered.",
+    "focus": "Value of partial reading",
+    "passage": "借りた本を最後まで読めないと、以前は時間を無駄にした気がした。今は、途中で読むのをやめても、気になった一節をノートに残す。後日、その一節が別の本を理解する助けになることがある。もちろん、最後まで読む楽しさもある。ただ、読み終えたかどうかだけで、本から何を得たかを決める必要はないと思う。"
+  },
+  {
+    "id": "n2-r06",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "メールの送り手が求めているのは？",
+    "options": [
+      "写真の差し替えも今日中に終える",
+      "開催日と参加費の確認結果を今日中に返す",
+      "すべての文章を書き直す",
+      "完成した原稿をもう一度送る"
+    ],
+    "answer": 1,
+    "explanation": "The immediate request is checking the two figures. Replacing photographs can wait until tomorrow; publication waits for checking.",
+    "focus": "Email priority",
+    "passage": "原稿をお送りいただき、ありがとうございます。写真の差し替えについては、明日でも間に合います。先に、本文にある開催日と参加費の二つの数字をご確認いただけますか。掲載する前に正しい内容を確定したいので、数字についてだけ本日中にご返信ください。ほかの文章を書き直していただく必要はありません。確認後、こちらで修正します。"
+  },
+  {
+    "id": "n2-r07",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "AとBに共通する考えは？",
+    "options": [
+      "検索はすべてやめるべきだ",
+      "辞書を見れば必ず覚えられる",
+      "情報を見つけることと理解することは同じではない",
+      "知らない言葉は無視すればよい"
+    ],
+    "answer": 2,
+    "explanation": "A distinguishes finding an answer from explaining it; B distinguishes obtaining a definition from understanding a sentence. Both separate retrieval and understanding.",
+    "focus": "Integrated viewpoints",
+    "passage": "【A】検索すれば答えがすぐ見つかる。しかし、見つけた答えを自分の言葉で説明できるとは限らない。私は、答えを読む前に、自分がどこで困ったかを書くようにしている。\n【B】知らない言葉を辞書で調べることは大切だ。ただ、その意味をコピーしただけで、読んでいた文が分かるとは限らない。意味を確かめたら、元の文に戻って読み直す必要がある。"
+  },
+  {
+    "id": "n2-r08",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "店が今回の変更で優先したことは？",
+    "options": [
+      "毎日できるだけ長く開けること",
+      "すべての利用者に同じ時刻を指定すること",
+      "昼休みをなくすこと",
+      "利用者が入りやすい時間帯を用意すること"
+    ],
+    "answer": 3,
+    "explanation": "The shop chooses a once-weekly early opening based on access, rather than extending every day or dictating one time for all.",
+    "focus": "Service decision",
+    "passage": "ある店は営業時間を延ばす案を考えていたが、利用者に聞くと、夕方より朝に寄りたいという声が多かった。そこで、閉店を遅くする代わりに、週に一日だけ開店を早めることにした。毎日長く開けるのではなく、必要とされる時間を選んだのである。まず一か月試し、実際の利用状況を見てから続けるかどうかを決める。"
+  },
+  {
+    "id": "n2-r09",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者が写真を残す方法を変えた目的は？",
+    "options": [
+      "あとでどこで撮ったか思い出せるようにする",
+      "写真の数を必ず減らす",
+      "文字だけで旅行を記録する",
+      "撮った写真を全部公開する"
+    ],
+    "answer": 0,
+    "explanation": "Adding location and a brief reason helps retrieve memories later. The passage does not require fewer photographs or public posting.",
+    "focus": "Record purpose",
+    "passage": "旅行先で多くの写真を撮っても、数年たつと、どこで撮ったのか分からなくなることがあった。そこで最近は、その日のうちに場所と短い一言を写真に添えている。上手な文章でなくてもよい。「この角を曲がったら海が見えた」と書いておくだけで、後から景色だけでなく、その時の気持ちも思い出しやすくなる。写真を撮る枚数は変えていない。"
+  },
+  {
+    "id": "n2-r10",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "参加者が当日持ってくるものは？",
+    "options": [
+      "完成した作品だけ",
+      "修理したい物と、あればその説明書",
+      "会場の工具を自宅から借りてきた物",
+      "新品の部品を必ず二つ"
+    ],
+    "answer": 1,
+    "explanation": "The object is required; its instruction booklet is requested only if available. Tools are provided, and repair may not be possible.",
+    "focus": "Conditional requirements",
+    "passage": "修理を試してみる会を土曜日に開きます。直したい物を一つお持ちください。説明書をお持ちの方は、それもご持参ください。工具はこちらで用意します。部品が必要になった場合は、次の方法を一緒に考えますので、先に買う必要はありません。すべての物を当日直せるとは限りませんが、状態を確認し、できる作業を試します。"
+  },
+  {
+    "id": "n2-r11",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者が昼休みに外へ出るようになったのは？",
+    "options": [
+      "仕事の量を必ず半分にするため",
+      "職場で食事を取れなくなったため",
+      "午後の仕事に戻る前に気分を切り替えるため",
+      "運動の記録を毎日増やすため"
+    ],
+    "answer": 2,
+    "explanation": "A brief change of surroundings helps the writer reset before afternoon work; it does not guarantee reduced workload or require exercise tracking.",
+    "focus": "Personal routine",
+    "passage": "忙しい日は、昼休みも机に向かっていた。そのほうが仕事が進むと思っていたのだ。ところが、午後になると同じ文を何度も読み直し、かえって時間がかかっていた。今は昼食の後、十分だけ外へ出る。歩く速さや距離を測るわけではない。外の空気に触れてから戻ると、午前中の作業から気持ちを切り替えやすい。"
+  },
+  {
+    "id": "n2-r12",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "AとBの意見の違いは？",
+    "options": [
+      "Aは質問を禁止し、Bは記録を禁止する",
+      "Aは何も準備せず、Bは一切話さない",
+      "二人とも完成した案だけを話すべきだと言う",
+      "Aは公開前の整理を、Bは話してからの整理を重視する"
+    ],
+    "answer": 3,
+    "explanation": "A values ordering ideas before presenting them; B uses conversation to discover what needs clarification. Neither prohibits preparation or questions.",
+    "focus": "Compare working methods",
+    "passage": "【A】案を人に説明する前に、要点を三つにまとめている。まだ迷っていることも、どこが未定かを整理してから話したほうが、相手が質問しやすいと思う。\n【B】私は、考えがまとまらない時こそ人に話す。相手の質問を聞いて、自分が説明できていない部分に気付くことがある。その後で、要点を整理して書き直す。"
+  },
+  {
+    "id": "n2-r13",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "案内で返却が必要なのは？",
+    "options": [
+      "受付で借りた名札",
+      "自分が作った作品",
+      "持参したノート",
+      "会場で配られた案内紙"
+    ],
+    "answer": 0,
+    "explanation": "The badge is loaned and must be returned at the exit; the work may be taken home. The notebook is brought by the participant.",
+    "focus": "Borrowed versus owned",
+    "passage": "工作教室に参加する方は、受付で名札を受け取ってください。作品はお持ち帰りいただけますが、名札は貸出用ですので、帰る際に出口の箱へお戻しください。案内紙は持ち帰ってもかまいません。作業の内容を記録したい方は、ご自分のノートをご持参ください。道具の使い方は開始時に説明します。"
+  },
+  {
+    "id": "n2-r14",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "変更後も以前と同じなのは？",
+    "options": [
+      "集合場所",
+      "申し込みの締め切り",
+      "開始時刻",
+      "配布方法"
+    ],
+    "answer": 1,
+    "explanation": "Only the application deadline remains Wednesday at noon; meeting place, start time and distribution method all change.",
+    "focus": "Updated information",
+    "passage": "来週の見学会について変更をお知らせします。集合場所は駅前から施設の入口に、開始は十時から十時半になりました。資料は当日配る代わりに、前日にメールで送ります。申し込みの締め切りは、これまでの案内どおり水曜日の正午です。以前の案内を保存している方は、集合場所と開始時刻を特にご確認ください。"
+  },
+  {
+    "id": "n2-r15",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者が料理の手順を紙に書いた理由は？",
+    "options": [
+      "材料を買う量を二倍にするため",
+      "動画の作り方を批判するため",
+      "画面を触らずに次の作業を確認するため",
+      "すべての料理を同じ味にするため"
+    ],
+    "answer": 2,
+    "explanation": "The paper solves the practical problem of touching the screen with wet hands. The writer still uses the video to learn unfamiliar motions.",
+    "focus": "Practical adaptation",
+    "passage": "料理の動画を見ながら作ると、手が濡れたまま画面を触らなければならないことがある。それが不便で、最近は作る前に手順を短く紙に書いている。知らない切り方などは、先に動画で確かめる。料理中は紙を見れば次の作業が分かるので、何度も動画を止める必要がない。動画を使わなくなったのではなく、使う場面を分けたのである。"
+  },
+  {
+    "id": "n2-r16",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "この調査について、本文が述べているのは？",
+    "options": [
+      "利用者全員が新しい表示を選んだ",
+      "古い表示を選んだ人は一人もいない",
+      "すべての利用者に質問し終えた",
+      "回答した人では、新しい表示を好む人が多かった"
+    ],
+    "answer": 3,
+    "explanation": "Most respondents preferred the new display; nonrespondents and those preferring the old one are explicitly present.",
+    "focus": "Survey scope",
+    "passage": "新しい案内表示について、会場で利用者四十人に質問した。三十人は新しい表示、七人は以前の表示を選び、三人はどちらでもよいと答えた。担当者は、新しい表示を選んだ人が多かったと報告した。ただし、会場に来なかった利用者には聞いていないため、全員の好みが分かったとは書かなかった。今後は別の日にも意見を聞く予定だ。"
+  },
+  {
+    "id": "n2-r17",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者が失敗の記録に加えたのは？",
+    "options": [
+      "やり直す時に何を変えるか",
+      "失敗した相手の名前だけ",
+      "自分への悪口",
+      "成功したことを消す方法"
+    ],
+    "answer": 0,
+    "explanation": "The new entry links a difficulty to a concrete next attempt. The writer still records successes and avoids stopping at self-criticism.",
+    "focus": "Reflective practice",
+    "passage": "作業がうまくいかないと、以前は「自分は苦手だ」とだけノートに書いていた。読み返しても、次にどうすればよいか分からない。そこで今は、止まった箇所と、やり直す時に変えることを書くようにした。うまくいった工夫も残す。失敗を忘れるためではなく、同じところで止まらないための記録にしたい。"
+  },
+  {
+    "id": "n2-r18",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "図書館の担当者が提案した試行は？",
+    "options": [
+      "毎日閉館を二時間遅くする",
+      "来月の水曜日だけ閉館を一時間遅らせる",
+      "利用者の意見を一切聞かない",
+      "今の開館時間をすべて廃止する"
+    ],
+    "answer": 1,
+    "explanation": "The proposed trial closes one hour later on Wednesdays next month. It is not yet decided; the conditional plan also records use and staff workload.",
+    "focus": "Proposal versus decision",
+    "passage": "図書館では、閉館を遅くしてほしいという意見が出ている。しかし、毎日時間を延ばすには人員が足りない。担当者は、来月の水曜日だけ一時間遅く閉める案を出した。まだ決定ではないが、実施できれば、利用者数と職員の負担を記録するという。その結果を見て、時間を延ばす日を増やすか、元に戻すかを相談する。"
+  },
+  {
+    "id": "n2-r19",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "このメールで、送り手がまだ約束していないのは？",
+    "options": [
+      "追加料金を確認すること",
+      "金曜日までに返信すること",
+      "追加分を無料で作ること",
+      "元の注文を進めること"
+    ],
+    "answer": 2,
+    "explanation": "The original order continues, and the price check/reply deadline are promised; making the extra copies free is explicitly unconfirmed.",
+    "focus": "Commitment boundaries",
+    "passage": "ご注文の五十部は、予定どおり進めております。追加の十部については、同じ用紙を用意できるか、また追加料金がいくらになるかを確認中です。確認結果は金曜日までにご連絡いたします。追加分を無料でお作りできるかは、現時点ではお約束できません。料金をご確認いただいてから、追加するかどうかをお決めください。"
+  },
+  {
+    "id": "n2-r20",
+    "level": "N2",
+    "stage": "reading",
+    "prompt": "筆者の考えに最も近いのは？",
+    "options": [
+      "説明書は全部なくすべきだ",
+      "質問する人はサービスを使えない",
+      "機械が便利なら人の対応は不要だ",
+      "便利な仕組みでも、必要な時に人が相談に乗れることが大切だ"
+    ],
+    "answer": 3,
+    "explanation": "The writer values the self-service mechanism while keeping human help available when the instructions do not resolve a problem.",
+    "focus": "Main claim",
+    "passage": "予約を自分で変更できる仕組みは便利だ。電話を待たずに済み、担当者の仕事も減るだろう。ただ、説明を読んでも分からない人や、表示にない事情を相談したい人はいる。仕組みが便利になったからこそ、困った時に人へつながる道も残しておきたい。すべてを人が対応する必要はないが、相談の入口までなくしてよいとは思わない。"
+  },
+  {
+    "id": "n2-e07",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "担当業務を引き継ぎます。「引き継ぎます」の読み方は？",
+    "options": [
+      "ひきづきます",
+      "いんきつぎます",
+      "ひきつぎます",
+      "ひきすぎます"
+    ],
+    "answer": 2,
+    "explanation": "引き継ぐ is ひきつぐ, take over or hand over a responsibility.",
+    "focus": "Vocabulary · handover reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e08",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "計画を再検討します。「再検討」の読み方は？",
+    "options": [
+      "ざいけんとう",
+      "さいげんとう",
+      "さいけんどう",
+      "さいけんとう"
+    ],
+    "answer": 3,
+    "explanation": "再検討 is さいけんとう, reconsideration.",
+    "focus": "Vocabulary · reconsideration reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e09",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "品物の品質を確認した。「品質」の読み方は？",
+    "options": [
+      "ひんしつ",
+      "ひんじつ",
+      "しなしつ",
+      "ひんせつ"
+    ],
+    "answer": 0,
+    "explanation": "品質 is ひんしつ, the quality of the goods. The second part is しつ, not じつ or せつ.",
+    "focus": "Vocabulary · quality reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e10",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "次の案内は、予定が（　）次第お送りします。まだ日程を決めている途中です。",
+    "options": [
+      "通勤し",
+      "確定し",
+      "返品し",
+      "退職し"
+    ],
+    "answer": 1,
+    "explanation": "確定する means be settled or finalised; the schedule is still being decided.",
+    "focus": "Vocabulary · finalising a schedule",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e11",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "会場が使えなくなったため、別の場所を（　）しています。まだ一つに決めていません。",
+    "options": [
+      "断定",
+      "放置",
+      "検討",
+      "承認"
+    ],
+    "answer": 2,
+    "explanation": "検討 means consider or examine. The explicit lack of a decision rules out treating the place as already approved.",
+    "focus": "Vocabulary · consideration",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e12",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "同じ内容を二度書いていたので、重複する部分を削った。「重複する」に近いのは？",
+    "options": [
+      "内容がすべて反対である",
+      "文字が一つもない",
+      "時刻だけが違っている",
+      "同じことが重なっている"
+    ],
+    "answer": 3,
+    "explanation": "重複 describes duplication or overlap; here the same content appears twice.",
+    "focus": "Vocabulary · duplication paraphrase",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e13",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "「負担」を自然に使った文はどれですか。",
+    "options": [
+      "一人に仕事が集中し、その人の負担が増えました。",
+      "部屋の負担を開けて、外へ出ました。",
+      "予定を負担して、手帳に書きました。",
+      "飲み物を負担して、コップに入れました。"
+    ],
+    "answer": 0,
+    "explanation": "負担 is a burden. Concentrating work on one person increases that person’s burden.",
+    "focus": "Vocabulary · burden usage",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e14",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "「手順」とは、この説明で何を指しますか。まず受付、次に支払い、最後に受け取りです。",
+    "options": [
+      "商品の色",
+      "作業を行う順番",
+      "利用者の気持ち",
+      "建物の高さ"
+    ],
+    "answer": 1,
+    "explanation": "手順 refers to the sequence of steps, explicitly reception, payment and collection here.",
+    "focus": "Vocabulary · procedure meaning",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n2-e15",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「末に」で長い検討の結果を示す。何度も（　）末に、延期を決めた。",
+    "options": [
+      "話し合って",
+      "話し合います",
+      "話し合った",
+      "話し合ったら"
+    ],
+    "answer": 2,
+    "explanation": "Verb past + 末に gives the result reached after that process.",
+    "focus": "Grammar · result after deliberation",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e16",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「にかかわらず」で条件の不問を示す。経験の有無（　）、応募できます。",
+    "options": [
+      "をかかわらず",
+      "がかかわらず",
+      "のかかわらず",
+      "にかかわらず"
+    ],
+    "answer": 3,
+    "explanation": "Noun + にかかわらず removes the stated condition as a restriction.",
+    "focus": "Grammar · regardless of experience",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e17",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「わけではない」で全面的な否定を避ける。全部の内容が（　）わけではないが、大事な点は理解した。",
+    "options": [
+      "分かった",
+      "分かって",
+      "分かります",
+      "分かり"
+    ],
+    "answer": 0,
+    "explanation": "Plain 分かった attaches to わけではない. The sentence denies complete understanding while retaining the important points.",
+    "focus": "Grammar · partial understanding",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e18",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「に伴って」で同時に進む変化を示す。利用者の増加（　）、待ち時間も長くなった。",
+    "options": [
+      "を伴っての",
+      "に伴って",
+      "が伴って",
+      "の伴って"
+    ],
+    "answer": 1,
+    "explanation": "増加に伴って means along with the increase. を伴って would require a different sentence structure.",
+    "focus": "Grammar · accompanying change",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e19",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「たところ」で試した結果を示す。設定を変えて（　）ところ、音が聞こえるようになった。",
+    "options": [
+      "みて",
+      "みます",
+      "みた",
+      "みれば"
+    ],
+    "answer": 2,
+    "explanation": "Past みた + ところ introduces the result observed after trying.",
+    "focus": "Grammar · discovered result",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e20",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「ことなく」で否定した動作を結ぶ。彼は一度も（　）ことなく、説明を最後まで聞いた。",
+    "options": [
+      "話して",
+      "話します",
+      "話さなく",
+      "話す"
+    ],
+    "answer": 3,
+    "explanation": "Dictionary verb + ことなく means without doing that act; he listened without speaking.",
+    "focus": "Grammar · without doing",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e21",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "取引先に、自分が明日訪問すると伝える。適切なのは？",
+    "options": [
+      "明日、伺います。",
+      "明日、いらっしゃいます。",
+      "明日、お越しになります。",
+      "明日、お見えになります。"
+    ],
+    "answer": 0,
+    "explanation": "伺う can express the speaker’s respectful visit to the client. The other choices elevate the visiting person.",
+    "focus": "Grammar · visiting actor",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e22",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "形の練習：「ものではない」で安易な一般化を否定する。一度の失敗で、その人の能力を（　）ものではない。",
+    "options": [
+      "決めて",
+      "決める",
+      "決めます",
+      "決めたら"
+    ],
+    "answer": 1,
+    "explanation": "Dictionary 決める + ものではない advises against judging ability from a single failure.",
+    "focus": "Grammar · reject hasty judgment",
+    "section": "grammar"
+  },
+  {
+    "id": "n2-e23",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "予約者が金曜日までに送るのは？",
+    "options": [
+      "全員の感想",
+      "完成した作品",
+      "参加人数",
+      "当日の写真"
+    ],
+    "answer": 2,
+    "explanation": "Only headcount is due Friday. Names are checked on arrival; photos are optional after the workshop.",
+    "focus": "Reading · deadline retrieval",
+    "passage": "来週の教室をご予約の方は、金曜日までに参加人数をお知らせください。名前は当日受付で確認しますので、今お送りいただく必要はありません。作品はその日に作り、お持ち帰りいただけます。写真を送る場合は教室が終わってからで結構ですが、送らなくても参加できます。人数の変更があれば、受付へご連絡ください。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e24",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "筆者が本の選び方を変えた目的は？",
+    "options": [
+      "評判のよい本を一切読まないため",
+      "毎月同じ本だけを買うため",
+      "難しい本の名前を集めるため",
+      "読み続けやすい本を自分で確かめるため"
+    ],
+    "answer": 3,
+    "explanation": "The writer samples the text to check personal readability; recommendations remain useful, but are not the only criterion.",
+    "focus": "Reading · selection purpose",
+    "passage": "評判のよい本なら自分も読みたくなると思っていた。しかし、買っても最初の数ページで止まることがあった。今は、勧められた本でも先に本文を少し読む。言葉の難しさだけでなく、先が気になるかどうかを確かめるのだ。人の感想は参考になるが、読み続けられるかは、実際に読んでみないと分からない。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e25",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "AとBがどちらも認めているのは？",
+    "options": [
+      "道具を使っても、その使い方を考える必要がある",
+      "便利な道具は仕事を必ず増やす",
+      "すべての作業を手で行うべきだ",
+      "道具を導入すれば問題は全部解決する"
+    ],
+    "answer": 0,
+    "explanation": "A addresses whether saved time is protected; B addresses whether the tool fits the task. Both require decisions about use rather than automatic benefit.",
+    "focus": "Reading · common position",
+    "passage": "【A】新しい道具で作業が速くなっても、空いた時間に別の作業を入れれば忙しさは減らない。何に時間を使うかを決めることが大切だ。\n【B】便利だと評判の道具でも、私の仕事に合うとは限らない。導入する前に、今どこで困っていて、その道具が何を変えるかを確かめたい。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e26",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "二つの意見の違いとして正しいのは？",
+    "options": [
+      "Aは途中の変更を禁止し、Bは計画を作らない",
+      "Aは先に計画し、Bは少し試してから計画を直す",
+      "Aは人に相談せず、Bは全部人に任せる",
+      "二人とも、最初から結果が分かると言う"
+    ],
+    "answer": 1,
+    "explanation": "A begins with priorities and a plan; B uses a small trial to revise one. Neither treats planning or adjustment as useless.",
+    "focus": "Reading · contrasting sequence",
+    "passage": "【A】大きな作業に取りかかる前に、必要なことを並べて順番を決める。途中で変更することはあるが、最初の計画があれば、何を変えたかも分かりやすい。\n【B】経験のない作業では、最初から細かい計画を立てるのが難しい。私はまず小さく試し、かかった時間や困った点を見てから、計画を直している。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e27",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "土曜日の十三時に、予約なしで利用できるのは？",
+    "options": [
+      "相談室で相談すること",
+      "午前の工作教室に参加すること",
+      "展示を見ること",
+      "閉館後に資料を借りること"
+    ],
+    "answer": 2,
+    "explanation": "The exhibit runs 10–16 without booking. Consultation requires a reservation and the workshop ends at noon.",
+    "focus": "Reading · schedule and access",
+    "passage": "土曜日の展示は十時から十六時まで、予約なしでご覧いただけます。工作教室は十時から十二時までで、金曜日までの申し込みが必要です。相談室は十三時から十五時まで開きますが、事前予約の方のみ利用できます。資料の貸出窓口は十四時に閉めます。建物全体の閉館は十六時です。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e28",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "筆者が最も伝えたいことは？",
+    "options": [
+      "詳しい説明は必ず短くすべきだ",
+      "自分が調べた順番で全部話すべきだ",
+      "読み手の質問は最後まで聞いてはいけない",
+      "読み手に必要な情報から、説明の順序を考えるべきだ"
+    ],
+    "answer": 3,
+    "explanation": "The writer bases order on what the reader needs, rather than simply the research process or brevity at any cost.",
+    "focus": "Reading · main claim",
+    "passage": "調べたことを説明する時、私は調べた順番に書いていた。しかし、読む人は、その順番を知りたいわけではない。まず結論が必要な人もいれば、方法を知りたい人もいる。詳しく書くことと、分かりやすく書くことは同じではない。誰が何のために読むかを考えてから、情報を並べ直す必要がある。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e29",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "今回の返事で確かに決まったことは？",
+    "options": [
+      "見本を来週水曜日に送ること",
+      "追加の注文を正式に受けること",
+      "料金を半額にすること",
+      "今月中に全部を納品すること"
+    ],
+    "answer": 0,
+    "explanation": "The sample date is definite. Price and delivery are still under consideration, and an extra order waits for later approval.",
+    "focus": "Reading · confirmed action",
+    "passage": "先ほどのご相談について、見本は来週水曜日にお送りすることになりました。追加の注文については、見本をご覧いただいてからお決めください。料金と納期は現在確認しており、見本と一緒にご案内する予定です。今月中の納品や値引きは、まだお約束できません。見本を送る日だけ、先に確定した形になります。",
+    "section": "reading"
+  },
+  {
+    "id": "n2-e30",
+    "level": "N2",
+    "stage": "exam",
+    "prompt": "担当者が利用記録を取る理由は？",
+    "options": [
+      "利用者全員の意見をすでに知ったため",
+      "希望する声と実際の利用を比べるため",
+      "開館を遅くすることが決定したため",
+      "試行の結果を公表しないため"
+    ],
+    "answer": 1,
+    "explanation": "The trial checks whether expressed demand becomes actual use; neither wider opinion nor continuation has been established.",
+    "focus": "Reading · evaluating a trial",
+    "passage": "夜も利用したいという声を受け、施設は一か月だけ金曜日の閉館を遅くした。担当者は人数と利用時間を記録している。希望した人が実際に来るか、別の人も利用するかを確かめたいからだ。期間が終わってから結果をまとめ、職員の負担も含めて続けるか相談する。希望があっただけで、毎週続けると決めたわけではない。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-v03",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "地域の活動から疎外されたと感じた。「疎外」の読み方は？",
+    "options": [
+      "しょがい",
+      "そげ",
+      "そがい",
+      "そかい"
+    ],
+    "answer": 2,
+    "explanation": "疎外 is そがい, exclusion or alienation. The context describes feeling left outside the activity.",
+    "focus": "Exclusion reading"
+  },
+  {
+    "id": "n1-v04",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "二つの案を折衷した。「折衷」の読み方は？",
+    "options": [
+      "せつちゅ",
+      "せっしょう",
+      "おりちゅう",
+      "せっちゅう"
+    ],
+    "answer": 3,
+    "explanation": "折衷 is せっちゅう, combining elements from different proposals. Retain the small っ and long ちゅう.",
+    "focus": "Compromise reading"
+  },
+  {
+    "id": "n1-v05",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "議論が本来の主題から逸脱した。「逸脱」の読み方は？",
+    "options": [
+      "いつだつ",
+      "いちだつ",
+      "いつたつ",
+      "いっだつ"
+    ],
+    "answer": 0,
+    "explanation": "逸脱 is いつだつ, deviation. Here the discussion moves away from its stated subject.",
+    "focus": "Deviation reading"
+  },
+  {
+    "id": "n1-v06",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "新しい方法を模索している。「模索」の読み方は？",
+    "options": [
+      "ぼさく",
+      "もさく",
+      "もさつ",
+      "もしょく"
+    ],
+    "answer": 1,
+    "explanation": "模索 is もさく, searching for a way forward. No settled method is implied by the word.",
+    "focus": "Searching reading"
+  },
+  {
+    "id": "n1-v07",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "その傾向は近年、顕著になった。「顕著」の読み方は？",
+    "options": [
+      "げんちょ",
+      "けんじょ",
+      "けんちょ",
+      "けんしょ"
+    ],
+    "answer": 2,
+    "explanation": "顕著 is けんちょ, conspicuous or marked. Both the initial k and final ちょ matter.",
+    "focus": "Marked tendency reading"
+  },
+  {
+    "id": "n1-v08",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "緻密な計画を立てた。「緻密」の読み方は？",
+    "options": [
+      "しみつ",
+      "ちびつ",
+      "ちみっ",
+      "ちみつ"
+    ],
+    "answer": 3,
+    "explanation": "緻密 is ちみつ, detailed and carefully worked out. It describes the plan’s precision here.",
+    "focus": "Detailed planning reading"
+  },
+  {
+    "id": "n1-v09",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "従来の手続きを踏襲した。「踏襲」の読み方は？",
+    "options": [
+      "とうしゅう",
+      "とうじゅう",
+      "ふしゅう",
+      "とうしょう"
+    ],
+    "answer": 0,
+    "explanation": "踏襲 is とうしゅう, following an existing practice. Both syllables have long vowels.",
+    "focus": "Established practice reading"
+  },
+  {
+    "id": "n1-v10",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "恣意的な判断を避けたい。「恣意的」の読み方は？",
+    "options": [
+      "しえてき",
+      "しいてき",
+      "じいてき",
+      "しいでき"
+    ],
+    "answer": 1,
+    "explanation": "恣意的 is しいてき, arbitrary. The initial しい contains two morae.",
+    "focus": "Arbitrariness reading"
+  },
+  {
+    "id": "n1-v11",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "混乱がようやく収束した。「収束」の読み方は？",
+    "options": [
+      "しゅそく",
+      "しゅうぞく",
+      "しゅうそく",
+      "じゅうそく"
+    ],
+    "answer": 2,
+    "explanation": "収束 is しゅうそく, coming under control or settling down. The first vowel is long.",
+    "focus": "Settling reading"
+  },
+  {
+    "id": "n1-v12",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "双方が少しずつ譲歩した。「譲歩」の読み方は？",
+    "options": [
+      "しょうほ",
+      "じょうぽ",
+      "じょほ",
+      "じょうほ"
+    ],
+    "answer": 3,
+    "explanation": "譲歩 is じょうほ, a concession. Here both sides give some ground.",
+    "focus": "Concession reading"
+  },
+  {
+    "id": "n1-v13",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "最後まで信念を貫いた。「貫いた」の読み方は？",
+    "options": [
+      "つらぬいた",
+      "つらないた",
+      "かんいた",
+      "つらむいた"
+    ],
+    "answer": 0,
+    "explanation": "貫く is つらぬく; its past form is つらぬいた. In this context it means hold firmly to a belief.",
+    "focus": "Inflected conviction reading"
+  },
+  {
+    "id": "n1-v14",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "新しい証拠が従来の説を覆した。「覆した」の読み方は？",
+    "options": [
+      "おおした",
+      "くつがえした",
+      "くつかえした",
+      "ふくした"
+    ],
+    "answer": 1,
+    "explanation": "覆す is くつがえす; 覆した is くつがえした. Here evidence overturns the earlier theory.",
+    "focus": "Inflected overturning reading"
+  },
+  {
+    "id": "n1-v15",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "案の利点は認めているが、費用については（　）が残る。予算を超える可能性があるためだ。",
+    "options": [
+      "余韻",
+      "愛着",
+      "懸念",
+      "喝采"
+    ],
+    "answer": 2,
+    "explanation": "懸念 is concern. The following budget risk specifies what remains troubling despite acknowledged benefits.",
+    "focus": "Concern in context"
+  },
+  {
+    "id": "n1-v16",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "資料を整えたおかげで、説明に（　）が生まれた。前後の主張が矛盾しなくなった。",
+    "options": [
+      "即効性",
+      "社交性",
+      "耐久性",
+      "一貫性"
+    ],
+    "answer": 3,
+    "explanation": "一貫性 is consistency. The second sentence identifies the absence of contradiction between claims.",
+    "focus": "Consistency context"
+  },
+  {
+    "id": "n1-v17",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "「打開策を講じる」に最も近い意味は？",
+    "options": [
+      "行き詰まった状況を改善するために手を打つ",
+      "決まったことを一切変えずに待つ",
+      "問題と無関係な話を長く続ける",
+      "改善した結果を隠しておく"
+    ],
+    "answer": 0,
+    "explanation": "打開策 is a measure to break a deadlock; 講じる means take or devise such a measure.",
+    "focus": "Deadlock collocation"
+  },
+  {
+    "id": "n1-v18",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "この説明で「余地」とは何を指すか。結論は変わらないが、表現にはまだ工夫の余地がある。",
+    "options": [
+      "必ず必要になる追加料金",
+      "さらに手を加えられる可能性",
+      "文章を書いた場所の地名",
+      "すでに完了した作業の数"
+    ],
+    "answer": 1,
+    "explanation": "Here 余地 means room or scope for improvement in expression; the conclusion itself is stated to remain unchanged.",
+    "focus": "Scope for improvement"
+  },
+  {
+    "id": "n1-v19",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "「見通し」を自然に使った文はどれですか。",
+    "options": [
+      "見通しを洗剤で洗って、棚に戻しました。",
+      "見通しを駅の改札で乗り換えました。",
+      "原因が分かり、復旧の見通しが立ちました。",
+      "見通しを一枚ずつ切って、皿に盛りました。"
+    ],
+    "answer": 2,
+    "explanation": "見通し refers to a prospect or outlook here. Understanding the cause allows an estimate of recovery.",
+    "focus": "Outlook usage"
+  },
+  {
+    "id": "n1-v20",
+    "level": "N1",
+    "stage": "vocabulary",
+    "prompt": "「妥協」を自然に使った文はどれですか。",
+    "options": [
+      "雨が妥協して、道路が濡れました。",
+      "机を妥協して、引き出しを開けました。",
+      "妥協を三本ゆでて、夕食にしました。",
+      "意見は異なりますが、双方が妥協して合意しました。"
+    ],
+    "answer": 3,
+    "explanation": "妥協 is compromise. Differing parties make concessions to reach agreement; it is not a physical object or weather event.",
+    "focus": "Compromise usage"
+  },
+  {
+    "id": "n1-g03",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「んばかりに」で今にも起こりそうな様子を示す。声を（　）んばかりに喜んだ。",
+    "options": [
+      "上げる",
+      "上げた",
+      "上げ",
+      "上げて"
+    ],
+    "answer": 2,
+    "explanation": "The negative base of 上げる is 上げ; add んばかりに. This describes an appearance, not a claim that a shout actually occurred.",
+    "focus": "Appearance attachment"
+  },
+  {
+    "id": "n1-g04",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「をものともせず」で障害に屈しない行動を示す。強い向かい風（　）、選手は走り続けた。",
+    "options": [
+      "にものともせず",
+      "がものともせず",
+      "のものともせず",
+      "をものともせず"
+    ],
+    "answer": 3,
+    "explanation": "Obstacle noun + をものともせず attaches directly; continuing to run establishes the action despite the wind.",
+    "focus": "Obstacle attachment"
+  },
+  {
+    "id": "n1-g05",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「ならでは」で特有のよさを名詞に付ける。手作り（　）温かさがある。",
+    "options": [
+      "ならではの",
+      "ならではに",
+      "ならではを",
+      "ならではだの"
+    ],
+    "answer": 0,
+    "explanation": "Noun + ならではの modifies a valued quality, here the warmth distinctive to something handmade.",
+    "focus": "Distinctive quality modifier"
+  },
+  {
+    "id": "n1-g06",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「たりとも」で最小の量も認めない。締め切りは厳しく、一日（　）遅れることは許されない。",
+    "options": [
+      "たらとも",
+      "たりとも",
+      "たるとも",
+      "たりなの"
+    ],
+    "answer": 1,
+    "explanation": "A minimal quantity + たりとも combines with a negative or prohibition. Here even one day of delay is disallowed.",
+    "focus": "Minimal quantity prohibition"
+  },
+  {
+    "id": "n1-g07",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「まじき」で役割に反する行為を非難する。責任者に（　）まじき行為だった。",
+    "options": [
+      "あって",
+      "あります",
+      "ある",
+      "あったら"
+    ],
+    "answer": 2,
+    "explanation": "にあるまじき modifies 行為 and strongly condemns conduct incompatible with the role. It is marked formal language.",
+    "focus": "Role condemnation"
+  },
+  {
+    "id": "n1-g08",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「をもって」で終了の境界を示す。本日の受付は午後五時（　）終了いたします。",
+    "options": [
+      "に持ちましての",
+      "がもって",
+      "のもって",
+      "をもって"
+    ],
+    "answer": 3,
+    "explanation": "Time noun + をもって sets the closing boundary in a formal announcement. The predicate explicitly says the reception ends.",
+    "focus": "Formal closing boundary"
+  },
+  {
+    "id": "n1-g09",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：文語的な否定「ぬ」。「する」を否定して、無理は（　）ぬ、と言う。",
+    "options": [
+      "せ",
+      "し",
+      "する",
+      "した"
+    ],
+    "answer": 0,
+    "explanation": "The negative base of する used with ぬ is せ: せぬ. Negative ぬ differs from classical completion ぬ in attachment and context.",
+    "focus": "Negative suru remnant"
+  },
+  {
+    "id": "n1-g10",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「ざる」で名詞を修飾する。私たちの（　）ざる事情があった。",
+    "options": [
+      "知り",
+      "知ら",
+      "知る",
+      "知った"
+    ],
+    "answer": 1,
+    "explanation": "Negative base 知ら + ざる modifies 事情. The marked form means circumstances we did not know.",
+    "focus": "Attributive negative"
+  },
+  {
+    "id": "n1-g11",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「べからず」の禁止を完成させる。この先、立ち入る（　）。",
+    "options": [
+      "べからざるの",
+      "べからく",
+      "べからず",
+      "べからない"
+    ],
+    "answer": 2,
+    "explanation": "Dictionary verb + べからず is a marked prohibition. The context is a restricted sign-style expression, not ordinary friend chat.",
+    "focus": "Sign prohibition"
+  },
+  {
+    "id": "n1-g12",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「ごとき」で名詞を修飾する。夢の（　）景色が広がっていた。",
+    "options": [
+      "ごとく",
+      "ごとし",
+      "ごとに",
+      "ごとき"
+    ],
+    "answer": 3,
+    "explanation": "Noun の + ごとき modifies 景色. ごとく is adverbial and ごとし predicative in the taught comparison pattern.",
+    "focus": "Literary comparison modifier"
+  },
+  {
+    "id": "n1-g13",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「ないまでも」で完全に達しなくても必要な行動を述べる。全部は覚え（　）までも、要点は確認しておこう。",
+    "options": [
+      "ない",
+      "なく",
+      "ず",
+      "ません"
+    ],
+    "answer": 0,
+    "explanation": "Verb negative 覚えない + までも sets a lower expectation; checking the important points is still recommended.",
+    "focus": "Lower threshold"
+  },
+  {
+    "id": "n1-g14",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「とはいえ」で認めた点に留保を付ける。専門家（　）、すべての分野に詳しいわけではない。",
+    "options": [
+      "をはいえ",
+      "とはいえ",
+      "がはいえ",
+      "にはいえ"
+    ],
+    "answer": 1,
+    "explanation": "Noun + とはいえ acknowledges expertise while limiting its scope. It does not deny being an expert.",
+    "focus": "Acknowledged limitation"
+  },
+  {
+    "id": "n1-g15",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「を踏まえた」で名詞を修飾する。調査結果（　）提案を作成した。",
+    "options": [
+      "を踏まえて",
+      "を踏まえるの",
+      "を踏まえた",
+      "に踏まえた"
+    ],
+    "answer": 2,
+    "explanation": "Noun + を踏まえた modifies 提案, a proposal informed by the results. The connective を踏まえて needs a different structure.",
+    "focus": "Informed proposal modifier"
+  },
+  {
+    "id": "n1-g16",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「に即した」で名詞を修飾する。現場の状況（　）計画が必要だ。",
+    "options": [
+      "を即した",
+      "が即した",
+      "の即した",
+      "に即した"
+    ],
+    "answer": 3,
+    "explanation": "Noun + に即した modifies 計画: a plan fitting the actual conditions on site.",
+    "focus": "Actual conditions modifier"
+  },
+  {
+    "id": "n1-g17",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「とも限らない」で否定した事態も排除しない。今後、同じ問題が起き（　）とも限らない。",
+    "options": [
+      "ない",
+      "なく",
+      "ず",
+      "ません"
+    ],
+    "answer": 0,
+    "explanation": "Negative 起きない + とも限らない does not rule out recurrence. It does not assert that recurrence is certain.",
+    "focus": "Non-exclusion"
+  },
+  {
+    "id": "n1-g18",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "形の練習：「に基づく」で名詞を修飾する。記録（　）説明を行った。",
+    "options": [
+      "に基づいて",
+      "に基づく",
+      "を基づく",
+      "に基づきの"
+    ],
+    "answer": 1,
+    "explanation": "Noun + に基づく modifies 説明. に基づいて connects to an action and is not the requested modifier here.",
+    "focus": "Basis modifier"
+  },
+  {
+    "id": "n1-g19",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "顧客へ、自分が引き起こした遅れについて謝る。適切なのは？",
+    "options": [
+      "納品が遅れましたことを、お詫びになります。",
+      "納品が遅れましたことを、お詫びくださいます。",
+      "納品が遅れましたことを、お詫び申し上げます。",
+      "納品が遅れましたことを、お詫びになってください。"
+    ],
+    "answer": 2,
+    "explanation": "お詫び申し上げます directs the speaker’s apology to the customer. The other forms wrongly elevate or request the customer’s apology.",
+    "focus": "Directed own-side apology"
+  },
+  {
+    "id": "n1-g20",
+    "level": "N1",
+    "stage": "grammar",
+    "prompt": "担当を離れる際、これまで助けてくれた同僚へ感謝する。最も合うのは？",
+    "options": [
+      "これから大変お世話になりました。",
+      "これまで大変お世話になるでしょう。",
+      "これまで大変お世話になってください。",
+      "これまで大変お世話になりました。"
+    ],
+    "answer": 3,
+    "explanation": "The completed period of assistance calls for なりました. Future wording and a request do not express gratitude for that past period.",
+    "focus": "Past transfer gratitude"
+  },
+  {
+    "id": "n1-r03",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者が記録の仕方を変えた主な理由は？",
+    "options": [
+      "最初の判断が必ず正しいと示すため",
+      "他人の意見を記録から消すため",
+      "結論が変わった理由を後からたどれるようにするため",
+      "作業にかかった時間だけを比べるため"
+    ],
+    "answer": 2,
+    "explanation": "The writer retains the initial view and reasons for revision, so later readers can follow the change. The text rejects both an infallible initial view and outcome-only records.",
+    "focus": "Traceable revision",
+    "passage": "仕事の記録には、最後に決まったことだけを書いていた。ところが、半年後に似た問題が起きた時、なぜその方法を選んだのか思い出せなかった。今は、最初の案と、それを変えた理由も残している。判断が変わるのは、必ずしも迷いが多いからではない。条件が変わったり、新しい事実が分かったりするからだ。結果だけを残すと、その変化が見えなくなる。記録を増やす目的は、自分の判断を正しかったことにするためではなく、どの条件でその判断に至ったかを、後から確かめられるようにすることにある。"
+  },
+  {
+    "id": "n1-r04",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者は展示する資料をどう選ぶべきだと考えているか。",
+    "options": [
+      "残った資料が多い人物ほど重要だったと判断すべきだ",
+      "記録の少ない人物は実在しなかったと考えるべきだ",
+      "保存状態がよければ説明は不要だ",
+      "残っている資料の偏りを考えながら選ぶべきだ"
+    ],
+    "answer": 3,
+    "explanation": "Survival of documents is influenced by preservation and writing opportunities, so abundance cannot be equated with historical importance.",
+    "focus": "Evidence and survival",
+    "passage": "昔の町を紹介する展示では、残された写真や日記が貴重な資料になる。ただし、資料が多く残った人だけが、町の暮らしを支えていたわけではない。日記を書く余裕のなかった人も、写真に写る機会の少なかった人もいただろう。資料の少なさは、その人の役割の小ささを示すとは限らない。展示を作る際には、資料が伝えることだけでなく、何が記録されにくかったかも考えたい。手元に残ったものを町全体の縮図と見なしてしまえば、保存の偶然を、暮らしの実態と取り違えることになる。"
+  },
+  {
+    "id": "n1-r05",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "AとBの意見に共通するのは？",
+    "options": [
+      "記録を残すだけでは、引き継ぎができたとは言えない",
+      "引き継ぎの文書はすべて廃止すべきだ",
+      "同じ担当者が永久に続けるべきだ",
+      "記録は細かいほど誰にでも分かる"
+    ],
+    "answer": 0,
+    "explanation": "A requires a new reader to test understanding; B requires separating shared content from unexplained local terminology. Both reject treating the mere existence of a record as sufficient.",
+    "focus": "Integrated handover views",
+    "passage": "【A】活動の引き継ぎでは、手順を書くだけで安心してはいけない。次の担当者に読んでもらい、実際に一度やってみて、止まるところを確かめる必要がある。書いた人には当たり前でも、初めて読む人には省略に見えることがある。\n【B】長く参加した人だけに通じる呼び名や略語は、記録にも入り込みやすい。経験者が読めることと、新しい参加者が使えることは別だ。記録を共有するなら、言葉の説明も一緒に見直したい。"
+  },
+  {
+    "id": "n1-r06",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "この案内によると、変更後の連絡が必要な人は？",
+    "options": [
+      "人数だけが十人から八人になった予約者",
+      "団体名が変わった予約者",
+      "変更のない予約者全員",
+      "来月以降に初めて予約する人"
+    ],
+    "answer": 1,
+    "explanation": "Headcount changes up to two people need no advance notice; a group-name change requires notice regardless of headcount. The booking date is irrelevant.",
+    "focus": "Notice exception",
+    "passage": "予約内容の変更についてご案内します。参加人数が二人以内で増減する場合、事前の連絡は不要です。当日受付で、実際の人数をお知らせください。ただし、団体名が変わる場合は、人数の変更がなくても前日までにご連絡ください。受付では団体名で予約を照合するためです。人数が三人以上変わる場合も、会場の準備が必要ですので前日までにご連絡ください。いずれの場合も、予約そのものを取り直す必要はありません。変更がない方は、以前お送りした案内をご利用ください。"
+  },
+  {
+    "id": "n1-r07",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者が歌詞を読む練習で重視していることは？",
+    "options": [
+      "速く読めた曲は必ず意味も理解できていると考えること",
+      "知らない漢字はすべて無視して歌うこと",
+      "目で追える速さと意味の理解を区別して練習すること",
+      "歌う時も毎回すべての単語を辞書で調べること"
+    ],
+    "answer": 2,
+    "explanation": "The writer separates keeping up with displayed lyrics from understanding the wording, and practises both at different times. Neither speed nor dictionary use alone proves comprehension.",
+    "focus": "Reading pace and comprehension",
+    "passage": "歌に合わせて文字を追えるようになると、その歌詞を理解した気になってしまうことがある。私も、同じ曲を何度も歌ううちに、読める速さだけは上がった。しかし、歌わずに一節を説明しようとすると、言葉のつながりが曖昧なままだと気付いた。今は、歌う前に短い部分の意味を確かめ、歌う時には文字を追うことに集中している。速さと理解を分けて練習するのは、どちらかを軽く見るためではない。片方ができたことを、もう片方の達成と取り違えないためである。"
+  },
+  {
+    "id": "n1-r08",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "送り手が今回、相手に求めていることは？",
+    "options": [
+      "修正した表記をすべて元に戻すこと",
+      "内容の変更案もそのまま印刷すること",
+      "印刷が終わってから初めて確認すること",
+      "表記の修正を確認し、内容の変更案は別に知らせること"
+    ],
+    "answer": 3,
+    "explanation": "The request separates already-applied spelling corrections from substantive proposals needing a separate decision; printing waits for confirmation.",
+    "focus": "Review scope",
+    "passage": "先日のご指摘を受け、日付の表記と人名の誤字を修正いたしました。今回お送りする原稿では、その二点をご確認ください。本文の内容を変更するご提案がある場合は、修正原稿に直接追記せず、別のメールでお知らせいただけますと幸いです。表記の修正は今回の確認で確定できますが、内容の変更には担当者との相談が必要です。確認をいただくまで印刷は始めません。内容の変更案がない場合は、修正した二点に問題がない旨だけ、ご返信いただければ結構です。"
+  },
+  {
+    "id": "n1-r09",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者の考えに最も近いのは？",
+    "options": [
+      "記録に写らないことまで、存在しなかったとは判断できない",
+      "写真に写ったものはすべて重要である",
+      "写真の枚数だけで日常の頻度が分かる",
+      "写真のない出来事は記憶から消すべきだ"
+    ],
+    "answer": 0,
+    "explanation": "The occasion and selection of photographs influence what is represented. The lack of an image cannot establish the absence of an event.",
+    "focus": "Unrecorded experience",
+    "passage": "家族の古い写真を並べると、旅行や祝い事ばかりが目に入る。けれど、それだけが家族の暮らしだったわけではない。毎朝の支度や、何も起こらなかった夕方は、写真を撮る理由になりにくい。残された写真から日常を知ることはできても、写真にない日常をなかったものにはできない。記録は、出来事が起きた結果であると同時に、誰かが残そうと選んだ結果でもある。写真を見返す時には、写っているものを読むだけでなく、何が写りにくかったかを想像する余地も持っていたい。"
+  },
+  {
+    "id": "n1-r10",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "十時に会場へ着きたい人が取るべき行動は？",
+    "options": [
+      "九時五十分発なら必ず間に合うと考える",
+      "九時四十分発に乗り、停留所から歩く時間も見込む",
+      "十時発のバスが特別運行されるのを待つ",
+      "どの便も会場の入口まで行くと思って乗る"
+    ],
+    "answer": 1,
+    "explanation": "The 9:40 bus reaches the stop at 9:50, leaving ten minutes for the stated eight-minute walk. The 9:50 bus arrives at the stop at 10:00, too late for the walk.",
+    "focus": "Travel conditions",
+    "passage": "見学会は十時に会場入口で集合します。駅前からのバスは、九時四十分発が九時五十分着、九時五十分発が十時着です。どちらも最寄りの停留所までの時刻であり、会場の入口までは、そこから徒歩八分ほどかかります。当日は十時発の便の増発はありません。集合後は全員で移動しますので、停留所への到着を集合時刻に合わせないようご注意ください。歩く時間に余裕を持ちたい方は、九時四十分より前の便をご利用ください。"
+  },
+  {
+    "id": "n1-r11",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "AとBの主張の違いを適切に示しているのは？",
+    "options": [
+      "Aは比較を禁止し、Bは数値だけで決める",
+      "Aは数値を使わず、Bは条件をそろえることを否定する",
+      "Aは同じ尺度での比較を重視し、Bは尺度から外れる価値にも注意を向ける",
+      "二人とも、順位が低いものは価値がないと言う"
+    ],
+    "answer": 2,
+    "explanation": "A argues for consistent conditions when comparing figures; B accepts comparison but warns that one measure omits some values. B does not reject all standardisation.",
+    "focus": "Limits of a common measure",
+    "passage": "【A】複数のサービスを比べるなら、まず条件をそろえなければならない。違う時間帯や人数で得た数値を、そのまま順位にすると、何を比較したのか分からなくなる。\n【B】条件をそろえた比較は役に立つ。ただ、一つの数値にまとめると、その尺度に入りにくいよさは見えなくなる。速さで低い順位になっても、説明の丁寧さを求める人には適しているかもしれない。順位を使う時には、何を数えなかったかも示したい。"
+  },
+  {
+    "id": "n1-r12",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者がその本を評価している理由は？",
+    "options": [
+      "書かれた意見すべてに賛成できたため",
+      "読む前の考えが完全に証明されたため",
+      "難しい言葉が一つもなかったため",
+      "自分の前提に気付くきっかけになったため"
+    ],
+    "answer": 3,
+    "explanation": "The writer disagrees with parts of the book but values identifying the assumptions behind that disagreement. Agreement is explicitly not the sole criterion.",
+    "focus": "Value despite disagreement",
+    "passage": "読んだ本に賛成できないところがあると、以前は、その本は自分に合わなかったのだと思っていた。最近読んだ一冊にも、納得できない主張があった。だが、なぜ納得できないのかを書いてみると、自分が当然だと思っていた前提が見えてきた。著者と同じ結論にならなくても、読む意味はある。読みやすさや賛成できる意見の多さだけで本を選べば、自分の考えを揺さぶる機会まで減らしてしまう。その一冊を評価しているのは、私を説得したからではなく、私の判断の出発点に気付かせたからだ。"
+  },
+  {
+    "id": "n1-r13",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "この報告から確実に言えるのは？",
+    "options": [
+      "調査に回答した百人では、案Aを選んだ人が多かった",
+      "全住民の七割が案Aを選んだ",
+      "回答しなかった人は全員案Bを選んだ",
+      "案Aを選んだ人の理由は全員同じだった"
+    ],
+    "answer": 0,
+    "explanation": "The report covers the one hundred respondents, seventy of whom chose A. It gives neither all residents’ opinions nor motives for every respondent.",
+    "focus": "Population and responses",
+    "passage": "公園の改修案について、地域の住民に質問票を配った。返ってきた百枚のうち、案Aを選んだものが七十枚、案Bが二十枚、どちらでもないものが十枚だった。報告書には、回答者では案Aが多かったと記した。質問票は全住民に届いたわけではなく、届いても返さなかった人がいる。したがって、この割合をそのまま全住民の割合と見なすことはできない。また、自由記述のない回答からは、選んだ理由までは分からない。担当者は、数値を示した上で、これらの範囲も説明することにした。"
+  },
+  {
+    "id": "n1-r14",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "この連絡で確定していることは？",
+    "options": [
+      "見本の提出だけで本制作も承認されたことになる",
+      "見本を来週火曜日に提出すること",
+      "料金と納期は一切変わらない",
+      "本制作は火曜日までに必ず終わる"
+    ],
+    "answer": 1,
+    "explanation": "The sample submission date is fixed. Full production remains conditional on approval and later confirmation of price and delivery.",
+    "focus": "Prerequisite versus completion",
+    "passage": "見本は来週火曜日に提出いたします。本制作については、見本をご確認いただき、仕様をご承認いただいた後に着手する予定です。見本の提出は、本制作の開始を意味するものではありません。見本の段階で変更が生じた場合は、費用と納期を改めて確認し、双方で合意してから進めます。火曜日という日付は見本の提出に関するものであり、完成品の納期ではございません。まずは見本をご覧いただき、ご希望と異なる点がございましたらお知らせください。"
+  },
+  {
+    "id": "n1-r15",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者は意見の集め方をどう改善したいと考えているか。",
+    "options": [
+      "発言の少ない人の希望は存在しないと考える",
+      "会議で話した人の意見を全部無効にする",
+      "意見を言いやすい人だけの声にならないよう機会を増やす",
+      "書面の意見は対面の意見より必ず正しいとする"
+    ],
+    "answer": 2,
+    "explanation": "The writer adds a written option because public meetings may exclude quieter participants. Neither oral nor written responses are categorically dismissed or guaranteed correct.",
+    "focus": "Participation and access",
+    "passage": "意見交換会では活発に発言があり、希望を十分聞けたと思っていた。しかし、終了後に「大勢の前では言いにくかった」と連絡してくれた人がいた。会議の記録が詳しくても、会議で話せなかった人の希望までは記録されない。次回は、その場で話す機会に加えて、後から短く書いて送れる方法も用意したい。書面ならすべての希望が分かるというわけではない。それでも、声を集める方法を一つに限らないことは、発言しやすい人の意見だけを全体の意見として扱わないために必要だと思う。"
+  },
+  {
+    "id": "n1-r16",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者が古い発言を引用する際に必要だと述べているのは？",
+    "options": [
+      "現在の自分に都合のよい部分だけを使うこと",
+      "発言者が後に考えを変えた可能性を否定すること",
+      "短い引用なら出典を示さなくてよいと考えること",
+      "発言時の状況と、何への返答だったかを確認すること"
+    ],
+    "answer": 3,
+    "explanation": "The writer requires context: the earlier question, circumstances and possible later changes. A short quote alone may alter the perceived meaning.",
+    "focus": "Quotation context",
+    "passage": "昔のインタビューで見つけた一言が、今の議論にぴったり合うことがある。だが、その一言は、どの質問に対する答えだったのだろう。当時の問題や、話し相手を確かめずに切り出すと、発言の意味を変えてしまうかもしれない。長い答えの途中には留保もあり、その後、本人の考えが変わった可能性もある。引用は、短くすれば正確になるものではない。自分の主張に合うことを確認する前に、元の場面で何を述べた言葉だったかを確認する。その手間を省かないことが、言葉を借りる側の責任ではないだろうか。"
+  },
+  {
+    "id": "n1-r17",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者が助言の受け取り方として勧めているのは？",
+    "options": [
+      "評価と、その評価に至った具体的な理由を分けて確かめる",
+      "低い評価を受けたら必ず助言を無視する",
+      "助言した人の言い方だけで内容を判断する",
+      "よい評価には根拠がなくても必ず従う"
+    ],
+    "answer": 0,
+    "explanation": "The writer focuses on concrete reasons behind evaluation, whether positive or negative. It does not recommend disregarding criticism or automatically accepting praise.",
+    "focus": "Feedback and grounds",
+    "passage": "「分かりにくい」と言われると、説明全体が失敗したように感じることがある。しかし、どこで理解が止まったかを聞けば、直す箇所が見えてくる。逆に、「よかった」とだけ言われても、次に何を続ければよいかは分からない。評価を受け取る時には、その言葉の強さよりも、評価に至った具体的な理由を確かめたい。もちろん、すべての指摘をそのまま採用する必要はない。相手がどこを見てそう考えたかを知った上で、自分の目的に照らして、何を変えるかを決めればよいのだ。"
+  },
+  {
+    "id": "n1-r18",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者の説明の改善方法に最も近いのは？",
+    "options": [
+      "短くするために例外をすべて消す",
+      "重要な条件を保ちながら、読み手に必要な順序に組み直す",
+      "書いた順番を必ずそのまま保つ",
+      "読み手の知識を一切考えず専門語を増やす"
+    ],
+    "answer": 1,
+    "explanation": "The writer preserves necessary conditions and exceptions but changes order and explains terminology. Brevity is not achieved by losing qualifications.",
+    "focus": "Clarification without loss",
+    "passage": "案内を簡単にしようとして、細かな条件を削ったことがある。文章は短くなったが、利用できない場合まで利用できるように読めてしまった。簡単にすることと、必要な区別をなくすことは同じではない。今は、まず読み手が何をしたいのかを考え、必要な条件から順に書く。例外は消すのではなく、どの人に関係するかを示す。専門語が必要なら、最初に短く説明する。書き手が調べた順序をそのまま残す必要はないが、判断に必要な情報は残さなければならない。"
+  },
+  {
+    "id": "n1-r19",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "今回の提案について、本文が述べているのは？",
+    "options": [
+      "試行前に毎年の実施が決定した",
+      "費用がかからないことが証明された",
+      "試行の結果を見てから、継続するか判断する",
+      "住民全員が賛成したため相談は不要だ"
+    ],
+    "answer": 2,
+    "explanation": "The limited trial is proposed; continuation depends on later records of attendance, cost and local effects. Expressions of support do not settle it.",
+    "focus": "Trial and continuing decision",
+    "passage": "広場で週末に市を開く案に、賛成の声が集まった。担当者は、まず秋の二日間だけ試すことを提案している。出店する人の数だけでなく、近所への音の影響や、片付けに必要な費用も記録するという。賛成する人が多いことは実施を考える理由にはなるが、毎年続けられる根拠とはまだ言えない。試した結果、時間帯を変える必要が出るかもしれず、続けない判断もあり得る。今回の提案は、継続を先に決めるのではなく、継続について判断する材料を得ようとするものだ。"
+  },
+  {
+    "id": "n1-r20",
+    "level": "N1",
+    "stage": "reading",
+    "prompt": "筆者が過去の記憶を語る際に留意したいと考えているのは？",
+    "options": [
+      "現在の視点を一切持たずに語れると考えること",
+      "記憶に曖昧な部分があればすべて作り話とすること",
+      "昔の日記があれば現在の解釈は必ず間違いだとすること",
+      "今の理解を、そのまま当時の理解だったことにしないこと"
+    ],
+    "answer": 3,
+    "explanation": "The writer distinguishes a later interpretation from what was understood at the time. Neither perfect reconstruction nor blanket dismissal is advocated.",
+    "focus": "Memory and later interpretation",
+    "passage": "昔の経験を語る時、今だから分かることを、当時から分かっていたことのように話してしまうことがある。日記を読み返すと、当時はまったく別のことを心配していたと分かる場合もある。もちろん、今の視点を完全に取り除いて語ることは難しい。それでも、「その時そう考えたこと」と「後からそう理解したこと」を分けて示すことはできる。記憶が曖昧だから何も語れないのではない。曖昧な部分や解釈が変わった部分を隠さずに語ることで、経験の意味も、より丁寧に伝えられるのではないか。"
+  },
+  {
+    "id": "n1-e07",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "証人が陳述した。「陳述」の読み方は？",
+    "options": [
+      "ちんしゅつ",
+      "じんじゅつ",
+      "ちんじゅつ",
+      "ちんじつ"
+    ],
+    "answer": 2,
+    "explanation": "陳述 is ちんじゅつ, a statement or account. Retain the consonants in both parts.",
+    "focus": "Vocabulary · statement reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e08",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "利用者数の推移を調べた。「推移」の読み方は？",
+    "options": [
+      "すい",
+      "ついい",
+      "すいし",
+      "すいい"
+    ],
+    "answer": 3,
+    "explanation": "推移 is すいい, change or transition over time. The final い is retained.",
+    "focus": "Vocabulary · transition reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e09",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "暫定的な措置を取った。「暫定」の読み方は？",
+    "options": [
+      "ざんてい",
+      "さんてい",
+      "ざんじょう",
+      "ざんでい"
+    ],
+    "answer": 0,
+    "explanation": "暫定 is ざんてい, provisional. It does not itself mean a permanent decision.",
+    "focus": "Vocabulary · provisional reading",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e10",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "要望は多いが、予算には限りがある。何を優先するか、（　）を付けなければならない。",
+    "options": [
+      "余韻",
+      "順位",
+      "彩色",
+      "境遇"
+    ],
+    "answer": 1,
+    "explanation": "順位 sets an order of priority. The limited budget supplies the need to choose among requests.",
+    "focus": "Vocabulary · priority collocation",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e11",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "同じ条件で比較するため、調査方法を（　）した。どの会場でも同じ手順を使った。",
+    "options": [
+      "拡散",
+      "棄権",
+      "統一",
+      "回顧"
+    ],
+    "answer": 2,
+    "explanation": "統一 means standardise or unify. Using the same procedure at every venue confirms this sense.",
+    "focus": "Vocabulary · standardisation",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e12",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "この説明で「趣旨」とは？会議の趣旨は、責任を追及することではなく、再発を防ぐ方法を考えることだ。",
+    "options": [
+      "会議室の面積",
+      "参加者の到着時刻",
+      "資料の印刷枚数",
+      "会議を行う目的"
+    ],
+    "answer": 3,
+    "explanation": "趣旨 names the purpose or intent; the sentence contrasts blame with preventing recurrence.",
+    "focus": "Vocabulary · stated purpose",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e13",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "「手掛かり」に最も近い意味は？古い写真が、撮影場所を探す手掛かりになった。",
+    "options": [
+      "調べる際の糸口",
+      "調査が終わった証明",
+      "必ず正しい最終結論",
+      "場所を変える許可"
+    ],
+    "answer": 0,
+    "explanation": "A 手掛かり is a clue that guides inquiry. It does not alone establish the final location.",
+    "focus": "Vocabulary · clue in context",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e14",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "「配慮」を自然に使った文はどれですか。",
+    "options": [
+      "配慮を改札に通して電車に乗ります。",
+      "夜の作業では、近所への配慮が必要です。",
+      "窓の配慮を回して換気します。",
+      "配慮を三枚切って封筒に入れます。"
+    ],
+    "answer": 1,
+    "explanation": "配慮 is consideration for others. Night work can require attention to neighbours affected by it.",
+    "focus": "Vocabulary · consideration usage",
+    "section": "vocabulary"
+  },
+  {
+    "id": "n1-e15",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「んばかりに」。するの否定の基を使い、破裂（　）んばかりに膨らんだ、と表す。",
+    "options": [
+      "し",
+      "する",
+      "せ",
+      "した"
+    ],
+    "answer": 2,
+    "explanation": "する takes せ before んばかりに: 破裂せんばかりに. The expression describes an appearance of imminent bursting.",
+    "focus": "Grammar · suru appearance",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e16",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「たりとも」の文を完成させる。一人たりとも（　）。",
+    "options": [
+      "取り残してよい",
+      "取り残すようにしよう",
+      "取り残すことを勧める",
+      "取り残してはならない"
+    ],
+    "answer": 3,
+    "explanation": "The minimal quantity pattern here requires a negative or prohibition: nobody may be left behind.",
+    "focus": "Grammar · nobody excluded",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e17",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「まじき」で名詞を修飾する。教育者として許す（　）発言だ。",
+    "options": [
+      "まじき",
+      "まじくに",
+      "まじきの",
+      "まじず"
+    ],
+    "answer": 0,
+    "explanation": "Dictionary 許す + まじき modifies 発言 and gives marked strong condemnation.",
+    "focus": "Grammar · formal condemnation",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e18",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「ざる」で名詞を修飾する。努力（　）ざる者、と書かれていた。",
+    "options": [
+      "し",
+      "せ",
+      "する",
+      "した"
+    ],
+    "answer": 1,
+    "explanation": "する has the negative base せ before ざる: 努力せざる者, a person who does not make an effort.",
+    "focus": "Grammar · suru attributive negative",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e19",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「ないまでも」。理想的（　）までも、使いやすくなった。",
+    "options": [
+      "でなくて",
+      "だ",
+      "ではない",
+      "です"
+    ],
+    "answer": 2,
+    "explanation": "A na-adjective uses ではないまでも here. The improvement is acknowledged without claiming perfection.",
+    "focus": "Grammar · qualified improvement",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e20",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "形の練習：「を前提とした」で名詞を修飾する。費用の承認（　）計画であり、承認がなければ実行しない。",
+    "options": [
+      "を前提として",
+      "が前提とした",
+      "を前提するの",
+      "を前提とした"
+    ],
+    "answer": 3,
+    "explanation": "Noun + を前提とした modifies 計画. The following clause explicitly states the prerequisite.",
+    "focus": "Grammar · prerequisite modifier",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e21",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "取引先に、自分が資料を確認すると伝える。適切なのは？",
+    "options": [
+      "資料は私が確認いたします。",
+      "資料は私がご確認になります。",
+      "資料は私が確認してくださいます。",
+      "資料は私がご確認なさいます。"
+    ],
+    "answer": 0,
+    "explanation": "いたします is appropriate for the speaker’s own action. The other choices wrongly assign respectful forms to that own action.",
+    "focus": "Grammar · own-side confirmation",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e22",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "同僚から「三十部でよろしいですか」と聞かれた。数量は三十部で確定している。合う返事は？",
+    "options": [
+      "まだ数量は決まっていません。",
+      "はい、三十部でお願いします。",
+      "三十部という案は取り消しました。",
+      "三十部ではなく、部数は不明です。"
+    ],
+    "answer": 1,
+    "explanation": "The scenario says thirty copies are confirmed. Only the first response agrees with that established quantity.",
+    "focus": "Grammar · confirmed quantity reply",
+    "section": "grammar"
+  },
+  {
+    "id": "n1-e23",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "筆者が会議の記録に求めていることは？",
+    "options": [
+      "参加者の賛成した発言だけを残すこと",
+      "結論が出ない会議は開催記録を消すこと",
+      "未解決の点と次の判断に必要な情報も残すこと",
+      "議論の順番を記録すれば理由は不要とすること"
+    ],
+    "answer": 2,
+    "explanation": "The writer values unresolved issues and the evidence needed for a later decision, not just chronology or agreement.",
+    "focus": "Reading · unresolved issues",
+    "passage": "会議の記録は、決まったことを伝えるために必要だ。しかし、決まらなかったことを消してしまうと、次の会議で同じ議論を繰り返すことになる。なぜ決められなかったのか、どの情報が不足していたのかを残しておけば、次に集まるまでに準備すべきことが分かる。発言を順番どおりに書くことだけが記録ではない。結論がない部分も、判断の条件を整理すれば、次の作業につながる。決まったことと未解決のことを区別して示す記録のほうが、きれいな結論だけを並べた記録より役に立つ場合がある。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e24",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "この案内に従い、土曜日に本を返し、別館の機器も返却したい人が取れる方法は？",
+    "options": [
+      "本も機器も必ず土曜日の窓口へ持っていくこと",
+      "返却箱に本と機器を一緒に入れること",
+      "本は月曜日まで一切返却できないと考えること",
+      "本を返却箱に入れ、別館で借りた機器は月曜日に窓口へ返すこと"
+    ],
+    "answer": 3,
+    "explanation": "The Saturday closure affects counters. Books can go in the box; devices from the annex cannot, and must go to the Monday counter.",
+    "focus": "Reading · distinct return routes",
+    "passage": "今週土曜日は点検のため、本館と別館の窓口を休止します。本の返却箱は通常どおり使えますので、本は箱へお入れください。ただし、別館で貸し出した機器は、破損防止のため返却箱へ入れないでください。機器の返却日は、月曜日の窓口再開時まで延長します。この延長は機器に限り、本の返却期限を一律に変更するものではありません。本と機器を一緒に借りた方は、それぞれの返却方法をご確認ください。月曜日はどちらの窓口でも機器を受け付けます。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e25",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "AとBの考えに共通するのは？",
+    "options": [
+      "比較の結果を、条件を示さずに一般化してはいけない",
+      "数値を使った比較には価値がない",
+      "条件が違っても必ず同じ結果になる",
+      "高い評価のものはすべての人に最適だ"
+    ],
+    "answer": 0,
+    "explanation": "A points to the conditions of a timed test; B to the users represented in a rating. Both limit the scope of a comparison rather than rejecting comparison.",
+    "focus": "Reading · shared qualification",
+    "passage": "【A】処理が速い道具を選ぶ時、その速さを何で測ったかも確かめたい。短い作業での差が、長い作業でも同じとは限らない。比較した条件を知らなければ、自分の仕事でも速いかは判断できない。\n【B】利用者の評価が高いサービスでも、誰が評価したかで意味は変わる。慣れた人には便利でも、初めて使う人には難しいことがある。評価を参考にするなら、自分と似た使い方をした人の声かどうかも考えたい。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e26",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "AとBの意見の違いを示しているのは？",
+    "options": [
+      "Aは修正を一切認めず、Bは完成を目指さない",
+      "Aは一度の作業で完成に近づけ、Bは早い段階の反応を利用する",
+      "Aは他人に任せ、Bは他人の意見を聞かない",
+      "二人とも、未完成のものは絶対に見せない"
+    ],
+    "answer": 1,
+    "explanation": "A aims to avoid frequent review of premature drafts; B uses early reader feedback to avoid late structural changes. Neither refuses revision or completion.",
+    "focus": "Reading · timing of feedback",
+    "passage": "【A】人に原稿を見せる前に、できるだけ自分で整えている。考えが変わるたびに送ってしまうと、相手は何度も読み直すことになる。分からない点を明確にしてから相談したい。\n【B】私は構成が固まる前に、短い案を見てもらうことが多い。細部まで書いてから、読み手が知りたいことと違うと分かると、直す負担が大きいからだ。ただし、何を相談したいかは、先に伝えるようにしている。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e27",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "本文で「成功」と見なす基準を変える必要があるのはなぜか。",
+    "options": [
+      "結果を数えることが常に不可能だから",
+      "参加者数が多ければ必ず失敗するから",
+      "目的が違えば、同じ結果の意味も変わるから",
+      "目標は活動が終わってから決めるべきだから"
+    ],
+    "answer": 2,
+    "explanation": "The text contrasts audience expansion with quiet discussion, showing that headcount has different implications under different aims. It does not reject measurement.",
+    "focus": "Reading · criterion and purpose",
+    "passage": "催しの成功を参加者数だけで判断すると、目的が見えなくなることがある。広く活動を知ってもらう催しなら、人数は重要な指標になるだろう。一方、少人数でじっくり話す場を作ることが目的なら、多すぎる参加者が話しにくさにつながる場合もある。同じ人数でも、目的によって評価は変わる。だからといって、結果を測らなくてよいわけではない。何を実現したかったのかを先に示し、その目的に照らして、何ができ、何が残ったのかを確かめる必要がある。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e28",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "このメールで、送り手が求めている確認は？",
+    "options": [
+      "元の注文を必ず取り消すこと",
+      "追加費用がすでに支払われたと伝えること",
+      "承認せずに変更後の作業を始めること",
+      "仕様の変更による追加費用を認めるかどうか"
+    ],
+    "answer": 3,
+    "explanation": "A cost estimate is presented for approval. The original work continues; changed work waits for agreement, and no payment is asserted.",
+    "focus": "Reading · approval before change",
+    "passage": "先日ご相談のありました仕様変更について、追加費用の見積もりをお送りします。元の仕様での作業は予定どおり進めておりますが、変更部分には別の材料が必要です。見積もりをご確認の上、この費用で変更を進めてよろしいか、お知らせください。ご承認をいただくまでは、変更部分の作業には着手いたしません。変更を希望されない場合は、元の仕様のまま進めます。見積もりをお送りしたことをもって、変更のご承認をいただいたとは扱いません。納期への影響は、ご返答をいただいてから改めて確認いたします。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e29",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "筆者が翻訳を読み比べる際に重視しているのは？",
+    "options": [
+      "言葉の違いが、読者にどんな印象の違いを生むか",
+      "同じ意味なら語順や響きは必ず同じになると考えること",
+      "新しい訳であることだけを評価の基準にすること",
+      "訳者の選択を一切考えず誤字だけを探すこと"
+    ],
+    "answer": 0,
+    "explanation": "The writer compares the effects of word order, rhythm and chosen terms rather than treating one wording or publication date as decisive.",
+    "focus": "Reading · interpretation through wording",
+    "passage": "同じ作品の二つの翻訳を読むと、筋は同じでも、登場人物の印象が違うことがある。語順や文の切り方、選ばれた呼び名によって、同じ発言が遠慮深くも、突き放したようにも聞こえるからだ。読み比べる目的は、どちらか一方を正解と決めることだけではない。訳者が何を残し、何を調整したかを考えることで、自分がどの言葉から印象を受け取ったかも分かる。新しい訳だから読みやすい、古い訳だから正確だと先に決めず、実際の表現とその働きを確かめたい。",
+    "section": "reading"
+  },
+  {
+    "id": "n1-e30",
+    "level": "N1",
+    "stage": "exam",
+    "prompt": "筆者が道具の導入前に確かめたいと述べているのは？",
+    "options": [
+      "有名な道具なら必ず導入すべきか",
+      "今の困りごとを減らすか、別の負担を増やすか",
+      "導入した後は使い方を変えてはいけないか",
+      "評判を聞けば試す必要がなくなるか"
+    ],
+    "answer": 1,
+    "explanation": "The writer asks whether the tool addresses the actual problem and what ongoing work it adds. Popularity and speed alone do not answer those questions.",
+    "focus": "Reading · evaluating fit",
+    "passage": "便利な道具があると聞くと、使えば今の仕事が楽になると思ってしまう。だが、使い方を覚える時間や、記録を整える作業が新たに必要になる場合もある。導入を考える時は、何ができるかという説明だけでなく、自分が今どこで困っているかを確かめたい。その困りごとを減らさず、別の作業だけを増やすなら、評判のよさは導入の十分な理由にはならない。まず一部の作業で試し、減った負担と増えた負担を比べる。その上で使い方を変えたり、導入を見送ったりする選択も残しておきたい。",
+    "section": "reading"
   }
 ]

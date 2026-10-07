@@ -96,6 +96,145 @@ async function onboard(page: Page) {
   await page.goto("/#jlpt/N5");
   await page.getByRole("heading", { name: "JLPT study room." }).waitFor();
 }
+
+for (const level of ["N2", "N1"] as const)
+  for (const stage of ["vocabulary", "grammar", "reading", "exam"] as const)
+    test(`expanded ${level} ${stage} preserves history and rotates new selections`, async ({
+      page,
+    }) => {
+      await onboard(page);
+      const seeded = await page.evaluate(
+        async ({ level, stage }) => {
+          const dbPath = "/src/db.ts";
+          const { db } = await import(dbPath);
+          const modelPath = "/src/jlpt-model.ts";
+          const { createRun, newPlan, questionMap } = await import(modelPath);
+          const plan = newPlan(level);
+          await db.jlptPlans.put(plan);
+          const logs = [
+            "entry",
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+          ].map((s, i) => ({
+            id: `${level}-${s}-fixture`,
+            level,
+            cycle: 1,
+            stage: s,
+            source: "Book",
+            unit: "Reviewed chapter",
+            minutes: 20,
+            notes: "I checked the missed detail against the original passage.",
+            at: 100 + i,
+            ...(s === "entry" ? { checks: [true, true, true] } : {}),
+          }));
+          await db.jlptLogs.bulkPut(logs);
+          const old = ["vocabulary", "grammar", "reading", "exam"].map(
+            (s, i) => {
+              const r = createRun(plan, s, 1000 + i);
+              r.answers = r.questionIds.map(
+                (id: string) => questionMap.get(id)!.answer,
+              );
+              r.submitted = 2000 + i;
+              return r;
+            },
+          );
+          await db.jlptRuns.bulkPut(old);
+          const active = createRun(plan, stage, Date.now(), old);
+          await db.jlptRuns.add(active);
+          return { old, active };
+        },
+        { level, stage },
+      );
+      await page.goto(`/#jlpt/${level}`);
+      const firstId = seeded.active.questionIds[0];
+      if (level === "N1" && stage === "reading") {
+        await page.setViewportSize({ width: 375, height: 1000 });
+      }
+
+      await expect(page.getByRole("radio").first()).toHaveAttribute(
+        "name",
+        firstId,
+      );
+      const answer = questions.find((q) => q.id === firstId)!.answer;
+      if (level === "N1" && stage === "reading") {
+        expect(
+          (
+            await new AxeBuilder({ page })
+              .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+              .analyze()
+          ).violations,
+        ).toEqual([]);
+        expect(
+          await page.evaluate(
+            () => document.documentElement.scrollWidth <= innerWidth,
+          ),
+        ).toBe(true);
+        await page.screenshot({
+          path: "output/n1-bank-reading-375.png",
+          fullPage: true,
+        });
+      }
+
+      await page.getByRole("radio").nth(answer).click();
+      await expect(page.getByRole("radio").nth(answer)).toBeChecked();
+      await page.reload();
+      await expect(page.getByRole("radio").first()).toHaveAttribute(
+        "name",
+        firstId,
+      );
+      await expect(page.getByRole("radio").nth(answer)).toBeChecked();
+      for (let i = 0; i < seeded.active.questionIds.length; i++) {
+        const id = seeded.active.questionIds[i];
+        await expect(page.getByRole("radio").first()).toHaveAttribute(
+          "name",
+          id,
+        );
+        await page
+          .getByRole("radio")
+          .nth(questions.find((q) => q.id === id)!.answer)
+          .click();
+        if (i + 1 < seeded.active.questionIds.length)
+          await page.getByRole("button", { name: "Next question" }).click();
+        else await page.getByRole("button", { name: /Submit answers/ }).click();
+      }
+      const size = seeded.active.questionIds.length;
+      await expect(
+        page.getByRole("heading", { name: `${size} / ${size} correct` }),
+      ).toBeVisible();
+      await page.getByRole("button", { name: "Back to the pathway" }).click();
+      await page
+        .locator(".jlpt-syllabus button")
+        .nth(
+          [
+            "entry",
+            "vocabulary",
+            "grammar",
+            "reading",
+            "listening",
+            "exam",
+          ].indexOf(stage),
+        )
+        .click();
+      await page
+        .getByRole("button", {
+          name:
+            stage === "exam" ? /Start \d+-minute sample/ : "Start checkpoint",
+        })
+        .click();
+      const nextId = await page.getByRole("radio").first().getAttribute("name");
+      expect(seeded.active.questionIds).not.toContain(nextId);
+      const saved = await page.evaluate(
+        async (ids) => {
+          const dbPath = "/src/db.ts";
+          const { db } = await import(dbPath);
+          return db.jlptRuns.bulkGet(ids);
+        },
+        seeded.old.map((r) => r.id),
+      );
+      expect(saved).toEqual(seeded.old);
+    });
 async function settle(page: Page) {
   await page.evaluate(() => document.fonts.ready);
   await page
