@@ -1,0 +1,65 @@
+{
+  "unit": "n1-u07",
+  "checkedAt": "2026-10-07",
+  "status": "Formation, editorial, actual synthesis-query/mapping, browser/build/offline checks completed; independent native review pending.",
+  "method": "Relevant primary authored sections read; original dialogue, prose and questions. Restricted pinned JMdict pairs certify spellings/readings, not historical accuracy, naturalness or official JLPT level.",
+  "points": [
+    {
+      "form": "拙者 and noun + でござる",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/hint/201101.html",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/201302.html",
+        "https://kotobank.jp/word/%E5%BE%A1%E5%BA%A7%E3%82%8B-500915"
+      ],
+      "formation": "Selected fiction frame N+でござる; explanatory の before the copula after 泊まりたい. 拙者 self-reference.",
+      "teachingChoice": "Character speech supplies listening cues. Modern ordinary self-introduction differs. Do not reduce all historical respectful/auxiliary ござる uses to this fiction frame; no unverified derivation taught."
+    },
+    {
+      "form": "Positive じゃ; negative potential + ぬ",
+      "sources": [
+        "https://imabi.org/copula-verb-variants/",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/201302.html"
+      ],
+      "formation": "N/na-stem+じゃ as positive copula; じゃない negative contraction is separate. Potential 渡れる→渡れない→渡れぬ retrieves n1-u03.",
+      "teachingChoice": "Innkeeper role is an original script. じゃ occurs in living dialects as well; costume and ending do not prove an actual historical demographic."
+    },
+    {
+      "form": "Character thanks and ordinary paraphrase",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/hint/201101.html",
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/201302.html"
+      ],
+      "formation": "かたじけない thanks in this role; quoted older line followed by ordinary casual paraphrase.",
+      "teachingChoice": "Keep route, person, time and chosen action identical. Original role-play uses the established one-voice cast without copying published exercises."
+    },
+    {
+      "form": "候 request and selected 奉願候 read-out",
+      "sources": [
+        "https://www.library-archives.pref.fukui.lg.jp/bunsho/file/611944.pdf",
+        "https://www.kanjipedia.jp/kotoba/0002233700",
+        "https://www.town.oiso.kanagawa.jp/oisomuseum/kyuyoshidatei/lab/R3/14980.html"
+      ],
+      "formation": "願い候; 願い奉り候, selected read-out of written 奉願候. 候 is そうろう here, supporting a polite request.",
+      "teachingChoice": "Fukui full PDF text and rendered first page inspected; municipal museum actual transcription/read-out/translation and section4 inspected. Original typed petition about bridge inspection is not a claimed historical source. A retained request gives no approval/inspection outcome; no cursive mastery claimed."
+    }
+  ],
+  "sourceCautions": [
+    "Japan Foundation dated gender generalisations are not taught as universal facts; no quoted identity/safety caveats in dialogue.",
+    "IMABI honorifics-IV returned 429; its search snippet is not inspected evidence.",
+    "Only selected 候 forms taught; original prose is not copied from the museum or archives.",
+    "Broad historical headwords are met for recognition, not stuffed into travellers’ lines."
+  ],
+  "audioScope": "Three thirteen-line scenes at 1.15 in existing Violetto cast/moods; Clear vocabulary, examples and heard practice. No full paragraph narration. Thirteen exact U7 text keys pin inspected readings/moras for 候, 奉願候, 殿, 銭, 書状 and 草履; five validators and all prior-record preservation pass.",
+  "checks": {
+    "wordPairs": 54,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "readingCharacters": [
+      948,
+      981
+    ],
+    "tasks": 20,
+    "remaining": "Independent native reading and listening review."
+  }
+}

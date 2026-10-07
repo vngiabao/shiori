@@ -35,6 +35,97 @@
       "unit": "n1-u06",
       "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
       "expectedMoras": "ホンジツワゴシュッセキイタダキココロヨリオレエモオシアゲマス"
+    },
+    {
+      "text": "最後の「願い候」は、ねがいそうろう、と読むんですね。",
+      "readingInput": "最後の「願いソーロー」は、ねがいソーロー、と読むんですね。",
+      "unit": "n1-u07",
+      "reason": "Pin the selected classical read-out 候=そうろう and 奉=たてまつ; the uncorrected analyser used こう/まつり. Long-o transcription preserves both long vowels in そうろう.",
+      "expectedMoras": "サイゴノネガイソオロオワネガイソオロオトヨムンデスネ"
+    },
+    {
+      "text": "こちらの「奉願候」も、検分のお願いですか。",
+      "readingInput": "こちらの「ねがいたてまつりソーロー」も、検分のお願いですか。",
+      "unit": "n1-u07",
+      "reason": "Pin the selected classical read-out 候=そうろう and 奉=たてまつ; the uncorrected analyser used こう/まつり. Long-o transcription preserves both long vowels in そうろう.",
+      "expectedMoras": "コチラノネガイタテマツリソオロオモケンブンノオネガイデスカ"
+    },
+    {
+      "text": "はい。この書き方は、願い奉り候、と読み下します。",
+      "readingInput": "はい。この書き方は、願いたてまつりソーロー、と読み下します。",
+      "unit": "n1-u07",
+      "reason": "Pin the selected classical read-out 候=そうろう and 奉=たてまつ; the uncorrected analyser used こう/まつり. Long-o transcription preserves both long vowels in そうろう.",
+      "expectedMoras": "ハイコノカキカタワネガイタテマツリソオロオトヨミクダシマス"
+    },
+    {
+      "text": "橋の検分を願い候。",
+      "readingInput": "橋の検分を願いソーロー。",
+      "unit": "n1-u07",
+      "reason": "Pin the selected classical read-out 候=そうろう and 奉=たてまつ; the uncorrected analyser used こう/まつり. Long-o transcription preserves both long vowels in そうろう.",
+      "expectedMoras": "ハシノケンブンオネガイソオロオ"
+    },
+    {
+      "text": "橋の検分を願い奉り候。",
+      "readingInput": "橋の検分を願いたてまつりソーロー。",
+      "unit": "n1-u07",
+      "reason": "Pin the selected classical read-out 候=そうろう and 奉=たてまつ; the uncorrected analyser used こう/まつり. Long-o transcription preserves both long vowels in そうろう.",
+      "expectedMoras": "ハシノケンブンオネガイタテマツリソオロオ"
+    },
+    {
+      "text": "候",
+      "readingInput": "ソーロー",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ソオロオ"
+    },
+    {
+      "text": "そうろう",
+      "readingInput": "ソーロー",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ソオロオ"
+    },
+    {
+      "text": "殿",
+      "readingInput": "との",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "トノ"
+    },
+    {
+      "text": "銭",
+      "readingInput": "ぜに",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ゼニ"
+    },
+    {
+      "text": "書状",
+      "readingInput": "ショジョー",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ショジョオ"
+    },
+    {
+      "text": "しょじょう",
+      "readingInput": "ショジョー",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ショジョオ"
+    },
+    {
+      "text": "草履",
+      "readingInput": "ゾーリ",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ゾオリ"
+    },
+    {
+      "text": "ぞうり",
+      "readingInput": "ゾーリ",
+      "unit": "n1-u07",
+      "reason": "Pin the authored historical headword reading or long-o vowels; isolated text analysis used a different dictionary reading or left orthographic う as an extra u vowel.",
+      "expectedMoras": "ゾオリ"
     }
   ]
 }
