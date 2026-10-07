@@ -181,6 +181,16 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "この話の続きは、明日聞かせてください。",
       "Please tell me the rest of this story tomorrow.",
     ],
+    [
+      13,
+      "ベンチに座って、海を眺めました。",
+      "I sat on a bench and gazed out at the sea.",
+    ],
+    [
+      14,
+      "この店では、手作りの雑貨を販売しています。",
+      "This shop sells handmade household goods.",
+    ],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");

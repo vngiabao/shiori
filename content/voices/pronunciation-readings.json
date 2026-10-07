@@ -700,6 +700,104 @@
       "unit": "n3-vocab-12",
       "reason": "Fresh pre-render query review: preserve lexical long vowels and distinguish は topic from lexical は in this exact new sentence.",
       "expectedMoras": "ハコノナカミオタシカメテクダサイ"
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "派手",
+      "readingInput": "ハデ",
+      "expectedMoras": "ハデ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "はで",
+      "readingInput": "ハデ",
+      "expectedMoras": "ハデ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "はだ",
+      "readingInput": "ハダ",
+      "expectedMoras": "ハダ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "傷んだ葉を除いてから、花を飾りました。",
+      "readingInput": "いたんだハをのぞいてから、はなをかざりました。",
+      "expectedMoras": "イタンダハオノゾイテカラハナオカザリマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "部屋に入る前に、ノックをしました。",
+      "readingInput": "へやにハイルまえに、ノックをしました。",
+      "expectedMoras": "ヘヤニハイルマエニノックオシマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "部屋に入って、コートを脱ぎ、マフラーを外しました。",
+      "readingInput": "へやにハイッテ、コートをぬぎ、マフラーをはずしました。",
+      "expectedMoras": "ヘヤニハイッテコオトオヌギマフラアオハズシマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "小説には、冷たい風が肌に触れる場面があります。",
+      "readingInput": "しょうせつには、つめたいかぜがハダにふれるばめんがあります。",
+      "expectedMoras": "ショオセツニワツメタイカゼガハダニフレルバメンガアリマス",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "物語の王は、規則を破った者を罰しました。",
+      "readingInput": "ものがたりのおーは、きそくをやぶったものをばっしました。",
+      "expectedMoras": "モノガタリノオオワキソクオヤブッタモノオバッシマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "釣った小さな魚を、川に放しました。",
+      "readingInput": "つったちいさなさかなを、かわに放しました。",
+      "expectedMoras": "ツッタチイサナサカナオカワニハナシマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-13",
+      "text": "棚の上で、箱のバランスが崩れました。",
+      "readingInput": "たなのうえで、ハコのバランスがくずれました。",
+      "expectedMoras": "タナノウエデハコノバランスガクズレマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-14",
+      "text": "ぼう",
+      "readingInput": "ぼー",
+      "expectedMoras": "ボオ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-14",
+      "text": "庭に落ちていた棒を拾いました。",
+      "readingInput": "にわにおちていたぼーをひろいました。",
+      "expectedMoras": "ニワニオチテイタボオオヒロイマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-14",
+      "text": "風で飛んだ帽子を、必死に追いかけました。",
+      "readingInput": "かぜでとんだぼーしを、ひっしにおいかけました。",
+      "expectedMoras": "カゼデトンダボオシオヒッシニオイカケマシタ",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-14",
+      "text": "物語の双子は、同じ帽子をかぶっています。",
+      "readingInput": "ものがたりのふたごは、おなじぼーしをかぶっています。",
+      "expectedMoras": "モノガタリノフタゴワオナジボオシオカブッテイマス",
+      "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
     }
   ]
 }
