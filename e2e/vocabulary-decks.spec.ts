@@ -146,11 +146,7 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "彼が同じ映画を好きだと知って、意外に思いました。",
       "I was surprised to learn that he liked the same film.",
     ],
-    [
-      5,
-      "犬がボールを追って走りました。",
-      "The dog ran after the ball.",
-    ],
+    [5, "犬がボールを追って走りました。", "The dog ran after the ball."],
     [
       7,
       "坂道を歩くと、足の筋肉をよく使います。",
@@ -171,11 +167,7 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "会場の席が、少しずつ埋まってきました。",
       "The seats at the venue have gradually been filling up.",
     ],
-    [
-      11,
-      "荷物の大部分は、本です。",
-      "Most of the luggage consists of books.",
-    ],
+    [11, "荷物の大部分は、本です。", "Most of the luggage consists of books."],
     [
       12,
       "この話の続きは、明日聞かせてください。",
@@ -191,6 +183,18 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       "この店では、手作りの雑貨を販売しています。",
       "This shop sells handmade household goods.",
     ],
+    [15, "今日の試合は、私たちの負けでした。", "We lost today's match."],
+    [
+      16,
+      "理科の授業で、細胞の膜について学びました。",
+      "We learned about cell membranes in science class.",
+    ],
+    [
+      17,
+      "ドラマで、兄が「お前も来るのか」と弟に聞きました。",
+      "In the drama, the older brother asked his younger brother, 'Are you coming too?'",
+    ],
+    [18, "しまった。鍵を忘れた。", "Oh no. I forgot my key."],
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");

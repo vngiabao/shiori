@@ -798,6 +798,146 @@
       "readingInput": "ものがたりのふたごは、おなじぼーしをかぶっています。",
       "expectedMoras": "モノガタリノフタゴワオナジボオシオカブッテイマス",
       "reason": "Fresh pre-render query review: correct lexical は versus topic は and exact lexical long vowels in this new input. Not native intonation certification."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "露",
+      "readingInput": "つゆ",
+      "expectedMoras": "ツユ",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "並",
+      "readingInput": "ナミ",
+      "expectedMoras": "ナミ",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "生やす",
+      "readingInput": "ハヤス",
+      "expectedMoras": "ハヤス",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "はやす",
+      "readingInput": "ハヤス",
+      "expectedMoras": "ハヤス",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "突然の知らせに、彼は動揺しました。",
+      "readingInput": "とつぜんのしらせに、かれワどうようしました。",
+      "expectedMoras": "トツゼンノシラセニカレワドオヨオシマシタ",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-15",
+      "text": "選挙の後、票を数えました。",
+      "readingInput": "せんきょのあと、ひょーをかぞえました。",
+      "expectedMoras": "センキョノアトヒョオオカゾエマシタ",
+      "reason": "Fresh pre-render query review: selected 露/つゆ and 並/なみ senses, lexical は, topic は and long-o in 票. All earlier inputs unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "密",
+      "readingInput": "ミツ",
+      "expectedMoras": "ミツ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "分",
+      "readingInput": "ブン",
+      "expectedMoras": "ブン",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "仏",
+      "readingInput": "ホトケ",
+      "expectedMoras": "ホトケ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "棟",
+      "readingInput": "トー",
+      "expectedMoras": "トオ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "碑",
+      "readingInput": "ヒ",
+      "expectedMoras": "ヒ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "さつ",
+      "readingInput": "サツ",
+      "expectedMoras": "サツ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "小説では、広い原に風が吹いています。",
+      "readingInput": "しょうせつでは、ひろいハラにかぜがふいています。",
+      "expectedMoras": "ショオセツデワヒロイハラニカゼガフイテイマス",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-17",
+      "text": "今日は、砂糖無しでコーヒーを飲みました。",
+      "readingInput": "きょうは、さとうなしでコーヒーをのみました。",
+      "expectedMoras": "キョオワサトオナシデコオヒイオノミマシタ",
+      "reason": "Fresh query review fixes selected homograph readings, final ツ, lexical は and standard コーヒー pronunciation. Older recordings stay unchanged."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "無",
+      "readingInput": "ム",
+      "expectedMoras": "ム",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "不",
+      "readingInput": "フ",
+      "expectedMoras": "フ",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "来",
+      "readingInput": "ライ",
+      "expectedMoras": "ライ",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "異",
+      "readingInput": "イ",
+      "expectedMoras": "イ",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "供",
+      "readingInput": "トモ",
+      "expectedMoras": "トモ",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
+    },
+    {
+      "unit": "n3-vocab-18",
+      "text": "弟は不器用ですが、丁寧に箱を作りました。",
+      "readingInput": "おとうとはぶきようですが、ていねいにハコをつくりました。",
+      "expectedMoras": "オトオトワブキヨオデスガテイネイニハコオツクリマシタ",
+      "reason": "Fresh query review fixes selected lexical reading and lexical は. Bare 無/不 written fallback defaults to ム/フ; actual word playback always uses the selected kana, so compound variants use their own ぶ/む/ふ mapping."
     }
   ]
 }

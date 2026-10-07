@@ -1,0 +1,716 @@
+{
+  "deck": "n3-vocab-18",
+  "communityLevel": "N3",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n3.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n3.csv",
+    "sha256": "ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "96d749f97e845f98ac05cca9234d805e42059a56edff34a3349862cefe8176a7",
+  "sourceDraftSha256": "298b5f51229d5b86b2ae00ba62acf1e6af8f68001883288bcab4994f0872e799",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "はあ",
+        "kana": "はあ"
+      },
+      "courseAliases": [
+        "wa"
+      ],
+      "reason": "Pinned entry2069620 also lists interjection は; the course wa ID teaches the topic particle は, a different usage. The response はあ is contextualised separately and is not counted as the same meaning or an interchangeable particle."
+    },
+    {
+      "forms": [
+        "無",
+        "不"
+      ],
+      "reason": "Pinned JMdict related 無/不 prefix entries share forms under different readings. Nothing 無/む, negative 不/ふ, 不器用/ぶ and 無礼/ぶ are taught through actual compounds with specified readings; these are not four independent lexical words or interchangeable readings."
+    },
+    {
+      "forms": [
+        "不",
+        "不"
+      ],
+      "reason": "Prefix 不/ふ and 不/ぶ share a written form and entry candidates. The examples 不満 and 不器用 teach lexical compound readings, not interchangeable standalone readings or two independent words."
+    },
+    {
+      "forms": [
+        "無",
+        "不"
+      ],
+      "reason": "Pinned JMdict related 無/不 prefix entries share forms under different readings. Nothing 無/む, negative 不/ふ, 不器用/ぶ and 無礼/ぶ are taught through actual compounds with specified readings; these are not four independent lexical words or interchangeable readings."
+    },
+    {
+      "forms": [
+        "無",
+        "無"
+      ],
+      "reason": "Nothing 無/む and negative prefix 無/ぶ share written form and dictionary candidates. The poem and 無礼 examples specify different contextual readings; they are neither interchangeable readings nor independent lexical word counts."
+    },
+    {
+      "selected": {
+        "text": "敗",
+        "kana": "はい"
+      },
+      "courseAliases": [
+        "yes"
+      ],
+      "reason": "The shared candidate comes from kana homonym はい. Course yes teaches the response はい; selected 敗 is the loss noun/suffix. Same pronunciation and a dictionary candidate collision do not establish matching meanings or an interchangeable response."
+    }
+  ],
+  "words": [
+    {
+      "id": "n3-vocab-18-w-0079",
+      "sourceRow": 79,
+      "original": {
+        "expression": "しまった (かん)",
+        "reading": "しまった (かん)",
+        "meaning": "Damn it!",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "lG^NNUo)xn"
+      },
+      "selected": {
+        "text": "しまった",
+        "kana": "しまった"
+      },
+      "dictionaryEntryIds": [
+        "1005600"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "しまった (かん)",
+          "reading": "しまった (かん)"
+        },
+        "selected": {
+          "text": "しまった",
+          "kana": "しまった"
+        },
+        "reason": "Remove the explicit interjection annotation (かん) from the source headword/reading; the utterance itself is restricted-JMdict matched."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-0548",
+      "sourceRow": 548,
+      "original": {
+        "expression": "カー",
+        "reading": "カー",
+        "meaning": "car",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "o!p+_Rb<h*"
+      },
+      "selected": {
+        "text": "カー",
+        "kana": "カー"
+      },
+      "dictionaryEntryIds": [
+        "1036170"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-0570",
+      "sourceRow": 570,
+      "original": {
+        "expression": "反る",
+        "reading": "かえる",
+        "meaning": "to warp, to be warped, to curve",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "vDLMxa,sN/"
+      },
+      "selected": {
+        "text": "反る",
+        "kana": "かえる"
+      },
+      "dictionaryEntryIds": [
+        "1480170",
+        "1512150"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-0584",
+      "sourceRow": 584,
+      "original": {
+        "expression": "学",
+        "reading": "がく",
+        "meaning": "learning, knowledge",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "w:XhV>-rir"
+      },
+      "selected": {
+        "text": "学",
+        "kana": "がく"
+      },
+      "dictionaryEntryIds": [
+        "1955900"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-0977",
+      "sourceRow": 977,
+      "original": {
+        "expression": "昨",
+        "reading": "さく",
+        "meaning": "last (year), yesterday",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "GL+Y)4yXcS"
+      },
+      "selected": {
+        "text": "昨",
+        "kana": "さく"
+      },
+      "dictionaryEntryIds": [
+        "1298200"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1028",
+      "sourceRow": 1028,
+      "original": {
+        "expression": "無",
+        "reading": "む",
+        "meaning": "nothing, naught, zero",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "M/]]Gfu|C<"
+      },
+      "selected": {
+        "text": "無",
+        "kana": "む"
+      },
+      "dictionaryEntryIds": [
+        "1956960",
+        "2423740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1155",
+      "sourceRow": 1155,
+      "original": {
+        "expression": "よろしく (かん)",
+        "reading": "よろしく (かん)",
+        "meaning": "best regards, please remember me",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "uLM;15kvNe"
+      },
+      "selected": {
+        "text": "よろしく",
+        "kana": "よろしく"
+      },
+      "dictionaryEntryIds": [
+        "1224890",
+        "2835139",
+        "2846370"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "よろしく (かん)",
+          "reading": "よろしく (かん)"
+        },
+        "selected": {
+          "text": "よろしく",
+          "kana": "よろしく"
+        },
+        "reason": "Remove the explicit interjection annotation (かん) from the source form/reading; contextual expression remains dictionary matched."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-1157",
+      "sourceRow": 1157,
+      "original": {
+        "expression": "来",
+        "reading": "らい～",
+        "meaning": "next ~",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "A=wX.vJ`;k"
+      },
+      "selected": {
+        "text": "来",
+        "kana": "らい"
+      },
+      "dictionaryEntryIds": [
+        "1547710"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "来",
+          "reading": "らい～"
+        },
+        "selected": {
+          "text": "来",
+          "kana": "らい"
+        },
+        "reason": "Remove the source reading tilde indicating bound use; teach 来 as a contextual prefix within 来月, not a standalone ordinary word."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-1214",
+      "sourceRow": 1214,
+      "original": {
+        "expression": "異",
+        "reading": "い",
+        "meaning": "difference (of opinion)",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "KWy%Q&s$/y"
+      },
+      "selected": {
+        "text": "異",
+        "kana": "い"
+      },
+      "dictionaryEntryIds": [
+        "2056700",
+        "2229780"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1215",
+      "sourceRow": 1215,
+      "original": {
+        "expression": "意",
+        "reading": "い",
+        "meaning": "will",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "ue.p8Uogo]"
+      },
+      "selected": {
+        "text": "意",
+        "kana": "い"
+      },
+      "dictionaryEntryIds": [
+        "2081180"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1239",
+      "sourceRow": 1239,
+      "original": {
+        "expression": "格",
+        "reading": "かく",
+        "meaning": "status, character, case",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "Bd<&>IEN#("
+      },
+      "selected": {
+        "text": "格",
+        "kana": "かく"
+      },
+      "dictionaryEntryIds": [
+        "1205270",
+        "2247340"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1249",
+      "sourceRow": 1249,
+      "original": {
+        "expression": "～観",
+        "reading": "かん",
+        "meaning": "feeling, view",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "L#gN7p7zR4"
+      },
+      "selected": {
+        "text": "観",
+        "kana": "かん"
+      },
+      "dictionaryEntryIds": [
+        "1214770"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "～観",
+          "reading": "かん"
+        },
+        "selected": {
+          "text": "観",
+          "kana": "かん"
+        },
+        "reason": "Remove source spelling tilde indicating bound use; teach contextual suffix 観 in 世界観, not a standalone view certificate."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-1269",
+      "sourceRow": 1269,
+      "original": {
+        "expression": "群",
+        "reading": "ぐん",
+        "meaning": "group",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "LN,Tx3PlR-"
+      },
+      "selected": {
+        "text": "群",
+        "kana": "ぐん"
+      },
+      "dictionaryEntryIds": [
+        "1247490",
+        "2681300"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1294",
+      "sourceRow": 1294,
+      "original": {
+        "expression": "作",
+        "reading": "さく",
+        "meaning": "a work, a harvest",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "e0vQj1EM3V"
+      },
+      "selected": {
+        "text": "作",
+        "kana": "さく"
+      },
+      "dictionaryEntryIds": [
+        "1297240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1295",
+      "sourceRow": 1295,
+      "original": {
+        "expression": "策",
+        "reading": "さく",
+        "meaning": "plan, policy",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "m7/9u%VJ!K"
+      },
+      "selected": {
+        "text": "策",
+        "kana": "さく"
+      },
+      "dictionaryEntryIds": [
+        "1298260",
+        "1633970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1302",
+      "sourceRow": 1302,
+      "original": {
+        "expression": "全",
+        "reading": "ぜん",
+        "meaning": "all, whole, entire",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "AlSQZeMOe,"
+      },
+      "selected": {
+        "text": "全",
+        "kana": "ぜん"
+      },
+      "dictionaryEntryIds": [
+        "1394770"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1356",
+      "sourceRow": 1356,
+      "original": {
+        "expression": "大",
+        "reading": "だい",
+        "meaning": "big, great",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "LwTE(&7K+A"
+      },
+      "selected": {
+        "text": "大",
+        "kana": "だい"
+      },
+      "dictionaryEntryIds": [
+        "2082140",
+        "2082450",
+        "2427850",
+        "2427860",
+        "2839018"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1415",
+      "sourceRow": 1415,
+      "original": {
+        "expression": "唯",
+        "reading": "たった",
+        "meaning": "only, just",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "uOH:v;n@##"
+      },
+      "selected": {
+        "text": "たった",
+        "kana": "たった"
+      },
+      "dictionaryEntryIds": [
+        "1007230"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "唯",
+          "reading": "たった"
+        },
+        "selected": {
+          "text": "たった",
+          "kana": "たった"
+        },
+        "reason": "Raw 唯 has dictionary reading ただ, not たった. Preserve source reading/only sense by selecting the independently matched kana headword たった; do not claim 唯 is pronounced たった."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-1452",
+      "sourceRow": 1452,
+      "original": {
+        "expression": "地",
+        "reading": "ち",
+        "meaning": "earth",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "o?b;2k}iDx"
+      },
+      "selected": {
+        "text": "地",
+        "kana": "ち"
+      },
+      "dictionaryEntryIds": [
+        "1420730",
+        "1445270",
+        "2423320"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1475",
+      "sourceRow": 1475,
+      "original": {
+        "expression": "注",
+        "reading": "ちゅう",
+        "meaning": "annotation, explanatory note",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "ewit4l?.v2"
+      },
+      "selected": {
+        "text": "注",
+        "kana": "ちゅう"
+      },
+      "dictionaryEntryIds": [
+        "1426520"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1737",
+      "sourceRow": 1737,
+      "original": {
+        "expression": "はあ (かん)",
+        "reading": "はあ (かん)",
+        "meaning": "(sigh)",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "q->2~QuZ7t"
+      },
+      "selected": {
+        "text": "はあ",
+        "kana": "はあ"
+      },
+      "dictionaryEntryIds": [
+        "2069620"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "はあ (かん)",
+          "reading": "はあ (かん)"
+        },
+        "selected": {
+          "text": "はあ",
+          "kana": "はあ"
+        },
+        "reason": "Remove the explicit interjection annotation (かん); teach the actual response with an intonation-sensitive context, not the annotation."
+      }
+    },
+    {
+      "id": "n3-vocab-18-w-1855",
+      "sourceRow": 1855,
+      "original": {
+        "expression": "不",
+        "reading": "ふ",
+        "meaning": "un(~), non(~), negative prefix",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "DaVjdKEUb@"
+      },
+      "selected": {
+        "text": "不",
+        "kana": "ふ"
+      },
+      "dictionaryEntryIds": [
+        "1922780",
+        "2423740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1856",
+      "sourceRow": 1856,
+      "original": {
+        "expression": "不",
+        "reading": "ぶ",
+        "meaning": "un(~), non(~), negative prefix",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "xWoO+hKXb|"
+      },
+      "selected": {
+        "text": "不",
+        "kana": "ぶ"
+      },
+      "dictionaryEntryIds": [
+        "1922780",
+        "2423740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-1857",
+      "sourceRow": 1857,
+      "original": {
+        "expression": "無",
+        "reading": "ぶ",
+        "meaning": "nothing, naught, nil, zero",
+        "tags": "JLPT JLPT_2 JLPT_3",
+        "guid": "F0,T~)w`pd"
+      },
+      "selected": {
+        "text": "無",
+        "kana": "ぶ"
+      },
+      "dictionaryEntryIds": [
+        "1956960",
+        "2423740"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-2016",
+      "sourceRow": 2016,
+      "original": {
+        "expression": "衆",
+        "reading": "しゅう",
+        "meaning": "masses, people",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "rXpmbk8=bE"
+      },
+      "selected": {
+        "text": "衆",
+        "kana": "しゅう"
+      },
+      "dictionaryEntryIds": [
+        "1333240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-2017",
+      "sourceRow": 2017,
+      "original": {
+        "expression": "住",
+        "reading": "じゅう",
+        "meaning": "dwelling, living",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "Gr~DDJR6l}"
+      },
+      "selected": {
+        "text": "住",
+        "kana": "じゅう"
+      },
+      "dictionaryEntryIds": [
+        "1333910"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-2026",
+      "sourceRow": 2026,
+      "original": {
+        "expression": "女史",
+        "reading": "じょし",
+        "meaning": "Ms.",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "b7C,wG{C22"
+      },
+      "selected": {
+        "text": "女史",
+        "kana": "じょし"
+      },
+      "dictionaryEntryIds": [
+        "1345130"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-2091",
+      "sourceRow": 2091,
+      "original": {
+        "expression": "供",
+        "reading": "とも",
+        "meaning": "accompanying, attendant, companion, retinue",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "sml:7Y1}f0"
+      },
+      "selected": {
+        "text": "供",
+        "kana": "とも"
+      },
+      "dictionaryEntryIds": [
+        "1233560"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n3-vocab-18-w-2101",
+      "sourceRow": 2101,
+      "original": {
+        "expression": "～敗",
+        "reading": "はい",
+        "meaning": "counter for loss, defeat",
+        "tags": "JLPT_1 JLPT JLPT_3",
+        "guid": "Jfw=ThK<1_"
+      },
+      "selected": {
+        "text": "敗",
+        "kana": "はい"
+      },
+      "dictionaryEntryIds": [
+        "1901390"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "～敗",
+          "reading": "はい"
+        },
+        "selected": {
+          "text": "敗",
+          "kana": "はい"
+        },
+        "reason": "Remove source spelling tilde indicating bound use; teach loss/counting suffix 敗 within 一敗 and explain sound change, not an independent modern JLPT syllabus claim."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 29,
+    "reason": "Actual final reviewed N3 source/context batch, including bound components, alternate readings and source-cell corrections. Components are contextualised in full compounds; no filler to reach one hundred. Related forms remain separately labelled in source coverage."
+  }
+}

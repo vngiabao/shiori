@@ -839,5 +839,48 @@
       ],
       "reason": "Pinned JMdict1212650 marks habituation/training especially 慣らす and animal taming especially 馴らす. Ear-training and a fictional horse context teach related forms/senses without an absolute orthographic rule or independent-word double-count claim."
     }
+  ],
+  "n3-vocab-18": [
+    {
+      "forms": [
+        "無",
+        "不"
+      ],
+      "reason": "Pinned JMdict related 無/不 prefix entries share forms under different readings. Nothing 無/む, negative 不/ふ, 不器用/ぶ and 無礼/ぶ are taught through actual compounds with specified readings; these are not four independent lexical words or interchangeable readings."
+    },
+    {
+      "selected": {
+        "text": "はあ",
+        "kana": "はあ"
+      },
+      "courseAliases": [
+        "wa"
+      ],
+      "reason": "Pinned entry2069620 also lists interjection は; the course wa ID teaches the topic particle は, a different usage. The response はあ is contextualised separately and is not counted as the same meaning or an interchangeable particle."
+    },
+    {
+      "forms": [
+        "不",
+        "不"
+      ],
+      "reason": "Prefix 不/ふ and 不/ぶ share a written form and entry candidates. The examples 不満 and 不器用 teach lexical compound readings, not interchangeable standalone readings or two independent words."
+    },
+    {
+      "forms": [
+        "無",
+        "無"
+      ],
+      "reason": "Nothing 無/む and negative prefix 無/ぶ share written form and dictionary candidates. The poem and 無礼 examples specify different contextual readings; they are neither interchangeable readings nor independent lexical word counts."
+    },
+    {
+      "selected": {
+        "text": "敗",
+        "kana": "はい"
+      },
+      "courseAliases": [
+        "yes"
+      ],
+      "reason": "The shared candidate comes from kana homonym はい. Course yes teaches the response はい; selected 敗 is the loss noun/suffix. Same pronunciation and a dictionary candidate collision do not establish matching meanings or an interchangeable response."
+    }
   ]
 }

@@ -392,5 +392,93 @@
       "kana": "ごらんになる"
     },
     "reason": "The source reading is empty. The existing n4-u07-w-goran record explicitly teaches this respectful expression with a dictionary-checked reading; record the mapping rather than duplicate the taught pair."
+  },
+  "n3:79": {
+    "original": {
+      "expression": "しまった (かん)",
+      "reading": "しまった (かん)"
+    },
+    "selected": {
+      "text": "しまった",
+      "kana": "しまった"
+    },
+    "reason": "Remove the explicit interjection annotation (かん) from the source headword/reading; the utterance itself is restricted-JMdict matched."
+  },
+  "n3:247": {
+    "original": {
+      "expression": "すみません (かん)",
+      "reading": "すみません (かん)"
+    },
+    "selected": {
+      "text": "すみません",
+      "kana": "すみません"
+    },
+    "reason": "Remove the explicit interjection annotation (かん); reference the already-taught apology/excuse-me headword, not a separate new word."
+  },
+  "n3:1155": {
+    "original": {
+      "expression": "よろしく (かん)",
+      "reading": "よろしく (かん)"
+    },
+    "selected": {
+      "text": "よろしく",
+      "kana": "よろしく"
+    },
+    "reason": "Remove the explicit interjection annotation (かん) from the source form/reading; contextual expression remains dictionary matched."
+  },
+  "n3:1737": {
+    "original": {
+      "expression": "はあ (かん)",
+      "reading": "はあ (かん)"
+    },
+    "selected": {
+      "text": "はあ",
+      "kana": "はあ"
+    },
+    "reason": "Remove the explicit interjection annotation (かん); teach the actual response with an intonation-sensitive context, not the annotation."
+  },
+  "n3:1415": {
+    "original": {
+      "expression": "唯",
+      "reading": "たった"
+    },
+    "selected": {
+      "text": "たった",
+      "kana": "たった"
+    },
+    "reason": "Raw 唯 has dictionary reading ただ, not たった. Preserve source reading/only sense by selecting the independently matched kana headword たった; do not claim 唯 is pronounced たった."
+  },
+  "n3:1157": {
+    "original": {
+      "expression": "来",
+      "reading": "らい～"
+    },
+    "selected": {
+      "text": "来",
+      "kana": "らい"
+    },
+    "reason": "Remove the source reading tilde indicating bound use; teach 来 as a contextual prefix within 来月, not a standalone ordinary word."
+  },
+  "n3:1249": {
+    "original": {
+      "expression": "～観",
+      "reading": "かん"
+    },
+    "selected": {
+      "text": "観",
+      "kana": "かん"
+    },
+    "reason": "Remove source spelling tilde indicating bound use; teach contextual suffix 観 in 世界観, not a standalone view certificate."
+  },
+  "n3:2101": {
+    "original": {
+      "expression": "～敗",
+      "reading": "はい"
+    },
+    "selected": {
+      "text": "敗",
+      "kana": "はい"
+    },
+    "reason": "Remove source spelling tilde indicating bound use; teach loss/counting suffix 敗 within 一敗 and explain sound change, not an independent modern JLPT syllabus claim."
   }
 }

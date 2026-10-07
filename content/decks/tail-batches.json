@@ -42,5 +42,13 @@
   "n3-vocab-16": {
     "count": 15,
     "reason": "Fifteen remaining currently eligible matched rows after the reviewed ordered N3 batches, through raw row2141. Earlier deferred source rows still require explicit coverage dispositions; this is not official full-exam coverage. No repeated filler to reach100."
+  },
+  "n3-vocab-17": {
+    "count": 92,
+    "reason": "Reviewed backfill of deferred N3 words and contextual components after the ordered source batches. Actual row count retained without filler; aliases, bound-only and unusual source forms receive separate coverage dispositions. Not an official JLPT syllabus."
+  },
+  "n3-vocab-18": {
+    "count": 29,
+    "reason": "Actual final reviewed N3 source/context batch, including bound components, alternate readings and source-cell corrections. Components are contextualised in full compounds; no filler to reach one hundred. Related forms remain separately labelled in source coverage."
   }
 }
