@@ -1743,6 +1743,55 @@
       "readingInput": "ドラマで、とうじょうじんぶつが「くすりのききめがでた」と話します。",
       "expectedMoras": "ドラマデトオジョオジンブツガクスリノキキメガデタトハナシマス",
       "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-09",
+      "text": "蔵",
+      "readingInput": "クラ",
+      "expectedMoras": "クラ",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-10",
+      "text": "葉の先から、雨の雫が落ちました。",
+      "readingInput": "ハのさきから、あめのしずくがおちました。",
+      "expectedMoras": "ハノサキカラアメノシズクガオチマシタ",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-10",
+      "text": "友達が改まった口調で話し始めました。",
+      "readingInput": "ともだちがあらたまったくちょうで話し始めました。",
+      "expectedMoras": "トモダチガアラタマッタクチョオデハナシハジメマシタ",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-11",
+      "text": "見たことを、ありのまま話してください。",
+      "readingInput": "みたことを、ありのまま話してください。",
+      "expectedMoras": "ミタコトオアリノママハナシテクダサイ",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-11",
+      "text": "母は、旅に出た兄の身を案じています。",
+      "readingInput": "ハハは、たびにでたあにのみをあんじています。",
+      "expectedMoras": "ハハワタビニデタアニノミオアンジテイマス",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-11",
+      "text": "ドラマで、医師が「安静にしてください」と話します。",
+      "readingInput": "ドラマで、いしが「あんせいにしてください」と話します。",
+      "expectedMoras": "ドラマデイシガアンセイニシテクダサイトハナシマス",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-11",
+      "text": "祖母は、庭の手入れが生き甲斐だと話します。",
+      "readingInput": "そぼは、にわのていれがいきがいだと話します。",
+      "expectedMoras": "ソボワニワノテイレガイキガイダトハナシマス",
+      "reason": "Fresh query misread the selected 蔵くら or lexical 葉/母/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
     }
   ]
 }

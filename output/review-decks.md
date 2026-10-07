@@ -97,3 +97,10 @@ Final TypeScript, 158 unit tests / 31 Python tests, content/dictionary/beginner+
 
 No production deployment, design, auth or database change. Native Japanese and perceptual listening review remain pending.
 
+
+
+## N1 decks09–12 — verified checkpoint, 7 October 2026
+
+400 pinned-source restricted-JMdict pairs, 400 original examples and52short lessons. Every selected primary sense, ruby, translation and fresh synthesis query inspected. Seven exact new pronunciation inputs repair lexical 蔵/葉/話/母. All21,108 prior Clear URLs /21,120 lossless records /1,695 dialogue mappings and prior kanji/stroke bytes preserved; all769newWAVs referenced. Current22,215Clear keys /22,227records;133historical dialogue takes retained. Recognition contexts distinguish formal/familiar terms, 群集/群衆, 成育/生育, selected 心中しんじゅう, 世論せろん and 清濁. Native and perceptual review remain pending.
+
+Final TypeScript /171unit /31Python /content /dictionary /beginner+N2+N3 ledgers /JLPT450 /fiveaudio /preservation /build pass. All65deck browser cases pass with every installed word/kana/example decoded, supported examples/retrieval at320/375/1440 in both themes. Latest desktop dark and middle phone light screenshots inspected. Real production offline2026-10-07T19:38:02.188Z verifies interrupted-download retry, all17,439 required recordings retained,29coursechunks,100teacher /1,695scene /10,125deck URLs,62example playbacks and zero page errors. Precache2,276entries /14,351.13KiB. Inventory143packs /7,946allwordrecords /834lessons /1,920kanji pages. Existing96readings /46,620characters /289notes unchanged. No design, auth, database or production changes.
