@@ -213,6 +213,14 @@ for (const unit of [
       ["Report the issue, the participants and what remains open", "n2-u12-d-report", "Follow the issue around which views differ", "Name the material used to make a work"],
     ],
   },
+  {
+    id: "n2-u13", reading: "Opinion A: questions at a section break",
+    secondReading: "Opinion B: the whole film before discussion",
+    lessons: [
+      ["A pause for questions, with a cost", "n2-u13-d-pause", "Keep both sides of a comparison", "Read the preferred alternative"],
+      ["Compare the shared purpose and different order", "n2-u13-d-whole", "Read the preferred alternative", "Keep both sides of a comparison"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
