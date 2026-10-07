@@ -1,5 +1,7 @@
 # Shiori: approved side tasks A–E
 
+Historical checkpoint from 5 October 2026. For the completed N5–N1 release, deployed versions and remaining live acceptance steps, use [the current release report](release-report.md) and [course progress](course-progress.md). The older counts and pending setup statements below are not current status.
+
 Date: 2026-10-05. Local improvements only. Existing visual identity, learning-screen layout and voice assets retained. No hosted account, project, credentials or deployment was created.
 
 ## A — dictionary evidence

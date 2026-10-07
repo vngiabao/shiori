@@ -1,6 +1,8 @@
 # Shiori whole-course release — 7 October 2026
 
-All local release checks pass. Production deployment and removal of Shiori's extra Cloudflare Access gate are the remaining rollout steps. `course-progress.md` records the exact current step; older checkpoint reports are historical.
+All local release checks pass and the whole-course release has deployed successfully. Cloudflare build 9e7006eb-e3af-4867-89b9-daaa2c233677 published commit d0dc6c74493023d4f9515da291e6427e2b3b3b1a; main version 347cecc0-4c75-46cc-ab61-7f1edbfc34f2 and both audio Worker versions are active at 100%. All sixteen hosted hash-prefix sample WAVs match the exact preserved local bytes. The main site still returns the Cloudflare Access redirect: removal of Shiori's extra gate awaits the browser-required fresh user confirmation. The full hosted audit and public welcome check follow that step. `course-progress.md` records the exact current step; older checkpoint reports are historical.
+
+Hosted routed-audio audit passes at `2026-10-07T23:28:44.958Z`: all 19,452 `vv2` WAV URLs return200 with an audio content type, zero issues, and sixteen downloaded samples match local SHA256. Cloudflare omits Content-Length on all these HEAD responses; the checker now validates length when supplied rather than treating omission as a missing file. The first run failed on that checker assumption, not missing recordings. This is a partial hosted audit: 65 main-worker historical WAVs and the fresh public app load remain gated. An existing browser's cached thirteen-pack /33-lesson app is not verification of the newly deployed shell. Saved browser data has not been cleared.
 
 ## Authored scope
 

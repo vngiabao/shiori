@@ -10,6 +10,7 @@ const preflight = await fetch(origin + files[0].url, {
 if (preflight.status !== 200)
   throw new Error(`Hosted audio is not ready: HTTP ${preflight.status}. Check deployment and Access before the full audit.`);
 const issues = []; let next = 0, checked = 0;
+const lengthHeaders = { present: 0, omitted: 0 };
 async function inspect(file) {
   let last;
   for (let attempt = 0; attempt < 3; attempt++) {
@@ -19,10 +20,14 @@ async function inspect(file) {
         headers: { 'Accept-Encoding': 'identity' },
       });
       if (response.status !== 200) throw new Error(`HTTP ${response.status}`);
-      if (Number(response.headers.get('content-length')) !== file.bytes)
+      // Cloudflare may omit Content-Length on HEAD, even for immutable WAVs.
+      // Validate it when supplied; exact sample bytes are verified by GET below.
+      const length = response.headers.get('content-length');
+      if (length !== null && Number(length) !== file.bytes)
         throw new Error('Hosted length differs from the staged file');
       if (!/audio|wav|octet-stream/.test(response.headers.get('content-type') ?? ''))
         throw new Error('Unexpected content type');
+      lengthHeaders[length === null ? 'omitted' : 'present']++;
       return;
     } catch (error) { last = String(error); }
   }
@@ -47,7 +52,7 @@ for (const prefix of '0123456789abcdef') {
   else samples.push({ url: file.url, sha256: hash(bytes), bytes: bytes.length });
 }
 const result = { checkedAt: new Date().toISOString(), origin, wavFilesChecked: checked,
-  issues, exactByteSamples: samples, includesHistoricalFiles: true, ownerSignInTested: false };
+  issues, lengthHeaders, exactByteSamples: samples, includesHistoricalFiles: true, ownerSignInTested: false };
 fs.writeFileSync('output/hosted-audio-verification.json', JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify({ checked, issues: issues.length, exactByteSamples: samples.length }));
 if (issues.length) process.exitCode = 1;
