@@ -263,6 +263,15 @@ for (const unit of [
       ["Two deadlines in one formal notice", "n1-u02-d-close", "A formal boundary, or a formal means", "A strong judgement against a role’s standard"],
     ],
   },
+  {
+    id: "n1-u03", reading: "A note in a borrowed book; a sign beside a bridge",
+    secondReading: "The letter she did not throw away",
+    lessons: [
+      ["A note in a borrowed book", "n1-u03-d-book", "Recognise an older negative, not every ぬ", "Read a prohibition on a sign"],
+      ["Old signs, current instructions", "n1-u03-d-sign", "Read a prohibition on a sign", "Follow a literary comparison"],
+      ["The letter she did not throw away", "n1-u03-d-dawn", "Follow a literary comparison", "Recognise an older negative, not every ぬ"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -377,7 +386,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();
