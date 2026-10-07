@@ -1148,6 +1148,62 @@
       "readingInput": "けんびきょうで、ハのさいぼうをかんさつしました。",
       "expectedMoras": "ケンビキョオデハノサイボオオカンサツシマシタ",
       "reason": "葉 is lexical は, not topic particle わ."
+    },
+    {
+      "unit": "n2-vocab-04",
+      "text": "混合",
+      "readingInput": "こんごー",
+      "expectedMoras": "コンゴオ",
+      "reason": "Use selected standard long-o in 混合 rather than a literal o-u sequence."
+    },
+    {
+      "unit": "n2-vocab-04",
+      "text": "こんごう",
+      "readingInput": "こんごー",
+      "expectedMoras": "コンゴオ",
+      "reason": "Selected 混合 reading uses a long o."
+    },
+    {
+      "unit": "n2-vocab-04",
+      "text": "こないだ話した映画を、昨日見ました。",
+      "readingInput": "こないだハナシたえいがを、きのうみました。",
+      "expectedMoras": "コナイダハナシタエイガオキノオミマシタ",
+      "reason": "話した begins with lexical は, not topic particle わ."
+    },
+    {
+      "unit": "n2-vocab-04",
+      "text": "五十音の表を見ながら、かなを練習しました。",
+      "readingInput": "ごじゅうおんのひょーをみながら、かなをれんしゅうしました。",
+      "expectedMoras": "ゴジュウオンノヒョオオミナガラカナオレンシュウシマシタ",
+      "reason": "表 means chart here, selected ひょう with long o rather than o-u."
+    },
+    {
+      "unit": "n2-vocab-05",
+      "text": "物語では、王の子孫が古い城を訪ねます。",
+      "readingInput": "ものがたりでは、おーのしそんがふるいしろをたずねます。",
+      "expectedMoras": "モノガタリデワオオノシソンガフルイシロオタズネマス",
+      "reason": "King 王 has a long o vowel; the unmodified kana query split it into o-u."
+    },
+    {
+      "unit": "n2-vocab-05",
+      "text": "祖父に、将棋の駒の動かし方を教えてもらいました。",
+      "readingInput": "そふに、しょうぎのこまのウゴカシかたをおしえてもらいました。",
+      "expectedMoras": "ソフニショオギノコマノウゴカシカタオオシエテモライマシタ",
+      "reason": "Lexical 動かし begins u-go, not the o-go returned by the kana parser."
+    },
+    {
+      "unit": "n2-vocab-05",
+      "text": "この地域は、交通が便利で商業が盛んです。",
+      "readingInput": "このちいきは、こうつうがべんりでしょうぎょーがさかんです。",
+      "expectedMoras": "コノチイキワコオツウガベンリデショオギョオガサカンデス",
+      "reason": "The second long o of 商業 is contracted; preserve the separate traffic long u."
+    },
+    {
+      "unit": "n2-vocab-05",
+      "text": "書道の作品を見て、筆の線の美しさに驚きました。",
+      "readingInput": "しょどうのさくひんをみて、ふでのせんのウツクシさにおどろきました。",
+      "expectedMoras": "ショドオノサクヒンオミテフデノセンノウツクシサニオドロキマシタ",
+      "reason": "Lexical 美しさ begins u-tsu; the raw kana query returned o-tsu."
     }
   ]
 }

@@ -19,4 +19,6 @@ import pack15 from "../../content/packs/n2-u16.json";
 import pack16 from "../../content/packs/n2-vocab-01.json";
 import pack17 from "../../content/packs/n2-vocab-02.json";
 import pack18 from "../../content/packs/n2-vocab-03.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18] as unknown as Pack[];
+import pack19 from "../../content/packs/n2-vocab-04.json";
+import pack20 from "../../content/packs/n2-vocab-05.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15, pack16, pack17, pack18, pack19, pack20] as unknown as Pack[];

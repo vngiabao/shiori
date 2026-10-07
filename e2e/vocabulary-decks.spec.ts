@@ -58,6 +58,12 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
         await new Promise<void>((resolve) =>
           requestAnimationFrame(() => requestAnimationFrame(() => resolve())),
         );
+        await Promise.all(
+          document
+            .getAnimations()
+            .filter((animation) => animation instanceof CSSTransition)
+            .map((animation) => animation.finished.catch(() => undefined)),
+        );
       });
       expect(
         await page.evaluate(
