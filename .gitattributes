@@ -11,3 +11,4 @@
 # Downloaded CSVs are hash-pinned source files; preserve their original bytes.
 *.csv -text
 content/decks/*.txt text eol=lf
+content/sources/literature/*.txt text eol=lf

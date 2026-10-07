@@ -168,6 +168,27 @@
       "unit": "n1-u08",
       "reason": "Contextually inspected synthesis: literary 甘く→うまく, one written line→いちぎょう, 嘲ける→あざける, 並べて→ならべて. Full mora sequence pinned; native intonation review pending.",
       "expectedMoras": "ソコワネコノイチギョオオヨメバツタワル"
+    },
+    {
+      "text": "山猫軒？読み終わってもそう思う？",
+      "readingInput": "ヤマネコケン？読み終わってもそう思う？",
+      "unit": "n1-u09",
+      "reason": "Contextual 山猫軒→やまねこけん and 地の文→じのぶん; その後 matches authored sono ato. Exact inspected query sequence, not native intonation certification.",
+      "expectedMoras": "ヤマネコケンヨミオワッテモソオオモウ"
+    },
+    {
+      "text": "地の文は私ね。猫の語り口とは違う感じで。",
+      "readingInput": "じの文は私ね。猫の語り口とは違う感じで。",
+      "unit": "n1-u09",
+      "reason": "Contextual 山猫軒→やまねこけん and 地の文→じのぶん; その後 matches authored sono ato. Exact inspected query sequence, not native intonation certification.",
+      "expectedMoras": "ジノブンワワタシネネコノカタリクチトワチガウカンジデ"
+    },
+    {
+      "text": "この部分ならね。その後のことは、まだ書かない。",
+      "readingInput": "この部分ならね。そのあとのことは、まだ書かない。",
+      "unit": "n1-u09",
+      "reason": "Contextual 山猫軒→やまねこけん and 地の文→じのぶん; その後 matches authored sono ato. Exact inspected query sequence, not native intonation certification.",
+      "expectedMoras": "コノブブンナラネソノアトノコトワマダカカナイ"
     }
   ]
 }

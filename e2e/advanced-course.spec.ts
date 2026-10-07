@@ -317,6 +317,15 @@ for (const unit of [
       ["Keep the voices and the final smile", "n1-u08-d-summary", "Follow the speaker inside a quotation", "Recover the unanswered question in やら"],
     ],
   },
+  {
+    id: "n1-u09", reading: "The cream, the perfume and the salt",
+    secondReading: "Two sides of an order",
+    lessons: [
+      ["Read the signs through the gentlemen’s eyes", "n1-u09-d-signs", "Follow the narrator’s explanatory ending", "Keep the eater and the food distinct"],
+      ["Read the original orders", "n1-u09-d-agents", "Find the recipient of a polite instruction", "Follow the narrator’s explanatory ending"],
+      ["Keep the eater and the food apart", "n1-u09-d-rehearsal", "Keep the eater and the food distinct", "Find the recipient of a polite instruction"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -432,7 +441,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06" || unit.id === "n1-u07" || unit.id === "n1-u08") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06" || unit.id === "n1-u07" || unit.id === "n1-u08" || unit.id === "n1-u09") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();

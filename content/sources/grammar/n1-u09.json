@@ -1,0 +1,305 @@
+{
+  "unit": "n1-u09",
+  "checkedAt": "2026-10-07",
+  "status": "Source/formation/editorial, dictionary, audio/query/mapping, browser, build and real offline checks pass; native review pending.",
+  "method": "Actual full literary text/card inspected via renewal mirror; relevant authored formation sections read. Earlier forms recur in advanced reading, not asserted as N1-only grammar.",
+  "points": [
+    {
+      "form": "Sentence-final のです / のでした",
+      "sources": [
+        "https://bunpro.jp/grammar_points/-%E3%82%93%E3%81%A7%E3%81%99-%E3%81%AE%E3%81%A7%E3%81%99",
+        "https://wasabi-jpn.com/magazine/japanese-grammar/explanatory-noda/"
+      ],
+      "formation": "Plain verb/i-adjective + のです; noun/na stem + なのです. Literary explanation distinguished from causal ので followed by a main clause.",
+      "teachingChoice": "Narrator observation versus the visitors’ explanation. Overly absolute source register/gender restrictions are not adopted."
+    },
+    {
+      "form": "Independent connector ところが",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/grammar/201109.html",
+        "https://bunpro.jp/grammar_points/ところが"
+      ],
+      "formation": "Expected or prior situation, followed by an established surprising result. Distinguish verb+たところが and topic-shifting ところで.",
+      "teachingChoice": "Perfume expectation versus observed vinegar smell; no universal beyond-control rule."
+    },
+    {
+      "form": "てください / お + masu stem + ください / ご + action noun + ください",
+      "sources": [
+        "https://bunpro.jp/grammar_points/お-ください",
+        "https://www.tofugu.com/japanese-grammar/kudasai/"
+      ],
+      "formation": "塗ってください; 待つ→お待ちください; ご確認ください. Retrieve 塗る→塗れ in the quoted imperative.",
+      "teachingChoice": "Politeness alone does not establish benevolent intent. Bunpro’s incompatible blanket restriction on ご is not adopted."
+    },
+    {
+      "form": "食べさせる / 人を料理にする / 食べられる",
+      "sources": [
+        "https://bunpro.jp/grammar_points/causative",
+        "https://bunpou.jepang.org/en/lesson/0143/saseru"
+      ],
+      "formation": "Xが人に料理を食べさせる versus Xが人を料理にする. 食べられる can be potential or passive, interpreted through context.",
+      "teachingChoice": "Track eater and food rather than treating に as always permission and を as always force."
+    }
+  ],
+  "sourceCautions": [
+    "1098 exact source characters in 26 selected paragraphs; original source ruby, including 扉→と and 室→へや, preserved by source-integrity tests.",
+    "Actual new-spelling/new-kana card43754/file43754_17659 inspected, not the older card1927 transcription. Mirror retrieval is recorded separately from intended upstream.",
+    "No escape or return is appended to the selected ending. Characters’ cold/incorrect-bottle explanations are not narrator-certified intent.",
+    "Source comments and original commentary distinguish observed facts from character explanation. Glosses support contextual forms, not isolated segmenter fragments.",
+    "Guessed Tae Kim live pages failed and were not used for the causative verification. Source-specific absolutes rejected where they conflict with supported usage."
+  ],
+  "audioScope": "Three original thirteen-line scenes at 1.15, existing Violetto cast moods; Clear words and practice. No full source paragraph narration.",
+  "checks": {
+    "wordPairs": 54,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "readingCharacters": [
+      1098,
+      1051
+    ],
+    "tasks": 20,
+    "remaining": "Independent native reading/listening review.",
+    "precacheKiB": 12290.24,
+    "unitTests": 123,
+    "offlineReport": {
+      "verifiedAt": "2026-10-07T06:50:13.352Z",
+      "offlineReload": true,
+      "courseChunksCached": 16,
+      "advancedLessonOffline": true,
+      "teacherClipsCached": 100,
+      "dialogueClipsCached": 1340,
+      "deckAudioUrlsCached": 2855,
+      "deckExampleClipsPlayed": 22,
+      "lessonAvailable": true,
+      "jlptAndTeacherOffline": true,
+      "bundledAudio": [
+        {
+          "clip": "/audio/vv2-6d1d2dfec48e25098d64.wav",
+          "status": 200,
+          "bytes": 116268,
+          "duration": 2.421333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-0fd12fb1ea29e513887f.wav",
+          "status": 200,
+          "bytes": 165932,
+          "duration": 3.456,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-719f12f58b5fb8fbe165.wav",
+          "status": 200,
+          "bytes": 194604,
+          "duration": 4.053333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-0eee069d4485fcae650b.wav",
+          "status": 200,
+          "bytes": 124972,
+          "duration": 2.602667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-de3daaca487992f81962.wav",
+          "status": 200,
+          "bytes": 184876,
+          "duration": 3.850667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-08c9c101df3441af4c11.wav",
+          "status": 200,
+          "bytes": 162860,
+          "duration": 3.392,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-15871068e52df1a5b8e1.wav",
+          "status": 200,
+          "bytes": 23596,
+          "duration": 0.490667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-54f5fd95e8dc55d4955e.wav",
+          "status": 200,
+          "bytes": 23596,
+          "duration": 0.490667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-aaa592c119fdb5d90984.wav",
+          "status": 200,
+          "bytes": 43564,
+          "duration": 0.906667,
+          "playing": true
+        },
+        {
+          "clip": "/voice-auditions/v03-correct.wav",
+          "status": 200,
+          "bytes": 134444,
+          "duration": 2.8,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-4f1e7ac7be8d6985952f.wav",
+          "status": 200,
+          "bytes": 171052,
+          "duration": 3.562667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-333db7b1360a30df4d77.wav",
+          "status": 200,
+          "bytes": 166444,
+          "duration": 3.466667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-1b9930cdc27e4d237d3a.wav",
+          "status": 200,
+          "bytes": 188972,
+          "duration": 3.936,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-6a4c03ec1337510c3391.wav",
+          "status": 200,
+          "bytes": 183340,
+          "duration": 3.818667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-009afb8214389af80729.wav",
+          "status": 200,
+          "bytes": 79916,
+          "duration": 1.664,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-e6c6a22618388f771cbf.wav",
+          "status": 200,
+          "bytes": 114732,
+          "duration": 2.389333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-0c58096ad7b0df129ddb.wav",
+          "status": 200,
+          "bytes": 102956,
+          "duration": 2.144,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-16193b19a9680ac593ee.wav",
+          "status": 200,
+          "bytes": 131628,
+          "duration": 2.741333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-8daf145dc48048bcd908.wav",
+          "status": 200,
+          "bytes": 95788,
+          "duration": 1.994667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-4fa1e1f97ad1a7c9b1c7.wav",
+          "status": 200,
+          "bytes": 120364,
+          "duration": 2.506667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-8c8fa16ece1ba20e9f5e.wav",
+          "status": 200,
+          "bytes": 93740,
+          "duration": 1.952,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-98737ce49b84027dbd05.wav",
+          "status": 200,
+          "bytes": 130092,
+          "duration": 2.709333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-2c6b53a9d18a64e81809.wav",
+          "status": 200,
+          "bytes": 135212,
+          "duration": 2.816,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-c3a5574e83ee5d2a7a58.wav",
+          "status": 200,
+          "bytes": 105004,
+          "duration": 2.186667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-ecb292794ba5044bddb4.wav",
+          "status": 200,
+          "bytes": 138796,
+          "duration": 2.890667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-c7d9a6ff52b1c0495f83.wav",
+          "status": 200,
+          "bytes": 100908,
+          "duration": 2.101333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-a69d4b9b85aff3caf2b2.wav",
+          "status": 200,
+          "bytes": 80940,
+          "duration": 1.685333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-615fa2c48b63480b50c1.wav",
+          "status": 200,
+          "bytes": 79404,
+          "duration": 1.653333,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-59838c4fb1b6e745fe6c.wav",
+          "status": 200,
+          "bytes": 75308,
+          "duration": 1.568,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-108f605ba00934851cb6.wav",
+          "status": 200,
+          "bytes": 92204,
+          "duration": 1.92,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-d0f95fd77b101fd99298.wav",
+          "status": 200,
+          "bytes": 86572,
+          "duration": 1.802667,
+          "playing": true
+        },
+        {
+          "clip": "/audio/vv2-fbfc7addf752617b9f3b.wav",
+          "status": 200,
+          "bytes": 73772,
+          "duration": 1.536,
+          "playing": true
+        }
+      ],
+      "pageErrors": []
+    }
+  }
+}

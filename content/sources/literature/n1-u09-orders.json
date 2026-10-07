@@ -1,0 +1,106 @@
+{
+  "unit": "n1-u09",
+  "title": "注文の多い料理店",
+  "author": "宮沢賢治",
+  "deathDate": "1933-09-21",
+  "card": "https://aozora-renewal.cloud/cards/000081/card43754.html",
+  "intendedUpstream": "https://www.aozora.gr.jp/cards/000081/files/43754_17659.html",
+  "retrievedFrom": "https://aozora-renewal.cloud/cards/000081/files/43754_17659.html",
+  "retrievedAt": "2026-10-07",
+  "rawSha256": "bdcd423d8e0702fa49d9e9a14d9d2e7970e4e4dec87692ad1fab4e41d8ed88a7",
+  "sourceEncoding": "Shift_JIS",
+  "baseEdition": "注文の多い料理店、新潮文庫、新潮社、1990-05-25; input 1997-05-10 17th printing, proof 2004-05-20 29th printing",
+  "firstPublication": "イーハトヴ童話 注文の多い料理店、杜陵出版部・東京光原社、1924-12-01",
+  "orthography": "新字新仮名",
+  "selectionStart": "すこし行きますとまた扉があって、その前に硝子の壺が一つありました",
+  "selectionEnd": "…。」がたがたがたがた、ふるえだしてもうものが言えませんでした。",
+  "paragraphCharacters": [
+    47,
+    29,
+    26,
+    21,
+    102,
+    87,
+    23,
+    28,
+    32,
+    54,
+    59,
+    19,
+    66,
+    26,
+    25,
+    27,
+    24,
+    31,
+    17,
+    23,
+    71,
+    69,
+    11,
+    14,
+    29,
+    138
+  ],
+  "selectedTextSha256": "a8abf076ddb123a3b39f5eb9498c6f6cae9cdf750e96e91ced2f2064d3f9a324",
+  "sourceRuby": [
+    {
+      "text": "扉",
+      "kana": "と"
+    },
+    {
+      "text": "硝子",
+      "kana": "がらす"
+    },
+    {
+      "text": "壺",
+      "kana": "つぼ"
+    },
+    {
+      "text": "斯",
+      "kana": "こ"
+    },
+    {
+      "text": "室",
+      "kana": "へや"
+    },
+    {
+      "text": "周到",
+      "kana": "しゅうとう"
+    },
+    {
+      "text": "瓶",
+      "kana": "びん"
+    },
+    {
+      "text": "振",
+      "kana": "ふ"
+    },
+    {
+      "text": "酢",
+      "kana": "す"
+    },
+    {
+      "text": "匂",
+      "kana": "におい"
+    },
+    {
+      "text": "風邪",
+      "kana": "かぜ"
+    },
+    {
+      "text": "沢山",
+      "kana": "たくさん"
+    },
+    {
+      "text": "家",
+      "kana": "うち"
+    }
+  ],
+  "transform": "Consecutive source passage. Indentation removed and explicit hard wraps inside two quoted signs merged without altering prose characters. Original ruby preserved; added support context-checked separately.",
+  "limitations": [
+    "Actual text/card retrieved through the renewal mirror; official-host request availability not implied.",
+    "Character interpretation is not a narrator guarantee. Selection ends before later escape events.",
+    "Original practice/scene audio only; no full passage narration."
+  ]
+}
