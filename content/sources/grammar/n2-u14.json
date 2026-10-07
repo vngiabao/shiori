@@ -1,0 +1,105 @@
+{
+  "unit": "n2-u14",
+  "checkedAt": "2026-10-06",
+  "status": "Primary-source formation research, strict editorial/key review, content/source/audio/preservation/browser/build and production offline gates passed; native review pending.",
+  "method": "Inspected the Japan Foundation authored teaching hint, full relevant form-specific sections of Ikue Shingu’s authored self-study site, Kansai University hosted author essay, and the JALT authors’ own relevant paper sections. Summaries kept short; no source dialogues/exercises copied.",
+  "points": [
+    {
+      "form": "Regional copula や",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/hint/201107.html",
+        "https://www.kansaiben.com/1.Characteristics/2.LinguisticAspects/d-Conjugation.html"
+      ],
+      "formation": "Noun / na-adjective copula や; past やった. Region and speaker variation.",
+      "teachingChoice": "Familiar shop and cup statements, not a universal conversion drill."
+    },
+    {
+      "form": "Selected negative forms with へん",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/hint/201107.html",
+        "https://www.kansaiben.com/3.BasicGrammar/1a.Verb/2.Grammar/1G.html",
+        "https://jalt-publications.org/archive/proceedings/2007/J077.pdf"
+      ],
+      "formation": "Recognise selected complete negative forms; godan stems and short-verb variants differ by region.",
+      "teachingChoice": "A declined taste and a bag kept dry. Do not equate all e-stem negatives with potential meaning."
+    },
+    {
+      "form": "Everyday regional lexicon",
+      "sources": [
+        "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/hint/201107.html",
+        "https://www.kansaiben.com/9.Index/1glossary.html"
+      ],
+      "formation": "Contextual words for emphasis, price, thanks and next steps, not a fixed grammatical paradigm.",
+      "teachingChoice": "Original purchase/tea scenes; no assumption that one word identifies someone’s origin."
+    },
+    {
+      "form": "Light respectful はる",
+      "sources": [
+        "https://www.kansaiben.com/4.FunctionalGrammar/4.Honorifics/2.Grammar/1G.html",
+        "https://www2.itc.kansai-u.ac.jp/~tsina/haru.htm"
+      ],
+      "formation": "Selected きはる / 使いはる / 待ってはる; regional stem and ongoing-form variation.",
+      "teachingChoice": "Identify the teacher as the respected action-doer. Not an interchangeable replacement for all standard business honorifics."
+    }
+  ],
+  "regionalScope": "There is no single uniform Kansai system. Recognition uses these speakers and contexts; no official N2 assignment or complete paradigm is claimed.",
+  "audioScope": "Existing one-voice standard synthesis styles preserve phonemes and mood limits. They model written regional forms but do not certify Kansai pitch accent. Native listening/acting review remains necessary.",
+  "editorialReview": {
+    "newPairs": 44,
+    "sceneChoice": "Friendly off-duty Tamura/Mori shopping and tea preparation. Repeated target forms, not dictionary-headword quotas. Tamura’s formal business-call language in earlier units remains unchanged.",
+    "remaining": "Whole N2 core review after unit 16 and independent native sentence/region/listening review."
+  },
+  "uninspected": [
+    "Maggie Sensei index and other search-only teacher/travel leads not relied on. No regional source audio auditioned or copied."
+  ],
+  "queryCheck": {
+    "method": "Expected kana mora sequences present in every matching Clear query. Does not certify regional pitch accent or naturalness.",
+    "checks": [
+      {
+        "form": "食べへん",
+        "expectedMoras": "タベヘン",
+        "recordCount": 3
+      },
+      {
+        "form": "足りへん",
+        "expectedMoras": "タリヘン",
+        "recordCount": 1
+      },
+      {
+        "form": "濡れへん",
+        "expectedMoras": "ヌレヘン",
+        "recordCount": 2
+      },
+      {
+        "form": "きはる",
+        "expectedMoras": "キハル",
+        "recordCount": 2
+      },
+      {
+        "form": "使いはる",
+        "expectedMoras": "ツカイハル",
+        "recordCount": 3
+      },
+      {
+        "form": "待ってはる",
+        "expectedMoras": "マッテハル",
+        "recordCount": 2
+      },
+      {
+        "form": "おおきに",
+        "expectedMoras": "オオキニ",
+        "recordCount": 5
+      },
+      {
+        "form": "めっちゃ",
+        "expectedMoras": "メッチャ",
+        "recordCount": 6
+      },
+      {
+        "form": "ほんま",
+        "expectedMoras": "ホンマ",
+        "recordCount": 5
+      }
+    ]
+  }
+}

@@ -221,6 +221,14 @@ for (const unit of [
       ["Compare the shared purpose and different order", "n2-u13-d-whole", "Read the preferred alternative", "Keep both sides of a comparison"],
     ],
   },
+  {
+    id: "n2-u14", reading: "Tamura’s message about the eight cakes",
+    secondReading: "Mori’s diary after the tea break",
+    lessons: [
+      ["A bag of cakes, without losing one", "n2-u14-d-bakery", "Hear the regional copula in an ordinary chat", "Follow whose action receives regional respect"],
+      ["The teacher is coming for tea", "n2-u14-d-tea", "Follow whose action receives regional respect", "Hear the regional copula in an ordinary chat"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -335,6 +343,16 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
+    if (unit.id === "n2-u14") {
+      await region.locator("h2").scrollIntoViewIfNeeded();
+      const box = await region.boundingBox();
+      expect(box).not.toBeNull();
+      await page.screenshot({
+        path: `output/${unit.id}-reading${suffix}-detail-${theme}-${width}.png`,
+        clip: { x: box!.x, y: Math.max(0, box!.y), width: box!.width,
+          height: Math.min(box!.height, 1000 - Math.max(0, box!.y)) },
+      });
+    }
     }
   }
 });
