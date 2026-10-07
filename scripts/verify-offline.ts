@@ -37,13 +37,49 @@ try {
   await expect(
     page.getByRole("status").filter({ hasText: "All lesson audio is saved" }),
   ).toBeVisible({ timeout: 600000 });
-  const savedCacheSnapshot = await page.evaluate(async () => ({
-    cacheUrls: (await (await caches.open("shiori-audio")).keys()).map(
-      (r) => new URL(r.url).pathname,
-    ),
-    serviceWorker: navigator.serviceWorker.controller?.scriptURL,
-    storage: await navigator.storage.estimate(),
-  }));
+  const requiredAudio = new Set<string>();
+  const collectAudio = (value: unknown) => {
+    if (typeof value === "string" && /^\/(audio|voice-auditions)\//.test(value))
+      requiredAudio.add(value);
+    else if (Array.isArray(value)) value.forEach(collectAudio);
+    else if (value && typeof value === "object")
+      Object.values(value).forEach(collectAudio);
+  };
+  for (const name of [
+    "audio",
+    "violetto-baseline",
+    "violetto-emotions",
+    "violetto-auditions",
+    "violetto-teacher",
+    "dialogue-voices",
+    "cast-auditions",
+  ])
+    collectAudio(
+      JSON.parse(fs.readFileSync(`src/generated/${name}.json`, "utf8")),
+    );
+  const savedCacheSnapshot = await page.evaluate(
+    async (urls) => {
+      const cache = await caches.open("shiori-audio"),
+        cacheUrls: string[] = [];
+      for (let i = 0; i < urls.length; i += 32) {
+        const found = await Promise.all(
+          urls
+            .slice(i, i + 32)
+            .map(async (url) =>
+              (await cache.keys(url, { ignoreVary: true })).length ? url : null,
+            ),
+        );
+        cacheUrls.push(...found.filter((url): url is string => url !== null));
+      }
+      return {
+        cacheUrls,
+        serviceWorker: navigator.serviceWorker.controller?.scriptURL,
+        storage: await navigator.storage.estimate(),
+      };
+    },
+    [...requiredAudio],
+  );
+  expect(savedCacheSnapshot.cacheUrls).toHaveLength(requiredAudio.size);
   fs.writeFileSync(
     "output/offline-cache-diagnostic.json",
     JSON.stringify(savedCacheSnapshot, null, 2),

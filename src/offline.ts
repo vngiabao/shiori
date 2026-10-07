@@ -116,11 +116,21 @@ export async function saveAudioOffline(
     if (failure?.status === "rejected") throw failure.reason;
   }
   // Concurrent service-worker writes must not let a partial cache look complete.
-  const saved = new Set(
-    (await cache.keys()).map((request) => new URL(request.url).pathname),
-  );
-  if (urls.some((url) => !saved.has(url)))
-    throw new Error(
-      "Some audio files were not retained. Try saving again; existing files will be kept.",
+  // Listing the entire cache can exceed the browser's response-size limit as
+  // thousands of media requests accumulate headers. Query only each required
+  // immutable URL, in bounded batches, without cloning recording bodies.
+  for (let i = 0; i < urls.length; i += 32) {
+    const retained = await Promise.all(
+      urls
+        .slice(i, i + 32)
+        .map(
+          async (url) =>
+            (await cache.keys(url, { ignoreVary: true })).length > 0,
+        ),
     );
+    if (retained.includes(false))
+      throw new Error(
+        "Some audio files were not retained. Try saving again; existing files will be kept.",
+      );
+  }
 }

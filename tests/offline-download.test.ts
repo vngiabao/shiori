@@ -15,8 +15,8 @@ function setup() {
     match: vi.fn(async (url: string) =>
       saved.has(url) ? new Response("saved") : undefined,
     ),
-    keys: vi.fn(async () =>
-      [...saved].map((url) => new Request("https://shiori.gbaonvo.com" + url)),
+    keys: vi.fn(async (url: string, _options?: CacheQueryOptions) =>
+      saved.has(url) ? [new Request("https://shiori.gbaonvo.com" + url)] : [],
     ),
     put: vi.fn(async (url: string) => {
       saved.add(url);
@@ -91,8 +91,18 @@ it("shares saved immutable clips between fetch and media Origin variants", async
 
 it("rejects a download whose earlier files disappeared before completion", async () => {
   const { cache, urls } = setup();
-  cache.keys.mockImplementation(async () =>
-    urls.slice(1).map((url) => new Request("https://shiori.gbaonvo.com" + url)),
+  cache.keys.mockImplementation(async (url) =>
+    url === urls[0] ? [] : [new Request("https://shiori.gbaonvo.com" + url)],
   );
   await expect(saveAudioOffline(vi.fn())).rejects.toThrow("not retained");
+});
+
+it("verifies the full library without an unbounded cache enumeration", async () => {
+  const { cache, urls } = setup();
+  await saveAudioOffline(vi.fn());
+  expect(cache.keys).toHaveBeenCalledTimes(urls.length);
+  for (const [url, options] of cache.keys.mock.calls) {
+    expect(url).toBeTruthy();
+    expect(options).toEqual({ ignoreVary: true });
+  }
 });

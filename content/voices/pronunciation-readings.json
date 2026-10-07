@@ -1477,6 +1477,223 @@
       "readingInput": "チョーじかんのさぎょうで、たいりょくをしょうもうしました。",
       "expectedMoras": "チョオジカンノサギョオデタイリョクオショオモオシマシタ",
       "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "抗議",
+      "readingInput": "コーギ",
+      "expectedMoras": "コオギ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "小説の王は、権力を失うことを恐れています。",
+      "readingInput": "しょうせつのオーは、けんりょくをうしなうことをおそれています。",
+      "expectedMoras": "ショオセツノオオワケンリョクオウシナウコトオオソレテイマス",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "祖父の口述を録音し、後で文章にしました。",
+      "readingInput": "そふのコージュツをろくおんし、あとでぶんしょうにしました。",
+      "expectedMoras": "ソフノコオジュツオロクオンシアトデブンショオニシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "この車は、公用に使われています。",
+      "readingInput": "このくるまは、コーヨーにつかわれています。",
+      "expectedMoras": "コノクルマワコオヨオニツカワレテイマス",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "小説の人物は、小切手を封筒に入れました。",
+      "readingInput": "しょうせつのじんぶつは、こぎってをフートーにいれました。",
+      "expectedMoras": "ショオセツノジンブツワコギッテオフウトオニイレマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "登場人物は、温泉に入って「極楽だ」と言いました。",
+      "readingInput": "とうじょうじんぶつは、おんせんにハイって「ごくらくだ」といいました。",
+      "expectedMoras": "トオジョオジンブツワオンセンニハイッテゴクラクダトイイマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "母からの言付けを、兄に伝えました。",
+      "readingInput": "ハハからのことづけを、あににつたえました。",
+      "expectedMoras": "ハハカラノコトズケオアニニツタエマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "大きすぎる帽子をかぶった人物が、滑稽に見えました。",
+      "readingInput": "おおきすぎるボーシをかぶったじんぶつが、こっけいにみえました。",
+      "expectedMoras": "オオキスギルボオシオカブッタジンブツガコッケイニミエマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-01",
+      "text": "二枚の写真を合成して、一枚の画像にしました。",
+      "readingInput": "にまいのしゃしんをごうせいして、いちまいのガゾーにしました。",
+      "expectedMoras": "ニマイノシャシンオゴオセイシテイチマイノガゾオニシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "竿",
+      "readingInput": "サオ",
+      "expectedMoras": "サオ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "獣",
+      "readingInput": "ケダモノ",
+      "expectedMoras": "ケダモノ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "相手に、封筒を差し出しました。",
+      "readingInput": "あいてに、フートーをさしだしました。",
+      "expectedMoras": "アイテニフウトオオサシダシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "地図に、目印の座標を記しました。",
+      "readingInput": "ちずに、めじるしのザヒョーをしるしました。",
+      "expectedMoras": "チズニメジルシノザヒョオオシルシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "読者は、物語の王の残酷さに驚きました。",
+      "readingInput": "どくしゃは、ものがたりのオーのざんこくさにおどろきました。",
+      "expectedMoras": "ドクシャワモノガタリノオオノザンコクサニオドロキマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "宛名を書き、封筒に入れて手紙を仕上げました。",
+      "readingInput": "あてなをかき、フートーにいれててがみをしあげました。",
+      "expectedMoras": "アテナオカキフウトオニイレテテガミオシアゲマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "欠乏",
+      "readingInput": "ケツボー",
+      "expectedMoras": "ケツボオ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "けつぼう",
+      "readingInput": "ケツボー",
+      "expectedMoras": "ケツボオ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "同等",
+      "readingInput": "ドートー",
+      "expectedMoras": "ドオトオ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "どうとう",
+      "readingInput": "ドートー",
+      "expectedMoras": "ドオトオ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "ピアノ教室の月謝を、封筒に入れました。",
+      "readingInput": "ピアノきょうしつのげっしゃを、フートーにいれました。",
+      "expectedMoras": "ピアノキョオシツノゲッシャオフウトオニイレマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "物語では、食料の欠乏が問題になります。",
+      "readingInput": "ものがたりでは、しょくりょうのケツボーがもんだいになります。",
+      "expectedMoras": "モノガタリデワショクリョオノケツボオガモンダイニナリマス",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "投票箱に、票を投入しました。",
+      "readingInput": "とうひょうばこに、ヒョーをとうにゅうしました。",
+      "expectedMoras": "トオヒョオバコニヒョオオトオニュウシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-03",
+      "text": "帽子が飛んだので、とっさに手を伸ばしました。",
+      "readingInput": "ボーシがとんだので、とっさにてをのばしました。",
+      "expectedMoras": "ボオシガトンダノデトッサニテオノバシマシタ",
+      "reason": "Inspected new N1 query: selected lexical reading, lexical ha/entry verb or long-o sequence requires this exact correction. Prior recordings and unrelated word/verb readings stay unchanged."
+    },
+    {
+      "unit": "n1-vocab-02",
+      "text": "買う前に、靴のサイズを確認しました。",
+      "readingInput": "カウまえに、くつのサイズをかくにんしました。",
+      "expectedMoras": "カウマエニクツノサイズオカクニンシマシタ",
+      "reason": "New exact query contracted the verb 買う to コオ; keep the lexical カウ distinct, without changing any existing recording."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "何だか",
+      "readingInput": "ナンダカ",
+      "expectedMoras": "ナンダカ",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "鈍る",
+      "readingInput": "ニブル",
+      "expectedMoras": "ニブル",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "妬む",
+      "readingInput": "ネタム",
+      "expectedMoras": "ネタム",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "小説では、雪崩で山道が通れなくなります。",
+      "readingInput": "しょうせつでは、なだれでヤマミチがとおれなくなります。",
+      "expectedMoras": "ショオセツデワナダレデヤマミチガトオレナクナリマス",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "小説の人物は、額のにきびを気にしています。",
+      "readingInput": "しょうせつのじんぶつは、ヒタイのにきびをきにしています。",
+      "expectedMoras": "ショオセツノジンブツワヒタイノニキビオキニシテイマス",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "休日の市場は、買い物客で賑わっています。",
+      "readingInput": "きゅうじつのイチバは、かいものきゃくでにぎわっています。",
+      "expectedMoras": "キュウジツノイチバワカイモノキャクデニギワッテイマス",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-04",
+      "text": "小説の人物は、兄の成功を妬んでいます。",
+      "readingInput": "しょうせつのじんぶつは、あにのせいこうをネタンでいます。",
+      "expectedMoras": "ショオセツノジンブツワアニノセイコオオネタンデイマス",
+      "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
     }
   ]
 }
