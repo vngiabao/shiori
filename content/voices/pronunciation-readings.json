@@ -1694,6 +1694,55 @@
       "readingInput": "しょうせつのじんぶつは、あにのせいこうをネタンでいます。",
       "expectedMoras": "ショオセツノジンブツワアニノセイコオオネタンデイマス",
       "reason": "New exact N1 input selects the authored lexical reading instead of another homograph or inflection. Fresh full-query sequence reviewed; prior recordings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-05",
+      "text": "母から、古い手紙を受け継ぎました。",
+      "readingInput": "ハハから、ふるいてがみをうけつぎました。",
+      "expectedMoras": "ハハカラフルイテガミオウケツギマシタ",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-06",
+      "text": "母に頼まれて、お使いに行きました。",
+      "readingInput": "ハハにたのまれて、おつかいにいきました。",
+      "expectedMoras": "ハハニタノマレテオツカイニイキマシタ",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-06",
+      "text": "遠くに住む友達と、オンラインで話しました。",
+      "readingInput": "とおくにすむともだちと、オンラインで話しました。",
+      "expectedMoras": "トオクニスムトモダチトオンラインデハナシマシタ",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-07",
+      "text": "賭",
+      "readingInput": "カケ",
+      "expectedMoras": "カケ",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-07",
+      "text": "ドラマで、登場人物が「この洗剤でかぶれた」と話します。",
+      "readingInput": "ドラマで、とうじょうじんぶつが「このせんざいでかぶれた」と話します。",
+      "expectedMoras": "ドラマデトオジョオジンブツガコノセンザイデカブレタトハナシマス",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-08",
+      "text": "強",
+      "readingInput": "キョオ",
+      "expectedMoras": "キョオ",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
+    },
+    {
+      "unit": "n1-vocab-08",
+      "text": "ドラマで、登場人物が「薬の効き目が出た」と話します。",
+      "readingInput": "ドラマで、とうじょうじんぶつが「くすりのききめがでた」と話します。",
+      "expectedMoras": "ドラマデトオジョオジンブツガクスリノキキメガデタトハナシマス",
+      "reason": "Fresh N1 query selected the wrong single-kanji reading or treated lexical ha as a particle. Exact corrected input and full mora sequence inspected; old recordings and unrelated readings remain unchanged."
     }
   ]
 }
