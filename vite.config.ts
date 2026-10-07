@@ -106,11 +106,14 @@ export default defineConfig({
           },
           {
             urlPattern: ({ url }) =>
-              url.pathname.startsWith("/audio/") ||
-              url.pathname.startsWith("/voice-auditions/"),
+              url.origin === self.location.origin &&
+              (url.pathname.startsWith("/audio/") ||
+                url.pathname.startsWith("/voice-auditions/")),
             handler: "CacheFirst",
             options: {
               cacheName: "shiori-audio",
+              // Hashed local recordings have identical bytes for fetch and media requests.
+              matchOptions: { ignoreVary: true },
               // The opt-in download must fit every shipped clip as the course
               // grows, plus older content-hashed clips used by an open tab.
               expiration: { maxEntries: Math.max(3000, audioUrls.size + 500) },

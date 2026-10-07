@@ -34,6 +34,24 @@ def corrected_ids(row, correction, words, lexicon):
     return ids
 
 
+def reviewed_disposition(row, audit, decisions):
+    """Reviewed non-headwords are accounting gaps, never taught vocabulary."""
+    key = f"{row['level']}:{row['sourceRow']}"
+    policy = decisions.get('patternPolicies', {}).get(row['level'])
+    if audit['status'] == 'pattern' and policy:
+        assert len(policy) > 40, 'Pattern policy requires a review reason'
+        return dict(disposition='attached-pattern-not-headword', courseIds=[],
+                    sourceTargetSeparatelyTested=False, reason=policy)
+    decision = decisions.get('excluded', {}).get(key)
+    if decision:
+        assert decision['original'] == {k: row[k] for k in ['expression', 'reading']}, 'Stale exclusion'
+        assert decision['dictionaryStatus'] == audit['status'], 'Changed exclusion status'
+        assert len(decision['reason']) > 40, 'Exclusion requires a review reason'
+        return dict(disposition='excluded-compositional-expression', courseIds=[],
+                    sourceTargetSeparatelyTested=False, reason=decision['reason'])
+    return None
+
+
 def build(level):
     source = ROOT / f"content/sources/jlpt-vocabulary/{level}.csv"
     pin = read("content/sources/jlpt-vocabulary/provenance.json")
@@ -45,6 +63,7 @@ def build(level):
              for w in json.loads(p.read_text(encoding="utf-8"))["words"]
              if not w["id"].startswith(("h-", "k-", "sound-"))]
     corrections = read("content/decks/source-decisions.json")
+    decisions = read("content/decks/advanced-coverage-decisions.json")
     cache = ROOT / ".cache/JMdict_e.gz"
     dictionary_hash = hashlib.sha256(cache.read_bytes()).hexdigest()
     assert dictionary_hash == read("content/sources/jmdict-provenance.json")["sha256"]
@@ -66,11 +85,13 @@ def build(level):
             item.update(disposition="candidate-related-forms", courseIds=audit["courseAliasCandidates"],
                         sourceTargetSeparatelyTested=False,
                         reason="Pinned dictionary entry overlap only. A related spelling, inflection or homonym may have a different sense. This cross-reference does not certify source meaning, exact written-form recognition, independent vocabulary coverage or mastery.")
+        elif (reviewed := reviewed_disposition(row, audit, decisions)):
+            item.update(reviewed)
         else:
             raise ValueError(f"Unaccounted source row {key}: {row}")
         result.append(item)
     return dict(communityLevel=level.upper(), officialJLPTList=False,
-                scope="Every raw source row is accounted for. Exact, corrected and candidate-related forms are distinct; none establishes mastery. Candidate-related rows remain unverified for semantic equivalence and exact source-target recognition.",
+                scope="Every raw source row is accounted for. Exact, corrected, candidate-related, attached-pattern and excluded expressions are distinct; none establishes mastery. Candidate-related rows are unverified for semantic equivalence and exact recognition. Pattern/exclusion dispositions do not assert that those targets are taught or tested.",
                 csvSha256=digest, dictionarySha256=dictionary_hash, rows=result)
 
 

@@ -1,0 +1,553 @@
+{
+  "deck": "n2-vocab-14",
+  "communityLevel": "N2",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n2.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n2.csv",
+    "sha256": "2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "96d749f97e845f98ac05cca9234d805e42059a56edff34a3349862cefe8176a7",
+  "sourceDraftSha256": "bdc7f2a5bbff5787b51f32a00cb273d38e980f22c7e18f8de27af189b71405ad",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "もみじ",
+        "kana": "もみじ"
+      },
+      "courseAliases": [
+        "n2-vocab-04-w-0645"
+      ],
+      "reason": "Earlier 紅葉こうよう teaches autumn foliage. The combined source also supplies もみじ, here a maple tree, with a new audible/visible kana form. Shared dictionary spelling is not identical pronunciation or sense."
+    }
+  ],
+  "words": [
+    {
+      "id": "n2-vocab-14-w-0192",
+      "sourceRow": 192,
+      "original": {
+        "expression": "一段と",
+        "reading": "いちだんと",
+        "meaning": "by far, greater",
+        "tags": "JLPT_2 JLPT Intermediate_Japanese_Ln.15 Intermediate_Japanese",
+        "guid": "H2Se/ybI3t"
+      },
+      "selected": {
+        "text": "一段",
+        "kana": "いちだん"
+      },
+      "dictionaryEntryIds": [
+        "1164690",
+        "1587500"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "一段と",
+          "reading": "いちだんと"
+        },
+        "selected": {
+          "text": "一段",
+          "kana": "いちだん"
+        },
+        "reason": "The source has the compositional adverb 一段と. Teach dictionary 一段 in the exact 一段と context; the particle is not a separate vocabulary headword."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0432",
+      "sourceRow": 432,
+      "original": {
+        "expression": "かび (～がはえる)",
+        "reading": "かび (～がはえる)",
+        "meaning": "mold, mildew",
+        "tags": "JLPT JLPT_2",
+        "guid": "Q.7b{&DG}o"
+      },
+      "selected": {
+        "text": "かび",
+        "kana": "かび"
+      },
+      "dictionaryEntryIds": [
+        "1195610",
+        "1575380",
+        "2597790"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "かび (～がはえる)",
+          "reading": "かび (～がはえる)"
+        },
+        "selected": {
+          "text": "かび",
+          "kana": "かび"
+        },
+        "reason": "Remove parenthetical illustrative phrase from the spelling cell, retaining the mould noun かび and its supported reading. Not a productive suffix pattern."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0646",
+      "sourceRow": 646,
+      "original": {
+        "expression": "こうよう もみじ",
+        "reading": "こうよう もみじ",
+        "meaning": "(Japanese) maple",
+        "tags": "JLPT JLPT_2",
+        "guid": "jyNUL2Cq@*"
+      },
+      "selected": {
+        "text": "もみじ",
+        "kana": "もみじ"
+      },
+      "dictionaryEntryIds": [
+        "2857870"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "こうよう もみじ",
+          "reading": "こうよう もみじ"
+        },
+        "selections": [
+          {
+            "text": "紅葉",
+            "kana": "こうよう"
+          },
+          {
+            "text": "もみじ",
+            "kana": "もみじ"
+          }
+        ],
+        "reason": "The source combines two readings/forms without a separator. Preserve raw cells; separately support already taught autumn foliage 紅葉こうよう and new maple もみじ. These dictionary senses/readings are not interchangeable in every context."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0752",
+      "sourceRow": 752,
+      "original": {
+        "expression": "しいんと (する)",
+        "reading": "しいんと (する)",
+        "meaning": "silent (as the grave), (deathly) quiet",
+        "tags": "JLPT JLPT_2",
+        "guid": "GmX&j]f:`Y"
+      },
+      "selected": {
+        "text": "しんと",
+        "kana": "しんと"
+      },
+      "dictionaryEntryIds": [
+        "1359470",
+        "1632010",
+        "2836634"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "しいんと (する)",
+          "reading": "しいんと (する)"
+        },
+        "selected": {
+          "text": "しんと",
+          "kana": "しんと"
+        },
+        "reason": "Source elongates しいんと; select the standard dictionary quiet adverb しんと and contextualise silence rather than unrelated 信徒 or 新都 homonyms."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0793",
+      "sourceRow": 793,
+      "original": {
+        "expression": "しつれいしました (かん)",
+        "reading": "しつれいしました (かん)",
+        "meaning": "Excuse me., I'm sorry.",
+        "tags": "JLPT JLPT_2",
+        "guid": "x&i%T@U%I?"
+      },
+      "selected": {
+        "text": "しつれいしました",
+        "kana": "しつれいしました"
+      },
+      "dictionaryEntryIds": [
+        "1320240"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "しつれいしました (かん)",
+          "reading": "しつれいしました (かん)"
+        },
+        "selected": {
+          "text": "しつれいしました",
+          "kana": "しつれいしました"
+        },
+        "reason": "Remove the parenthetical interjection annotation from both raw cells. The complete courtesy expression is independently supported by the pinned dictionary and taught in an original two-turn context."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0812",
+      "sourceRow": 812,
+      "original": {
+        "expression": "しめた (かん)",
+        "reading": "しめた (かん)",
+        "meaning": "I've got it, all right, fine",
+        "tags": "JLPT JLPT_2",
+        "guid": "zl!oUL,zds"
+      },
+      "selected": {
+        "text": "しめた",
+        "kana": "しめた"
+      },
+      "dictionaryEntryIds": [
+        "1389450"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "しめた (かん)",
+          "reading": "しめた (かん)"
+        },
+        "selected": {
+          "text": "しめた",
+          "kana": "しめた"
+        },
+        "reason": "Remove parenthetical interjection label from source cells; teach the dictionary interjection as recognition in an original delighted quotation."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0838",
+      "sourceRow": 838,
+      "original": {
+        "expression": "じゅうたん (カーペット)",
+        "reading": "じゅうたん (カーペット)",
+        "meaning": "carpet",
+        "tags": "JLPT JLPT_2",
+        "guid": "wuSQ.Es4!<"
+      },
+      "selected": {
+        "text": "絨毯",
+        "kana": "じゅうたん"
+      },
+      "dictionaryEntryIds": [
+        "1595370"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "じゅうたん (カーペット)",
+          "reading": "じゅうたん (カーペット)"
+        },
+        "selected": {
+          "text": "絨毯",
+          "kana": "じゅうたん"
+        },
+        "reason": "Remove parenthetical English loanword alternative and select the dictionary kanji spelling for carpet, with an exact supported reading."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-0919",
+      "sourceRow": 919,
+      "original": {
+        "expression": "しわ (かおの～)",
+        "reading": "しわ (かおの～)",
+        "meaning": "wrinkles, creases",
+        "tags": "JLPT JLPT_2",
+        "guid": "Jk5.8cDx8n"
+      },
+      "selected": {
+        "text": "しわ",
+        "kana": "しわ"
+      },
+      "dictionaryEntryIds": [
+        "1569740",
+        "2866239"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "しわ (かおの～)",
+          "reading": "しわ (かおの～)"
+        },
+        "selected": {
+          "text": "しわ",
+          "kana": "しわ"
+        },
+        "reason": "The parenthetical 顔の～ is an example attached to literal しわ, not part of its headword. Teach the restricted dictionary wrinkle/crease noun with a clothing example; do not mistake the annotation for a productive grammar target."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1090",
+      "sourceRow": 1090,
+      "original": {
+        "expression": "だいいち (とりわけ)",
+        "reading": "だいいち (とりわけ)",
+        "meaning": "first, foremost,&nbsp;&nbsp;#1",
+        "tags": "JLPT JLPT_2",
+        "guid": "sS|Rl>y(P~"
+      },
+      "selected": {
+        "text": "第一",
+        "kana": "だいいち"
+      },
+      "dictionaryEntryIds": [
+        "1415270"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "だいいち (とりわけ)",
+          "reading": "だいいち (とりわけ)"
+        },
+        "selected": {
+          "text": "第一",
+          "kana": "だいいち"
+        },
+        "reason": "Remove parenthetical とりわけ gloss and select the dictionary word 第一 in its above-all sense."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1148",
+      "sourceRow": 1148,
+      "original": {
+        "expression": "田ぼ",
+        "reading": "たんぼ",
+        "meaning": "paddy field, farm",
+        "tags": "JLPT JLPT_2",
+        "guid": "muOiSP8NL>"
+      },
+      "selected": {
+        "text": "田んぼ",
+        "kana": "たんぼ"
+      },
+      "dictionaryEntryIds": [
+        "1442840"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "田ぼ",
+          "reading": "たんぼ"
+        },
+        "selected": {
+          "text": "田んぼ",
+          "kana": "たんぼ"
+        },
+        "reason": "Source spelling 田ぼ is not paired with the selected たんぼ reading in the pinned restrictions. Select conventional 田んぼ, keeping source bytes intact."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1285",
+      "sourceRow": 1285,
+      "original": {
+        "expression": "どういたしまして (かん)",
+        "reading": "どういたしまして (かん)",
+        "meaning": "you are welcome, don't mention it",
+        "tags": "JLPT JLPT_2",
+        "guid": "qsFKJD&|L2"
+      },
+      "selected": {
+        "text": "どういたしまして",
+        "kana": "どういたしまして"
+      },
+      "dictionaryEntryIds": [
+        "1009030"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "どういたしまして (かん)",
+          "reading": "どういたしまして (かん)"
+        },
+        "selected": {
+          "text": "どういたしまして",
+          "kana": "どういたしまして"
+        },
+        "reason": "Remove the parenthetical interjection annotation from both raw cells. The complete courtesy expression is independently supported by the pinned dictionary and taught in an original two-turn context."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1349",
+      "sourceRow": 1349,
+      "original": {
+        "expression": "傾らか",
+        "reading": "なだらか",
+        "meaning": "gradual, gentle",
+        "tags": "JLPT JLPT_2",
+        "guid": "N*gYt%kA/%"
+      },
+      "selected": {
+        "text": "なだらか",
+        "kana": "なだらか"
+      },
+      "dictionaryEntryIds": [
+        "1632290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "傾らか",
+          "reading": "なだらか"
+        },
+        "selected": {
+          "text": "なだらか",
+          "kana": "なだらか"
+        },
+        "reason": "Source 傾らか is an unsupported spelling. Select dictionary kana なだらか with its gently sloping sense; no invented kanji reading."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1442",
+      "sourceRow": 1442,
+      "original": {
+        "expression": "×",
+        "reading": "ばつ",
+        "meaning": "cross",
+        "tags": "JLPT JLPT_2",
+        "guid": "v(;vsH!5b/"
+      },
+      "selected": {
+        "text": "バツ",
+        "kana": "バツ"
+      },
+      "dictionaryEntryIds": [
+        "2197150"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "×",
+          "reading": "ばつ"
+        },
+        "selected": {
+          "text": "バツ",
+          "kana": "バツ"
+        },
+        "reason": "The raw typographic × symbol denotes a cross mark, not punishment 罰. Select dictionary バツ for the mark and explain its symbol in context; no automatic Unicode substitution."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1727",
+      "sourceRow": 1727,
+      "original": {
+        "expression": "ミリ (メートル)",
+        "reading": "ミリ (メートル)",
+        "meaning": "milli-",
+        "tags": "JLPT JLPT_2",
+        "guid": "kM;@-}8}0R"
+      },
+      "selected": {
+        "text": "ミリ",
+        "kana": "ミリ"
+      },
+      "dictionaryEntryIds": [
+        "1131830"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "ミリ (メートル)",
+          "reading": "ミリ (メートル)"
+        },
+        "selected": {
+          "text": "ミリ",
+          "kana": "ミリ"
+        },
+        "reason": "Remove parenthetical メートル expansion; teach colloquial measurement ミリ as a millimetre, alongside its prefix sense."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1804",
+      "sourceRow": 1804,
+      "original": {
+        "expression": "やたらに",
+        "reading": "やたらに",
+        "meaning": "randomly, recklessly, blindly",
+        "tags": "JLPT JLPT_2",
+        "guid": "D]ow_1`[wN"
+      },
+      "selected": {
+        "text": "やたら",
+        "kana": "やたら"
+      },
+      "dictionaryEntryIds": [
+        "1537780"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "やたらに",
+          "reading": "やたらに"
+        },
+        "selected": {
+          "text": "やたら",
+          "kana": "やたら"
+        },
+        "reason": "Treat に as the adverbial attachment to dictionary やたら; the original example uses やたらに in an excessive context."
+      }
+    },
+    {
+      "id": "n2-vocab-14-w-1904",
+      "sourceRow": 1904,
+      "original": {
+        "expression": "割算",
+        "reading": "わりざん",
+        "meaning": "division (math)",
+        "tags": "JLPT JLPT_2",
+        "guid": "eZw4N!$Eu-"
+      },
+      "selected": {
+        "text": "割算",
+        "kana": "わりざん"
+      },
+      "dictionaryEntryIds": [
+        "1606880"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n2-vocab-14-w-1905",
+      "sourceRow": 1905,
+      "original": {
+        "expression": "割と",
+        "reading": "わりと",
+        "meaning": "relatively, comparatively",
+        "tags": "JLPT JLPT_2",
+        "guid": "I-,z(jixJ,"
+      },
+      "selected": {
+        "text": "割と",
+        "kana": "わりと"
+      },
+      "dictionaryEntryIds": [
+        "1983690"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    },
+    {
+      "id": "n2-vocab-14-w-1907",
+      "sourceRow": 1907,
+      "original": {
+        "expression": "ワンピース",
+        "reading": "ワンピース",
+        "meaning": "one-piece dress",
+        "tags": "JLPT JLPT_2",
+        "guid": "l({SDlo@!^"
+      },
+      "selected": {
+        "text": "ワンピース",
+        "kana": "ワンピース"
+      },
+      "dictionaryEntryIds": [
+        "1149240",
+        "5740764"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness"
+    }
+  ],
+  "tailBatch": {
+    "count": 18,
+    "reason": "Eighteen actual remaining headword/corrected-context targets after the ordered N2 bank, including combined maple reading and annotated nouns. No repeated words or generated padding to reach one hundred. Attached patterns and compositional source phrases remain separate dispositions."
+  }
+}

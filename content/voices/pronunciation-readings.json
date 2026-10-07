@@ -1435,6 +1435,48 @@
       "readingInput": "しょうせつのオーは、ししゃにてがみをとどけるようめいじました。",
       "expectedMoras": "ショオセツノオオワシシャニテガミオトドケルヨオメイジマシタ",
       "reason": "Exact new example 王 is a long-o syllable rather than a separate final u. Full fresh sequence inspected; other word endings and older recordings unchanged."
+    },
+    {
+      "unit": "n2-vocab-12",
+      "text": "箱の容積を、縦と横と高さから計算しました。",
+      "readingInput": "ハコのようせきを、たてとよことたかさからけいさんしました。",
+      "expectedMoras": "ハコノヨオセキオタテトヨコトタカサカラケイサンシマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n2-vocab-12",
+      "text": "封筒を破いて、手紙を取り出しました。",
+      "readingInput": "フートーをやぶいて、てがみをとりだしました。",
+      "expectedMoras": "フウトオオヤブイテテガミオトリダシマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n2-vocab-12",
+      "text": "物語の欲張りな王様は、宝を独り占めしました。",
+      "readingInput": "ものがたりのよくばりなオーさまは、たからをひとりじめしました。",
+      "expectedMoras": "モノガタリノヨクバリナオオサマワタカラオヒトリジメシマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n2-vocab-13",
+      "text": "弟は、兄のいたずらを母に言い付けました。",
+      "readingInput": "おとうとは、あにのいたずらをハハにいいつけました。",
+      "expectedMoras": "オトオトワアニノイタズラオハハニイイツケマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n2-vocab-13",
+      "text": "母は、「行ってらっしゃい」と玄関で手を振りました。",
+      "readingInput": "ハハは、「いってらっしゃい」とげんかんでてをふりました。",
+      "expectedMoras": "ハハワイッテラッシャイトゲンカンデテオフリマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
+    },
+    {
+      "unit": "n2-vocab-13",
+      "text": "長時間の作業で、体力を消耗しました。",
+      "readingInput": "チョーじかんのさぎょうで、たいりょくをしょうもうしました。",
+      "expectedMoras": "チョオジカンノサギョオデタイリョクオショオモオシマシタ",
+      "reason": "Exact new supported example: inspected fresh query incorrectly treated lexical ha as a particle or separated a long-o vowel. This bounded input repairs the full sequence without changing prior recordings or unrelated verb endings."
     }
   ]
 }

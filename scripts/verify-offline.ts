@@ -37,6 +37,18 @@ try {
   await expect(
     page.getByRole("status").filter({ hasText: "All lesson audio is saved" }),
   ).toBeVisible({ timeout: 600000 });
+  const savedCacheSnapshot = await page.evaluate(async () => ({
+    cacheUrls: (await (await caches.open("shiori-audio")).keys()).map(
+      (r) => new URL(r.url).pathname,
+    ),
+    serviceWorker: navigator.serviceWorker.controller?.scriptURL,
+    storage: await navigator.storage.estimate(),
+  }));
+  fs.writeFileSync(
+    "output/offline-cache-diagnostic.json",
+    JSON.stringify(savedCacheSnapshot, null, 2),
+  );
+  console.log("Saved audio cache entries", savedCacheSnapshot.cacheUrls.length);
   await page.goto("http://127.0.0.1:5175/#today");
   await context.setOffline(true);
   await page.reload();
@@ -91,7 +103,8 @@ try {
     async (urls: string[]) => {
       const cache = await caches.open("shiori-audio");
       const missing: string[] = [];
-      for (const url of urls) if (!(await cache.match(url))) missing.push(url);
+      for (const url of urls)
+        if (!(await cache.match(url, { ignoreVary: true }))) missing.push(url);
       return missing;
     },
     [
@@ -101,7 +114,10 @@ try {
       ...deckUrls,
     ],
   );
-  expect(missingTeacher).toEqual([]);
+  expect(
+    missingTeacher,
+    `Missing audio: ${missingTeacher.length}; first: ${missingTeacher.slice(0, 5).join(", ")}`,
+  ).toHaveLength(0);
   const courseAssets = JSON.parse(
     fs.readFileSync("dist/course-assets.json", "utf8"),
   ) as string[];
@@ -109,7 +125,8 @@ try {
   const missingCourse = await page.evaluate(async (urls) => {
     const cache = await caches.open("shiori-course"),
       missing: string[] = [];
-    for (const url of urls) if (!(await cache.match(url))) missing.push(url);
+    for (const url of urls)
+      if (!(await cache.match(url, { ignoreVary: true }))) missing.push(url);
     return missing;
   }, courseAssets);
   expect(missingCourse).toEqual([]);

@@ -14,7 +14,8 @@ const cacheName = "shiori-audio";
 // completed batch settles before the caller enables Retry, so old callbacks
 // cannot overwrite the next attempt's progress. Previously saved clips survive.
 async function cacheAsset(cache: Cache, url: string) {
-  if (await cache.match(url)) return;
+  // Same-origin content-hashed bytes do not vary with media/fetch Origin headers.
+  if (await cache.match(url, { ignoreVary: true })) return;
   for (let attempt = 0; attempt < 3; attempt++) {
     let response: Response;
     try {
@@ -114,4 +115,12 @@ export async function saveAudioOffline(
     const failure = results.find((result) => result.status === "rejected");
     if (failure?.status === "rejected") throw failure.reason;
   }
+  // Concurrent service-worker writes must not let a partial cache look complete.
+  const saved = new Set(
+    (await cache.keys()).map((request) => new URL(request.url).pathname),
+  );
+  if (urls.some((url) => !saved.has(url)))
+    throw new Error(
+      "Some audio files were not retained. Try saving again; existing files will be kept.",
+    );
 }

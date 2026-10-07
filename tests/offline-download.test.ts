@@ -15,6 +15,9 @@ function setup() {
     match: vi.fn(async (url: string) =>
       saved.has(url) ? new Response("saved") : undefined,
     ),
+    keys: vi.fn(async () =>
+      [...saved].map((url) => new Request("https://shiori.gbaonvo.com" + url)),
+    ),
     put: vi.fn(async (url: string) => {
       saved.add(url);
     }),
@@ -78,4 +81,18 @@ it("reports storage exhaustion instead of claiming the course was saved", async 
     new DOMException("Quota exceeded", "QuotaExceededError"),
   );
   await expect(saveAudioOffline(vi.fn())).rejects.toThrow("available storage");
+});
+
+it("shares saved immutable clips between fetch and media Origin variants", async () => {
+  const { cache, urls } = setup();
+  await saveAudioOffline(vi.fn());
+  expect(cache.match).toHaveBeenCalledWith(urls[2], { ignoreVary: true });
+});
+
+it("rejects a download whose earlier files disappeared before completion", async () => {
+  const { cache, urls } = setup();
+  cache.keys.mockImplementation(async () =>
+    urls.slice(1).map((url) => new Request("https://shiori.gbaonvo.com" + url)),
+  );
+  await expect(saveAudioOffline(vi.fn())).rejects.toThrow("not retained");
 });

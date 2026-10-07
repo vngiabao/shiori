@@ -114,8 +114,8 @@ def main():
         assert example.rstrip('」』').endswith('。') and len(plain(example))>5 and translation.strip(), ('Incomplete example',text)
         word_id = f'{deck}-w-{source_row:04}'
         url = f"https://github.com/jamsinclair/open-anki-jlpt-decks/blob/{provenance['revision']}/src/{level}.csv#L{source_row}"
-        register = ('formal' if text in ['かしこまりました','御覧','信ずる','存じる','足る','通ずる','為す','何分','命ずる','申し上げる','差し上げる','おいでになる','ご存じ','拝見','頂く','いただく','お目に掛かる'] or (text=='私' and reading=='わたくし') else 'casual' if text in ['あっち','そっち','どっち','こっち','パパ','君','やる','みんな','うまい','食う','けち','お前','馬鹿','何で','ちょうだい','ママ','おはよう','御免','こないだ','しょうがない','すまない','女房','バイバイ','坊さん','坊や']
-                    else 'polite' if text in ['御無沙汰','ごめんください','ご苦労様','おかけください','おかげさまで','お気の毒に','お邪魔します','お待たせしました','構いません','あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い','方々'] else 'neutral')
+        register = ('formal' if text in ['かしこまりました','御覧','信ずる','存じる','足る','通ずる','為す','何分','命ずる','応ずる','感ずる','生ずる','論ずる','いってまいります','申し上げる','差し上げる','おいでになる','ご存じ','拝見','頂く','いただく','お目に掛かる','しかしながら','参上'] or (text=='私' and reading=='わたくし') else 'casual' if text in ['あっち','そっち','どっち','こっち','パパ','君','やる','みんな','うまい','食う','けち','お前','馬鹿','何で','ちょうだい','ママ','おはよう','御免','こないだ','しょうがない','すまない','女房','バイバイ','坊さん','坊や','めちゃくちゃ','やっつける','やっぱり','よこす','小便','しめた','やたら','サボる','サンキュー']
+                    else 'polite' if text in ['御無沙汰','しつれいしました','どういたしまして','ごめんください','ご苦労様','おかけください','おかげさまで','お気の毒に','お邪魔します','お待たせしました','構いません','あちら','そちら','どちら','どなた','いかが','お手洗い','お宅','お嬢さん','よろしい','お子さん','皆さん','お見舞い','方々'] else 'neutral')
         words.append(dict(id=word_id,text=text,kana=reading,romaji=romaji,meaning=meaning,register=register,
                           example=plain(example),exampleRuby=example,exampleMeaning=translation,pitch=None,jlpt=None,
                           parts=parts(ruby),source=url))

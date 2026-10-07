@@ -480,5 +480,259 @@
       "kana": "はい"
     },
     "reason": "Remove source spelling tilde indicating bound use; teach loss/counting suffix 敗 within 一敗 and explain sound change, not an independent modern JLPT syllabus claim."
+  },
+  "n2:192": {
+    "original": {
+      "expression": "一段と",
+      "reading": "いちだんと"
+    },
+    "selected": {
+      "text": "一段",
+      "kana": "いちだん"
+    },
+    "reason": "The source has the compositional adverb 一段と. Teach dictionary 一段 in the exact 一段と context; the particle is not a separate vocabulary headword."
+  },
+  "n2:432": {
+    "original": {
+      "expression": "かび (～がはえる)",
+      "reading": "かび (～がはえる)"
+    },
+    "selected": {
+      "text": "かび",
+      "kana": "かび"
+    },
+    "reason": "Remove parenthetical illustrative phrase from the spelling cell, retaining the mould noun かび and its supported reading. Not a productive suffix pattern."
+  },
+  "n2:585": {
+    "original": {
+      "expression": "下品(な)",
+      "reading": "げひん(な)"
+    },
+    "selected": {
+      "text": "下品",
+      "kana": "げひん"
+    },
+    "reason": "Remove editorial な-adjective annotation; source spelling and reading otherwise retain the established noun/adjective pair."
+  },
+  "n2:752": {
+    "original": {
+      "expression": "しいんと (する)",
+      "reading": "しいんと (する)"
+    },
+    "selected": {
+      "text": "しんと",
+      "kana": "しんと"
+    },
+    "reason": "Source elongates しいんと; select the standard dictionary quiet adverb しんと and contextualise silence rather than unrelated 信徒 or 新都 homonyms."
+  },
+  "n2:812": {
+    "original": {
+      "expression": "しめた (かん)",
+      "reading": "しめた (かん)"
+    },
+    "selected": {
+      "text": "しめた",
+      "kana": "しめた"
+    },
+    "reason": "Remove parenthetical interjection label from source cells; teach the dictionary interjection as recognition in an original delighted quotation."
+  },
+  "n2:838": {
+    "original": {
+      "expression": "じゅうたん (カーペット)",
+      "reading": "じゅうたん (カーペット)"
+    },
+    "selected": {
+      "text": "絨毯",
+      "kana": "じゅうたん"
+    },
+    "reason": "Remove parenthetical English loanword alternative and select the dictionary kanji spelling for carpet, with an exact supported reading."
+  },
+  "n2:1090": {
+    "original": {
+      "expression": "だいいち (とりわけ)",
+      "reading": "だいいち (とりわけ)"
+    },
+    "selected": {
+      "text": "第一",
+      "kana": "だいいち"
+    },
+    "reason": "Remove parenthetical とりわけ gloss and select the dictionary word 第一 in its above-all sense."
+  },
+  "n2:1148": {
+    "original": {
+      "expression": "田ぼ",
+      "reading": "たんぼ"
+    },
+    "selected": {
+      "text": "田んぼ",
+      "kana": "たんぼ"
+    },
+    "reason": "Source spelling 田ぼ is not paired with the selected たんぼ reading in the pinned restrictions. Select conventional 田んぼ, keeping source bytes intact."
+  },
+  "n2:1349": {
+    "original": {
+      "expression": "傾らか",
+      "reading": "なだらか"
+    },
+    "selected": {
+      "text": "なだらか",
+      "kana": "なだらか"
+    },
+    "reason": "Source 傾らか is an unsupported spelling. Select dictionary kana なだらか with its gently sloping sense; no invented kanji reading."
+  },
+  "n2:1358": {
+    "original": {
+      "expression": "生意気な",
+      "reading": "なまいきな"
+    },
+    "selected": {
+      "text": "生意気",
+      "kana": "なまいき"
+    },
+    "reason": "Remove the attached な from the adjective source cell and cross-reference the exact already taught adjective, without duplicating it."
+  },
+  "n2:1412": {
+    "original": {
+      "expression": "はい (かん)",
+      "reading": "はい (かん)"
+    },
+    "selected": {
+      "text": "はい",
+      "kana": "はい"
+    },
+    "reason": "Remove parenthetical interjection label; retain the response はい already taught, not a claim that every homophone is covered."
+  },
+  "n2:1442": {
+    "original": {
+      "expression": "×",
+      "reading": "ばつ"
+    },
+    "selected": {
+      "text": "バツ",
+      "kana": "バツ"
+    },
+    "reason": "The raw typographic × symbol denotes a cross mark, not punishment 罰. Select dictionary バツ for the mark and explain its symbol in context; no automatic Unicode substitution."
+  },
+  "n2:1567": {
+    "original": {
+      "expression": "蒸す",
+      "reading": "ふす"
+    },
+    "selected": {
+      "text": "蒸す",
+      "kana": "むす"
+    },
+    "reason": "The source supplies ふす, which does not match 蒸す. Select supported むす for steaming; existing steam instruction is retained."
+  },
+  "n2:1647": {
+    "original": {
+      "expression": "朗らか(な)",
+      "reading": "ほがらか(な)"
+    },
+    "selected": {
+      "text": "朗らか",
+      "kana": "ほがらか"
+    },
+    "reason": "Remove editorial な-adjective annotation and reference the exact taught cheerful adjective."
+  },
+  "n2:1709": {
+    "original": {
+      "expression": "惨めな",
+      "reading": "みじめな"
+    },
+    "selected": {
+      "text": "みじめ",
+      "kana": "みじめ"
+    },
+    "reason": "Remove attached な and select the already taught kana adjective みじめ; no duplicate word is introduced."
+  },
+  "n2:1727": {
+    "original": {
+      "expression": "ミリ (メートル)",
+      "reading": "ミリ (メートル)"
+    },
+    "selected": {
+      "text": "ミリ",
+      "kana": "ミリ"
+    },
+    "reason": "Remove parenthetical メートル expansion; teach colloquial measurement ミリ as a millimetre, alongside its prefix sense."
+  },
+  "n2:1804": {
+    "original": {
+      "expression": "やたらに",
+      "reading": "やたらに"
+    },
+    "selected": {
+      "text": "やたら",
+      "kana": "やたら"
+    },
+    "reason": "Treat に as the adverbial attachment to dictionary やたら; the original example uses やたらに in an excessive context."
+  },
+  "n2:646": {
+    "original": {
+      "expression": "こうよう もみじ",
+      "reading": "こうよう もみじ"
+    },
+    "selections": [
+      {
+        "text": "紅葉",
+        "kana": "こうよう"
+      },
+      {
+        "text": "もみじ",
+        "kana": "もみじ"
+      }
+    ],
+    "reason": "The source combines two readings/forms without a separator. Preserve raw cells; separately support already taught autumn foliage 紅葉こうよう and new maple もみじ. These dictionary senses/readings are not interchangeable in every context."
+  },
+  "n2:757": {
+    "original": {
+      "expression": "しかく しかくい",
+      "reading": "しかく しかくい"
+    },
+    "selections": [
+      {
+        "text": "四角",
+        "kana": "しかく"
+      },
+      {
+        "text": "四角い",
+        "kana": "しかくい"
+      }
+    ],
+    "reason": "The raw cell combines noun 四角 and adjective 四角い. Both exact pairs are already taught in separate packs; split the correction explicitly without double-counting independent mastery."
+  },
+  "n2:793": {
+    "original": {
+      "expression": "しつれいしました (かん)",
+      "reading": "しつれいしました (かん)"
+    },
+    "selected": {
+      "text": "しつれいしました",
+      "kana": "しつれいしました"
+    },
+    "reason": "Remove the parenthetical interjection annotation from both raw cells. The complete courtesy expression is independently supported by the pinned dictionary and taught in an original two-turn context."
+  },
+  "n2:1285": {
+    "original": {
+      "expression": "どういたしまして (かん)",
+      "reading": "どういたしまして (かん)"
+    },
+    "selected": {
+      "text": "どういたしまして",
+      "kana": "どういたしまして"
+    },
+    "reason": "Remove the parenthetical interjection annotation from both raw cells. The complete courtesy expression is independently supported by the pinned dictionary and taught in an original two-turn context."
+  },
+  "n2:919": {
+    "original": {
+      "expression": "しわ (かおの～)",
+      "reading": "しわ (かおの～)"
+    },
+    "selected": {
+      "text": "しわ",
+      "kana": "しわ"
+    },
+    "reason": "The parenthetical 顔の～ is an example attached to literal しわ, not part of its headword. Teach the restricted dictionary wrinkle/crease noun with a clothing example; do not mistake the annotation for a productive grammar target."
   }
 }

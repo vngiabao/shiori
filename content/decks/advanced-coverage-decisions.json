@@ -1,0 +1,48 @@
+{
+  "scope": "Reviewed source accounting only. Attached forms and excluded compositional sentences are not independently taught or tested targets. Raw source bytes are unchanged. Dictionary candidate overlap is not semantic proof.",
+  "patternPolicies": {
+    "n2": "Reviewed raw tilde-marked prefixes, suffixes, counters and grammar frames require a host or context and are not standalone headwords. This disposition accounts for the source notation only: it does not claim that every productive pattern, reading or combination has been taught, tested or mastered. Literal nouns hidden by parenthetical examples, including mould and wrinkles, receive explicit corrections and separate contextual teaching instead."
+  },
+  "excluded": {
+    "n2:199": {
+      "original": {
+        "expression": "行っていらっしゃい",
+        "reading": "いっていらっしゃい"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "The raw polite leave-taking formula 行っていらっしゃい has no restricted headword match. Related 行ってらっしゃい is taught, but its politeness and exact form are not certified by that relation. Retained as a source gap rather than a dictionary-checked new word."
+    },
+    "n2:293": {
+      "original": {
+        "expression": "お元気で",
+        "reading": "おげんきで"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "Compositional polite farewell お元気で uses already taught 元気. It is not a separate pinned dictionary headword or an independently tested course target; do not count phrase accounting as recognition mastery."
+    },
+    "n2:304": {
+      "original": {
+        "expression": "お世話になりました",
+        "reading": "おせわになりました"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "Compositional past courtesy formula お世話になりました uses taught 世話 and polite constructions. The exact expression is not separately tested here; it is excluded from standalone headword counts, not declared erroneous Japanese."
+    },
+    "n2:320": {
+      "original": {
+        "expression": "お待ちください",
+        "reading": "おまちください"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "Compositional honorific request お待ちください is not a standalone pinned headword. Earlier 待ってください instruction does not certify the exact respectful formula; retain this explicit recognition gap."
+    },
+    "n2:1081": {
+      "original": {
+        "expression": "それはいけませんね (かん)",
+        "reading": "それはいけませんね (かん)"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "Context-dependent reaction それはいけませんね is a complete sentence, not a unique lexical headword. It can express concern or disapproval depending on context; do not assign a single decontextualized meaning or count it as separately taught vocabulary."
+    }
+  }
+}

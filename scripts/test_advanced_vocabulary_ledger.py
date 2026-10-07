@@ -29,6 +29,26 @@ class SourceCorrections(unittest.TestCase):
         with self.assertRaisesRegex(AssertionError, "has not been taught"):
             ledger.corrected_ids(self.row, self.decision, [], {"たった": ["たった"]})
 
+    def test_pattern_accounting_has_no_taught_or_tested_claim(self):
+        row = dict(level='n2', sourceRow=17, expression='～がち', reading='～がち')
+        decisions = dict(patternPolicies={'n2': 'Attached grammar patterns are reviewed separately from headwords; no exact recognition or mastery is asserted.'})
+        result = ledger.reviewed_disposition(row, {'status': 'pattern'}, decisions)
+        self.assertEqual(result['courseIds'], [])
+        self.assertFalse(result['sourceTargetSeparatelyTested'])
+        self.assertIsNone(ledger.reviewed_disposition(row, {'status': 'matched'}, decisions))
+
+    def test_stale_exclusion_cannot_hide_a_changed_source_row(self):
+        row = dict(level='n2', sourceRow=293, expression='お元気で', reading='おげんきで')
+        decisions = dict(excluded={'n2:293': dict(original={'expression': '別の文', 'reading': 'べつのぶん'}, dictionaryStatus='unmatched', reason='A compositional phrase is not counted as a separately tested vocabulary item.')})
+        with self.assertRaisesRegex(AssertionError, 'Stale exclusion'):
+            ledger.reviewed_disposition(row, {'status': 'unmatched'}, decisions)
+
+    def test_new_dictionary_evidence_requires_exclusion_review(self):
+        row = dict(level='n2', sourceRow=293, expression='お元気で', reading='おげんきで')
+        decisions = dict(excluded={'n2:293': dict(original={k: row[k] for k in ['expression', 'reading']}, dictionaryStatus='unmatched', reason='A compositional phrase is not counted as a separately tested vocabulary item.')})
+        with self.assertRaisesRegex(AssertionError, 'Changed exclusion status'):
+            ledger.reviewed_disposition(row, {'status': 'matched'}, decisions)
+
 
 if __name__ == "__main__":
     unittest.main()
