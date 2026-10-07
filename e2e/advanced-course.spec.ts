@@ -290,6 +290,15 @@ for (const unit of [
       ["Check the terms before proceeding", "n1-u05-d-confirm", "Restate the understanding and invite correction", "State the condition behind the offer"],
     ],
   },
+  {
+    id: "n1-u06", reading: "A programme with two different endings",
+    secondReading: "What the first host learned",
+    lessons: [
+      ["Rehearse a short formal opening", "n1-u06-d-rehearsal", "Acknowledge the time guests have given", "A modest preface to an assigned public role"],
+      ["Welcome guests; recognise the actual help", "n1-u06-d-opening", "Thank someone for an actual action", "Acknowledge the time guests have given"],
+      ["Close the event; cue a shared toast", "n1-u06-d-close", "A modest preface to an assigned public role", "Thank someone for an actual action"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -405,7 +414,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();

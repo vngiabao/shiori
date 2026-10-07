@@ -10,6 +10,15 @@ assert set(m.values())<=set(indexed)
 pairs={(r['text'],r['url']) for r in records}
 for text,url in m.items():
     assert (text,url) in pairs,('Text mapped to a different recording',text,url)
+reading_path=root/'content/voices/pronunciation-readings.json'
+if reading_path.exists():
+    overrides=json.loads(reading_path.read_text(encoding='utf-8'))
+    assert len({e['text'] for e in overrides['entries']})==len(overrides['entries'])
+    for entry in overrides['entries']:
+        row=indexed[m[entry['text']]]
+        assert row['readingInput']==entry['readingInput'],('Contextual reading ignored',entry['text'])
+        moras=''.join(t['text'] for a in row['query']['accent_phrases'] for t in a['moras'])
+        assert moras==entry['expectedMoras'],('Contextual pronunciation changed',entry['text'],moras)
 roster=json.loads((root/'content/voices/violetto.json').read_text(encoding='utf-8'))
 baseline=json.loads((root/'src/generated/violetto-baseline.json').read_text(encoding='utf-8'))
 for key,take in baseline.items():

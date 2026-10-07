@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "text": "本日はお忙しい中、お集まりいただき、ありがとうございます。",
+      "readingInput": "本日はお忙しいなか、お集まりいただき、ありがとうございます。",
+      "unit": "n1-u06",
+      "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
+      "expectedMoras": "ホンジツワオイソガシイナカオアツマリイタダキアリガトオゴザイマス"
+    },
+    {
+      "text": "助かる。マイクはここ。一度、声が後ろまで届くか試そう。",
+      "readingInput": "助かる。マイクはここ。一度、声が後ろまで届くかためそう。",
+      "unit": "n1-u06",
+      "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
+      "expectedMoras": "タスカルマイクワココイチドコエガウシロマデトドクカタメソオ"
+    },
+    {
+      "text": "皆様、本日はお忙しい中、ご出席いただき、誠にありがとうございます。",
+      "readingInput": "皆様、本日はお忙しいなか、ご出席いただき、誠にありがとうございます。",
+      "unit": "n1-u06",
+      "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
+      "expectedMoras": "ミナサマホンジツワオイソガシイナカゴシュッセキイタダキマコトニアリガトオゴザイマス"
+    },
+    {
+      "text": "準備にご協力いただいた皆様に、心より御礼申し上げます。",
+      "readingInput": "準備にご協力いただいた皆様に、心よりお礼申し上げます。",
+      "unit": "n1-u06",
+      "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
+      "expectedMoras": "ジュンビニゴキョオリョクイタダイタミナサマニココロヨリオレエモオシアゲマス"
+    },
+    {
+      "text": "本日はご出席いただき、心より御礼申し上げます。",
+      "readingInput": "本日はご出席いただき、心よりお礼申し上げます。",
+      "unit": "n1-u06",
+      "reason": "Contextual なか, 試す→ためそう or authored おれい; inspected synthesis mora sequence. This does not certify native intonation.",
+      "expectedMoras": "ホンジツワゴシュッセキイタダキココロヨリオレエモオシアゲマス"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "unit": "n1-u06",
+  "checkedAt": "2026-10-07",
+  "status": "Primary-source formation, editorial/key, actual synthesis-query, source/audio/browser/build/offline review complete; independent native language/listening review pending.",
+  "method": "Relevant primary authored teaching sections inspected. All scenes, programme/table, diary, examples and tasks are original AI-assisted drafts. Restricted JMdict pairs validate written readings, not naturalness or official level assignment.",
+  "points": [
+    {
+      "form": "本日はお忙しい中 / お忙しいところ + coming/attendance + thanks",
+      "sources": [
+        "https://www.mlcjapanese.co.jp/business_japanese.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "formation": "お忙しい + 中 (なか) / ところ; guests perform the arrival/attendance, which the host acknowledges as a received favour.",
+      "teachingChoice": "A conventional gratitude opening suited to an invited-client exhibition. Do not equate this なか with the suffix 中 (ちゅう) in 懇談中."
+    },
+    {
+      "form": "Vていただき / ご出席いただき + thanks",
+      "sources": [
+        "https://www.mlcjapanese.co.jp/business_japanese.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "formation": "Vte + いただき connecting to thanks; suru-action ごNいただき in the appropriate frame.",
+      "teachingChoice": "Actual earlier or current help/attendance is thanked. Contrast with the previously taught conditional request いただければ幸いです. Guests are the arriving actors; own-side introduction and a direct address to one’s manager are kept distinct."
+    },
+    {
+      "form": "僭越ながら (optional formal preface)",
+      "sources": [
+        "https://bunpro.jp/grammar_points/ながらも",
+        "https://zexy.net/mar/manual/speech/cheers.html"
+      ],
+      "formation": "Na-adjectival noun stem + concessive ながら; no simultaneous-action interpretation here.",
+      "teachingChoice": "Bunpro supplies state/na-stem attachment; Zexy’s author/supervisor explains a modest preface to an assigned public toast role, using the related ではございますが formula. This is corroboration of function, not a claim that Zexy gives the exact ながら variant. A fixed expression recognised at N1 is not an official N1-only rule."
+    },
+    {
+      "form": "以上をもちまして + named part/event + ending; ご唱和 cue",
+      "sources": [
+        "https://bunpro.jp/grammar_points/をもって",
+        "https://www.mlcjapanese.co.jp/n1_04_29.html",
+        "https://zexy.net/mar/manual/speech/cheers.html"
+      ],
+      "formation": "Formal boundary をもって, polite continuation もちまして; explicitly name the remarks or the whole exhibition. ご唱和をお願いします cues the shared word 乾杯.",
+      "teachingChoice": "Retrieves unit 2’s formal boundary. In the original programme opening remarks end near ten, exhibition at eleven, gathering starts eleven-ten. The shared spoken toast is distinct from drinking, standing or draining a glass."
+    }
+  ],
+  "sourceCautions": [
+    "MLC business_japanese closing example appears to omit を; that spelling is not adopted.",
+    "Bunpro ながらも introductory absolute state-verb caution conflicts with examples; no universal action-verb ban is taught.",
+    "Zexy’s wedding-specific taboo words and etiquette are not universal rules for a daytime work exhibition. Its template sentences are not copied as lesson paragraphs.",
+    "The ceremony PDF failed to open; search-only and failed pages are not inspected evidence.",
+    "Word counts and dictionary matches are not a naturalness guarantee. Broad ceremony vocabulary is encountered in the meet menu; it is not stuffed into public speeches. No publisher exercise or audio imported."
+  ],
+  "audioScope": "One existing Violetto voice/cast/pitch bounds; three thirteen-line scenes at 1.15; Clear words/examples/practice. Readings have glosses and a table, not full narrated paragraphs.",
+  "checks": {
+    "wordPairs": 54,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "readingCharacters": [
+      1022,
+      1061
+    ],
+    "readingTableRows": 5,
+    "tasks": 20,
+    "explicitPronunciationReadings": 5,
+    "remaining": "Independent native language and listening review."
+  }
+}

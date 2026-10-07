@@ -65,6 +65,15 @@ for p in packs:
 def katakana(text):
     return ''.join(chr(ord(c)+96) if 'ぁ'<=c<='ゖ' else c for c in text)
 
+# Explicit context-specific speech readings supplement the text analyser.
+# Written text remains the manifest key; no global kanji substitution is made.
+reading_path=root/'content/voices/pronunciation-readings.json'
+if reading_path.exists():
+    reading_overrides=json.loads(reading_path.read_text(encoding='utf-8'))
+    for entry in reading_overrides['entries']:
+        assert entry['text'] in texts and entry['readingInput'] and entry['reason']
+        readings[entry['text']]=entry['readingInput']
+
 records=[]
 def render(text,mood='clear',delivery=None):
     single=bool(re.fullmatch('[ぁ-ゖァ-ヶ]',text))
