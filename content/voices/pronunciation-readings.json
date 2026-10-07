@@ -245,6 +245,55 @@
       "unit": "n1-u10",
       "reason": "Inspected new synthesis query: contracted シュ, long-o vowels, contextual あと and authored よみちがえる. Exact mora sequence pinned; not native intonation certification.",
       "expectedMoras": "ヨミチガエルトケツロンガギャクデスネフエルトキメツケズニタメシテタシカメルワケダ"
+    },
+    {
+      "text": "指標",
+      "readingInput": "シヒョー",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "シヒョオ"
+    },
+    {
+      "text": "しひょう",
+      "readingInput": "シヒョー",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "シヒョオ"
+    },
+    {
+      "text": "ええ。授業の方針です。測った値とは区別します。",
+      "readingInput": "ええ。授業の方針です。測ったあたいとは区別します。",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "エエジュギョオノホオシンデスハカッタアタイトワクベツシマス"
+    },
+    {
+      "text": "最初に方針、その後に定義と方法。段落の役割が分かりました。",
+      "readingInput": "最初に方針、そのあとに定義と方法。段落の役割が分かりました。",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "サイショニホオシンソノアトニテエギトホオホオダンラクノヤクワリガワカリマシタ"
+    },
+    {
+      "text": "はい。その二人は、同じ人の二回分を比較する分析から除きました。",
+      "readingInput": "はい。その二人は、おなじひとの二回分を比較する分析から除きました。",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "ハイソノフタリワオナジヒトノニカイブンオヒカクスルブンセキカラノゾキマシタ"
+    },
+    {
+      "text": "正答は一回目が七人、二回目が八人。こちらは人数ですね。",
+      "readingInput": "正答は一回目がななにん、二回目が八人。こちらは人数ですね。",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "セエトオワイッカイメガナナニンニカイメガハチニンコチラワニンズウデスネ"
+    },
+    {
+      "text": "この報告は、記録を示すところまでです。検定は行っていません。",
+      "readingInput": "この報告は、記録を示すところまでです。検定はおこなっていません。",
+      "unit": "n1-u11",
+      "reason": "New-key preflight corrects contextual あたい, あと, おなじひと, おこなう and authored ななにん, and a headword long vowel. Full inspected mora sequence pinned; not native intonation certification.",
+      "expectedMoras": "コノホオコクワキロクオシメストコロマデデスケンテエワオコナッテイマセン"
     }
   ]
 }

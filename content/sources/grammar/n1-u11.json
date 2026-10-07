@@ -1,0 +1,68 @@
+{
+  "unit": "n1-u11",
+  "checkedAt": "2026-10-07",
+  "status": "Source/editorial/query/mapping/browser/build/offline checks passed; native review pending.",
+  "method": "Relevant independently authored formation sections inspected, alongside Keio’s own report-writing guide. All investigation, handout, figures, commentary, examples and tasks are original fictional classroom material. Earlier-level forms retrieved in advanced reading, not claimed exclusively N1 or an official syllabus.",
+  "points": [
+    {
+      "form": "Definitional noun + とは",
+      "sources": [
+        "https://mainichi-nonbiri.com/grammar/n3-toha/",
+        "https://nihongokyoshi-net.com/2019/05/24/jlptn2-grammar-towa/"
+      ],
+      "formation": "Noun + とは / というのは introduces an explanation or definition. No inserted だ before とは when the term itself is being defined.",
+      "teachingChoice": "The report explicitly supplies a local working definition of reading time. Do not confuse it with sentence-final surprise とは or a universal dictionary definition. Publisher labels vary."
+    },
+    {
+      "form": "Proposition + とされる / とされている",
+      "sources": [
+        "https://bunpro.jp/grammar_points/とされている",
+        "https://mainichi-nonbiri.com/grammar/n3-tosareteiru/"
+      ],
+      "formation": "Plain verb/i-adjective + とされる・とされている; noun/na-adjective + (だ)とされる・とされている.",
+      "teachingChoice": "Explicitly attribute the local class policy, distinct from measured results. The construction alone neither proves the proposition nor provides an adequate citation."
+    },
+    {
+      "form": "Noun + に基づいて / に基づき / に基づく / に基づいた",
+      "sources": [
+        "https://bunpro.jp/grammar_points/にもとづいて",
+        "https://nihongo-arekore.com/n2-motoduite/"
+      ],
+      "formation": "Noun + に基づいて・に基づき modifies an action; に基づく・に基づいた modifies a following noun. 基づく is godan.",
+      "teachingChoice": "Name the ten complete paired records as the basis. Do not score をもとに as universally wrong; usage overlaps and depends on context."
+    },
+    {
+      "form": "Proposition + と考えられる",
+      "sources": [
+        "https://bunpro.jp/grammar_points/と考えられる",
+        "https://www2.lib.keio.ac.jp/project/kitie/writing/"
+      ],
+      "formation": "Plain verb/i-adjective + と考えられる; noun/na-adjective + だと考えられる. Source guide supports separating attribution, evidence and an author’s inference in report prose.",
+      "teachingChoice": "Keep a plausible familiarity explanation smaller than the fixed-order evidence. Neither formal wording nor this phrase guarantees certainty or objectivity; no universal subjective/objective contrast with 思われる is adopted."
+    }
+  ],
+  "sourceCautions": [
+    "Bunpro’s standalone とは page teaches surprise, not the selected definition, and is not used for that point.",
+    "The guessed Nihongobu page returned navigation only; no relevant formation sections were inspectable and it is not relied on.",
+    "A J-STAGE PDF could not be reliably opened; it is not represented as inspected evidence.",
+    "Twelve adult volunteers, ten complete pairs, 38/26-second medians and seven/eight correct answers are separate fictional quantities. No statistical test, population claim, causal isolation or completed follow-up is implied.",
+    "Long technical headwords are met as a reading vocabulary menu; dialogue is not padded to include every headword."
+  ],
+  "audioScope": "Three original thirteen-line scenes at 1.2, existing distinct Violetto cast deliveries; Clear vocabulary and practice audio. Seven new exact speech inputs pin full preflight mora sequences, without changing earlier audio.",
+  "checks": {
+    "wordPairs": 52,
+    "lessons": 3,
+    "notes": 4,
+    "sceneLines": 39,
+    "tasks": 20,
+    "readingLengths": [
+      1051,
+      1015
+    ],
+    "unitTests": 123,
+    "pythonTests": 24,
+    "audioValidators": 5,
+    "offlineVerifiedAt": "2026-10-07T07:41:56.829Z",
+    "precacheKiB": 12364.16
+  }
+}

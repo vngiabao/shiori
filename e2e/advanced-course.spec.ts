@@ -335,6 +335,15 @@ for (const unit of [
       ["Keep each speaker’s final position", "n1-u10-d-conclusion", "A possibility is not ruled out", "Fit the actual circumstances"],
     ],
   },
+  {
+    id: "n1-u11", reading: "An original class report: what was actually measured?",
+    secondReading: "Comments on the report: observation and interpretation",
+    lessons: [
+      ["A definition, a source and a method", "n1-u11-d-definition", "Read a term’s definition within its scope", "Identify the basis of the analysis"],
+      ["Results belong to the recorded cases", "n1-u11-d-results", "Identify the basis of the analysis", "Read a term’s definition within its scope"],
+      ["A careful abstract keeps its limits", "n1-u11-d-revision", "Keep an interpretation smaller than its evidence", "Identify the basis of the analysis"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -450,7 +459,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06" || unit.id === "n1-u07" || unit.id === "n1-u08" || unit.id === "n1-u09" || unit.id === "n1-u10") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02" || unit.id === "n1-u03" || unit.id === "n1-u04" || unit.id === "n1-u05" || unit.id === "n1-u06" || unit.id === "n1-u07" || unit.id === "n1-u08" || unit.id === "n1-u09" || unit.id === "n1-u10" || unit.id === "n1-u11") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();
