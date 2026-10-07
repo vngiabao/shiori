@@ -229,6 +229,14 @@ for (const unit of [
       ["The teacher is coming for tea", "n2-u14-d-tea", "Follow whose action receives regional respect", "Hear the regional copula in an ordinary chat"],
     ],
   },
+  {
+    id: "n2-u15", reading: "Misaki’s plan for the extra tickets",
+    secondReading: "A typo, a laugh and a later confirmation",
+    lessons: [
+      ["A chorus worth waking up for", "n2-u15-d-tickets", "Hear genuine enthusiasm and serious intent", "Read a laughter reaction in a typed exchange"],
+      ["One extra zero in the message", "n2-u15-d-message", "Read a laughter reaction in a typed exchange", "Hear genuine enthusiasm and serious intent"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -343,7 +351,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();

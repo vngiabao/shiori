@@ -14,6 +14,7 @@ import speakers from "../content/voices/dialogue-speakers.json";
 
 it("has a real WAV mapping for every shipped lesson and reaction URL", () => {
   const urls = lessonAudioUrls();
+  const availableUrls = new Set(urls);
   for (const url of urls) {
     const file = resolve("public", url.replace(/^\//, ""));
     expect(existsSync(file), url).toBe(true);
@@ -59,7 +60,7 @@ it("has a real WAV mapping for every shipped lesson and reaction URL", () => {
         expect(take.text).toBe(plain(l.line));
         expect(take.speaker).toBe(l.speaker);
         expect(take.index).toBe(index);
-        expect(urls).toContain(take.url);
+        expect(availableUrls.has(take.url), take.url).toBe(true);
       }),
     );
     for (const ex of pack.exercises ?? []) {
@@ -91,13 +92,13 @@ it("has a real WAV mapping for every shipped lesson and reaction URL", () => {
   expect(teacherLines).toHaveLength(100);
   expect(new Set(teacherLines.map((l) => l.text)).size).toBe(100);
   for (const line of teacherLines) {
-    expect(urls).toContain(line.url);
+    expect(availableUrls.has(line.url), line.url).toBe(true);
     expect(rubyIsWellFormed(line.ruby), line.id).toBe(true);
     expect(plain(line.ruby)).toBe(line.text);
     expect(kanaOf(line.ruby)).toBe(line.reading);
     expect(line.romaji && line.meaning).toBeTruthy();
   }
-});
+}, 30_000);
 
 it("ships a mapped audition for every configured character", () => {
   const provenance=JSON.parse(readFileSync("content/voices/cast-provenance.json","utf8"));

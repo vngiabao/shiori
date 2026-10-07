@@ -1,0 +1,112 @@
+{
+  "unit": "n2-u15",
+  "checkedAt": "2026-10-06",
+  "status": "Primary-source formation/context research, strict editorial/key review, content/source/audio/preservation/browser/build and production offline gates passed; native review pending.",
+  "method": "Read relevant authored teacher/publisher sections, YTV announcer column, and two direct dictionary-editor interviews. Sanseido 2017 definition was returned in search; full page/2026 archive fetch failed 502. No source dialogue or exercise copied.",
+  "points": [
+    {
+      "form": "gachi",
+      "sources": [
+        "https://oggi.jp/6011514",
+        "https://blog.podospeaking.com/%E3%82%AC%E3%83%81-%EB%9C%BB-%E3%83%9E%E3%82%B8%EC%99%80-%EB%AD%90%EA%B0%80-%EB%8B%A4%EB%A5%BC%EA%B9%8C/"
+      ],
+      "formation": "ガチで + action or evaluation; ガチ？ as a casual reaction. Not the tendency suffix 〜がち.",
+      "teachingChoice": "Serious ticket intent and enthusiasm; not tendency がち or objective proof."
+    },
+    {
+      "form": "yabai",
+      "sources": [
+        "https://maggiesensei.com/2010/01/03/%E3%82%BF%E3%83%A1%E5%8F%A3-tameguchi-%E3%83%A4%E3%83%90%E3%81%84yabai-slang/",
+        "https://mkchatinjapanese.com/2021/05/20/a-japanese-slang-zokugo-yabai-%E3%82%84%E3%81%B0%E3%81%84%EF%BC%81/"
+      ],
+      "formation": "やばい as an i-adjective; やばかった for past; やばすぎ for strong casual emphasis.",
+      "teachingChoice": "Admiration for singing contrasts with concern about sold-out tickets."
+    },
+    {
+      "form": "sugi",
+      "sources": [
+        "https://bunpro.jp/grammar_points/すぎる",
+        "https://maggiesensei.com/2018/03/02/how-to-use-%E3%81%99%E3%81%8E%E3%82%8B-sugiru/"
+      ],
+      "formation": "Verb masu stem / i-adjective without final い / na-adjective stem + すぎる; casual standalone すぎ. いい → よすぎ.",
+      "teachingChoice": "Retrieve ordinary stems and recognise clipped positive/negative reactions."
+    },
+    {
+      "form": "wanchan",
+      "sources": [
+        "https://www.ytv.co.jp/michiura_time/contents/202010/4qjmy4lreh2zlvwj.html",
+        "https://precious.jp/articles/-/39068"
+      ],
+      "formation": "ワンチャン + possible outcome; often followed by かも / かもしれない. Not a promise or a fixed probability.",
+      "teachingChoice": "An extra sale might succeed; later explicit purchases are separate evidence."
+    },
+    {
+      "form": "kusa",
+      "sources": [
+        "https://salon.mainichi-kotoba.jp/archives/79983",
+        "https://salon.mainichi-kotoba.jp/archives/154150",
+        "https://dictionary.sanseido-publ.co.jp/topic/shingo2017/2017/best10.html"
+      ],
+      "formation": "草 / 笑 / w as laughter cues in selected messages; 草 is read くさ. Literal 草 still means grass in other contexts.",
+      "teachingChoice": "A laughing response to a typo, with a separate literal garden example."
+    }
+  ],
+  "usageScope": "Dated recognition examples, not a 2026 popularity ranking or official N2 slang list. すぎる is earlier grammar applied in casual messages. No fixed probability for ワンチャン, age/gender rule or universal mocking force for 草.",
+  "senseHandling": {
+    "existingWord": "n4-vocab-05-w-0616",
+    "written": "草",
+    "reading": "くさ",
+    "choice": "Preserve earlier literal vegetation word/meaning. Teach the contextual laughter sense in a note, actual passage glosses and a contextual task credited to 文脈; do not duplicate or silently redefine the old word."
+  },
+  "audioScope": "One existing Violetto voice with cast moods and bounded controls. Text/query/decode/mapping checks cannot certify native slang intonation.",
+  "editorialReview": {
+    "newPairs": 44,
+    "remaining": "Whole N2 core review after unit 16 and independent native sentence/listening review."
+  },
+  "uninspected": [
+    "Domani ワンチャン page failed fetch; not relied on.",
+    "Sanseido full 2017/2026 pages failed 502; only returned 2017 search definition used as corroboration.",
+    "PCC2018 paper fetch failed; JSAI2019 PDF did not expose the selected 草 text and is not used.",
+    "Search-only YabaiDict/RAWJapan/KanaDojo and historical etymology claims not used."
+  ],
+  "queryCheck": {
+    "method": "Expected mora sequences checked in all selected new scene/note Clear queries; not a native listening or intonation certification.",
+    "checks": [
+      {
+        "form": "ガチ",
+        "expectedMoras": "ガチ",
+        "recordCount": 10
+      },
+      {
+        "form": "やばい",
+        "expectedMoras": "ヤバイ",
+        "recordCount": 7
+      },
+      {
+        "form": "ワンチャン",
+        "expectedMoras": "ワンチャン",
+        "recordCount": 7
+      },
+      {
+        "form": "よすぎ",
+        "expectedMoras": "ヨスギ",
+        "recordCount": 2
+      },
+      {
+        "form": "やばすぎ",
+        "expectedMoras": "ヤバスギ",
+        "recordCount": 1
+      },
+      {
+        "form": "百時",
+        "expectedMoras": "ヒャクジ",
+        "recordCount": 3
+      },
+      {
+        "form": "草",
+        "expectedMoras": "クサ",
+        "recordCount": 4
+      }
+    ]
+  }
+}
