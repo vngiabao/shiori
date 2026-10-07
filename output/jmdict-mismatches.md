@@ -1,13 +1,13 @@
 # JMdict reading audit
 
-Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-07T02:50:36.595849+00:00).
+Source: https://www.edrdg.org/pub/Nihongo/JMdict_e.gz (downloaded 2026-10-07T03:09:00.111450+00:00).
 
-Subset: 3214 → 3214 forms. Every one of 3462 course word records was examined.
-Results: 3220 matched; 0 mismatched; 81 unmatched.
+Subset: 3268 → 3268 forms. Every one of 3516 course word records was examined.
+Results: 3274 matched; 0 mismatched; 81 unmatched.
 
 Matched means only that a dictionary spelling/reading pair exists. Unmatched does not mean incorrect: inflected forms and phrases may be absent from JMdict. Drills and names are counted separately. Course wording and readings were unchanged; optional lemma metadata was added.
 
-Kanji-bearing course records directly matched: 2812. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
+Kanji-bearing course records directly matched: 2866. Additional course kanji stems supported through a matching lemma: 41. Stem evidence does not verify the full inflected form.
 
 ## Reading mismatches
 
