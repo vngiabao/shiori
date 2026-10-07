@@ -1344,6 +1344,97 @@
       "readingInput": "くもがきれ、たいよーがてりはじめました。",
       "expectedMoras": "クモガキレタイヨオガテリハジメマシタ",
       "reason": "Exact newly introduced long-o syllables in 東西 and 太陽; fresh query inspected. No global contraction across verb endings or particles; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "秤",
+      "readingInput": "ハカリ",
+      "expectedMoras": "ハカリ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "吐き気",
+      "readingInput": "ハキケ",
+      "expectedMoras": "ハキケ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "はきけ",
+      "readingInput": "ハキケ",
+      "expectedMoras": "ハキケ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "歯磨き",
+      "readingInput": "ハミガキ",
+      "expectedMoras": "ハミガキ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "はみがき",
+      "readingInput": "ハミガキ",
+      "expectedMoras": "ハミガキ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "母からもらったネックレスを、箱にしまいました。",
+      "readingInput": "ハハからもらったネックレスを、はこにしまいました。",
+      "expectedMoras": "ハハカラモラッタネックレスオハコニシマイマシタ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "糊で、封筒の口を閉じました。",
+      "readingInput": "のりで、ふーとーのくちをとじました。",
+      "expectedMoras": "ノリデフウトオノクチオトジマシタ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "時刻表で、九時発の列車を探しました。",
+      "readingInput": "じこくひょーで、くじはつのれっしゃをさがしました。",
+      "expectedMoras": "ジコクヒョオデクジハツノレッシャオサガシマシタ",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-09",
+      "text": "屋根のパネルで、太陽の光を使って発電しています。",
+      "readingInput": "やねのパネルで、たいよーのひかりをつかってはつでんしています。",
+      "expectedMoras": "ヤネノパネルデタイヨオノヒカリオツカッテハツデンシテイマス",
+      "reason": "Exact new lexical ha and long-o readings checked against authored kana and fresh full query sequences. No global changes to existing recordings; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-10",
+      "text": "並行",
+      "readingInput": "ヘイコー",
+      "expectedMoras": "ヘイコオ",
+      "reason": "New standalone 並行 must retain lexical h; 封筒 retains long o. Full fresh query sequences inspected; existing recordings unchanged."
+    },
+    {
+      "unit": "n2-vocab-10",
+      "text": "へいこう",
+      "readingInput": "ヘイコー",
+      "expectedMoras": "ヘイコオ",
+      "reason": "New standalone 並行 must retain lexical h; 封筒 retains long o. Full fresh query sequences inspected; existing recordings unchanged."
+    },
+    {
+      "unit": "n2-vocab-10",
+      "text": "手紙を、淡いピンクの封筒に入れました。",
+      "readingInput": "てがみを、あわいピンクのふーとーにいれました。",
+      "expectedMoras": "テガミオアワイピンクノフウトオニイレマシタ",
+      "reason": "New standalone 並行 must retain lexical h; 封筒 retains long o. Full fresh query sequences inspected; existing recordings unchanged."
+    },
+    {
+      "unit": "n2-vocab-11",
+      "text": "小説の王は、使者に手紙を届けるよう命じました。",
+      "readingInput": "しょうせつのオーは、ししゃにてがみをとどけるようめいじました。",
+      "expectedMoras": "ショオセツノオオワシシャニテガミオトドケルヨオメイジマシタ",
+      "reason": "Exact new example 王 is a long-o syllable rather than a separate final u. Full fresh sequence inspected; other word endings and older recordings unchanged."
     }
   ]
 }
