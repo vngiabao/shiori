@@ -254,6 +254,15 @@ for (const unit of [
       ["Keep the letter; revise the draft", "n1-u01-d-edit", "Not even one: a strong negative boundary", "A gesture described as almost doing something"],
     ],
   },
+  {
+    id: "n1-u02", reading: "Before the harsh label, read the two incidents",
+    secondReading: "Six for the exhibition; five for applications",
+    lessons: [
+      ["Read the act behind a strong judgement", "n1-u02-d-editorial", "A strong judgement against a role’s standard", "A new scale changes what is needed"],
+      ["A larger hall, a more troubling map", "n1-u02-d-hall", "A new scale changes what is needed", "A formal boundary, or a formal means"],
+      ["Two deadlines in one formal notice", "n1-u02-d-close", "A formal boundary, or a formal means", "A strong judgement against a role’s standard"],
+    ],
+  },
 ]) test(`${unit.id} lessons bind grammar and scenes, recordings decode, reading support and saved themes work`, async ({ page }) => {
   test.setTimeout(90000);
   await page.addInitScript(() => {
@@ -368,7 +377,7 @@ for (const unit of [
     await page.locator("h1").click();
     const suffix = readingTitle !== unit.reading ? "-second" : "";
     await page.screenshot({ path: `output/${unit.id}-reading${suffix}-${theme}-${width}.png`, fullPage: true });
-    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01") {
+    if (unit.id === "n2-u14" || unit.id === "n2-u15" || unit.id === "n2-u16" || unit.id === "n1-u01" || unit.id === "n1-u02") {
       await region.locator("h2").scrollIntoViewIfNeeded();
       const box = await region.boundingBox();
       expect(box).not.toBeNull();
