@@ -1,0 +1,471 @@
+{
+  "deck": "n1-vocab-23",
+  "communityLevel": "N1",
+  "officialJLPTList": false,
+  "source": {
+    "file": "n1.csv",
+    "url": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/1ad66734417aca9dbcca6b2d5ee440cb13ab3ba0/src/n1.csv",
+    "sha256": "120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd"
+  },
+  "origin": "Jonathan Waller / Tanos, via chyyran/jlpt-anki-decks",
+  "licence": "CC BY, version unspecified by origin",
+  "dictionarySha256": "96d749f97e845f98ac05cca9234d805e42059a56edff34a3349862cefe8176a7",
+  "sourceDraftSha256": "1fae2eb752d244ebed0385ca0134ea17b9f7b3cdbf766808ae8e989c37979640",
+  "exclusion": "Exact spelling/reading duplicates excluded. Shared JMdict entry candidates require explicit, pair- and course-ID-pinned editorial decisions; they do not prove equivalent taught senses.",
+  "aliasDecisions": [
+    {
+      "selected": {
+        "text": "摩る",
+        "kana": "さする"
+      },
+      "courseAliases": [
+        "n5-u08-w-suru"
+      ],
+      "reason": "Raw 摩する incorrectly pairs an extra す with さする. Restricted 摩るさする means gently rub or stroke; preserve the erroneous CSV bytes. Candidate entry overlap alone does not establish semantic equivalence; this original example teaches the explicitly selected sense."
+    },
+    {
+      "selected": {
+        "text": "よし",
+        "kana": "よし"
+      },
+      "courseAliases": [
+        "n1-vocab-21-w-2532",
+        "n3-vocab-10-w-1229"
+      ],
+      "reason": "Remove the interjection annotation and teach the all-right reaction. It is distinct from archaic adjective 良し and noun 由 despite ambiguous kana dictionary candidates. Candidate entry overlap alone does not establish semantic equivalence; this original example teaches the explicitly selected sense."
+    }
+  ],
+  "words": [
+    {
+      "id": "n1-vocab-23-w-0035",
+      "sourceRow": 35,
+      "original": {
+        "expression": "煌々と",
+        "reading": "こうこうと",
+        "meaning": "brightly",
+        "tags": "JLPT_1 JLPT",
+        "guid": "wYY;?*yl=I"
+      },
+      "selected": {
+        "text": "煌々",
+        "kana": "こうこう"
+      },
+      "dictionaryEntryIds": [
+        "1569020"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "煌々と",
+          "reading": "こうこうと"
+        },
+        "selected": {
+          "text": "煌々",
+          "kana": "こうこう"
+        },
+        "reason": "Remove adverbial と from the raw headword; teach restricted 煌々 with と in its original example."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0098",
+      "sourceRow": 98,
+      "original": {
+        "expression": "ございます (かん)",
+        "reading": "ございます (かん)",
+        "meaning": "to be (polite, to exist)",
+        "tags": "JLPT_1 JLPT",
+        "guid": "g2<)LlaRj="
+      },
+      "selected": {
+        "text": "ございます",
+        "kana": "ございます"
+      },
+      "dictionaryEntryIds": [
+        "1612690"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "ございます (かん)",
+          "reading": "ございます (かん)"
+        },
+        "selected": {
+          "text": "ございます",
+          "kana": "ございます"
+        },
+        "reason": "Remove the interjection annotation from both raw cells. Teach the dictionary-supported highly polite existential form in a receptionist context."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0132",
+      "sourceRow": 132,
+      "original": {
+        "expression": "ごらんなさい (かん)",
+        "reading": "ごらんなさい (かん)",
+        "meaning": "look, (please) try to do",
+        "tags": "JLPT_1 JLPT",
+        "guid": "N1BBvCZ=AZ"
+      },
+      "selected": {
+        "text": "ご覧なさい",
+        "kana": "ごらんなさい"
+      },
+      "dictionaryEntryIds": [
+        "1270770"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "ごらんなさい (かん)",
+          "reading": "ごらんなさい (かん)"
+        },
+        "selected": {
+          "text": "ご覧なさい",
+          "kana": "ごらんなさい"
+        },
+        "reason": "Remove the interjection annotation and use the supported spelling. The teacher directive is not labelled a universally deferential request."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0139",
+      "sourceRow": 139,
+      "original": {
+        "expression": "コンタクト (レンズ)",
+        "reading": "コンタクト (レンズ)",
+        "meaning": "contact; contact lens",
+        "tags": "JLPT_1 JLPT",
+        "guid": "DU{l0`Yee%"
+      },
+      "selected": {
+        "text": "コンタクト",
+        "kana": "コンタクト"
+      },
+      "dictionaryEntryIds": [
+        "1052410"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "コンタクト (レンズ)",
+          "reading": "コンタクト (レンズ)"
+        },
+        "selected": {
+          "text": "コンタクト",
+          "kana": "コンタクト"
+        },
+        "reason": "Remove the lens annotation from both raw cells; select the contact-lens sense and use an explicit glasses context."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0177",
+      "sourceRow": 177,
+      "original": {
+        "expression": "さきに (いぜん)",
+        "reading": "さきに (いぜん)",
+        "meaning": "before, earlier than, previously",
+        "tags": "JLPT_1 JLPT",
+        "guid": "uh`5:/)TWv"
+      },
+      "selected": {
+        "text": "先に",
+        "kana": "さきに"
+      },
+      "dictionaryEntryIds": [
+        "1387280",
+        "1387290"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "さきに (いぜん)",
+          "reading": "さきに (いぜん)"
+        },
+        "selected": {
+          "text": "先に",
+          "kana": "さきに"
+        },
+        "reason": "Remove the earlier-time annotation and select the restricted さきに reading, distinct from the separate せんに entry."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0189",
+      "sourceRow": 189,
+      "original": {
+        "expression": "摩する",
+        "reading": "さする",
+        "meaning": "to rub, to stroke",
+        "tags": "JLPT_1 JLPT",
+        "guid": "yQu&Wz5|+#"
+      },
+      "selected": {
+        "text": "摩る",
+        "kana": "さする"
+      },
+      "dictionaryEntryIds": [
+        "1523790",
+        "1595910"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "摩する",
+          "reading": "さする"
+        },
+        "selected": {
+          "text": "摩る",
+          "kana": "さする"
+        },
+        "reason": "Raw 摩する incorrectly pairs an extra す with さする. Restricted 摩るさする means gently rub or stroke; preserve the erroneous CSV bytes."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0190",
+      "sourceRow": 190,
+      "original": {
+        "expression": "さぞ (さぞや。さぞかし)",
+        "reading": "さぞ (さぞや。さぞかし)",
+        "meaning": "I am sure, certainly, no doubt",
+        "tags": "JLPT_1 JLPT",
+        "guid": "FE`C@V&t[f"
+      },
+      "selected": {
+        "text": "さぞ",
+        "kana": "さぞ"
+      },
+      "dictionaryEntryIds": [
+        "1565620"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "さぞ (さぞや。さぞかし)",
+          "reading": "さぞ (さぞや。さぞかし)"
+        },
+        "selected": {
+          "text": "さぞ",
+          "kana": "さぞ"
+        },
+        "reason": "Remove the alternative-expression annotation. Teach the supported inference adverb in an explicit overnight-work context."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0335",
+      "sourceRow": 335,
+      "original": {
+        "expression": "とげ (をさす)",
+        "reading": "とげ (をさす)",
+        "meaning": "thorn",
+        "tags": "JLPT_1 JLPT",
+        "guid": "hJ#iZ92?#q"
+      },
+      "selected": {
+        "text": "とげ",
+        "kana": "とげ"
+      },
+      "dictionaryEntryIds": [
+        "1598710"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "とげ (をさす)",
+          "reading": "とげ (をさす)"
+        },
+        "selected": {
+          "text": "とげ",
+          "kana": "とげ"
+        },
+        "reason": "Remove the example をさす from both raw cells. Teach the literal thorn/splinter sense with an actual splinter in a finger."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0393",
+      "sourceRow": 393,
+      "original": {
+        "expression": "副",
+        "reading": "とりわけ",
+        "meaning": "especially, above all",
+        "tags": "JLPT_1 JLPT",
+        "guid": "I|~T6euZ&R"
+      },
+      "selected": {
+        "text": "取り分け",
+        "kana": "とりわけ"
+      },
+      "dictionaryEntryIds": [
+        "1599150"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "副",
+          "reading": "とりわけ"
+        },
+        "selected": {
+          "text": "取り分け",
+          "kana": "とりわけ"
+        },
+        "reason": "Raw 副 is a misplaced part-of-speech annotation, not the written form of とりわけ. Correct explicitly to restricted 取り分け."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0670",
+      "sourceRow": 670,
+      "original": {
+        "expression": "おおい (かん)",
+        "reading": "おおい (かん)",
+        "meaning": "hey",
+        "tags": "JLPT_1 JLPT",
+        "guid": "oI,HaDOI/S"
+      },
+      "selected": {
+        "text": "おーい",
+        "kana": "おーい"
+      },
+      "dictionaryEntryIds": [
+        "2853873"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "おおい (かん)",
+          "reading": "おおい (かん)"
+        },
+        "selected": {
+          "text": "おーい",
+          "kana": "おーい"
+        },
+        "reason": "Raw おおい includes a parenthetical interjection tag. Use the dictionary-listed calling variant おーい and a distant-friend example, distinct from adjective 多い."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0678",
+      "sourceRow": 678,
+      "original": {
+        "expression": "おおまかな",
+        "reading": "おおまかな",
+        "meaning": "rough, approximate",
+        "tags": "JLPT_1 JLPT",
+        "guid": "h|xK)[LK#`"
+      },
+      "selected": {
+        "text": "大まか",
+        "kana": "おおまか"
+      },
+      "dictionaryEntryIds": [
+        "1412980"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "おおまかな",
+          "reading": "おおまかな"
+        },
+        "selected": {
+          "text": "大まか",
+          "kana": "おおまか"
+        },
+        "reason": "Remove adjectival attachment な from raw おおまかな and select dictionary 大まか. The example retains 大まかな as a natural noun modifier."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-0799",
+      "sourceRow": 799,
+      "original": {
+        "expression": "かく (はじを)",
+        "reading": "かく (はじを)",
+        "meaning": "to humiliate oneself",
+        "tags": "JLPT_1 JLPT",
+        "guid": "h*j3Yxxcj{"
+      },
+      "selected": {
+        "text": "恥をかく",
+        "kana": "はじをかく"
+      },
+      "dictionaryEntryIds": [
+        "2088800"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "かく (はじを)",
+          "reading": "かく (はじを)"
+        },
+        "selected": {
+          "text": "恥をかく",
+          "kana": "はじをかく"
+        },
+        "reason": "Raw かく with parenthetical はじを specifies an idiom. Teach the independently supported full chunk 恥をかく rather than assigning its sense to unrelated homonyms かく."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-2531",
+      "sourceRow": 2531,
+      "original": {
+        "expression": "よし (かん)",
+        "reading": "よし (かん)",
+        "meaning": "all right!",
+        "tags": "JLPT_1 JLPT",
+        "guid": "u5UVAmt|+p"
+      },
+      "selected": {
+        "text": "よし",
+        "kana": "よし"
+      },
+      "dictionaryEntryIds": [
+        "1152820",
+        "1394280",
+        "1541760",
+        "2231090",
+        "2607690",
+        "2607700"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "よし (かん)",
+          "reading": "よし (かん)"
+        },
+        "selected": {
+          "text": "よし",
+          "kana": "よし"
+        },
+        "reason": "Remove the interjection annotation and teach the all-right reaction. It is distinct from archaic adjective 良し and noun 由 despite ambiguous kana dictionary candidates."
+      }
+    },
+    {
+      "id": "n1-vocab-23-w-2536",
+      "sourceRow": 2536,
+      "original": {
+        "expression": "よって (よりどころ)",
+        "reading": "よって (よりどころ)",
+        "meaning": "therefore, consequently",
+        "tags": "JLPT_1 JLPT",
+        "guid": "Jty=:!ShWn"
+      },
+      "selected": {
+        "text": "よって",
+        "kana": "よって"
+      },
+      "dictionaryEntryIds": [
+        "1605970"
+      ],
+      "exampleStatus": "Original AI-assisted draft; not dictionary-verified naturalness",
+      "sourceCorrection": {
+        "original": {
+          "expression": "よって (よりどころ)",
+          "reading": "よって (よりどころ)"
+        },
+        "selected": {
+          "text": "よって",
+          "kana": "よって"
+        },
+        "reason": "Remove the parenthetical annotation and select the dictionary conjunction therefore. A report conclusion explicitly supplies its formal consequence sense."
+      }
+    }
+  ],
+  "tailBatch": {
+    "count": 14,
+    "reason": "Final reviewed correction batch supplies fourteen previously uninstalled supported forms/chunks from annotated or misspelled pinned N1 source cells. Already taught corrections link existing IDs; compositional gaps remain explicit. No duplicate or filler entries are added to reach one hundred."
+  }
+}

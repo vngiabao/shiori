@@ -54,5 +54,13 @@
   "n2-vocab-14": {
     "count": 18,
     "reason": "Eighteen actual remaining headword/corrected-context targets after the ordered N2 bank, including combined maple reading and annotated nouns. No repeated words or generated padding to reach one hundred. Attached patterns and compositional source phrases remain separate dispositions."
+  },
+  "n1-vocab-22": {
+    "count": 74,
+    "reason": "The final sequential eligible N1 source segment (raw rows 2611–2700) contains 74 untaught, restricted-JMdict-matched pairs after excluding aliases, compound source cells and entries reserved by earlier drafts. Do not pad this reviewed tail with duplicates."
+  },
+  "n1-vocab-23": {
+    "count": 14,
+    "reason": "Final reviewed correction batch supplies fourteen previously uninstalled supported forms/chunks from annotated or misspelled pinned N1 source cells. Already taught corrections link existing IDs; compositional gaps remain explicit. No duplicate or filler entries are added to reach one hundred."
   }
 }

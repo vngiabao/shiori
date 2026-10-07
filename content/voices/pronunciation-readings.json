@@ -1827,6 +1827,104 @@
       "readingInput": "しょうせつのじんぶつは、「おなじがっこうのれんちゅう」と話します。",
       "expectedMoras": "ショオセツノジンブツワオナジガッコオノレンチュウトハナシマス",
       "reason": "Fresh query misread lexical 箱/話 as particles. Exact new input and complete mora sequence inspected; historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-17",
+      "text": "小説の商人は、「不景気だ」と話します。",
+      "readingInput": "しょうせつのしょうにんは、「ふけいきだ」と話します。",
+      "expectedMoras": "ショオセツノショオニンワフケイキダトハナシマス",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-17",
+      "text": "小説では、武力に頼らず交渉します。",
+      "readingInput": "しょうせつでは、武力にたよらずこうしょうします。",
+      "expectedMoras": "ショオセツデワブリョクニタヨラズコオショオシマス",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-17",
+      "text": "小説の人物は、不公平な扱いに憤慨します。",
+      "readingInput": "しょうせつのじんぶつは、フコーヘイなあつかいにふんがいします。",
+      "expectedMoras": "ショオセツノジンブツワフコオヘイナアツカイニフンガイシマス",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-18",
+      "text": "閉口",
+      "readingInput": "ヘイコウ",
+      "expectedMoras": "ヘイコオ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-18",
+      "text": "並列",
+      "readingInput": "並列",
+      "expectedMoras": "ヘエレツ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-18",
+      "text": "へいれつ",
+      "readingInput": "並列",
+      "expectedMoras": "ヘエレツ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-18",
+      "text": "小説の人物は、へりくだった態度で話します。",
+      "readingInput": "しょうせつのじんぶつは、へりくだったたいどで話します。",
+      "expectedMoras": "ショオセツノジンブツワヘリクダッタタイドデハナシマス",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-21",
+      "text": "果てる",
+      "readingInput": "ハテル",
+      "expectedMoras": "ハテル",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-21",
+      "text": "はてる",
+      "readingInput": "ハテル",
+      "expectedMoras": "ハテル",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-21",
+      "text": "箱の体積を、立方センチメートルで表しました。",
+      "readingInput": "箱のたいせきを、りっぽうセンチメートルであらわしました。",
+      "expectedMoras": "ハコノタイセキオリッポオセンチメエトルデアラワシマシタ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-22",
+      "text": "早める",
+      "readingInput": "ハヤメル",
+      "expectedMoras": "ハヤメル",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-22",
+      "text": "はやめる",
+      "readingInput": "ハヤメル",
+      "expectedMoras": "ハヤメル",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-22",
+      "text": "美",
+      "readingInput": "ビ",
+      "expectedMoras": "ビ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
+    },
+    {
+      "unit": "n1-vocab-22",
+      "text": "出発を、一時間早めました。",
+      "readingInput": "しゅっぱつを、いちじかんハヤメました。",
+      "expectedMoras": "シュッパツオイチジカンハヤメマシタ",
+      "reason": "Exact new vocabulary query corrected lexical syllables or homograph reading; complete mora sequence inspected before rendering. Historical recordings preserved."
     }
   ]
 }

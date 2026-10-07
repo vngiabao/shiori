@@ -1,7 +1,8 @@
 {
   "scope": "Reviewed source accounting only. Attached forms and excluded compositional sentences are not independently taught or tested targets. Raw source bytes are unchanged. Dictionary candidate overlap is not semantic proof.",
   "patternPolicies": {
-    "n2": "Reviewed raw tilde-marked prefixes, suffixes, counters and grammar frames require a host or context and are not standalone headwords. This disposition accounts for the source notation only: it does not claim that every productive pattern, reading or combination has been taught, tested or mastered. Literal nouns hidden by parenthetical examples, including mould and wrinkles, receive explicit corrections and separate contextual teaching instead."
+    "n2": "Reviewed raw tilde-marked prefixes, suffixes, counters and grammar frames require a host or context and are not standalone headwords. This disposition accounts for the source notation only: it does not claim that every productive pattern, reading or combination has been taught, tested or mastered. Literal nouns hidden by parenthetical examples, including mould and wrinkles, receive explicit corrections and separate contextual teaching instead.",
+    "n1": "Reviewed raw tilde-marked affixes and parenthetical host frames are attached patterns rather than standalone dictionary headwords. They are explicitly accounted for without certifying separate teaching, exact recognition or mastery. Literal annotated nouns and supported fixed chunks receive pair-pinned corrections instead; raw source bytes remain unchanged."
   },
   "excluded": {
     "n2:199": {
@@ -43,6 +44,22 @@
       },
       "dictionaryStatus": "unmatched",
       "reason": "Context-dependent reaction それはいけませんね is a complete sentence, not a unique lexical headword. It can express concern or disapproval depending on context; do not assign a single decontextualized meaning or count it as separately taught vocabulary."
+    },
+    "n1:200": {
+      "original": {
+        "expression": "さっぱりする",
+        "reading": "さっぱりする"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "The source さっぱりする is the compositional suru construction of supported さっぱり, whose refreshed sense is dictionary-listed. Its exact inflected construction is not separately tested here; do not count a base-form relation as independent source-target mastery."
+    },
+    "n1:1655": {
+      "original": {
+        "expression": "だと",
+        "reading": "だと"
+      },
+      "dictionaryStatus": "unmatched",
+      "reason": "The source だと is a compositional copula-plus-conditional quotation frame, not an independently supported lexical headword. This accounting does not declare the Japanese erroneous or certify every contextual conditional/quotation use."
     }
   }
 }

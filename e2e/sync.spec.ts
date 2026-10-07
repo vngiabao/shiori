@@ -3,6 +3,7 @@ import AxeBuilder from "@axe-core/playwright";
 test("mocked cloud consent, text opt-in and account controls preserve the settings design", async ({
   page,
 }) => {
+  test.skip(!!process.env.APP_URL && new URL(process.env.APP_URL).port !== "5174", "This auth-module fixture runs on the dev server; production Google-only UI is checked without fake credentials.");
   await page.route("**/src/auth.ts*", async (route) =>
     route.fulfill({
       contentType: "application/javascript",

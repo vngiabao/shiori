@@ -1,0 +1,45 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "shiori-audio-a",
+  "compatibility_date": "2026-10-05",
+  "assets": {
+    "directory": "./output/cloudflare-assets/audio-a"
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-0*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-1*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-2*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-3*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-4*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-5*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-6*",
+      "zone_name": "gbaonvo.com"
+    },
+    {
+      "pattern": "shiori.gbaonvo.com/audio/vv2-7*",
+      "zone_name": "gbaonvo.com"
+    }
+  ],
+  "account_id": "c171df5a2c42c7c28825bc0d2e64698b"
+}

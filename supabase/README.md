@@ -12,8 +12,7 @@ Kiyo uses the separate `kiyo_` equivalents. Auth identities and project quotas a
 shared; learning records, revisions, deletion markers and browser storage are not.
 Deleting a Supabase Auth user deletes that user's data in BOTH apps. Each app's
 cloud-data deletion button deletes only its own records. Keep backup exports.
-Both private sites remain behind Cloudflare Access. Repository visibility has no
-effect on sync.
+Shiori's extra Access gate is scheduled for removal at the authorized final deployment; its guest study pages will then be public, while sync stays owner-only. Kiyo is unchanged. Repository visibility has no effect on sync.
 
 Allowed Auth redirects: `https://shiori.gbaonvo.com/` and
 `https://kiyo.gbaonvo.com/`. Site URL defaults to Shiori; each app sends its own
@@ -26,7 +25,11 @@ setup is saved and Google is enabled in Supabase. Google Cloud client `Kiyo & Sh
 set `VITE_AUTH_PROVIDERS=google`, `VITE_AUTH_MODE=google-only` in both builds.
 Only the publishable key belongs in VITE variables, never a secret/service-role key.
 
-## Before connecting any live service
+## Additive saved-line update — 7 October 2026
+
+Applied migrations/202610050002_saved_line_unit.sql to the shared hosted project through its SQL editor. Only Shiori's learning_payload_keys constraint changed: `lines` now permits optional `unit`; all other allowed fields remain the same. The transaction committed and the post-check returned true for constraint validation, optional-unit allowance, RLS enabled and RLS forced. Existing records were validated, not rewritten or deleted. Kiyo tables, owner-only policies and Auth configuration were unchanged. This is schema validation, not the owner's two-device browser acceptance test.
+
+## Historical standalone setup instructions
 
 1. Start a local Supabase stack using the Supabase CLI and Docker.
 2. Apply `migrations/202610050001_learning_sync.sql` to that LOCAL database as

@@ -1,6 +1,7 @@
 node_modules/
 dist/
 test-results/
+test-results-*/
 playwright-report/
 .models/
 .audio-env/
@@ -28,3 +29,5 @@ output/*
 !output/sync-design-check.md
 *.tsbuildinfo
 .impeccable/review/**/*.png
+!output/course-continuity.md
+!output/release-report.md

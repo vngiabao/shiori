@@ -3,7 +3,7 @@
   "name": "shiori",
   "compatibility_date": "2026-10-05",
   "assets": {
-    "directory": "./dist"
+    "directory": "./output/cloudflare-assets/main"
   },
   "workers_dev": false,
   "preview_urls": false,
@@ -12,5 +12,6 @@
       "pattern": "shiori.gbaonvo.com",
       "custom_domain": true
     }
-  ]
+  ],
+  "account_id": "c171df5a2c42c7c28825bc0d2e64698b"
 }

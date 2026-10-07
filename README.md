@@ -3,7 +3,7 @@
 A personal, reading-led Japanese learning app. **Shiori (栞, bookmark) is the working brand**, with Koto and Shio as alternate names. Violetto is the confirmed companion name. The predominantly blue letter world with soft white paper, muted violet and ribbon-red details carries a 16-pose transparent character atlas and scalable SVG interface marks.
 
 
-Current local expansion checkpoint: all twelve N5, twelve N4, sixteen N3, sixteen N2, twelve N1 core units and twelve workplace-keigo scenarios, plus twenty-two vocabulary decks: 103 packs / 345 lessons / 4,192 entries including 157 drills. N5/N4/N3 have ninety written practice items each; N2/N1 still have twelve seeds each. Remaining advanced decks/banks are unfinished. All content remains an AI-assisted draft awaiting native review. Existing recordings, design, auth and progress are preserved. Backup branch course-build is separate from production, which has not received this expansion. See output/course-progress.md.
+Current expansion: all twelve N5, twelve N4, sixteen N3, sixteen N2 and twelve N1 core units, plus twelve workplace-keigo scenarios and seventy-three vocabulary decks. There are **154 packs, 963 lessons, 8,777 word/phrase/name records (157 additional sound drills), 96 genre readings, 167 scenes and 2,013 kanji reference pages**. All five levels have ninety original written JLPT practice items. These records include inflected forms and chunks: they are not 8,777 independently mastered dictionary words. All content remains an AI-assisted draft awaiting native review. The full expansion is undergoing final checks; production has not yet received it. See output/course-progress.md.
 
 Welcome now presents Violetto's playable greeting beside the Shiori logo, Google sign-in and guest entry directly. Owner-only sync and device-history consent are preserved. The hosted Cloudflare Access gate remains until the authorized final full-course deployment; local welcome changes do not bypass it.
 
@@ -38,7 +38,7 @@ The current visual system follows the latest blue-led preference: Prussian blue 
 - Course library, real-world study journal, local progress and backup/restore.
 - A source-led N5–N1 JLPT study room with sequential milestones, original draft checkpoints and short timed samples.
 
-This is a tested study app, **not a complete JLPT course**. Current local counts are above and in `output/content-inventory.json`; the original 21-lesson seed has been expanded. Higher-level roadmap steps still describe future work. Neither self-recordings nor finishing lessons certifies fluency. Read [the detailed audit](AUDIT.md) and [teaching principles](PEDAGOGY.md).
+This is a substantial draft study course, **not a proficiency guarantee or a calibrated full JLPT preparation programme**. Current counts are above and in `output/content-inventory.json`; community source coverage and original practice have separate ledgers. Native review and broad real-world listening remain necessary. Neither self-recordings nor finishing lessons certifies fluency. Read [the detailed audit](AUDIT.md) and [teaching principles](PEDAGOGY.md).
 
 ## JLPT study room
 
@@ -46,7 +46,7 @@ Open `/#jlpt/N5` or choose JLPT in navigation. Each level, N5 through N1, has si
 
 The resource desk links Nihongo Sō-matome for N5–N1, Shin Kanzen Master for N4–N1, and official JLPT samples and practice workbooks. Study your own edition or the linked materials and record the unit/pages, minutes and reflection. Publisher lessons, questions and audio are not copied into the app, and assignments are Shiori's organisation rather than a textbook chapter mapping.
 
-The app contains **294 original AI-assisted draft questions**. N5, N4 and N3 each have sixty checkpoint items and thirty distinct sample items; N2/N1 retain twelve seed questions each. Each run still uses a two-question checkpoint or six-question timed sample (8, 9, 10, 12 and 14 minutes for N5 through N1). These short samples cover vocabulary, grammar and reading; listening uses external sources. Raw results and answer explanations do not predict an official JLPT score. Content has not received human language review, and level assignments are editorial estimates.
+The app contains **450 original AI-assisted draft written questions**, ninety per level (sixty checkpoint and thirty sample items). Runs use two-question checkpoints or six-question timed samples (8, 9, 10, 12 and 14 minutes for N5 through N1). These short samples cover vocabulary, grammar and reading; listening uses external sources. Raw results do not predict an official JLPT score. No full-length calibrated mock exam or human language review is claimed.
 
 Source study plus checkpoint completion unlocks the next milestone. Selection prefers unseen, then least-seen items in saved history; repetitions are disclosed. Sample selection stays balanced across three written sections. Completing a cycle does not require answering the entire bank; use unfamiliar external material to assess transfer. Answers and the sample's absolute deadline persist, so refreshing does not restart the timer. Settings backups include JLPT records, and older backups with the original item IDs remain accepted. The stable `shiori-japanese-v1` database adds JLPT tables in Dexie schema version 3; this is separate from the unchanged backup format version 1.
 
@@ -159,8 +159,8 @@ in `tests/reading-path.test.ts`; run `npm test` as well as the regular content g
 
 The hosted app uses the shared Supabase project with Google-only owner sign-in.
 Setup and isolation checks are documented in `supabase/README.md`. The additive
-saved-line unit-tag migration is still local and must be verified before the
-course expansion deploy. With no env
+saved-line unit-tag migration was applied on 7 October 2026; its constraint and
+enabled/forced row-level security were verified. With no env
 configuration, no cloud client is started. Personal text is excluded unless
 separately enabled. Dexie v6 preserves the existing v5 reading/text stores.
 
@@ -170,7 +170,7 @@ JMdict audit counts now exclude 157 kana drill records and list four names
 separately. Optional lemma metadata never certifies a complete inflected phrase.
 `lemmaStatus` checks the base spelling/reading; `lemmaReadingRelationship` only
 records a mechanically matching kanji-bearing stem where it can be established.
-The course's 800 distinct kanji have KANJIDIC2-backed references and KanjiVG
+The course's 2,013 kanji reference pages have KANJIDIC2-backed references and KanjiVG
 stroke data. New reference entries are in `content/kanji/n5.json`; the existing
 Read → Kanji surface loads them without a design change. Refresh with
 `python scripts/fetch-sources.py --kanji-only --cached`. Source hashes/revisions live in
@@ -178,7 +178,11 @@ content/sources provenance files and each stroke file. New components are left
 empty rather than inventing etymology. Historical JLPT fields are not used.
 
 
-## N3 editorial correction, 6 October 2026
+## Historical build notes
+
+The dated checkpoints below describe earlier stages, not the current inventory. The current summary and output/course-progress.md take precedence.
+
+### N3 editorial correction, 6 October 2026
 
 All thirty-two N3 scenes were reread after the user found stiff vocabulary padding. Units 12–13 now use ordinary peer contractions and a playful character guessing game; 125 Japanese lines across the core were revised, with linked tasks and natural English translations. Passing checks had not established naturalness. Per-unit recycling exceptions have explicit editorial reasons and still require actual referenced forms. Details and verification are in output/review-n3.md; exact remaining work is in output/course-progress.md. All earlier Clear audio, unchanged dialogue takes and replaced-take history are preserved; all 254 new WAVs mapped. Native review pending. Finish N2/N1/workplace-keigo core before remaining decks; production waits for the full expansion.
 

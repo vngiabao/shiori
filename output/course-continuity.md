@@ -1,0 +1,297 @@
+# Course continuity and teaching order — 7 October 2026
+
+Every note has a valid teaching scope. PhraseLesson presents bound notes that carry a formation rule before scenes and scored exercises; legacy seed notes without formation are reference-only. Source-pack validation checks future word references and paired-reading order. This ledger records the earliest explicit teaching and first task within that scope; it does not certify that every incidental construction was previously taught. Per-level editorial reviews supply the separate naturalness/story assessment.
+
+Core story follows the university/café work/internship/job hunting/first job/working-life order recorded in the level reviews. N2 interview outcomes remain pending until N1 explicitly supplies an offer. Literature and period-drama extracts are separate framed readings, not changes to the learner timeline. Workplace keigo is a separate scenario track; its reception bridge has a documented recycling exception instead of forced literary vocabulary. The recurring cast remains Violetto’s one voice with speaker deliveries; no voice-actor match or multiple natural-speaker claim.
+
+The ledger below is the earliest explicit teaching binding and first task in that scope. It is not a semantic detector of earlier incidental grammar in all prose. Native review of naturalness, nuance and difficulty remains outstanding.
+
+- topic — は sets the topic; が points to the subject: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- request — A small request: をお願いします: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- permission — May I? 〜てもいいですか: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- register — Words change with the relationship: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- vowels — Give each beat its time: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- pitch — Pitch is a pattern, not stress: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u01-g-desu-ka — X は Y です / ですか: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u01-g-nan-ji — 何時ですか: telling the time: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u02-g-kosoa — これ・それ・あれ and この・その・あの: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u02-g-prices — Prices: 百 and 千: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u03-g-particles — に, で and を with ます verbs: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u03-g-masenka — ませんか: inviting: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u04-g-aru-iru — あります and います: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u04-g-mashita — Past: ました and でした: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u05-g-adjectives — い adjectives and な adjectives: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u05-g-past-adj — Past adjectives: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u06-g-te-kudasai — て-form + ください: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u06-g-te-mo-ii — てもいいですか and てはいけません: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u07-g-teiru — ています: ongoing states: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u07-g-uchi-soto — My family, your family: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u08-g-plain — Plain forms: how friends talk: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u08-g-omou — と思う and ないで: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u09-g-plain-past — Plain past: た: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u09-g-kara — から (because) and もう / まだ: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u10-g-compare — より and のほうが: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u10-g-tsumori — つもり, で (means) and かかります: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u11-g-tai — たい: wanting to do: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u11-g-tari-koto — たり〜たりする and ことがある: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u12-g-n-desu — んです: explaining: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n5-u12-g-advice — ほうがいい, ので and なければいけない: first taught reference-only seed note; no formation step; first bound task none (reference note).
+- n4-u01-g-can — Abilities and frequency: first taught n4-u01-lesson; first bound task n4-u01-x-availability.
+- n4-u01-g-reasons — Reasons and first impressions: first taught n4-u01-lesson; first bound task n4-u01-x-availability.
+- n4-u01-g-try — Try it; explain the relevant case: first taught n4-u01-lesson; first bound task n4-u01-x-availability.
+- n4-u02-g-gifts — Follow the giver and receiver: first taught n4-u02-lesson; first bound task n4-u02-x-budget.
+- n4-u02-g-suggest — Wanting, guessing and suggesting: first taught n4-u02-lesson; first bound task n4-u02-x-budget.
+- n4-u02-g-budget — Only this much; as much as that: first taught n4-u02-lesson; first bound task n4-u02-x-budget.
+- n4-u03-g-intend — Let's decide; here's my intention: first taught n4-u03-lesson; first bound task n4-u03-x-duration.
+- n4-u03-g-prepare — Prepare something for later: first taught n4-u03-lesson; first bound task n4-u03-x-duration.
+- n4-u03-g-modify — A clause can describe a noun: first taught n4-u03-lesson; first bound task n4-u03-x-duration.
+- n4-u04-g-help — Who did the favour?: first taught n4-u04-lesson; first bound task n4-u04-x-interview.
+- n4-u04-g-request — Ask gently; apologise specifically: first taught n4-u04-lesson; first bound task n4-u04-x-interview.
+- n4-u04-g-time — When it happens; what you hope: first taught n4-u04-lesson; first bound task n4-u04-x-interview.
+- n4-u05-g-report — A report has a source: first taught n4-u05-lesson; first bound task n4-u05-x-source.
+- n4-u05-g-if — Conditions and inferred impressions: first taught n4-u05-lesson; first bound task n4-u05-x-source.
+- n4-u05-g-sequence — Before this; after that: first taught n4-u05-lesson; first bound task n4-u05-x-source.
+- n4-u06-g-state — An action and its resulting state: first taught n4-u06-lesson; first bound task n4-u06-x-light.
+- n4-u06-g-finish — It happened; I regret it: first taught n4-u06-lesson; first bound task n4-u06-x-light.
+- n4-u06-g-circumstance — Usual results, simultaneous actions and regret: first taught n4-u06-lesson; first bound task n4-u06-x-light.
+- n4-u07-g-respect — Respect the person doing the action: first taught n4-u07-lesson; first bound task n4-u07-x-return.
+- n4-u07-g-pattern — A respectful action or request: first taught n4-u07-lesson; first bound task n4-u07-x-return.
+- n4-u07-g-thanks — Thank someone; evaluate an outcome; explain an expectation: first taught n4-u07-lesson; first bound task n4-u07-x-return.
+- n4-u08-g-modest — Modest language for your own side: first taught n4-u08-lesson; first bound task n4-u08-x-identity.
+- n4-u08-g-question — Put a question inside a sentence; name something: first taught n4-u08-lesson; first bound task n4-u08-x-identity.
+- n4-u08-g-ease — Easy to do, hard to do, without doing: first taught n4-u08-lesson; first bound task n4-u08-x-identity.
+- n4-u09-g-passive — An event from the affected person's viewpoint: first taught n4-u09-lesson; first bound task n4-u09-x-room.
+- n4-u09-g-prepared — A deliberately prepared state; an event during an interval: first taught n4-u09-lesson; first bound task n4-u09-x-room.
+- n4-u09-g-wish — What I want someone to do; recognize casual shortening: first taught n4-u09-lesson; first bound task n4-u09-x-room.
+- n4-u10-g-causative — Make or let someone act; ask to be allowed: first taught n4-u10-lesson; first bound task n4-u10-x-permission.
+- n4-u10-g-condition — Conditions, unexpected contrast and firm instructions: first taught n4-u10-lesson; first bound task n4-u10-x-permission.
+- n4-u10-g-model — Like a model: のように and のような: first taught n4-u10-lesson; first bound task n4-u10-x-permission.
+- n4-u11-g-made — Being made to do something: first taught n4-u11-lesson; first bound task n4-u11-x-kenta.
+- n4-u11-g-decision — Make a decision; keep a rule; continue until: first taught n4-u11-lesson; first bound task n4-u11-x-kenta.
+- n4-u11-g-even — Even if; how to do something: first taught n4-u11-lesson; first bound task n4-u11-x-kenta.
+- n4-u12-g-request — Choose the actor in a professional request: first taught n4-u12-lesson; first bound task n4-u12-x-report.
+- n4-u12-g-deadline — Confirm deadlines and prepared documents: first taught n4-u12-lesson; first bound task n4-u12-x-report.
+- n4-u12-g-evidence — Separate a decision, a condition and an actual outcome: first taught n4-u12-lesson; first bound task n4-u12-x-report.
+- n3-u01-g-change — An ability or routine has changed: first taught n3-u01-lesson-1; first bound task n3-u01-x-change.
+- n3-u01-g-habit — Make a conscious effort: first taught n3-u01-lesson-1; first bound task n3-u01-x-change.
+- n3-u01-g-result — Act so that a result becomes possible: first taught n3-u01-lesson-2; first bound task n3-u01-x-screen.
+- n3-u01-g-purpose — A deliberate goal: ために versus ように: first taught n3-u01-lesson-2; first bound task n3-u01-x-screen.
+- n3-u02-g-stage — Locate an action in three stages: first taught n3-u02-lesson-1; first bound task n3-u02-x-stage.
+- n3-u02-g-recent — Recency from the speaker’s viewpoint: first taught n3-u02-lesson-1; first bound task n3-u02-x-stage.
+- n3-u02-g-window — Act before a useful state changes: first taught n3-u02-lesson-2; first bound task n3-u02-x-tea.
+- n3-u02-g-develop — A change emerges during an activity: first taught n3-u02-lesson-2; first bound task n3-u02-x-tea.
+- n3-u03-g-appearance — An impression from what you notice: first taught n3-u03-lesson-1; first bound task n3-u03-x-preview.
+- n3-u03-g-report — State what was reported, and by whom: first taught n3-u03-lesson-1; first bound task n3-u03-x-preview.
+- n3-u03-g-inference — Explain an inference from clues: first taught n3-u03-lesson-1; first bound task n3-u03-x-preview.
+- n3-u03-g-mitai — A conversational likeness or inference: first taught n3-u03-lesson-2; first bound task n3-u03-x-role.
+- n3-u03-g-ppoi — A perceived trait, not an identity: first taught n3-u03-lesson-2; first bound task n3-u03-x-role.
+- n3-u04-g-hazu — An expectation with grounds: first taught n3-u04-lesson-1; first bound task n3-u04-x-old-note.
+- n3-u04-g-conviction — Read a conviction without treating it as proof: first taught n3-u04-lesson-1; first bound task n3-u04-x-old-note.
+- n3-u04-g-wake — A fact now has an explanation: first taught n3-u04-lesson-2; first bound task n3-u04-x-reason.
+- n3-u04-g-beki — Recommend a responsible action: first taught n3-u04-lesson-2; first bound task n3-u04-x-reason.
+- n3-u05-g-topic — Name the topic of a discussion: first taught n3-u05-lesson-1; first bound task n3-u05-x-bao.
+- n3-u05-g-target — A response has a target; a contrast has two sides: first taught n3-u05-lesson-1; first bound task n3-u05-x-bao.
+- n3-u05-g-viewpoint — Evaluate from a stated viewpoint: first taught n3-u05-lesson-1; first bound task n3-u05-x-bao.
+- n3-u05-g-dependence — Read what によって connects: first taught n3-u05-lesson-2; first bound task n3-u05-x-scope.
+- n3-u06-g-choice — A decision is not its completed action: first taught n3-u06-lesson-1; first bound task n3-u06-x-time.
+- n3-u06-g-arrangement — Report the arrangement and its grounds: first taught n3-u06-lesson-1; first bound task n3-u06-x-time.
+- n3-u06-g-no-need — No need is not a prohibition: first taught n3-u06-lesson-2; first bound task n3-u06-x-duplicate.
+- n3-u06-g-advice — Recognise firm advice from a requested mentor: first taught n3-u06-lesson-2; first bound task n3-u06-x-duplicate.
+- n3-u07-g-to — Describe a regular result or a discovery: first taught n3-u07-lesson-1; first bound task n3-u07-x-route.
+- n3-u07-g-ba — Form the condition; check the subject and result: first taught n3-u07-lesson-1; first bound task n3-u07-x-route.
+- n3-u07-g-tara — An action after arrival, or a hypothetical case: first taught n3-u07-lesson-2; first bound task n3-u07-x-before.
+- n3-u07-g-nara — Advice based on a stated plan: first taught n3-u07-lesson-2; first bound task n3-u07-x-before.
+- n3-u08-g-temo — An outcome that stays the same: first taught n3-u08-lesson-1; first bound task n3-u08-x-complaint.
+- n3-u08-g-noni — A fact contrary to expectation: first taught n3-u08-lesson-1; first bound task n3-u08-x-complaint.
+- n3-u08-g-kuse — Recognise blame; choose how to repair it: first taught n3-u08-lesson-2; first bound task n3-u08-x-accusation.
+- n3-u08-g-nagara — Coexisting states, not two ordinary actions: first taught n3-u08-lesson-2; first bound task n3-u08-x-accusation.
+- n3-u09-g-okage — Credit a benefit; notice sarcasm: first taught n3-u09-lesson-1; first bound task n3-u09-x-outage-time.
+- n3-u09-g-sei — Hear a negative attribution without certifying blame: first taught n3-u09-lesson-1; first bound task n3-u09-x-outage-time.
+- n3-u09-g-cause — Read ため as cause or purpose in context: first taught n3-u09-lesson-2; first bound task n3-u09-x-restored.
+- n3-u09-g-reason — Give a reason for a request: first taught n3-u09-lesson-2; first bound task n3-u09-x-restored.
+- n3-u10-g-tabi — Track what happens each time: first taught n3-u10-lesson-1; first bound task n3-u10-x-notes.
+- n3-u10-g-interval — A whole span, an event within it, and full progress: first taught n3-u10-lesson-1; first bound task n3-u10-x-notes.
+- n3-u10-g-uchi — Use a window before it changes; notice gradual change: first taught n3-u10-lesson-1; first bound task n3-u10-x-notes.
+- n3-u10-g-gachi — A recurring tendency is not an identity: first taught n3-u10-lesson-2; first bound task n3-u10-x-repeat.
+- n3-u10-g-gimi — A slight state or sign in the speaker’s account: first taught n3-u10-lesson-2; first bound task n3-u10-x-repeat.
+- n3-u11-g-permission — Ask to do the action yourself: first taught n3-u11-lesson-1; first bound task n3-u11-x-slot.
+- n3-u11-g-receive — Ask for permission; report the granted opportunity: first taught n3-u11-lesson-1; first bound task n3-u11-x-slot.
+- n3-u11-g-roles — Follow the grantor and the doer: first taught n3-u11-lesson-2; first bound task n3-u11-x-completed.
+- n3-u11-g-forced — Recognise being made to act: first taught n3-u11-lesson-2; first bound task n3-u11-x-completed.
+- n3-u12-g-chau — Hear the full verb inside a short ending: first taught n3-u12-lesson-1; first bound task n3-u12-x-start.
+- n3-u12-g-ready-state — Preparation and a current state sound different: first taught n3-u12-lesson-1; first bound task n3-u12-x-start.
+- n3-u12-g-nakya — Recognise a shortened obligation: first taught n3-u12-lesson-1; first bound task n3-u12-x-start.
+- n3-u12-g-recall — Remember a plan; wonder about an answer: first taught n3-u12-lesson-2; first bound task n3-u12-x-seen.
+- n3-u12-g-shared — A shared point and an explanatory question: first taught n3-u12-lesson-2; first bound task n3-u12-x-seen.
+- n3-u13-g-cues — Read a bundle of character cues: first taught n3-u13-lesson-1; first bound task n3-u13-x-casting.
+- n3-u13-g-emphasis — Recognise emphatic ぜ and ぞ: first taught n3-u13-lesson-1; first bound task n3-u13-x-casting.
+- n3-u13-g-wonder — A marked style still carries a meaning: first taught n3-u13-lesson-2; first bound task n3-u13-x-departure.
+- n3-u13-g-explain — のだ connects a statement to its context: first taught n3-u13-lesson-2; first bound task n3-u13-x-departure.
+- n3-u13-g-old — Recognise two stylised older copulas: first taught n3-u13-lesson-2; first bound task n3-u13-x-departure.
+- n3-u14-g-add — Add a second feature, without denying the first: first taught n3-u14-lesson-1; first bound task n3-u14-x-measure.
+- n3-u14-g-degree — Understand how great the degree is: first taught n3-u14-lesson-1; first bound task n3-u14-x-measure.
+- n3-u14-g-compare — Keep the comparison direction in a negative sentence: first taught n3-u14-lesson-2; first bound task n3-u14-x-decision.
+- n3-u14-g-even — Recognise an unexpected or minimal example: first taught n3-u14-lesson-2; first bound task n3-u14-x-decision.
+- n3-u14-g-condition — Identify the one condition presented as enough: first taught n3-u14-lesson-2; first bound task n3-u14-x-decision.
+- n3-u15-g-labels — Separate a line from a printed effect: first taught n3-u15-lesson-1; first bound task n3-u15-x-bubble.
+- n3-u15-g-adverbs — Read the word with the action it modifies: first taught n3-u15-lesson-2; first bound task n3-u15-x-umbrella.
+- n3-u15-g-ellipsis — Recover the role of an omitted particle: first taught n3-u15-lesson-2; first bound task n3-u15-x-umbrella.
+- n3-u15-g-marks — Recognise an abrupt ending and a long vowel: first taught n3-u15-lesson-1; first bound task n3-u15-x-bubble.
+- n3-u15-g-reaction — A reaction or a question is not proof of an event: first taught n3-u15-lesson-2; first bound task n3-u15-x-umbrella.
+- n3-u16-g-report — Keep the source attached to the report: first taught n3-u16-lesson-1; first bound task n3-u16-x-cause.
+- n3-u16-g-cause — Read a stated cause without inventing a motive: first taught n3-u16-lesson-1; first bound task n3-u16-x-cause.
+- n3-u16-g-arrangement — A venue decision is not an attended event: first taught n3-u16-lesson-2; first bound task n3-u16-x-choose.
+- n3-u16-g-compare — Compare the same quantity and the same period: first taught n3-u16-lesson-2; first bound task n3-u16-x-choose.
+- n3-u16-g-condition — Apply the stated conditions to the right activity: first taught n3-u16-lesson-2; first bound task n3-u16-x-choose.
+- n2-u01-g-written — A plain written predicate: である: first taught n2-u01-lesson-1; first bound task n2-u01-x-style.
+- n2-u01-g-join — Link report clauses with a verb stem: first taught n2-u01-lesson-1; first bound task n2-u01-x-style.
+- n2-u01-g-monono — Acknowledge a fact, then a remaining contrast: first taught n2-u01-lesson-2; first bound task n2-u01-x-deadline.
+- n2-u01-g-nimokakawarazu — An outcome contrary to expectation: first taught n2-u01-lesson-2; first bound task n2-u01-x-deadline.
+- n2-u02-g-monoda — A tendency, not a rule for everyone: first taught n2-u02-lesson-1; first bound task n2-u02-x-question-time.
+- n2-u02-g-kotoda — Requested advice from someone with experience: first taught n2-u02-lesson-1; first bound task n2-u02-x-question-time.
+- n2-u02-g-wakedehanai — Correct an inference without saying the opposite: first taught n2-u02-lesson-2; first bound task n2-u02-x-film-change.
+- n2-u02-g-wakeha — A commitment prevents an action; a negative verb reverses it: first taught n2-u02-lesson-2; first bound task n2-u02-x-film-change.
+- n2-u03-g-saishite — Read an instruction tied to a significant occasion: first taught n2-u03-lesson-1; first bound task n2-u03-x-move-dates.
+- n2-u03-g-atatte — Prepare for undertaking something important: first taught n2-u03-lesson-1; first bound task n2-u03-x-move-dates.
+- n2-u03-g-kagirazu — Expand eligibility beyond the named group: first taught n2-u03-lesson-2; first bound task n2-u03-x-visit-eligibility.
+- n2-u03-g-kagitte — A restricted case or an awkward coincidence: first taught n2-u03-lesson-2; first bound task n2-u03-x-visit-eligibility.
+- n2-u04-g-ieru — State a considered conclusion: first taught n2-u04-lesson-1; first bound task n2-u04-x-fee-cost.
+- n2-u04-g-zaru — An action forced by the circumstances: first taught n2-u04-lesson-1; first bound task n2-u04-x-fee-cost.
+- n2-u04-g-suginai — Limit a claim to just that amount or role: first taught n2-u04-lesson-2; first bound task n2-u04-x-rain-contact.
+- n2-u04-g-chigainai — Hear a strong conviction, not a report: first taught n2-u04-lesson-2; first bound task n2-u04-x-rain-contact.
+- n2-u04-g-bakarika — Add a further fact for emphasis: first taught n2-u04-lesson-2; first bound task n2-u04-x-rain-contact.
+- n2-u05-g-source — Name the source of a report: first taught n2-u05-lesson-1; first bound task n2-u05-x-train-purpose.
+- n2-u05-g-assessment — Read a reported assessment: first taught n2-u05-lesson-1; first bound task n2-u05-x-train-purpose.
+- n2-u05-g-response — Find the event and the response: first taught n2-u05-lesson-2; first bound task n2-u05-x-bus-days.
+- n2-u05-g-accompany — Read the change that accompanies another change: first taught n2-u05-lesson-2; first bound task n2-u05-x-bus-days.
+- n2-u06-g-own — Offer an action towards the recipient: first taught n2-u06-lesson-1; first bound task n2-u06-x-map.
+- n2-u06-g-formal — State your side’s action formally: first taught n2-u06-lesson-1; first bound task n2-u06-x-map.
+- n2-u06-g-permission — Ask to perform an action yourself: first taught n2-u06-lesson-2; first bound task n2-u06-x-correction.
+- n2-u06-g-request — Request an action without deciding for the recipient: first taught n2-u06-lesson-2; first bound task n2-u06-x-correction.
+- n2-u07-g-copula — Recognise a formal identification or statement: first taught n2-u07-lesson-1; first bound task n2-u07-x-planned.
+- n2-u07-g-request — Check availability before asking: first taught n2-u07-lesson-1; first bound task n2-u07-x-planned.
+- n2-u07-g-name — Introduce yourself without changing whose name it is: first taught n2-u07-lesson-2; first bound task n2-u07-x-return.
+- n2-u07-g-group — Refer to your colleague from the caller’s perspective: first taught n2-u07-lesson-2; first bound task n2-u07-x-return.
+- n2-u08-g-responses — A short response can keep the story going: first taught n2-u08-lesson-1; first bound task n2-u08-x-window.
+- n2-u08-g-fillers — Hear the thought after a hesitation: first taught n2-u08-lesson-1; first bound task n2-u08-x-window.
+- n2-u08-g-ellipsis — Recover the missing noun from this conversation: first taught n2-u08-lesson-2; first bound task n2-u08-x-owner.
+- n2-u08-g-repair — Check a reference and repair the misunderstanding: first taught n2-u08-lesson-2; first bound task n2-u08-x-owner.
+- n2-u09-g-soft-no — Hear a refusal in the complete exchange: first taught n2-u09-lesson-1; first bound task n2-u09-x-weekend.
+- n2-u09-g-defer — A deferred answer is not a reservation: first taught n2-u09-lesson-1; first bound task n2-u09-x-weekend.
+- n2-u09-g-kaneru — Formal inability is still a refusal: first taught n2-u09-lesson-2; first bound task n2-u09-x-capacity.
+- n2-u09-g-qualified — A double negative leaves limited room: first taught n2-u09-lesson-1; first bound task n2-u09-x-weekend.
+- n2-u10-g-sequence — Follow events before interpreting a tense switch: first taught n2-u10-lesson-1; first bound task n2-u10-x-find.
+- n2-u10-g-thought — Identify the thinker, not just the quotation marks: first taught n2-u10-lesson-1; first bound task n2-u10-x-find.
+- n2-u10-g-nodatta — Recognise a narrator’s significant moment: first taught n2-u10-lesson-1; first bound task n2-u10-x-find.
+- n2-u10-g-viewpoint — Track movement and change from the story’s viewpoint: first taught n2-u10-lesson-2; first bound task n2-u10-x-shop.
+- n2-u11-g-ge — An emotion suggested by what you see: first taught n2-u11-lesson-1; first bound task n2-u11-x-glasses.
+- n2-u11-g-ppoi — A resemblance or a recurring trait: first taught n2-u11-lesson-1; first bound task n2-u11-x-glasses.
+- n2-u11-g-yasui — Ease of doing and a tendency to happen: first taught n2-u11-lesson-1; first bound task n2-u11-x-glasses.
+- n2-u11-g-gachi — A recurring pattern, not just today: first taught n2-u11-lesson-2; first bound task n2-u11-x-due.
+- n2-u11-g-gimi — A slight condition in the stated period: first taught n2-u11-lesson-2; first bound task n2-u11-x-due.
+- n2-u12-g-moto — Name the material used to make a work: first taught n2-u12-lesson-1; first bound task n2-u12-x-source.
+- n2-u12-g-through — Read a channel or the extent of a period: first taught n2-u12-lesson-1; first bound task n2-u12-x-source.
+- n2-u12-g-megutte — Follow the issue around which views differ: first taught n2-u12-lesson-2; first bound task n2-u12-x-undecided.
+- n2-u12-g-hajime — Include a representative member of a wider group: first taught n2-u12-lesson-2; first bound task n2-u12-x-undecided.
+- n2-u13-g-ippou — Keep both sides of a comparison: first taught n2-u13-lesson-1; first bound task n2-u13-x-first-pause.
+- n2-u13-g-hanmen — Notice another side of the same approach: first taught n2-u13-lesson-1; first bound task n2-u13-x-first-pause.
+- n2-u13-g-mushiro — Read the preferred alternative: first taught n2-u13-lesson-2; first bound task n2-u13-x-mori-first.
+- n2-u13-g-ten — Name the aspect on which the views agree: first taught n2-u13-lesson-2; first bound task n2-u13-x-mori-first.
+- n2-u14-g-ya — Hear the regional copula in an ordinary chat: first taught n2-u14-lesson-1; first bound task n2-u14-x-shop.
+- n2-u14-g-hen — Recognise the negative before judging the plan: first taught n2-u14-lesson-1; first bound task n2-u14-x-shop.
+- n2-u14-g-words — Follow everyday regional words through the situation: first taught n2-u14-lesson-1; first bound task n2-u14-x-shop.
+- n2-u14-g-haru — Follow whose action receives regional respect: first taught n2-u14-lesson-2; first bound task n2-u14-x-arrival.
+- n2-u15-g-gachi — Hear genuine enthusiasm and serious intent: first taught n2-u15-lesson-1; first bound task n2-u15-x-voice.
+- n2-u15-g-yabai — Use the situation to interpret やばい: first taught n2-u15-lesson-1; first bound task n2-u15-x-voice.
+- n2-u15-g-sugi — Recognise clipped すぎ without losing the base form: first taught n2-u15-lesson-1; first bound task n2-u15-x-voice.
+- n2-u15-g-wanchan — Leave a possible outcome uncertain: first taught n2-u15-lesson-2; first bound task n2-u15-x-typo.
+- n2-u15-g-kusa — Read a laughter reaction in a typed exchange: first taught n2-u15-lesson-2; first bound task n2-u15-x-typo.
+- n2-u16-g-intro — Introduce your own experience respectfully: first taught n2-u16-lesson-1; first bound task n2-u16-x-purpose.
+- n2-u16-g-company — Change company references with the medium: first taught n2-u16-lesson-1; first bound task n2-u16-x-purpose.
+- n2-u16-g-ask — Ask the interviewer without reversing the actor: first taught n2-u16-lesson-2; first bound task n2-u16-x-repair.
+- n2-u16-g-evidence — Answer the follow-up with an action and its result: first taught n2-u16-lesson-2; first bound task n2-u16-x-repair.
+- n1-u01-g-appearance — A gesture described as almost doing something: first taught n1-u01-lesson-1; first bound task n1-u01-x-arrival.
+- n1-u01-g-obstacle — An obstacle does not stop the action: first taught n1-u01-lesson-2; first bound task n1-u01-x-pause.
+- n1-u01-g-quality — A valued quality tied to its particular source: first taught n1-u01-lesson-2; first bound task n1-u01-x-pause.
+- n1-u01-g-minimum — Not even one: a strong negative boundary: first taught n1-u01-lesson-3; first bound task n1-u01-x-offer.
+- n1-u02-g-standard — A strong judgement against a role’s standard: first taught n1-u02-lesson-1; first bound task n1-u02-x-two-people.
+- n1-u02-g-scale — A new scale changes what is needed: first taught n1-u02-lesson-2; first bound task n1-u02-x-staff.
+- n1-u02-g-extreme — Pick out the most troubling case: first taught n1-u02-lesson-2; first bound task n1-u02-x-staff.
+- n1-u02-g-formal — A formal boundary, or a formal means: first taught n1-u02-lesson-3; first bound task n1-u02-x-closing-times.
+- n1-u03-g-nu — Recognise an older negative, not every ぬ: first taught n1-u03-lesson-1; first bound task n1-u03-x-unexpected.
+- n1-u03-g-zaru — Recognise a noun-modifying older negative: first taught n1-u03-lesson-1; first bound task n1-u03-x-unexpected.
+- n1-u03-g-bekarazu — Read a prohibition on a sign: first taught n1-u03-lesson-2; first bound task n1-u03-x-current-sign.
+- n1-u03-g-gotoku — Follow a literary comparison: first taught n1-u03-lesson-3; first bound task n1-u03-x-dawn-action.
+- n1-u03-g-complete — Spot the separate classical completion ぬ: first taught n1-u03-lesson-3; first bound task n1-u03-x-dawn-action.
+- n1-u04-g-tohaie — Acknowledge a point; keep the qualification: first taught n1-u04-lesson-1; first bound task n1-u04-x-trial.
+- n1-u04-g-toiedomo — A formal concession does not erase the limit: first taught n1-u04-lesson-1; first bound task n1-u04-x-trial.
+- n1-u04-g-monono — A stated claim meets a practical qualification: first taught n1-u04-lesson-2; first bound task n1-u04-x-scope.
+- n1-u04-g-naimademo — An unattained extent, then a lesser one: first taught n1-u04-lesson-3; first bound task n1-u04-x-visits.
+- n1-u05-g-premise — State the condition behind the offer: first taught n1-u05-lesson-1; first bound task n1-u05-x-premise.
+- n1-u05-g-permission — Ask about your action; keep the actor clear: first taught n1-u05-lesson-1; first bound task n1-u05-x-premise.
+- n1-u05-g-request — Make a request without treating it as an answer: first taught n1-u05-lesson-2; first bound task n1-u05-x-request-gap.
+- n1-u05-g-confirm — Restate the understanding and invite correction: first taught n1-u05-lesson-3; first bound task n1-u05-x-build-confirm.
+- n1-u06-g-opening — Acknowledge the time guests have given: first taught n1-u06-lesson-1; first bound task n1-u06-x-opening-naka.
+- n1-u06-g-thanks — Thank someone for an actual action: first taught n1-u06-lesson-2; first bound task n1-u06-x-actual-thanks.
+- n1-u06-g-preface — A modest preface to an assigned public role: first taught n1-u06-lesson-3; first bound task n1-u06-x-preface.
+- n1-u06-g-closing — Close one part; give the next action a cue: first taught n1-u06-lesson-3; first bound task n1-u06-x-preface.
+- n1-u07-g-traveller — Recognise the traveller’s self-reference and copula: first taught n1-u07-lesson-1; first bound task n1-u07-x-self.
+- n1-u07-g-innkeeper — Hear positive じゃ and retrieve negative ぬ: first taught n1-u07-lesson-1; first bound task n1-u07-x-self.
+- n1-u07-g-thanks — Keep the character’s voice; recover the ordinary message: first taught n1-u07-lesson-2; first bound task n1-u07-x-north.
+- n1-u07-g-letter — Recognise a request ending in 候: first taught n1-u07-lesson-3; first bound task n1-u07-x-request.
+- n1-u08-g-dearu — Recognise a narrator’s written copula: first taught n1-u08-lesson-1; first bound task n1-u08-x-narrator.
+- n1-u08-g-inference — Separate an observed action from とみえる: first taught n1-u08-lesson-1; first bound task n1-u08-x-narrator.
+- n1-u08-g-yara — Recover the unanswered question in やら: first taught n1-u08-lesson-2; first bound task n1-u08-x-umaku.
+- n1-u08-g-quotes — Follow the speaker inside a quotation: first taught n1-u08-lesson-3; first bound task n1-u08-x-quoted-claim.
+- n1-u09-g-noda — Follow the narrator’s explanatory ending: first taught n1-u09-lesson-1; first bound task n1-u09-x-reason.
+- n1-u09-g-unexpected — Recover an expectation before ところが: first taught n1-u09-lesson-1; first bound task n1-u09-x-reason.
+- n1-u09-g-instruction — Find the recipient of a polite instruction: first taught n1-u09-lesson-2; first bound task n1-u09-x-sender.
+- n1-u09-g-roles — Keep the eater and the food distinct: first taught n1-u09-lesson-3; first bound task n1-u09-x-eater.
+- n1-u10-g-even — Even the person in that position: first taught n1-u10-lesson-1; first bound task n1-u10-x-current.
+- n1-u10-g-basis — Take existing evidence into account: first taught n1-u10-lesson-1; first bound task n1-u10-x-current.
+- n1-u10-g-reality — Fit the actual circumstances: first taught n1-u10-lesson-2; first bound task n1-u10-x-staff.
+- n1-u10-g-possibility — A possibility is not ruled out: first taught n1-u10-lesson-3; first bound task n1-u10-x-renend.
+- n1-u11-g-definition — Read a term’s definition within its scope: first taught n1-u11-lesson-1; first bound task n1-u11-x-definition.
+- n1-u11-g-accepted — Attribute a stated view rather than silently endorse it: first taught n1-u11-lesson-1; first bound task n1-u11-x-definition.
+- n1-u11-g-basis — Identify the basis of the analysis: first taught n1-u11-lesson-2; first bound task n1-u11-x-reply.
+- n1-u11-g-inference — Keep an interpretation smaller than its evidence: first taught n1-u11-lesson-3; first bound task n1-u11-x-future.
+- n1-u12-g-report — Report your own action without inflating it: first taught n1-u12-lesson-1; first bound task n1-u12-x-error.
+- n1-u12-g-apology — An apology names what went wrong: first taught n1-u12-lesson-2; first bound task n1-u12-x-deadline.
+- n1-u12-g-request — A request leaves the decision with the listener: first taught n1-u12-lesson-2; first bound task n1-u12-x-deadline.
+- n1-u12-g-thanks — Past gratitude can accompany a new beginning: first taught n1-u12-lesson-3; first bound task n1-u12-x-transfer.
+- keigo-u01-g-presence — The guest and your own colleague use different forms: first taught keigo-u01-lesson; first bound task keigo-u01-x-appointment.
+- keigo-u01-g-name — Ask the visitor’s name from your own side: first taught keigo-u01-lesson; first bound task keigo-u01-x-appointment.
+- keigo-u01-g-wait — Ask the guest to wait; do not announce that you will wait: first taught keigo-u01-lesson; first bound task keigo-u01-x-appointment.
+- keigo-u02-g-name — Name yourself; respect the other speaker: first taught keigo-u02-lesson; first bound task keigo-u02-x-person.
+- keigo-u02-g-repeat — Ask for a repeat instead of guessing: first taught keigo-u02-lesson; first bound task keigo-u02-x-person.
+- keigo-u02-g-message — Accept a message without promising the callback yourself: first taught keigo-u02-lesson; first bound task keigo-u02-x-person.
+- keigo-u03-g-send — Your sending action goes towards the client: first taught keigo-u03-lesson; first bound task keigo-u03-x-wrongfile.
+- keigo-u03-g-request — A courteous request still needs a clear deadline: first taught keigo-u03-lesson; first bound task keigo-u03-x-wrongfile.
+- keigo-u03-g-read — Receiving, looking and approving are different actions: first taught keigo-u03-lesson; first bound task keigo-u03-x-wrongfile.
+- keigo-u04-g-explain — Explain your own proposal to the client: first taught keigo-u04-lesson; first bound task keigo-u04-x-chair.
+- keigo-u04-g-ask — Ask for the other person’s view from your side: first taught keigo-u04-lesson; first bound task keigo-u04-x-chair.
+- keigo-u04-g-turn — Ask for a turn before making your point: first taught keigo-u04-lesson; first bound task keigo-u04-x-chair.
+- keigo-u05-g-request — Ask for help; leave the decision with the listener: first taught keigo-u05-lesson; first bound task keigo-u05-x-scope.
+- keigo-u05-g-burden — Acknowledge the interruption, then make the request specific: first taught keigo-u05-lesson; first bound task keigo-u05-x-scope.
+- keigo-u05-g-agree — Confirm the scope before thanking the helper: first taught keigo-u05-lesson; first bound task keigo-u05-x-scope.
+- keigo-u06-g-cannot — A courteous refusal still means no: first taught keigo-u06-lesson; first bound task keigo-u06-x-reason.
+- keigo-u06-g-reason — State the limit and its concrete reason: first taught keigo-u06-lesson; first bound task keigo-u06-x-reason.
+- keigo-u06-g-alternative — Offer an alternative; wait for its acceptance: first taught keigo-u06-lesson; first bound task keigo-u06-x-reason.
+- keigo-u07-g-fault — Apologise for the actual mistake: first taught keigo-u07-lesson; first bound task keigo-u07-x-shortage.
+- keigo-u07-g-apology — Your apology is directed to the client: first taught keigo-u07-lesson; first bound task keigo-u07-x-shortage.
+- keigo-u07-g-remedy — A remedy is a commitment, not a completed delivery: first taught keigo-u07-lesson; first bound task keigo-u07-x-shortage.
+- keigo-u08-g-constraint — Ask for the client’s limits before proposing: first taught keigo-u08-lesson; first bound task keigo-u08-x-options.
+- keigo-u08-g-condition — State which condition makes the offer possible: first taught keigo-u08-lesson; first bound task keigo-u08-x-options.
+- keigo-u08-g-decision — A review is not an acceptance: first taught keigo-u08-lesson; first bound task keigo-u08-x-options.
+- keigo-u09-g-explain — Own explanation; client as listener: first taught keigo-u09-lesson; first bound task keigo-u09-x-order.
+- keigo-u09-g-look — Ask the listener to look at a specific place: first taught keigo-u09-lesson; first bound task keigo-u09-x-order.
+- keigo-u09-g-question — Answer what is known; confirm what is not: first taught keigo-u09-lesson; first bound task keigo-u09-x-order.
+- keigo-u10-g-self — Introduce yourself; describe your own work: first taught keigo-u10-lesson; first bound task keigo-u10-x-measured.
+- keigo-u10-g-company — Prospective employer: spoken and written references: first taught keigo-u10-lesson; first bound task keigo-u10-x-measured.
+- keigo-u10-g-ask — Ask the interviewer; keep achievement and intention separate: first taught keigo-u10-lesson; first bound task keigo-u10-x-measured.
+- keigo-u11-g-visit — Visit the client: your movement, their welcome: first taught keigo-u11-lesson; first bound task keigo-u11-x-purpose.
+- keigo-u11-g-inside — Your manager when speaking to a client: first taught keigo-u11-lesson; first bound task keigo-u11-x-purpose.
+- keigo-u11-g-thanks — Thank them for their time; state the next action: first taught keigo-u11-lesson; first bound task keigo-u11-x-purpose.
+- keigo-u12-g-thanks — Thank them for the year; keep the relationship continuing: first taught keigo-u12-lesson; first bound task keigo-u12-x-last.
+- keigo-u12-g-year — Before and after the New Year: first taught keigo-u12-lesson; first bound task keigo-u12-x-last.
+- keigo-u12-g-schedule — Announce your own closure and resumption: first taught keigo-u12-lesson; first bound task keigo-u12-x-last.

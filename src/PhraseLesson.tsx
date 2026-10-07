@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowRight,
   Check,
@@ -229,8 +229,10 @@ export function PhraseLesson({
       ? picked.length === exercise.tiles!.length
       : choice !== null;
 
-  // Listening tasks play once on arrival; replay stays one tap away.
-  useEffect(() => {
+  // Cancel the previous step before Scene's passive effect starts its audio.
+  // A parent passive effect runs after the child's and would cancel that first
+  // playback in the production build. Listening exercises still play on arrival.
+  useLayoutEffect(() => {
     stopLines();
     if (!step) return;
     const scene =

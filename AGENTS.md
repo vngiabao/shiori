@@ -37,6 +37,14 @@ Follows ../SHARED-SPEC.md. Share learning-screen structure with Kiyo while prese
 - Dialogue lines may carry optional gapAfterMs (integer -250…800 ms): a negative overlap requires a following different speaker. Explicit timing uses decoded Web Audio buffers, unchanged source rate/pitch and cancellation without completion credit. Untimed dialogues retain serial playback. check-dialogues.py verifies nonquiet overlap windows and combined peaks; this is not native timing review.
 
 
+## Current release checkpoint — 7 October 2026
+
+The whole authored expansion is complete: N5–N1 core, twelve workplace-keigo scenarios, seventy-three vocabulary decks and ninety original written JLPT items per level. `output/course-progress.md` is authoritative for current checks and rollout; the older checkpoints below are historical, including their former "Exact next" directions. Do not restart finished authoring or re-render preserved recordings from those directions.
+
+Final production verification includes the PhraseLesson layout-effect cancellation fix: previous-step cancellation must run before child Scene passive autoplay. Eleven development-only module fixtures are verified separately; do not count their production skips as passes. Final deployment preserves every historical WAV URL and byte across the main static Worker and two static audio Workers; use `DEPLOYMENT.md` and the staged deployment wrapper, not a direct full-dist upload. The live saved-line-unit migration has been applied without changing Kiyo or owner-only auth. Access removal and hosted verification remain pending until final release checks finish.
+
+## Historical build checkpoints
+
 ## N2 unit 15 verified checkpoint
 
 44 verified pairs, two lessons, five notes, 28 scene lines, two original messages (406/414 characters), twenty tasks. All final source/audio/browser/build/offline gates pass: 121 unit tests, 24 Python tests, five audio validators; all 8,983 earlier Clear keys / 933 scene mappings preserved, 114 new WAVs mapped and 125 historical takes retained. Selected slang/typo mora sequences verified, not native intonation. Detail screenshots inspected. Precache 1,624 entries / 14,227.84 KiB; offline report 2026-10-07T01:04:26.636Z. Strict review output/review-n2.md. No production deployment.
@@ -197,4 +205,3 @@ Final TypeScript, 163 unit / 31 Python tests, content/dictionary/beginner+N2+N3 
 An initial browser run failed because preview was stopped for the build; rerun with preview passed. The larger cache then exposed Chromium's unbounded Cache.keys response-size limit. Retention verification now checks one immutable URL at a time in batches of32, without response-body clones; a regression rejects unbounded enumeration and preserves late-eviction detection. Final production retry/reload/playback passed after the fix. No design, auth, database or production changes.
 
 Exact next: commit and back up this verified checkpoint to course-build only. Exclude authored but uncompiled drafts05–08. Draft05 raw496–618, draft06 raw619–750, draft07 raw751–872, draft08 raw873–1005: each has100 original rows; all selected source pairs/primary senses inspected. Add explicit register labels for the formal/familiar terms before compiling, inspect fresh queries and render incrementally. Draft08 selected senses are in output/n1-vocab-08-primary-senses.json. Don't rerun finalized pin helpers. Continue remaining N1 headwords and deferred/corrected/pattern/related source ledger, cross-course/docs/final checks, free static audio sharding if needed, additive saved-line-unit live migration, then authorized main push/deployment and removal of ONLY Shiori Access. Main/live unchanged; next preservation baseline becomes the verified commit.
-

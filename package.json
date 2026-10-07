@@ -18,7 +18,9 @@
     "screenshots": "tsx scripts/screenshots.ts",
     "author:context": "tsx scripts/author-context.ts",
     "audit:content": "tsx scripts/audit-content.ts",
-    "format": "prettier --write src scripts/*.ts tests e2e *.ts"
+    "format": "prettier --write src scripts/*.ts tests e2e *.ts",
+    "stage:cloudflare": "node scripts/stage-cloudflare-assets.mjs",
+    "deploy:cloudflare": "npm run stage:cloudflare && node scripts/deploy-cloudflare.mjs"
   },
   "dependencies": {
     "@fontsource/cormorant-garamond": "^5.2.0",
@@ -46,6 +48,7 @@
     "typescript": "^7.0.2",
     "vite": "^8.3.2",
     "vite-plugin-pwa": "^2.0.0",
-    "vitest": "^5.0.3"
+    "vitest": "^5.0.3",
+    "wrangler": "4.148.0"
   }
 }

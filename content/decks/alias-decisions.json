@@ -910,5 +910,28 @@
       ],
       "reason": "Earlier 紅葉こうよう teaches autumn foliage. The combined source also supplies もみじ, here a maple tree, with a new audible/visible kana form. Shared dictionary spelling is not identical pronunciation or sense."
     }
+  ],
+  "n1-vocab-23": [
+    {
+      "selected": {
+        "text": "摩る",
+        "kana": "さする"
+      },
+      "courseAliases": [
+        "n5-u08-w-suru"
+      ],
+      "reason": "Raw 摩する incorrectly pairs an extra す with さする. Restricted 摩るさする means gently rub or stroke; preserve the erroneous CSV bytes. Candidate entry overlap alone does not establish semantic equivalence; this original example teaches the explicitly selected sense."
+    },
+    {
+      "selected": {
+        "text": "よし",
+        "kana": "よし"
+      },
+      "courseAliases": [
+        "n1-vocab-21-w-2532",
+        "n3-vocab-10-w-1229"
+      ],
+      "reason": "Remove the interjection annotation and teach the all-right reaction. It is distinct from archaic adjective 良し and noun 由 despite ambiguous kana dictionary candidates. Candidate entry overlap alone does not establish semantic equivalence; this original example teaches the explicitly selected sense."
+    }
   ]
 }

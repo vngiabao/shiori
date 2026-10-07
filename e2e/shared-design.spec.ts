@@ -49,7 +49,7 @@ for (const width of [1440, 768, 375, 320])
           name: theme === "light" ? "Morning letter" : "Night post",
         })
         .click();
-      await expect(page.getByRole("status")).toContainText("Settings saved.");
+      await expect(page.locator(".settings-status")).toContainText("Settings saved.");
       await page.goto("/#today");
       await expect(page.locator(".postal-desk-strip")).toHaveCount(0);
       for (const correct of [true, false]) {

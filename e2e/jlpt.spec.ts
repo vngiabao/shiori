@@ -1,6 +1,7 @@
 import { test, expect, type Page } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 import fs from "node:fs";
+const usesSourceFixtures = !process.env.APP_URL || new URL(process.env.APP_URL).port === "5174";
 const questions = JSON.parse(
   fs.readFileSync(
     new URL("../content/jlpt/questions.json", import.meta.url),
@@ -20,6 +21,7 @@ async function answerCurrent(page: Page, stage: string) {
 test("expanded N4 checkpoints rotate and preserve the selected questions through reload", async ({
   page,
 }) => {
+  test.skip(!usesSourceFixtures, "This fixture imports dev-only modules; run it against port 5174. Production JLPT interaction tests run separately.");
   await onboard(page);
   await page.evaluate(async () => {
     const dbPath = "/src/db.ts";
@@ -102,6 +104,7 @@ for (const level of ["N2", "N1"] as const)
     test(`expanded ${level} ${stage} preserves history and rotates new selections`, async ({
       page,
     }) => {
+      test.skip(!usesSourceFixtures, "This fixture imports dev-only modules; run it against port 5174. Production JLPT interaction tests run separately.");
       await onboard(page);
       const seeded = await page.evaluate(
         async ({ level, stage }) => {
@@ -383,6 +386,7 @@ for (const width of [320, 375, 768, 1024, 1440])
 test("JLPT exam question and result views have accessible mobile states", async ({
   page,
 }) => {
+  test.skip(!usesSourceFixtures, "This fixture imports dev-only modules; run it against port 5174. Production JLPT interaction tests run separately.");
   await page.setViewportSize({ width: 375, height: 1000 });
   await onboard(page);
   await page.evaluate(async () => {

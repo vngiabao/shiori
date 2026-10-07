@@ -89,7 +89,7 @@ test("settings persist, dictionary works and backup exports", async ({
   await page.getByRole("button", { name: "Close dialog" }).click();
   await page.goto("/#settings");
   await page.getByRole("button", { name: "Night post" }).click();
-  await expect(page.getByRole("status")).toHaveText("Settings saved.");
+  await expect(page.locator(".settings-status")).toHaveText("Settings saved.");
   await page.reload();
   await expect(page.locator("html")).toHaveAttribute("data-theme", "dark");
   const download = page.waitForEvent("download");
@@ -186,9 +186,9 @@ test("voice audition choice persists and spoken reactions and tapped words respe
     .toContain("v03-correct.wav");
   await page.goto("/#settings");
   await page.getByRole("checkbox", { name: /Speak praise/ }).uncheck();
-  await expect(page.getByRole("status")).toHaveText("Settings saved.");
+  await expect(page.locator(".settings-status")).toHaveText("Settings saved.");
   await page.getByRole("checkbox", { name: /Read tapped/ }).uncheck();
-  await expect(page.getByRole("status")).toHaveText("Settings saved.");
+  await expect(page.locator(".settings-status")).toHaveText("Settings saved.");
   await page.goto("/#letter/letter-1");
   const before = await page.evaluate(
     () => (window as unknown as { played: string[] }).played.length,
@@ -207,7 +207,7 @@ test("voice audition choice persists and spoken reactions and tapped words respe
   ).toBe(before);
   await page.goto("/#settings");
   await page.getByRole("checkbox", { name: /Read tapped/ }).check();
-  await expect(page.getByRole("status")).toHaveText("Settings saved.");
+  await expect(page.locator(".settings-status")).toHaveText("Settings saved.");
   await page.goto("/#letter/letter-1");
   await page.locator(".gloss-token").first().click();
   await expect
@@ -285,7 +285,7 @@ test("phone teaching tools, keyboard reading areas and supported completion stay
   });
   await page.goto("/#settings");
   await page.getByRole("button", { name: "Night post" }).click();
-  await expect(page.getByRole("status")).toHaveText("Settings saved.");
+  await expect(page.locator(".settings-status")).toHaveText("Settings saved.");
   await page.goto("/#today");
   expect(
     (
