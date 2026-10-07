@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useSyncExternalStore } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   Sun,
@@ -58,7 +58,18 @@ import {
   ReactionLine,
 } from "./Violetto";
 import { postalProgress } from "./rewards";
-import { lessons, letters, wordMap } from "./content";
+import {
+  lessons,
+  letters,
+  wordMap,
+  courseCatalog,
+  courseLevels,
+  levelOf,
+  loadThroughLevel,
+  loadAllCourse,
+  subscribeContent,
+  contentRevision,
+} from "./content";
 import { buildPlan } from "./learning";
 import {
   replay,
@@ -86,6 +97,11 @@ const nav = [
   ["progress", "Progress", ChartBar],
 ] as const;
 export default function App() {
+  useSyncExternalStore(subscribeContent, contentRevision, contentRevision);
+  const opening = useRef(0);
+  const [readyKey, setReadyKey] = useState("");
+  const [contentError, setContentError] = useState("");
+  const [contentBusy, setContentBusy] = useState(false);
   const state = useLiveQuery(async () => ({
     profile: await db.profiles.get("local"),
     attempts: await db.attempts.toArray(),
@@ -104,8 +120,56 @@ export default function App() {
   const [examFocus, setExamFocus] = useState(false);
   const [online, setOnline] = useState(navigator.onLine);
   const [audioError, setAudioError] = useState("");
+  const savedIds = state
+    ? [
+        ...state.memories.map((m) => m.itemId),
+        ...state.completions.map((c) => c.id),
+        ...state.attempts.map((a) => a.itemId),
+      ]
+    : [];
+  const latestLevel = savedIds.reduce(
+    (rank, id) => Math.max(rank, courseLevels.indexOf(levelOf(id))),
+    0,
+  );
+  const nextLesson = courseCatalog
+    .flatMap((p) => p.lessons)
+    .find((l) => !state?.completions.some((c) => c.id === l.id));
+  const requiredLevel = Math.max(
+    latestLevel,
+    courseLevels.indexOf(levelOf(nextLesson?.id ?? "")),
+  );
+  const fullShelf =
+    ["read", "listen", "letters", "dictionary", "speak", "progress"].includes(
+      route,
+    ) ||
+    route.startsWith("letter/") ||
+    route.startsWith("media");
+  const requiredKey = `${Boolean(state?.profile)}:${route}:${fullShelf ? "all" : requiredLevel}`;
+  useEffect(() => {
+    if (!state?.profile) return;
+    let cancelled = false;
+    setContentError("");
+    (fullShelf
+      ? loadAllCourse()
+      : loadThroughLevel(courseLevels[requiredLevel])
+    )
+      .then(() => {
+        if (!cancelled) setReadyKey(requiredKey);
+      })
+      .catch(() => {
+        if (!cancelled)
+          setContentError(
+            "These lessons couldn’t load. Connect to the internet and reload Shiori. Saved lessons and progress are kept.",
+          );
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [requiredKey]);
   useEffect(() => {
     const hash = () => {
+      opening.current++;
+      setContentBusy(false);
       setRoute(location.hash.slice(1) || "today");
       setMore(false);
       setActive(null);
@@ -142,6 +206,8 @@ export default function App() {
     if (state?.profile) configureVoice(state.profile);
   }, [state?.profile]);
   function go(r: string) {
+    opening.current++;
+    setContentBusy(false);
     location.hash = r;
     setRoute(r);
     setMore(false);
@@ -149,7 +215,27 @@ export default function App() {
     stopAudio();
     window.scrollTo(0, 0);
   }
-  function start(lesson: Lesson, skill: Skill = "reading", ids?: string[]) {
+  async function start(
+    lesson: Lesson,
+    skill: Skill = "reading",
+    ids?: string[],
+  ) {
+    const token = ++opening.current;
+    setContentBusy(true);
+    setContentError("");
+    try {
+      await loadThroughLevel(levelOf(lesson.id));
+    } catch {
+      if (token === opening.current) {
+        setContentBusy(false);
+        setContentError(
+          "This lesson couldn’t load. Connect to the internet and reload Shiori. Your progress is kept.",
+        );
+      }
+      return;
+    }
+    if (token !== opening.current) return;
+    setContentBusy(false);
     setActive({ lesson, skill, ids });
     speakReaction("welcome").catch((e) => {
       if (e.name !== "AbortError")
@@ -252,7 +338,17 @@ export default function App() {
           className={`app-main ${examFocus ? "exam-focus" : ""}`}
           data-page={route.split("/")[0]}
         >
-          {route === "today" ? (
+          {contentError ? (
+            <div className="notice-note" role="alert">
+              <p>{contentError}</p>
+              <Button secondary onClick={() => location.reload()}>
+                Reload Shiori
+              </Button>
+            </div>
+          ) : null}
+          {(readyKey !== requiredKey && !contentError) || contentBusy ? (
+            <p role="status">Opening your lessons…</p>
+          ) : route === "today" ? (
             <Today
               profile={p}
               {...props}
@@ -294,7 +390,14 @@ export default function App() {
               }}
             />
           ) : route === "media" || route.startsWith("media?unit=") ? (
-            <Watch key={route} unit={route.startsWith("media?unit=") ? decodeURIComponent(route.split("=")[1]) : undefined} />
+            <Watch
+              key={route}
+              unit={
+                route.startsWith("media?unit=")
+                  ? decodeURIComponent(route.split("=")[1])
+                  : undefined
+              }
+            />
           ) : route === "jlpt" || route.startsWith("jlpt/") ? (
             <JlptRoom
               onFocusChange={setExamFocus}
@@ -512,7 +615,8 @@ function Today({
           <div className="lead-lesson-copy">
             <h2>{next.title}.</h2>
             <p className="lesson-meta">
-              Lesson {lessonNumber} of {lessons.length} ·{" "}
+              Lesson {lessonNumber} of{" "}
+              {courseCatalog.reduce((n, p) => n + p.lessons.length, 0)} ·{" "}
               {next.kind === "kana" ? "Sounds and kana" : "First exchanges"} ·{" "}
               {next.minutes} min
             </p>

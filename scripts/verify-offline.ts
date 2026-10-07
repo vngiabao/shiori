@@ -83,6 +83,30 @@ const missingTeacher = await page.evaluate(
   ],
 );
 expect(missingTeacher).toEqual([]);
+const courseAssets = JSON.parse(
+  fs.readFileSync("dist/course-assets.json", "utf8"),
+) as string[];
+expect(courseAssets.length).toBeGreaterThan(0);
+const missingCourse = await page.evaluate(async (urls) => {
+  const cache = await caches.open("shiori-course"),
+    missing: string[] = [];
+  for (const url of urls) if (!(await cache.match(url))) missing.push(url);
+  return missing;
+}, courseAssets);
+expect(missingCourse).toEqual([]);
+// A later unit must open from cached text as well as cached recordings.
+await page.getByRole("button", { name: "Leave lesson", exact: true }).click();
+await page.goto("http://127.0.0.1:5175/#library");
+await page.getByLabel("Show lessons").selectOption("n1");
+await page
+  .locator(".course-lessons > div")
+  .filter({ hasText: "Put conditions behind a proposal" })
+  .getByRole("button", { name: "Read", exact: true })
+  .click();
+await expect(
+  page.getByRole("heading", { name: "New words", exact: true }),
+).toBeVisible();
+await page.getByRole("button", { name: "Leave lesson", exact: true }).click();
 const checks = [];
 for (const clip of [
   dialogueUrls[0],
@@ -140,6 +164,8 @@ fs.writeFileSync(
     {
       verifiedAt: new Date().toISOString(),
       offlineReload: true,
+      courseChunksCached: courseAssets.length,
+      advancedLessonOffline: true,
       teacherClipsCached: teacher.length,
       dialogueClipsCached: dialogueUrls.length,
       deckAudioUrlsCached: deckUrls.length,

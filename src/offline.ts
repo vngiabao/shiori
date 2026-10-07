@@ -1,3 +1,4 @@
+import { loadAllCourse } from "./content";
 import manifest from "./generated/audio.json";
 import baseline from "./generated/violetto-baseline.json";
 import emotions from "./generated/violetto-emotions.json";
@@ -14,7 +15,7 @@ export const lessonAudioUrls = () =>
     ...new Set([
       ...Object.values(manifest as Record<string, string>),
       ...teacher.map((line) => line.url),
-      ...cast.map(line => line.url),
+      ...cast.map((line) => line.url),
       ...Object.values(dialogue)
         .flat()
         .map((line) => line.url),
@@ -42,8 +43,23 @@ export const lessonAudioUrls = () =>
 export async function saveAudioOffline(
   onProgress: (done: number, total: number) => void,
 ) {
+  if (import.meta.env.DEV)
+    throw new Error(
+      "Offline saving is available in the built Shiori app. Open the production preview or hosted site.",
+    );
   if (!("caches" in window))
     throw new Error("This browser cannot store audio offline.");
+  // Save text chunks as well as audio; never claim an offline course from clips alone.
+  await loadAllCourse();
+  const response = await fetch("/course-assets.json");
+  if (!response.ok)
+    throw new Error(
+      "Course files couldn’t be found. Reload Shiori online and try again.",
+    );
+  const assets: string[] = await response.json();
+  const courseCache = await caches.open("shiori-course");
+  for (const url of assets)
+    if (!(await courseCache.match(url))) await courseCache.add(url);
   const cache = await caches.open(cacheName);
   const urls = lessonAudioUrls();
   let done = 0;

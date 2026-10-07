@@ -1,5 +1,6 @@
 import fs from "node:fs";
-import { packs, words } from "../src/content";
+import packs from "../src/generated/pack-index";
+const words = packs.flatMap(p => p.words);
 fs.mkdirSync("output", { recursive: true });
 fs.writeFileSync(
   "output/author-context.json",

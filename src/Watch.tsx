@@ -40,19 +40,19 @@ const modes: [Mode, string, string][] = [
     "Listen only. Rate how much you followed when you finish.",
   ],
 ];
-const sample: Cue[] = dialogues.flatMap((d, i) =>
-  d.lines.map((l, j) => ({
-    start: i * 100 + j * 5,
-    end: i * 100 + j * 5 + 4,
-    text: plain(l.line),
-  })),
-);
-const sampleRoles = dialogues.flatMap((dialogue) =>
-  dialogue.lines.map((_, index) => ({ dialogue, index })),
-);
-
 export function Watch({ unit }: { unit?: string } = {}) {
-  const task = packs.find(p => p.id === unit && p.watch);
+  const sample: Cue[] = dialogues.flatMap((d, i) =>
+    d.lines.map((l, j) => ({
+      start: i * 100 + j * 5,
+      end: i * 100 + j * 5 + 4,
+      text: plain(l.line),
+    })),
+  );
+  const sampleRoles = dialogues.flatMap((dialogue) =>
+    dialogue.lines.map((_, index) => ({ dialogue, index })),
+  );
+
+  const task = packs.find((p) => p.id === unit && p.watch);
   const [media, setMedia] = useState<{
     url: string;
     name: string;
@@ -224,7 +224,16 @@ export function Watch({ unit }: { unit?: string } = {}) {
         title="Watch."
         description="Your own films and episodes: Japanese subtitles first, then peeks only, then none."
       />
-      {task?.watch && <section className="notice-note"><h2>{task.title} · Outside practice</h2><p>{task.watch.prompt}</p><p>Lines saved here are tagged to {task.id}. This records practice, not comprehension.</p></section>}
+      {task?.watch && (
+        <section className="notice-note">
+          <h2>{task.title} · Outside practice</h2>
+          <p>{task.watch.prompt}</p>
+          <p>
+            Lines saved here are tagged to {task.id}. This records practice, not
+            comprehension.
+          </p>
+        </section>
+      )}
       {!ready ? (
         <section className="watch-setup">
           <ol className="watch-steps">

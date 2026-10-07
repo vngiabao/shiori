@@ -1,0 +1,19 @@
+// Generated validated level; do not edit.
+import type { Pack } from "../types";
+import pack0 from "../../content/packs/n2-u01.json";
+import pack1 from "../../content/packs/n2-u02.json";
+import pack2 from "../../content/packs/n2-u03.json";
+import pack3 from "../../content/packs/n2-u04.json";
+import pack4 from "../../content/packs/n2-u05.json";
+import pack5 from "../../content/packs/n2-u06.json";
+import pack6 from "../../content/packs/n2-u07.json";
+import pack7 from "../../content/packs/n2-u08.json";
+import pack8 from "../../content/packs/n2-u09.json";
+import pack9 from "../../content/packs/n2-u10.json";
+import pack10 from "../../content/packs/n2-u11.json";
+import pack11 from "../../content/packs/n2-u12.json";
+import pack12 from "../../content/packs/n2-u13.json";
+import pack13 from "../../content/packs/n2-u14.json";
+import pack14 from "../../content/packs/n2-u15.json";
+import pack15 from "../../content/packs/n2-u16.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11, pack12, pack13, pack14, pack15] as unknown as Pack[];

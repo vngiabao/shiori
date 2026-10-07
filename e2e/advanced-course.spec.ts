@@ -342,6 +342,7 @@ for (const unit of [
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption(unit.id.slice(0, 2));
     await page.locator(".course-lessons > div").filter({ hasText: title }).getByRole("button", { name: "Read", exact: true }).click();
+    await expect(page.getByRole("button", { name: "I’ve met these" })).toBeVisible();
     const counter = page.locator(".lesson-top > span").last();
     for (let step = 0; step < 16; step++) {
       const meet = page.getByRole("button", { name: "I’ve met these" });

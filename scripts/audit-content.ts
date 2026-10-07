@@ -1,16 +1,12 @@
 import fs from "node:fs";
 import { plain } from "../src/text";
-import {
-  packs,
-  words,
-  lessons,
-  letters,
-  roleplays,
-  grammar,
-  kanji,
-  readings,
-  dialogues,
-} from "../src/content";
+import packs from "../src/generated/pack-index";
+import extraKanji from "../content/kanji/n5.json";
+// Tooling audits every validated pack, regardless of browser download state.
+const words = packs.flatMap(p => p.words), lessons = packs.flatMap(p => p.lessons),
+  letters = packs.flatMap(p => p.letters), roleplays = packs.flatMap(p => p.roleplays),
+  grammar = packs.flatMap(p => p.grammar), kanji = [...packs.flatMap(p => p.kanji), ...extraKanji],
+  readings = packs.flatMap(p => p.readings ?? []), dialogues = packs.flatMap(p => p.dialogues ?? []);
 const phrases = words.filter((w) => !/^h-|^k-|^sound-/.test(w.id));
 const taught = new Set(lessons.flatMap((l) => l.words));
 const chars = letters.map((l) =>

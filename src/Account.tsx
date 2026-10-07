@@ -541,8 +541,9 @@ function OfflineAudio() {
     <section className="offline-audio" aria-labelledby="offline-audio">
       <h2 id="offline-audio">Offline audio</h2>
       <p>
-        Clips are saved as you hear them. To study anywhere, save all{" "}
-        {lessonAudioUrls().length} lesson clips now (about 50 MB).
+        Lessons are saved as you open them, and clips as you hear them. To study
+        anywhere, save all course text and {lessonAudioUrls().length} audio
+        clips now. A large course may take several minutes to download.
       </p>
       <Button
         secondary
