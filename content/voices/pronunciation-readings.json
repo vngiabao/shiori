@@ -1204,6 +1204,146 @@
       "readingInput": "しょどうのさくひんをみて、ふでのせんのウツクシさにおどろきました。",
       "expectedMoras": "ショドオノサクヒンオミテフデノセンノウツクシサニオドロキマシタ",
       "reason": "Lexical 美しさ begins u-tsu; the raw kana query returned o-tsu."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "先頭",
+      "readingInput": "せんとー",
+      "expectedMoras": "セントオ",
+      "reason": "A long o in 先頭 is not the separate o-u sequence returned by the raw query."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "せんとう",
+      "readingInput": "せんとー",
+      "expectedMoras": "セントオ",
+      "reason": "Selected kana playback also preserves the long o in 先頭."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "机の面に対して、棒を垂直に立てました。",
+      "readingInput": "つくえのめんにたいして、ぼーをすいちょくにたてました。",
+      "expectedMoras": "ツクエノメンニタイシテボオオスイチョクニタテマシタ",
+      "reason": "棒 has long o; the following object particle supplies a separate third o mora."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "雨の後、葉の上に水滴が残っていました。",
+      "readingInput": "あめのあと、ハのうえにすいてきがのこっていました。",
+      "expectedMoras": "アメノアトハノウエニスイテキガノコッテイマシタ",
+      "reason": "Lexical 葉 is ha, not the topic particle wa chosen by the raw kana parser."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "記事の図表を見て、数字を比べました。",
+      "readingInput": "きじのずひょーをみて、すうじをくらべました。",
+      "expectedMoras": "キジノズヒョオオミテスウジオクラベマシタ",
+      "reason": "図表 has long o; preserve its following separate object particle."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "小説では、王の専制に反対する人々が登場します。",
+      "readingInput": "しょうせつでは、おーのせんせいにはんたいするひとびとがとうじょうします。",
+      "expectedMoras": "ショオセツデワオオノセンセイニハンタイスルヒトビトガトオジョオシマス",
+      "reason": "King 王 has a long o rather than o-u in this sentence."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "本棚の幅を、センチで測りました。",
+      "readingInput": "ほんだなのはばを、センチでハカリました。",
+      "expectedMoras": "ホンダナノハバオセンチデハカリマシタ",
+      "reason": "Lexical 測り begins ha-ka, not wa-ka chosen by the raw query."
+    },
+    {
+      "unit": "n2-vocab-06",
+      "text": "図表で、利用者の数の増減を確認しました。",
+      "readingInput": "ずひょーで、りようしゃのかずのぞうげんをかくにんしました。",
+      "expectedMoras": "ズヒョオデリヨオシャノカズノゾオゲンオカクニンシマシタ",
+      "reason": "図表 has a contracted long o in this sentence, not hyo-u."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "開場すると、観客が続々と入ってきました。",
+      "readingInput": "かいじょうすると、かんきゃくがぞくぞくとハイってきました。",
+      "expectedMoras": "カイジョオスルトカンキャクガゾクゾクトハイッテキマシタ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "長方形",
+      "readingInput": "ちょーほーけい",
+      "expectedMoras": "チョオホオケイ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "ちょうほうけい",
+      "readingInput": "ちょーほーけい",
+      "expectedMoras": "チョオホオケイ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "調味料",
+      "readingInput": "ちょーみりょう",
+      "expectedMoras": "チョオミリョオ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "ちょうみりょう",
+      "readingInput": "ちょーみりょう",
+      "expectedMoras": "チョオミリョオ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "茶色い封筒に、写真を入れました。",
+      "readingInput": "ちゃいろいふーとーに、しゃしんをいれました。",
+      "expectedMoras": "チャイロイフウトオニシャシンオイレマシタ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "長男は父と、弟は母と座りました。",
+      "readingInput": "ちょうなんはちちと、おとうとはハハとすわりました。",
+      "expectedMoras": "チョオナンワチチトオトオトワハハトスワリマシタ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "長方形の紙を半分に折りました。",
+      "readingInput": "ちょーほーけいのかみをはんぶんにおりました。",
+      "expectedMoras": "チョオホオケイノカミオハンブンニオリマシタ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-07",
+      "text": "塩やしょうゆなどの調味料を、棚に並べました。",
+      "readingInput": "しおやしょうゆなどのちょーみりょうを、たなにならべました。",
+      "expectedMoras": "シオヤショオユナドノチョオミリョオオタナニナラベマシタ",
+      "reason": "Exact newly introduced phrase: lexical は/母 and uninterrupted long-o syllables. Fresh synthesized mora sequence checked; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-08",
+      "text": "東西",
+      "readingInput": "とーざい",
+      "expectedMoras": "トオザイ",
+      "reason": "Exact newly introduced long-o syllables in 東西 and 太陽; fresh query inspected. No global contraction across verb endings or particles; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-08",
+      "text": "とうざい",
+      "readingInput": "とーざい",
+      "expectedMoras": "トオザイ",
+      "reason": "Exact newly introduced long-o syllables in 東西 and 太陽; fresh query inspected. No global contraction across verb endings or particles; native intonation review remains separate."
+    },
+    {
+      "unit": "n2-vocab-08",
+      "text": "雲が切れ、太陽が照り始めました。",
+      "readingInput": "くもがきれ、たいよーがてりはじめました。",
+      "expectedMoras": "クモガキレタイヨオガテリハジメマシタ",
+      "reason": "Exact newly introduced long-o syllables in 東西 and 太陽; fresh query inspected. No global contraction across verb endings or particles; native intonation review remains separate."
     }
   ]
 }
