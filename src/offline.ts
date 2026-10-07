@@ -10,6 +10,47 @@ import cast from "./generated/cast-auditions.json";
 /* Audio is cached the first time it plays (see vite.config.ts). This opt-in
    fills the same cache with every lesson clip, for study with no connection. */
 const cacheName = "shiori-audio";
+// Retry short connection failures, but report missing files immediately. A
+// completed batch settles before the caller enables Retry, so old callbacks
+// cannot overwrite the next attempt's progress. Previously saved clips survive.
+async function cacheAsset(cache: Cache, url: string) {
+  if (await cache.match(url)) return;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    let response: Response;
+    try {
+      response = await fetch(url);
+    } catch {
+      if (attempt < 2) {
+        await new Promise((resolve) =>
+          setTimeout(resolve, 200 * (attempt + 1)),
+        );
+        continue;
+      }
+      throw new Error(
+        "The download stopped. Check your connection and try again; saved files will be kept.",
+      );
+    }
+    if (!response.ok) {
+      if (response.status >= 500 && attempt < 2) {
+        await new Promise((resolve) =>
+          setTimeout(resolve, 200 * (attempt + 1)),
+        );
+        continue;
+      }
+      throw new Error(
+        `A course file could not be downloaded (${response.status}). Reload Shiori online and try again.`,
+      );
+    }
+    try {
+      await cache.put(url, response);
+      return;
+    } catch {
+      throw new Error(
+        "This browser couldn’t save more files. Check available storage, then try again; saved files will be kept.",
+      );
+    }
+  }
+}
 export const lessonAudioUrls = () =>
   [
     ...new Set([
@@ -58,18 +99,19 @@ export async function saveAudioOffline(
     );
   const assets: string[] = await response.json();
   const courseCache = await caches.open("shiori-course");
-  for (const url of assets)
-    if (!(await courseCache.match(url))) await courseCache.add(url);
+  for (const url of assets) await cacheAsset(courseCache, url);
   const cache = await caches.open(cacheName);
   const urls = lessonAudioUrls();
   let done = 0;
   // A few at a time keeps the page responsive on slow connections.
   for (let i = 0; i < urls.length; i += 8) {
-    await Promise.all(
+    const results = await Promise.allSettled(
       urls.slice(i, i + 8).map(async (url) => {
-        if (!(await cache.match(url))) await cache.add(url);
+        await cacheAsset(cache, url);
         onProgress(++done, urls.length);
       }),
     );
+    const failure = results.find((result) => result.status === "rejected");
+    if (failure?.status === "rejected") throw failure.reason;
   }
 }

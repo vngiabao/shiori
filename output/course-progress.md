@@ -2,6 +2,21 @@
 
 Updated 2026-10-07. Authorized scope: N4 → N3 → N2 → N1 → twelve workplace-keigo scenarios, then deploy to shiori.gbaonvo.com. Chinese stays read-only. Preserve design, auth, database identity and recordings. A separate backup branch may be pushed only after verifying that it cannot trigger a production deployment; otherwise keep local commits and record the uncertainty. Final deploy and removal of Shiori's extra Access gate authorized after completion.
 
+## All twelve workplace-keigo scenarios verified — 2026-10-07
+
+All core units N5/N4/N3/N2/N1 and all twelve workplace scenarios are authored and internally checked; native review remains pending. Keigo adds 248 restricted-JMdict spelling/reading pairs, twelve lessons, 36 notes / 108 examples, 24 scenes / 238 lines, twelve documents and 168 contextual tasks. The last scenarios cover interviews, client visits and seasonal greetings without implying a job offer, an approved extra order or a decided future price.
+
+Final TypeScript, 128 unit tests / twenty files, 24 Python tests, content/dictionary/ledger/JLPT294, five audio validators, full twelve-scenario browser checks and final U11/U12 reruns pass. Phone/desktop reading viewport screenshots inspected. Preserved all 11,775 earlier Clear keys and 1,635 unchanged dialogue mappings from 1982b33; all 210 new WAVs referenced, 133 historical takes retained. Current 11,984 Clear keys / 11,996 synthesis records / 1,695 scene takes. Single-mora kana still passes no-extra-phoneme checks; native/perceptual review is separate.
+
+Offline saving now recovers from a failed connection: the button re-enables, finished batches settle before retry, downloaded clips remain, brief connection failures retry, and missing files/storage failures are reported. Three meaningful regression tests cover transient retry, missing-file recovery/batch settlement and storage exhaustion. Real production-preview test interrupted the download, retried it, then reloaded and played recordings offline. Report 2026-10-07T11:08:55.434Z: nineteen cached course chunks, 100 teacher clips, 1,695 scene clips, 2,855 deck audio URLs, twenty-two deck examples played. Install precache 1,791 entries / 12,572.50 KiB, below 15 MiB. Logs output/keigo-core-retry-gates.log, keigo-core-source-audio.log, keigo-core-final-preservation.log. Design, owner auth and database identity unchanged; no production deploy.
+
+Current inventory: 103 packs / 4,192 entries / 345 lessons / 289 notes / 167 scenes / 96 genre readings (46,620 characters) / 1,435 kanji references. These are authored records, not learned vocabulary or proficiency evidence.
+
+Exact next: finish remaining source-backed N3/N2/N1 vocabulary/kanji decks and N2/N1 written banks, final cross-course review/checks, then the already-authorised migration, push/deploy and removal of only Shiori's Access gate. Draft n3-vocab-05.txt and its small compiler register additions are NOT yet installed or verified. Preserve design, auth, data and old audio; backup only course-build before completion, never main. Native listening/editor review and the owner's two-device sync test remain separate.
+
+
+## Earlier verified checkpoints
+
 ## Workplace-keigo U1–9 verified checkpoint — 2026-10-07
 
 Nine scenarios: 188 new restricted-JMdict pairs, nine lessons, twenty-seven notes / eighty-one examples, eighteen scenes / 178 lines, nine documents and 126 contextual tasks. U7–9 add apology, negotiation and presentation. The delayed twenty copies are received explicitly before the next job; a reduced-budget sample does not imply an order; presentation questions and Friday-five reply stay separate from Monday order approval. Actual 五分 duration is pinned to ごふん, not ごぶ. Precise reading/gloss fixes are canonical; do not rerun ignored author helpers.

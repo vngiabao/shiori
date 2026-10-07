@@ -1,0 +1,48 @@
+{
+  "unit": "keigo-u12",
+  "checkedAt": "2026-10-07",
+  "status": "Original AI-assisted draft; source, editorial, query/audio, browser and offline checks passed; native review pending.",
+  "method": "Original December company greeting with actual earlier table project and a separate undecided next-year enquiry.",
+  "points": [
+    {
+      "form": "past support and continuing relationship",
+      "sources": [
+        "https://business-mail.jp/expert/11618",
+        "https://www.post.japanpost.jp/enjoy/culture/howto/navi/287.html"
+      ],
+      "teachingChoice": "Full relevant Association 84–141 and Postal own example 25–31 read. Personal project detail and temporal distinction; no copied organisation/address/template."
+    },
+    {
+      "form": "before/after New Year wishes",
+      "sources": [
+        "https://ba.jpf.go.jp/wp-content/uploads/2017/03/%E3%80%94%E6%94%B9%E8%A8%82%E7%89%88%E3%80%954%E5%B7%BB%E7%9B%AE%E3%80%80%E3%81%A0%E3%81%8416%E3%81%8B%EF%BD%9E%E3%81%A0%E3%81%8421%E3%81%8B.pdf",
+        "https://www.post.japanpost.jp/enjoy/culture/howto/navi/012.html"
+      ],
+      "teachingChoice": "JF full relevant PDF page4 / lines64–84 and Postal example 25–32 read; selected timing, not lottery dates, regional calendars or universal mourning rules."
+    },
+    {
+      "form": "own 休業/再開/ご案内いたします",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "teachingChoice": "Previously fully inspected own-side courteous actions applied to fictional closure and reopening dates."
+    }
+  ],
+  "sourceCautions": [
+    "All dates are fictional company facts; no year, weekday or national holiday assertion.",
+    "Seasonal peripheral headwords are dictionary references, not mandatory gift/card/formality instructions. 松の内 duration varies; no fixed universal date taught.",
+    "Searches for primary ご自愛 advice did not expose reliable full relevant text; no scored etiquette claim or dedicated form note is built from those snippets.",
+    "Association send-date and upbeat-language advice is not made an absolute scored language rule. JF old historical-era or postal-prize information is not imported."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      202
+    ]
+  },
+  "verification": "All twelve scenario browser cases pass; final U11/U12 rerun after editorial correction. Five audio validators, 128 unit tests, 24 Python tests and production offline interruption/retry pass. See output/review-keigo.md."
+}

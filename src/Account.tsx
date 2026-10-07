@@ -536,6 +536,7 @@ export function Progress({
 /** Opt-in download of every lesson clip, so study works with no connection. */
 function OfflineAudio() {
   const [progress, setProgress] = useState<[number, number] | null>(null);
+  const [saving, setSaving] = useState(false);
   const [status, setStatus] = useState("");
   return (
     <section className="offline-audio" aria-labelledby="offline-audio">
@@ -547,8 +548,10 @@ function OfflineAudio() {
       </p>
       <Button
         secondary
-        disabled={progress !== null && progress[0] < progress[1]}
+        disabled={saving}
         onClick={async () => {
+          setSaving(true);
+          setProgress(null);
           setStatus("");
           try {
             await saveAudioOffline((done, total) => setProgress([done, total]));
@@ -557,11 +560,15 @@ function OfflineAudio() {
             setStatus(
               (e as Error).message || "Could not save audio. Try again online.",
             );
+          } finally {
+            setSaving(false);
           }
         }}
       >
-        {progress && progress[0] < progress[1]
-          ? `Saving ${progress[0]} of ${progress[1]}…`
+        {saving
+          ? progress
+            ? `Saving ${progress[0]} of ${progress[1]}…`
+            : "Preparing download…"
           : "Save lesson audio for offline"}
       </Button>
       {status && <p role="status">{status}</p>}

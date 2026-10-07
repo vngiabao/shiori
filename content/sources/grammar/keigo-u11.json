@@ -1,0 +1,48 @@
+{
+  "unit": "keigo-u11",
+  "checkedAt": "2026-10-07",
+  "status": "Original AI-assisted draft; source, editorial, query/audio, browser and offline checks passed; native review pending.",
+  "method": "Original Tuesday client visit with an existing order and separately unapproved enlarged sheet. No ritual manners, seating or gift requirement is scored.",
+  "points": [
+    {
+      "form": "directed 伺う versus listener-oriented 参る; entry お邪魔します",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter6/detail.html",
+        "https://www.mlcjapanese.co.jp/Download/Keigo.pdf"
+      ],
+      "teachingChoice": "Agency full relevant 49–86 and MLC full one-page table read; selected guest movements and entry greeting."
+    },
+    {
+      "form": "external own-company references",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter7/detail.html"
+      ],
+      "teachingChoice": "Full relevant 49–101 read. 課長の石川 externally, selected internal direct address distinguished. School exceptions not generalised."
+    },
+    {
+      "form": "thanks plus promised follow-up",
+      "sources": [
+        "https://business-mail.jp/example/516",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "teachingChoice": "Association authored relevant 34–50 read for purpose and follow-up; all facts and prose original, not their template or addresses."
+    }
+  ],
+  "sourceCautions": [
+    "Agency notes multiple internal relational choices; only specified external-company context is tested.",
+    "茶菓 selected ちゃか, 上座かみざ and 下座しもざ are dictionary-supported senses, not universal seating or gift rules.",
+    "Monday order is confirmed explicitly here; extra sheet remains separate and unapproved.",
+    "No source certifies invented prices, office geography or character events."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      197
+    ]
+  },
+  "verification": "All twelve scenario browser cases pass; final U11/U12 rerun after editorial correction. Five audio validators, 128 unit tests, 24 Python tests and production offline interruption/retry pass. See output/review-keigo.md."
+}

@@ -1,0 +1,50 @@
+{
+  "unit": "keigo-u10",
+  "checkedAt": "2026-10-07",
+  "status": "Original AI-assisted draft; source, editorial, query/audio, browser and offline checks passed; native review pending.",
+  "method": "Original internal mock interview retrieves the preceding real sample revision; no new hire or actual job change implied.",
+  "points": [
+    {
+      "form": "own 申します / しております / いたしました",
+      "sources": [
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html",
+        "https://www.job-card.mhlw.go.jp/column/job-seeker/interview"
+      ],
+      "teachingChoice": "Name, present role and past experience stay distinct; concrete own contribution and actual client feedback."
+    },
+    {
+      "form": "spoken 御社 / written 貴社 / own 弊社",
+      "sources": [
+        "https://tenshoku.mynavi.jp/knowhow/caripedia/20/",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "teachingChoice": "Mynavi own recruitment editorial relevant company-reference sections read; agency supports roles, not independent lexical verification."
+    },
+    {
+      "form": "question permission and specific action/result",
+      "sources": [
+        "https://www.job-card.mhlw.go.jp/column/job-seeker/interview",
+        "https://www.mlcjapanese.co.jp/keigo_04.html",
+        "https://www.bunka.go.jp/seisaku/kokugo_nihongo/kokugo_shisaku/keigo/chapter2/detail.html"
+      ],
+      "teachingChoice": "Selected 伺う and receiving an explanation; no unsupported measured improvement or claim of sole ownership."
+    }
+  ],
+  "sourceCautions": [
+    "MHLW guide is interview advice, not a universal rubric. Its seating/timing absolutes and suggested positive spin are not scored language rules.",
+    "Mynavi extra-prefix claim is not extended mechanically to all titles or institutions. Company reference scope only.",
+    "JASSO actual December PDF was found but timed out on relevant full-text retrieval this turn; not relied on as newly inspected evidence. Guessed JobCard explain16 and MHLW PDF link failed; no claims of inspection.",
+    "Reference 内々定 is a preliminary offer, not a guarantee of employment; employment categories are vocabulary, not legal guidance."
+  ],
+  "checks": {
+    "wordPairs": 20,
+    "lessons": 1,
+    "notes": 3,
+    "sceneLines": 20,
+    "tasks": 14,
+    "readingLengths": [
+      168
+    ]
+  },
+  "verification": "All twelve scenario browser cases pass; final U11/U12 rerun after editorial correction. Five audio validators, 128 unit tests, 24 Python tests and production offline interruption/retry pass. See output/review-keigo.md."
+}

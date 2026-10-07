@@ -6,7 +6,7 @@ const takes = JSON.parse(readFileSync("src/generated/dialogue-voices.json", "utf
 const manifest = JSON.parse(readFileSync("src/generated/audio.json", "utf8"));
 const plain = (s: string) => s.replace(/\{([^|{}]+)\|[^{}]+\}/g, "$1");
 
-for (const id of ["keigo-u01", "keigo-u02", "keigo-u03", "keigo-u04", "keigo-u05", "keigo-u06", "keigo-u07", "keigo-u08", "keigo-u09"]) {
+for (const id of ["keigo-u01", "keigo-u02", "keigo-u03", "keigo-u04", "keigo-u05", "keigo-u06", "keigo-u07", "keigo-u08", "keigo-u09", "keigo-u10", "keigo-u11", "keigo-u12"]) {
   const pack = JSON.parse(readFileSync(`content/packs/${id}.json`, "utf8"));
   test(`${id} completes both conversations, contextual tasks and mapped feedback`, async ({ page }) => {
     test.setTimeout(120000);
@@ -131,6 +131,8 @@ for (const id of ["keigo-u01", "keigo-u02", "keigo-u03", "keigo-u04", "keigo-u05
       expect((await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21aa"]).analyze()).violations).toEqual([]);
       await region.scrollIntoViewIfNeeded();
       await page.evaluate(() => (document.activeElement as HTMLElement)?.blur());
+      await region.evaluate(el => window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - 110));
+      await page.screenshot({ path: `output/${id}-reading-viewport-${theme}-${width}.png` });
       await page.screenshot({ path: `output/${id}-reading-detail-${theme}-${width}.png`, fullPage: true });
       await region.screenshot({ path: `output/${id}-document-${theme}-${width}.png` });
     }

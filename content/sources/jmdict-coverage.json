@@ -1,9 +1,9 @@
 {
-  "totalWords": 4132,
-  "uniqueForms": 4088,
+  "totalWords": 4192,
+  "uniqueForms": 4148,
   "counts": {
     "excluded-drill": 157,
-    "matched": 3890,
+    "matched": 3950,
     "unmatched": 81,
     "name-unverified": 4
   },
@@ -5173,6 +5173,793 @@
       ],
       "entryIds": [
         "1370480"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v01",
+      "text": "求職者",
+      "kana": "きゅうしょくしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゅうしょくしゃ"
+      ],
+      "entryIds": [
+        "1229480"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v02",
+      "text": "求人票",
+      "kana": "きゅうじんひょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゅうじんひょう"
+      ],
+      "entryIds": [
+        "2871285"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v03",
+      "text": "採用枠",
+      "kana": "さいようわく",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さいようわく"
+      ],
+      "entryIds": [
+        "2838611"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v04",
+      "text": "一次面接",
+      "kana": "いちじめんせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "いちじめんせつ"
+      ],
+      "entryIds": [
+        "2869672"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v05",
+      "text": "二次面接",
+      "kana": "にじめんせつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "にじめんせつ"
+      ],
+      "entryIds": [
+        "2869673"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v06",
+      "text": "職務経歴書",
+      "kana": "しょくむけいれきしょ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょくむけいれきしょ"
+      ],
+      "entryIds": [
+        "2211450"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v07",
+      "text": "自己評価",
+      "kana": "じこひょうか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じこひょうか"
+      ],
+      "entryIds": [
+        "2762510"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v08",
+      "text": "適性検査",
+      "kana": "てきせいけんさ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "てきせいけんさ"
+      ],
+      "entryIds": [
+        "1734980"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v09",
+      "text": "筆記試験",
+      "kana": "ひっきしけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ひっきしけん"
+      ],
+      "entryIds": [
+        "1487810"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v10",
+      "text": "実技試験",
+      "kana": "じつぎしけん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じつぎしけん"
+      ],
+      "entryIds": [
+        "2852831"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v11",
+      "text": "採否",
+      "kana": "さいひ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さいひ"
+      ],
+      "entryIds": [
+        "1294860"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v12",
+      "text": "合否",
+      "kana": "ごうひ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ごうひ"
+      ],
+      "entryIds": [
+        "1285200"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v13",
+      "text": "内々定",
+      "kana": "ないないてい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ないないてい"
+      ],
+      "entryIds": [
+        "2721280"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v14",
+      "text": "契約社員",
+      "kana": "けいやくしゃいん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けいやくしゃいん"
+      ],
+      "entryIds": [
+        "1991390"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v15",
+      "text": "派遣社員",
+      "kana": "はけんしゃいん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "はけんしゃいん"
+      ],
+      "entryIds": [
+        "1999690"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v16",
+      "text": "試用期間",
+      "kana": "しようきかん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しようきかん"
+      ],
+      "entryIds": [
+        "1312560"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v17",
+      "text": "研修生",
+      "kana": "けんしゅうせい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "けんしゅうせい"
+      ],
+      "entryIds": [
+        "1258690"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v18",
+      "text": "受験票",
+      "kana": "じゅけんひょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じゅけんひょう"
+      ],
+      "entryIds": [
+        "1697910"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v19",
+      "text": "履歴",
+      "kana": "りれき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "りれき"
+      ],
+      "entryIds": [
+        "1549810"
+      ]
+    },
+    {
+      "pack": "keigo-u10.json",
+      "id": "keigo-u10-w-v20",
+      "text": "募集要項",
+      "kana": "ぼしゅうようこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ぼしゅうようこう"
+      ],
+      "entryIds": [
+        "2848155"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v01",
+      "text": "敷地",
+      "kana": "しきち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しきち"
+      ],
+      "entryIds": [
+        "1497060"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v02",
+      "text": "門扉",
+      "kana": "もんぴ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "もんぴ"
+      ],
+      "entryIds": [
+        "1536270"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v03",
+      "text": "玄関口",
+      "kana": "げんかんぐち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げんかんぐち"
+      ],
+      "entryIds": [
+        "2423240"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v04",
+      "text": "訪問先",
+      "kana": "ほうもんさき",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ほうもんさき"
+      ],
+      "entryIds": [
+        "2702670"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v05",
+      "text": "退出",
+      "kana": "たいしゅつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "たいしゅつ"
+      ],
+      "entryIds": [
+        "1411410"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v06",
+      "text": "菓子折",
+      "kana": "かしおり",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かしおり"
+      ],
+      "entryIds": [
+        "1865190"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v07",
+      "text": "茶菓",
+      "kana": "ちゃか",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さか",
+        "ちゃか"
+      ],
+      "entryIds": [
+        "1422640"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v08",
+      "text": "応接間",
+      "kana": "おうせつま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "おうせつま"
+      ],
+      "entryIds": [
+        "1179950"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v09",
+      "text": "客間",
+      "kana": "きゃくま",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゃくま"
+      ],
+      "entryIds": [
+        "1226710"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v10",
+      "text": "名刺入れ",
+      "kana": "めいしいれ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "めいしいれ"
+      ],
+      "entryIds": [
+        "1752260"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v11",
+      "text": "開門",
+      "kana": "かいもん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かいもん"
+      ],
+      "entryIds": [
+        "1202980"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v12",
+      "text": "閉門",
+      "kana": "へいもん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "へいもん"
+      ],
+      "entryIds": [
+        "1732210"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v13",
+      "text": "裏門",
+      "kana": "うらもん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "うらもん"
+      ],
+      "entryIds": [
+        "1550740"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v14",
+      "text": "控室",
+      "kana": "ひかえしつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ひかえしつ"
+      ],
+      "entryIds": [
+        "1601430"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v15",
+      "text": "上座",
+      "kana": "かみざ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かみざ",
+        "じょうざ"
+      ],
+      "entryIds": [
+        "1580390"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v16",
+      "text": "下座",
+      "kana": "しもざ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "げざ",
+        "しもざ"
+      ],
+      "entryIds": [
+        "1184980",
+        "1184990"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v17",
+      "text": "同行者",
+      "kana": "どうこうしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "どうこうしゃ"
+      ],
+      "entryIds": [
+        "1452350"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v18",
+      "text": "同席者",
+      "kana": "どうせきしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "どうせきしゃ"
+      ],
+      "entryIds": [
+        "2851079"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v19",
+      "text": "所在地",
+      "kana": "しょざいち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょざいち"
+      ],
+      "entryIds": [
+        "1343220"
+      ]
+    },
+    {
+      "pack": "keigo-u11.json",
+      "id": "keigo-u11-w-v20",
+      "text": "社用車",
+      "kana": "しゃようしゃ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しゃようしゃ"
+      ],
+      "entryIds": [
+        "1322970"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v01",
+      "text": "年の瀬",
+      "kana": "としのせ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "としのせ"
+      ],
+      "entryIds": [
+        "1468130"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v02",
+      "text": "歳末",
+      "kana": "さいまつ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "さいまつ"
+      ],
+      "entryIds": [
+        "1295010"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v03",
+      "text": "年頭",
+      "kana": "ねんとう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "としがしら",
+        "ねんとう"
+      ],
+      "entryIds": [
+        "1582880"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v04",
+      "text": "年始",
+      "kana": "ねんし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ねんし"
+      ],
+      "entryIds": [
+        "1468730"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v05",
+      "text": "年末年始",
+      "kana": "ねんまつねんし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ねんまつねんし"
+      ],
+      "entryIds": [
+        "2051780"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v06",
+      "text": "年賀状",
+      "kana": "ねんがじょう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ねんがじょう"
+      ],
+      "entryIds": [
+        "1468250"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v07",
+      "text": "賀詞",
+      "kana": "がし",
+      "status": "matched",
+      "dictionaryReadings": [
+        "がし"
+      ],
+      "entryIds": [
+        "1197790"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v08",
+      "text": "暑中見舞い",
+      "kana": "しょちゅうみまい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しょちゅうみまい"
+      ],
+      "entryIds": [
+        "1595050"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v09",
+      "text": "残暑見舞い",
+      "kana": "ざんしょみまい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "ざんしょみまい"
+      ],
+      "entryIds": [
+        "1919450"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v10",
+      "text": "寒中見舞い",
+      "kana": "かんちゅうみまい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "かんちゅうみまい"
+      ],
+      "entryIds": [
+        "2040230"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v11",
+      "text": "時候",
+      "kana": "じこう",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じこう"
+      ],
+      "entryIds": [
+        "1635010"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v12",
+      "text": "師走",
+      "kana": "しわす",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しはす",
+        "しわす"
+      ],
+      "entryIds": [
+        "1579500"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v13",
+      "text": "謹賀新年",
+      "kana": "きんがしんねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きんがしんねん"
+      ],
+      "entryIds": [
+        "1242060"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v14",
+      "text": "松の内",
+      "kana": "まつのうち",
+      "status": "matched",
+      "dictionaryReadings": [
+        "まつのうち"
+      ],
+      "entryIds": [
+        "1677480"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v15",
+      "text": "旧年",
+      "kana": "きゅうねん",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゅうねん",
+        "ふるとし"
+      ],
+      "entryIds": [
+        "1577960"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v16",
+      "text": "自愛",
+      "kana": "じあい",
+      "status": "matched",
+      "dictionaryReadings": [
+        "じあい"
+      ],
+      "entryIds": [
+        "1317360"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v17",
+      "text": "愛顧",
+      "kana": "あいこ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "あいこ"
+      ],
+      "entryIds": [
+        "1150660"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v18",
+      "text": "休業日",
+      "kana": "きゅうぎょうび",
+      "status": "matched",
+      "dictionaryReadings": [
+        "きゅうぎょうび"
+      ],
+      "entryIds": [
+        "1227710"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v19",
+      "text": "仕事納め",
+      "kana": "しごとおさめ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しごとおさめ"
+      ],
+      "entryIds": [
+        "2829599"
+      ]
+    },
+    {
+      "pack": "keigo-u12.json",
+      "id": "keigo-u12-w-v20",
+      "text": "仕事始め",
+      "kana": "しごとはじめ",
+      "status": "matched",
+      "dictionaryReadings": [
+        "しごとはじめ"
+      ],
+      "entryIds": [
+        "2133380"
       ]
     },
     {

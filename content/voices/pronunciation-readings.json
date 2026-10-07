@@ -378,6 +378,48 @@
       "expectedMoras": "ゴフンデセツメエスルナラヘンコオテントリョオキンノジュンガイイネ",
       "unit": "keigo-u09",
       "reason": "New-key preflight: 五分 here is a five-minute duration, ごふん, not ごぶ. Full mora sequence inspected before synthesis; native intonation remains separate."
+    },
+    {
+      "text": "名前と現在の担当を話して、その後に経験を一つ挙げます。",
+      "readingInput": "名前と現在の担当を話して、そのあとに経験を一つ挙げます。",
+      "expectedMoras": "ナマエトゲンザイノタントオオハナシテソノアトニケエケンオヒトツアゲマス",
+      "unit": "keigo-u10",
+      "reason": "Authored contextual そのあと and person 方かた; inspected query disagreed before correction. Not native intonation review."
+    },
+    {
+      "text": "御社でも、使う方の立場で資料を確認したいと考えております。最後に、研修について伺ってもよろしいでしょうか。",
+      "readingInput": "御社でも、使うかたの立場で資料を確認したいと考えております。最後に、研修について伺ってもよろしいでしょうか。",
+      "expectedMoras": "オンシャデモツカウカタノタチバデシリョオオカクニンシタイトカンガエテオリマスサイゴニケンシュウニツイテウカガッテモヨロシイデショオカ",
+      "unit": "keigo-u10",
+      "reason": "Authored contextual そのあと and person 方かた; inspected query disagreed before correction. Not native intonation review."
+    },
+    {
+      "text": "閉門",
+      "readingInput": "閉門",
+      "expectedMoras": "ヘエモン",
+      "unit": "keigo-u11",
+      "reason": "The automatic hiragana query treats initial へ as a particle; kanji analysis preserves the initial h. Full new-key query inspected; native intonation review remains separate."
+    },
+    {
+      "text": "へいもん",
+      "readingInput": "閉門",
+      "expectedMoras": "ヘエモン",
+      "unit": "keigo-u11",
+      "reason": "The taught headword has an initial h, not the particle pronunciation e. Full new-key query inspected; native intonation review remains separate."
+    },
+    {
+      "text": "いいね。田村さんなら、表を一緒に直した話を一言入れよう。",
+      "readingInput": "いいね。田村さんなら、表を一緒に直した話をひとこと入れよう。",
+      "expectedMoras": "イイネタムラサンナラヒョオオイッショニナオシタハナシオヒトコトイレヨオ",
+      "unit": "keigo-u12",
+      "reason": "A brief mention is ひとこと here, not いちげん. Full new-key query inspected; native intonation review remains separate."
+    },
+    {
+      "text": "旧年中はお世話になりました。",
+      "readingInput": "きゅうねんちゅうわお世話になりました。",
+      "expectedMoras": "キュウネンチュウワオセワニナリマシタ",
+      "unit": "keigo-u12",
+      "reason": "The authored previous-year span is きゅうねんちゅう; retain topic-particle wa. Full new-key query inspected; native intonation review remains separate."
     }
   ]
 }

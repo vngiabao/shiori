@@ -9,4 +9,7 @@ import pack5 from "../../content/packs/keigo-u06.json";
 import pack6 from "../../content/packs/keigo-u07.json";
 import pack7 from "../../content/packs/keigo-u08.json";
 import pack8 from "../../content/packs/keigo-u09.json";
-export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8] as unknown as Pack[];
+import pack9 from "../../content/packs/keigo-u10.json";
+import pack10 from "../../content/packs/keigo-u11.json";
+import pack11 from "../../content/packs/keigo-u12.json";
+export default [pack0, pack1, pack2, pack3, pack4, pack5, pack6, pack7, pack8, pack9, pack10, pack11] as unknown as Pack[];

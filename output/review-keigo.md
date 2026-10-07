@@ -1,6 +1,6 @@
 # Workplace-keigo review — 2026-10-07
 
-The first nine of twelve scenarios are authored and verified. These are original AI-assisted drafts, with form-specific sources in content/sources/grammar/keigo-uNN.json; dictionary and signal checks do not certify naturalness or perceived acting.
+All twelve scenarios are authored and internally verified. These are original AI-assisted drafts, with form-specific sources in content/sources/grammar/keigo-uNN.json; dictionary and signal checks do not certify naturalness or perceived acting.
 
 ## Editorial findings and applied fixes
 
@@ -21,7 +21,7 @@ All six focused browser cases pass; U1–5 ran together and U6 separately. Brows
 
 All 11,125 baseline Clear keys and 1,457 prior scene mappings from cebd833 are preserved; all 425 new WAVs are mapped, including one retained superseded take. 132 historical takes remain indexed. Current 11,559 Clear keys / 11,571 synthesis records / 1,575 dialogue takes. The single-mora vowels still pass no-added-phoneme checks.
 
-## Remaining work
+## Historical remaining work at the six-unit checkpoint
 
 U7–12, the remaining source-backed N3/N2/N1 decks and N2/N1 JLPT expansion, whole-course final review and deployment are unfinished. U7 apology is authored but not yet compiled/checked. Owner-only Google sync and live Access removal wait for the final authorised deployment. No production deployment at this checkpoint. Native/editor listening review and the owner’s two-device sync test remain separate.
 
@@ -35,3 +35,18 @@ Final TypeScript, 125 unit tests / nineteen files, 24 Python tests, source/conte
 Exact next: U10 interview and U11 client visit are authored but NOT compiled/verified. Finish U10, then U11 and U12 seasonal greetings, before remaining N3/N2/N1 decks and N2/N1 JLPT banks, whole-course checks and the authorised final deploy. Keep design, auth, database and old recordings; backup only course-build, never main before completion.
 
 U7: original accepted order/30+20 deficit, possible recovery and pending receipt. U8: receipt closed at 16:20; different later event, tax-inclusive fictional quote, sample and pending client choice. U9: unchanged content, numbered key, five-minute purpose, unconfirmed earlier delivery and exact reply deadline. No gift, seating, cultural or acting certification is inferred.
+
+
+## All twelve workplace-keigo scenarios verified — 2026-10-07
+
+All core units N5/N4/N3/N2/N1 and all twelve workplace scenarios are authored and internally checked; native review remains pending. Keigo adds 248 restricted-JMdict spelling/reading pairs, twelve lessons, 36 notes / 108 examples, 24 scenes / 238 lines, twelve documents and 168 contextual tasks. The last scenarios cover interviews, client visits and seasonal greetings without implying a job offer, an approved extra order or a decided future price.
+
+Final TypeScript, 128 unit tests / twenty files, 24 Python tests, content/dictionary/ledger/JLPT294, five audio validators, full twelve-scenario browser checks and final U11/U12 reruns pass. Phone/desktop reading viewport screenshots inspected. Preserved all 11,775 earlier Clear keys and 1,635 unchanged dialogue mappings from 1982b33; all 210 new WAVs referenced, 133 historical takes retained. Current 11,984 Clear keys / 11,996 synthesis records / 1,695 scene takes. Single-mora kana still passes no-extra-phoneme checks; native/perceptual review is separate.
+
+Offline saving now recovers from a failed connection: the button re-enables, finished batches settle before retry, downloaded clips remain, brief connection failures retry, and missing files/storage failures are reported. Three meaningful regression tests cover transient retry, missing-file recovery/batch settlement and storage exhaustion. Real production-preview test interrupted the download, retried it, then reloaded and played recordings offline. Report 2026-10-07T11:08:55.434Z: nineteen cached course chunks, 100 teacher clips, 1,695 scene clips, 2,855 deck audio URLs, twenty-two deck examples played. Install precache 1,791 entries / 12,572.50 KiB, below 15 MiB. Logs output/keigo-core-retry-gates.log, keigo-core-source-audio.log, keigo-core-final-preservation.log. Design, owner auth and database identity unchanged; no production deploy.
+
+Current inventory: 103 packs / 4,192 entries / 345 lessons / 289 notes / 167 scenes / 96 genre readings (46,620 characters) / 1,435 kanji references. These are authored records, not learned vocabulary or proficiency evidence.
+
+Exact next: finish remaining source-backed N3/N2/N1 vocabulary/kanji decks and N2/N1 written banks, final cross-course review/checks, then the already-authorised migration, push/deploy and removal of only Shiori's Access gate. Draft n3-vocab-05.txt and its small compiler register additions are NOT yet installed or verified. Preserve design, auth, data and old audio; backup only course-build before completion, never main. Native listening/editor review and the owner's two-device sync test remain separate.
+
+Final editorial fixes: U10 is an internal mock interview, not a completed application or offer; no unmeasured speed gain is claimed. U11 references the earlier table key naturally, drops the forced self-evaluation callback, and answers the client's pricing concern by promising to confirm and explain any extra charge first. The extra sheet stays unapproved; Wednesday-noon follow-up and the front-gate instruction are explicit. Sentence-build tiles and gloss coverage were corrected. U12 thanks reference the actual table work; closure through January 5 and replies from January 6 do not imply a new order. Exact query overrides correct 閉門's initial h, contextual 一言→ひとこと and 旧年中→きゅうねんちゅう; all earlier take bytes stay indexed.

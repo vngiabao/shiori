@@ -1,0 +1,897 @@
+{
+  "id": "keigo-u11",
+  "title": "Keigo at work: visit a client",
+  "lesson": {
+    "title": "An agreed visit; a separate new request",
+    "description": "Arrive for an appointment, discuss one new request and follow up with an exact deadline.",
+    "canDo": "Recognise visitor and own-company language, and distinguish an existing order from a proposed addition.",
+    "minutes": 50
+  },
+  "words": [
+    [
+      "keigo-u11-w-v01",
+      "{敷地|しきち}",
+      "shikichi",
+      "grounds; a site",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v02",
+      "{門扉|もんぴ}",
+      "monpi",
+      "a gate",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v03",
+      "{玄関口|げんかんぐち}",
+      "genkan guchi",
+      "an entrance",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v04",
+      "{訪問先|ほうもんさき}",
+      "hōmon saki",
+      "a place or person being visited",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v05",
+      "{退出|たいしゅつ}",
+      "taishutsu",
+      "leaving a room or meeting",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v06",
+      "{菓子折|かしおり}",
+      "kashiori",
+      "a box of confectionery",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v07",
+      "{茶菓|ちゃか}",
+      "chaka",
+      "tea and refreshments",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v08",
+      "{応接間|おうせつま}",
+      "ōsetsuma",
+      "a reception room",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v09",
+      "{客間|きゃくま}",
+      "kyakuma",
+      "a guest room",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v10",
+      "{名刺入れ|めいしいれ}",
+      "meishi ire",
+      "a business-card holder",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v11",
+      "{開門|かいもん}",
+      "kaimon",
+      "opening a gate",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v12",
+      "{閉門|へいもん}",
+      "heimon",
+      "closing a gate",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v13",
+      "{裏門|うらもん}",
+      "uramon",
+      "a back gate",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v14",
+      "{控室|ひかえしつ}",
+      "hikaeshitsu",
+      "a waiting room",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v15",
+      "{上座|かみざ}",
+      "kamiza",
+      "the seat of honour",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v16",
+      "{下座|しもざ}",
+      "shimoza",
+      "a lower-ranking seat",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v17",
+      "{同行者|どうこうしゃ}",
+      "dōkōsha",
+      "a person accompanying someone",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v18",
+      "{同席者|どうせきしゃ}",
+      "dōsekisha",
+      "someone present at the same meeting",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v19",
+      "{所在地|しょざいち}",
+      "shozaichi",
+      "a location or address",
+      "neutral"
+    ],
+    [
+      "keigo-u11-w-v20",
+      "{社用車|しゃようしゃ}",
+      "shayōsha",
+      "a company vehicle",
+      "neutral"
+    ]
+  ],
+  "grammar": [
+    {
+      "id": "keigo-u11-g-visit",
+      "title": "Visit the client: your movement, their welcome",
+      "explanation": "伺います describes your visit to the client. 参ります is a courteous account of your own movement to the listener; it does not by itself mark the person visited. お邪魔します is an entry greeting. In this visit, the guest moves and the client welcomes them.",
+      "formation": "Selected 訪ねる → 伺う; 行く/来る → 参る. Entry greeting お邪魔します. These are not interchangeable with the client’s いらっしゃる.",
+      "mistake": "Do not say that your client 伺います when welcoming them. For this lesson, choose 伺う when explicitly expressing respect for the person visited.",
+      "example": "あす、田村様のところに伺います。",
+      "translation": "I will visit Ms Tamura tomorrow.",
+      "examples": [
+        {
+          "ja": "あす、{田村様|たむらさま}のところに{伺|うかが}います。",
+          "en": "I will visit Ms Tamura tomorrow."
+        },
+        {
+          "ja": "{午後|ごご}に{参|まい}ります。",
+          "en": "I will come this afternoon."
+        },
+        {
+          "ja": "お{邪魔|じゃま}します。",
+          "en": "Thank you for having me. (On entering.)"
+        }
+      ],
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "lessons": [
+        "keigo-u11-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u11-g-inside",
+      "title": "Your manager when speaking to a client",
+      "explanation": "When speaking to the external client, your own manager belongs to your side. 課長の石川 gives the role and name without honouring your own side. Inside the company, addressing the manager as 石川課長 is appropriate in the selected scene.",
+      "formation": "External reference: 課長の石川 + own-side 申しております. Internal direct address: 石川課長. The task states who is listening.",
+      "mistake": "Do not tell the external client 石川課長がおっしゃいました in the selected own-side account. This company convention is not a universal rule for every school or family situation.",
+      "example": "課長の石川も伺います。",
+      "translation": "Our section manager Ishikawa will also visit.",
+      "examples": [
+        {
+          "ja": "{課長|かちょう}の{石川|いしかわ}も{伺|うかが}います。",
+          "en": "Our section manager Ishikawa will also visit."
+        },
+        {
+          "ja": "{石川|いしかわ}は{午後|ごご}なら{対応|たいおう}できると{申|もう}しております。",
+          "en": "Ishikawa says he can help in the afternoon."
+        },
+        {
+          "ja": "{石川課長|いしかわかちょう}、{資料|しりょう}を{確認|かくにん}しました。",
+          "en": "Manager Ishikawa, I checked the materials."
+        }
+      ],
+      "words": [
+        "keigo-u11-w-v17"
+      ],
+      "lessons": [
+        "keigo-u11-lesson"
+      ]
+    },
+    {
+      "id": "keigo-u11-g-thanks",
+      "title": "Thank them for their time; state the next action",
+      "explanation": "お時間をいただき、ありがとうございました thanks the host for the time you received. ご説明いただいた records an explanation you received from them. ご連絡いたします states your next contact; do not say a promised file has already arrived.",
+      "formation": "Selected noun + をいただき + ありがとうございました; ご説明いただいた + noun; own ご連絡いたします. Tense separates thanks for today from a future action.",
+      "mistake": "Do not turn a promised Wednesday reply into a completed reply. ご説明いたしました would describe your explanation, not the host’s.",
+      "example": "お時間をいただき、ありがとうございました。",
+      "translation": "Thank you for your time.",
+      "examples": [
+        {
+          "ja": "お{時間|じかん}をいただき、ありがとうございました。",
+          "en": "Thank you for your time."
+        },
+        {
+          "ja": "ご{説明|せつめい}いただいた{使|つか}い{方|かた}を{確認|かくにん}しました。",
+          "en": "I checked the use you explained to us."
+        },
+        {
+          "ja": "{水曜日|すいようび}の{正午|しょうご}までにご{連絡|れんらく}いたします。",
+          "en": "I will contact you by noon on Wednesday."
+        }
+      ],
+      "words": [
+        "keigo-u11-w-v18"
+      ],
+      "lessons": [
+        "keigo-u11-lesson"
+      ]
+    }
+  ],
+  "dialogues": [
+    {
+      "id": "keigo-u11-d-visit",
+      "lesson": "keigo-u11-lesson",
+      "title": "At the client’s office",
+      "scene": "The Monday fifty-copy order was confirmed. On Tuesday, You and Ishikawa attend an agreed two-o’clock visit. Tamura raises a separate request for one enlarged display sheet.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u11-w-v04",
+        "keigo-u11-w-v08",
+        "keigo-u09-w-v17"
+      ],
+      "lines": [
+        {
+          "speaker": "You",
+          "line": "こんにちは。{二時|にじ}にお{約束|やくそく}しております、バオと{申|もう}します。{課長|かちょう}の{石川|いしかわ}も{一緒|いっしょ}です。",
+          "romaji": "Konnichiwa. Niji ni oyakusoku shite orimasu, Bao to mōshimasu. Kachō no Ishikawa mo issho desu.",
+          "meaning": "Hello. My name is Bao; we have a two-o’clock appointment. Our manager Ishikawa is with me."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "お{待|ま}ちしておりました。こちらの{応接間|おうせつま}へどうぞ。",
+          "romaji": "Omachi shite orimashita. Kochira no ōsetsuma e dōzo.",
+          "meaning": "We’ve been expecting you. Please come to this reception room."
+        },
+        {
+          "speaker": "You",
+          "line": "お{邪魔|じゃま}します。{本日|ほんじつ}はお{時間|じかん}をいただき、ありがとうございます。",
+          "romaji": "Ojama shimasu. Honjitsu wa ojikan o itadaki, arigatō gozaimasu.",
+          "meaning": "Thank you for having us and making time for us today."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "お{掛|か}けください。{月曜日|げつようび}に{注文|ちゅうもん}した{五十部|ごじゅうぶ}の{件|けん}で、{一|ひと}つ{相談|そうだん}があります。",
+          "romaji": "Okake kudasai. Getsuyōbi ni chūmon shita gojūbu no ken de, hitotsu sōdan ga arimasu.",
+          "meaning": "Please sit down. I have one question about the fifty copies I ordered on Monday."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "はい、{伺|うかが}います。",
+          "romaji": "Hai, ukagaimasu.",
+          "meaning": "Yes, please tell us."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{表|ひょう}の{凡例|はんれい}は{読|よ}みやすくなりました。{会場|かいじょう}で{貼|は}るので、{一枚|いちまい}だけ{大|おお}きくできますか。",
+          "romaji": "Hyō no hanrei wa yomiyasuku narimashita. Kaijō de haru no de, ichimai dake ōkiku dekimasu ka.",
+          "meaning": "The table’s key is easier to read now. Can you enlarge just one sheet so we can display it at the venue?"
+        },
+        {
+          "speaker": "You",
+          "line": "{元|もと}の{内容|ないよう}は{変|か}えずに、{大|おお}きさだけですね。",
+          "romaji": "Moto no naiyō wa kaezu ni, ōkisa dake desu ne.",
+          "meaning": "Just the size, with the content unchanged, right?"
+        },
+        {
+          "speaker": "Tamura",
+          "line": "はい。{追加|ついか}の{料金|りょうきん}があれば、{先|さき}に{教|おし}えてください。",
+          "romaji": "Hai. Tsuika no ryōkin ga areba, saki ni oshiete kudasai.",
+          "meaning": "Yes. Please tell me first if there is an extra charge."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "{用紙|ようし}と{料金|りょうきん}を{確認|かくにん}いたします。{追加|ついか}{料金|りょうきん}がかかる{場合|ばあい}は、{先|さき}にご{案内|あんない}いたします。",
+          "romaji": "Yōshi to ryōkin o kakunin itashimasu. Tsuika ryōkin ga kakaru baai wa, saki ni goannai itashimasu.",
+          "meaning": "We’ll check the paper and price. If there is an extra charge, we’ll let you know first."
+        },
+        {
+          "speaker": "You",
+          "line": "{水曜日|すいようび}の{正午|しょうご}までに、ご{連絡|れんらく}いたします。",
+          "romaji": "Suiyōbi no shōgo made ni, gorenraku itashimasu.",
+          "meaning": "We’ll contact you by noon on Wednesday."
+        }
+      ]
+    },
+    {
+      "id": "keigo-u11-d-depart",
+      "lesson": "keigo-u11-lesson",
+      "title": "Leave with a clear next action",
+      "scene": "The client has not approved the enlarged sheet. The visitors agree on email follow-up, leave through the front entrance and prepare to check the price.",
+      "speed": 1.05,
+      "words": [
+        "keigo-u11-w-v03"
+      ],
+      "lines": [
+        {
+          "speaker": "Tamura",
+          "line": "では、{大|おお}きい{一枚|いちまい}は{料金|りょうきん}を{聞|き}いてから{決|き}めます。",
+          "romaji": "Dewa, ōkii ichimai wa ryōkin o kiite kara kimemasu.",
+          "meaning": "I’ll decide about the enlarged sheet after hearing the price."
+        },
+        {
+          "speaker": "You",
+          "line": "{承知|しょうち}しました。{五十部|ごじゅうぶ}の{注文|ちゅうもん}とは{別|べつ}に{確認|かくにん}いたします。",
+          "romaji": "Shōchi shimashita. Gojūbu no chūmon to wa betsu ni kakunin itashimasu.",
+          "meaning": "Understood. We’ll check it separately from the fifty-copy order."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "{連絡|れんらく}はメールでお{願|ねが}いします。{電話|でんわ}は{午後|ごご}しか{出|で}られません。",
+          "romaji": "Renraku wa mēru de onegai shimasu. Denwa wa gogo shika deraremasen.",
+          "meaning": "Please use email. I can only answer calls in the afternoon."
+        },
+        {
+          "speaker": "You",
+          "line": "はい、メールでお{伝|つた}えします。{本日|ほんじつ}はお{時間|じかん}をいただき、ありがとうございました。",
+          "romaji": "Hai, mēru de otsutae shimasu. Honjitsu wa ojikan o itadaki, arigatō gozaimashita.",
+          "meaning": "Yes, we’ll email you. Thank you for your time today."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "{今後|こんご}とも、よろしくお{願|ねが}いいたします。",
+          "romaji": "Kongo tomo, yoroshiku onegai itashimasu.",
+          "meaning": "We look forward to continuing to work with you."
+        },
+        {
+          "speaker": "Tamura",
+          "line": "こちらこそ。お{帰|かえ}りは{正面|しょうめん}の{玄関口|げんかんぐち}からどうぞ。{裏門|うらもん}は{閉|し}まっています。",
+          "romaji": "Kochira koso. Okaeri wa shōmen no genkan guchi kara dōzo. Uramon wa shimatte imasu.",
+          "meaning": "Likewise. Please leave through the front entrance. The back gate is closed."
+        },
+        {
+          "speaker": "You",
+          "line": "ありがとうございます。では、{失礼|しつれい}いたします。",
+          "romaji": "Arigatō gozaimasu. Dewa, shitsurei itashimasu.",
+          "meaning": "Thank you. We’ll be going now."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "バオさん、{会社|かいしゃ}に{戻|もど}ったら、{今日|きょう}の{相談|そうだん}をメモにまとめてください。",
+          "romaji": "Bao-san, kaisha ni modottara, kyō no sōdan o memo ni matomete kudasai.",
+          "meaning": "Bao, when we get back to the office, please summarise today’s request in a note."
+        },
+        {
+          "speaker": "You",
+          "line": "{追加|ついか}の{一枚|いちまい}と、{料金|りょうきん}の{返事|へんじ}ですね。{先|さき}に{条件|じょうけん}を{確認|かくにん}します。",
+          "romaji": "Tsuika no ichimai to, ryōkin no henji desu ne. Saki ni jōken o kakunin shimasu.",
+          "meaning": "The extra sheet and our price reply, right? I’ll check the conditions first."
+        },
+        {
+          "speaker": "Ishikawa",
+          "line": "はい。では、{印刷|いんさつ}の{担当者|たんとうしゃ}に{確認|かくにん}しましょう。",
+          "romaji": "Hai. Dewa, insatsu no tantōsha ni kakunin shimashō.",
+          "meaning": "Yes. Let’s check with the person handling the printing."
+        }
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "id": "keigo-u11-reading-followup",
+      "lesson": "keigo-u11-lesson",
+      "title": "After the visit: one extra sheet",
+      "genre": "email",
+      "paragraphs": [
+        "{田村様|たむらさま}、{本日|ほんじつ}はお{時間|じかん}をいただき、ありがとうございました。{課長|かちょう}の{石川|いしかわ}と{伺|うかが}ったバオです。{会場|かいじょう}で{使|つか}う{表|ひょう}について、{確認|かくにん}いたします。",
+        "{月曜日|げつようび}にいただいた{五十部|ごじゅうぶ}の{注文|ちゅうもん}は、そのまま{進|すす}めます。{大|おお}きい{一枚|いちまい}は{別|べつ}のご{相談|そうだん}です。{内容|ないよう}を{変|か}えずに{作|つく}れる{用紙|ようし}と{追加|ついか}{料金|りょうきん}を{確認|かくにん}し、{水曜日|すいようび}の{正午|しょうご}までにメールでご{連絡|れんらく}いたします。",
+        "{追加|ついか}の{一枚|いちまい}を{作|つく}るかどうかは、{料金|りょうきん}をご{確認|かくにん}いただいてから{決|き}めていただく{予定|よてい}です。よろしくお{願|ねが}いいたします。"
+      ],
+      "glosses": [
+        {
+          "text": "田村様",
+          "kana": "たむらさま",
+          "meaning": "Ms Tamura"
+        },
+        {
+          "text": "本日",
+          "kana": "ほんじつ",
+          "meaning": "today (formal)"
+        },
+        {
+          "text": "時間",
+          "kana": "じかん",
+          "meaning": "time"
+        },
+        {
+          "text": "課長",
+          "kana": "かちょう",
+          "meaning": "section manager"
+        },
+        {
+          "text": "石川",
+          "kana": "いしかわ",
+          "meaning": "Ishikawa"
+        },
+        {
+          "text": "伺",
+          "kana": "うかが",
+          "meaning": "visit respectfully (in 伺う)"
+        },
+        {
+          "text": "会場",
+          "kana": "かいじょう",
+          "meaning": "venue"
+        },
+        {
+          "text": "使",
+          "kana": "つか",
+          "meaning": "use (in 使う)"
+        },
+        {
+          "text": "表",
+          "kana": "ひょう",
+          "meaning": "table"
+        },
+        {
+          "text": "確認",
+          "kana": "かくにん",
+          "meaning": "checking"
+        },
+        {
+          "text": "月曜日",
+          "kana": "げつようび",
+          "meaning": "Monday"
+        },
+        {
+          "text": "五十部",
+          "kana": "ごじゅうぶ",
+          "meaning": "fifty copies"
+        },
+        {
+          "text": "注文",
+          "kana": "ちゅうもん",
+          "meaning": "order"
+        },
+        {
+          "text": "進",
+          "kana": "すす",
+          "meaning": "proceed (in 進める)"
+        },
+        {
+          "text": "大",
+          "kana": "おお",
+          "meaning": "big (in 大きい)"
+        },
+        {
+          "text": "一枚",
+          "kana": "いちまい",
+          "meaning": "one sheet"
+        },
+        {
+          "text": "別",
+          "kana": "べつ",
+          "meaning": "separate"
+        },
+        {
+          "text": "相談",
+          "kana": "そうだん",
+          "meaning": "request or discussion"
+        },
+        {
+          "text": "内容",
+          "kana": "ないよう",
+          "meaning": "content"
+        },
+        {
+          "text": "変",
+          "kana": "か",
+          "meaning": "change (in 変える)"
+        },
+        {
+          "text": "作",
+          "kana": "つく",
+          "meaning": "make (in 作る)"
+        },
+        {
+          "text": "用紙",
+          "kana": "ようし",
+          "meaning": "paper"
+        },
+        {
+          "text": "追加",
+          "kana": "ついか",
+          "meaning": "additional"
+        },
+        {
+          "text": "料金",
+          "kana": "りょうきん",
+          "meaning": "charge"
+        },
+        {
+          "text": "水曜日",
+          "kana": "すいようび",
+          "meaning": "Wednesday"
+        },
+        {
+          "text": "正午",
+          "kana": "しょうご",
+          "meaning": "noon"
+        },
+        {
+          "text": "連絡",
+          "kana": "れんらく",
+          "meaning": "contact"
+        },
+        {
+          "text": "決",
+          "kana": "き",
+          "meaning": "decide (in 決める)"
+        },
+        {
+          "text": "予定",
+          "kana": "よてい",
+          "meaning": "plan"
+        },
+        {
+          "text": "願",
+          "kana": "ねが",
+          "meaning": "request (in お願いいたします)"
+        },
+        {
+          "text": "いただき",
+          "kana": "いただき",
+          "meaning": "receiving (courteous)"
+        },
+        {
+          "text": "伺った",
+          "kana": "うかがった",
+          "meaning": "visited"
+        },
+        {
+          "text": "進めます",
+          "kana": "すすめます",
+          "meaning": "will proceed"
+        },
+        {
+          "text": "大きい",
+          "kana": "おおきい",
+          "meaning": "large"
+        },
+        {
+          "text": "変えず",
+          "kana": "かえず",
+          "meaning": "without changing"
+        },
+        {
+          "text": "作れる",
+          "kana": "つくれる",
+          "meaning": "can make"
+        },
+        {
+          "text": "決めて",
+          "kana": "きめて",
+          "meaning": "decide"
+        },
+        {
+          "text": "そのまま",
+          "kana": "そのまま",
+          "meaning": "as it is"
+        },
+        {
+          "text": "メール",
+          "kana": "めーる",
+          "meaning": "email"
+        },
+        {
+          "text": "バオ",
+          "kana": "ばお",
+          "meaning": "Bao (name)"
+        },
+        {
+          "text": "使う",
+          "kana": "つかう",
+          "meaning": "use"
+        },
+        {
+          "text": "について",
+          "kana": "について",
+          "meaning": "about"
+        },
+        {
+          "text": "作る",
+          "kana": "つくる",
+          "meaning": "make"
+        },
+        {
+          "text": "どうか",
+          "kana": "どうか",
+          "meaning": "whether (in かどうか)"
+        },
+        {
+          "text": "よろしく",
+          "kana": "よろしく",
+          "meaning": "please; standard closing"
+        },
+        {
+          "text": "いただいた",
+          "kana": "いただいた",
+          "meaning": "received (courteous)"
+        },
+        {
+          "text": "いただいて",
+          "kana": "いただいて",
+          "meaning": "receive (courteous connecting form)"
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "keigo-u11-x-purpose",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "What extra item does Tamura request a price for?",
+      "options": [
+        "{大|おお}きい{表|ひょう}を{一枚|いちまい}。",
+        "{名刺入れ|めいしいれ}を{一|ひと}つ。",
+        "{五十部|ごじゅうぶ}をすべて{無料|むりょう}にすること。"
+      ],
+      "answer": 0,
+      "explain": "She asks to enlarge one sheet for display, separately from the ordered copies.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "dialogue": "keigo-u11-d-visit",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-when",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "When will they reply about the paper and price?",
+      "options": [
+        "{水曜日|すいようび}の{正午|しょうご}まで。",
+        "{今日|きょう}の{二時|にじ}まで。",
+        "{来週|らいしゅう}の{月曜日|げつようび}の{朝|あさ}まで。"
+      ],
+      "answer": 0,
+      "explain": "Bao states Wednesday noon as the reply deadline.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "dialogue": "keigo-u11-d-visit",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-exit",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "Which way does Tamura tell the visitors to leave?",
+      "options": [
+        "{正面|しょうめん}の{玄関口|げんかんぐち}。",
+        "{閉|し}まっている{裏門|うらもん}。",
+        "{会場|かいじょう}の{窓|まど}。"
+      ],
+      "answer": 0,
+      "explain": "The front entrance is specified; the back gate is closed.",
+      "words": [
+        "keigo-u11-w-v03"
+      ],
+      "dialogue": "keigo-u11-d-depart",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-contact",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "What contact method does Tamura request?",
+      "options": [
+        "メール。",
+        "{午前|ごぜん}の{電話|でんわ}。",
+        "{翌日|よくじつ}の{訪問|ほうもん}。"
+      ],
+      "answer": 0,
+      "explain": "She requests email and says she can only answer calls in the afternoon.",
+      "words": [
+        "keigo-u11-w-v05"
+      ],
+      "dialogue": "keigo-u11-d-depart",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-visit",
+      "lesson": "keigo-u11-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: express respect for the CLIENT you will visit.",
+      "line": "あす、{田村様|たむらさま}のところに＿＿。",
+      "options": [
+        "{伺|うかが}います",
+        "いらっしゃいます",
+        "おっしゃいます"
+      ],
+      "answer": 0,
+      "explain": "伺う describes your visit to the respected client.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-thanks",
+      "lesson": "keigo-u11-lesson",
+      "type": "cloze",
+      "prompt": "Form practice: thank the host for the time YOU received.",
+      "line": "お{時間|じかん}を＿＿、ありがとうございました。",
+      "options": [
+        "いただき",
+        "{差|さ}し{上|あ}げ",
+        "{召|め}し{上|あ}がり"
+      ],
+      "answer": 0,
+      "explain": "いただき refers to receiving the host’s time.",
+      "words": [
+        "keigo-u11-w-v18"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-charge",
+      "lesson": "keigo-u11-lesson",
+      "type": "reply",
+      "prompt": "Acknowledge the client’s condition accurately.",
+      "line": "{追加|ついか}の{料金|りょうきん}があれば、{先|さき}に{教|おし}えてください。",
+      "options": [
+        "{料金|りょうきん}を{確認|かくにん}してからお{伝|つた}えします。",
+        "{必|かなら}ず{無料|むりょう}で{作|つく}ります。",
+        "{確認|かくにん}せずに{印刷|いんさつ}します。"
+      ],
+      "answer": 0,
+      "explain": "The price must be checked and told to the client first.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "dialogue": "keigo-u11-d-depart",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-method",
+      "lesson": "keigo-u11-lesson",
+      "type": "reply",
+      "prompt": "Restate the requested contact method.",
+      "line": "{連絡|れんらく}はメールでお{願|ねが}いします。",
+      "options": [
+        "はい、メールでご{連絡|れんらく}いたします。",
+        "はい、{午前|ごぜん}にお{電話|でんわ}いたします。",
+        "はい、{連絡|れんらく}はいたしません。"
+      ],
+      "answer": 0,
+      "explain": "Email, not a morning call or no contact, matches the request.",
+      "words": [
+        "keigo-u11-w-v05"
+      ],
+      "dialogue": "keigo-u11-d-depart",
+      "skill": "listening"
+    },
+    {
+      "id": "keigo-u11-x-build",
+      "lesson": "keigo-u11-lesson",
+      "type": "order",
+      "tiles": [
+        "お{時間|じかん}を",
+        "いただき、",
+        "ありがとうございました。"
+      ],
+      "meaning": "Thank you for your time. (Use the taught thanks.)",
+      "explain": "Thank the host for the time you received.",
+      "words": [
+        "keigo-u11-w-v18"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-formal",
+      "lesson": "keigo-u11-lesson",
+      "type": "register",
+      "prompt": "Three ways: formally announce YOUR planned visit to the client.",
+      "context": "A visitor speaks about their own movement or manager. Match the specified listener and degree of formality.",
+      "options": [
+        "あす{伺|うかが}います。",
+        "あす{行|い}きます。",
+        "あす{行|い}くよ。"
+      ],
+      "answer": 0,
+      "explain": "伺う is the taught client-directed own visit.",
+      "words": [
+        "keigo-u11-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-polite",
+      "lesson": "keigo-u11-lesson",
+      "type": "register",
+      "prompt": "Three ways: use ordinary polite wording for your movement to a colleague.",
+      "context": "A visitor speaks about their own movement or manager. Match the specified listener and degree of formality.",
+      "options": [
+        "あす{行|い}きます。",
+        "あす{伺|うかが}います。",
+        "あす{行|い}くよ。"
+      ],
+      "answer": 0,
+      "explain": "行きます is the requested ordinary polite wording.",
+      "words": [
+        "keigo-u11-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-manager",
+      "lesson": "keigo-u11-lesson",
+      "type": "register",
+      "prompt": "To an EXTERNAL client, which selected introduction keeps your manager on your own side?",
+      "context": "A visitor speaks about their own movement or manager. Match the specified listener and degree of formality.",
+      "options": [
+        "{課長|かちょう}の{石川|いしかわ}も{一緒|いっしょ}です。",
+        "{石川課長|いしかわかちょう}もいらっしゃいます。",
+        "{石川様|いしかわさま}もお{越|こ}しになります。"
+      ],
+      "answer": 0,
+      "explain": "課長の石川 gives the own-side role and name; the other forms honour your own manager externally.",
+      "words": [
+        "keigo-u11-w-v17"
+      ],
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-existing",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "What happens to the existing fifty-copy order?",
+      "options": [
+        "そのまま{進|すす}める。",
+        "{無料|むりょう}に{変|か}える。",
+        "すべて{取|と}り{消|け}す。"
+      ],
+      "answer": 0,
+      "explain": "The email says the Monday order continues unchanged.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "reading": "keigo-u11-reading-followup",
+      "skill": "reading"
+    },
+    {
+      "id": "keigo-u11-x-decision",
+      "lesson": "keigo-u11-lesson",
+      "type": "choice",
+      "prompt": "When will the client decide about the extra sheet?",
+      "options": [
+        "{料金|りょうきん}を{確認|かくにん}してから。",
+        "{料金|りょうきん}を{聞|き}く{前|まえ}。",
+        "すでに{無料|むりょう}と{決|き}めた。"
+      ],
+      "answer": 0,
+      "explain": "The extra sheet awaits the price and the client’s subsequent decision.",
+      "words": [
+        "keigo-u11-w-v04"
+      ],
+      "reading": "keigo-u11-reading-followup",
+      "skill": "reading"
+    }
+  ],
+  "recycling": {
+    "target": 0.02,
+    "reason": "The client naturally recalls the table key from the presentation two units earlier. Recruitment terms from the immediately preceding unit are not forced into this visit; other table/order context is retrieved without padding."
+  }
+}
