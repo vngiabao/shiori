@@ -16,19 +16,24 @@ remain explicitly supported. Returning after an absence attracts no guilt.
 ## Reactions
 
 The source is `reaction-lines.tsv`; the personality brief is
-`teacher-persona.json`. This refresh rewrites 58 messages. Of the final 100,
-57 recordings are at most 2.5 seconds, 40 are between 2.5 and 4.5 seconds,
-and three are longer. The mean falls from 3.38 to 2.44 seconds.
+`teacher-persona.json`. The 8 October follow-up revises 20 more phrases and
+authors mood, pose and native pace for every line, instead of alternating
+settings by row number. `teacher-roster.json` holds the five native deliveries.
+Of the final 100, 60 recordings are at most 2.5 seconds, 38 are between 2.5
+and 4.5 seconds, and two are longer.
 Brief praise such as お見事です！ has room alongside thoughtful longer guidance.
 
 Each context shuffles without repetition until its bag is exhausted and
-avoids repeating the previous bag's last message. Bubble, translation,
+avoids repeating the previous bag's last message. Where choices remain, the
+bag alternates feelings and follows a fuller reply with a brief one. It still
+uses every message once before refilling; there are no padded repetitions.
+Bubble, translation,
 existing pose and recording share the same selection. Replay preserves it;
 muting speech still varies the written message. Artwork and layout remain.
 
 Native query controls shape delivery before synthesis. Global pitch-centre
 offsets stay within ±0.5 semitone, native pace scales within 0.96–1.04, and
-intonation within 0.86–1.45. Proud delivery uses a livelier contour and shorter
+intonation within 0.90–1.72. Proud delivery uses a livelier contour and shorter
 pauses; reflective delivery leaves more space. These controls do not stretch
 or pitch-shift finished WAV files. The approved timbre remains the same.
 

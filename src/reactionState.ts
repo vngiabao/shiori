@@ -19,6 +19,7 @@ export type TeacherLine = {
   mood: string;
   pose: Pose;
   url: string;
+  seconds?: number;
 };
 export const teacherLines = teacher as TeacherLine[];
 const listeners = new Set<() => void>();
@@ -75,7 +76,20 @@ export function selectReaction(
       if (bag.length > 1 && bag.at(-1)?.id === previous.get(key))
         [bag[0], bag[bag.length - 1]] = [bag[bag.length - 1], bag[0]];
     }
-    line = bag.pop() ?? line;
+    const lastLine = teacherLines.find((l) => l.id === previous.get(key));
+    // Keep every message in the bag, but avoid runs of the same feeling or
+    // fuller remarks when a brief response is still available. Replay is stable.
+    const differentMood = bag.filter((l) => l.mood !== lastLine?.mood);
+    let choices = differentMood.length ? differentMood : bag;
+    if ((lastLine?.seconds ?? 0) > 2.5) {
+      const brief = choices.filter((l) => (l.seconds ?? 0) <= 2.5);
+      const anyBrief = bag.filter((l) => (l.seconds ?? 0) <= 2.5);
+      if (brief.length || anyBrief.length)
+        choices = brief.length ? brief : anyBrief;
+    }
+    const candidate =
+      choices.find((l) => l.id !== previous.get(key)) ?? choices[0];
+    if (candidate) line = bag.splice(bag.indexOf(candidate), 1)[0];
     bags.set(key, bag);
     previous.set(key, line.id);
   }

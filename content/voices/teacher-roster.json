@@ -1,0 +1,52 @@
+{
+  "identity": "Approved Violetto timbre: VOICEVOX 冥鳴ひまり, style 14. Original teacher acting; one identity.",
+  "selection": "Each message explicitly names its mood, pace and approved pose. Wording and intent take precedence over numerical variety.",
+  "moods": {
+    "composed": {
+      "description": "An assured, brief confirmation; no habitual boredom.",
+      "intonation": 0.98,
+      "pitch": -0.015,
+      "pauseScale": 0.92,
+      "semitones": -0.25
+    },
+    "warm": {
+      "description": "Connected reassurance and an audible smile; never pity or guilt.",
+      "intonation": 1.24,
+      "pitch": -0.015,
+      "pauseScale": 0.96,
+      "semitones": 0.25
+    },
+    "proud": {
+      "description": "A short bright exclamation, then composure. Only praise or celebrations.",
+      "intonation": 1.72,
+      "pitch": -0.015,
+      "pauseScale": 0.78,
+      "semitones": 0.5
+    },
+    "precise": {
+      "description": "Focused, crisp teacher guidance; no scolding.",
+      "intonation": 1.06,
+      "pitch": -0.015,
+      "pauseScale": 0.85,
+      "semitones": 0
+    },
+    "reflective": {
+      "description": "Measured, thoughtful phrasing for rest or fuller reflections.",
+      "intonation": 0.9,
+      "pitch": -0.015,
+      "pauseScale": 1.05,
+      "semitones": -0.5
+    }
+  },
+  "limits": {
+    "speed": [
+      0.96,
+      1.04
+    ],
+    "pitchCentreSemitones": [
+      -0.5,
+      0.5
+    ]
+  },
+  "clear": "Vocabulary, pronunciation drills and exam targets retain their existing recordings and settings."
+}

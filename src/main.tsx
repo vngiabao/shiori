@@ -12,6 +12,8 @@ import "./styles.css";
 import "./violet-theme.css";
 import App from "./App";
 import "./study-layout.css";
+import { startAppUpdates } from "./appUpdates";
+startAppUpdates();
 class ErrorBoundary extends Component<
   { children: ReactNode },
   { error: boolean }

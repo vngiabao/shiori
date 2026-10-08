@@ -9,16 +9,25 @@ def read(path):return json.loads((root/path).read_text(encoding='utf-8'))
 p=read('content/voices/teacher-provenance.json');lines=read('src/generated/violetto-teacher.json')
 assert p['styleId']==14 and p['modelSha256']==hashlib.sha256(voice.model_path.read_bytes()).hexdigest()
 assert p['authorSha256']==hashlib.sha256((root/'content/voices/reaction-lines.tsv').read_bytes()).hexdigest()
+assert p['rosterSha256']==hashlib.sha256((root/'content/voices/teacher-roster.json').read_bytes()).hexdigest()
+roster=read('content/voices/teacher-roster.json')['moods']
+with (root/'content/voices/reaction-lines.tsv').open(encoding='utf-8',newline='') as f:
+    authored=list(csv.DictReader(f,delimiter='\t'))
 assert len(lines)==len(p['records'])==100
 assert len({l['text'] for l in lines})==len({l['id'] for l in lines})==100
 indexed={r['id']:r for r in p['records']}
-for line in lines:
+for line,author in zip(lines,authored):
     r=indexed[line['id']];d=line['delivery'];q=r['query']
     assert line['text']==r['text'] and line['reading']==r['readingInput']
     assert voice.plain(line['ruby'])==line['text']
     assert re.sub(r'\{([^|{}]+)\|([^|{}]+)\}',r'\2',line['ruby'])==line['reading']
     assert not re.search('[{}|]',line['reading'])
     assert line['url']==r['url'] and line['sha256']==r['sha256']
+    assert line['mood']==author['mood'] and line['pose']==author['pose']
+    assert d=={**{k:v for k,v in roster[line['mood']].items() if k!='description'},'speed':float(author['speed'])}
+    assert q['intonation_scale']==d['intonation']
+    if line['category'] in ('retry','supported','hint','politeness','rest'):
+        assert line['mood']!='proud'
     assert .96<=d['speed']<=1.04 and abs(d['semitones'])<=.5
     assert q['speed_scale']==d['speed'] and q['pitch_scale']==-.015
     baseline=voice.s.create_audio_query(line['reading'],voice.style)
@@ -45,6 +54,7 @@ assert max(l['delivery']['intonation'] for l in lines)-min(l['delivery']['intona
 report={'teacherSentences':len(lines),'categories':sorted({l['category'] for l in lines}),
  'moods':sorted({l['mood'] for l in lines}),'allMappingsAndHashesValid':True,
  'nativePhonemeSequencesUnchanged':True,'pitchCentreSemitones':[-.5,.5],
+ 'authoredMoodPoseAndPaceMatch':True,
  'speedScale':[min(l['delivery']['speed'] for l in lines),max(l['delivery']['speed'] for l in lines)],
  'durationMix':lengths,'secondsRange':[min(l['seconds'] for l in lines),max(l['seconds'] for l in lines)],
  'historicalRecordingsPreserved':len(p.get('historicalRecords',[])),

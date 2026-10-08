@@ -49,7 +49,8 @@ export default defineConfig({
       },
     },
     VitePWA({
-      registerType: "autoUpdate",
+      registerType: "prompt",
+      injectRegister: false,
       includeAssets: ["brand/shiori-violetto-icon.svg"],
       manifest: {
         name: "Shiori · Japanese with Violetto",
@@ -67,6 +68,7 @@ export default defineConfig({
         ],
       },
       workbox: {
+        clientsClaim: true,
         manifestTransforms: [
           async (entries) => {
             const bytes = entries.reduce(

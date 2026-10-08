@@ -365,7 +365,10 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
         <p>
           Precise, patient and genuinely pleased by a good answer. Sometimes
           “お見事です！” is enough. Longer remarks belong to moments that need
-          them. Every message has its own recording.
+          them. Every message has its own recording. Praise is brighter;
+          reassurance is gentler. The wording, mood and pose are chosen
+          together. During practice, brief replies break up fuller remarks
+          rather than several long responses in a row.
         </p>
         <label htmlFor="teacher-message">Explore the 100 messages</label>
         <select
@@ -439,7 +442,9 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
               try {
                 stopAudio();
                 await db.profiles.update("local", { voicePreview: "baseline" });
-                setStatus("The varied teacher voice is selected for reactions.");
+                setStatus(
+                  "The varied teacher voice is selected for reactions.",
+                );
               } catch {
                 setStatus("Selection could not be saved. Please try again.");
               }
@@ -457,8 +462,8 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
       </section>
       <h2>Earlier voice auditions</h2>
       <p>
-        These earlier auditions use one fixed message per situation. Select
-        the current teacher voice above for the full 100-message library.
+        These earlier auditions use one fixed message per situation. Select the
+        current teacher voice above for the full 100-message library.
       </p>
       <div className="voice-audition-list">
         {violetto.candidates.map((c, i) => {
@@ -519,9 +524,9 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
       <div className="voice-baseline">
         <h2>The current lesson voice</h2>
         <p>
-          Words and drills use the clear lesson voice. The current teacher
-          voice uses all 100 varied reactions. Selecting an earlier audition
-          changes reactions to its fixed script; lesson speech stays the same.
+          Words and drills use the clear lesson voice. The current teacher voice
+          uses all 100 varied reactions. Selecting an earlier audition changes
+          reactions to its fixed script; lesson speech stays the same.
         </p>
         <div className="actions">
           <Button

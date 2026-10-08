@@ -19,6 +19,7 @@ import {
   GraduationCap,
 } from "@phosphor-icons/react";
 import { db } from "./db";
+import { AppUpdateNotice } from "./AppUpdateNotice";
 import {
   Brand,
   Button,
@@ -290,6 +291,16 @@ export default function App() {
   const props = { memories: state.memories, attempts: state.attempts, start };
   return (
     <>
+      <AppUpdateNotice
+        studying={Boolean(
+          active ||
+          mixed ||
+          examFocus ||
+          route === "speak" ||
+          route === "media" ||
+          route.startsWith("letter/"),
+        )}
+      />
       <a className="skip-link" href="#main-content">
         Skip to content
       </a>

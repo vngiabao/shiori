@@ -10,7 +10,11 @@ import {
   playLines,
 } from "../src/audio";
 import manifest from "../src/generated/audio.json";
-import { currentReaction, teacherLines } from "../src/reactionState";
+import {
+  currentReaction,
+  teacherLines,
+  selectReaction,
+} from "../src/reactionState";
 import { voiceCandidates } from "../src/persona";
 
 afterEach(() => {
@@ -120,6 +124,33 @@ it("keeps earlier audition text matched to its recording", async () => {
   expect(currentReaction("correct").url).toBe(
     voiceCandidates[0].lines.correct.url,
   );
+});
+it("breaks up longer corrections and repeated moods without losing any messages", () => {
+  const remaining = new Map(
+    teacherLines.filter((l) => l.category === "retry").map((l) => [l.id, l]),
+  );
+  let last: (typeof teacherLines)[number] | undefined;
+  for (let i = 0; i < 20; i++) {
+    const available = [...remaining.values()];
+    const line = selectReaction("retry", "baseline");
+    expect(remaining.has(line.id)).toBe(true);
+    if (
+      last &&
+      (last.seconds ?? 0) > 2.5 &&
+      available.some((l) => (l.seconds ?? 0) <= 2.5)
+    )
+      expect(line.seconds).toBeLessThanOrEqual(2.5);
+    if (
+      last &&
+      available.some((l) => l.mood !== last!.mood) &&
+      !((last.seconds ?? 0) > 2.5)
+    )
+      expect(line.mood).not.toBe(last.mood);
+    expect(selectReaction("retry", "baseline", true)).toBe(line);
+    remaining.delete(line.id);
+    last = line;
+  }
+  expect(remaining.size).toBe(0);
 });
 it("distinguishes kana ha from the topic particle without changing spelling", () => {
   expect(wordAudioText({ id: "h-は", kana: "は" })).toBe("は");
