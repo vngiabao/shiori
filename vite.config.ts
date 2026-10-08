@@ -69,6 +69,7 @@ export default defineConfig({
       },
       workbox: {
         clientsClaim: true,
+        importScripts: ["/sw-migration.js"],
         manifestTransforms: [
           async (entries) => {
             const bytes = entries.reduce(

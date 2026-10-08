@@ -10,6 +10,11 @@ import AxeBuilder from "@axe-core/playwright";
 let server: Server;
 let origin: string;
 let revision = 1;
+let legacyWorker = false;
+test.beforeEach(() => {
+  revision = 1;
+  legacyWorker = false;
+});
 test.beforeAll(async () => {
   const root = path.resolve("dist");
   server = createServer((request, response) => {
@@ -37,7 +42,9 @@ test.beforeAll(async () => {
       mime[path.extname(file)] ?? "application/octet-stream",
     );
     response.setHeader("Cache-Control", "no-store");
-    if (name === "/sw.js")
+    if (name === "/sw-migration.js" && legacyWorker && revision === 1)
+      response.end("// Previous worker had no update handshake.\n");
+    else if (name === "/sw.js")
       response.end(
         readFileSync(file, "utf8") + `\n// test release ${revision}\n`,
       );
@@ -142,4 +149,47 @@ test("an installed update waits until study ends and explicit refresh preserves 
     return buffer.duration;
   }, audio);
   expect(duration).toBeGreaterThan(0.3);
+});
+
+test("a legacy installed worker adopts the update without reloading an active lesson", async ({
+  page,
+}) => {
+  legacyWorker = true;
+  await page.goto(origin);
+  await page.getByRole("button", { name: "Start without an account" }).click();
+  await page.getByLabel("What should Violetto call you?").fill("Legacy Reader");
+  await page.getByRole("button", { name: "Open my first letter" }).click();
+  await page.evaluate(async () => {
+    await navigator.serviceWorker.ready;
+  });
+  await page.waitForFunction(() => Boolean(navigator.serviceWorker.controller));
+  await page.getByRole("button", { name: "Begin lesson", exact: true }).click();
+  await page.evaluate(() => {
+    (window as any).legacyDocumentMarker = "study continues";
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      (window as any).legacyWorkerChanged = true;
+    });
+  });
+  revision++;
+  await page.evaluate(async () => {
+    await (await navigator.serviceWorker.getRegistration())!.update();
+  });
+  await page.waitForFunction(
+    () => (window as any).legacyWorkerChanged === true,
+  );
+  expect(await page.evaluate(() => (window as any).legacyDocumentMarker)).toBe(
+    "study continues",
+  );
+  await expect(
+    page.getByRole("button", { name: "Leave lesson", exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("button", { name: "Update Shiori", exact: true }),
+  ).toBeHidden();
+  await page.getByRole("button", { name: "Leave lesson", exact: true }).click();
+  await page.reload();
+  await expect(page.getByText(/Welcome, Legacy Reader/)).toBeVisible();
+  expect(
+    await page.evaluate(() => (window as any).legacyDocumentMarker),
+  ).toBeUndefined();
 });
