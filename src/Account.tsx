@@ -1,10 +1,10 @@
 import { SyncPanel } from "./SyncPanel";
-import { startSync } from "./sync";
+import { startSync, getSyncStatus, subscribeSync } from "./sync";
 import { authConfigured } from "./auth";
 // This module is part of the app shell; the worker remains active between routes.
 const stopSyncWorker = authConfigured ? startSync() : undefined;
 if (import.meta.hot) import.meta.hot.dispose(() => stopSyncWorker?.());
-import { useState, useEffect } from "react";
+import { useState, useEffect, useSyncExternalStore } from "react";
 import {
   ArrowRight,
   Download,
@@ -31,6 +31,11 @@ import type {
   MediaAttempt,
 } from "./types";
 export function Welcome() {
+  const syncStatus = useSyncExternalStore(
+    subscribeSync,
+    getSyncStatus,
+    getSyncStatus,
+  );
   const [step, setStep] = useState(0);
   const [name, setName] = useState("");
   const [path, setPath] = useState<Profile["path"]>("together");
@@ -84,18 +89,38 @@ export function Welcome() {
                 Read your first kana. Hear the words take shape. With Violetto,
                 work towards the stories and songs you want to understand.
               </p>
-              <SyncPanel entry />
-              <div className="welcome-divider">
-                <span>or</span>
-              </div>
-              <Button secondary onClick={() => setStep(1)}>
-                Start without an account
-                <ArrowRight />
-              </Button>
-              <small>
-                Guest progress stays in this browser. With cloud sync, you
-                choose whether to add this device’s history to your account.
-              </small>
+              {syncStatus.account ? (
+                <>
+                  <p>Signed in as {syncStatus.account.email}</p>
+                  <Button onClick={() => setStep(1)}>
+                    Continue to study
+                    <ArrowRight />
+                  </Button>
+                  <small>
+                    Choose your learning path next. Your current sync choice is
+                    kept. You can change it later in Settings.
+                  </small>
+                  <details>
+                    <summary>Cloud sync options</summary>
+                    <SyncPanel entry />
+                  </details>
+                </>
+              ) : (
+                <>
+                  <SyncPanel entry />
+                  <div className="welcome-divider">
+                    <span>or</span>
+                  </div>
+                  <Button secondary onClick={() => setStep(1)}>
+                    Start without an account
+                    <ArrowRight />
+                  </Button>
+                  <small>
+                    Guest progress stays in this browser. With cloud sync, you
+                    choose whether to add this device’s history to your account.
+                  </small>
+                </>
+              )}
             </>
           ) : (
             <form

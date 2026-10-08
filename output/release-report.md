@@ -1,5 +1,11 @@
 # Shiori whole-course release — 7 October 2026
 
+## Signed-in welcome follow-up — 7 October 2026
+
+The signed-in welcome now offers a primary **Continue to study** button before optional **Cloud sync options**. It enters the existing name/path setup without signing out, enabling sync, uploading personal text or changing an existing sync choice. Signed-out guest entry remains unchanged. The earlier "Start without an account" button also entered setup without signing out, but its label after login was misleading.
+
+Three isolated signed-in browser regressions pass with undecided, enabled and paused sync; each reaches Today and preserves the account and consent. Guest full-lesson onboarding and the existing mocked settings/consent case pass. Desktop/phone captures and accessibility checks pass. TypeScript, 183 unit tests, the content/audio build gates and production build pass. Auth fixtures use a fake account and do not certify the owner's actual Google OAuth or two-device sync. This follow-up changes no recordings, content, database or provider settings.
+
 The whole-course release is deployed and Shiori's extra Cloudflare Access gate has been removed after the user's fresh confirmation. Kiyo's Access application remains unchanged. Guest study is public; Google sync remains owner-only. Functional release commit: `d0dc6c74493023d4f9515da291e6427e2b3b3b1a`, successful Cloudflare build `9e7006eb-e3af-4867-89b9-daaa2c233677`. Final documentation and checker corrections are additive and do not change app assets.
 
 The complete hosted audio audit passes at `2026-10-08T00:49:33.542Z` (7 October EDT): all **19,517 current and historical WAV URLs** return200 with an audio content type, zero issues, and sixteen downloaded hash-prefix samples exactly match local SHA256. Cloudflare omits Content-Length on these HEAD responses; the verifier records omissions and validates lengths when supplied. The earlier failure was that checker's assumption, not missing recordings. Report: `output/hosted-audio-verification.json`.
