@@ -1276,6 +1276,101 @@ input[type="file"]::file-selector-button:hover {
   margin: 0;
   color: var(--ink-2);
 }
+/* Keep all study destinations reachable on desktop and compact navigation. */
+.header-more-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 44px;
+  color: var(--brand-soft);
+  padding: 0;
+}
+.header-more-button[aria-expanded="true"] {
+  color: var(--brand-on);
+}
+.more-panel {
+  position: fixed;
+  top: 78px;
+  right: 28px;
+  bottom: auto;
+  left: auto;
+  width: min(360px, calc(100vw - 40px));
+  max-height: calc(100dvh - 110px);
+  overflow: auto;
+  background: var(--card);
+  padding: 22px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  z-index: 45;
+  box-shadow: var(--shadow);
+}
+.more-panel > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.more-panel > a {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-height: 44px;
+  padding: 12px 0;
+  border-top: 1px solid var(--rule);
+}
+.more-panel > a > svg:last-child {
+  margin-left: auto;
+}
+.more-panel > a[aria-current] {
+  color: var(--accent);
+  font-weight: 600;
+}
+@media (min-width: 851px) and (max-width: 1250px) {
+  .app-header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    height: auto;
+    row-gap: 8px;
+    padding-block: 12px;
+  }
+  .app-header > nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    height: 48px;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .header-tools {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .app-header nav a[aria-current]::after {
+    bottom: 2px;
+  }
+  .more-panel {
+    top: 130px;
+    max-height: calc(100dvh - 158px);
+  }
+}
+@media (max-width: 850px) {
+  .header-more-button {
+    display: none;
+  }
+  .mobile-nav > a,
+  .mobile-nav > button {
+    flex: 1;
+    min-width: 0;
+    min-height: 44px;
+  }
+  .more-panel {
+    top: auto;
+    bottom: calc(86px + env(safe-area-inset-bottom));
+    left: 20px;
+    right: 20px;
+    width: auto;
+    max-height: calc(100dvh - 120px - env(safe-area-inset-bottom));
+  }
+}
 /* Optional deck examples use the existing ruled word list and Japanese face. */
 .word-example {
   grid-column: 1 / -1;

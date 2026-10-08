@@ -88,6 +88,7 @@ import type {
 } from "./types";
 const nav = [
   ["today", "Today", Sun],
+  ["library", "Course library", BookOpen],
   ["read", "Read", BookOpen],
   ["listen", "Listen", Headphones],
   ["speak", "Speak", ChatsCircle],
@@ -95,6 +96,16 @@ const nav = [
   ["practice", "Practice", ArrowClockwise],
   ["media", "Media", PlayCircle],
   ["progress", "Progress", ChartBar],
+] as const;
+const mobileTabs = ["today", "library", "read", "listen", "speak"];
+const extraNav = [
+  ["letters", "Letters", EnvelopeSimple],
+  ["fieldwork", "Beyond the course", EnvelopeSimple],
+  ["dictionary", "Dictionary", MagnifyingGlass],
+  ["settings", "Settings", Gear],
+  ["companion", "Violetto", EnvelopeSimple],
+  ["postmarks", "Postmark collection", EnvelopeSimple],
+  ["voice", "Violetto's voice", Headphones],
 ] as const;
 export default function App() {
   useSyncExternalStore(subscribeContent, contentRevision, contentRevision);
@@ -116,6 +127,25 @@ export default function App() {
     ids?: string[];
   } | null>(null);
   const [more, setMore] = useState(false);
+  const moreTrigger = useRef<HTMLButtonElement | null>(null);
+  function toggleMore(event: React.MouseEvent<HTMLButtonElement>) {
+    moreTrigger.current = event.currentTarget;
+    setMore((open) => !open);
+  }
+  useEffect(() => {
+    if (!more) return;
+    const menu = document.getElementById("study-navigation");
+    menu?.querySelector<HTMLAnchorElement>("a")?.focus();
+    const outside = (event: PointerEvent) => {
+      if (
+        !menu?.contains(event.target as Node) &&
+        !moreTrigger.current?.contains(event.target as Node)
+      )
+        setMore(false);
+    };
+    document.addEventListener("pointerdown", outside);
+    return () => document.removeEventListener("pointerdown", outside);
+  }, [more]);
   const [mixed, setMixed] = useState<Step[] | null>(null);
   const [examFocus, setExamFocus] = useState(false);
   const [online, setOnline] = useState(navigator.onLine);
@@ -179,6 +209,11 @@ export default function App() {
     };
     const net = () => setOnline(navigator.onLine);
     const keys = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && document.getElementById("study-navigation")) {
+        setMore(false);
+        moreTrigger.current?.focus();
+        return;
+      }
       const tag = (e.target as HTMLElement).tagName;
       if (
         e.code === "Space" &&
@@ -280,6 +315,14 @@ export default function App() {
             ))}
           </nav>
           <div className="header-tools">
+            <button
+              className="header-more-button"
+              aria-expanded={more}
+              aria-controls="study-navigation"
+              onClick={toggleMore}
+            >
+              More <DotsThree size={23} aria-hidden="true" />
+            </button>
             <a href="#dictionary" aria-label="Search dictionary">
               <MagnifyingGlass size={23} />
             </a>
@@ -447,9 +490,7 @@ export default function App() {
           </footer>
           <nav className="mobile-nav" aria-label="Mobile navigation">
             {nav
-              .filter(([id]) =>
-                ["today", "read", "listen", "speak"].includes(id),
-              )
+              .filter(([id]) => mobileTabs.includes(id))
               .map(([id, label, Icon]) => (
                 <a
                   key={id}
@@ -461,56 +502,65 @@ export default function App() {
                   }
                 >
                   <Icon size={22} />
-                  {label}
+                  {id === "library" ? "Courses" : label}
                   <small lang="ja">
                     {
                       {
                         today: "今日",
+                        library: "授業",
                         read: "読む",
                         listen: "聴く",
                         speak: "話す",
-                      }[id as "today" | "read" | "listen" | "speak"]
+                      }[id as "today" | "library" | "read" | "listen" | "speak"]
                     }
                   </small>
                 </a>
               ))}
-            <button aria-expanded={more} onClick={() => setMore(!more)}>
+            <button
+              aria-expanded={more}
+              aria-controls="study-navigation"
+              onClick={toggleMore}
+            >
               <DotsThree size={24} />
               More
               <small aria-hidden="true">⋯</small>
             </button>
           </nav>
           {more && (
-            <div className="more-panel">
+            <nav
+              className="more-panel"
+              id="study-navigation"
+              aria-label="More navigation"
+            >
               <div>
                 <h2>Your study desk</h2>
                 <button
                   className="icon-button"
                   aria-label="Close menu"
-                  onClick={() => setMore(false)}
+                  onClick={() => {
+                    setMore(false);
+                    moreTrigger.current?.focus();
+                  }}
                 >
                   <X />
                 </button>
               </div>
               {[
-                ...nav.filter(
-                  ([id]) => !["today", "read", "listen", "speak"].includes(id),
-                ),
-                ["library", "Course library", BookOpen],
-                ["fieldwork", "Beyond the course", EnvelopeSimple],
-                ["dictionary", "Dictionary", MagnifyingGlass],
-                ["settings", "Settings", Gear],
-                ["companion", "Violetto", EnvelopeSimple],
-                ["postmarks", "Postmark collection", EnvelopeSimple],
-                ["voice", "Violetto's voice", Headphones],
+                ...nav.filter(([id]) => !mobileTabs.includes(id)),
+                ...extraNav,
               ].map(([id, label, Icon]) => (
-                <a key={String(id)} href={"#" + id}>
+                <a
+                  key={id}
+                  href={"#" + id}
+                  aria-current={route === id ? "page" : undefined}
+                  onClick={() => setMore(false)}
+                >
                   <Icon size={22} />
                   {String(label)}
                   <ArrowRight />
                 </a>
               ))}
-            </div>
+            </nav>
           )}
         </>
       )}

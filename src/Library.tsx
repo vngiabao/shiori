@@ -26,11 +26,11 @@ export function Library({
     <>
       <PageHeading
         title="Course library."
-        description="Every installed lesson. New validated content packs appear here automatically."
+        description="Your kana foundation, N5–N1 courses, vocabulary decks and keigo at work. Choose a level, then open a lesson."
       />
       <div className="library-summary">
         <p>
-          <strong>{packs.length}</strong> content pack ·{" "}
+          <strong>{packs.length}</strong> content packs ·{" "}
           <strong>{lessons.length}</strong> lessons · {completions.length}{" "}
           finished
         </p>
@@ -138,9 +138,9 @@ export function Library({
           </details>
         ))}
       <p className="content-note">
-        The starter course is a foundation, not a complete N5–N1 curriculum.
-        Later stages require additional reviewed packs and substantial practice
-        with real material and people.
+        These N5–N1 courses and decks are AI-assisted drafts awaiting
+        native-speaker review. Finishing lessons does not establish proficiency;
+        continue reading and listening to real Japanese alongside the course.
       </p>
     </>
   );
