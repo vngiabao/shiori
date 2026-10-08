@@ -25,8 +25,14 @@ export function speakWord(text: string) {
 }
 // Orthographic は is "ha" in the kana chart, but "wa" as the topic marker.
 // Keep the written word unchanged and resolve its pedagogical context here.
-export function wordAudioText(word: Pick<Word, "id" | "kana">) {
-  return word.id === "wa" ? "わ" : word.kana;
+export function wordAudioText(
+  word: Pick<Word, "id" | "kana"> & Partial<Pick<Word, "text">>,
+) {
+  if (word.id === "wa") return "わ";
+  // These homophones are lexical listening targets with distinct accents.
+  // A shared kana key erases that contrast when a learner taps the word.
+  if (word.text === "雨" || word.text === "飴") return word.text;
+  return word.kana;
 }
 export function speakReaction(key: Reaction, force = false) {
   const voice = preferences.voicePreview ?? "baseline";
@@ -106,48 +112,73 @@ export async function playTimedLines(
   let closed = false;
   const close = () => {
     timers.forEach(clearTimeout);
-    if (!closed) { closed = true; void ctx.close().catch(() => undefined); }
+    if (!closed) {
+      closed = true;
+      void ctx.close().catch(() => undefined);
+    }
   };
   const cancel = () => {
     cancelled = true;
-    for (const source of sources) { source.onended = null; source.stop(); }
+    for (const source of sources) {
+      source.onended = null;
+      source.stop();
+    }
     close();
-    rejectPlayback?.(new DOMException("Playback was interrupted.", "AbortError"));
+    rejectPlayback?.(
+      new DOMException("Playback was interrupted.", "AbortError"),
+    );
   };
   cancelTimed = cancel;
   try {
-    const buffers = await Promise.all(lines.map(async (line) => {
-      const response = await fetch(line.url);
-      if (!response.ok) throw new Error("The conversation recording could not be loaded.");
-      return ctx.decodeAudioData(await response.arrayBuffer());
-    }));
-    if (cancelled || mine !== sequence) throw new DOMException("Playback was interrupted.", "AbortError");
+    const buffers = await Promise.all(
+      lines.map(async (line) => {
+        const response = await fetch(line.url);
+        if (!response.ok)
+          throw new Error("The conversation recording could not be loaded.");
+        return ctx.decodeAudioData(await response.arrayBuffer());
+      }),
+    );
+    if (cancelled || mine !== sequence)
+      throw new DOMException("Playback was interrupted.", "AbortError");
     await ctx.resume();
-    if (cancelled || mine !== sequence) throw new DOMException("Playback was interrupted.", "AbortError");
-    const base = ctx.currentTime + .025;
+    if (cancelled || mine !== sequence)
+      throw new DOMException("Playback was interrupted.", "AbortError");
+    const base = ctx.currentTime + 0.025;
     await new Promise<void>((resolve, reject) => {
       rejectPlayback = reject;
-      let offset = 0, ended = 0;
+      let offset = 0,
+        ended = 0;
       for (const [i, line] of lines.entries()) {
-        if (!Number.isInteger(line.gapAfterMs) || line.gapAfterMs < -250 || line.gapAfterMs > 800 || buffers[i].duration + line.gapAfterMs / 1000 < .1)
+        if (
+          !Number.isInteger(line.gapAfterMs) ||
+          line.gapAfterMs < -250 ||
+          line.gapAfterMs > 800 ||
+          buffers[i].duration + line.gapAfterMs / 1000 < 0.1
+        )
           throw new Error("Invalid conversation timing.");
         const source = ctx.createBufferSource();
         source.buffer = buffers[i];
         source.connect(ctx.destination);
         source.onended = () => {
           if (++ended === lines.length && !cancelled && mine === sequence) {
-            onLine?.(-1); resolve();
+            onLine?.(-1);
+            resolve();
           }
         };
         sources.push(source);
         const at = base + offset;
         source.start(at);
-        timers.push(setTimeout(() => {
-          if (!cancelled && mine === sequence) {
-            last = { text: line.text, rate: 1, url: line.url };
-            onLine?.(i);
-          }
-        }, Math.max(0, (at - ctx.currentTime) * 1000)));
+        timers.push(
+          setTimeout(
+            () => {
+              if (!cancelled && mine === sequence) {
+                last = { text: line.text, rate: 1, url: line.url };
+                onLine?.(i);
+              }
+            },
+            Math.max(0, (at - ctx.currentTime) * 1000),
+          ),
+        );
         offset += buffers[i].duration + line.gapAfterMs / 1000;
       }
     });
@@ -167,8 +198,12 @@ function speakToEnd(text: string, url = assets[text]) {
     current = clip;
     return new Promise<void>((resolve, reject) => {
       clip.onended = () => resolve();
-      clip.onpause = () => clip.ended ? resolve() : reject(new DOMException("Playback was interrupted.", "AbortError"));
-      clip.onerror = () => reject(new Error("The audio recording could not be loaded."));
+      clip.onpause = () =>
+        clip.ended
+          ? resolve()
+          : reject(new DOMException("Playback was interrupted.", "AbortError"));
+      clip.onerror = () =>
+        reject(new Error("The audio recording could not be loaded."));
       clip.play().catch(reject);
     });
   }

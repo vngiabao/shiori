@@ -1,9 +1,10 @@
-"""Render the authored teacher library and repair only targeted/missing clips.
+"""Render only the authored teacher library with native delivery controls.
 
-Never regenerate course packs. Existing non-vowel lesson clips are preserved.
+Never regenerate course packs or lesson recordings.
 Run with .audio-py312/Scripts/python.exe scripts/render-teacher.py.
 """
-import csv,hashlib,importlib.util,json,re
+import csv,hashlib,importlib.util,json,re,sys
+sys.stdout.reconfigure(encoding='utf-8')
 from datetime import datetime,timezone
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent
@@ -26,11 +27,13 @@ categories={
  'milestone':(['proud','composed'],['celebrate','proud']),
  'rest':(['reflective','warm'],['tea'])}
 settings={
- 'composed':{'speed':1.0,'intonation':.80,'pitch':-.015,'pauseScale':1.02},
- 'warm':{'speed':.98,'intonation':.88,'pitch':-.015,'pauseScale':1.08},
- 'proud':{'speed':1.02,'intonation':1.02,'pitch':-.015,'pauseScale':.98},
- 'precise':{'speed':1.0,'intonation':.82,'pitch':-.015,'pauseScale':1.04},
- 'reflective':{'speed':.97,'intonation':.78,'pitch':-.015,'pauseScale':1.12}}
+ 'composed':{'speed':1.0,'intonation':.94,'pitch':-.015,'pauseScale':.96},
+ 'warm':{'speed':.99,'intonation':1.16,'pitch':-.015,'pauseScale':.98},
+ 'proud':{'speed':1.03,'intonation':1.45,'pitch':-.015,'pauseScale':.86},
+ 'precise':{'speed':1.01,'intonation':1.04,'pitch':-.015,'pauseScale':.92},
+ 'reflective':{'speed':.97,'intonation':.86,'pitch':-.015,'pauseScale':1.04}}
+centres={'composed':-.25,'warm':.25,'proud':.5,'precise':0,'reflective':-.5}
+previous=read('content/voices/teacher-provenance.json')
 counts={};library=[];records=[]
 with (root/'content/voices/reaction-lines.tsv').open(encoding='utf-8',newline='') as f:
     lines=list(csv.DictReader(f,delimiter='\t'))
@@ -41,9 +44,10 @@ for i,line in enumerate(lines):
     moods,poses=categories[key];mood=moods[n%len(moods)]
     text=voice.plain(line['ruby']);reading=ruby_reading(line['ruby'])
     voice.readings[text]=reading
-    delivery={**settings[mood],'semitones':[-.5,-.25,0,.25,.5][n%5]}
+    delivery={**settings[mood],'semitones':centres[mood]}
     delivery['speed']=round(max(.96,min(1.04,delivery['speed']+[-.01,0,.01][n%3])),2)
-    row=voice.render(text,mood,delivery)
+    cached=next((r for r in previous['records'] if r['text']==text and r['readingInput']==reading and r['delivery']==delivery),None)
+    row=cached if cached else voice.render(text,mood,delivery)
     item={'id':f'{key}-{n+1:02d}','category':key,'text':text,'reading':reading,
           'ruby':line['ruby'],'romaji':line['romaji'],'meaning':line['meaning'],
           'mood':mood,'pose':poses[n%len(poses)],'url':row['url'],
@@ -51,6 +55,8 @@ for i,line in enumerate(lines):
     library.append(item);records.append({**row,'id':item['id'],'delivery':delivery})
     print(f'Rendered teacher {i+1}/100: {item["id"]}',flush=True)
 write('src/generated/violetto-teacher.json',library)
+current_signatures={json.dumps(r,sort_keys=True,ensure_ascii=False) for r in records}
+historical={json.dumps(r,sort_keys=True,ensure_ascii=False):r for r in previous.get('historicalRecords',[])+previous['records'] if json.dumps(r,sort_keys=True,ensure_ascii=False) not in current_signatures}
 write('content/voices/teacher-provenance.json',{
  'createdAt':datetime.now(timezone.utc).isoformat(),'styleId':voice.style,
  'engine':'VOICEVOX Core 0.17.0','model':'VVM 0.16.4 / 1.vvm',
@@ -59,21 +65,6 @@ write('content/voices/teacher-provenance.json',{
  'pitchMethod':'Native log-F0 centre offset, not playback resampling. Intonation contour may vary independently.',
  'implementationSource':'https://github.com/VOICEVOX/voicevox_core/blob/0.17.0/crates/voicevox_core/src/engine/talk/interpret_query.rs',
  'authorSha256':hashlib.sha256((root/'content/voices/reaction-lines.tsv').read_bytes()).hexdigest(),
- 'records':records})
-# Repair vowels and newly authored course lines without touching existing takes.
-manifest=read('src/generated/audio.json');before=dict(manifest)
-provenance=read('content/voices/lesson-provenance.json')
-targets=set('あいうえおアイウエオ')|set(voice.texts)-set(manifest)
-for text in sorted(targets):
-    row=voice.render(text);manifest[text]=row['url']
-    provenance['records']=[r for r in provenance['records'] if r['text']!=text]+[row]
-    print('Repaired/mapped lesson:',text,flush=True)
-assert all(manifest[t]==url for t,url in before.items() if t not in targets)
-provenance['teacherPass']={'targets':sorted(targets),'nonTargetMappingsUnchanged':True,
-                         'vowelSeconds':.30,'humanListeningReviewed':False}
-write('src/generated/audio.json',manifest)
-write('content/voices/lesson-provenance.json',provenance)
-emotions=read('content/voices/emotion-provenance.json')
-emotions['lessonManifestSha256']=hashlib.sha256((root/'src/generated/audio.json').read_bytes()).hexdigest()
-write('content/voices/emotion-provenance.json',emotions)
-print('Published 100 teacher lines; lesson mappings:',len(manifest),flush=True)
+ 'records':records,
+ 'historicalRecords':list(historical.values())})
+print('Published 100 teacher lines. All lesson recordings preserved.',flush=True)

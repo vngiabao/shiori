@@ -5,6 +5,8 @@ root=Path(__file__).resolve().parent.parent
 spec=importlib.util.spec_from_file_location('voice',root/'scripts/render-japanese-voice.py')
 voice=importlib.util.module_from_spec(spec);spec.loader.exec_module(voice)
 config=json.loads((root/'content/voices/dialogue-speakers.json').read_text(encoding='utf-8'))
+previous_path=root/'content/voices/cast-provenance.json'
+previous=json.loads(previous_path.read_text(encoding='utf-8')) if previous_path.exists() else {}
 text='今日はよろしくお願いします。予定を確認しましょう。'
 reference=voice.render(text)
 records=[]
@@ -13,5 +15,8 @@ for name,setting in config['speakers'].items():
     records.append({**record,'speaker':name,'description':setting['description'],'delivery':setting})
 def write(path,v): (root/path).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n',encoding='utf-8', newline='\n')
 write('src/generated/cast-auditions.json',[{k:r[k] for k in ['speaker','description','text','url','mood']} for r in records])
-write('content/voices/cast-provenance.json',{'styleId':14,'configSha256':hashlib.sha256((root/'content/voices/dialogue-speakers.json').read_bytes()).hexdigest(),'reference':reference,'records':records,'humanListeningReviewed':False})
+signature=lambda r:json.dumps(r,sort_keys=True,ensure_ascii=False)
+active=set(map(signature,records))
+history={signature(r):r for r in previous.get('historicalRecords',[])+previous.get('records',[]) if signature(r) not in active}
+write('content/voices/cast-provenance.json',{'styleId':14,'configSha256':hashlib.sha256((root/'content/voices/dialogue-speakers.json').read_bytes()).hexdigest(),'reference':reference,'records':records,'historicalRecords':list(history.values()),'humanListeningReviewed':False})
 print(f'Published {len(records)} cast auditions.')

@@ -600,6 +600,11 @@ export function Listen({
           Tokyo Japanese example. Pitch varies by region; this is a listening
           guide, not a pronunciation score.
         </p>
+        <p>
+          In this pair, rain drops after あ. Candy has no drop. The lines show
+          how these words sound on their own; their starting pitch can change in
+          a sentence.
+        </p>
         <div className="pitch-pair">
           {["rain", "candy"].map((id) => (
             <div key={id}>

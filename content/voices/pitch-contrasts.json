@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "scope": "Isolated Tokyo Japanese listening examples. Lexical accent is independent of the ±0.5-semitone emotional pitch-centre limit.",
+  "source": "https://www.jpf.go.jp/j/project/japanese/teach/tsushin/research/202503.html",
+  "method": "Explicit two-mora native queries. Preserve phonemes and mean log-F0; use equal 0.18-second vowel segments and opposing ±0.12 log-F0 targets before synthesis. This is an authored illustration, not a native recording.",
+  "entries": [
+    {"text":"雨","reading":"あめ","kanaQuery":"ア'メ","pattern":"HL","downstepAfterMora":1,"logF0Offsets":[0.12,-0.12]},
+    {"text":"飴","reading":"あめ","kanaQuery":"アメ'","pattern":"LH","downstepAfterMora":null,"logF0Offsets":[-0.12,0.12]}
+  ]
+}

@@ -238,7 +238,7 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
   const [teacherSample, setTeacherSample] = useState(teacherLines[0].id);
   const teacherLine = teacherLines.find((l) => l.id === teacherSample)!;
   const [castSpeaker, setCastSpeaker] = useState(castAuditions[0].speaker);
-  const castTake = castAuditions.find(t => t.speaker === castSpeaker)!;
+  const castTake = castAuditions.find((t) => t.speaker === castSpeaker)!;
   const choices: [Reaction, string][] = [
     ["welcome", "Greeting"],
     ["correct", "Quiet praise"],
@@ -309,16 +309,16 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
       <div className="voice-studio-intro">
         <h2>One voice. A little more feeling.</h2>
         <p>
-          The voice you liked now has a warmer welcome, gentle reassurance,
-          quiet delight, teacher focus and a thoughtful close. Reactions draw
-          from 100 different teacher messages. Kana and lesson speech stay
-          steady.
+          A composed teacher who can sound sincerely pleased, warmly reassuring
+          or quietly thoughtful. Her 100 messages mix brief replies with fuller
+          encouragement. Kana and vocabulary keep their clear teaching voice.
         </p>
         <p>
           Conversation scenes use small, consistent differences for each
           speaker: Ren is warmer, Satō-sensei more formal, Hana a little
-          brighter, and Yui gently warm. All are performed in Violetto’s one
-          voice.
+          brighter. Yui has a brighter, quicker delivery; You is lower and more
+          measured. Scene difficulty changes the pace while preserving each
+          role’s cadence. All are performed in Violetto’s one voice.
         </p>
         <p className="content-note">
           Small changes in pace, intonation and pauses, all in the same voice.
@@ -326,22 +326,46 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
       </div>
       <section className="voice-baseline" aria-label="Course cast auditions">
         <h2>The people in your course.</h2>
-        <p>Compare the same sentence in each role. These are small delivery differences in Violetto’s voice; the character names also stay visible during scenes.</p>
+        <p>
+          Compare the same sentence in each role. These are small delivery
+          differences in Violetto’s voice; the character names also stay visible
+          during scenes.
+        </p>
         <label htmlFor="cast-speaker">Choose a character</label>
-        <select id="cast-speaker" value={castSpeaker} onChange={e => { stopAudio(); setCastSpeaker(e.target.value); }}>
-          {castAuditions.map(t => <option key={t.speaker} value={t.speaker}>{t.speaker}</option>)}
+        <select
+          id="cast-speaker"
+          value={castSpeaker}
+          onChange={(e) => {
+            stopAudio();
+            setCastSpeaker(e.target.value);
+          }}
+        >
+          {castAuditions.map((t) => (
+            <option key={t.speaker} value={t.speaker}>
+              {t.speaker}
+            </option>
+          ))}
         </select>
         <p>{castTake.description}</p>
-        <p lang="ja"><Furigana text="{今日|きょう}はよろしくお{願|ねが}いします。{予定|よてい}を{確認|かくにん}しましょう。" /></p>
-        <p className="muted">Thank you for working with me today. Let's check the schedule.</p>
-        <Button secondary onClick={() => hear(`cast-${castSpeaker}`,castTake.url)}><SpeakerHigh /> Hear this character</Button>
+        <p lang="ja">
+          <Furigana text="{今日|きょう}はよろしくお{願|ねが}いします。{予定|よてい}を{確認|かくにん}しましょう。" />
+        </p>
+        <p className="muted">
+          Thank you for working with me today. Let's check the schedule.
+        </p>
+        <Button
+          secondary
+          onClick={() => hear(`cast-${castSpeaker}`, castTake.url)}
+        >
+          <SpeakerHigh /> Hear this character
+        </Button>
       </section>
       <section className="voice-baseline" aria-label="Teacher messages">
         <h2>A teacher with a little personality.</h2>
         <p>
-          Precise, patient, quietly pleased when an answer is right.
-          Occasionally, a correction gives her something to do. Every message
-          has its own recording.
+          Precise, patient and genuinely pleased by a good answer. Sometimes
+          “お見事です！” is enough. Longer remarks belong to moments that need
+          them. Every message has its own recording.
         </p>
         <label htmlFor="teacher-message">Explore the 100 messages</label>
         <select
@@ -354,7 +378,7 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
         >
           {teacherLines.map((l) => (
             <option key={l.id} value={l.id}>
-              {l.category} · {l.meaning}
+              {l.category} · {l.mood} · {l.meaning}
             </option>
           ))}
         </select>
@@ -415,7 +439,7 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
               try {
                 stopAudio();
                 await db.profiles.update("local", { voicePreview: "baseline" });
-                setStatus("Expressive Violetto selected for reactions.");
+                setStatus("The varied teacher voice is selected for reactions.");
               } catch {
                 setStatus("Selection could not be saved. Please try again.");
               }
@@ -423,15 +447,19 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
           >
             {!profile.voicePreview || profile.voicePreview === "baseline" ? (
               <>
-                <Check /> Active for reactions
+                <Check /> Current teacher voice active
               </>
             ) : (
-              "Use expressive Violetto"
+              "Use the current teacher voice"
             )}
           </button>
         </div>
       </section>
       <h2>Earlier voice auditions</h2>
+      <p>
+        These earlier auditions use one fixed message per situation. Select
+        the current teacher voice above for the full 100-message library.
+      </p>
       <div className="voice-audition-list">
         {violetto.candidates.map((c, i) => {
           const ready = voiceCandidates.find((v) => v.id === c.id);
@@ -491,9 +519,9 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
       <div className="voice-baseline">
         <h2>The current lesson voice</h2>
         <p>
-          The rebuilt Japanese lesson voice also has a composed reaction set.
-          Selecting an earlier audition changes reactions only. Words and
-          lessons keep the new pronunciation-controlled voice.
+          Words and drills use the clear lesson voice. The current teacher
+          voice uses all 100 varied reactions. Selecting an earlier audition
+          changes reactions to its fixed script; lesson speech stays the same.
         </p>
         <div className="actions">
           <Button

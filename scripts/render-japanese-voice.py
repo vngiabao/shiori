@@ -75,6 +75,8 @@ if reading_path.exists():
         readings[entry['text']]=entry['readingInput']
 
 records=[]
+contrast_path=root/'content/voices/pitch-contrasts.json'
+contrasts={e['text']:e for e in json.loads(contrast_path.read_text(encoding='utf-8'))['entries']} if contrast_path.exists() else {}
 def render(text,mood='clear',delivery=None):
     single=bool(re.fullmatch('[ぁ-ゖァ-ヶ]',text))
     if single:
@@ -89,6 +91,19 @@ def render(text,mood='clear',delivery=None):
         # be heard without lengthening other kana or adding a carrier phrase.
         mora.vowel_length=.30 if kana in 'アイウエオ' else .22
         if mora.consonant_length is not None:mora.consonant_length=.08
+    elif text in contrasts:
+        entry=contrasts[text]
+        q=s.create_audio_query_from_kana(entry['kanaQuery'],style)
+        moras=[m for a in q.accent_phrases for m in a.moras]
+        assert ''.join(m.text for m in moras)==katakana(entry['reading'])
+        assert len(moras)==len(entry['logF0Offsets'])
+        centre=sum(m.pitch for m in moras)/len(moras)
+        for mora,offset in zip(moras,entry['logF0Offsets']):
+            mora.pitch=centre+offset
+            # Both syllables need a steady voiced centre for this comparison.
+            # Lengthen the native segments rather than stretching a WAV.
+            mora.vowel_length=.18
+            if mora.consonant_length is not None:mora.consonant_length=.06
     else:
         q=s.create_audio_query(readings.get(text,text),style)
     q.speed_scale=1.02 if mood=='clear' else 1.0
@@ -123,6 +138,7 @@ def render(text,mood='clear',delivery=None):
     payload=buffer.getvalue();digest=hashlib.sha256(payload).hexdigest()
     name='vv2-'+digest[:20]+'.wav';(out/name).write_bytes(payload)
     row={'text':text,'readingInput':readings.get(text,text),'mood':mood,'singleMora':single,'url':'/audio/'+name,'seconds':len(pcm)/sr,'sha256':digest,'query':asdict(q)}
+    if text in contrasts:row['lexicalContrast']=contrasts[text]
     records.append(row)
     return row
 

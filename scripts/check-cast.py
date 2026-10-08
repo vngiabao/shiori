@@ -24,4 +24,10 @@ for r in p['records']:
     assert hashlib.sha256(file.read_bytes()).hexdigest()==r['sha256']
     pcm,sr=sf.read(file)
     assert sr==24000 and pcm.ndim==1 and np.isfinite(pcm).all() and .01<np.max(np.abs(pcm))<.99
+for r in p.get('historicalRecords',[]):
+    assert hashlib.sha256((root/'public'/r['url'].lstrip('/')).read_bytes()).hexdigest()==r['sha256']
+report={'samples':len(manifest),'allMappingsHashesAndPhonemesValid':True,
+ 'sameOriginalVoice':True,'humanListeningReviewed':False,
+ 'deliveries':[{k:r[k] for k in ['speaker','url','seconds','delivery']} for r in p['records']]}
+(root/'output/cast-audio-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print(f"{len(manifest)} cast samples: mappings, phonemes, ±0.5-semitone limit and PCM checks pass. Human listening pending.")

@@ -1,6 +1,7 @@
 """Verify speaker mappings, signal integrity and untouched Clear recordings."""
 import hashlib,json,math
 from pathlib import Path
+from voice_delivery import scene_delivery
 import numpy as np,soundfile as sf
 root=Path(__file__).resolve().parent.parent
 def read(path):return json.loads((root/path).read_text(encoding='utf-8'))
@@ -23,8 +24,7 @@ for pack in read('src/generated/packs.json'):
             take=manifest[d['id']][i];row=records[(d['id'],i)]
             assert take['text']==row['text']==text
             assert take['speaker']==row['speaker']==line['speaker'] and take['index']==i
-            setting={**config['speakers'][line['speaker']]}
-            if d.get('speed') is not None:setting['speed']=d['speed']
+            setting=scene_delivery(config['speakers'][line['speaker']],d)
             assert row['delivery']==setting and take['mood']==setting['mood']
             baseline=clear[(text,row['clearUrl'])]
             assert row['readingInput']==baseline['readingInput']
@@ -63,7 +63,7 @@ for row in p.get('historicalRecords',[]):
     assert hashlib.sha256(path.read_bytes()).hexdigest()==row['sha256'], ('Historical dialogue changed',row['dialogue'],row['index'])
 report={'dialogueTakes':count,'speakers':sorted({r['speaker'] for r in p['records']}),'configuredSpeakers':list(config['speakers']),
  'allSpeakerTextMappingsValid':True,'phonemeSequencesUnchanged':True,
- 'clearLessonManifestUnchanged':True,'signalAndHashesValid':True,'timedOverlaps':overlaps,
+ 'clearLessonManifestMatchesRenderPin':True,'signalAndHashesValid':True,'timedOverlaps':overlaps,
  'overlapCheck':'Amplitude windows above 0.001, not phonemic or native listening review.', 'humanListeningReviewed':False}
 (root/'output/dialogue-audio-check.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8', newline='\n')
 print(json.dumps(report,indent=2))

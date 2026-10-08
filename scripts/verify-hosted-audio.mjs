@@ -40,9 +40,24 @@ await Promise.all(Array.from({ length: 16 }, async () => {
   }
 }));
 const samples = [];
+const sampleUrls = new Set();
 for (const prefix of '0123456789abcdef') {
   const file = files.find(file => file.url.startsWith(`/audio/vv2-${prefix}`));
   if (!file) throw new Error(`Missing local hash prefix ${prefix}`);
+  sampleUrls.add(file.url);
+}
+// Also verify exact bytes for the revised accent targets and every reaction
+// mood, plus the two roles whose similarity prompted this refresh.
+const clear = JSON.parse(fs.readFileSync('src/generated/audio.json', 'utf8'));
+for (const text of ['雨', '飴']) sampleUrls.add(clear[text]);
+const teacher = JSON.parse(fs.readFileSync('src/generated/violetto-teacher.json', 'utf8'));
+for (const mood of new Set(teacher.map(line => line.mood)))
+  sampleUrls.add(teacher.find(line => line.mood === mood).url);
+const cast = JSON.parse(fs.readFileSync('src/generated/cast-auditions.json', 'utf8'));
+for (const speaker of ['Yui', 'You']) sampleUrls.add(cast.find(line => line.speaker === speaker).url);
+for (const url of sampleUrls) {
+  const file = files.find(file => file.url === url);
+  if (!file) throw new Error(`Current sample was not staged: ${url}`);
   const response = await fetch(origin + file.url, { redirect: 'manual', signal: AbortSignal.timeout(20000) });
   const bytes = Buffer.from(await response.arrayBuffer());
   const local = fs.readFileSync('public' + file.url);

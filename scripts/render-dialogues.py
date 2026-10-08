@@ -3,6 +3,7 @@ import argparse,hashlib,importlib.util,json,sys
 sys.stdout.reconfigure(encoding='utf-8')
 from datetime import datetime,timezone
 from pathlib import Path
+from voice_delivery import scene_delivery
 root=Path(__file__).resolve().parent.parent
 spec=importlib.util.spec_from_file_location('voice',root/'scripts/render-japanese-voice.py')
 voice=importlib.util.module_from_spec(spec);spec.loader.exec_module(voice)
@@ -22,11 +23,11 @@ for pack in voice.packs:
         takes=[]
         for i,line in enumerate(dialogue['lines']):
             text=voice.plain(line['line']);speaker=line['speaker']
-            setting={**config['speakers'][speaker]}
-            if dialogue.get('speed') is not None:setting['speed']=dialogue['speed']
+            setting=scene_delivery(config['speakers'][speaker],dialogue)
             baseline=indexed[(text,clear[text])]
             voice.readings[text]=baseline['readingInput']
-            cached=next((r for r in old if r['dialogue']==dialogue['id'] and r['index']==i and r['text']==text and r['speaker']==speaker and r['delivery']==setting and r['clearUrl']==clear[text]),None)
+            acoustic=lambda d:{k:v for k,v in d.items() if k!='description'}
+            cached=next((r for r in old if r['dialogue']==dialogue['id'] and r['index']==i and r['text']==text and r['speaker']==speaker and acoustic(r['delivery'])==acoustic(setting) and r['clearUrl']==clear[text]),None)
             row=cached if cached else voice.render(text,setting['mood'],setting)
             phonemes=lambda q:[(m['text'],m['consonant'],m['vowel']) for a in q['accent_phrases'] for m in a['moras']]
             assert phonemes(row['query'])==phonemes(baseline['query']),(dialogue['id'],i)

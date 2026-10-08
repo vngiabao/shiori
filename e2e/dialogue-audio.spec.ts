@@ -3,53 +3,75 @@ import { readFileSync } from "node:fs";
 const takes = JSON.parse(
   readFileSync("src/generated/dialogue-voices.json", "utf8"),
 ) as Record<string, { url: string; seconds: number }[]>;
-const cast = JSON.parse(readFileSync("src/generated/cast-auditions.json","utf8")) as {speaker:string;url:string}[];
+const cast = JSON.parse(
+  readFileSync("src/generated/cast-auditions.json", "utf8"),
+) as { speaker: string; url: string }[];
 
-test("every course character has an audition that serves and decodes", async ({page}) => {
+test("every course character has an audition that serves and decodes", async ({
+  page,
+}) => {
   await page.goto("/");
   const failures = await page.evaluate(async (takes) => {
-    const ctx=new AudioContext(), failures:string[]=[];
+    const ctx = new AudioContext(),
+      failures: string[] = [];
     for (const take of takes) {
       try {
-        const response=await fetch(take.url);
+        const response = await fetch(take.url);
         if (!response.ok) throw new Error(String(response.status));
-        const audio=await ctx.decodeAudioData(await response.arrayBuffer());
-        if (audio.numberOfChannels!==1 || audio.duration<=1) throw new Error("Invalid audition");
-      } catch { failures.push(take.speaker); }
+        const audio = await ctx.decodeAudioData(await response.arrayBuffer());
+        if (audio.numberOfChannels !== 1 || audio.duration <= 1)
+          throw new Error("Invalid audition");
+      } catch {
+        failures.push(take.speaker);
+      }
     }
-    await ctx.close(); return failures;
-  },cast);
+    await ctx.close();
+    return failures;
+  }, cast);
   expect(failures).toEqual([]);
-  await page.getByRole("button",{name:"Start without an account"}).click();
-  await page.getByRole("button",{name:"Open my first letter"}).click();
-  await expect(page.getByRole("heading",{name:"Your next letter is ready."})).toBeVisible();
+  await page.getByRole("button", { name: "Start without an account" }).click();
+  await page.getByRole("button", { name: "Open my first letter" }).click();
+  await expect(
+    page.getByRole("heading", { name: "Your next letter is ready." }),
+  ).toBeVisible();
   await page.goto("/#voice");
   await page.getByLabel("Choose a character").selectOption("Kenta");
-  const section=page.getByRole("region",{name:"Course cast auditions"});
+  const section = page.getByRole("region", { name: "Course cast auditions" });
   await expect(section.getByText(/Ren's younger brother/)).toBeVisible();
-  await section.getByRole("button",{name:"Hear this character"}).click();
-  await expect(page.getByText("Could not play this take. Try again.")).toHaveCount(0);
+  await section.getByRole("button", { name: "Hear this character" }).click();
+  await expect(
+    page.getByText("Could not play this take. Try again."),
+  ).toHaveCount(0);
 });
 
 test("every speaker take is served and decodes", async ({ page }) => {
+  test.setTimeout(300000);
   await page.goto("/");
   const failed = await page.evaluate(async (lines) => {
     const ctx = new AudioContext();
     const failures: string[] = [];
-    for (const line of lines) {
-      try {
-        const response = await fetch(line.url);
-        if (!response.ok) throw new Error(String(response.status));
-        const audio = await ctx.decodeAudioData(await response.arrayBuffer());
-        if (
-          audio.numberOfChannels !== 1 ||
-          Math.abs(audio.duration - line.seconds) > 0.001
-        )
-          throw new Error("Invalid audio");
-      } catch {
-        failures.push(line.url);
-      }
-    }
+    let next = 0;
+    await Promise.all(
+      Array.from({ length: 8 }, async () => {
+        while (next < lines.length) {
+          const line = lines[next++];
+          try {
+            const response = await fetch(line.url);
+            if (!response.ok) throw new Error(String(response.status));
+            const audio = await ctx.decodeAudioData(
+              await response.arrayBuffer(),
+            );
+            if (
+              audio.numberOfChannels !== 1 ||
+              Math.abs(audio.duration - line.seconds) > 0.001
+            )
+              throw new Error("Invalid audio");
+          } catch {
+            failures.push(line.url);
+          }
+        }
+      }),
+    );
     await ctx.close();
     return failures;
   }, Object.values(takes).flat());

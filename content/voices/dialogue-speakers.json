@@ -1,18 +1,114 @@
 {
-  "version": 1,
-  "direction": "One Violetto voice, with restrained and consistent character delivery. Pronunciation remains natural; no accents or playback pitch shifting.",
+  "version": 2,
+  "direction": "One approved Violetto timbre. Character-specific pitch range, cadence and pauses; each authored scene speed multiplies the speaker cadence. Global pitch centre stays within ±0.5 semitone. Native synthesis, no WAV time stretching.",
   "speakers": {
-    "Ren": { "mood": "warm", "description": "Warm, conversational, lightly animated.", "speed": 1.01, "intonation": 0.96, "pitch": -0.015, "semitones": 0.2, "pauseScale": 1.02 },
-    "Satō": { "mood": "composed", "description": "Formal, measured, with a slightly lower centre.", "speed": 0.98, "intonation": 0.78, "pitch": -0.015, "semitones": -0.35, "pauseScale": 1.10 },
-    "Hana": { "mood": "proud", "description": "A little brighter and more animated, still restrained.", "speed": 1.03, "intonation": 1.04, "pitch": -0.015, "semitones": 0.4, "pauseScale": 0.98 },
-    "Yui": { "mood": "warm", "description": "Gentle, settled warmth, distinct from Ren's quicker delivery.", "speed": 0.99, "intonation": 0.90, "pitch": -0.015, "semitones": -0.1, "pauseScale": 1.06 },
-    "You": { "mood": "composed", "description": "An even, neutral learner role.", "speed": 1.00, "intonation": 0.84, "pitch": -0.015, "semitones": 0.0, "pauseScale": 1.04 },
-    "Kenta": { "mood": "warm", "description": "Ren's younger brother: brisk and casual, with short pauses.", "speed": 1.03, "intonation": 1.08, "pitch": -0.015, "semitones": -0.2, "pauseScale": 0.94 },
-    "Yamamoto": { "mood": "warm", "description": "Host mother: unhurried, considerate and warmly polite.", "speed": 0.97, "intonation": 0.86, "pitch": -0.015, "semitones": 0.15, "pauseScale": 1.12 },
-    "Mori": { "mood": "precise", "description": "Internship engineer: concise, matter-of-fact office delivery.", "speed": 1.01, "intonation": 0.72, "pitch": -0.015, "semitones": -0.3, "pauseScale": 1.01 },
-    "Misaki": { "mood": "proud", "description": "Anime and manga friend: brighter phrasing, controlled energy.", "speed": 1.03, "intonation": 1.10, "pitch": -0.015, "semitones": 0.5, "pauseScale": 0.96 },
-    "Ishikawa": { "mood": "precise", "description": "Section manager: deliberate emphasis and clear formal boundaries.", "speed": 0.99, "intonation": 0.82, "pitch": -0.015, "semitones": -0.5, "pauseScale": 1.07 },
-    "Tamura": { "mood": "warm", "description": "Client from Osaka: conversational and rhythmic; dialect comes from the text, not an invented accent.", "speed": 1.02, "intonation": 1.02, "pitch": -0.015, "semitones": 0.25, "pauseScale": 0.98 },
-    "Matsumoto": { "mood": "composed", "description": "Department head: steady, formal and spacious at sentence boundaries.", "speed": 0.96, "intonation": 0.70, "pitch": -0.015, "semitones": -0.4, "pauseScale": 1.15 }
+    "Ren": {
+      "mood": "warm",
+      "description": "Warm and conversational, lightly animated with brisk replies.",
+      "speed": 1.02,
+      "intonation": 1.18,
+      "pitch": -0.015,
+      "semitones": 0.25,
+      "pauseScale": 0.93
+    },
+    "Satō": {
+      "mood": "composed",
+      "description": "Formal, measured and lower-centred; deliberate teacher emphasis.",
+      "speed": 0.98,
+      "intonation": 0.9,
+      "pitch": -0.015,
+      "semitones": -0.35,
+      "pauseScale": 1.06
+    },
+    "Hana": {
+      "mood": "proud",
+      "description": "Bright and engaged, with a wider melodic range and short pauses.",
+      "speed": 1.03,
+      "intonation": 1.4,
+      "pitch": -0.015,
+      "semitones": 0.4,
+      "pauseScale": 0.88
+    },
+    "Yui": {
+      "mood": "warm",
+      "description": "Warm and forward: brighter centre, varied inflection and brisk, connected phrases.",
+      "speed": 1.03,
+      "intonation": 1.32,
+      "pitch": -0.015,
+      "semitones": 0.5,
+      "pauseScale": 0.9
+    },
+    "You": {
+      "mood": "composed",
+      "description": "Composed learner role: lower centre, smaller pitch range and more deliberate pauses.",
+      "speed": 0.97,
+      "intonation": 0.86,
+      "pitch": -0.015,
+      "semitones": -0.5,
+      "pauseScale": 1.1
+    },
+    "Kenta": {
+      "mood": "warm",
+      "description": "Ren's younger brother: brisk casual phrasing, clipped pauses and lively inflection.",
+      "speed": 1.04,
+      "intonation": 1.28,
+      "pitch": -0.015,
+      "semitones": -0.2,
+      "pauseScale": 0.85
+    },
+    "Yamamoto": {
+      "mood": "warm",
+      "description": "Unhurried and considerate, with gentle rises and warmly polite phrasing.",
+      "speed": 0.97,
+      "intonation": 1.1,
+      "pitch": -0.015,
+      "semitones": 0.15,
+      "pauseScale": 1.05
+    },
+    "Mori": {
+      "mood": "precise",
+      "description": "Concise office delivery: smaller pitch range and matter-of-fact endings.",
+      "speed": 1.01,
+      "intonation": 0.94,
+      "pitch": -0.015,
+      "semitones": -0.3,
+      "pauseScale": 0.95
+    },
+    "Misaki": {
+      "mood": "proud",
+      "description": "Animated manga friend: widest melodic range, quick replies and controlled energy.",
+      "speed": 1.04,
+      "intonation": 1.48,
+      "pitch": -0.015,
+      "semitones": 0.5,
+      "pauseScale": 0.86
+    },
+    "Ishikawa": {
+      "mood": "precise",
+      "description": "Deliberate manager delivery, lower centre and clear formal emphasis.",
+      "speed": 0.99,
+      "intonation": 1.02,
+      "pitch": -0.015,
+      "semitones": -0.5,
+      "pauseScale": 1.02
+    },
+    "Tamura": {
+      "mood": "warm",
+      "description": "Conversational rhythm; dialect comes from the authored text, not an invented accent.",
+      "speed": 1.02,
+      "intonation": 1.24,
+      "pitch": -0.015,
+      "semitones": 0.25,
+      "pauseScale": 0.92
+    },
+    "Matsumoto": {
+      "mood": "composed",
+      "description": "Reflective literary discussion: unhurried cadence and a restrained, lower centre.",
+      "speed": 0.96,
+      "intonation": 0.88,
+      "pitch": -0.015,
+      "semitones": -0.4,
+      "pauseScale": 1.1
+    }
   }
 }

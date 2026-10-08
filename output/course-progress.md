@@ -2,6 +2,12 @@
 
 Updated 2026-10-07. Authorized scope: N4 → N3 → N2 → N1 → twelve workplace-keigo scenarios, then deploy to shiori.gbaonvo.com. Chinese stays read-only. Preserve design, auth, database identity and recordings. A separate backup branch may be pushed only after verifying that it cannot trigger a production deployment; otherwise keep local commits and record the uncertainty. Final deploy and removal of Shiori's extra Access gate authorized after completion.
 
+## Violetto voice and navigation follow-up — 7 October 2026
+
+Course library and More are live (navigation commit c7366e3); every top-level study page is reachable on desktop and phone. The authorised voice refresh now preserves the style-14 timbre and existing vector art while changing native delivery. 100 teacher messages: 58 rewritten, duration mix57 short/40 medium/3 long, average2.44 seconds. Six directions including Clear; reaction speed0.96–1.04 and emotional centre±0.5 semitone. All1,695 dialogue takes refreshed for twelve roles; authored scene speed multiplies role cadence, cap1.25. Yui/You deliveries and cast auditions are distinct. Two sourced lexical keys 雨/飴 have opposite verified WAV pitch directions; all24,946 other Clear URLs and older recording bytes remain. Earlier audition choices use a fixed script; the current teacher choice is now labelled explicitly.
+
+184 app tests,33 Python tests,seven audio validators,preservation,production build and11 audio/navigation browser cases pass. Complete new-audio offline verification2026-10-08T03:20:29.369Z passes; final UI-label build has the same recordings/cache logic and14,751.78KiB shell. No course wording/auth/database/art changed. Human/native perception is not machine certified. Push/deploy and hosted verification are next; do not restart curriculum authoring. See content/voices/VIOLETTO-RESEARCH.md and output/release-report.md for details.
+
 ## Whole-course release deployed and publicly verified — 7 October 2026
 
 Cloudflare build `9e7006eb-e3af-4867-89b9-daaa2c233677` successfully deployed commit `d0dc6c74493023d4f9515da291e6427e2b3b3b1a` in 8m16s. Main version `347cecc0-4c75-46cc-ab61-7f1edbfc34f2`, audio-a `41a59e28-d2d3-4a19-84a7-61746225d6e6` and audio-b `475e5267-82a8-4604-b8a3-6f42151a64f6` are active at 100%. Main and course-build contain this release. The dashboard log is virtualized: older visible upload lines do not mean the successful deployment stalled. Do not launch a duplicate deployment.

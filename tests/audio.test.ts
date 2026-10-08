@@ -18,19 +18,41 @@ afterEach(() => {
   vi.unstubAllGlobals();
 });
 it("does not count an interrupted conversation as heard or resume over a tapped word", async () => {
-  const clips: { onpause?: () => void; onended?: () => void; ended:boolean; pause:()=>void }[] = [];
+  const clips: {
+    onpause?: () => void;
+    onended?: () => void;
+    ended: boolean;
+    pause: () => void;
+  }[] = [];
   vi.stubGlobal("window", {});
-  vi.stubGlobal("Audio", class {
-    ended=false;
-    onpause?:()=>void;
-    onended?:()=>void;
-    constructor() { clips.push(this); }
-    play() { return Promise.resolve(); }
-    pause() { this.onpause?.(); }
+  vi.stubGlobal(
+    "Audio",
+    class {
+      ended = false;
+      onpause?: () => void;
+      onended?: () => void;
+      constructor() {
+        clips.push(this);
+      }
+      play() {
+        return Promise.resolve();
+      }
+      pause() {
+        this.onpause?.();
+      }
+    },
+  );
+  const callback = vi.fn();
+  const conversation = playLines(
+    [
+      { text: "こんにちは", url: manifest["こんにちは"] },
+      { text: "あ", url: manifest["あ"] },
+    ],
+    callback,
+  );
+  const rejected = expect(conversation).rejects.toMatchObject({
+    name: "AbortError",
   });
-  const callback=vi.fn();
-  const conversation=playLines([{text:"こんにちは",url:manifest["こんにちは"]},{text:"あ",url:manifest["あ"]}],callback);
-  const rejected=expect(conversation).rejects.toMatchObject({name:"AbortError"});
   await speak("い");
   await rejected;
   expect(clips).toHaveLength(2);
@@ -102,6 +124,15 @@ it("keeps earlier audition text matched to its recording", async () => {
 it("distinguishes kana ha from the topic particle without changing spelling", () => {
   expect(wordAudioText({ id: "h-は", kana: "は" })).toBe("は");
   expect(wordAudioText({ id: "wa", kana: "は" })).toBe("わ");
+});
+it("preserves the rain/candy lexical contrast when tapping homophones", () => {
+  const rain = wordAudioText({ id: "rain", text: "雨", kana: "あめ" });
+  const candy = wordAudioText({ id: "candy", text: "飴", kana: "あめ" });
+  expect(rain).toBe("雨");
+  expect(candy).toBe("飴");
+  const urls = manifest as Record<string, string>;
+  expect(urls[rain]).not.toBe(urls[candy]);
+  expect(wordAudioText({ id: "h-あ", text: "あ", kana: "あ" })).toBe("あ");
 });
 it("uses separate replacement vowel clips and stops the previous sound", async () => {
   const clips: {

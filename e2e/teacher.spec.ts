@@ -24,6 +24,26 @@ test("teacher feedback text and replay match the selected recording", async ({
   await page.goto("/");
   await page.getByRole("button", { name: "Start without an account" }).click();
   await page.getByRole("button", { name: "Open my first letter" }).click();
+  await page
+    .getByRole("heading", { name: "Your next letter is ready." })
+    .waitFor();
+  await page.goto("/#voice");
+  // An earlier audition deliberately has a fixed script. Restoring the
+  // current teacher choice must make the varied library active again.
+  await page
+    .getByRole("button", { name: "Try in reactions", exact: true })
+    .first()
+    .click();
+  await page
+    .getByRole("button", { name: "Use the current teacher voice", exact: true })
+    .click();
+  await expect(
+    page.getByRole("button", {
+      name: "Current teacher voice active",
+      exact: true,
+    }),
+  ).toBeVisible();
+  await page.goto("/#today");
   await page.getByRole("button", { name: "Begin lesson", exact: true }).click();
   const shown: string[] = [];
   for (const [i, answer] of ["a", "い"].entries()) {

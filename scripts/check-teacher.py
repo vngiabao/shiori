@@ -35,10 +35,19 @@ for line in lines:
     assert sr==24000 and pcm.ndim==1 and np.isfinite(pcm).all()
     assert .01<np.max(np.abs(pcm))<.99
     assert abs(len(pcm)/sr-line['seconds'])<1/sr
+for r in p.get('historicalRecords',[]):
+    assert hashlib.sha256((root/'public'/r['url'].lstrip('/')).read_bytes()).hexdigest()==r['sha256']
+lengths={'short':sum(l['seconds']<=2.5 for l in lines),
+         'medium':sum(2.5<l['seconds']<=4.5 for l in lines),
+         'long':sum(l['seconds']>4.5 for l in lines)}
+assert lengths['short']>=25 and lengths['medium']>=15 and lengths['long']>=1,lengths
+assert max(l['delivery']['intonation'] for l in lines)-min(l['delivery']['intonation'] for l in lines)>=.5
 report={'teacherSentences':len(lines),'categories':sorted({l['category'] for l in lines}),
  'moods':sorted({l['mood'] for l in lines}),'allMappingsAndHashesValid':True,
  'nativePhonemeSequencesUnchanged':True,'pitchCentreSemitones':[-.5,.5],
  'speedScale':[min(l['delivery']['speed'] for l in lines),max(l['delivery']['speed'] for l in lines)],
+ 'durationMix':lengths,'secondsRange':[min(l['seconds'] for l in lines),max(l['seconds'] for l in lines)],
+ 'historicalRecordingsPreserved':len(p.get('historicalRecords',[])),
  'humanListeningReviewed':False}
 (root/'output/teacher-audio-check.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8', newline='\n')
 print(json.dumps(report,indent=2))
