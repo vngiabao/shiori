@@ -43,6 +43,11 @@ test("teacher feedback text and replay match the selected recording", async ({
       exact: true,
     }),
   ).toBeVisible();
+  await page.getByLabel("Explore the 100 messages").selectOption("correct-01");
+  await page
+    .getByRole("region", { name: "Teacher messages" })
+    .scrollIntoViewIfNeeded();
+  await page.screenshot({ path: "output/violetto-current-teacher.png" });
   await page.goto("/#today");
   await page.getByRole("button", { name: "Begin lesson", exact: true }).click();
   const shown: string[] = [];
