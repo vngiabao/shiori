@@ -12,7 +12,7 @@ Kiyo uses the separate `kiyo_` equivalents. Auth identities and project quotas a
 shared; learning records, revisions, deletion markers and browser storage are not.
 Deleting a Supabase Auth user deletes that user's data in BOTH apps. Each app's
 cloud-data deletion button deletes only its own records. Keep backup exports.
-Shiori's extra Access gate is scheduled for removal at the authorized final deployment; its guest study pages will then be public, while sync stays owner-only. Kiyo is unchanged. Repository visibility has no effect on sync.
+Shiori's extra Access gate was removed with final user confirmation on 7 October 2026; guest study pages are public, while sync stays owner-only. Kiyo is unchanged. Repository visibility has no effect on sync.
 
 Allowed Auth redirects: `https://shiori.gbaonvo.com/` and
 `https://kiyo.gbaonvo.com/`. Site URL defaults to Shiori; each app sends its own

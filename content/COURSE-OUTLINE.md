@@ -1,6 +1,6 @@
 # Shiori course outline: N5 → N1, media and keigo
 
-Status updated 2026-10-07. All N5/N4/N3/N2/N1 core units and twelve workplace-keigo scenarios are authored and internally reviewed; native review is pending. Seventy-three vocabulary decks, 2,013 kanji references and ninety written JLPT items per level are installed. Every pinned community source row has an explicit exact/corrected/related/pattern/excluded disposition; related candidates are not certified independent targets. Final audio/full-course/offline/hosting verification is in progress before the authorized production deployment. Current inventory and exact next work: output/course-progress.md; reviews: output/review-*.md.
+Status updated 2026-10-07. All N5/N4/N3/N2/N1 core units and twelve workplace-keigo scenarios are authored and internally reviewed; native review is pending. Seventy-three vocabulary decks, 2,013 kanji references and ninety written JLPT items per level are installed. Every pinned community source row has an explicit exact/corrected/related/pattern/excluded disposition; related candidates are not certified independent targets. Final local audio/full-course/offline checks pass and the whole-course release is deployed. Shiori’s extra Access gate is removed; all 19,517 hosted WAV URLs and fourteen live app/audio checks pass. Native review and actual owner/two-device sync remain separate acceptance work. Current inventory and exact next work: output/course-progress.md; reviews: output/review-*.md.
 
 ## 0. What the course is for
 
