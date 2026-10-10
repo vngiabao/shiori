@@ -44,7 +44,7 @@ export function ViolettoBubble({ kind }: { kind: Reaction }) {
         <SpeakerHigh size={18} />
       </button>
       <p className="bubble-japanese">
-        <Furigana text={line.ruby} />
+        <Furigana text={line.ruby} phrases />
       </p>
       <div className="bubble-details">
         <p className="bubble-reading">{line.romaji}</p>
@@ -85,7 +85,7 @@ export function ViolettoPanel({ kind, pose }: { kind: Reaction; pose: Pose }) {
         <Mascot pose={pose} size={208} />
       </a>
       <p className="panel-japanese">
-        <Furigana text={line.ruby} />
+        <Furigana text={line.ruby} phrases />
       </p>
       <p className="panel-romaji">{line.romaji}</p>
       <p className="panel-meaning">{line.meaning}</p>
@@ -118,7 +118,7 @@ export function ReactionLine({
   return (
     <div className={`violetto-line ${compact ? "compact" : ""}`}>
       <p className="reaction-japanese">
-        <Furigana text={line.ruby} />
+        <Furigana text={line.ruby} phrases />
       </p>
       {!compact && <p className="reaction-reading">{line.romaji}</p>}
       <p className="reaction-meaning">{line.meaning}</p>
@@ -386,7 +386,7 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
           ))}
         </select>
         <p lang="ja">
-          <Furigana text={teacherLine.ruby} />
+          <Furigana text={teacherLine.ruby} phrases />
         </p>
         <p className="muted">{teacherLine.romaji}</p>
         <p>{teacherLine.meaning}</p>
@@ -415,7 +415,7 @@ export function VoiceStudio({ profile }: { profile: Profile }) {
           ))}
         </select>
         <p className="voice-line">
-          <Furigana text={line.ruby} />
+          <Furigana text={line.ruby} phrases />
         </p>
         <p className="muted">{line.romaji}</p>
         <p>{line.meaning}</p>

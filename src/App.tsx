@@ -3,6 +3,7 @@ import { useLiveQuery } from "dexie-react-hooks";
 import {
   Sun,
   BookOpen,
+  Books,
   Headphones,
   ChatsCircle,
   ArrowClockwise,
@@ -89,7 +90,7 @@ import type {
 } from "./types";
 const nav = [
   ["today", "Today", Sun],
-  ["library", "Course library", BookOpen],
+  ["library", "Course library", Books],
   ["read", "Read", BookOpen],
   ["listen", "Listen", Headphones],
   ["speak", "Speak", ChatsCircle],
@@ -639,7 +640,9 @@ function Today({
       )
       .map((a) => wordMap[a.itemId].text),
   ).size;
-  const lessonNumber = lessons.indexOf(next) + 1;
+  const nextPack = courseCatalog.find((p) =>
+    p.lessons.some((l) => l.id === next.id),
+  );
   return (
     <>
       <div className="today-board">
@@ -676,10 +679,10 @@ function Today({
           <div className="lead-lesson-copy">
             <h2>{next.title}.</h2>
             <p className="lesson-meta">
-              Lesson {lessonNumber} of{" "}
-              {courseCatalog.reduce((n, p) => n + p.lessons.length, 0)} ·{" "}
-              {next.kind === "kana" ? "Sounds and kana" : "First exchanges"} ·{" "}
-              {next.minutes} min
+              {next.kind === "kana"
+                ? "Sounds and kana"
+                : (nextPack?.title ?? "Course")}{" "}
+              · {next.minutes} min
             </p>
             <p>{next.description}</p>
             <div

@@ -10,7 +10,7 @@ import {
   GraduationCap,
 } from "@phosphor-icons/react";
 import { db } from "./db";
-import { Button } from "./components";
+import { Button, Furigana } from "./components";
 import teacherLines from "../content/voices/jlpt-teacher.json";
 import {
   createRun,
@@ -56,7 +56,9 @@ function Teacher({
         alt="Violetto wearing glasses, holding a fountain pen and study folio"
       />
       <div>
-        <p lang="ja">{text.text}</p>
+        <p lang="ja">
+          <Furigana text={text.text} phrases />
+        </p>
         <p>{text.meaning}</p>
       </div>
     </aside>

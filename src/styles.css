@@ -3527,8 +3527,9 @@ dialog::backdrop {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 20px 0;
-  border-block: 1px solid var(--rule);
+  padding: 0 0 20px;
+  /* The page heading above already draws the top rule. */
+  border-bottom: 1px solid var(--rule);
 }
 .library-filter {
   max-width: 300px;

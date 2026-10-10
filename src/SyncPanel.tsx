@@ -122,7 +122,7 @@ export function SyncPanel({ entry = false }: { entry?: boolean }) {
           </Button>
           {!emailConfigured && (
             <p className="muted">
-              Private sync · Google account gbao.n.vo@gmail.com only.
+              Private sync for the owner’s Google account.
             </p>
           )}
           {!oauthConfigured("google") && (

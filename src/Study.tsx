@@ -657,7 +657,7 @@ export function Practice({
   return (
     <>
       <PageHeading
-        title="Review."
+        title="Practice."
         description="Memories return just before they fade. Each skill keeps its own."
       />
       <div className="review-feature">
@@ -1150,7 +1150,8 @@ export function Dictionary() {
         placeholder="Try 手紙, tegami, or letter…"
       />
       <p className="muted">
-        {filtered.length} course entries · broader dictionary expansion planned
+        {filtered.length.toLocaleString("en")}{" "}
+        {filtered.length === 1 ? "entry" : "entries"} from the course
       </p>
       <div className="dictionary-list">
         {filtered.slice(0, 100).map((w) => (

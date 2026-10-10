@@ -296,6 +296,10 @@
 .bubble-japanese {
   font: 18px/1.5 var(--font-japanese);
 }
+/* A sentence moves to the next line whole instead of breaking mid-word. */
+.furigana .phrase {
+  display: inline-block;
+}
 .furigana ruby rt {
   font-size: 0.5em;
   color: var(--ink-2);

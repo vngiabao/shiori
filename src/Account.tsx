@@ -346,7 +346,7 @@ export function Settings({ profile: storedProfile }: { profile: Profile }) {
               </span>
             </label>
             <a className="text-button" href="#voice">
-              Compare Violetto's voice auditions <ArrowRight />
+              Compare Violetto’s voice auditions <ArrowRight />
             </a>
           </fieldset>
           <OfflineAudio />
@@ -568,7 +568,8 @@ function OfflineAudio() {
       <h2 id="offline-audio">Offline audio</h2>
       <p>
         Lessons are saved as you open them, and clips as you hear them. To study
-        anywhere, save all course text and {lessonAudioUrls().length} audio
+        anywhere, save all course text and{" "}
+        {lessonAudioUrls().length.toLocaleString("en")} audio
         clips now. A large course may take several minutes to download.
       </p>
       <Button

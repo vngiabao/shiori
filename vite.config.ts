@@ -130,6 +130,8 @@ export default defineConfig({
     }),
   ],
   server: { port: 5174, strictPort: true },
+  // Scan only the app's entry; output/ holds staged deploy copies with their own index.html.
+  optimizeDeps: { entries: ["index.html"] },
   build: {
     target: "es2022",
     chunkSizeWarningLimit: 900,

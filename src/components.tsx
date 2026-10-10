@@ -193,21 +193,32 @@ export function Japanese({
   );
 }
 /** Renders "{漢字|かんじ}" markup as ruby: kana sit over the kanji only. */
-export function Furigana({ text }: { text: string }) {
-  const parts = text.split(/(\{[^|}]+\|[^}]+\})/).filter(Boolean);
-  return (
-    <span lang="ja" className="furigana">
-      {parts.map((p, i) => {
+/** `phrases` keeps each short clause on one line when it fits (speech bubbles, not long readings). */
+export function Furigana({ text, phrases }: { text: string; phrases?: boolean }) {
+  const render = (s: string, key: string) =>
+    s
+      .split(/(\{[^|}]+\|[^}]+\})/)
+      .filter(Boolean)
+      .map((p, i) => {
         const m = /^\{([^|]+)\|([^}]+)\}$/.exec(p);
         return m ? (
-          <ruby key={i}>
+          <ruby key={key + i}>
             {m[1]}
             <rt>{m[2]}</rt>
           </ruby>
         ) : (
-          <span key={i}>{p}</span>
+          <span key={key + i}>{p}</span>
         );
-      })}
+      });
+  return (
+    <span lang="ja" className="furigana">
+      {phrases
+        ? (text.match(/[^。！？!?、]+[。！？!?、]*/g) ?? [text]).map((s, i) => (
+            <span className="phrase" key={i}>
+              {render(s, `${i}-`)}
+            </span>
+          ))
+        : render(text, "")}
     </span>
   );
 }
