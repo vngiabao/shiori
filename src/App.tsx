@@ -1,6 +1,7 @@
 import {
   lazy,
   Suspense,
+  type ReactNode,
   useEffect,
   useState,
   useRef,
@@ -74,6 +75,7 @@ import { postalProgress } from "./rewards";
 import {
   lessons,
   letters,
+  roleplays,
   wordMap,
   courseCatalog,
   courseLevels,
@@ -185,9 +187,7 @@ export default function App() {
   );
   const fullShelf =
     // Read opens on the kana charts; its Letters, Texts and Kanji shelves load the rest themselves.
-    ["listen", "letters", "dictionary", "speak", "progress"].includes(
-      route,
-    ) ||
+    ["listen", "letters", "dictionary", "speak", "progress"].includes(route) ||
     route.startsWith("letter/") ||
     route.startsWith("media");
   // Keyed by what must be loaded, not by route: switching pages never blanks the
@@ -647,15 +647,32 @@ function Today({
   const plan = buildPlan(profile.minutes, attempts, profile.path, due);
   const first = wordMap[next.words[0]];
   const post = postalProgress(attempts, completions);
-  const labels: Record<string, [string, string]> = {
-    read: ["Meet a few new shapes", "A short lesson in your reading path"],
-    letters: ["Open a letter", "Read slowly, with a meaning at every word"],
-    listen: [
-      "Listen for meaning",
-      "The same words, a different kind of memory",
-    ],
-    speak: ["Find something to say", "A small exchange at the bookshop"],
-    practice: ["Bring a memory back", `${due} memories ready to revisit`],
+  // Today's round names real errands, not categories.
+  const round: Record<
+    string,
+    { kicker: string; title: string; icon: ReactNode }
+  > = {
+    read: { kicker: "Lesson", title: next.title, icon: <BookOpen /> },
+    listen: {
+      kicker: "Listening pass",
+      title: next.title,
+      icon: <Headphones />,
+    },
+    letters: {
+      kicker: "Letter",
+      title: letters[0] ? `From ${letters[0].from}` : "A letter for you",
+      icon: <EnvelopeSimple />,
+    },
+    speak: {
+      kicker: "Conversation",
+      title: roleplays[0]?.title ?? "At the bookshop",
+      icon: <ChatsCircle />,
+    },
+    practice: {
+      kicker: "Review",
+      title: due === 1 ? "1 memory due" : `${due} memories due`,
+      icon: <ArrowClockwise />,
+    },
   };
   const streak = post.streak;
   const recognised = new Set(
@@ -764,25 +781,27 @@ function Today({
             </label>
           </div>
           <p className="muted">{plan.reason}</p>
-          <ol>
+          <div className="round">
             {plan.items.map((item, i) => (
-              <li key={i}>
-                <button
-                  onClick={() =>
-                    item.route === "read" ? start(next) : go(item.route)
-                  }
-                >
-                  <span className="plan-number">{i + 1}</span>
-                  <span>
-                    <strong>{labels[item.route][0]}</strong>
-                    <small>{labels[item.route][1]}</small>
-                  </span>
-                  <span className="plan-time">{item.minutes} min</span>
-                  <ArrowRight size={18} />
-                </button>
-              </li>
+              <button
+                key={i}
+                className="round-card"
+                onClick={() =>
+                  item.route === "read" ? start(next) : go(item.route)
+                }
+              >
+                <span className="round-number" aria-hidden="true">
+                  {i + 1}
+                </span>
+                <span className="round-icon" aria-hidden="true">
+                  {round[item.route].icon}
+                </span>
+                <span className="round-kicker">{round[item.route].kicker}</span>
+                <strong>{round[item.route].title}</strong>
+                <span className="round-time">{item.minutes} min</span>
+              </button>
             ))}
-          </ol>
+          </div>
         </section>
         <aside className="today-post">
           <div className="section-title">
@@ -811,40 +830,46 @@ function Today({
               <ArrowRight size={18} />
             </span>
           </button>
-          <p className="working-toward">
-            <span>Working toward</span>
-            <strong>{next.canDo}</strong>
-          </p>
-          {/* A small ledger: one figure per tile, the two that lead somewhere are links. */}
-          <div className="quiet-stats ledger">
+          {/* A ledger slip: the few figures worth a glance, on paper. */}
+          <dl className="ledger-slip">
+            <div className="slip-head">
+              <dt>Working toward</dt>
+              <dd>{next.canDo}</dd>
+            </div>
             <div>
-              <span>Level</span>
-              <strong>{post.level}</strong>
+              <dt>Correspondence level</dt>
+              <dd>{post.level}</dd>
             </div>
             {profile.streak && (
               <div>
-                <span>Days in a row</span>
-                <strong>{streak}</strong>
+                <dt>Days in a row</dt>
+                <dd>{streak}</dd>
               </div>
             )}
-            <button onClick={() => go("practice")}>
-              <span>Review due</span>
-              <strong>{due}</strong>
-              <ArrowRight size={16} />
-            </button>
             <div>
-              <span>Recalled unaided</span>
-              <strong>{recognised}</strong>
+              <dt>Review due</dt>
+              <dd>
+                <button onClick={() => go("practice")}>
+                  {due}
+                  <ArrowRight size={14} />
+                </button>
+              </dd>
             </div>
-            <a href="#postmarks">
-              <span>Postmarks</span>
-              <strong>
-                {post.stamps.filter((s) => s.at !== undefined).length}
-                <small> of {post.stamps.length}</small>
-              </strong>
-              <ArrowRight size={16} />
-            </a>
-          </div>
+            <div>
+              <dt>Recalled unaided</dt>
+              <dd>{recognised}</dd>
+            </div>
+            <div>
+              <dt>Postmarks</dt>
+              <dd>
+                <a href="#postmarks">
+                  {post.stamps.filter((s) => s.at !== undefined).length} of{" "}
+                  {post.stamps.length}
+                  <ArrowRight size={14} />
+                </a>
+              </dd>
+            </div>
+          </dl>
         </aside>
       </div>
       <section className="path-section">
