@@ -811,13 +811,14 @@ function Today({
               <ArrowRight size={18} />
             </span>
           </button>
-          <div className="quiet-stats">
+          <p className="working-toward">
+            <span>Working toward</span>
+            <strong>{next.canDo}</strong>
+          </p>
+          {/* A small ledger: one figure per tile, the two that lead somewhere are links. */}
+          <div className="quiet-stats ledger">
             <div>
-              <span>Working toward</span>
-              <strong>{next.canDo}</strong>
-            </div>
-            <div>
-              <span>Correspondence level</span>
+              <span>Level</span>
               <strong>{post.level}</strong>
             </div>
             {profile.streak && (
@@ -826,25 +827,23 @@ function Today({
                 <strong>{streak}</strong>
               </div>
             )}
-            <div>
+            <button onClick={() => go("practice")}>
               <span>Review due</span>
-              <button onClick={() => go("practice")}>
-                {due}
-                <ArrowRight size={16} />
-              </button>
-            </div>
+              <strong>{due}</strong>
+              <ArrowRight size={16} />
+            </button>
             <div>
-              <span>Kana / kanji recalled unaided</span>
+              <span>Recalled unaided</span>
               <strong>{recognised}</strong>
             </div>
-            <div>
+            <a href="#postmarks">
               <span>Postmarks</span>
-              <a href="#postmarks">
-                {post.stamps.filter((s) => s.at !== undefined).length} of{" "}
-                {post.stamps.length}
-                <ArrowRight size={16} />
-              </a>
-            </div>
+              <strong>
+                {post.stamps.filter((s) => s.at !== undefined).length}
+                <small> of {post.stamps.length}</small>
+              </strong>
+              <ArrowRight size={16} />
+            </a>
           </div>
         </aside>
       </div>
@@ -853,7 +852,8 @@ function Today({
           <div>
             <h2>Your first correspondence.</h2>
             <p className="muted">
-              A path from first sounds to meaningful exchanges.
+              The kana foundation: eight short lessons from first sounds to
+              first words.
             </p>
           </div>
           <a href="#library">
@@ -874,16 +874,20 @@ function Today({
                   start(l, profile.path === "sound" ? "listening" : "reading")
                 }
               >
-                <span className="path-envelope">
-                  <EnvelopeSimple size={49} weight="thin" />
-                  {done.has(l.id) ? <Check size={16} /> : <span>{i + 1}</span>}
+                <span className="path-envelope" aria-hidden="true">
+                  <EnvelopeSimple size={40} weight="thin" />
+                  {done.has(l.id) ? (
+                    <Check size={12} weight="bold" />
+                  ) : (
+                    <span>{i + 1}</span>
+                  )}
                 </span>
                 <strong>{l.title}</strong>
                 <small>
                   {done.has(l.id)
                     ? "Delivered"
                     : l.id === next.id
-                      ? "Start here"
+                      ? "Up next"
                       : `${l.minutes} min`}
                 </small>
               </button>

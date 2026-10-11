@@ -1681,20 +1681,18 @@ input[type="file"]::file-selector-button:hover {
   color: var(--ink-2);
   font-variant-numeric: tabular-nums;
 }
-/* A right answer settles into place rather than just changing colour. */
+/* A right answer is marked with a soft ring that fades: a moment of
+   acknowledgement without moving anything on the page. */
 @keyframes answer-settle {
   0% {
-    transform: scale(1);
-  }
-  40% {
-    transform: scale(1.025);
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--good) 45%, transparent);
   }
   100% {
-    transform: scale(1);
+    box-shadow: 0 0 0 10px transparent;
   }
 }
 .focus-shell .answer-option.correct {
-  animation: answer-settle 260ms var(--ease);
+  animation: answer-settle 420ms var(--ease);
 }
 @media (prefers-reduced-motion: reduce) {
   .focus-shell .answer-option.correct {
@@ -1703,4 +1701,303 @@ input[type="file"]::file-selector-button:hover {
   .path-bar > span {
     transition: none;
   }
+}
+
+/* ───────── Today: what you're working toward, and a small ledger ───────── */
+.working-toward {
+  display: grid;
+  gap: 4px;
+  margin: 24px 0 12px;
+}
+.working-toward > span {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.working-toward > strong {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.quiet-stats.ledger {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  margin-top: 0;
+}
+.quiet-stats.ledger > * {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  min-height: 84px;
+  padding: 14px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--card);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+}
+.quiet-stats.ledger > button,
+.quiet-stats.ledger > a {
+  cursor: pointer;
+  transition: border-color 160ms var(--ease);
+}
+.quiet-stats.ledger > button:hover,
+.quiet-stats.ledger > a:hover {
+  border-color: var(--accent);
+}
+.quiet-stats.ledger > * > span {
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.quiet-stats.ledger > * > strong {
+  margin-top: 4px;
+  max-width: none;
+  text-align: left;
+  /* Lining figures in the UI face: a 1 must not read as a Roman numeral. */
+  font: 600 24px/1.1 var(--font-ui);
+  font-variant-numeric: lining-nums tabular-nums;
+  color: var(--ink);
+}
+.quiet-stats.ledger > * > strong small {
+  font: 14px var(--font-ui);
+  color: var(--ink-2);
+}
+.quiet-stats.ledger > * > svg {
+  position: absolute;
+  right: 14px;
+  top: 16px;
+  color: var(--accent);
+}
+
+/* ───────── Today: the kana path as a stepper on one baseline ───────── */
+.envelope-path {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 8px;
+  margin: 28px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.envelope-path::before {
+  content: "";
+  position: absolute;
+  left: calc(100% / 16);
+  right: calc(100% / 16);
+  top: 26px;
+  height: 2px;
+  background: var(--rule);
+  transform: none;
+}
+.envelope-path li,
+.envelope-path li:nth-child(even) {
+  margin: 0;
+  padding: 0;
+  transform: none;
+}
+.envelope-path button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+.path-envelope {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 60px;
+  height: 52px;
+  border-radius: 12px;
+  background: var(--paper);
+  color: var(--ink-2);
+  transition:
+    color 160ms var(--ease),
+    transform 160ms var(--ease),
+    background-color 160ms var(--ease);
+}
+.envelope-path button:hover .path-envelope {
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+/* The number or check sits like a small postmark on the envelope's corner. */
+.path-envelope > span,
+.path-envelope > svg:last-child:not(:first-child) {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  background: var(--paper);
+  font: 600 11px var(--font-ui);
+}
+.envelope-path .finished .path-envelope {
+  color: var(--good);
+}
+.envelope-path .current .path-envelope {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 0 0 4px var(--accent-wash);
+}
+.envelope-path .current .path-envelope > span {
+  background: var(--accent);
+}
+.envelope-path strong {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.6em;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.envelope-path .current strong {
+  color: var(--accent);
+}
+.envelope-path small {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.envelope-path .finished small {
+  color: var(--good);
+}
+@media (max-width: 767px) {
+  .envelope-path {
+    display: flex;
+    gap: 0;
+    margin-inline: -16px;
+    padding: 0 16px 8px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .envelope-path::before {
+    left: 16px;
+    right: 16px;
+  }
+  .envelope-path li {
+    flex: 0 0 112px;
+    scroll-snap-align: start;
+  }
+}
+
+/* ───────── Palette pass: every hue has one job, on every page ─────────
+   Prussian blue carries structure and actions. Ribbon red marks a page's
+   title and the numbered steps. Violet means "Violetto" and "you are here".
+   Emerald means done or correct. Gold stays on postmarks and the seal. */
+body {
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--violet-wash) 55%, var(--paper)) 0,
+      var(--paper) 480px
+    )
+    fixed;
+}
+.page-heading h1::after,
+.today-heading h1::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 2px;
+  margin-top: 14px;
+  border-radius: 1px;
+  background: var(--ribbon);
+}
+.daily-plan .plan-number {
+  color: var(--ribbon);
+}
+.tabs button[aria-pressed="true"] {
+  border-color: var(--ribbon);
+}
+/* Violetto's surfaces take the violet. */
+.violetto-bubble {
+  border-color: color-mix(in srgb, var(--violet) 40%, var(--rule));
+  background: linear-gradient(
+    180deg,
+    var(--card),
+    color-mix(in srgb, var(--violet-wash) 45%, var(--card))
+  );
+}
+.working-toward > span,
+.course-level > summary .level-summary > span {
+  color: var(--violet);
+}
+/* "You are here" is violet wherever the path is drawn. */
+.path-stop.current {
+  border-color: var(--violet);
+  box-shadow: inset 0 0 0 1px var(--violet);
+}
+.path-stop.current .path-bar > span {
+  background: var(--violet);
+}
+.envelope-path .current .path-envelope {
+  background: var(--violet);
+  box-shadow: 0 0 0 4px var(--violet-wash);
+}
+.envelope-path .current .path-envelope > span {
+  background: var(--violet);
+}
+.envelope-path .current strong,
+.envelope-path .current small {
+  color: var(--violet);
+}
+/* Paper cards get a hairline of warmth at the top edge. */
+.deck-set,
+.path-stop,
+.quiet-stats.ledger > * {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--honey) 7%, var(--card)) 0,
+    var(--card) 28px
+  );
+}
+/* The letter in the letterbox is real paper: cream card, a violet-tinted
+   edge, the red seal in its corner. It is the one object on Today that
+   should look like something you could pick up. */
+.today-post .postcard {
+  position: relative;
+  padding: 22px 24px 24px;
+  border: 1px solid color-mix(in srgb, var(--violet) 28%, var(--rule));
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--honey) 8%, var(--card)) 0,
+    var(--card) 40px
+  );
+  box-shadow: 0 10px 30px #1f2a4410;
+  transition:
+    border-color 160ms var(--ease),
+    box-shadow 160ms var(--ease);
+}
+.today-post .postcard:hover {
+  border-color: var(--violet);
+  box-shadow: 0 14px 36px #1f2a4418;
+}
+.today-post .postcard > div:first-child {
+  color: var(--ribbon);
+}
+.today-post .postcard > div:first-child svg {
+  color: var(--ribbon);
+}
+.today-post .postcard-link {
+  color: var(--accent);
 }
