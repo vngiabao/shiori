@@ -90,11 +90,15 @@ export function Library({
       {p.lessons.filter(showsLesson).map((l) => (
         <div key={l.id}>
           <div>
-            <h3>{l.title}</h3>
+            <h3>
+              {l.title}
+              {completions.some((c) => c.id === l.id) && (
+                <Check className="lesson-done" aria-label="finished" />
+              )}
+            </h3>
             <p>{l.description}</p>
             <small>
               {l.words.length} items · {l.minutes} min suggested pace
-              {completions.some((c) => c.id === l.id) ? " · finished" : ""}
             </small>
           </div>
           <div className="actions">
@@ -120,6 +124,56 @@ export function Library({
         title="Course library."
         description="Your kana foundation, N5–N1 courses, vocabulary decks and keigo at work. Choose a level, then open a lesson."
       />
+      {/* The path at a glance: one stop per level, progress under each, the
+          current one marked. A tap opens that level below. */}
+      <nav className="path-board" aria-label="Your path through the course">
+        {levels
+          .filter((level) => packs.some((p) => levelOf(p.id) === level))
+          .map((level) => {
+            const all = packs
+              .filter((p) => levelOf(p.id) === level)
+              .flatMap((p) => p.lessons);
+            const done = all.filter((l) =>
+              completions.some((c) => c.id === l.id),
+            ).length;
+            const complete = all.length > 0 && done === all.length;
+            return (
+              <button
+                key={level}
+                className={`path-stop ${level === currentLevel ? "current" : ""} ${complete ? "done" : ""}`}
+                aria-current={level === currentLevel ? "step" : undefined}
+                onClick={() => {
+                  setFilter(level === "foundation" ? "all" : level);
+                  setToggled((t) => ({ ...t, [level]: true }));
+                  requestAnimationFrame(() =>
+                    document
+                      .getElementById(`level-${level}`)
+                      ?.scrollIntoView({ behavior: "smooth", block: "start" }),
+                  );
+                }}
+              >
+                <span className="path-label">
+                  {level === "foundation"
+                    ? "Kana"
+                    : level === "keigo"
+                      ? "Keigo"
+                      : level.toUpperCase()}
+                  {complete && <Check aria-label="complete" />}
+                </span>
+                <span className="path-bar" aria-hidden="true">
+                  <span
+                    style={{
+                      width: `${all.length ? (done / all.length) * 100 : 0}%`,
+                    }}
+                  />
+                </span>
+                <small>
+                  {done} / {all.length}
+                </small>
+              </button>
+            );
+          })}
+      </nav>
       <div className="library-summary">
         <p>
           <strong>{packs.length}</strong> content packs ·{" "}
@@ -165,6 +219,7 @@ export function Library({
           return (
             <details
               className="course-level"
+              id={`level-${level}`}
               key={`${level}-${filter}`}
               open={isOpen(level)}
               onToggle={(e) => {
@@ -206,6 +261,17 @@ export function Library({
                   <section className="course-unit" key={p.id}>
                     <div className="section-title">
                       <h2>{p.title}</h2>
+                      {(() => {
+                        const n = p.lessons.filter((l) =>
+                          completions.some((c) => c.id === l.id),
+                        ).length;
+                        return n > 0 ? (
+                          <small className="unit-status">
+                            {n === p.lessons.length ? <Check /> : null}
+                            {n} / {p.lessons.length} finished
+                          </small>
+                        ) : null;
+                      })()}
                     </div>
                     {lessonRows(p)}
                   </section>

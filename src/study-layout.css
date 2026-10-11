@@ -1582,3 +1582,125 @@ input[type="file"]::file-selector-button:hover {
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }
+
+/* ───────── The path board: where you are in the course ───────── */
+.path-board {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+  padding: 4px 0 20px;
+}
+.path-stop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  min-height: 44px;
+  padding: 12px 14px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--card);
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    border-color 160ms var(--ease),
+    box-shadow 160ms var(--ease);
+}
+.path-stop:hover {
+  border-color: var(--accent);
+}
+.path-stop.current {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.path-stop.done {
+  border-color: var(--good);
+}
+.path-stop:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.path-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.path-stop.done .path-label svg {
+  color: var(--good);
+}
+.path-bar {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--rule);
+  overflow: hidden;
+}
+.path-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+  transition: width 300ms var(--ease);
+}
+.path-stop.done .path-bar > span {
+  background: var(--good);
+}
+.path-stop small {
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 767px) {
+  .path-board {
+    display: flex;
+    gap: 8px;
+    margin-inline: -16px;
+    padding: 4px 16px 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+  .path-stop {
+    flex: 0 0 124px;
+    scroll-snap-align: start;
+  }
+}
+/* Finished marks on units and lessons. */
+.course-lessons h3 .lesson-done,
+.unit-status svg {
+  color: var(--good);
+  vertical-align: -2px;
+  margin-left: 6px;
+}
+.unit-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
+}
+/* A right answer settles into place rather than just changing colour. */
+@keyframes answer-settle {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.025);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.focus-shell .answer-option.correct {
+  animation: answer-settle 260ms var(--ease);
+}
+@media (prefers-reduced-motion: reduce) {
+  .focus-shell .answer-option.correct {
+    animation: none;
+  }
+  .path-bar > span {
+    transition: none;
+  }
+}
