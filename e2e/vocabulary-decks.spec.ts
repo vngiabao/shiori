@@ -4,7 +4,14 @@ import type { Locator } from "@playwright/test";
 async function openDeckRead(unit: Locator) {
   const summary = unit.locator("details > summary").first();
   if (await summary.count()) await summary.click();
-  await unit.getByRole("button", { name: "Read", exact: true }).first().click();
+  // Deck sets are tiles that open on tap; unit lessons keep a Read button.
+  const tile = unit.locator(".deck-set-open").first();
+  if (await tile.count()) await tile.click();
+  else
+    await unit
+      .getByRole("button", { name: "Read", exact: true })
+      .first()
+      .click();
 }
 import AxeBuilder from "@axe-core/playwright";
 import fs from "node:fs";

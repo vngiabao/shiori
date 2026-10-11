@@ -131,7 +131,15 @@ export default defineConfig({
       },
     }),
   ],
-  server: { port: 5174, strictPort: true },
+  server: {
+    port: 5174,
+    strictPort: true,
+    // Twenty thousand recordings never change during a dev session; watching
+    // them (inside OneDrive) stalls the dev server's static file serving.
+    watch: {
+      ignored: ["**/public/audio/**", "**/output/**", "**/.cache/**", "**/.models/**"],
+    },
+  },
   // Scan only the app's entry; output/ holds staged deploy copies with their own index.html.
   optimizeDeps: { entries: ["index.html"] },
   build: {

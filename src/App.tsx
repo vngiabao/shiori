@@ -170,9 +170,11 @@ export default function App() {
         ...state.attempts.map((a) => a.itemId),
       ]
     : [];
+  // -1 means nothing beyond the foundation is needed yet, so a new learner's
+  // Today opens without downloading the N5 course first.
   const latestLevel = savedIds.reduce(
     (rank, id) => Math.max(rank, courseLevels.indexOf(levelOf(id))),
-    0,
+    -1,
   );
   const nextLesson = courseCatalog
     .flatMap((p) => p.lessons)
