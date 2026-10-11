@@ -46,3 +46,5 @@ Final production verification includes the PhraseLesson layout-effect cancellati
 ## Historical build checkpoints
 
 Moved to `BUILD-HISTORY.md`. They describe finished work; do not follow their old "Exact next" lines.
+- First-load weight (2026-10-10): `src/generated/audio.json`, `dialogue-voices.json` and `content/kanji/n5.json` are dynamic imports (`audio.ts`, `dialogueAudio.ts`, `content.ts loadKanjiReference`); `offline.ts` loads from Settings on demand; `Jlpt` and `Watch` are `React.lazy`. Keep new large JSON out of the eager graph. Mascot art ships as WebP (`public/mascot/*.webp`); the PNG originals stay for provenance and are excluded from the precache.
+- Read opens on the kana charts without loading other levels; the Letters/Texts/Kanji shelves call `loadAllCourse()` themselves. Library level sections keep their own open state (`toggled`) and fold vocabulary decks to one line.

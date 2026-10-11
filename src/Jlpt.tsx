@@ -50,7 +50,7 @@ function Teacher({
       aria-label="Violetto, your JLPT teacher"
     >
       <img
-        src="/mascot/violetto-teacher.png"
+        src="/mascot/violetto-teacher.webp"
         width="1145"
         height="1374"
         alt="Violetto wearing glasses, holding a fountain pen and study folio"
@@ -1112,7 +1112,7 @@ function QuestionRun({
           aria-label="Violetto, your JLPT teacher"
         >
           <img
-            src="/mascot/violetto-teacher.png"
+            src="/mascot/violetto-teacher.webp"
             width="1145"
             height="1374"
             alt="Violetto wearing glasses, holding a fountain pen and study folio"

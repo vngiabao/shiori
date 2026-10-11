@@ -1,4 +1,3 @@
-import manifest from "./generated/audio.json";
 import { type Reaction } from "./persona";
 import { selectReaction } from "./reactionState";
 import type { Profile, Word } from "./types";
@@ -40,7 +39,16 @@ export function speakReaction(key: Reaction, force = false) {
   if (!force && preferences.spokenReactions === false) return Promise.resolve();
   return playClip(line.url);
 }
-const assets = manifest as Record<string, string>;
+// The clip manifest is large (every recording in the course), so it downloads
+// beside the first screen rather than before it. Playback waits for it once.
+let assets: Record<string, string> = {};
+let assetsLoaded = false;
+const manifestReady = import("./generated/audio.json").then((m) => {
+  assets = m.default as Record<string, string>;
+  assetsLoaded = true;
+  return assets;
+});
+export const audioManifest = () => manifestReady;
 export function stopAudio() {
   sequence++;
   cancelTimed?.();
@@ -52,6 +60,11 @@ export function stopAudio() {
 export async function speak(text: string, rate = 1): Promise<void> {
   stopAudio();
   last = { text, rate, url: "" };
+  if (!assetsLoaded) {
+    const mine = sequence;
+    await manifestReady;
+    if (mine !== sequence) return;
+  }
   if (assets[text]) {
     current = new Audio(assets[text]);
     current.playbackRate = rate;
@@ -82,6 +95,7 @@ export async function playLines(
   onLine?: (index: number) => void,
 ) {
   const mine = ++sequence;
+  if (!assetsLoaded) await manifestReady;
   for (const [i, text] of texts.entries()) {
     if (mine !== sequence) return;
     onLine?.(i);

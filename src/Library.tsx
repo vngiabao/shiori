@@ -1,7 +1,12 @@
 import { useState } from "react";
 import { useLiveQuery } from "dexie-react-hooks";
-import { ArrowRight, Check, ArrowSquareOut } from "@phosphor-icons/react";
-import { courseCatalog as packs } from "./content";
+import {
+  ArrowRight,
+  Check,
+  ArrowSquareOut,
+  Headphones,
+} from "@phosphor-icons/react";
+import { courseCatalog as packs, wordMap } from "./content";
 const lessons = packs.flatMap((p) => p.lessons);
 import { db } from "./db";
 import { Button, PageHeading } from "./components";
@@ -22,6 +27,93 @@ export function Library({
     )?.id ?? "foundation",
   );
   const levels = ["foundation", "n5", "n4", "n3", "n2", "n1", "keigo"];
+  const levelNames: Record<string, [string, string]> = {
+    foundation: ["Kana & first exchanges", "Read the script, say hello."],
+    n5: ["N5", "Everyday exchanges"],
+    n4: ["N4", "Make yourself understood"],
+    n3: ["N3", "Follow the conversation"],
+    n2: ["N2", "Read between the lines"],
+    n1: ["N1", "Find your own voice"],
+    keigo: ["Keigo at work", "Respectful Japanese for the office"],
+  };
+  // Sections the learner has opened or closed by hand; the rest follow progress.
+  const [toggled, setToggled] = useState<Record<string, boolean>>({});
+  const isOpen = (level: string) =>
+    toggled[level] ??
+    (level === "foundation" ||
+      level === currentLevel ||
+      (level === "n5" && currentLevel === "foundation") ||
+      filter === level);
+  const showsLesson = (l: Lesson) =>
+    filter === "all" ||
+    levels.includes(filter) ||
+    filter === l.kind ||
+    (filter === "unfinished" && !completions.some((c) => c.id === l.id));
+  // Deck sets are small and alike, so they read as tiles: name, a glimpse of
+  // the words, size, one tap to open. The headphones open the listening pass.
+  const deckSets = (p: (typeof packs)[number]) => (
+    <div className="deck-sets">
+      {p.lessons.filter(showsLesson).map((l) => {
+        const done = completions.some((c) => c.id === l.id);
+        const preview = l.words
+          .map((id) => wordMap[id]?.text)
+          .filter(Boolean)
+          .slice(0, 4);
+        return (
+          <div className={`deck-set ${done ? "done" : ""}`} key={l.id}>
+            <button className="deck-set-open" onClick={() => start(l)}>
+              <span className="deck-set-title">
+                {l.title.replace(/^.*· /, "")}
+                {done && <Check aria-label="finished" />}
+              </span>
+              {preview.length > 0 && (
+                <span lang="ja" className="deck-set-preview">
+                  {preview.join("・")}
+                </span>
+              )}
+              <small>{l.words.length} words</small>
+            </button>
+            <button
+              className="deck-set-listen"
+              aria-label={`Listen: ${l.title}`}
+              onClick={() => start(l, "listening")}
+            >
+              <Headphones />
+            </button>
+          </div>
+        );
+      })}
+    </div>
+  );
+  const lessonRows = (p: (typeof packs)[number]) => (
+    <div className="course-lessons">
+      {p.lessons.filter(showsLesson).map((l) => (
+        <div key={l.id}>
+          <div>
+            <h3>{l.title}</h3>
+            <p>{l.description}</p>
+            <small>
+              {l.words.length} items · {l.minutes} min suggested pace
+              {completions.some((c) => c.id === l.id) ? " · finished" : ""}
+            </small>
+          </div>
+          <div className="actions">
+            <button className="text-button" onClick={() => start(l)}>
+              Read
+              <ArrowRight />
+            </button>
+            <button
+              className="text-button"
+              onClick={() => start(l, "listening")}
+            >
+              Listen
+              <ArrowRight />
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
   return (
     <>
       <PageHeading
@@ -63,80 +155,65 @@ export function Library({
             packs.some((p) => levelOf(p.id) === level) &&
             (!levels.includes(filter) || filter === level),
         )
-        .map((level) => (
-          <details
-            className="course-level"
-            key={`${level}-${filter}`}
-            open={
-              level === "foundation" ||
-              level === currentLevel ||
-              (level === "n5" && currentLevel === "foundation") ||
-              filter === level
-            }
-          >
-            <summary>
-              <h2>
-                {level === "foundation"
-                  ? "Kana & first exchanges"
-                  : level === "keigo"
-                    ? "Keigo at work"
-                    : level.toUpperCase()}
-              </h2>
-            </summary>
-            {packs
-              .filter((p) => levelOf(p.id) === level)
-              .map((p) => (
-                <section className="course-unit" key={p.id}>
-                  <div className="section-title">
-                    <h2>{p.title}</h2>
-                    <span className="register">{p.status}</span>
-                  </div>
-                  <div className="course-lessons">
-                    {p.lessons
-                      .filter(
-                        (l) =>
-                          filter === "all" ||
-                          levels.includes(filter) ||
-                          filter === l.kind ||
-                          (filter === "unfinished" &&
-                            !completions.some((c) => c.id === l.id)),
-                      )
-                      .map((l) => (
-                        <div key={l.id}>
-                          <div>
-                            <h3>{l.title}</h3>
-                            <p>{l.description}</p>
-                            <small>
-                              {l.words.length} items · {l.minutes} min suggested
-                              pace
-                              {completions.some((c) => c.id === l.id)
-                                ? " · finished"
-                                : ""}
-                            </small>
-                          </div>
-                          <div className="actions">
-                            <button
-                              className="text-button"
-                              onClick={() => start(l)}
-                            >
-                              Read
-                              <ArrowRight />
-                            </button>
-                            <button
-                              className="text-button"
-                              onClick={() => start(l, "listening")}
-                            >
-                              Listen
-                              <ArrowRight />
-                            </button>
-                          </div>
-                        </div>
-                      ))}
-                  </div>
-                </section>
-              ))}
-          </details>
-        ))}
+        .map((level) => {
+          const own = packs.filter((p) => levelOf(p.id) === level);
+          const all = own.flatMap((p) => p.lessons);
+          const done = all.filter((l) =>
+            completions.some((c) => c.id === l.id),
+          ).length;
+          const units = own.filter((p) => p.category !== "vocabulary").length;
+          return (
+            <details
+              className="course-level"
+              key={`${level}-${filter}`}
+              open={isOpen(level)}
+              onToggle={(e) => {
+                const open = e.currentTarget.open;
+                setToggled((t) =>
+                  t[level] === open ? t : { ...t, [level]: open },
+                );
+              }}
+            >
+              <summary>
+                <h2>{levelNames[level][0]}</h2>
+                <span className="level-summary">
+                  <span>{levelNames[level][1]}</span>
+                  <small>
+                    {units} {level === "foundation" ? "packs" : "units"} ·{" "}
+                    {all.length} lessons · {done} finished
+                  </small>
+                </span>
+              </summary>
+              {own.map((p) =>
+                p.category === "vocabulary" ? (
+                  // A deck's dozen short sets stay folded; units show their lessons.
+                  <section className="course-unit deck-pack" key={p.id}>
+                    <details>
+                      <summary>
+                        <span className="section-title">
+                          <h2>{p.title}</h2>
+                          <small className="deck-count">
+                            {p.lessons.length} sets ·{" "}
+                            {p.lessons.reduce((n, x) => n + x.words.length, 0)}{" "}
+                            words
+                          </small>
+                        </span>
+                      </summary>
+                      {deckSets(p)}
+                    </details>
+                  </section>
+                ) : (
+                  <section className="course-unit" key={p.id}>
+                    <div className="section-title">
+                      <h2>{p.title}</h2>
+                    </div>
+                    {lessonRows(p)}
+                  </section>
+                ),
+              )}
+            </details>
+          );
+        })}
       <p className="content-note">
         These N5–N1 courses and decks are AI-assisted drafts awaiting
         native-speaker review. Finishing lessons does not establish proficiency;

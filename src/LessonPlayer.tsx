@@ -251,7 +251,7 @@ export function LessonPlayer({
           <strong>{lesson.canDo}</strong>
         </p>
         <div className="completion-evidence">
-          <span>{correctCount} unaided answers</span>
+          <span>{correctCount} unaided {correctCount === 1 ? "answer" : "answers"}</span>
           <span>{helpCount} with support</span>
         </div>
         <p>

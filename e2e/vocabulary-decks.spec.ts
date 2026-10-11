@@ -1,4 +1,11 @@
 import { test, expect } from "@playwright/test";
+import type { Locator } from "@playwright/test";
+// Decks fold to one line in the library; open the deck, then its first set.
+async function openDeckRead(unit: Locator) {
+  const summary = unit.locator("details > summary").first();
+  if (await summary.count()) await summary.click();
+  await unit.getByRole("button", { name: "Read", exact: true }).first().click();
+}
 import AxeBuilder from "@axe-core/playwright";
 import fs from "node:fs";
 
@@ -20,7 +27,7 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
       exact: true,
     }),
   });
-  await deck.getByRole("button", { name: "Read", exact: true }).first().click();
+  await openDeckRead(deck);
   await expect(
     page.getByRole("heading", { name: "New words", exact: true }),
   ).toBeVisible();
@@ -94,17 +101,14 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   await page.getByRole("button", { name: "Leave lesson" }).click();
   await page.goto("/#library");
   await page.getByLabel("Show lessons").selectOption("n4");
-  await page
-    .locator(".course-unit")
-    .filter({
+  await openDeckRead(
+    page.locator(".course-unit").filter({
       has: page.getByRole("heading", {
         name: "N4 vocabulary · Deck 1",
         exact: true,
       }),
-    })
-    .getByRole("button", { name: "Read", exact: true })
-    .first()
-    .click();
+    }),
+  );
   await page.setViewportSize({ width: 375, height: 1000 });
   const n4Example = page.locator(".word-example").first();
   await n4Example.locator("summary").click();
@@ -204,17 +208,14 @@ test("vocabulary deck examples play mapped Clear audio and hide before retrieval
   ] as const) {
     await page.goto("/#library");
     await page.getByLabel("Show lessons").selectOption("n3");
-    await page
-      .locator(".course-unit")
-      .filter({
+    await openDeckRead(
+      page.locator(".course-unit").filter({
         has: page.getByRole("heading", {
           name: `N3 vocabulary · Deck ${number}`,
           exact: true,
         }),
-      })
-      .getByRole("button", { name: "Read", exact: true })
-      .first()
-      .click();
+      }),
+    );
     const n3Example = page.locator(".word-example").first();
     await n3Example.locator("summary").click();
     await expect(n3Example.getByText(meaning, { exact: true })).toBeVisible();
@@ -272,14 +273,11 @@ for (const level of ["n2", "n1"]) {
       });
       await page.goto("/#library");
       await page.getByLabel("Show lessons").selectOption(level);
-      await page
-        .locator(".course-unit")
-        .filter({
+      await openDeckRead(
+        page.locator(".course-unit").filter({
           has: page.getByRole("heading", { name: pack.title, exact: true }),
-        })
-        .getByRole("button", { name: "Read", exact: true })
-        .first()
-        .click();
+        }),
+      );
       const example = page.locator(".word-example").first();
       await example.locator("summary").click();
       await expect(

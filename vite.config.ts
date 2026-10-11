@@ -87,8 +87,10 @@ export default defineConfig({
         ],
         // The app shell, fonts, stroke data and art install up front. Audio grows
         // with every unit, so clips are cached the first time they play instead.
-        globPatterns: ["**/*.{js,css,html,svg,woff2,json,png}"],
+        globPatterns: ["**/*.{js,css,html,svg,woff2,json,png,webp}"],
         globIgnores: [
+          // The WebP mascot ships; the PNG originals stay for provenance only.
+          "mascot/*.png",
           "assets/course-n*.js",
           "assets/course-keigo*.js",
           "assets/course-other*.js",

@@ -18,6 +18,8 @@ import {
   grammar,
   readings,
   kanji,
+  loadKanjiReference,
+  loadAllCourse,
 } from "./content";
 import {
   AudioButton,
@@ -56,6 +58,20 @@ export function Read({
   openLetter: (id: string) => void;
 }) {
   const [tab, setTab] = useState("Hiragana");
+  // The charts open at once; the shelves that span every level fetch the rest.
+  const [shelfLoading, setShelfLoading] = useState(false);
+  useEffect(() => {
+    if (!["Kanji", "Letters", "Texts"].includes(tab)) return;
+    let live = true;
+    setShelfLoading(true);
+    void Promise.all([
+      loadAllCourse(),
+      tab === "Kanji" ? loadKanjiReference() : undefined,
+    ]).finally(() => live && setShelfLoading(false));
+    return () => {
+      live = false;
+    };
+  }, [tab]);
   const [selected, setSelected] = useState<Word | null>(null);
   const kanaWords = words.filter((w) =>
     w.id.startsWith(tab === "Hiragana" ? "h-" : "k-"),
@@ -97,6 +113,11 @@ export function Read({
           </button>
         ))}
       </div>
+      {shelfLoading && (
+        <p className="muted" role="status">
+          Opening the rest of the course…
+        </p>
+      )}
       {tab === "Texts" ? (
         <div className="grammar-list">
           {readings.map((r) => (

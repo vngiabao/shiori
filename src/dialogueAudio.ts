@@ -1,4 +1,3 @@
-import manifest from "./generated/dialogue-voices.json";
 import { playClip, playLines, playTimedLines } from "./audio";
 import { plain } from "./text";
 import type { Dialogue } from "./types";
@@ -11,10 +10,17 @@ export type DialogueTake = {
   index: number;
   mood: string;
 };
-export const dialogueTakes = manifest as Record<string, DialogueTake[]>;
+// Scene takes load on first playback, keeping them out of the first screen.
+let takes: Record<string, DialogueTake[]> = {};
+let takesLoaded = false;
+const ready = import("./generated/dialogue-voices.json").then((m) => {
+  takes = m.default as Record<string, DialogueTake[]>;
+  takesLoaded = true;
+});
+export const dialogueTakesReady = () => ready;
 export function dialogueTake(dialogue: Dialogue, index: number): DialogueTake {
   const line = dialogue.lines[index];
-  const take = dialogueTakes[dialogue.id]?.[index];
+  const take = takes[dialogue.id]?.[index];
   if (
     !line ||
     !take ||
@@ -24,10 +30,11 @@ export function dialogueTake(dialogue: Dialogue, index: number): DialogueTake {
     throw new Error(`Dialogue audio needs rebuilding: ${dialogue.id}/${index}`);
   return take;
 }
-export function playDialogue(
+export async function playDialogue(
   dialogue: Dialogue,
   onLine?: (index: number) => void,
 ) {
+  if (!takesLoaded) await ready;
   if (dialogue.lines.some((line) => line.gapAfterMs !== undefined))
     return playTimedLines(dialogue.lines.map((line, i) => ({
       ...dialogueTake(dialogue, i), gapAfterMs: line.gapAfterMs ?? 380,
@@ -37,6 +44,7 @@ export function playDialogue(
     onLine,
   );
 }
-export function playDialogueLine(dialogue: Dialogue, index: number) {
+export async function playDialogueLine(dialogue: Dialogue, index: number) {
+  if (!takesLoaded) await ready;
   return playClip(dialogueTake(dialogue, index).url);
 }

@@ -1,4 +1,3 @@
-import extraKanji from "../content/kanji/n5.json";
 import foundation from "../content/packs/first-post.json";
 import { catalog, levelLoaders } from "./generated/course-catalog";
 export { catalog as courseCatalog };
@@ -10,6 +9,15 @@ const initial =
     ? (await import("./generated/pack-index")).default
     : ([foundation] as unknown as Pack[]);
 export const packs: Pack[] = [...initial];
+// Two thousand kanji reference pages load when the Kanji tab first opens.
+let extraKanji: Pack["kanji"] = [];
+let kanjiRequest: Promise<void> | null = null;
+export function loadKanjiReference() {
+  return (kanjiRequest ??= import("../content/kanji/n5.json").then((m) => {
+    extraKanji = m.default as Pack["kanji"];
+    rebuildContent();
+  }));
+}
 export let words = packs.flatMap((p) => p.words);
 export const wordMap = Object.fromEntries(
   words.map((w) => [w.id, w]),
@@ -140,3 +148,5 @@ export const stages = [
     "Professional Japanese",
   ],
 ];
+// Tests validate the whole reference set, so load it with the aggregate.
+if (import.meta.env.MODE === "test") await loadKanjiReference();

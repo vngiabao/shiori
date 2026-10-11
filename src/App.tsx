@@ -1,4 +1,11 @@
-import { useEffect, useState, useRef, useSyncExternalStore } from "react";
+import {
+  lazy,
+  Suspense,
+  useEffect,
+  useState,
+  useRef,
+  useSyncExternalStore,
+} from "react";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   Sun,
@@ -41,10 +48,14 @@ import {
   LetterShelf,
 } from "./Study";
 import { Library, Fieldwork } from "./Library";
-import { JlptRoom } from "./Jlpt";
 import { jlptLevels, type JlptLevel } from "./jlpt-model";
+// The exam room and Watch carry their own data and styles; they load on demand.
+const JlptRoom = lazy(() =>
+  import("./Jlpt").then((m) => ({ default: m.JlptRoom })),
+);
+const Watch = lazy(() => import("./Watch").then((m) => ({ default: m.Watch })));
+const routeFallback = <p role="status">Opening…</p>;
 import { LessonPlayer } from "./LessonPlayer";
-import { Watch } from "./Watch";
 import { backupDue, downloadBackup, lastBackup } from "./backup";
 import {
   PhraseLesson,
@@ -171,12 +182,24 @@ export default function App() {
     courseLevels.indexOf(levelOf(nextLesson?.id ?? "")),
   );
   const fullShelf =
-    ["read", "listen", "letters", "dictionary", "speak", "progress"].includes(
+    // Read opens on the kana charts; its Letters, Texts and Kanji shelves load the rest themselves.
+    ["listen", "letters", "dictionary", "speak", "progress"].includes(
       route,
     ) ||
     route.startsWith("letter/") ||
     route.startsWith("media");
-  const requiredKey = `${Boolean(state?.profile)}:${route}:${fullShelf ? "all" : requiredLevel}`;
+  // Keyed by what must be loaded, not by route: switching pages never blanks the
+  // screen when the content it needs is already here.
+  // After a failed download, moving to another page clears the notice and tries again.
+  const [retry, setRetry] = useState(0);
+  useEffect(() => {
+    if (contentError) {
+      setContentError("");
+      setRetry((n) => n + 1);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [route]);
+  const requiredKey = `${Boolean(state?.profile)}:${fullShelf ? "all" : requiredLevel}:${retry}`;
   useEffect(() => {
     if (!state?.profile) return;
     let cancelled = false;
@@ -445,24 +468,28 @@ export default function App() {
               }}
             />
           ) : route === "media" || route.startsWith("media?unit=") ? (
-            <Watch
-              key={route}
-              unit={
-                route.startsWith("media?unit=")
-                  ? decodeURIComponent(route.split("=")[1])
-                  : undefined
-              }
-            />
+            <Suspense fallback={routeFallback}>
+              <Watch
+                key={route}
+                unit={
+                  route.startsWith("media?unit=")
+                    ? decodeURIComponent(route.split("=")[1])
+                    : undefined
+                }
+              />
+            </Suspense>
           ) : route === "jlpt" || route.startsWith("jlpt/") ? (
-            <JlptRoom
-              onFocusChange={setExamFocus}
-              key={route}
-              level={
-                jlptLevels.includes(route.split("/")[1] as JlptLevel)
-                  ? (route.split("/")[1] as JlptLevel)
-                  : "N5"
-              }
-            />
+            <Suspense fallback={routeFallback}>
+              <JlptRoom
+                onFocusChange={setExamFocus}
+                key={route}
+                level={
+                  jlptLevels.includes(route.split("/")[1] as JlptLevel)
+                    ? (route.split("/")[1] as JlptLevel)
+                    : "N5"
+                }
+              />
+            </Suspense>
           ) : route === "progress" ? (
             <Progress {...state} />
           ) : route === "postmarks" ? (

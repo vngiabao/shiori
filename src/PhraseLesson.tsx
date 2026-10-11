@@ -419,7 +419,7 @@ export function PhraseLesson({
           </strong>
         </p>
         <div className="completion-evidence">
-          <span>{tally.unaided} unaided answers</span>
+          <span>{tally.unaided} unaided {tally.unaided === 1 ? "answer" : "answers"}</span>
           <span>{tally.supported} with support</span>
           <span>{tally.missed} to review</span>
         </div>

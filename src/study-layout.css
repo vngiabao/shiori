@@ -38,7 +38,7 @@
 .focus-shell .lesson-progress,
 .exam-focus .lesson-progress {
   margin: 0;
-  height: 3px;
+  height: 5px;
   background: var(--rule);
 }
 .focus-shell .lesson-progress span {
@@ -55,6 +55,18 @@
   max-width: none;
   margin: 0 auto;
   padding: 0 32px;
+}
+/* With room to spare, a matching left gutter keeps the task on the page's centre line. */
+@media (min-width: 1300px) {
+  .focus-shell .lesson-body {
+    grid-template-columns: 200px minmax(0, 720px) 200px;
+  }
+  .focus-shell .lesson-body > .lesson-main {
+    grid-column: 2;
+  }
+  .focus-shell .lesson-body > .lesson-companion {
+    grid-column: 3;
+  }
 }
 .focus-shell .lesson-main {
   width: auto;
@@ -173,7 +185,7 @@
   font-size: 56px;
 }
 .focus-shell .quiz-prompt .japanese:only-child {
-  font-size: 96px;
+  font-size: 120px;
 }
 .focus-shell .hint-button {
   margin: 0 auto 16px;
@@ -264,8 +276,8 @@
   text-align: left;
 }
 .focus-shell .lesson-companion > .mascot {
-  width: 140px !important;
-  height: 140px !important;
+  width: 168px !important;
+  height: 168px !important;
 }
 .violetto-bubble {
   position: relative;
@@ -708,6 +720,10 @@
     align-items: flex-start;
     justify-content: flex-end;
   }
+  /* On small screens Violetto appears with something to say, not as a loose figure. */
+  .focus-shell .lesson-companion:not(:has(.violetto-bubble)) {
+    display: none;
+  }
   .focus-shell .lesson-companion > .mascot {
     order: 2;
     width: 96px !important;
@@ -1106,6 +1122,12 @@ body {
   margin: 0;
   font: 22px/1.75 var(--font-japanese);
 }
+@media (max-width: 480px) {
+  /* A whole sentence fits one phone line instead of wrapping inside a word. */
+  .violetto-line > .reaction-japanese {
+    font-size: 19px;
+  }
+}
 .violetto-line .reaction-reading {
   margin: 2px 0 0;
   font-size: 15px;
@@ -1236,6 +1258,137 @@ input[type="file"]::file-selector-button:hover {
 .course-level > summary h2 {
   display: inline;
   margin-left: 8px;
+}
+/* Vocabulary decks fold to one line each, so a level's units stay in view. */
+.deck-pack {
+  margin-top: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.deck-pack > details > summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 56px;
+  padding: 12px 0;
+  cursor: pointer;
+  list-style: none;
+}
+.deck-pack > details > summary::-webkit-details-marker {
+  display: none;
+}
+.deck-pack > details > summary::before {
+  content: "";
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-right: 1.5px solid var(--ink-2);
+  border-bottom: 1.5px solid var(--ink-2);
+  transform: rotate(-45deg);
+  transition: transform 200ms var(--ease);
+}
+.deck-pack > details[open] > summary::before {
+  transform: rotate(45deg);
+}
+.deck-pack > details > summary .section-title {
+  flex: 1;
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.deck-pack > details > summary h2 {
+  font-size: 22px;
+  margin: 0;
+}
+/* Deck sets: a grid of tiles, one tap each. */
+.deck-sets {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  padding: 4px 0 24px;
+}
+.deck-set {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: var(--card);
+  overflow: hidden;
+  transition:
+    border-color 160ms var(--ease),
+    box-shadow 160ms var(--ease);
+}
+.deck-set:hover {
+  border-color: var(--accent);
+  box-shadow: 0 4px 16px #07152b12;
+}
+.deck-set.done {
+  border-color: var(--good);
+}
+.deck-set-open {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-height: 92px;
+  padding: 14px 16px;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.deck-set-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+}
+.deck-set.done .deck-set-title svg {
+  color: var(--good);
+}
+.deck-set-preview {
+  font: 15px/1.5 var(--font-japanese);
+  color: var(--ink-2);
+}
+.deck-set small {
+  color: var(--ink-2);
+}
+.deck-set-listen {
+  display: grid;
+  place-items: center;
+  width: 48px;
+  border: 0;
+  border-left: 1px solid var(--rule);
+  background: none;
+  color: var(--accent);
+  cursor: pointer;
+}
+.deck-set-listen:hover {
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
+}
+.deck-set-open:focus-visible,
+.deck-set-listen:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: -2px;
+}
+.deck-pack > details > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+/* Each level reads as a chapter heading: name, what it teaches, how far along. */
+.course-level > summary .level-summary {
+  display: block;
+  margin: 4px 0 0 22px;
+  color: var(--ink-2);
+}
+.course-level > summary .level-summary small {
+  display: block;
+  margin-top: 2px;
+  font-variant-numeric: tabular-nums;
 }
 .course-level > summary:focus-visible {
   outline: 2px solid var(--accent);
@@ -1414,5 +1567,18 @@ input[type="file"]::file-selector-button:hover {
 }
 .app-update-notice button {
   min-height: 44px;
+  white-space: nowrap;
+}
+
+/* Loading states sit quietly in the page's centre line, not stranded at the corner. */
+.app-main > p[role="status"] {
+  margin: 96px auto;
+  text-align: center;
+  color: var(--ink-2);
+}
+.deck-pack .deck-count {
+  flex: none;
+  color: var(--ink-2);
+  font-variant-numeric: tabular-nums;
   white-space: nowrap;
 }

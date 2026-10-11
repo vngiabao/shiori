@@ -16,7 +16,6 @@ import {
 import { Brand, Button, Mascot, PageHeading } from "./components";
 import { db, importBackup } from "./db";
 import { downloadBackup } from "./backup";
-import { lessonAudioUrls, saveAudioOffline } from "./offline";
 import { brand } from "./brand";
 import { evidence, wordStatus } from "./learning";
 import { stopAudio, configureVoice } from "./audio";
@@ -563,24 +562,39 @@ function OfflineAudio() {
   const [progress, setProgress] = useState<[number, number] | null>(null);
   const [saving, setSaving] = useState(false);
   const [status, setStatus] = useState("");
+  // The downloader carries every clip manifest, so it loads with this section.
+  const [offline, setOffline] = useState<typeof import("./offline") | null>(
+    null,
+  );
+  useEffect(() => {
+    let live = true;
+    void import("./offline").then((m) => live && setOffline(m));
+    return () => {
+      live = false;
+    };
+  }, []);
+  const clips = offline?.lessonAudioUrls().length;
   return (
     <section className="offline-audio" aria-labelledby="offline-audio">
       <h2 id="offline-audio">Offline audio</h2>
       <p>
         Lessons are saved as you open them, and clips as you hear them. To study
         anywhere, save all course text and{" "}
-        {lessonAudioUrls().length.toLocaleString("en")} audio
+        {clips === undefined ? "every" : clips.toLocaleString("en")} audio
         clips now. A large course may take several minutes to download.
       </p>
       <Button
         secondary
-        disabled={saving}
+        disabled={saving || !offline}
         onClick={async () => {
+          if (!offline) return;
           setSaving(true);
           setProgress(null);
           setStatus("");
           try {
-            await saveAudioOffline((done, total) => setProgress([done, total]));
+            await offline.saveAudioOffline((done, total) =>
+              setProgress([done, total]),
+            );
             setStatus("All lesson audio is saved for offline use.");
           } catch (e) {
             setStatus(
