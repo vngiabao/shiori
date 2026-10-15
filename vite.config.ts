@@ -58,7 +58,15 @@ export default defineConfig({
         theme_color: "#172c49",
         background_color: "#edf1f7",
         display: "standalone",
+        id: "/",
+        start_url: "/#today",
+        scope: "/",
+        orientation: "portrait",
+        // PNGs first: iOS and many Android launchers ignore SVG icons.
         icons: [
+          { src: "/brand/icon-192.png", sizes: "192x192", type: "image/png", purpose: "any" },
+          { src: "/brand/icon-512.png", sizes: "512x512", type: "image/png", purpose: "any" },
+          { src: "/brand/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
           {
             src: "/brand/shiori-violetto-icon.svg",
             sizes: "any",
