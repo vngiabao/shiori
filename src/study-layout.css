@@ -721,7 +721,8 @@
     justify-content: flex-end;
   }
   /* On small screens Violetto appears with something to say, not as a loose figure. */
-  .focus-shell .lesson-companion:not(:has(.violetto-bubble)) {
+  .focus-shell
+    .lesson-companion:not(:has(.violetto-bubble)):not(:has(.companion-note)) {
     display: none;
   }
   .focus-shell .lesson-companion > .mascot {

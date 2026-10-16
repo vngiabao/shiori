@@ -348,11 +348,7 @@ export function Settings({ profile: storedProfile }: { profile: Profile }) {
               <span>Night post</span>
             </button>
           </div>
-        </section>
-        <section>
-          <h2>Violetto’s voice</h2>
-          <fieldset className="voice-preferences">
-            <legend className="sr-only">Violetto’s voice</legend>
+          <div className="voice-preferences">
             <label className="setting-check">
               <input
                 type="checkbox"
@@ -370,6 +366,12 @@ export function Settings({ profile: storedProfile }: { profile: Profile }) {
                 </small>
               </span>
             </label>
+          </div>
+        </section>
+        <section>
+          <h2>Violetto’s voice</h2>
+          <fieldset className="voice-preferences">
+            <legend className="sr-only">Violetto’s voice</legend>
             <label className="setting-check">
               <input
                 type="checkbox"

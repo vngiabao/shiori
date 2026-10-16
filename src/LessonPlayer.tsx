@@ -479,9 +479,12 @@ export function LessonPlayer({
                 <button
                   className="text-button hint-button"
                   style={{
-                    visibility: verdict === null ? "visible" : "hidden",
+                    visibility:
+                      verdict === null && support === "none"
+                        ? "visible"
+                        : "hidden",
                   }}
-                  disabled={verdict !== null}
+                  disabled={verdict !== null || support !== "none"}
                   onClick={() =>
                     setSupport(
                       isKana

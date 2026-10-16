@@ -108,6 +108,13 @@ function startCrane() {
     facing = 1,
     restSince = performance.now(),
     raf = 0;
+  let running = false;
+  const wake = () => {
+    if (!running) {
+      running = true;
+      raf = requestAnimationFrame(frame);
+    }
+  };
   const move = (e: PointerEvent) => {
     tx = e.clientX + 26;
     ty = e.clientY + 22;
@@ -116,15 +123,20 @@ function startCrane() {
       py = ty;
       seen = true;
     }
+    wake();
   };
   const leave = (e: MouseEvent) => {
     if (!e.relatedTarget) seen = false;
   };
-  const frame = (now: number) => {
-    raf = requestAnimationFrame(frame);
+  function frame(now: number) {
     const show = seen && active() && !inLesson();
     crane.classList.toggle("shown", show);
-    if (!show) return;
+    // Nothing to draw: stop until the pointer moves again.
+    if (!show) {
+      running = false;
+      return;
+    }
+    raf = requestAnimationFrame(frame);
     const dx = tx - px,
       dy = ty - py,
       far = Math.hypot(dx, dy);
@@ -143,10 +155,15 @@ function startCrane() {
     crane.classList.toggle("asleep", !flying && resting >= 6000);
     const tilt = Math.max(-18, Math.min(18, dy * 0.35));
     crane.style.transform = `translate(${px - 28}px, ${py - 19}px) scaleX(${facing}) rotate(${tilt * facing}deg)`;
-  };
+    // Asleep and settled: the CSS doze carries on without per-frame work.
+    if (!flying && resting >= 6000) {
+      cancelAnimationFrame(raf);
+      running = false;
+    }
+  }
   window.addEventListener("pointermove", move, { passive: true });
   document.addEventListener("mouseout", leave);
-  raf = requestAnimationFrame(frame);
+  wake();
   return () => {
     cancelAnimationFrame(raf);
     window.removeEventListener("pointermove", move);

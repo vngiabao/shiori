@@ -593,7 +593,7 @@ export function PhraseLesson({
                 </p>
               )}
               <SupportButton
-                hidden={verdict !== null}
+                hidden={verdict !== null || support !== "none"}
                 label={
                   step.skill === "listening" ? "Show the words" : "Show reading"
                 }
