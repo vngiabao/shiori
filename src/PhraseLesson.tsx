@@ -1,4 +1,7 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { petalBurst, shake, useCompletion } from "./motion";
+import { usePoke, useWatcher } from "./playful";
+import { reactAfterChime, completeSound, tapSound, verdictSound } from "./sfx";
 import {
   ArrowRight,
   Check,
@@ -27,7 +30,13 @@ import {
 import { db, finishLesson, recordAttempt } from "./db";
 import { postalProgress } from "./rewards";
 import { romajiVisible } from "./learning";
-import { speak, speakReaction, stopLines, wordAudioText } from "./audio";
+import {
+  speak,
+  speakChoice,
+  speakReaction,
+  stopLines,
+  wordAudioText,
+} from "./audio";
 import { ReactionLine, ViolettoBubble } from "./Violetto";
 import { reactionFor } from "./persona";
 import { playDialogue, playDialogueLine } from "./dialogueAudio";
@@ -194,6 +203,12 @@ export function PhraseLesson({
     awards: string[];
   } | null>(null);
   const saving = useRef(false);
+  const doneRef = useRef<HTMLElement>(null);
+  const figure = useRef<HTMLSpanElement>(null);
+  useWatcher(figure, 0.5);
+  usePoke(figure);
+  const [streak, setStreak] = useState(0);
+  useCompletion(doneRef, Boolean(done));
   const step = steps[index];
   const pack = packs.find((p) => p.lessons.some((l) => l.id === lesson.id));
   const learnRomaji = romajiVisible(profile.created, profile.romaji);
@@ -299,7 +314,8 @@ export function PhraseLesson({
     }
     if (review) {
       setDone({ level: null, awards: [] });
-      speakReaction("complete").catch(() => undefined);
+      completeSound(0.55);
+      reactAfterChime("complete", () => undefined, 1300);
       return;
     }
     setBusy(true);
@@ -321,7 +337,8 @@ export function PhraseLesson({
           )
           .map((s) => s.title),
       });
-      speakReaction("complete").catch(() => undefined);
+      completeSound(0.55);
+      reactAfterChime("complete", () => undefined, 1300);
     } catch {
       setError("Could not save completion. Please try again.");
     } finally {
@@ -376,6 +393,14 @@ export function PhraseLesson({
         source: lesson.id,
       });
       setVerdict(correct);
+      const run = correct && support === "none" ? streak + 1 : 0;
+      setStreak(run);
+      verdictSound(correct, Math.max(run, 1));
+      requestAnimationFrame(() =>
+        correct
+          ? petalBurst(document.querySelector(".answer-option.correct"))
+          : shake(document.querySelector(".answer-option.selected")),
+      );
       setTally((t) =>
         support !== "none"
           ? { ...t, supported: t.supported + 1 }
@@ -383,7 +408,8 @@ export function PhraseLesson({
             ? { ...t, unaided: t.unaided + 1 }
             : { ...t, missed: t.missed + 1 },
       );
-      speakReaction(reactionFor(correct, support !== "none")).catch(
+      reactAfterChime(
+        reactionFor(correct, support !== "none"),
         () => undefined,
       );
     } catch {
@@ -396,7 +422,7 @@ export function PhraseLesson({
 
   if (done)
     return (
-      <main id="main-content" className="completion">
+      <main id="main-content" className="completion" ref={doneRef}>
         <Seal>済</Seal>
         <Mascot pose="levelup" size={220} />
         <h1>{review ? "Review finished." : "Lesson delivered."}</h1>
@@ -419,7 +445,12 @@ export function PhraseLesson({
           </strong>
         </p>
         <div className="completion-evidence">
-          <span>{tally.unaided} unaided {tally.unaided === 1 ? "answer" : "answers"}</span>
+          <span>
+            <b className="count" data-value={tally.unaided}>
+              {tally.unaided}
+            </b>{" "}
+            unaided {tally.unaided === 1 ? "answer" : "answers"}
+          </span>
           <span>{tally.supported} with support</span>
           <span>{tally.missed} to review</span>
         </div>
@@ -482,6 +513,11 @@ export function PhraseLesson({
       >
         <span style={{ width: `${(index / steps.length) * 100}%` }} />
       </div>
+      {streak >= 3 && (
+        <span className="combo-chip" key={streak} role="status">
+          {streak} in a row
+        </span>
+      )}
       <div className="lesson-body">
         <div className="lesson-main">
           {step.kind === "meet" ? (
@@ -613,17 +649,25 @@ export function PhraseLesson({
         </div>
         <aside className="lesson-companion" aria-live="polite">
           <Mascot
+            ref={figure}
             pose={
               verdict !== null
                 ? teacherLine.pose
-                : step.kind === "scene" || exercise?.skill === "listening"
-                  ? "listen"
-                  : step.kind === "meet"
-                    ? "read"
-                    : "think"
+                : support !== "none"
+                  ? "tea"
+                  : step.kind === "scene" || exercise?.skill === "listening"
+                    ? "listen"
+                    : step.kind === "meet"
+                      ? "read"
+                      : "think"
             }
             size={132}
           />
+          {verdict === null && support !== "none" && (
+            <p className="companion-note">
+              Eyes closed. With help, this counts as practice.
+            </p>
+          )}
           {verdict !== null && (
             <ViolettoBubble
               key={`${index}-${verdict}`}
@@ -929,7 +973,10 @@ function ExerciseBody({
               aria-pressed={choice === v}
               disabled={locked}
               className={`answer-option ${choice === v ? "selected" : ""} ${verdict !== null && ex.answer === v ? "correct" : ""}`}
-              onClick={() => setChoice(v)}
+              onClick={() => {
+                tapSound();
+                setChoice(v);
+              }}
             >
               <span aria-hidden="true">{v ? "◯" : "✕"}</span>
               {v ? "True" : "False"}
@@ -1041,6 +1088,9 @@ export function ReadingText({
   );
 }
 
+// A choice that is a lone particle is said as a particle: は "wa", へ "e".
+const particleSound = (text: string) =>
+  text === "は" ? "わ" : text === "へ" ? "え" : text;
 function Options({
   options,
   choice,
@@ -1066,7 +1116,12 @@ function Options({
           aria-pressed={choice === i}
           disabled={busy || verdict !== null}
           className={`answer-option ${choice === i ? "selected" : ""} ${verdict !== null && i === answer ? "correct" : ""}`}
-          onClick={() => onPick(i)}
+          onClick={() => {
+            // Japanese choices are read in Violetto's voice when she
+            // recorded them; English choices and gaps just tick.
+            if (!(japanese && speakChoice(particleSound(plain(o))))) tapSound();
+            onPick(i);
+          }}
         >
           <span>{i + 1}</span>
           {japanese ? <Furigana text={o} /> : o}

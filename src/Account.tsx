@@ -4,7 +4,9 @@ import { authConfigured } from "./auth";
 // This module is part of the app shell; the worker remains active between routes.
 const stopSyncWorker = authConfigured ? startSync() : undefined;
 if (import.meta.hot) import.meta.hot.dispose(() => stopSyncWorker?.());
-import { useState, useEffect, useSyncExternalStore } from "react";
+import { useState, useEffect, useRef, useSyncExternalStore } from "react";
+import { setPlayful, playfulOn, usePoke, useWatcher } from "./playful";
+import { answerSoundsOn, correctSound, setAnswerSounds } from "./sfx";
 import {
   ArrowRight,
   Download,
@@ -30,6 +32,10 @@ import type {
   MediaAttempt,
 } from "./types";
 export function Welcome() {
+  const mascotRef = useRef<HTMLSpanElement>(null);
+  const [typingName, setTypingName] = useState(false);
+  useWatcher(mascotRef);
+  usePoke(mascotRef);
   const syncStatus = useSyncExternalStore(
     subscribeSync,
     getSyncStatus,
@@ -74,7 +80,11 @@ export function Welcome() {
           <div className="welcome-bubble">
             <ReactionLine kind="welcome" compact />
           </div>
-          <Mascot size={340} />
+          <Mascot
+            ref={mascotRef}
+            size={340}
+            pose={typingName ? "write" : "welcome"}
+          />
         </section>
         <section className="welcome-form">
           <Brand />
@@ -136,6 +146,8 @@ export function Welcome() {
                 maxLength={40}
                 autoComplete="given-name"
                 onChange={(e) => setName(e.target.value)}
+                onFocus={() => setTypingName(true)}
+                onBlur={() => setTypingName(false)}
                 placeholder="Your name (optional)"
               />
               <fieldset>
@@ -209,6 +221,8 @@ export function Welcome() {
   );
 }
 export function Settings({ profile: storedProfile }: { profile: Profile }) {
+  const [answerSounds, setAnswerSoundsState] = useState(answerSoundsOn);
+  const [playful, setPlayfulState] = useState(playfulOn);
   const [profile, setProfile] = useState(storedProfile);
   useEffect(() => setProfile(storedProfile), [storedProfile]);
   const [status, setStatus] = useState("");
@@ -312,6 +326,40 @@ export function Settings({ profile: storedProfile }: { profile: Profile }) {
           <h2>Violetto’s voice</h2>
           <fieldset className="voice-preferences">
             <legend className="sr-only">Violetto’s voice</legend>
+            <label className="setting-check">
+              <input
+                type="checkbox"
+                checked={playful}
+                onChange={(e) => {
+                  setPlayful(e.target.checked);
+                  setPlayfulState(e.target.checked);
+                }}
+              />
+              <span>
+                Playful touches
+                <small>
+                  A paper crane, postmarks where you click, typewriter keys and
+                  the seasons on Today. Off when your device reduces motion.
+                </small>
+              </span>
+            </label>
+            <label className="setting-check">
+              <input
+                type="checkbox"
+                checked={answerSounds}
+                onChange={(e) => {
+                  setAnswerSounds(e.target.checked);
+                  setAnswerSoundsState(e.target.checked);
+                  if (e.target.checked) correctSound();
+                }}
+              />
+              <span>
+                Answer sounds
+                <small>
+                  A soft tick when you choose, a chime when you are right.
+                </small>
+              </span>
+            </label>
             <label className="setting-check">
               <input
                 type="checkbox"
@@ -580,8 +628,8 @@ function OfflineAudio() {
       <p>
         Lessons are saved as you open them, and clips as you hear them. To study
         anywhere, save all course text and{" "}
-        {clips === undefined ? "every" : clips.toLocaleString("en")} audio
-        clips now. A large course may take several minutes to download.
+        {clips === undefined ? "every" : clips.toLocaleString("en")} audio clips
+        now. A large course may take several minutes to download.
       </p>
       <Button
         secondary

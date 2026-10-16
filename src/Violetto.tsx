@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { daypart, useWatcher } from "./playful";
 // Hallmark · design-system: DESIGN.md · designed-as-app: listening sheet and postmark album.
 import {
   Check,
@@ -71,8 +72,14 @@ export function ViolettoBubble({ kind }: { kind: Reaction }) {
 export function ViolettoPanel({ kind, pose }: { kind: Reaction; pose: Pose }) {
   const line = useReactionLine(kind);
   const [error, setError] = useState("");
+  const figure = useRef<HTMLSpanElement>(null);
+  useWatcher(figure, 0.8);
   return (
-    <aside className="violetto-panel" aria-label="A word from Violetto">
+    <aside
+      className="violetto-panel"
+      aria-label="A word from Violetto"
+      data-daypart={daypart()}
+    >
       <header>
         <h2>Violetto</h2>
         <span lang="ja">言葉を届ける</span>
@@ -82,7 +89,7 @@ export function ViolettoPanel({ kind, pose }: { kind: Reaction; pose: Pose }) {
         href="#companion"
         aria-label="Meet Violetto"
       >
-        <Mascot pose={pose} size={208} />
+        <Mascot ref={figure} pose={pose} size={208} />
       </a>
       <p className="panel-japanese">
         <Furigana text={line.ruby} phrases />

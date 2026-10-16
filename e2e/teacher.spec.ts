@@ -66,10 +66,17 @@ test("teacher feedback text and replay match the selected recording", async ({
     const matching = teacher.find((line) => line.text === text);
     expect(matching?.category).toBe("correct");
     shown.push(text);
+    // Her voice follows the answer chime by a moment; wait for it.
+    await expect
+      .poll(() =>
+        page.evaluate(() =>
+          new URL((window as any).teacherPlayed.at(-1) ?? "about:blank", location.href).pathname,
+        ),
+      )
+      .toBe(matching!.url);
     const url = await page.evaluate(
       () => (window as any).teacherPlayed.at(-1) as string,
     );
-    expect(new URL(url).pathname).toBe(matching!.url);
     await bubble
       .getByRole("button", { name: "Hear Violetto", exact: true })
       .click();

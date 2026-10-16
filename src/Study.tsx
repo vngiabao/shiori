@@ -1,4 +1,6 @@
 import { ReadingPath, TextDesk } from "./ReadingPath";
+import { reactAfterChime, verdictSound } from "./sfx";
+import { openLetter } from "./playful";
 import { useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -345,6 +347,8 @@ export function Reader({
   memories: Memory[];
   back: () => void;
 }) {
+  const sheet = useRef<HTMLElement>(null);
+  useEffect(() => openLetter(sheet.current), []);
   const letter = letters.find((l) => l.id === id)!;
   const [selected, setSelected] = useState<string | null>(null);
   const [furigana, setFurigana] = useState(true);
@@ -379,7 +383,7 @@ export function Reader({
         <Mascot pose="read" size={130} />
       </PageHeading>
       <div className="reader-layout">
-        <article className="letter-paper">
+        <article className="letter-paper" ref={sheet}>
           <div className="letter-meta">
             <span lang="ja">{letter.subject}</span>
             <span>
@@ -838,7 +842,8 @@ function Politeness() {
                   source: "practice",
                 });
                 setChoice(i);
-                speakReaction(i === 1 ? "correct" : "politeness").catch((e) => {
+                verdictSound(i === 1);
+                reactAfterChime(i === 1 ? "correct" : "politeness", (e) => {
                   if (e.name !== "AbortError")
                     setError(
                       "Voice could not play. Use Hear Violetto to retry.",
@@ -980,7 +985,8 @@ function Conversation({ id, back }: { id: string; back: () => void }) {
                 source: "roleplay",
               });
               setResult(ok);
-              speakReaction(reactionFor(ok, hint)).catch((e) => {
+              verdictSound(ok);
+              reactAfterChime(reactionFor(ok, hint), (e) => {
                 if (e.name !== "AbortError")
                   setError("Voice could not play. Your reply was saved.");
               });

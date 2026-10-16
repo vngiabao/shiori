@@ -50,6 +50,8 @@ import {
 } from "./Study";
 import { Library, Fieldwork } from "./Library";
 import { jlptLevels, type JlptLevel } from "./jlpt-model";
+import { useTodayEntrance } from "./motion";
+import { useSeason } from "./playful";
 // The exam room and Watch carry their own data and styles; they load on demand.
 const JlptRoom = lazy(() =>
   import("./Jlpt").then((m) => ({ default: m.JlptRoom })),
@@ -634,6 +636,10 @@ function Today({
   start: (l: Lesson, skill?: Skill) => void;
   go: (s: string) => void;
 }) {
+  const todayRef = useRef<HTMLDivElement>(null);
+  useTodayEntrance(todayRef);
+  const boardRef = useRef<HTMLDivElement>(null);
+  useSeason(boardRef);
   const done = new Set(completions.map((c) => c.id));
   const track =
     profile.path === "sound"
@@ -690,8 +696,8 @@ function Today({
     p.lessons.some((l) => l.id === next.id),
   );
   return (
-    <>
-      <div className="today-board">
+    <div className="today" ref={todayRef}>
+      <div className="today-board" ref={boardRef}>
         <header className="today-heading">
           <div>
             <p className="date-line">
@@ -920,7 +926,7 @@ function Today({
           ))}
         </ol>
       </section>
-    </>
+    </div>
   );
 }
 function Companion() {

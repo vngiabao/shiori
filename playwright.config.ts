@@ -8,6 +8,8 @@ export default defineConfig({
     channel: "chrome",
     headless: true,
     viewport: { width: 1440, height: 1000 },
+    // Tests check settled screens; motion is verified frame by frame separately.
+    reducedMotion: "reduce",
   },
   reporter: "list",
 });

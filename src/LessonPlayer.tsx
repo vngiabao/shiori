@@ -1,4 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { petalBurst, shake, useCompletion } from "./motion";
+import { usePoke, useWatcher } from "./playful";
+import { reactAfterChime, completeSound, tapSound, verdictSound } from "./sfx";
 import { X, Check, ArrowRight, Eye, SpeakerHigh } from "@phosphor-icons/react";
 import { kanaKind, lookalikes } from "./kana";
 import { KanaAid } from "./KanaAid";
@@ -15,7 +18,7 @@ import { recordAttempt, finishLesson, db } from "./db";
 import { postalProgress } from "./rewards";
 import { normalize } from "./packs";
 import { romajiVisible } from "./learning";
-import { speakReaction, speakWord, wordAudioText } from "./audio";
+import { speakChoice, speakReaction, speakWord, wordAudioText } from "./audio";
 import { ReactionLine, ViolettoBubble } from "./Violetto";
 import { reactionFor } from "./persona";
 import { useReactionLine } from "./reactionState";
@@ -53,6 +56,13 @@ export function LessonPlayer({
   const [completionLevel, setCompletionLevel] = useState<number | null>(null);
   const saving = useRef(false);
   const shell = useRef<HTMLElement>(null);
+  const doneRef = useRef<HTMLElement>(null);
+  const figure = useRef<HTMLSpanElement>(null);
+  useWatcher(figure, 0.5);
+  usePoke(figure);
+  // Right answers in a row without help: the chime climbs and a badge shows.
+  const [streak, setStreak] = useState(0);
+  useCompletion(doneRef, phase === "done");
   const bar = useRef<HTMLDivElement>(null);
   const task = useRef<HTMLDivElement>(null);
   const word = wordMap[ids[index]];
@@ -94,6 +104,17 @@ export function LessonPlayer({
     // label depends only on the values listed here.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [word, skill, target, index]);
+  // Read a tapped choice aloud, except where hearing it would give the answer
+  // away: sound-to-shape questions, and English meaning choices.
+  const choiceVoice = (option: string) => {
+    if (skill === "listening" || !(showsGlyphs || isKana)) return false;
+    // Same script as the question first (あ's "a" is あ, not ア).
+    const script = word.id.slice(0, 2);
+    const same = (x: Word) => kanaKind(x) === kind && label(x) === option;
+    const w =
+      words.find((x) => x.id.startsWith(script) && same(x)) ?? words.find(same);
+    return w ? speakChoice(wordAudioText(w)) : false;
+  };
   const learnRomaji = romajiVisible(profile.created, profile.romaji);
   useEffect(() => {
     const node = bar.current;
@@ -178,7 +199,15 @@ export function LessonPlayer({
         source: reviewWords ? "review" : lesson.id,
       });
       setVerdict(correct);
-      speakReaction(reactionFor(correct, support !== "none")).catch((e) => {
+      const run = correct && support === "none" ? streak + 1 : 0;
+      setStreak(run);
+      verdictSound(correct, Math.max(run, 1));
+      requestAnimationFrame(() =>
+        correct
+          ? petalBurst(document.querySelector(".answer-option.correct"))
+          : shake(document.querySelector(".answer-option.selected")),
+      );
+      reactAfterChime(reactionFor(correct, support !== "none"), (e) => {
         if (e.name !== "AbortError")
           setError("Voice could not play. Your answer was saved.");
       });
@@ -219,10 +248,15 @@ export function LessonPlayer({
           );
         }
         setPhase("done");
-        speakReaction("complete").catch((e) => {
-          if (e.name !== "AbortError")
-            setError("Voice could not play. Your practice was saved.");
-        });
+        completeSound(0.55);
+        reactAfterChime(
+          "complete",
+          (e) => {
+            if (e.name !== "AbortError")
+              setError("Voice could not play. Your practice was saved.");
+          },
+          1300,
+        );
       } catch {
         setError("Could not save completion. Please try again.");
       } finally {
@@ -232,7 +266,7 @@ export function LessonPlayer({
   }
   if (phase === "done")
     return (
-      <main id="main-content" className="completion">
+      <main id="main-content" className="completion" ref={doneRef}>
         <Seal>済</Seal>
         <Mascot pose="levelup" size={220} />
         <h1>A little closer.</h1>
@@ -251,7 +285,12 @@ export function LessonPlayer({
           <strong>{lesson.canDo}</strong>
         </p>
         <div className="completion-evidence">
-          <span>{correctCount} unaided {correctCount === 1 ? "answer" : "answers"}</span>
+          <span>
+            <b className="count" data-value={correctCount}>
+              {correctCount}
+            </b>{" "}
+            unaided {correctCount === 1 ? "answer" : "answers"}
+          </span>
           <span>{helpCount} with support</span>
         </div>
         <p>
@@ -293,6 +332,11 @@ export function LessonPlayer({
       >
         <span style={{ width: `${(index / ids.length) * 100}%` }} />
       </div>
+      {streak >= 3 && (
+        <span className="combo-chip" key={streak} role="status">
+          {streak} in a row
+        </span>
+      )}
       <div className="lesson-body">
         <div className="lesson-main" ref={task}>
           <h1>
@@ -484,7 +528,10 @@ export function LessonPlayer({
                       }
                       aria-pressed={answer === option}
                       className={`answer-option ${answer === option ? "selected" : ""} ${verdict !== null && option === target ? "correct" : ""}`}
-                      onClick={() => setAnswer(option)}
+                      onClick={() => {
+                        if (!choiceVoice(option)) tapSound();
+                        setAnswer(option);
+                      }}
                     >
                       <span>{i + 1}</span>
                       {option}
@@ -524,15 +571,26 @@ export function LessonPlayer({
         </div>
         <aside className="lesson-companion" aria-live="polite">
           <Mascot
+            ref={figure}
             pose={
               verdict !== null
                 ? teacherLine.pose
-                : phase === "meet"
-                  ? "read"
-                  : "listen"
+                : support !== "none"
+                  ? "tea"
+                  : answer.trim() &&
+                      (skill === "typing" || skill === "reading-aloud")
+                    ? "write"
+                    : phase === "meet"
+                      ? "read"
+                      : "listen"
             }
             size={132}
           />
+          {verdict === null && support !== "none" && (
+            <p className="companion-note">
+              Eyes closed. With help, this counts as practice.
+            </p>
+          )}
           {verdict !== null && (
             <ViolettoBubble
               key={`${index}-${verdict}`}

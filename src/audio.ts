@@ -33,11 +33,18 @@ export function wordAudioText(
   if (word.text === "雨" || word.text === "飴") return word.text;
   return word.kana;
 }
-export function speakReaction(key: Reaction, force = false) {
+/** Choose Violetto's line now (so her bubble shows it at once) and return
+ *  a function that plays that same recording when called. */
+export function queueReaction(key: Reaction, force = false) {
   const voice = preferences.voicePreview ?? "baseline";
   const line = selectReaction(key, voice, force);
-  if (!force && preferences.spokenReactions === false) return Promise.resolve();
-  return playClip(line.url);
+  return () =>
+    !force && preferences.spokenReactions === false
+      ? Promise.resolve()
+      : playClip(line.url);
+}
+export function speakReaction(key: Reaction, force = false) {
+  return queueReaction(key, force)();
 }
 // The clip manifest is large (every recording in the course), so it downloads
 // beside the first screen rather than before it. Playback waits for it once.
@@ -49,6 +56,15 @@ const manifestReady = import("./generated/audio.json").then((m) => {
   return assets;
 });
 export const audioManifest = () => manifestReady;
+/** Duolingo-style: a tapped answer choice is read aloud, but only when
+ *  Violetto recorded it (never a device voice) and word audio is on.
+ *  Returns false when nothing was played, so the caller can tick instead. */
+export function speakChoice(text: string) {
+  if (preferences.wordAudio === false || !assetsLoaded || !assets[text])
+    return false;
+  speak(text).catch(() => undefined);
+  return true;
+}
 export function stopAudio() {
   sequence++;
   cancelTimed?.();
@@ -88,6 +104,9 @@ export async function speak(text: string, rate = 1): Promise<void> {
   window.speechSynthesis.speak(u);
 }
 let sequence = 0;
+/** Changes whenever any audio starts or stops; lets a delayed sound check
+ *  that nothing else has happened since it was scheduled. */
+export const audioEpoch = () => sequence;
 /** Plays lines one after another (a dialogue), calling onLine as each starts.
  *  A later call or stopAudio() ends the sequence early. */
 export async function playLines(

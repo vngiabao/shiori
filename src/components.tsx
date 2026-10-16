@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode, type Ref } from "react";
 import {
   ArrowRight,
   SpeakerHigh,
@@ -45,14 +45,17 @@ export function Mascot({
   pose = "welcome",
   size = 180,
   className = "",
+  ref,
 }: {
   pose?: Pose;
   size?: number;
   className?: string;
+  ref?: Ref<HTMLSpanElement>;
 }) {
   const i = poseNames.indexOf(pose);
   return (
     <span
+      ref={ref}
       role="img"
       aria-label={`Violetto, ${pose}`}
       className={`mascot ${className}`}

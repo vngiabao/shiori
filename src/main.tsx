@@ -13,7 +13,21 @@ import "./violet-theme.css";
 import App from "./App";
 import "./study-layout.css";
 import { startAppUpdates } from "./appUpdates";
+import { unlockSfx } from "./sfx";
+import { startPlayful } from "./playful";
 startAppUpdates();
+startPlayful();
+// Browsers start audio only from a gesture: unlock on the first press.
+window.addEventListener("pointerdown", unlockSfx, {
+  once: true,
+  capture: true,
+});
+window.addEventListener("keydown", unlockSfx, { once: true, capture: true });
+// iOS 16.4+: lesson audio is the point of a lesson, so it plays even with
+// the ringer switch on silent, like a music or podcast app.
+const session = (navigator as Navigator & { audioSession?: { type: string } })
+  .audioSession;
+if (session) session.type = "playback";
 class ErrorBoundary extends Component<
   { children: ReactNode },
   { error: boolean }

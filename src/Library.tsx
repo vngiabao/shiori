@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
+import { usePathBoard } from "./motion";
 import { useLiveQuery } from "dexie-react-hooks";
 import {
   ArrowRight,
@@ -19,6 +20,8 @@ export function Library({
   completions: Completion[];
 }) {
   const [filter, setFilter] = useState("all");
+  const boardRef = useRef<HTMLElement>(null);
+  usePathBoard(boardRef);
   const levelOf = (id: string) =>
     /^(n[1-5]|keigo)-/.exec(id)?.[1] ?? "foundation";
   const currentLevel = levelOf(
@@ -126,7 +129,11 @@ export function Library({
       />
       {/* The path at a glance: one stop per level, progress under each, the
           current one marked. A tap opens that level below. */}
-      <nav className="path-board" aria-label="Your path through the course">
+      <nav
+        className="path-board"
+        aria-label="Your path through the course"
+        ref={boardRef}
+      >
         {levels
           .filter((level) => packs.some((p) => levelOf(p.id) === level))
           .map((level) => {
