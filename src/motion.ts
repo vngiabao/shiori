@@ -7,6 +7,7 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import type { RefObject } from "react";
+import { applyPose } from "./components";
 
 gsap.registerPlugin(useGSAP);
 
@@ -83,6 +84,8 @@ export function useCompletion(
       if (!active || still() || !scope.current) return;
       const root = scope.current;
       const seal = root.querySelector(".seal");
+      const figure = root.querySelector<HTMLElement>(".mascot");
+      if (figure) applyPose(figure, "stamp");
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
       tl.from(root.querySelector(".mascot"), {
         y: 40,
@@ -105,6 +108,9 @@ export function useCompletion(
         // The stamp lands: the card gives a little under it.
         .to(root, { y: 3, duration: 0.06, yoyo: true, repeat: 1 }, ">")
         .add(() => petalBurst(seal, 18, 1.1), "<")
+        .add(() => {
+          if (figure) applyPose(figure, "levelup");
+        }, "+=0.35")
         .from(
           root.querySelectorAll(
             "h1, .earned-level, .violetto-line, .completion-can, .completion-evidence, .completion > p, .completion > .button",

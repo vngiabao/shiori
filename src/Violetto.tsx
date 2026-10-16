@@ -73,7 +73,7 @@ export function ViolettoPanel({ kind, pose }: { kind: Reaction; pose: Pose }) {
   const line = useReactionLine(kind);
   const [error, setError] = useState("");
   const figure = useRef<HTMLSpanElement>(null);
-  useWatcher(figure, 0.8);
+  useWatcher(figure, 0.8, true);
   return (
     <aside
       className="violetto-panel"

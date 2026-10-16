@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { petalBurst, shake, useCompletion } from "./motion";
-import { usePoke, useWatcher } from "./playful";
+import { flashPose, useDoze, usePoke, useWatcher } from "./playful";
 import { reactAfterChime, completeSound, tapSound, verdictSound } from "./sfx";
 import { X, Check, ArrowRight, Eye, SpeakerHigh } from "@phosphor-icons/react";
 import { kanaKind, lookalikes } from "./kana";
@@ -60,6 +60,9 @@ export function LessonPlayer({
   const figure = useRef<HTMLSpanElement>(null);
   useWatcher(figure, 0.5);
   usePoke(figure);
+  useDoze(figure);
+  const waveGoodbye = () =>
+    figure.current && flashPose(figure.current, "wave", 1600);
   // Right answers in a row without help: the chime climbs and a badge shows.
   const [streak, setStreak] = useState(0);
   useCompletion(doneRef, phase === "done");
@@ -313,7 +316,12 @@ export function LessonPlayer({
       className={`lesson-shell focus-shell ${verdict !== null ? "has-verdict" : ""}`}
     >
       <header className="lesson-top">
-        <button className="text-button" onClick={onClose}>
+        <button
+          className="text-button"
+          onClick={onClose}
+          onPointerEnter={waveGoodbye}
+          onFocus={waveGoodbye}
+        >
           <X />
           Leave lesson
         </button>
@@ -576,7 +584,7 @@ export function LessonPlayer({
               verdict !== null
                 ? teacherLine.pose
                 : support !== "none"
-                  ? "tea"
+                  ? "peek"
                   : answer.trim() &&
                       (skill === "typing" || skill === "reading-aloud")
                     ? "write"
@@ -588,7 +596,7 @@ export function LessonPlayer({
           />
           {verdict === null && support !== "none" && (
             <p className="companion-note">
-              Eyes closed. With help, this counts as practice.
+              Not looking. With help, this counts as practice.
             </p>
           )}
           {verdict !== null && (

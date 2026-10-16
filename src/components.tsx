@@ -39,8 +39,38 @@ export const poseNames = [
   "error",
   "levelup",
   "keepgoing",
+  // Second sheet (public/mascot/violetto-atlas-2.webp), 4 x 2.
+  "peek",
+  "bow",
+  "doze",
+  "stamp",
+  "startle",
+  "wave",
+  "glance",
+  "point",
 ] as const;
 export type Pose = (typeof poseNames)[number];
+/** Where a pose sits on its sheet. The first 16 share the 4 x 4 atlas; the
+ *  next 8 are on the 4 x 2 second sheet, drawn at the same scale. */
+export function poseStyle(pose: Pose) {
+  const i = Math.max(0, poseNames.indexOf(pose));
+  if (i < 16)
+    return {
+      backgroundImage: "",
+      backgroundSize: "",
+      backgroundPosition: `${((i % 4) * 100) / 3}% ${(Math.floor(i / 4) * 100) / 3}%`,
+    };
+  const j = i - 16;
+  return {
+    backgroundImage: 'url("/mascot/violetto-atlas-2.webp")',
+    backgroundSize: "400% 200%",
+    backgroundPosition: `${((j % 4) * 100) / 3}% ${Math.floor(j / 4) * 100}%`,
+  };
+}
+/** Show a pose on an existing figure without a React render. */
+export function applyPose(el: HTMLElement, pose: Pose) {
+  Object.assign(el.style, poseStyle(pose));
+}
 export function Mascot({
   pose = "welcome",
   size = 180,
@@ -52,7 +82,6 @@ export function Mascot({
   className?: string;
   ref?: Ref<HTMLSpanElement>;
 }) {
-  const i = poseNames.indexOf(pose);
   return (
     <span
       ref={ref}
@@ -63,7 +92,7 @@ export function Mascot({
       style={{
         width: size,
         height: size,
-        backgroundPosition: `${((i % 4) * 100) / 3}% ${(Math.floor(i / 4) * 100) / 3}%`,
+        ...poseStyle(pose),
       }}
     />
   );
@@ -197,7 +226,13 @@ export function Japanese({
 }
 /** Renders "{漢字|かんじ}" markup as ruby: kana sit over the kanji only. */
 /** `phrases` keeps each short clause on one line when it fits (speech bubbles, not long readings). */
-export function Furigana({ text, phrases }: { text: string; phrases?: boolean }) {
+export function Furigana({
+  text,
+  phrases,
+}: {
+  text: string;
+  phrases?: boolean;
+}) {
   const render = (s: string, key: string) =>
     s
       .split(/(\{[^|}]+\|[^}]+\})/)

@@ -8,7 +8,7 @@
    the device asks for reduced motion or the learner turns it off. */
 import { gsap } from "gsap";
 import { useEffect, type RefObject } from "react";
-import { poseNames, type Pose } from "./components";
+import { applyPose, type Pose } from "./components";
 import { bellSound, keySound, paperSound, stampSound } from "./sfx";
 
 const KEY = "shiori.playful";
@@ -58,7 +58,13 @@ function stamp(x: number, y: number) {
     .fromTo(
       mark,
       { scale: 1.9, rotation: turn - 14, opacity: 0 },
-      { scale: 1, rotation: turn, opacity: 0.92, duration: 0.13, ease: "power4.in" },
+      {
+        scale: 1,
+        rotation: turn,
+        opacity: 0.92,
+        duration: 0.13,
+        ease: "power4.in",
+      },
     )
     .to(mark, { scale: 1.04, duration: 0.06, yoyo: true, repeat: 1 })
     .to(mark, { opacity: 0, duration: 0.9, ease: "power1.in" }, "+=0.9");
@@ -179,22 +185,29 @@ export function startPlayful() {
 }
 
 /* ───────── Violetto: watching, poses, pokes ───────── */
-function poseAt(el: HTMLElement, pose: Pose) {
-  const i = poseNames.indexOf(pose);
-  el.style.backgroundPosition = `${((i % 4) * 100) / 3}% ${(Math.floor(i / 4) * 100) / 3}%`;
-}
+const poseAt = applyPose;
 /** Show a pose for a moment, then hand the figure back to React's pose. */
 export function flashPose(el: HTMLElement, pose: Pose, ms = 1400) {
-  const back = el.dataset.pose as Pose | undefined;
+  // A deliberate pose wins over the passive glance until it ends.
+  el.dataset.flash = pose;
   poseAt(el, pose);
-  window.setTimeout(() => {
-    if (el.isConnected) poseAt(el, (el.dataset.pose as Pose) ?? back ?? "welcome");
-  }, ms);
+  window.clearTimeout(Number(el.dataset.flashTimer));
+  el.dataset.flashTimer = String(
+    window.setTimeout(() => {
+      delete el.dataset.flash;
+      delete el.dataset.glancing;
+      if (el.isConnected) poseAt(el, (el.dataset.pose as Pose) ?? "welcome");
+    }, ms),
+  );
 }
 
 /** She turns a little toward the pointer, the way the login bear follows
  *  the text field. Whole-figure lean, since her art is painted, not rigged. */
-export function useWatcher(ref: RefObject<HTMLElement | null>, strength = 1) {
+export function useWatcher(
+  ref: RefObject<HTMLElement | null>,
+  strength = 1,
+  glance = false,
+) {
   useEffect(() => {
     const el = ref.current;
     if (!el || still() || !finePointer()) return;
@@ -207,10 +220,22 @@ export function useWatcher(ref: RefObject<HTMLElement | null>, strength = 1) {
       if (!playfulOn()) return;
       const b = el.getBoundingClientRect();
       const dx = clamp((e.clientX - (b.left + b.width / 2)) / (innerWidth / 2));
-      const dy = clamp((e.clientY - (b.top + b.height / 2)) / (innerHeight / 2));
+      const dy = clamp(
+        (e.clientY - (b.top + b.height / 2)) / (innerHeight / 2),
+      );
       ry(dx * 14 * strength);
       rx(-dy * 8 * strength);
       x(dx * 6 * strength);
+      // Far off to her side, she turns her eyes to look.
+      if (glance && !el.dataset.flash) {
+        if (dx > 0.55 && !el.dataset.glancing) {
+          el.dataset.glancing = "1";
+          applyPose(el, "glance");
+        } else if (dx < 0.35 && el.dataset.glancing) {
+          delete el.dataset.glancing;
+          applyPose(el, (el.dataset.pose as Pose) ?? "welcome");
+        }
+      }
     };
     window.addEventListener("pointermove", move, { passive: true });
     return () => {
@@ -218,7 +243,36 @@ export function useWatcher(ref: RefObject<HTMLElement | null>, strength = 1) {
       gsap.killTweensOf(el, "rotationX,rotationY,x");
       gsap.set(el, { clearProps: "transform" });
     };
-  }, [ref, strength]);
+  }, [ref, strength, glance]);
+}
+
+/** Left alone for a while, she nods off; any key or pointer wakes her. */
+export function useDoze(ref: RefObject<HTMLElement | null>, after = 45000) {
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    let timer = 0;
+    let dozing = false;
+    const wake = () => {
+      if (dozing && el.isConnected) {
+        dozing = false;
+        applyPose(el, (el.dataset.pose as Pose) ?? "listen");
+      }
+      window.clearTimeout(timer);
+      timer = window.setTimeout(() => {
+        if (!playfulOn() || !el.isConnected) return;
+        dozing = true;
+        applyPose(el, "doze");
+      }, after);
+    };
+    const events = ["pointermove", "pointerdown", "keydown", "wheel"] as const;
+    events.forEach((e) => window.addEventListener(e, wake, { passive: true }));
+    wake();
+    return () => {
+      window.clearTimeout(timer);
+      events.forEach((e) => window.removeEventListener(e, wake));
+    };
+  }, [ref, after]);
 }
 
 /** Tap her and she reacts; five quick pokes and she is flustered. */
@@ -232,11 +286,16 @@ export function usePoke(ref: RefObject<HTMLElement | null>) {
       if (!playfulOn()) return;
       const now = performance.now();
       pokes = [...pokes.filter((t) => now - t < 3000), now];
-      const pose = pokes.length >= 5 ? "error" : moods[pokes.length % moods.length];
+      const pose =
+        pokes.length >= 5 ? "startle" : moods[pokes.length % moods.length];
       if (pokes.length >= 5) pokes = [];
-      flashPose(el, pose, pose === "error" ? 1800 : 1200);
+      flashPose(el, pose, pose === "startle" ? 1800 : 1200);
       if (!still())
-        gsap.fromTo(el, { y: 0 }, { y: -10, duration: 0.14, yoyo: true, repeat: 1, ease: "power2.out" });
+        gsap.fromTo(
+          el,
+          { y: 0 },
+          { y: -10, duration: 0.14, yoyo: true, repeat: 1, ease: "power2.out" },
+        );
     };
     el.addEventListener("click", poke);
     el.style.cursor = "pointer";
@@ -246,7 +305,15 @@ export function usePoke(ref: RefObject<HTMLElement | null>) {
 
 /* ───────── Today: the clock and the season ───────── */
 export function daypart(hour = new Date().getHours()) {
-  return hour < 5 ? "night" : hour < 10 ? "dawn" : hour < 17 ? "day" : hour < 20 ? "dusk" : "night";
+  return hour < 5
+    ? "night"
+    : hour < 10
+      ? "dawn"
+      : hour < 17
+        ? "day"
+        : hour < 20
+          ? "dusk"
+          : "night";
 }
 const maple =
   '<svg viewBox="0 0 24 24" width="100%" height="100%"><path fill="currentColor" d="M12 1.5l1.7 4.4 3.5-1.7-1 3.9 4.1-.6-2.5 3.1 3.1 1.6-3.9 1.2 1.2 2.7-3.5-.8-.9 3.4H12.8V22h-1.6v-3.3H9.4l-.9-3.4-3.5.8 1.2-2.7-3.9-1.2 3.1-1.6-2.5-3.1 4.1.6-1-3.9 3.5 1.7z"/></svg>';
@@ -258,7 +325,13 @@ export function useSeason(ref: RefObject<HTMLElement | null>) {
     if (!host || !active()) return;
     const month = new Date().getMonth() + 1;
     const season =
-      month >= 3 && month <= 5 ? "spring" : month <= 8 && month >= 6 ? "summer" : month >= 9 && month <= 11 ? "autumn" : "winter";
+      month >= 3 && month <= 5
+        ? "spring"
+        : month <= 8 && month >= 6
+          ? "summer"
+          : month >= 9 && month <= 11
+            ? "autumn"
+            : "winter";
     const layer = document.createElement("div");
     layer.className = `season-layer season-${season}`;
     layer.setAttribute("aria-hidden", "true");
@@ -273,7 +346,11 @@ export function useSeason(ref: RefObject<HTMLElement | null>) {
       const w = host.clientWidth,
         h = host.clientHeight;
       if (season === "summer") {
-        gsap.set(p, { x: gsap.utils.random(0, w), y: gsap.utils.random(h * 0.2, h), opacity: 0 });
+        gsap.set(p, {
+          x: gsap.utils.random(0, w),
+          y: gsap.utils.random(h * 0.2, h),
+          opacity: 0,
+        });
         tweens.push(
           gsap.to(p, {
             x: "+=" + gsap.utils.random(-60, 60),
@@ -289,7 +366,12 @@ export function useSeason(ref: RefObject<HTMLElement | null>) {
         continue;
       }
       const startX = gsap.utils.random(-0.1, 0.9) * w;
-      gsap.set(p, { x: startX, y: -30, rotation: gsap.utils.random(0, 360), scale: gsap.utils.random(0.7, 1.15) });
+      gsap.set(p, {
+        x: startX,
+        y: -30,
+        rotation: gsap.utils.random(0, 360),
+        scale: gsap.utils.random(0.7, 1.15),
+      });
       tweens.push(
         gsap.to(p, {
           y: h + 30,
@@ -322,6 +404,14 @@ export function openLetter(sheet: HTMLElement | null) {
   gsap
     .timeline({ onComplete: () => seal.remove() })
     .from(sheet, { y: 26, opacity: 0, duration: 0.5, ease: "power3.out" })
-    .to(left, { x: -18, rotation: -28, opacity: 0, duration: 0.5, ease: "power2.in" }, 0.35)
-    .to(right, { x: 18, rotation: 28, opacity: 0, duration: 0.5, ease: "power2.in" }, 0.35);
+    .to(
+      left,
+      { x: -18, rotation: -28, opacity: 0, duration: 0.5, ease: "power2.in" },
+      0.35,
+    )
+    .to(
+      right,
+      { x: 18, rotation: 28, opacity: 0, duration: 0.5, ease: "power2.in" },
+      0.35,
+    );
 }

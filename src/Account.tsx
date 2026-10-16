@@ -5,7 +5,13 @@ import { authConfigured } from "./auth";
 const stopSyncWorker = authConfigured ? startSync() : undefined;
 if (import.meta.hot) import.meta.hot.dispose(() => stopSyncWorker?.());
 import { useState, useEffect, useRef, useSyncExternalStore } from "react";
-import { setPlayful, playfulOn, usePoke, useWatcher } from "./playful";
+import {
+  flashPose,
+  setPlayful,
+  playfulOn,
+  usePoke,
+  useWatcher,
+} from "./playful";
 import { answerSoundsOn, correctSound, setAnswerSounds } from "./sfx";
 import {
   ArrowRight,
@@ -34,7 +40,7 @@ import type {
 export function Welcome() {
   const mascotRef = useRef<HTMLSpanElement>(null);
   const [typingName, setTypingName] = useState(false);
-  useWatcher(mascotRef);
+  useWatcher(mascotRef, 1, true);
   usePoke(mascotRef);
   const syncStatus = useSyncExternalStore(
     subscribeSync,
@@ -86,7 +92,18 @@ export function Welcome() {
             pose={typingName ? "write" : "welcome"}
           />
         </section>
-        <section className="welcome-form">
+        <section
+          className="welcome-form"
+          onPointerOver={(e) => {
+            // She points toward whichever way in you are considering.
+            if (
+              (e.target as Element).closest("button") &&
+              mascotRef.current &&
+              !typingName
+            )
+              flashPose(mascotRef.current, "point", 1300);
+          }}
+        >
           <Brand />
           {step === 0 ? (
             <>
@@ -147,7 +164,17 @@ export function Welcome() {
                 autoComplete="given-name"
                 onChange={(e) => setName(e.target.value)}
                 onFocus={() => setTypingName(true)}
-                onBlur={() => setTypingName(false)}
+                onBlur={() => {
+                  setTypingName(false);
+                  // A name to address you by: she bows.
+                  if (name.trim())
+                    window.setTimeout(
+                      () =>
+                        mascotRef.current &&
+                        flashPose(mascotRef.current, "bow", 1800),
+                      0,
+                    );
+                }}
                 placeholder="Your name (optional)"
               />
               <fieldset>

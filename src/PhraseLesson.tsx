@@ -1,6 +1,6 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { petalBurst, shake, useCompletion } from "./motion";
-import { usePoke, useWatcher } from "./playful";
+import { flashPose, useDoze, usePoke, useWatcher } from "./playful";
 import { reactAfterChime, completeSound, tapSound, verdictSound } from "./sfx";
 import {
   ArrowRight,
@@ -207,6 +207,9 @@ export function PhraseLesson({
   const figure = useRef<HTMLSpanElement>(null);
   useWatcher(figure, 0.5);
   usePoke(figure);
+  useDoze(figure);
+  const waveGoodbye = () =>
+    figure.current && flashPose(figure.current, "wave", 1600);
   const [streak, setStreak] = useState(0);
   useCompletion(doneRef, Boolean(done));
   const step = steps[index];
@@ -494,6 +497,8 @@ export function PhraseLesson({
             stopLines();
             onClose();
           }}
+          onPointerEnter={waveGoodbye}
+          onFocus={waveGoodbye}
         >
           <X />
           Leave lesson
@@ -654,18 +659,20 @@ export function PhraseLesson({
               verdict !== null
                 ? teacherLine.pose
                 : support !== "none"
-                  ? "tea"
+                  ? "peek"
                   : step.kind === "scene" || exercise?.skill === "listening"
                     ? "listen"
                     : step.kind === "meet"
-                      ? "read"
+                      ? lesson.id.startsWith("keigo")
+                        ? "bow"
+                        : "read"
                       : "think"
             }
             size={132}
           />
           {verdict === null && support !== "none" && (
             <p className="companion-note">
-              Eyes closed. With help, this counts as practice.
+              Not looking. With help, this counts as practice.
             </p>
           )}
           {verdict !== null && (

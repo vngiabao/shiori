@@ -1,0 +1,29 @@
+Violetto extra poses atlas
+Generator: built-in image_gen
+Style reference: violetto-atlas.png
+Layout: 4 columns x 2 rows, transparent RGBA, row-major
+Poses: peek, bow, doze, stamp, startle, wave, glance, point
+
+INITIAL GENERATION PROMPT
+Create one additional game UI character sprite atlas for Violetto. Use the supplied existing 4-by-4 atlas as the STRICT character/style reference, not as a layout to reproduce. Output a NEW atlas containing exactly EIGHT sprites in FOUR EQUAL COLUMNS by TWO EQUAL ROWS, landscape 2:1, ideally 1254 x 627 or a higher-resolution exact 2:1 equivalent. Genuine transparent RGBA background with clean alpha; no solid background, no painted checkerboard.
+
+Match the reference's SAME Violetto identity, precise honey-blonde hairstyle/braided side buns and red ribbons, eye design, restrained face, head size relative to body, slender silhouette, line weight, navy outline, costume colours, one-step cel shading and illustrated small mechanical hands. About 2.3 heads tall. Petite slender chibi woman, small narrow face, large cyan blue eyes with half-lidded upper eyelids, tiny mouth, Prussian navy fitted cropped jacket, emerald oval brooch with silver frame and white cravat, ivory pleated skirt with brown stripes, brown ankle boots, silver mechanical hands. No huge round cheeks, no wide plush body, no costume redesign, no photorealism or 3D. Flat vector-like drawing with restrained cel shading, no gradients.
+
+Uniform square invisible cells. Exactly one complete full-body sprite centered within each cell, consistent head scale and standing baseline with the reference, generous transparent padding. Keep all fingers, ribbons, props and shoes inside their own cell. No extra limbs: exactly two arms and two hands per character. A seated or bowed pose retains the same underlying head size and character proportions. Row 1 cells occupy top half; row 2 bottom half. No visible grid, text, labels, lettering, watermark, decorative symbols, arrows, backdrop or floor shadows. The two small sweat droplets requested for STARTLE are the only permitted expression marks. Letter seals are plain red wax, without written characters.
+
+TOP ROW LEFT TO RIGHT:
+1 PEEK: standing straight, both silver hands raised over her eyes, fingers slightly parted so one cyan eye peeks through, small embarrassed blush. Hands actually cover the eyes, not just rest on the cheeks.
+2 BOW: polite formal Japanese bow, upper body bent about 30 degrees forward, hands folded neatly in front of her skirt, eyes closed, serene.
+3 DOZE: seated on the same brown wooden chair as the reference bottom-left teacup pose, her head resting on folded arms on that same small round brown wooden table, eyes closed, peaceful. Show complete chair, table legs and boots. A single small sealed envelope lies on the table; no teacup, no extra props.
+4 STAMP: standing, one silver hand grips a small wooden-handled red seal stamp and presses it down onto a letter supported flat on her other open silver palm, focused determined eyes. Clearly show which hand holds stamp and which supports letter.
+
+BOTTOM ROW LEFT TO RIGHT:
+5 STARTLE: small surprised hop, both feet slightly off the row's usual baseline, both silver hands raised near shoulders, eyes wide, tiny open mouth, exactly two small sweat droplets like the reference flustered pose. No speed lines or ground marks.
+6 WAVE: one silver hand raised in a gentle wave, the other hand holds a sealed letter down at her side, soft closed-mouth smile.
+7 GLANCE: body facing forward, head and eyes turned toward VIEWER'S RIGHT (her left) in a curious sideways glance, silver hands clasped neatly in front.
+8 POINT: one arm extends toward VIEWER'S RIGHT (her left), index finger pointing clearly, other silver hand holds an open letter, helpful composed expression. Keep pointing hand comfortably inside its cell.
+
+This is an extension sheet that should sit beside the original seamlessly: same character, same head-to-body ratio and line treatment. Draw only these eight requested poses, in the specified order, with true alpha.
+
+TARGETED CORRECTION PROMPT
+Edit the FIRST supplied image, the new eight-pose 4-column by 2-row transparent Violetto atlas. The SECOND image is only the original style reference. Preserve the FIRST image's atlas layout, dimensions, genuine alpha transparency, head scale, character identity, colours, linework, and all seven other sprites as precisely as possible. Make ONLY ONE targeted change: correct the BOTTOM-RIGHT (row 2 column 4) POINT sprite. Her extended pointing arm and index finger must point toward VIEWER'S RIGHT, toward the RIGHT OUTER EDGE of the atlas, never toward the neighbouring cell on the left. Her other hand still holds an open ivory letter; two arms/two silver hands only, full body with boots visible. A horizontal mirror of ONLY that bottom-right sprite is an acceptable way to fix its gesture. Keep her contained inside that cell with transparent padding, and keep her helpful composed expression. Do not rearrange the other seven poses. No text, arrows, labels, grid, backdrop, watermark or extra elements. Exactly 4 by 2, 2:1 image, true transparent RGBA.
