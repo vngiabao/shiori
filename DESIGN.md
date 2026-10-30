@@ -283,7 +283,7 @@ Today's heading is `clamp(40px, 4vw, 56px)` (38px phone); the lesson title `clam
 
 Welcome retains 52px display type, then 38px at 767px and 40px at 360px. Its form heading is 44px on desktop and 36px at 767px. General page headings retain their existing responsive roles. These are surface hierarchies, not a universal type ratio; the broader Batch E typography pass is deferred.
 
-Reading letters retain the 28px Japanese role, increasing to 30px in the tablet reader before using 25px and 2.7 line height on phones. UI metadata commonly uses 12–16px beneath the 17px body role; do not claim all text has a 17px minimum.
+Reading letters retain the 28px Japanese role, increasing to 30px in the tablet reader before using 25px and 2.7 line height on phones. The readability floor (2026-10-30) is enforced: no visible text under 14px (labels, captions, navigation, small print), secondary lines and controls 16px+, reading text 18px on phones and 20px for desktop prose (`:where(.app-main) p` at 1024px+, never metadata, notes, Japanese or the letter body). The root size is 18px. Decorative miniatures inside aria-hidden art are exempt. Selects are 44px tall with 16px text so iOS never zooms on focus.
 
 **The Language First Rule.** Preserve readable Japanese, ruby spacing and explanation hierarchy before allocating space to companion art, stamps or metadata.
 
@@ -358,6 +358,12 @@ The existing 4×4 atlas at `/mascot/violetto-atlas.png` supplies 16 named poses 
 The bubble presents Japanese with furigana, a romaji line, English and a 44px "Hear Violetto" action. Phones show one Japanese line and expand to reveal the rest. Lines live in `content/voices/violetto.json` with `ruby` (`{漢字|かんじ}` markup) and `romaji` beside the original `text` and `reading`, which still drive the audio checks. One voice serves every context, including named dialogue parts in JLPT listening.
 
 Welcome retains its Prussian blue letter panel. Only a fine pointer nudges Today's portrait (-4px, -2deg, 230ms). Reduced motion disables decorative transforms and turns the verdict and bubble entrances into fades; the stroke drawing shows the finished character instead.
+
+### The daily post
+
+Today's left column continues below the session with **The daily post**: a paper album of seven stamp slots, Monday to Sunday, and a weekly goal select (3–7 days, default 4). A day with answered work or a finished lesson carries that month's postage stamp (`/post/season-stamps.webp`, twelve seasonal motifs, GPT-drawn and cut by `scripts/build-season-stamps.py`) under an opaque ink cancellation ring with the date. Today's empty slot is violet, dashed, with a faint preview of the stamp it will earn; future slots keep full-contrast dates and only lighten their border. Missed days are plain slots, never red. The summary line is reading size; "Study for two minutes" (five familiar words) appears when memories exist. When today's stamp is new it lands once, only after the week scrolls into view: a short drop on `power4.in`, a settle on `back.out`, the ring inking in, a stamp sound at impact, and a status announcement; reduced motion shows it at once.
+
+The reminder card sits under the ledger slip in the letterbox column: "When should Violetto write to you each day?", a time input, then two equal calendar actions (Apple or Outlook as an .ics, Google Calendar), stacked on phones. An empty time turns the help line into a ribbon error and disables both actions. Once chosen it collapses to one line with "Change time". After three or more days away Today's heading becomes "Your desk is as you left it." with one primary action, "Begin with five words"; the lesson action steps down to secondary and Violetto waves. Copy never speaks of loss, missed days or streaks to protect.
 
 Postmarks represent actual saved activity and permanent collected rewards. Today shows their linked count in the ruled stats; the album retains its companion-blue level panel, metal numerals and blue earned postmarks. These are correspondence rewards, never proficiency certificates. The existing `#voice` audition page and Settings routes are retained pending Batch D. A voice audition choice is a preview preference and does not imply course audio regeneration.
 

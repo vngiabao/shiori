@@ -4,7 +4,7 @@
   font-family: "Source Sans 3", sans-serif;
   color: var(--ink);
   background: var(--paper);
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.55;
   font-synthesis: none;
@@ -526,7 +526,7 @@ select {
   margin-bottom: 15px;
 }
 .date-line span {
-  font-size: 13px;
+  font-size: 14px;
 }
 .today-heading h1 {
   font-size: 64px;
@@ -558,7 +558,7 @@ select {
 }
 .mentor-greeting small {
   font-family: "Courier Prime", monospace;
-  font-size: 12px;
+  font-size: 14px;
   display: block;
   margin-top: 12px;
 }
@@ -710,7 +710,7 @@ select {
   justify-content: space-between;
   align-items: center;
   font-family: "Courier Prime", monospace;
-  font-size: 11px;
+  font-size: 14px;
   color: var(--ink-3);
   letter-spacing: 1px;
 }
@@ -753,7 +753,7 @@ select {
   font-weight: 500;
 }
 .quiet-stats small {
-  font-size: 13px;
+  font-size: 14px;
 }
 .quiet-stats button {
   display: flex;
@@ -833,7 +833,7 @@ select {
   margin-top: 12px;
 }
 .envelope-path small {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 5px;
 }
 .envelope-path .current small {
@@ -895,7 +895,7 @@ select {
   margin-bottom: 25px;
 }
 .welcome-form form > small {
-  font-size: 13px;
+  font-size: 14px;
   text-align: center;
 }
 .path-choice {
@@ -933,7 +933,7 @@ select {
   justify-content: space-between;
   padding: 22px 0;
   color: var(--ink-3);
-  font-size: 13px;
+  font-size: 14px;
 }
 .tabs {
   display: flex;
@@ -956,7 +956,7 @@ select {
   font-weight: 600;
 }
 .tabs span {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-3);
 }
 .read-layout {
@@ -991,7 +991,7 @@ select {
   font-size: 32px;
 }
 .kana-grid small {
-  font-size: 13px;
+  font-size: 14px;
 }
 .kana-grid i {
   display: block;
@@ -1017,7 +1017,7 @@ select {
   gap: 15px;
   flex-wrap: wrap;
   margin-top: 17px;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-3);
 }
 .legend span:before {
@@ -1145,7 +1145,7 @@ select {
   stroke: var(--ink);
 }
 .stroke-number {
-  font: 600 6.5px var(--font-ui, sans-serif);
+  font: 600 7px var(--font-ui, sans-serif);
   fill: var(--ribbon);
 }
 .stroke-demo figcaption {
@@ -1164,7 +1164,7 @@ select {
 }
 .stroke-demo figcaption small {
   flex-basis: 100%;
-  font-size: 11px;
+  font-size: 14px;
   color: var(--ink-3);
 }
 .mobile-gloss {
@@ -1215,7 +1215,7 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-family: "Courier Prime", monospace;
   color: var(--ink-3);
 }
@@ -1257,7 +1257,7 @@ select {
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  font-size: 10px;
+  font-size: 14px;
   font-family: "Courier Prime", monospace;
   color: var(--ink-3);
   border-bottom: 1px solid var(--rule);
@@ -1281,7 +1281,7 @@ select {
 }
 .reader-toolbar .text-button,
 .reader-toolbar .audio-button {
-  font-size: 13px;
+  font-size: 14px;
 }
 .letter-body {
   font-size: 28px;
@@ -1310,7 +1310,7 @@ select {
 .letter-signature span {
   display: block;
   font-family: "Noto Serif JP", serif;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-3);
   margin-top: 8px;
 }
@@ -1430,7 +1430,7 @@ select {
 }
 .lesson-companion > p {
   font-family: "Courier Prime", monospace;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-3);
   margin: 12px 0 30px;
 }
@@ -1492,7 +1492,7 @@ select {
   background: var(--accent-wash);
 }
 .answer-option > span:first-child {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-3);
   border: 1px solid var(--rule);
   width: 24px;
@@ -2005,7 +2005,7 @@ dialog::backdrop {
   flex-direction: column;
   gap: 8px;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   color: var(--ink-3);
   padding: 0 4px;
 }
@@ -2238,7 +2238,7 @@ dialog::backdrop {
   margin-top: 10px;
 }
 .journey-list small {
-  font-size: 13px;
+  font-size: 14px;
   max-width: 170px;
 }
 .companion-intro {
@@ -2380,7 +2380,7 @@ dialog::backdrop {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 14px;
     gap: 3px;
     color: var(--ink-2);
     min-width: 52px;
@@ -2438,14 +2438,14 @@ dialog::backdrop {
     font-size: 14px;
   }
   .mentor-greeting small {
-    font-size: 10px;
+    font-size: 14px;
   }
   .date-line {
     gap: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .date-line span {
-    font-size: 11px;
+    font-size: 14px;
   }
   .lead-lesson {
     grid-template-columns: 0.85fr 1fr;
@@ -2463,7 +2463,7 @@ dialog::backdrop {
     font-size: 8px;
   }
   .lesson-letter-art p {
-    font-size: 12px;
+    font-size: 14px;
   }
   .stamp-outline {
     width: 38px;
@@ -2526,7 +2526,7 @@ dialog::backdrop {
     font-size: 28px;
   }
   .kana-grid small {
-    font-size: 11px;
+    font-size: 14px;
   }
   .lesson-index h2 {
     font-size: 28px;
@@ -2535,7 +2535,7 @@ dialog::backdrop {
     gap: 13px;
   }
   .lesson-index small {
-    font-size: 13px;
+    font-size: 14px;
   }
   .lesson-index > button > svg {
     width: 17px;
@@ -2606,7 +2606,7 @@ dialog::backdrop {
     font-size: 36px;
   }
   .lesson-top {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .welcome {
@@ -2633,7 +2633,7 @@ dialog::backdrop {
     gap: 8px;
   }
   .path-choice small {
-    font-size: 12px;
+    font-size: 14px;
   }
   .path-choice > svg {
     display: none;
@@ -2704,7 +2704,7 @@ dialog::backdrop {
     margin-inline: 21px;
     flex-direction: column;
     gap: 9px;
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 22px;
   }
   .today-heading {
@@ -2722,7 +2722,7 @@ dialog::backdrop {
     z-index: 1;
   }
   .date-line {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   .date-line span {
@@ -2767,7 +2767,7 @@ dialog::backdrop {
     font-size: 9px;
   }
   .lesson-letter-art p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .lead-lesson-copy h2 {
     font-size: 37px;
@@ -2780,7 +2780,7 @@ dialog::backdrop {
     margin-top: 14px;
   }
   .lesson-meta {
-    font-size: 13px;
+    font-size: 14px;
   }
   .today-columns {
     gap: 33px;
@@ -2789,7 +2789,7 @@ dialog::backdrop {
     font-size: 28px;
   }
   .section-title > a {
-    font-size: 13px;
+    font-size: 14px;
   }
   .section-title select {
     font-size: 14px;
@@ -2804,7 +2804,7 @@ dialog::backdrop {
     padding: 17px 0;
   }
   .daily-plan small {
-    font-size: 13px;
+    font-size: 14px;
   }
   .daily-plan strong {
     font-size: 16px;
@@ -2814,7 +2814,7 @@ dialog::backdrop {
     width: 15px;
   }
   .plan-time {
-    font-size: 12px;
+    font-size: 14px;
   }
   .daily-plan li svg {
     display: none;
@@ -2849,10 +2849,10 @@ dialog::backdrop {
     padding-top: 22px;
   }
   .envelope-path strong {
-    font-size: 12px;
+    font-size: 14px;
   }
   .envelope-path small {
-    font-size: 11px;
+    font-size: 14px;
   }
   .envelope-path li:last-child {
     grid-column: auto;
@@ -2943,14 +2943,14 @@ dialog::backdrop {
     font-size: 31px;
   }
   .letter-tile footer {
-    font-size: 12px;
+    font-size: 14px;
   }
   .letter-paper {
     padding: 23px 19px;
     margin: 0 -5px;
   }
   .letter-meta {
-    font-size: 8px;
+    font-size: 14px;
     gap: 8px;
   }
   .letter-body {
@@ -2962,14 +2962,14 @@ dialog::backdrop {
     gap: 9px;
   }
   .reader-toolbar .audio-button {
-    font-size: 12px;
+    font-size: 14px;
     padding-inline: 9px;
   }
   .reader-toolbar .text-button {
-    font-size: 12px;
+    font-size: 14px;
   }
   .reader-toolbar .toggle-label {
-    font-size: 12px;
+    font-size: 14px;
   }
   .letter-question h3 {
     font-size: 26px;
@@ -3099,11 +3099,11 @@ dialog::backdrop {
   }
 
   .welcome-form small {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 16px;
   }
   .welcome > footer {
-    font-size: 11px;
+    font-size: 14px;
     gap: 20px;
   }
   .path-choice {
@@ -3111,14 +3111,14 @@ dialog::backdrop {
     gap: 10px;
   }
   .path-choice small {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 4px;
   }
   .welcome-form form h2 {
     font-size: 34px;
   }
   .welcome-form form > small {
-    font-size: 12px;
+    font-size: 14px;
   }
   .listen-feature {
     grid-template-columns: 1fr;
@@ -3258,7 +3258,7 @@ dialog::backdrop {
     font-size: 28px;
   }
   .conversation-list > button > div > span {
-    font-size: 12px;
+    font-size: 14px;
   }
   .conversation-list p {
     font-size: 15px;
@@ -3346,7 +3346,7 @@ dialog::backdrop {
     gap: 0;
   }
   .media-steps ol button {
-    font-size: 11px;
+    font-size: 14px;
   }
   .media-steps h2 {
     font-size: 32px;
@@ -3413,7 +3413,7 @@ dialog::backdrop {
   .skill-ledger small {
     display: inline;
     margin-left: 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .progress-bottom {
     grid-template-columns: 1fr;
@@ -3510,7 +3510,7 @@ dialog::backdrop {
     gap: 9px;
   }
   .plan-time {
-    font-size: 11px;
+    font-size: 14px;
   }
   .reader-toolbar {
     gap: 6px;
@@ -3519,7 +3519,7 @@ dialog::backdrop {
     flex-direction: column;
   }
   .media-steps ol button {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 .library-summary {
@@ -3616,7 +3616,7 @@ dialog::backdrop {
   white-space: pre-wrap;
 }
 .field-session small {
-  font-size: 12px;
+  font-size: 14px;
 }
 @media (max-width: 600px) {
   .library-summary {

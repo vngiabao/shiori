@@ -138,26 +138,31 @@ function buildSteps(lesson: Lesson, mode: Skill): Step[] {
 /* Mixed review: each due memory comes back as a task in a new sentence when the
    course has one for that word and skill (a gap, a reply, a sentence to build),
    rotating between them; otherwise as a plain recognition check. */
-export function buildReviewSteps(memories: Memory[], limit = 20): Step[] {
-  const now = Date.now();
-  return memories
+/** Due memories, soonest first, each back in a fresh sentence when one
+ *  exists. `now = Infinity` takes the soonest memories whether or not they
+ *  are due yet (the two-minute post on a day with nothing due). */
+export function buildReviewSteps(
+  memories: Memory[],
+  limit = 20,
+  now = Date.now(),
+): Step[] {
+  const steps: Step[] = [];
+  for (const m of memories
     .filter((m) => m.due <= now && wordMap[m.itemId])
-    .sort((a, b) => a.due - b.due)
-    .flatMap((m): Step[] => {
-      const tasks = exercises.filter(
-        (x) =>
-          x.words[0] === m.itemId &&
-          (x.letter && x.type === "cloze" ? "recall" : x.skill) === m.skill,
-      );
-      if (tasks.length) {
-        const ex = tasks[(m.successes + m.failures) % tasks.length];
-        return [{ kind: "exercise", ex, lastForScene: true }];
-      }
-      return m.skill === "reading" || m.skill === "listening"
-        ? [{ kind: "check", word: wordMap[m.itemId], skill: m.skill }]
-        : [];
-    })
-    .slice(0, limit);
+    .sort((a, b) => a.due - b.due)) {
+    if (steps.length >= limit) break;
+    const tasks = exercises.filter(
+      (x) =>
+        x.words[0] === m.itemId &&
+        (x.letter && x.type === "cloze" ? "recall" : x.skill) === m.skill,
+    );
+    if (tasks.length) {
+      const ex = tasks[(m.successes + m.failures) % tasks.length];
+      steps.push({ kind: "exercise", ex, lastForScene: true });
+    } else if (m.skill === "reading" || m.skill === "listening")
+      steps.push({ kind: "check", word: wordMap[m.itemId], skill: m.skill });
+  }
+  return steps;
 }
 export const reviewLesson: Lesson = {
   id: "review",

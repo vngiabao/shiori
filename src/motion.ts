@@ -6,7 +6,7 @@
    for petals that is removed when they land. */
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import type { RefObject } from "react";
+import { useRef, type RefObject } from "react";
 import { applyPose } from "./components";
 
 gsap.registerPlugin(useGSAP);
@@ -147,14 +147,14 @@ export function useTodayEntrance(scope: RefObject<HTMLElement | null>) {
       if (still() || !scope.current) return;
       const q = gsap.utils.selector(scope);
       const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
-      tl.from(q(".round-card"), {
+      tl.from(q(".round-card, .week-album"), {
         y: 18,
         opacity: 0,
         duration: 0.45,
         stagger: 0.06,
       })
         .from(
-          q(".today-post .postcard, .ledger-slip"),
+          q(".today-post .postcard, .ledger-slip, .today-post .post-reminder"),
           { y: 18, opacity: 0, duration: 0.45, stagger: 0.08 },
           0.1,
         )
@@ -206,5 +206,79 @@ export function usePathBoard(scope: RefObject<HTMLElement | null>) {
       });
     },
     { scope },
+  );
+}
+
+/** Today's stamp lands on the week: pressed down onto the paper, then the
+ *  cancellation ring inks in. It waits until the week is actually on screen,
+ *  so the moment is seen. `start` runs as it lands (or at once under reduced
+ *  motion), `impact` when the stamp meets the paper, `done` when it settles. */
+export function useStampLanding(
+  scope: RefObject<HTMLElement | null>,
+  land: boolean,
+  on: { start: () => void; impact: () => void; done: () => void },
+) {
+  const calls = useRef(on);
+  calls.current = on;
+  useGSAP(
+    () => {
+      if (!land || !scope.current) return;
+      const q = gsap.utils.selector(scope);
+      const stamp = q(".week-slot.is-today .week-stamp");
+      const moving = !still() && stamp.length > 0;
+      const tl = moving
+        ? gsap
+            .timeline({
+              paused: true,
+              onStart: () => calls.current.start(),
+              onComplete: () => calls.current.done(),
+            })
+            // A breath after it scrolls into view, then the drop. Visible from
+            // its first frame, so the press itself is seen.
+            .addLabel("drop", 0.25)
+            .fromTo(
+              stamp,
+              { opacity: 0 },
+              { opacity: 1, duration: 0.12, ease: "power1.out" },
+              "drop",
+            )
+            .from(
+              stamp,
+              {
+                scale: 1.9,
+                rotation: "-=14",
+                y: -18,
+                duration: 0.34,
+                ease: "power4.in",
+              },
+              "drop",
+            )
+            .call(() => calls.current.impact(), undefined, "drop+=0.34")
+            .to(stamp, { scale: 0.94, duration: 0.07, ease: "power1.out" })
+            .to(stamp, { scale: 1, duration: 0.22, ease: "back.out(3)" })
+            .from(
+              q(".week-slot.is-today .week-cancel"),
+              { opacity: 0, scale: 1.25, duration: 0.3, ease: "power2.out" },
+              "-=0.12",
+            )
+        : null;
+      const target =
+        scope.current.querySelector(".week-stamps") ?? scope.current;
+      const seen = new IntersectionObserver(
+        (entries) => {
+          if (!entries.some((e) => e.isIntersecting)) return;
+          seen.disconnect();
+          if (tl) tl.play();
+          else {
+            calls.current.start();
+            calls.current.done();
+          }
+        },
+        { threshold: 0.9 },
+      );
+      seen.observe(target);
+      return () => seen.disconnect();
+    },
+    { scope, dependencies: [land] },
   );
 }

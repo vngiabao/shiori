@@ -134,7 +134,7 @@ kbd {
   padding: 1px 5px;
   border: 1px solid var(--rule);
   border-radius: 4px;
-  font: 12px var(--font-ui);
+  font: 14px var(--font-ui);
   color: var(--ink-2);
 }
 .watch-status {
@@ -179,7 +179,7 @@ kbd {
 }
 .watch-modes small {
   color: var(--ink-2);
-  font-size: 13.5px;
+  font-size: 14px;
   line-height: 1.45;
 }
 .watch-session {
@@ -238,7 +238,7 @@ kbd {
 .watch-history small {
   display: block;
   margin-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-2);
 }
 
@@ -272,7 +272,7 @@ kbd {
   background: var(--accent-wash);
 }
 .watch-time {
-  font-size: 13px;
+  font-size: 14px;
   font-variant-numeric: tabular-nums;
   color: var(--ink-3);
 }

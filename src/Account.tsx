@@ -28,6 +28,8 @@ import { brand } from "./brand";
 import { evidence, wordStatus } from "./learning";
 import { stopAudio, configureVoice } from "./audio";
 import { ReactionLine } from "./Violetto";
+import { Reminder, postCopy } from "./DailyPost";
+import { defaultGoal, goalChoices } from "./post";
 import { lessons, words, stages } from "./content";
 import type {
   Attempt,
@@ -331,6 +333,24 @@ export function Settings({ profile: storedProfile }: { profile: Profile }) {
               </small>
             </span>
           </label>
+          <h2 className="settings-subhead">{postCopy.settingsTitle}</h2>
+          <label htmlFor="profile-week-goal">{postCopy.settingsGoal}</label>
+          <select
+            id="profile-week-goal"
+            value={profile.weekGoal ?? defaultGoal}
+            onChange={(e) => update({ weekGoal: Number(e.target.value) })}
+          >
+            {goalChoices.map((n) => (
+              <option key={n} value={n}>
+                {n} days a week
+              </option>
+            ))}
+          </select>
+          <p className="setting-help">{postCopy.settingsGoalHelp}</p>
+          <fieldset className="setting-group">
+            <legend>{postCopy.remindPrompt}</legend>
+            <Reminder profile={profile} settings save={update} />
+          </fieldset>
           <h2 className="settings-subhead">Theme</h2>
           <div className="theme-options">
             <button

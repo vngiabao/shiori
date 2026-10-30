@@ -73,6 +73,12 @@ function bell(at: number, freq: number, peak: number, length: number) {
 
 function play(fn: (now: number) => void) {
   if (!answerSoundsOn()) return;
+  // Before any tap the audio context is suspended; a queued sound would
+  // play late, on the first tap, out of context.
+  const activation = (
+    navigator as Navigator & { userActivation?: { hasBeenActive: boolean } }
+  ).userActivation;
+  if (activation && !activation.hasBeenActive) return;
   const c = audio();
   if (!c) return;
   fn(c.currentTime + 0.01);

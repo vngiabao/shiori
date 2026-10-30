@@ -3,6 +3,7 @@ import {
   Suspense,
   type ReactNode,
   useEffect,
+  useMemo,
   useState,
   useRef,
   useSyncExternalStore,
@@ -73,7 +74,9 @@ import {
   ViolettoPanel,
   ReactionLine,
 } from "./Violetto";
-import { postalProgress } from "./rewards";
+import { dayKey, postalProgress } from "./rewards";
+import { AWAY_DAYS, daysAway, studyDays, updateBadge } from "./post";
+import { Reminder, WeekPost, postCopy } from "./DailyPost";
 import {
   lessons,
   letters,
@@ -167,6 +170,23 @@ export default function App() {
   const [examFocus, setExamFocus] = useState(false);
   const [online, setOnline] = useState(navigator.onLine);
   const [audioError, setAudioError] = useState("");
+  const studiedToday = useMemo(
+    () =>
+      state
+        ? studyDays(state.attempts, state.completions).has(dayKey(Date.now()))
+        : true,
+    [state],
+  );
+  const wantsBadge = Boolean(state?.profile?.postTime);
+  useEffect(() => {
+    // Only for learners who asked for a reminder, and only while away.
+    const waiting = wantsBadge && !studiedToday;
+    const sync = () =>
+      updateBadge(waiting && document.visibilityState === "hidden");
+    sync();
+    document.addEventListener("visibilitychange", sync);
+    return () => document.removeEventListener("visibilitychange", sync);
+  }, [wantsBadge, studiedToday]);
   const savedIds = state
     ? [
         ...state.memories.map((m) => m.itemId),
@@ -436,6 +456,10 @@ export default function App() {
               {...props}
               completions={state.completions}
               go={go}
+              startMixed={(steps) => {
+                setMixed(steps);
+                window.scrollTo(0, 0);
+              }}
             />
           ) : route === "read" ? (
             <Read {...props} openLetter={(id) => go("letter/" + id)} />
@@ -628,6 +652,7 @@ function Today({
   completions,
   start,
   go,
+  startMixed,
 }: {
   profile: Profile;
   attempts: Attempt[];
@@ -635,6 +660,7 @@ function Today({
   completions: Completion[];
   start: (l: Lesson, skill?: Skill) => void;
   go: (s: string) => void;
+  startMixed: (steps: Step[]) => void;
 }) {
   const todayRef = useRef<HTMLDivElement>(null);
   useTodayEntrance(todayRef);
@@ -650,6 +676,19 @@ function Today({
     lessons.find((l) => !done.has(l.id)) ??
     track[0];
   const due = memories.filter((m) => m.due <= Date.now()).length;
+  const days = useMemo(
+    () => studyDays(attempts, completions),
+    [attempts, completions],
+  );
+  const away = daysAway(days);
+  // Two minutes: five memories, due first, else the soonest to fade.
+  const quickSteps = useMemo(
+    () => buildReviewSteps(memories, 5, Infinity),
+    [memories],
+  );
+  const quick = quickSteps.length ? () => startMixed(quickSteps) : undefined;
+  // Welcome back only when there are familiar words to begin with.
+  const returning = away >= AWAY_DAYS && Boolean(quick);
   const plan = buildPlan(profile.minutes, attempts, profile.path, due);
   const first = wordMap[next.words[0]];
   const post = postalProgress(attempts, completions);
@@ -708,18 +747,36 @@ function Today({
               })}
               <span lang="ja">今日の一歩</span>
             </p>
-            <h1>Your next letter is ready.</h1>
-            <p>
-              Welcome{profile.name === "friend" ? "" : `, ${profile.name}`}.
-              {due
-                ? ` ${due} ${due === 1 ? "memory is" : "memories are"} ready to revisit.`
-                : " One lesson, a few minutes, then rest."}
-            </p>
+            {returning ? (
+              <>
+                <h1>{postCopy.backTitle}</h1>
+                <p>{postCopy.backLine.replace("{days}", String(away))}</p>
+                {quick && (
+                  <div className="actions return-actions">
+                    <Button onClick={quick}>
+                      {postCopy.backButton}
+                      <ArrowRight />
+                    </Button>
+                  </div>
+                )}
+              </>
+            ) : (
+              <>
+                <h1>Your next letter is ready.</h1>
+                <p>
+                  Welcome
+                  {profile.name === "friend" ? "" : `, ${profile.name}`}.
+                  {due
+                    ? ` ${due} ${due === 1 ? "memory is" : "memories are"} ready to revisit.`
+                    : " One lesson, a few minutes, then rest."}
+                </p>
+              </>
+            )}
           </div>
         </header>
         <ViolettoPanel
           kind={attempts.length ? "return" : "welcome"}
-          pose={due ? "review" : "welcome"}
+          pose={returning ? "wave" : due ? "review" : "welcome"}
         />
         <section className="lead-lesson">
           <div className="lesson-letter-art" aria-hidden="true">
@@ -748,6 +805,7 @@ function Today({
             </div>
             <div className="actions">
               <Button
+                secondary={returning}
                 onClick={() =>
                   start(
                     next,
@@ -765,50 +823,60 @@ function Today({
       </div>
       {backupDue(attempts.length) && <BackupReminder />}
       <div className="today-columns">
-        <section className="daily-plan">
-          <div className="section-title">
-            <h2>Today’s session</h2>
-            <label>
-              <span className="sr-only">Today’s minutes</span>
-              <select
-                value={profile.minutes}
-                onChange={(e) =>
-                  db.profiles.update("local", {
-                    minutes: Number(e.target.value),
-                  })
-                }
-              >
-                {[10, 20, 30, 45, 60].map((n) => (
-                  <option key={n} value={n}>
-                    {n} min
-                  </option>
-                ))}
-              </select>
-            </label>
-          </div>
-          <p className="muted">{plan.reason}</p>
-          <div className="round">
-            {plan.items.map((item, i) => (
-              <button
-                key={i}
-                className="round-card"
-                onClick={() =>
-                  item.route === "read" ? start(next) : go(item.route)
-                }
-              >
-                <span className="round-number" aria-hidden="true">
-                  {i + 1}
-                </span>
-                <span className="round-icon" aria-hidden="true">
-                  {round[item.route].icon}
-                </span>
-                <span className="round-kicker">{round[item.route].kicker}</span>
-                <strong>{round[item.route].title}</strong>
-                <span className="round-time">{item.minutes} min</span>
-              </button>
-            ))}
-          </div>
-        </section>
+        <div className="today-main">
+          <section className="daily-plan">
+            <div className="section-title">
+              <h2>Today’s session</h2>
+              <label>
+                <span className="sr-only">Today’s minutes</span>
+                <select
+                  value={profile.minutes}
+                  onChange={(e) =>
+                    db.profiles.update("local", {
+                      minutes: Number(e.target.value),
+                    })
+                  }
+                >
+                  {[10, 20, 30, 45, 60].map((n) => (
+                    <option key={n} value={n}>
+                      {n} min
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+            <p className="muted">{plan.reason}</p>
+            <div className="round">
+              {plan.items.map((item, i) => (
+                <button
+                  key={i}
+                  className="round-card"
+                  onClick={() =>
+                    item.route === "read" ? start(next) : go(item.route)
+                  }
+                >
+                  <span className="round-number" aria-hidden="true">
+                    {i + 1}
+                  </span>
+                  <span className="round-icon" aria-hidden="true">
+                    {round[item.route].icon}
+                  </span>
+                  <span className="round-kicker">
+                    {round[item.route].kicker}
+                  </span>
+                  <strong>{round[item.route].title}</strong>
+                  <span className="round-time">{item.minutes} min</span>
+                </button>
+              ))}
+            </div>
+          </section>
+          <WeekPost
+            profile={profile}
+            days={days}
+            quick={quick}
+            returning={returning}
+          />
+        </div>
         <aside className="today-post">
           <div className="section-title">
             <h2>In your letterbox.</h2>
@@ -846,7 +914,7 @@ function Today({
               <dt>Correspondence level</dt>
               <dd>{post.level}</dd>
             </div>
-            {profile.streak && (
+            {profile.streak && streak > 0 && (
               <div>
                 <dt>Days in a row</dt>
                 <dd>{streak}</dd>
@@ -876,6 +944,7 @@ function Today({
               </dd>
             </div>
           </dl>
+          <Reminder profile={profile} />
         </aside>
       </div>
       <section className="path-section">
@@ -981,6 +1050,14 @@ function Companion() {
                   "A little flustered",
                   "A letter delivered",
                   "Keep going",
+                  "Not looking",
+                  "A polite bow",
+                  "Dozing at her desk",
+                  "Stamping your letter",
+                  "Startled",
+                  "A wave hello",
+                  "A sideways glance",
+                  "This way",
                 ][i]
               }
             </h3>

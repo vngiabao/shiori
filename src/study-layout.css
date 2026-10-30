@@ -132,7 +132,7 @@
 }
 .kana-aid h2 {
   margin: 0 0 6px;
-  font: 600 13px/1.4 var(--font-ui);
+  font: 600 14px/1.4 var(--font-ui);
   letter-spacing: 0.04em;
   color: var(--ink-2);
 }
@@ -233,7 +233,7 @@
   top: 10px;
   width: 22px;
   height: 22px;
-  font: 12px var(--font-ui);
+  font: 14px var(--font-ui);
 }
 .glyph-options .answer-option > svg {
   position: absolute;
@@ -428,7 +428,7 @@
   margin: max(40px, calc(16vh - 63px)) auto 0;
 }
 .choice-number {
-  font-size: 13px;
+  font-size: 14px;
   font-variant-numeric: tabular-nums;
   color: var(--ink-2);
 }
@@ -495,7 +495,7 @@
   color: var(--brand-on);
 }
 .violetto-panel header span {
-  font: 13px var(--font-japanese);
+  font: 14px var(--font-japanese);
   color: var(--brand-soft);
 }
 .panel-portrait {
@@ -780,11 +780,11 @@
     padding: 0 16px;
     gap: 8px;
     grid-template-columns: auto minmax(0, 1fr) auto;
-    font-size: 13px;
+    font-size: 14px;
   }
   .focus-shell .lesson-top .text-button {
     gap: 4px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .focus-shell .lesson-body {
     padding: 0 16px;
@@ -964,7 +964,7 @@
   }
   .panel-romaji,
   .panel-meaning {
-    font-size: 13px;
+    font-size: 14px;
   }
   .panel-hear {
     justify-self: start;
@@ -1874,7 +1874,7 @@ input[type="file"]::file-selector-button:hover {
   color: var(--accent);
 }
 .envelope-path small {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-2);
 }
 .envelope-path .finished small {
@@ -2066,7 +2066,7 @@ body {
   height: 18px;
 }
 .round-kicker {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-2);
 }
 .round-card strong {
@@ -2076,7 +2076,7 @@ body {
 .round-time {
   margin-top: auto;
   padding-top: 8px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-2);
   font-variant-numeric: tabular-nums;
 }
@@ -2125,7 +2125,7 @@ body {
   border-bottom: 1px solid var(--rule);
 }
 .ledger-slip .slip-head dt {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--violet);
 }
 .ledger-slip .slip-head dd {
@@ -2413,7 +2413,7 @@ body::before {
   border-radius: 999px;
   background: var(--card);
   color: var(--ribbon);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 600;
   font-variant-numeric: lining-nums tabular-nums;
   transform: translateX(-50%);
@@ -2434,7 +2434,7 @@ body::before {
 .companion-note {
   max-width: 180px;
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.45;
   color: var(--ink-2);
   text-align: center;
@@ -2482,5 +2482,314 @@ body::before {
   }
   .combo-chip {
     animation: none;
+  }
+}
+
+/* ───────── The daily post: this week's stamps, two minutes, a reminder ───────── */
+.today-main {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  min-width: 0;
+}
+.week-post .section-title select {
+  width: auto;
+}
+.week-album {
+  margin-top: 16px;
+  padding: 20px 22px 18px;
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, var(--honey) 7%, var(--card)) 0,
+    var(--card) 28px
+  );
+}
+.week-stamps {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.week-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.week-day {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-2);
+}
+.week-slot.is-today .week-day {
+  font-weight: 600;
+  color: var(--violet);
+}
+.week-frame {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  max-width: 64px;
+  aspect-ratio: 4 / 5;
+  border: 1.5px dashed var(--rule);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--paper) 55%, var(--card));
+}
+.week-slot.is-today .week-frame {
+  border-color: var(--violet);
+  background: var(--violet-wash);
+}
+.week-slot.is-future .week-frame {
+  border-color: color-mix(in srgb, var(--rule) 55%, transparent);
+}
+.week-slot.is-stamped .week-frame {
+  border-color: transparent;
+  background: transparent;
+}
+.week-slot.is-landing .week-frame {
+  border-color: var(--violet);
+  background: var(--violet-wash);
+}
+.week-date {
+  position: relative;
+  font: 600 16px/1 var(--font-ui);
+  font-variant-numeric: lining-nums;
+  color: var(--ink-3);
+}
+.week-slot.is-today .week-date {
+  color: var(--violet);
+}
+.week-stamp {
+  position: absolute;
+  inset: 0;
+  background: url("/post/season-stamps.webp") 0 0 / 400% 300% no-repeat;
+  filter: drop-shadow(0 2px 3px color-mix(in srgb, var(--ink) 16%, transparent));
+}
+/* Today's empty slot shows, faintly, the stamp it will earn. */
+.week-stamp.is-ghost {
+  opacity: 0.22;
+  filter: none;
+}
+/* The cancellation: a ring of ink with the day, struck over the corner. */
+.week-cancel {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1.5px solid color-mix(in srgb, var(--ink) 75%, transparent);
+  border-radius: 50%;
+  background: var(--card);
+  font: 700 14px/1 var(--font-ui);
+  font-variant-numeric: lining-nums;
+  color: var(--ink);
+  rotate: -14deg;
+}
+.week-summary {
+  margin: 18px 0 0;
+  font-size: 18px;
+  line-height: 1.45;
+}
+@media (min-width: 1024px) {
+  .week-summary {
+    font-size: 20px;
+  }
+}
+.week-run {
+  display: block;
+  margin-top: 2px;
+  font-size: 16px;
+  color: var(--violet);
+}
+.week-quick {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  margin-top: 16px;
+}
+.week-quick > span {
+  font-size: 16px;
+  color: var(--ink-2);
+}
+.post-reminder {
+  margin-top: 16px;
+  padding: 18px 20px;
+  border: 1px solid color-mix(in srgb, var(--violet) 22%, var(--rule));
+  border-radius: 12px;
+  background: var(--card);
+}
+.post-reminder.in-settings {
+  margin-top: 4px;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.post-reminder h3 {
+  margin: 0;
+  font: 600 17px/1.35 var(--font-ui);
+}
+.post-reminder > p {
+  margin: 4px 0 12px;
+  font-size: 16px;
+  color: var(--ink-2);
+}
+.post-reminder-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 10px;
+}
+.post-reminder-row > label {
+  grid-column: 1 / -1;
+  justify-self: start;
+  margin: 0;
+}
+.post-reminder-row input[type="time"] {
+  min-height: 44px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--ink);
+  font: 500 16px var(--font-ui);
+  font-variant-numeric: tabular-nums;
+}
+.post-reminder-row .button {
+  min-height: 44px;
+  justify-content: center;
+  padding-inline: 12px;
+  font-size: 16px;
+}
+.post-reminder-row .button:active:not([aria-disabled="true"]) {
+  transform: scale(0.97);
+}
+.post-reminder-row .button[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.post-reminder > p.post-reminder-error {
+  font-weight: 600;
+  color: var(--ribbon);
+}
+.setting-group {
+  min-width: 0;
+  margin: 24px 0 0;
+  padding: 0;
+  border: 0;
+}
+.setting-group > legend {
+  margin: 0 0 2px;
+  padding: 0;
+}
+.post-reminder.is-set {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 14px;
+  font-size: 16px;
+  color: var(--ink-2);
+}
+.post-reminder.is-set .text-button {
+  min-height: 44px;
+  font-size: 16px;
+}
+.return-actions {
+  margin-top: 18px;
+}
+@media (max-width: 480px) {
+  .week-album {
+    padding: 16px 14px 16px;
+  }
+  .week-stamps {
+    gap: 6px;
+  }
+  .week-cancel {
+    right: -3px;
+    bottom: -3px;
+    width: 24px;
+    height: 24px;
+  }
+  .post-reminder-row {
+    grid-template-columns: 1fr;
+  }
+}
+.settings-layout .setting-help {
+  margin: 6px 0 0;
+  font-size: 16px;
+  color: var(--ink-2);
+}
+.settings-layout .setting-label {
+  margin: 24px 0 0;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ───────── Readability floor (2026-10-30): reading text 18px on phones and
+   20px on desktop, secondary lines 16px+, labels and small print 14px+.
+   Prose paragraphs inherit it; components with their own sizes keep them. */
+@media (min-width: 1024px) {
+  :where(.app-main) p:where(:not(.muted, .content-note, .notice-note, [lang])) {
+    font-size: 20px;
+  }
+  .kana-aid p {
+    font-size: 20px;
+  }
+}
+.letter-body p {
+  font-size: inherit;
+}
+.library-summary p,
+.route-here {
+  font-size: 16px;
+}
+.kana-aid p {
+  font-size: 18px;
+}
+/* Controls and secondary lines: 16px, 44px targets, no iOS focus zoom. */
+.section-title select {
+  min-height: 44px;
+  font-size: 16px;
+}
+.section-title > a,
+.reader-toolbar .text-button,
+.reader-toolbar .toggle-label,
+.focus-shell .lesson-top .text-button,
+.panel-romaji,
+.panel-meaning,
+.kana-origin,
+.kana-tips p,
+.lesson-index small {
+  font-size: 16px;
+}
+a.button:hover {
+  text-decoration: none;
+}
+.path-envelope > span {
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+}
+.settings-layout .muted,
+.daily-plan > .muted {
+  font-size: 16px;
+}
+.setting-check small {
+  font-size: 16px;
+}
+.today .today-heading > div > p:not(.date-line) {
+  font-size: 18px;
+}
+@media (min-width: 1024px) {
+  .today .today-heading > div > p:not(.date-line) {
+    font-size: 20px;
   }
 }

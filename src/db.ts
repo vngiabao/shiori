@@ -230,6 +230,17 @@ export async function importBackup(raw: unknown) {
   )
     throw new Error("This backup contains invalid voice settings.");
   if (
+    b.profiles.some(
+      (p) =>
+        (p.postTime !== undefined &&
+          p.postTime !== "" &&
+          !/^([01]\d|2[0-3]):[0-5]\d$/.test(String(p.postTime))) ||
+        (p.weekGoal !== undefined &&
+          ![3, 4, 5, 6, 7].includes(p.weekGoal as number)),
+    )
+  )
+    throw new Error("This backup contains invalid reminder settings.");
+  if (
     b.completions.some(
       (c) =>
         typeof c.id !== "string" ||
@@ -282,7 +293,9 @@ export async function importBackup(raw: unknown) {
           typeof l.clip !== "string" ||
           typeof l.text !== "string" ||
           typeof l.note !== "string" ||
-          (l.unit !== undefined && (typeof l.unit !== "string" || !/^(n[1-5]|keigo)-u\d+$/.test(l.unit))) ||
+          (l.unit !== undefined &&
+            (typeof l.unit !== "string" ||
+              !/^(n[1-5]|keigo)-u\d+$/.test(l.unit))) ||
           !Number.isFinite(l.start) ||
           !Number.isFinite(l.end),
       ))

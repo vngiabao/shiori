@@ -212,6 +212,10 @@ export type Profile = {
   spokenReactions?: boolean;
   wordAudio?: boolean;
   voicePreview?: string;
+  /** The daily post, kept on this device: reminder time "HH:MM" and the
+   *  weekly goal in days (3–7). Not part of cloud sync. */
+  postTime?: string;
+  weekGoal?: number;
 };
 export type Completion = { id: string; at: number; canDo: string };
 export type MediaAttempt = {

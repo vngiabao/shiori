@@ -60,7 +60,7 @@ a {
 }
 .mobile-nav small {
   color: inherit;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1;
 }
 .app-header nav a:hover {
@@ -170,7 +170,7 @@ a {
 }
 .desk-name > span[lang] {
   color: var(--brand-soft);
-  font: 12px/1.5 var(--font-japanese);
+  font: 14px/1.5 var(--font-japanese);
 }
 .desk-portrait {
   position: relative;
@@ -272,7 +272,7 @@ a {
   overflow-wrap: anywhere;
 }
 .lesson-letter-art p {
-  font-size: 13px;
+  font-size: 14px;
   color: var(--ink-2);
 }
 .stamp-outline {
@@ -294,12 +294,12 @@ a {
 }
 .lead-lesson-copy .lead-footnote {
   margin-top: 14px;
-  font-size: 13px;
+  font-size: 14px;
 }
 .lesson-meta {
   color: var(--accent);
   font-weight: 600;
-  font-size: 13px;
+  font-size: 14px;
 }
 .postal-desk-strip {
   grid-area: post;
@@ -322,7 +322,7 @@ a {
 .desk-level small {
   display: block;
   color: var(--ink-2);
-  font-size: 13px;
+  font-size: 14px;
 }
 .level-seal {
   flex-shrink: 0;
@@ -549,7 +549,7 @@ a {
 .welcome-bubble .text-button {
   justify-content: center;
   margin: 0 auto;
-  font-size: 13px;
+  font-size: 14px;
 }
 .welcome-entry-layout .welcome-form {
   padding: 0;
@@ -567,7 +567,7 @@ a {
   justify-content: center;
 }
 .sync-entry .muted {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.6;
   margin: 10px 0 0;
 }
@@ -576,7 +576,7 @@ a {
   align-items: center;
   gap: 14px;
   color: var(--ink-3);
-  font-size: 12px;
+  font-size: 14px;
   margin: 24px 0;
 }
 .welcome-divider::before,
@@ -754,11 +754,11 @@ a {
     line-height: 1.6;
   }
   .violetto-desk .reaction-meaning {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 5px;
   }
   .violetto-desk .text-button {
-    font-size: 13px;
+    font-size: 14px;
     margin: 6px 0 0;
     padding: 4px 8px;
     min-height: 36px;
@@ -766,7 +766,7 @@ a {
   .desk-voice-link {
     grid-area: link;
     margin-top: 5px;
-    font-size: 13px;
+    font-size: 14px;
   }
   .lead-lesson {
     grid-template-columns: minmax(0, 1fr);
@@ -791,7 +791,7 @@ a {
     font-size: 14px;
   }
   .postal-desk-strip a {
-    font-size: 13px;
+    font-size: 14px;
   }
   .today-columns {
     grid-template-columns: minmax(0, 1fr);
